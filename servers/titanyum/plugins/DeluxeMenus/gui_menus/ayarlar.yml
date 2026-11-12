@@ -1,0 +1,61 @@
+menu_title: '&8Ayarlar'
+open_command:
+- ayarlar
+size: 27
+items:
+  'mesaj':
+    material: paper
+    slot: 12
+    hide_effects: true
+    display_name: '&eÖzel Mesaj'
+    lore:
+    - '&8'
+    - '&7Özel mesaj istekleri'
+    - '&7Açar/Kapatır'
+    - '&8'
+    - '&eDeğiştirmek için tıkla'
+    left_click_commands:
+    - '[player] msgtoggle'
+    - '[close]'
+    right_click_commands:
+    - '[player] msgtoggle'
+    - '[close]'
+  'tpa':
+    material: paper
+    slot: 13
+    hide_effects: true
+    display_name: '&eIşınlanma İstekleri'
+    lore:
+    - '&8'
+    - '&7Işınlanma istekleri'
+    - '&7Açar/Kapatır'
+    - '&8'
+    - '&eDeğiştirmek için tıkla'
+    left_click_commands:
+    - '[player] tptoggle'
+    - '[close]'
+    right_click_commands:
+    - '[player] tptoggle'
+    - '[close]'
+  'ticaret':
+    material: paper
+    slot: 14
+    hide_effects: true
+    display_name: '&eTicaret İstekleri'
+    lore:
+    - '&8'
+    - '&7Ticaret istekleri'
+    - '&7Açar/Kapatır'
+    - '&8'
+    - '&eDeğiştirmek için tıkla'
+    left_click_commands:
+    - '[player] ticaret istek'
+    - '[close]'
+    right_click_commands:
+    - '[player] ticaret istek'
+    - '[close]'
+
+
+#Yardım Almak için sqruat.
+#Bu eklenti paketi byMotto tarafından yapıldı.
+

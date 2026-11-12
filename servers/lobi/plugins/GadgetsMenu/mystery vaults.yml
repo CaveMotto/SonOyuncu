@@ -1,0 +1,8 @@
+Mystery-Vaults:
+  '1':
+    BlockFace: SOUTH
+    Location:
+      world: Lobi
+      x: 68.0
+      y: 118.0
+      z: -15.0

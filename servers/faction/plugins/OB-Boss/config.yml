@@ -1,0 +1,185 @@
+Boss-Dogma-Duyurusu: true
+Yaninda-Mesaj-Gonderme-Random: 5
+Bosslar:
+  §b§nKron Canavar:
+    Gosterim-Adi: §aKron Canavarı
+    Boss-Durum: true
+    Mob-Tipi: SKELETON
+    Can: 1000
+    Duyuru: false
+    Guc: 8
+    Sure: 600
+    Rastgele-Dogma-Uzaklik-Birim: 20
+    Rastgele-Dogma: false
+    Odul-Verim-Sekli: Envanter
+    Oduller:
+      '0':
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND
+        amount: 36
+      '1':
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND
+        amount: 12
+      '2':
+        ==: org.bukkit.inventory.ItemStack
+        type: GOLDEN_APPLE
+        damage: 1
+        amount: 32
+      '3':
+        ==: org.bukkit.inventory.ItemStack
+        type: GOLD_INGOT
+        amount: 64
+      '4':
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_HELMET
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §cBoss Odul
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 4
+            DURABILITY: 4
+      '5':
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §cBoss Odul
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 4
+            DURABILITY: 4
+      '6':
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_LEGGINGS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §cBoss Odul
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 4
+            DURABILITY: 4
+      '7':
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_BOOTS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §cBoss Odul
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 4
+            DURABILITY: 4
+      '8':
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §cBoss Odul
+          enchants:
+            DAMAGE_ALL: 4
+            DURABILITY: 4
+      '9':
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_SPADE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §cBoss Odul
+          enchants:
+            DIG_SPEED: 4
+            DURABILITY: 4
+      '10':
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_PICKAXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §cBoss Odul
+          enchants:
+            DIG_SPEED: 4
+            DURABILITY: 4
+      '11':
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_AXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §cBoss Odul
+          enchants:
+            DIG_SPEED: 4
+            DURABILITY: 4
+    Drop-Sans:
+      '7': 10
+      '6': 15
+      '5': 15
+      '4': 15
+      '3': 40
+      '2': 25
+      '1': 30
+      '0': 5
+      '8': 5
+      '9': 55
+      '10': 25
+      '11': 25
+    Canliyken-Yok-Olup-Yeni-Boss-Dogsun-Mu: false
+    Set:
+      Saldiri:
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §aMVIP§c+ §aKılıç
+          enchants:
+            DAMAGE_ALL: 7
+            DURABILITY: 3
+            FIRE_ASPECT: 2
+      Kafa:
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_HELMET
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §aMVIP§c+ §aKask
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 7
+            DURABILITY: 3
+      Gogus:
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §aMVIP§c+ §aZırh
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 7
+            DURABILITY: 3
+      Pantolon:
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_LEGGINGS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §aMVIP§c+ §aPantolon
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 7
+            DURABILITY: 3
+      Ayak:
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_BOOTS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §aMVIP§c+ §aBot
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 7
+            DURABILITY: 3
+    Pot-Efektleri:
+      INCREASE_DAMAGE: 1
+    Vurus-Efektleri:
+      Yardimcilar_Gonder: 1
+    Ozel-Vurus-Efekt-Kullanma-Sansi: 100
+    Kutlama: false
+    Pot-Suresi: 20

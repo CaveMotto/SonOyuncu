@@ -1,0 +1,113 @@
+﻿Crate:
+  CrateType: Wheel
+  CrateName: '&eLapis Kasa'
+  StartingKeys: 0
+  InGUI: true
+  Slot: 14
+  OpeningBroadCast: false
+  BroadCast: ''
+  Item: '54'
+  Name: '&eLapis Kasa'
+  Lore:
+  - ''
+  - '&8► &7Sanal Bir Kutu :D'
+  - ''
+  PhysicalKey:
+    Name: '&8► &dLapis Kutusu '
+    Lore:
+      - ''
+      - '&a/Warp kasa &eAçabilirsiniz.'
+    Item: '131'
+    Glowing: true
+  Prizes:
+    1:
+      DisplayName: '&e5000 ⛃'
+      DisplayItem: '339'
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&7Bir Edit Parasıdır.'
+      - '&7Kazanma Şansın &c%6'
+      - ''
+      - '&aŞans Senin Yerine Gider'
+      DisplayEnchantments:
+        - 'unbreaking:1'
+      MaxRange: 100
+      Chance: 6
+      Firework: true
+      Glowing: false
+      Commands:
+        - 'eco give %player% 5000'
+    2:
+      DisplayName: '&e20000 ⛃'
+      DisplayItem: '339'
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&7Bir Edit Parasıdır.'
+      - '&7Kazanma Şansın &c%2'
+      - ''
+      - '&aŞans Senin Yerine Gider'
+      DisplayEnchantments:
+        - 'unbreaking:1'
+      MaxRange: 100
+      Chance: 2
+      Firework: true
+      Glowing: false
+      Commands:
+        - 'eco give %player% 20000'
+    3:
+      DisplayName: '&eLapis &dx400'
+      DisplayItem: '351:4'
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&7Bir Maden Türüdür.'
+      - '&7Kazanma Şansın &c%7'
+      - ''
+      - '&aŞans Senin Yerine Gider'
+      DisplayEnchantments:
+        - ''
+      MaxRange: 100
+      Chance: 7
+      Firework: true
+      Glowing: false
+      Commands:
+        - 'give %player% lapis 400'
+    4:
+      DisplayName: '&eLapis &dx600'
+      DisplayItem: '351:4'
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&7Bir Maden Türüdür.'
+      - '&7Kazanma Şansın &c%4'
+      - ''
+      - '&aŞans Senin Yerine Gider'
+      DisplayEnchantments:
+        - ''
+      MaxRange: 100
+      Chance: 4
+      Firework: true
+      Glowing: false
+      Commands:
+        - 'give %player% lapis 600'
+    6:
+      DisplayName: '&eZümrüt Blok &dx5'
+      DisplayItem: '133'
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&7Bir Maden Türüdür.'
+      - '&7Kazanma Şansın &c%2'
+      - ''
+      - '&aŞans Senin Yerine Gider'
+      DisplayEnchantments:
+        - ''
+      MaxRange: 100
+      Chance: 2
+      Firework: true
+      Glowing: false
+      Commands:
+        - 'give %Player% 133 5'    
+       

@@ -1,0 +1,34 @@
+﻿Settings:
+    #if GUI is false it shows the balancetop in chat.
+    GUI: true
+    #in minutes
+    AutoUpdate: 5
+    EmptySlots:
+        Complete: true
+        Item: '160:15'
+        Name: ' '
+Messages:
+    #Permission reload: guibalance.admin
+    #Permission normal: guibalance.use
+    ConsoleError: '&cBu komutu sadece oyun içerisinde kullanabilirsin.'
+    PermissionError: '&cBunu kullabilmek için yeterli yetkin yok.'
+    SuccessReload: '&aPlugin yenilendi.'
+    InvName: '&eEn çok parası olan 10 kişi'
+    Skull:
+        Name: ' &7➤ &e{PlayerName} &bAdlı oyuncu:'
+        Lore:
+            - ' '
+            - ' &7➤ &aSıra: &f#{Position}'
+            - ' &7➤ &aPara: &f{Balance}TL'
+            - ' '
+            - ' &7➤ &2Senin Paran: &f{PlayerBalance}TL'
+    ItemError:
+        Name: '&cBilinmeyen.'
+    ChatBaltop:
+        - ' '
+        - ' &b{Position} &7- &e{PlayerName}: &f{Balance}TL'
+        - ' '
+Commands:
+    - '/money top'
+    - '/baltop'
+    - '/zenginler'

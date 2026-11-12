@@ -1,0 +1,35 @@
+tasks:
+  playtime:
+    type: "playtime"
+    minutes: 600
+    ignore-afk: false
+
+display:
+  name: "&eSunucuda Oyna VII"
+  lore-normal:
+    - "&7Sunucuda belirtliten sürede"
+    - "&7Oyun oynayıp aktif kalın"
+    - ""
+    - "&7Süre: &f600 Dakika"
+    - ""
+    - "&7Odül: &f40.000 ⛃"
+  lore-started:
+    - ""
+    - "&7Mevcut ilerlemeniz:"
+    - "&c{playtime:progress}/600 Dakika oyna"
+  type: "BOOK"
+
+rewards:
+  - "eco give {player} 40000"
+
+placeholders:
+  description: "&7Mevcut ilerlemeniz:"
+  progress: "&c{playtime:progress}/600 Dakika oyna"
+
+options:
+  category: "aktif"
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 1440
+  sort-order: 1

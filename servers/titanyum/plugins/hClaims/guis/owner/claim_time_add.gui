@@ -1,0 +1,98 @@
+title: 'Claim Time Add'
+size: 6
+type: 'CHEST'
+
+items:
+  add-1-second:
+    type: 'STAINED_GLASS_PANE'
+    name: 'Add 1 seconds'
+    glow: false
+    amount: 1
+    datavalue: 5
+    lore: [ ]
+    nbt: '{}'
+    slot: 10
+  add-1-minute:
+    type: 'STAINED_GLASS_PANE'
+    name: 'Add 1 minute'
+    glow: false
+    amount: 1
+    datavalue: 5
+    lore: [ ]
+    nbt: '{}'
+    slot: 12
+  add-1-hour:
+    type: 'STAINED_GLASS_PANE'
+    name: 'Add 1 hour'
+    glow: false
+    amount: 1
+    datavalue: 5
+    lore: [ ]
+    nbt: '{}'
+    slot: 14
+  add-1-day:
+    type: 'STAINED_GLASS_PANE'
+    name: 'Add 1 day'
+    glow: false
+    amount: 1
+    datavalue: 5
+    lore: [ ]
+    nbt: '{}'
+    slot: 16
+  remove-1-second:
+    type: 'STAINED_GLASS_PANE'
+    name: 'Remove 1 second'
+    glow: false
+    amount: 1
+    datavalue: 14
+    lore: [ ]
+    nbt: '{}'
+    slot: 28
+  remove-1-minute:
+    type: 'STAINED_GLASS_PANE'
+    name: 'Remove 1 minute'
+    glow: false
+    amount: 1
+    datavalue: 14
+    lore: [ ]
+    nbt: '{}'
+    slot: 30
+  remove-1-hour:
+    type: 'STAINED_GLASS_PANE'
+    name: 'Remove 1 hour'
+    glow: false
+    amount: 1
+    datavalue: 14
+    lore: [ ]
+    nbt: '{}'
+    slot: 32
+  remove-1-day:
+    type: 'STAINED_GLASS_PANE'
+    name: 'Remove 1 day'
+    glow: false
+    amount: 1
+    datavalue: 14
+    lore: [ ]
+    nbt: '{}'
+    slot: 34
+  confirm:
+    type: 'EMERALD'
+    name: 'Confirm'
+    glow: true
+    amount: 1
+    datavalue: 0
+    lore:
+      - 'Total time: %total_time%'
+      - 'Money: %money%'
+    nbt: '{}'
+    slot: 4
+  back:
+    type: 'BARRIER'
+    name: 'Back'
+    glow: false
+    amount: 1
+    datavalue: 0
+    lore: [ ]
+    nbt: '{}'
+    slot: 49
+

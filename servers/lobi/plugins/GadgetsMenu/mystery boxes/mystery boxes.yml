@@ -1,0 +1,609 @@
+Mystery-Boxes:
+  Enabled: true
+  Loots-Can-Be-Found:
+    Hats: true
+    Particles: true
+    Suits: true
+    Gadgets: true
+    Pets: true
+    Banners: true
+    Morphs: true
+    Emotes: true
+    Cloaks: true
+    Animated Hats: false
+    Miniatures: true
+  Rarity:
+    Common: '&aSÄ±radan'
+    Rare: '&9Nadir'
+    Epic: '&5DestansÄ±'
+    Legendary: '&6Efsanevi'
+  Execute-Command:
+    Enabled: false
+    Command: pex user {PLAYER} add {PERMISSION}
+  Found-Loot:
+    Common:
+      Play-Sound:
+        Enabled: true
+        Sound: ENTITY_CHICKEN_EGG
+      Send-Message:
+        Enabled: true
+        Message:
+        - '&8â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹'
+        - '      &eGizemli Kutu'
+        - ''
+        - '  &7Bir EÅŸya Buldunuz'
+        - '  &71x YaygÄ±n {LOOT}'
+        - ''
+        - '&8â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹'
+    Rare:
+      Play-Sound:
+        Enabled: true
+        Sound: ENTITY_VILLAGER_AMBIENT
+      Send-Message:
+        Enabled: true
+        Message:
+        - '&8â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹'
+        - '      &eGizemli Kutu'
+        - ''
+        - '  &7Bir EÅŸya Buldunuz'
+        - '  &71x Nadir {LOOT}'
+        - ''
+        - '&8â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹'
+    Epic:
+      Play-Sound:
+        Enabled: true
+        Sound: ENTITY_PLAYER_LEVELUP
+      Send-Message:
+        Enabled: true
+        Message:
+        - '&8â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹'
+        - '      &eGizemli Kutu'
+        - ''
+        - '  &7Bir EÅŸya Buldunuz'
+        - '  &71x Epik {LOOT}'
+        - ''
+        - '&8â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹'
+    Legendary:
+      Play-Sound:
+        Enabled: true
+        Sound: ENTITY_ENDER_DRAGON_AMBIENT
+      Send-Message:
+        Enabled: true
+        Message:
+        - '&8â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹'
+        - '      &eGizemli Kutu'
+        - ''
+        - '  &7Bir EÅŸya Buldunuz'
+        - '  &71x Efsanevi {LOOT}'
+        - ''
+        - '&8â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹â‰‹'
+      Give-Pet-Items:
+        Enabled: true
+        Min: 35
+        Max: 45
+  Already-Had-Loot:
+    Common:
+      Give-Mystery-Dust:
+        Enabled: false
+        Min: 1
+        Max: 3
+      Send-Message:
+        Enabled: true
+        Message:
+        - '&aLobi &8â–º  &cKazandÄ±ÄŸÄ±n eÅŸya zaten mevcuttur.'
+      Execute-Command:
+        Enabled: true
+        Command: konsol {PLAYER} 10
+    Rare:
+      Give-Mystery-Dust:
+        Enabled: false
+        Min: 4
+        Max: 8
+      Send-Message:
+        Enabled: true
+        Message:
+        - '&aLobi &8â–º  &cKazandÄ±ÄŸÄ±n eÅŸya zaten mevcuttur.'
+      Execute-Command:
+        Enabled: true
+        Command: konsol {PLAYER} 15
+    Epic:
+      Give-Mystery-Dust:
+        Enabled: false
+        Min: 9
+        Max: 25
+      Send-Message:
+        Enabled: true
+        Message:
+        - '&aLobi &8â–º  &cKazandÄ±ÄŸÄ±n eÅŸya zaten mevcuttur.'
+      Execute-Command:
+        Enabled: true
+        Command: konsol {PLAYER} 20
+    Legendary:
+      Give-Mystery-Dust:
+        Enabled: false
+        Min: 26
+        Max: 36
+      Send-Message:
+        Enabled: true
+        Message:
+        - '&aLobi &8â–º  &cKazandÄ±ÄŸÄ±n eÅŸya zaten mevcuttur.'
+      Execute-Command:
+        Enabled: true
+        Command: konsol {PLAYER} 30
+  Holograms:
+    Found-Loot:
+      Common: '&aSÄ±radan &f- &e{LOOT}'
+      Rare: '&9Nadir &f- &e{LOOT}'
+      Epic: '&5DestansÄ± &f- &e{LOOT}'
+      Legendary: '&6Efsanevi &f- &e{LOOT}'
+    Mystery-Vault:
+      Line-1: '&dGizemli Kutu'
+      Line-2: '&eAÃ§mak iÃ§in tÄ±klayÄ±n.'
+    Individual-Holograms:
+      Available-Mystery-Boxes:
+      - '&b{MYSTERY_BOXES} &eadet Gizemli Kutu var.'
+      Zero-Mystery-Box-Available: '&cAlÄ±nacak sandÄ±ÄŸÄ±n yok'
+      Enabled: true
+    Available-Mystery-Boxes:
+    - '&b{MYSTERY_BOXES} &eadet Gizemli Kutu var.'
+    Zero-Mystery-Box-Available: '&cAlÄ±nacak sandÄ±ÄŸÄ±n yok'
+    Hologram-Height: 0.26
+  Broadcast:
+    Opening-Mystery-Box:
+      Enabled: true
+      Message: '&aLobi &7â–º &b{PLAYER} &eadlÄ± oyuncu Gizemli Kutu aÃ§Ä±yor.'
+    Found-Loot:
+      Common:
+        Enabled: true
+        Message: '&aLobi &7â–º &b{PLAYER} &eadlÄ± oyuncu Gizemli Kututa &aSÄ±radan
+          {LOOT}&e eÅŸyasÄ±nÄ± buldu.'
+      Rare:
+        Enabled: true
+        Message: '&aLobi &7â–º &b{PLAYER} &eadlÄ± oyuncu Gizemli Kututa &9Nadir {LOOT}&e
+          eÅŸyasÄ±nÄ± buldu.'
+      Epic:
+        Enabled: true
+        Message: '&aLobi &7â–º &b{PLAYER} &eadlÄ± oyuncu Gizemli Kututa &5DestansÄ±
+          {LOOT}&e eÅŸyasÄ±nÄ± buldu.'
+      Legendary:
+        Enabled: true
+        Message: '&aLobi &7â–º &b{PLAYER} &eadlÄ± oyuncu Gizemli Kututa &6Efsanevi
+          {LOOT}&e eÅŸyasÄ±nÄ± buldu.'
+    Found-Mystery-Box:
+      One-Star:
+        Enabled: true
+        Message: '&aLobi &7â–º &b{PLAYER} &eadlÄ± oyuncu &aâˆ�&7âˆ�âˆ�âˆ�âˆ� &eKalteli
+          Gizemli Kutu kazandÄ±.'
+      Two-Star:
+        Enabled: true
+        Message: '&aLobi &7â–º &b{PLAYER} &eadlÄ± oyuncu &aâˆ�âˆ�&7âˆ�âˆ�âˆ� &eKalteli
+          Gizemli Kutu kazandÄ±.'
+      Three-Star:
+        Enabled: true
+        Message: '&aLobi &7â–º &b{PLAYER} &eadlÄ± oyuncu &aâˆ�âˆ�âˆ�&7âˆ�âˆ� &eKalteli
+          Gizemli Kutu kazandÄ±.'
+      Four-Star:
+        Enabled: true
+        Message: '&aLobi &7â–º &b{PLAYER} &eadlÄ± oyuncu &aâˆ�âˆ�âˆ�âˆ�&7âˆ� &eKalteli
+          Gizemli Kutu kazandÄ±.'
+      Five-Star:
+        Enabled: true
+        Message: '&aLobi &7â–º &b{PLAYER} &eadlÄ± oyuncu &aâˆ�âˆ�âˆ�âˆ�âˆ� &eKalteli
+          Gizemli Kutu kazandÄ±.'
+  Mystery-Boxes-Reward:
+    Enabled: true
+    Chance-To-Get-Mystery-Box: 60
+    Chance:
+      One-Star: 5
+      Two-Star: 10
+      Three-Star: 60
+      Four-Star: 20
+      Five-Star: 5
+    Play-Time:
+      Hours: 0
+      Minutes: 60
+      Seconds: 0
+    Message:
+      One-Star: false
+      Two-Star: false
+      Three-Star: false
+      Four-Star: false
+      Five-Star: false
+    Allow-AFK: false
+    Expiry-Date-In-Days: 7
+    Enabled-Worlds:
+    - '*'
+  Types:
+    Normal-Mystery-Box:
+      Name: '&b Gizemli Kutu'
+      Material: head:ddcc189633c789cb6d5e78d13a5043b26e7b40cdb7cfc4e23aa2279574967b4
+      Lore:
+        Expiry-Date: ' &8â–ª &7{EXPIRY_DATE}'
+        Never-Expired: '&7 Bu sandÄ±ÄŸÄ±n son kullanma tarihi yoktur.'
+        Quality:
+          One-Star:
+          - ''
+          - '&7 Ã‡Ä±kabilecekler:'
+          - ''
+          - ' &8â–ª &7SÄ±radan: &a{ITEM_ONE}'
+          - ' &8â–ª &7SÄ±radan: &a{ITEM_TWO}'
+          - ' &8â–ª &7SÄ±radan: &a{ITEM_THREE}'
+          - ' &8â–ª &7SÄ±radan: &a{ITEM_FOUR}'
+          - ' &8â–ª &7Nadir: &a{ITEM_FIVE}'
+          - ' &8â–ª &7DestansÄ±: &a{ITEM_SIX}'
+          - ' &8â–ª &7Efsanevi: &7{ITEM_SEVEN}'
+          - ''
+          - ' &8â–ª &7DeÄŸeri: &aâˆ�&7âˆ�âˆ�âˆ�âˆ�'
+          - ''
+          - '&a AÃ§mak iÃ§in tÄ±klayÄ±n.'
+          Two-Star:
+          - ''
+          - '&7 Ã‡Ä±kabilecekler:'
+          - ''
+          - ' &8â–ª &7SÄ±radan: &a{ITEM_ONE}'
+          - ' &8â–ª &7SÄ±radan: &a{ITEM_TWO}'
+          - ' &8â–ª &7SÄ±radan: &a{ITEM_THREE}'
+          - ' &8â–ª &7Nadir: &a{ITEM_FOUR}'
+          - ' &8â–ª &7Nadir: &a{ITEM_FIVE}'
+          - ' &8â–ª &7DestansÄ±: &a{ITEM_SIX}'
+          - ' &8â–ª &7Efsanevi: &a{ITEM_SEVEN}'
+          - ''
+          - ' &8â–ª &7DeÄŸeri: &aâˆ�âˆ�&7âˆ�âˆ�âˆ�'
+          - ''
+          - '&a AÃ§mak iÃ§in tÄ±klayÄ±n.'
+          Three-Star:
+          - ''
+          - '&7 Ã‡Ä±kabilecekler:'
+          - ''
+          - ' &8â–ª &7SÄ±radan: &a{ITEM_ONE}'
+          - ' &8â–ª &7SÄ±radan: &a{ITEM_TWO}'
+          - ' &8â–ª &7Nadir: &a{ITEM_THREE}'
+          - ' &8â–ª &7Nadir: &a{ITEM_FOUR}'
+          - ' &8â–ª &7DestansÄ±: &a{ITEM_FIVE}'
+          - ' &8â–ª &7DestansÄ±: &a{ITEM_SIX}'
+          - ' &8â–ª &7Efsanevi: &a{ITEM_SEVEN}'
+          - ''
+          - ' &8â–ª &7DeÄŸeri: &aâˆ�âˆ�âˆ�&7âˆ�âˆ�'
+          - ''
+          - '&a AÃ§mak iÃ§in tÄ±klayÄ±n.'
+          Four-Star:
+          - ''
+          - '&7 Ã‡Ä±kabilecekler:'
+          - ''
+          - ' &8â–ª &7SÄ±radan: &a{ITEM_ONE}'
+          - ' &8â–ª &7Nadir: &a{ITEM_TWO}'
+          - ' &8â–ª &7DestansÄ±: &a{ITEM_THREE}'
+          - ' &8â–ª &7DestansÄ±: &a{ITEM_FOUR}'
+          - ' &8â–ª &7Efsanevi: &a{ITEM_FIVE}'
+          - ' &8â–ª &7Efsanevi: &a{ITEM_SIX}'
+          - ' &8â–ª &7Efsanevi: &a{ITEM_SEVEN}'
+          - ''
+          - ' &8â–ª &7DeÄŸeri: &aâˆ�âˆ�âˆ�âˆ�&7âˆ�'
+          - ''
+          - '&a AÃ§mak iÃ§in tÄ±klayÄ±n.'
+          Five-Star:
+          - ''
+          - '&7 Ã‡Ä±kabilecekler:'
+          - ''
+          - ' &8â–ª &7Nadir: &a{ITEM_ONE}'
+          - ' &8â–ª &7DestansÄ±: &a{ITEM_TWO}'
+          - ' &8â–ª &7DestansÄ±: &a{ITEM_THREE}'
+          - ' &8â–ª &7Efsanevi: &a{ITEM_FOUR}'
+          - ' &8â–ª &7Efsanevi: &a{ITEM_FIVE}'
+          - ' &8â–ª &7Efsanevi: &a{ITEM_SIX}'
+          - ' &8â–ª &7Efsanevi: &a{ITEM_SEVEN}'
+          - ''
+          - ' &8â–ª &7DeÄŸeri: &aâˆ�âˆ�âˆ�âˆ�âˆ�'
+          - ''
+          - '&a AÃ§mak iÃ§in tÄ±klayÄ±n.'
+    Gifted-Mystery-Box:
+      Name: '&n Hediye Gizemli Kutular'
+      Material: head:ddcc189633c789cb6d5e78d13a5043b26e7b40cdb7cfc4e23aa2279574967b4
+      Lore:
+        One-Star:
+        - ''
+        - '&7 Ä°Ã§erisindekiler:'
+        - ''
+        - ' &8â–ª &7SÄ±radan: &a{ITEM_ONE}'
+        - ' &8â–ª &7SÄ±radan: &a{ITEM_TWO}'
+        - ' &8â–ª &7SÄ±radan: &a{ITEM_THREE}'
+        - ' &8â–ª &7SÄ±radan: &a{ITEM_FOUR}'
+        - ' &8â–ª &7Nadir: &a{ITEM_FIVE}'
+        - ' &8â–ª &7DestansÄ±: &a{ITEM_SIX}'''
+        - ' &8â–ª &7Efsanevi: &a{ITEM_SEVEN}'
+        - ''
+        - ' &8â–ª &7DeÄŸeri: &aâˆ�&7âˆ�âˆ�âˆ�âˆ�'
+        - ''
+        - ' &8â–ª &7GÃ¶nderen: &a{SENDER}'
+        - ''
+        - '&a AÃ§mak iÃ§in tÄ±klayÄ±n.'
+        Two-Star:
+        - ''
+        - '&7 Ä°Ã§erisindekiler:'
+        - ''
+        - ' &8â–ª &7SÄ±radan: &a{ITEM_ONE}'
+        - ' &8â–ª &7SÄ±radan: &a{ITEM_TWO}'
+        - ' &8â–ª &7SÄ±radan: &a{ITEM_THREE}'
+        - ' &8â–ª &7Nadir: &a{ITEM_FOUR}'
+        - ' &8â–ª &7Nadir: &a{ITEM_FIVE}'
+        - ' &8â–ª &7DestansÄ±: &a{ITEM_SIX}'
+        - ' &8â–ª &7Efsanevi: &a{ITEM_SEVEN}'
+        - ''
+        - ' &8â–ª &7DeÄŸeri: &aâˆ�âˆ�&7âˆ�âˆ�âˆ�'
+        - ''
+        - ' &8â–ª &7GÃ¶nderen: &a{SENDER}'
+        - ''
+        - '&a AÃ§mak iÃ§in tÄ±klayÄ±n.'
+        Three-Star:
+        - ''
+        - '&7 Ä°Ã§erisindekiler:'
+        - ''
+        - ' &8â–ª &7SÄ±radan: &a{ITEM_ONE}'
+        - ' &8â–ª &7SÄ±radan: &a{ITEM_TWO}'
+        - ' &8â–ª &7Nadir: &a{ITEM_THREE}'
+        - ' &8â–ª &7Nadir: &a{ITEM_FOUR}'
+        - ' &8â–ª &7DestansÄ±: &a{ITEM_FIVE}'
+        - ' &8â–ª &7DestansÄ±: &a{ITEM_SIX}'
+        - ' &8â–ª &7Efsanevi: &a{ITEM_SEVEN}'
+        - ''
+        - ' &8â–ª &7DeÄŸeri: &aâˆ�âˆ�âˆ�&7âˆ�âˆ�'
+        - ''
+        - ' &8â–ª &7GÃ¶nderen: &a{SENDER}'
+        - ''
+        - '&a AÃ§mak iÃ§in tÄ±klayÄ±n.'
+        Four-Star:
+        - ''
+        - '&7 Ä°Ã§erisindekiler:'
+        - ''
+        - ' &8â–ª &7SÄ±radan: &a{ITEM_ONE}'
+        - ' &8â–ª &7Nadir: &a{ITEM_TWO}'
+        - ' &8â–ª &7DestansÄ±: &a{ITEM_THREE}'
+        - ' &8â–ª &7DestansÄ±: &a{ITEM_FOUR}'
+        - ' &8â–ª &7Efsanevi: &a{ITEM_FIVE}'
+        - ' &8â–ª &7Efsanevi: &a{ITEM_SIX}'
+        - ' &8â–ª &7Efsanevi: &a{ITEM_SEVEN}'
+        - ''
+        - ' &8â–ª &7DeÄŸeri: &aâˆ�âˆ�âˆ�âˆ�&7âˆ�'
+        - ''
+        - ' &8â–ª &7GÃ¶nderen: &a{SENDER}'
+        - ''
+        - '&a AÃ§mak iÃ§in tÄ±klayÄ±n.'
+        Five-Star:
+        - ''
+        - '&7 Ä°Ã§erisindekiler:'
+        - ''
+        - ' &8â–ª &7Nadir: &a{ITEM_ONE}'
+        - ' &8â–ª &7DestansÄ±: &a{ITEM_TWO}'
+        - ' &8â–ª &7DestansÄ±: &a{ITEM_THREE}'
+        - ' &8â–ª &7Efsanevi: &a{ITEM_FOUR}'
+        - ' &8â–ª &7Efsanevi: &a{ITEM_FIVE}'
+        - ' &8â–ª &7Efsanevi: &a{ITEM_SIX}'
+        - ' &8â–ª &7Efsanevi: &a{ITEM_SEVEN}'
+        - ''
+        - ' &8â–ª &7DeÄŸeri: &aâˆ�âˆ�âˆ�âˆ�âˆ�'
+        - ''
+        - ' &8â–ª &7GÃ¶nderen: &a{SENDER}'
+        - ''
+        - '&a AÃ§mak iÃ§in tÄ±klayÄ±n.'
+    Crafted-Mystery-Box:
+      One-Star:
+        Name: '&b Gizemli Kutu #1'
+        Material: head:ddcc189633c789cb6d5e78d13a5043b26e7b40cdb7cfc4e23aa2279574967b4
+        Lore:
+        - ''
+        - '&7 Ä°Ã§erisindekiler:'
+        - ''
+        - ' &8â–ª &7SÄ±radan: &a{ITEM_ONE}'
+        - ' &8â–ª &7SÄ±radan: &a{ITEM_TWO}'
+        - ' &8â–ª &7SÄ±radan: &a{ITEM_THREE}'
+        - ' &8â–ª &7SÄ±radan: &a{ITEM_FOUR}'
+        - ' &8â–ª &7Nadir: &a{ITEM_FIVE}'
+        - ' &8â–ª &7DestansÄ±: &a{ITEM_SIX}'
+        - ' &8â–ª &7Efsanevi: &a{ITEM_SEVEN}'
+        - ''
+        - ' &8â–ª &7DeÄŸeri: &aâˆ�&7âˆ�âˆ�âˆ�âˆ�'
+        - ' &8â–ª &7Tarih: &a{DATE}'
+        - ''
+        - '&a AÃ§mak iÃ§in tÄ±klayÄ±n.'
+      Two-Star:
+        Name: '&b Gizemli Kutu #2'
+        Material: head:ddcc189633c789cb6d5e78d13a5043b26e7b40cdb7cfc4e23aa2279574967b4
+        Lore:
+        - ''
+        - '&7 Ä°Ã§erisindekiler:'
+        - ''
+        - ' &8â–ª &7SÄ±radan: &a{ITEM_ONE}'
+        - ' &8â–ª &7SÄ±radan: &a{ITEM_TWO}'
+        - ' &8â–ª &7SÄ±radan: &a{ITEM_THREE}'
+        - ' &8â–ª &7Nadir: &a{ITEM_FOUR}'
+        - ' &8â–ª &7Nadir: &a{ITEM_FIVE}'
+        - ' &8â–ª &7DestansÄ±: &a{ITEM_SIX}'
+        - ' &8â–ª &7Efsanevi: &a{ITEM_SEVEN}'
+        - ''
+        - ' &8â–ª &7DeÄŸeri: &aâˆ�âˆ�&7âˆ�âˆ�âˆ�'
+        - ' &8â–ª &7Tarih: &a{DATE}'
+        - ''
+        - '&a AÃ§mak iÃ§in tÄ±klayÄ±n.'
+      Three-Star:
+        Name: '&b Gizemli Kutu #3'
+        Material: head:ddcc189633c789cb6d5e78d13a5043b26e7b40cdb7cfc4e23aa2279574967b4
+        Lore:
+        - ''
+        - '&7 Ä°Ã§erisindekiler:'
+        - ''
+        - ' &8â–ª &7SÄ±radan: &a{ITEM_ONE}'
+        - ' &8â–ª &7SÄ±radan: &a{ITEM_TWO}'
+        - ' &8â–ª &7Nadir: &a{ITEM_THREE}'
+        - ' &8â–ª &7Nadir: &a{ITEM_FOUR}'
+        - ' &8â–ª &7DestansÄ±: &a{ITEM_FIVE}'
+        - ' &8â–ª &7DestansÄ±: &a{ITEM_SIX}'
+        - ' &8â–ª &7Efsanevi: &a{ITEM_SEVEN}'
+        - ''
+        - ' &8â–ª &7DeÄŸeri: &aâˆ�âˆ�âˆ�&7âˆ�âˆ�'
+        - ' &8â–ª &7Tarih: &a{DATE}'
+        - ''
+        - '&a AÃ§mak iÃ§in tÄ±klayÄ±n.'
+      Four-Star:
+        Name: '&b Gizemli Kutu #4'
+        Material: head:ddcc189633c789cb6d5e78d13a5043b26e7b40cdb7cfc4e23aa2279574967b4
+        Lore:
+        - ''
+        - '&7 Ä°Ã§erisindekiler:'
+        - ''
+        - ' &8â–ª &7SÄ±radan: &a{ITEM_ONE}'
+        - ' &8â–ª &7Nadir: &a{ITEM_TWO}'
+        - ' &8â–ª &7DestansÄ±: &a{ITEM_THREE}'
+        - ' &8â–ª &7DestansÄ±: &a{ITEM_FOUR}'
+        - ' &8â–ª &7Efsanevi: &a{ITEM_FIVE}'
+        - ' &8â–ª &7Efsanevi: &a{ITEM_SIX}'
+        - ' &8â–ª &7Efsanevi: &a{ITEM_SEVEN}'
+        - ''
+        - ' &8â–ª &7DeÄŸeri: &aâˆ�âˆ�âˆ�âˆ�&7âˆ�'
+        - ' &8â–ª &7Tarih: &a{DATE}'
+        - ''
+        - '&a AÃ§mak iÃ§in tÄ±klayÄ±n.'
+      Five-Star:
+        Name: '&b Gizemli Kutu #5'
+        Material: head:ddcc189633c789cb6d5e78d13a5043b26e7b40cdb7cfc4e23aa2279574967b4
+        Lore:
+        - ''
+        - '&7 Ä°Ã§erisindekiler:'
+        - ''
+        - ' &8â–ª &7Nadir: &a{ITEM_ONE}'
+        - ' &8â–ª &7DestansÄ±: &a{ITEM_TWO}'
+        - ' &8â–ª &7DestansÄ±: &a{ITEM_THREE}'
+        - ' &8â–ª &7Efsanevi: &a{ITEM_FOUR}'
+        - ' &8â–ª &7Efsanevi: &a{ITEM_FIVE}'
+        - ' &8â–ª &7Efsanevi: &a{ITEM_SIX}'
+        - ' &8â–ª &7Efsanevi: &a{ITEM_SEVEN}'
+        - ''
+        - ' &8â–ª &7DeÄŸeri: &aâˆ�âˆ�âˆ�âˆ�âˆ�'
+        - ' &8â–ª &7Tarih: &a{DATE}'
+        - ''
+        - '&a AÃ§mak iÃ§in tÄ±klayÄ±n.'
+  JSON-Messages:
+    Found-Mystery-Box:
+      One-Star:
+        Message:
+        - '&bMystery Box'
+        Name: '&bMystery Box'
+        Lore:
+        - '&7Rarity: &eâœ°&7âœ°âœ°âœ°âœ°'
+        - '&7You can find &bMystery Box &7by'
+        - '&7playing on the server.'
+      Two-Star:
+        Message:
+        - '&bMystery Box'
+        - ' &8â–ª &7DeÄŸeri: &6âœ°âœ°&7âœ°âœ°âœ°'
+        - '&7You can find &bMystery Box &7by'
+        - '&7playing on the server.'
+        Name: '&bMystery Box'
+        Lore:
+        - '&7Rarity: &eâœ°âœ°&7âœ°âœ°âœ°'
+        - '&7You can find &bMystery Box &7by'
+        - '&7playing on the server.'
+      Three-Star:
+        Message:
+        - '&bMystery Box'
+        - ' &8â–ª &7DeÄŸeri: &6âœ°âœ°âœ°&7âœ°âœ°'
+        - '&7You can find &bMystery Box &7by'
+        - '&7playing on the server.'
+        Name: '&bMystery Box'
+        Lore:
+        - '&7Rarity: &eâœ°âœ°âœ°&7âœ°âœ°'
+        - '&7You can find &bMystery Box &7by'
+        - '&7playing on the server.'
+      Four-Star:
+        Message:
+        - '&bMystery Box'
+        - ' &8â–ª &7DeÄŸeri: &6âœ°âœ°âœ°âœ°&7âœ°'
+        - '&7You can find &bMystery Box &7by'
+        - '&7playing on the server.'
+        Name: '&bMystery Box'
+        Lore:
+        - '&7Rarity: &eâœ°âœ°âœ°âœ°&7âœ°'
+        - '&7You can find &bMystery Box &7by'
+        - '&7playing on the server.'
+      Five-Star:
+        Message:
+        - '&bMystery Box'
+        - ' &8â–ª &7DeÄŸeri: &aâˆ�âˆ�âˆ�âˆ�âˆ�'
+        - '&7You can find &bMystery Box &7by'
+        - '&7playing on the server.'
+        Name: '&bMystery Box'
+        Lore:
+        - '&7Rarity: &eâœ°âœ°âœ°âœ°âœ°'
+        - '&7You can find &bMystery Box &7by'
+        - '&7playing on the server.'
+    Found-Loot:
+      Common:
+        Message:
+        - ' &8â–ª &7SÄ±radan: &a{LOOT}'
+        - '&7MenÃ¼: {CATEGORY}'
+        - '&7DeÄŸer: &aCommon'
+        Name: '&aCommon {LOOT}'
+        Lore:
+        - '&7Type: {CATEGORY}'
+        - '&7Rarity: &aCommon'
+      Rare:
+        Message:
+        - ' &8â–ª &7Nadir: &a{LOOT}'
+        - '&7MenÃ¼: {CATEGORY}'
+        - '&7DeÄŸer: &9Rare'
+        Name: '&9Rare {LOOT}'
+        Lore:
+        - '&7Type: {CATEGORY}'
+        - '&7Rarity: &9Rare'
+      Epic:
+        Message:
+        - ' &8â–ª &7DestansÄ±: &a{LOOT}'
+        - '&7MenÃ¼: {CATEGORY}'
+        - '&7DeÄŸer: &5Epic'
+        Name: '&5Epic {LOOT}'
+        Lore:
+        - '&7Type: {CATEGORY}'
+        - '&7Rarity: &5Epic'
+      Legendary:
+        Message:
+        - ' &8â–ª &7Efsanevi: &a{LOOT}'
+        - '&7MenÃ¼: {CATEGORY}'
+        - '&7DeÄŸer: &6Legendary'
+        Name: '&6Legendary {LOOT}'
+        Lore:
+        - '&7Type: {CATEGORY}'
+        - '&7Rarity: &6Legendary'
+    Mystery-Dust:
+      Message:
+      - '&bMystery Dust'
+      - '&7Can be used to craft &bMystery Box'
+      - '&7and unlock cosmetic items.'
+    Pet-Items:
+      Message:
+      - '&7View your &aPet Items &7by'
+      - '&bright-clicking &7one of your'
+      - '&7pets in the &bPets Menu.'
+  Chances:
+    One-Star:
+      Common: 70
+      Rare: 15
+      Epic: 10
+      Legendary: 5
+    Two-Star:
+      Common: 70
+      Rare: 18
+      Epic: 12
+      Legendary: 6
+    Three-Star:
+      Common: 58
+      Rare: 20
+      Epic: 15
+      Legendary: 7
+    Four-Star:
+      Common: 52
+      Rare: 22
+      Epic: 18
+      Legendary: 8
+    Five-Star:
+      Rare: 40
+      Epic: 50
+      Legendary: 10

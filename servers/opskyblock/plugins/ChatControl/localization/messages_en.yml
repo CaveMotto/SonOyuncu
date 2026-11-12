@@ -1,0 +1,63 @@
+# !---------------------------------------------------------!
+# ! File automatically updated at 11.01.2024 05:00:33
+# ! to plugin version v5.9.1
+# !---------------------------------------------------------!
+# ! Unfortunatelly due to how Bukkit handles YAML
+# ! configurations, all comments (#) were wiped. 
+# ! For reference values and comments visit
+# ! https://github.com/kangarko/chatcontrol
+# !---------------------------------------------------------!
+
+Cannot:
+  Broadcast_Empty_Message: '&Dd{event} &eile ilgili mesaj boş. Yayın yok.'
+  Chat_While_Muted: '{prefix}&eSohbet sessize alındığında sohbet edemezsiniz!'
+  Command_While_Muted: '{prefix}&eSohbetin sesi kapalıyken bu komutu kullanamazsınız!'
+  Chat_Until_Moved: '{prefix}&eHareket edene kadar sohbet edemezsin!'
+Anti_Bot:
+  Rejoin_Message: '{prefix}\n\n&6Please wait &7{time} {seconds}&6 before logging in
+    again.'
+Anti_Spam:
+  Similar_Message: '&6Skyblock &8► &eAynı kelimeyi tekrardan yazamazsın'
+  Similar_Command: '&6Skyblock &8► &eAynı komut tekrardan yazamazsın'
+  Too_Much_Caps: '&6Skyblock &8► &eÇok büyük harf kullanıyorsun!'
+  Command_Wait_Message: '&6Skyblock &8► &d{time} &esaniyede komut girebilirsin.'
+  Chat_Wait_Message: '&6Skyblock &8► &d{time} &esaniyede sohbete yazabilirsin.'
+Chat_Mute:
+  Mute: '{prefix}&eSohbet başarıyla sessize alındı.'
+  Unmute: '{prefix}&eSohbet artık sessize alınmıyor.'
+  Mute_Broadcast: '{server} &d{player} &esohbeti sessize aldı.'
+  Unmute_Broadcast: '{server} &d{player} &esohbetin sesini açtı.'
+  Anonymous_Mute_Broadcast: '{server} &eSohbetin sessize alınması başlatıldı.'
+  Anonymous_Unmute_Broadcast: '{server} &eSohbetin sohbetin sessize alınması iptal edildi.'
+Chat_Clear:
+  Broadcast: '{server} &d{player} &esohbeti temizledi.'
+  Anonymous_Broadcast: '{server} &eOyun sohbeti temizlendi.'
+  Console_Player_Message: '{prefix} &eKonsol başarıyla temizlendi.'
+  Console_Message: '&eKonsol {player} tarafından temizlendi'
+  Chat_Staff_Message: '&7^----- [ == &fSohbet {player} tarafından temizlendi &7== ] -----^'
+Signs:
+  Duplicate_Text: '{server} Aynı metinle birden fazla işaret yapamazsınız!'
+  Duplicate_Text_Staff: '&d{player} aynı metinle işaretler oluşturuldu: {message}'
+  Broke_When_Violated_A_Rule: Tabelanız kırıldı, bir sorun olmalı!
+Usage:
+  Fake_Command: '{prefix} Usage: /chatcontrol fake <&bjoin&f/&aleave&f/&ekick&f>'
+Update_Available: '&2A new version of &3ChatControl&2 is available.\n&2Current version:
+  &f{current}&2; New version: &f{new}\n&2You can disable this notification in the
+  config.'
+No_Permission: '&cInsufficient permission ({permission}).'
+Reload_Complete: '{prefix} &2Configuration reloaded successfuly.'
+Reload_Failed: '{prefix} &cReloading configuration failed, check console. The error
+  was: &4{error}'
+Wrong_Parameters: '&cWrong parameters or missing permission.'
+Wrong_Arguments: '&cWrong arguments. Type &6/chc list&c for command list.'
+General:
+  Player_Join: player join
+  Player_Quit: player quit
+  Player_Kick: player kick
+  Prefix: '&6Skyblock &8►'
+  Server_Prefix: '&6Skyblock &8► '
+  Console: '&cserver'
+  Reason: '&7Sebep: &f{reason}'
+  Sign: SIGN
+  Command: COMMAND
+  Seconds: second, seconds

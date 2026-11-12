@@ -1,0 +1,66 @@
+No-Permission:
+  Command: '&7[&aIB&7] &cNu ai permisiunea sa folosesti aceasta comanda.'
+  GUI: '&7[&aIB&7] &cNu ai permisiunea sa accesezi acest meniu.'
+  Color: '&7[&aIB&7] &cNu ai pemrisiunea sa schimbi culoarea border-ului in [color]&c.'
+Command:
+  Available-On-Island: '&7[&aIB&7] &cAceasta comanda poate fi folosita cat timp esti
+    pe insula.'
+  Usage:
+    Wrong: '&7[&aIB&7] &cComanda a fost folosita incorect.'
+    Example: '&eâ¦� &f[command]'
+    Click: '&eâ¦� &f[name] &c&l[Click Aici]'
+    Color: /isborder color <&cRed&f, &aGreen&f, &9Blue&f>
+  Click-To:
+    Suggest: '&eClick pentru a sugera aceasta comanda.'
+    Run: '&eClick pentru a rula aceasta comanda.'
+Language:
+  Display: Romana
+  Available: '&7Limbi disponibile:'
+  Not-Found: '&7[&aIB&7] &cLimba aleasa nu exista! Limbi disponibile:'
+  List-Format: '&eâ¦� &7[&e[languageAbbreviation]&7] &8| &f[languageName]'
+  Changed: '&7[&aIB&7] &fLimba a fost schimbata in &e[languageName] &f[&b[languageAbbreviation]&f]!'
+Border:
+  Cooldown: '&7[&aIB&7] &fCooldown-ul border-ului expira in &e[seconds] [secondsFormatted]&f.'
+  Toggled:
+    'On': '&7[&aIB&7] &fBorder-ul este acum vizibil cu culoarea [color]&f.'
+    'Off': '&7[&aIB&7] &fBorder-ul este acum invizibil.'
+  Already-Toggled:
+    'On': '&7[&aIB&7] &fBorder-ul tau este deja activat.'
+    'Off': '&7[&aIB&7] &fBorder-ul tau este deja dezactivat.'
+  GUI:
+    Title: '&fSetari Border'
+Color:
+  Changed: '&7[&aIB&7] &fCuloarea border-ului a fost schimbata in [color]&f.'
+  Already-Showing: '&7[&aIB&7] &fBorder-ul afiseaza deja aceasta culoare.'
+  Red: '&cRosu'
+  Green: '&aVerde'
+  Blue: '&9Albastru'
+  GUI:
+    Title: '&fSetari Culoare'
+Placeholders:
+  Size-Not-On-Island: '&7Nu esti pe insula'
+  State:
+    Enabled: '&aPornit'
+    Disabled: '&aOprit'
+  Color-None: '&cNiciuna'
+  Cooldown: '&7Fara Cooldown'
+Units:
+  Second: secunda
+  Seconds: secunde
+Slots:
+  Border:
+    Enable-Button:
+      Name: '&aPorneste Border-ul'
+      Lore: []
+    Disable-Button:
+      Name: '&aOpreste Border-ul'
+      Lore: []
+    Color-Button:
+      Name: '&7Culoarea border-ului: [color]'
+      Lore: []
+    Empty-1:
+      Lore: []
+      Name: ' '
+    Empty-2:
+      Lore: []
+      Name: ' '

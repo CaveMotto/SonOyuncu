@@ -1,0 +1,36 @@
+tasks:
+  killplayers:
+    type: "playerkilling"
+    amount: 100
+    worlds:
+     - 'SQ-1'
+
+display:
+  name: "&eÖldürme VI"
+  lore-normal:
+    - "&7Karanlık olduğu halde"
+    - "&7rakibini öldür &c"
+    - ""
+    - "&7Durum: &f100 Kişi öldür"
+    - ""
+    - "&7Odül: &fElmas Blok 16x"
+  lore-started:
+    - ""
+    - "&7Mevcut ilerlemeniz:"
+    - "&c{killplayers:progress}/100 Kişi öldür"
+  type: "DIAMOND_SWORD"
+
+rewards:
+  - "give {player} diamond_block 16"
+
+placeholders:
+  description: "&7Mevcut ilerlemeniz:"
+  progress: "&c{killplayers:progress}/100 Kişi öldür"
+
+options:
+  category: "öldürme"
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 1440
+  sort-order: 1

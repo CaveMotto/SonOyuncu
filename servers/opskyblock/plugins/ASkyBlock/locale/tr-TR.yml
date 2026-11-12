@@ -1,0 +1,578 @@
+###########################################################################################
+# This is a YML file. Be careful when editing. Check your edits in a YAML checker like    #
+# the one at http://yaml-online-parser.appspot.com                                        #
+# If this file is deleted, then it will be recreate at the next reload.                   #
+###########################################################################################
+
+################
+#General Errors#
+################
+error:
+   unknownPlayer: "&6Skyblock &7► &eHata böyle bir oyuncu yok."
+   noPermission: "&6Skyblock &7► &eÜzgünüm, yetkin yok."
+   noIsland: "&6Skyblock &7► &eÜzgünüm, ada bulunamadı."
+   noIslandOther: "&6Skyblock &7► &eBu oyuncunun adası bulunmamakta."
+   commandNotReady: "&6Skyblock &7► &eÜzgünüm, yetkin yok."
+   offlinePlayer: "&6Skyblock &7► &eOyuncu çevrimiçi değil."
+   unknownCommand: "&6Skyblock &7► &eÜzgünüm, komut bulunamadı."
+   noTeam: "&6Skyblock &7► &eOyuncunun takımı bulunmamakta."
+   wrongWorld: "&6Skyblock &7► &eBu komutu kullanmak için önce adana git."
+   notOnIsland: "&6Skyblock &7► &eBu komutu kullanmak için önce adana git."
+   useInGame: "&6Skyblock &7► &eBu oyunu sadece oyun içinde kullanabilirsin."
+
+#AcidEffect
+changingObsidiantoLava: "&6Skyblock &7► &eObsidian tekrardan lava dönüştürüldü."
+
+#AcidInventory
+# The warning that goes on the acid bottles or buckets. Lines are split by \n
+acidLore: "Do\nnot drink!\nBeware!\n"
+acidBucket: "&cAda kovası"
+acidBottle: "&cAda şişesi"
+drankAcidAndDied: "&eAsit içtiğinden dolayı öldü."
+drankAcid: "&eAsit içti."
+
+#IslandGuard
+islandProtected: "&6Skyblock &7► &eAda sana ait değil."
+targetInPVPArea: "&6Skyblock &7► &eAdada pvp aktif değildir."
+# The following are strings for the Settings panel
+islandguardsettings:
+  title: "&cSkyblock Ada Koruma Ayarları"
+  allowed: "Aktif"
+  disallowed: "Devre Dışı"
+  anvil: "Ors Kullanımı"
+  armorstand: "Armor Stand use"
+  beacon: "Fener Kullanımı"
+  bed: "Bed use"
+  breakblocks: "Break blocks"
+  breeding: "Ureme"
+  brewingstand: "Potion Brewing"
+  bucket: "Bucket use"
+  chest: "Chest use"
+  chestdamage: "Chest damage by TNT"
+  workbench: "Çalışma Masası Kullanımı"
+  croptrample: "Crop trampling"
+  door: "Kapı Kullanımı"
+  enchantingtable: "Büyü Masası Kullanımı"
+  enderpearl: "Enderpearl use"
+  fire: "Fire"
+  furnace: "Furnace use"
+  gate: "Çit Kapısı"
+  hurtanimals: "Hurting animals"
+  hurtmonsters: "Hurting monsters"
+  leash: "Leash use"
+  lever: "Lever or Button Use"
+  spawnegg: "Spawn egg use"
+  jukebox: "Jukebox"
+  placeblocks: "Blok Koyma"
+  breakblocks: "Blok Kırma"
+  portaluse: "Nether Portal"
+  pvp: "PvP"
+  netherpvp: "Nether PvP"
+  redstone: "Redstone use"
+  shears: "Shears use"
+  teleportwhenfalling: "Teleport when falling"
+  TNTdamage: "TNT Damage"
+  visitordrop: "Visitor item dropping"
+  visitorpickup: "Visitor item pick-up"
+  visitorkeepitems: "Visitor keep item on death"
+  creeperdamage: "Creeper damage"
+  creepergriefing: "Creeper griefing"
+  withergriefing: "Wither griefing"
+  
+#LavaCheck
+lavaTip: "&6Skyblock &7► &eObsidian kayboldu lav ve su ile tekrar yapabilirsin."
+
+#WarpSigns
+warps:
+   #This is the first line of the sign that determines if the sign is a warp sign or not
+   #If you change it, make sure it makes sense. It is case insensitive. Change the tip too.
+   welcomeLine: "[warp]"
+   warpTip: "&6Skyblock &7► &eBaşkalarının adana gelmesi için adana tabela koy ve ilk satırına &c[warp] &eyaz."
+   success: "&6Skyblock &7► &eHoşgeldin tabelasını başarıyla koydun kırıp yerini tekrar değiştirebilirsin."
+   removed: "&6Skyblock &7► &eHoşgeldin tabelası kırıldı."
+   signRemoved: "&6Skyblock &7► &eHoşgeldin tabelası kaldırıldı."
+   deactivate: "&6Skyblock &7► &eBu özellik şuan için devre dışıdır."
+   errorNoRemove: "&6Skyblock &7► &eSadece kendi hoşgeldin tabelanı kaldırabilirsin."
+   errorNoPerm: "&6Skyblock &7► &eBu özelliği kullanmak için iznin bulunmamakta."
+   errorNoPlace: "&6Skyblock &7► &eHosgeldin tabelasını yerleştirmek için adana git."
+   errorDuplicate: "&6Skyblock &7► &eTabelayı önceden yerleştirdin önce kaldırmalısın."
+   errorDoesNotExist: "&6Skyblock &7► &eBöyle bir warp bulunmamakta."
+   errorNotReadyYet: "&6Skyblock &7► &eBu çözgü henüz hazır değil daha sonra tekrar deneyin."
+   errorNotSafe: "&6Skyblock &7► &eBu çözgü henüz güvenli değil daha sonra tekrar deneyin."
+   #/island warp help
+   warpToPlayersSign: "&6Skyblock &7► &c<player> &eisimli oyuncunun warpına gittin."
+   errorNoWarpsYet: "&6Skyblock &7► &eAda warpı bulunamadı tekrar dene."
+   warpsAvailable: "&6Skyblock &7► &eBöyle bir çözgü mevcut."
+   playerWarped: "&6Skyblock &7► &c[name] &eisimli kullanıcı adana giriş yaptı."
+   next: "İleri"
+   previous: "Geri"
+   title: "Aktif warplar"
+
+topTen:
+   header: "GİZERON EN IYI 10 ADA"
+   errorNotReady: "&6Skyblock &7► &eIlk 10 listesi oluşturulamaz."
+level:
+   islandLevel: "&eAda Leveli&c"
+   errornotYourIsland: "&eSadece ada sahibi yapabilir."
+   calculating: ""
+   
+sethome:
+   homeSet: "&6Skyblock &7► &eAdanın spawn noktası ayarlandı."
+   errorNotOnIsland: "&6Skyblock &7► &eSpawn noktasını ayarlamak için ada sınırlarının içinde olmalısın."
+   errorNoIsland: "&6Skyblock &7► &eBu ada sana ait değil ada sınırlarını aştın."
+   errorNumHomes: "&eEn fazla bir spawn olabilir &c[max]"
+
+#Challenges
+challenges:
+   youHaveCompleted: "&6Skyblock &7► &c[challenge] &eisimli görev başarıyla tamamlandı!"
+   nameHasCompleted: "&6Skyblock &7► &c[name] &eisimli kullanıcı &c[challenge] &egörevini başarıyla tamamladı!"
+   youRepeated: "You repeated the [challenge] challenge!"
+   toComplete: "&eBu Görevi almak için &c[challengesToDo] &eadet &c[thisLevel] &egörevini tamamlamalısın. "
+   help1: "Use /c <name> to view information about a challenge."
+   help2: "Use /c complete <name> to attempt to complete that challenge."
+   colors: "Challenges will have different colors depending on if they are:"
+   complete: "&cTamamlanmıştır"
+   incomplete: "&cTamamlanmamıştır."
+   completeNotRepeatable: "Completed(not repeatable)"
+   completeRepeatable: "Completed(repeatable)"
+   name: "Görev ismi"
+   level: "Seviye"
+   itemTakeWarning: ""
+   notRepeatable: "This Challenge is not repeatable!"
+   firstTimeRewards: "&fGörev bitince alıcağın ödüller"
+   repeatRewards: "Repeat reward(s)"
+   expReward: "&eXP"
+   moneyReward: "&ePara"
+   toCompleteUse: "To complete this challenge, use"
+   invalidChallengeName: "&6Skyblock &7► &eBöyle bir görev yok görev listesi için &c/c &eyazın."
+   rewards: "Ödül:"
+   youHaveNotUnlocked: "&6Skyblock &7► &eBu görev henüz kilitli değil."
+   unknownChallenge: "&6Skyblock &7► &eBöyle bir görev bulunmamakta."
+   errorNotEnoughItems: "&6Skyblock &7► &eGörevi tamamlamak için gerekli eşyaların yok."
+   errorNotOnIsland: "&6Skyblock &7► &eSadece adanda yapabilirsin."
+   errorNotCloseEnough: "You must be standing within 10 blocks of all required items."
+   errorItemsNotThere: "All required items must be close to you on your island!"
+   errorIslandLevel: "&6Skyblock &7► &eBu görevi tamamlamak için yeterli seviyen yok. &eGereken seviye &c[level]"
+   guititle: "SkyBlock Görevleri"
+   erroryouaremissing: "You are missing"
+   errorRewardProblem: "There was a problem giving your reward. Ask Admin to check log!"
+   completedtimes: "Completed [donetimes] out of [maxtimes]"
+   maxreached: "Max reached [donetimes] out of [maxtimes]"
+
+#/island
+island:
+   # Titles for V1.8+ servers only. Set to '' to remove.
+   # Colors are fixed as blue and gold for now.
+   # Only works on 1.8+ servers
+   title: ""
+   subtitle: ""
+   # This section is to solicit donations from players. Feel free to set to '' to remove :-)
+   donate: ""
+   url: ""
+
+   teleport: "&6Skyblock &7► &eAdana hoşgeldin bilgi almak için &c/bilgi"
+   cannotTeleport: "&6Skyblock &7► &eDüşerken ışınlanamazsın."
+   new: "&6Skyblock &7► &eYeni ada oluşturuluyor.."
+   errorCouldNotCreateIsland: "&6Skyblock &7► &eBir hata oluştu lütfen görevliye bildir."
+   errorYouDoNotHavePermission: "&6Skyblock &7► &eÜzgünüm, yetkin yok."
+   #/island reset
+   resetOnlyOwner: "&6Skyblock &7► &eAdanın sahibi dışında kimse restart atamaz adadan ayrılmak için &c/is leave"
+   resetMustRemovePlayers: "&6Skyblock &7► &eAdanı yenilemek için önce takımdaki oyuncuları atmalısın. Takımdaki oyuncuları atmak için &c/is kick <isim> &eada listesi için &c/is team"
+   resetPleaseWait: "&6Skyblock &7► &cAdan yenileniyor bir kaç saniye sürecek.."
+   #Cool down warning - [time] is number of seconds left
+   resetWait: "&6Skyblock &7► &eAdanı tekrar yenilemek için &c[time] &esaniye bekle."
+   #Confirm
+   resetConfirm: "&6Skyblock &7► &eSilmek istiyorsan &a/onayla &eyandaki yazıyı sohbete yaz."
+   resetYouHave: "&6Skyblock &7► &c[number] &eadet yenileme hakkın bulunmakta." 
+   resetNoMore: "&6Skyblock &7► &eAdanı yeterince sıfırladın şuan iznin yok."
+   resetTo: "&6Skyblock &7► &eSıfırlama limitin temizlendi."
+
+   #/island help
+   #/island
+   helpIsland: "&eAda oluştur yada adana ışınlan."
+   helpTeleport: "&eAdana ışınlan."
+   helpIslandSpawn: "&eSpawna ışınlan."
+   helpContolPanel: "&eAda menüsünü aç."
+   #/island restart
+   helpRestart: "&eAdanı yenile."
+   islandDeletedLifeboats: "Island deleted! Head to the lifeboats"
+   #/island sethome
+   helpSetHome: "&eAdana doğuş noktasını ayarla."
+   #/island level
+   helpLevel: "&eAda leveline bak."
+   #/island level <player>
+   helpLevelPlayer: "&eKullanıcının ada seviyesini gösterir."
+   #/island top:
+   helpTop: "&eEn iyi adaları gösterir."
+   #/island warps:
+   helpWarps: "&eWarp açılmış adaların listesi."
+   #/island warp <player>
+   helpWarp: "&eWarp'ı "
+   #/island team
+   helpTeam: "&eAda takımını göster."
+   #/island invite <player>:
+   helpInvite: "&eAdana kullanıcı davet edebilirsin."
+   #/island leave:
+   helpLeave: "&eŞuan bulunduğun adadan ayrıl."
+   #/island kick <player>
+   helpkick: "&eKullanıcıyı ada takımından at."
+   #/island <accept/reject>
+   helpAcceptReject: "&eAda isteğini kabul et veya reddet."
+   #/island makeleader <player>
+   helpMakeLeader: "&eKullanıcıyı adaya transfer et."
+   #Level
+   errorLevelNotReady: "Can't use that command right now! Try again in a few seconds."
+   errorInvalidPlayer: "That player is invalid or does not have an island!"
+   islandLevelis: "&6Skyblock &7► &eAdanın toplam seviye değeri: &c[[level]]"
+   #/island expel <player>
+   helpExpel: "&eKullanıcıyı adadan uzaklaştırır."
+   helpLock: "&eAdanı kilitlersin ve koruma altına alırsın."
+   # The color that is placed before the /commands in /island help
+   # See http://ess.khhq.net/mc/ for a list
+   helpColor: "&e"
+   helpSettings: "&eSkyblock oyun ayarlarını görüntüler."
+   helpChallenges: "&c/challenges &eGörevleri gösterir."
+
+###################
+#/island commands #
+###################
+
+#invite
+invite:
+   help: "&6Skyblock &7► &c/is invite <isim> &eadaya oyuncuyu davet et."
+   youCanInvite: "&6Skyblock &7► &eSen en fazla &c[number] &ekullanıcı alabilme hakkın var."
+   youCannotInvite: "&6Skyblock &7► &eDaha fazla oyuncu alma hakkın bulunmamakta."
+   onlyIslandOwnerCanInvite: "&6Skyblock &7► Adaya sadece ada yöneticileri davet edebilir!"
+   youHaveJoinedAnIsland: "&6Skyblock &7► &eAdaya başarıyla katıldın. &eAdanın takım listesine bakmak için &c/is team"
+   hasJoinedYourIsland: "&6Skyblock &7► &c[name] &esenin adana katılmıştır."
+   errorCantJoinIsland: "&6Skyblock &7► &eAdana başka biri katılamaz! &eDolu olabilir."
+   errorYouMustHaveIslandToInvite: "&6Skyblock &7► &eDavet edebilmek için lütfen önce ada aç."
+   errorYouCannotInviteYourself: "&6Skyblock &7► &eKendini adaya davet edemezsin."
+   removingInvite: "&6Skyblock &7► &eÖnceki daveti siler."
+   inviteSentTo: "&6Skyblock &7► &eDavet gönderilen kullanıcı &c[name]"
+   nameHasInvitedYou: "&6Skyblock &7► &c[name] &eseni adasına davet ediyor."
+   toAcceptOrReject: "&eKullanarak kabul et veya reddet."
+   warningYouWillLoseIsland: "&6Skyblock &7► &c&lDIKKAT! &eMevcut adan yok olur."
+   errorYourIslandIsFull: "&6Skyblock &7► &eAdan şuan dolu davet etmek için önce birilerini atmalısın!"
+   #"That player is already with a group on an island."
+   errorThatPlayerIsAlreadyInATeam: "&6Skyblock &7► &eKullanıcının zaten bir takımı mevcut önce ayrılması gerek."
+   errorCoolDown: "&6Skyblock &7► &eLütfen tekrar davet isteği için &c[time] &edakika bekle."
+
+#reject
+reject:
+   youHaveRejectedInvitation: "&6Skyblock &7► &eKullanıcı adaya katılma isteğini redetti."
+   nameHasRejectedInvite: "&6Skyblock &7► &c[name] &edavetinizi redettmiştir."
+   youHaveNotBeenInvited: "&6Skyblock &7► &eDavetli değil"
+
+#leave
+leave:
+  errorYouAreTheLeader: "&6Skyblock &7► &8Ada devretmek için &c/is makeleader <isim>"
+  youHaveLeftTheIsland: "&&6Skyblock &7► &eAdadan ayrıldın spawna aktarıldın!."
+  nameHasLeftYourIsland: "&6Skyblock &7► &c[name] &eadandan ayrıldı."
+  errorYouCannotLeaveIsland: "&6Skyblock &7► &eAdada tek sen varsın adayı terk edemezsin. &eYenilemek için &c/is restart."
+  errorYouMustBeInWorld: "&6Skyblock &7► &eTakımından ayrılmak için adaya git."
+  errorLeadersCannotLeave: "&6Skyblock &7► &eLider adayı terkedemez!"
+
+#team
+team:
+   listingMembers: "&e&lADA TAKIM UYELERI"
+
+
+#kick / remover
+kick:
+  errorPlayerNotInTeam: "&6Skyblock &7► &eBu kişi takımda değil."
+  nameRemovedYou: "&6Skyblock &7► &c[name] &esizi adadan attı."
+  nameRemoved: "&6Skyblock &7► &c[name] &eisimli kullanıcı adadan atıldı."
+  errorNotPartOfTeam: "&6Skyblock &7► &eBu kişi takımda değil."
+  errorOnlyLeaderCan: "&6Skyblock &7► &eAda liderinden başkası atamaz."
+  errorNoTeam: "&6Skyblock &7► &eTakımın yok."
+
+#makeleader
+makeleader:
+   errorPlayerMustBeOnline: "&6Skyblock &7► &eAda aktarmak için kişinin oyunda olması gerekmekte."
+   errorYouMustBeInTeam: "&6Skyblock &7► &cAdayı devretmek için kişinin takımda olması gerekmekte."
+   errorRemoveAllPlayersFirst: "&6Skyblock &7► &eTransfer hariç herkesi atmalısın."
+   youAreNowTheOwner: "&6Skyblock &7► &eArtık ada lideri sensin."
+   nameIsNowTheOwner: "&6Skyblock &7► &c[name] &eartık adanın lideri!"
+   errorThatPlayerIsNotInTeam: "&6Skyblock &7► &eBu kullanıcı takımda değil."
+   errorNotYourIsland: "&6Skyblock &7► &eBurası senin adan değil önce kendi adana git."
+   errorGeneralError: "&eLiderleri değiştirmek"
+
+#minishop
+minishop:
+   title: "&eMini Market"
+   islandhelpMiniShop: "&cMini Shop kapalı durumda!"
+   buy: "&eAl &cSol Tik"
+   sell: "&eSat &cSag Tik!"
+   youcannotafford: "&eYeterli bakiyen yok item:&c [description]!"
+   youbought: "&eMini Marketten &c[number] &eTane &c[description] &eitemi Satın aldin. fiyat: &6[price]"
+   yousold: "&eMini Markete &c[number] &etane &c[description] &eitemi sattın. fiyat: &6[price]"
+   buyproblem: "&eSatın almada sorun var açıklama: &c[description]."
+   sellproblem: "&eSatmada sorun var açıklama: &c[description]."
+   outofstock: "&eStack yok"
+
+################################
+#Admin commands that use /acid #
+################################
+
+#Help
+adminHelp:
+   help: "Admin komutlari:"
+   #/acid reload:
+   reload: "confingi yeniler."
+   #/acid top ten:
+   topTen: "en iyiler listesini gunceller"
+   #/acid register <player>:
+   register: "oyuncu adasi kayit eder"
+   #/acid delete <player>:
+   delete: "oyuncu adasini siler."
+   #/acid completechallenge <challengename> <player>
+   completeChallenge: "Görevi tamamlar"
+   #/acid resetchallenge <challengename> <player>
+   resetChallenge: "görev sifirlar"
+   #/acid resetallchallenges <player>:
+   resetAllChallenges: "oyuncunun tum Görevlerini sifirlar"
+   #/acid purge [TimeInDays]:
+   purge: "Eski adaları siler [TimeInDays]."
+   purgeholes: "yeniden kullanim için ucretsiz ada delikleri"
+   #/acid info <player>:
+   info: "ada hakkinda bilgi verir."
+   #/acid info
+   infoisland: "en yakin ada hakkinda bilgi verir"
+   #/acid clear reset
+   clearreset: "oyuncu ada yenileme hakkini sifirlar."
+
+#acid reload
+reload:
+   configReloaded: "&aEklenti ayarları başarıyla yenilendi."
+#topten
+adminTopTen:
+   generating: "&eEn iyiler listesi oluşturuluyor.."
+   finished: "&eEn iyiler listesi Tamamlandı."
+
+#purge
+purge:
+   #"A purge is already running, please wait for it to finish!"
+   alreadyRunning: "Purge is already running, please wait for it to finish!"
+   usage: "Usage: /[label] purge [TimeInDays]"
+   calculating: "Calculating whiçh islands have been inactive for more than [time] days."
+   noneFound: "No inactive islands to remove."
+   thisWillRemove: "This will remove [number] inactive islands!"
+   warning: "DANGER! Do not run this with players on the server! MAKE BACKUP OF WORLD!"
+   typeConfirm: "Type /[label] confirm to proceed within 10 seconds"
+   purgeCancelled: "Purge cancelled."
+   finished: "Finished purging of inactive islands."
+   removingName: "Purge: Removing [name]'s island"
+   preventPurge: "Island is protected from purging"
+   allowPurge: "Purge protection removed"
+   removingAt: "Removing island at location [location]"
+   nowWaiting: "Now waiting..."
+   countingUnowned: "Counting unowned islands and checking player files. This could take some time..."
+   stillChecking: "Still checking player files..."
+   skyblockFound: "There are [number] unowned islands. Do '/asadmin purge unowned confirm' to delete them within 20 seconds."
+   acidFound: "There are [number] unowned islands. Do '/acid purge unowned confirm' to delete them within 20 seconds."
+
+#confirm
+confirm:
+   errorTimeLimitExpired: "Time limit expired! Issue command again."
+
+#delete
+delete:
+   removing: "Removing [name]'s island."
+
+#register
+register:
+   settingIsland: "Set [name]'s island to the nearest island."
+   errorBedrockNotFound: "Could not register the island!"
+
+#info
+adminInfo:
+   islandLocation: "Island Location"
+   errorNotPartOfTeam: "That player is not a member of an island team."
+   errorNullTeamLeader: "Team leader should be null!"
+   errorTeamMembersExist: "Player has team members, but shouldn't!"
+
+#resetallchallenges
+resetallchallenges:
+   success: "[name] has had all challenges reset."
+
+#checkteam
+checkteam:
+   checkingTeam: "Checking Team of [name]"
+
+#completechallenge
+completechallenge:
+   errorChallengeDoesNotExist: "Challenge doesn't exist or is already completed"
+   challangeCompleted: "Challenge: [challengename] has been completed for [name]"
+
+#resetchallenge
+resetchallenge:
+   errorChallengeDoesNotExist: "Challenge doesn't exist or isn't yet completed"
+   challengeReset: "Challenge: [challengename] has been reset for [name]"
+
+#News
+news:
+   heisimline: "&6Skyblock &7► &9Sen aktif değilken olanlar:"
+
+#Nether
+nether:
+   spawnisprotected: "&cNether &eSpawn alani korumada"
+
+# Ultra safe boats
+boats:
+   warning: "It's unsafe to exit the boat right now..."
+
+#Starter sign
+# [player] is replaced with the player's name
+# ChatColors can be used with &
+sign:
+   line1: "&aHoşgediniz"
+   line2: ""
+   line3: "&fBu ada senin"
+   line4: "&d[player]"
+
+biome:
+   set: "&6Skyblock &7► &eAda &b[biome] &eolarak değiştirildi."
+   help: "&eBiome menusunu"
+   unknown: "&eBilinmeyen bir biome"
+   youbought: "&eBakiyenden alindi:&c [cost]!"
+   paneltitle: "&7Biom"
+   
+expel:
+   notonisland: "&6Skyblock &7► &eBu kişi senin adanda değil."
+   success: "&6Skyblock &7► &c[name] &ebaşarıyla uzaklaştırıldı"
+   expelled: "&6Skyblock &7► &eBulunduğun ada sahibi seni adadan attı."
+   fail: "&6Skyblock &7► &eUzaklaştırma başarısız."
+   notyourself: "&6Skyblock &7► &eKendini adadan atamassın dostum."
+
+moblimits:
+   error: "Island animal breeding limit of [number] reached!"
+   villager: "Island villager breeding limit of [number] reached!"
+   hopper: "Island hopper limit of [number] reached!"
+
+coop:
+   help: "temporarily give a player full access to your island"
+   removed: "[name] removed your coop status!"
+   removesuccess: "[name] is no longer a coop player."
+   success: "[name] is now a coop player until they log out or you expel them."
+   madeyoucoopy: "[name] made you a coop player until you log out or they expel you."
+   onyourteam: "Player is already on your team!"
+   invited: "[name] made [player] a coop player!"
+   useexpel: "Use expel to remove."
+
+lock:
+   islandlocked: "Island is locked to visitors"
+   nowentering: "&6[name] &eisimli kullanıcının adasına giriş yaptın."
+   nowleaving: "&6[name] &eisimli kullanıcının adasından çıkış yaptın."
+   locking: "Locking island"
+   unlocking: "Unlocking island"
+   enteringspawn: "Entering Spawn"
+   leavingspawn: "Leaving Spawn"
+
+schematics:
+   title: "&8&nAda Seçimi"
+
+ban:
+   success: "&6Skyblock &7► &c[name] &eisimli kişi adadan banlandı."
+   banned: "&6Skyblock &7► &c[name] &eisimli kullanıcı seni adadan banladı."
+   lifted: "&6Skyblock &7► &c[name] &ebanını kaldırdı."
+   liftedsuccess: "&6Skyblock &7► &c[name] &eisimli kişinin banı kaldırıldı."
+   fail: "[name] cannot be banned!"
+   notyourself: "&6Skyblock &7► &c[name] &ekendini adadan banlayamazsın dostum."
+   notteammember: "&eAda takımından birini banlayamazsın."
+   notbanned: "&c[name] &eAdada banlı değil"
+   alreadybanned: "&6Skyblock &7► &cKullanıcı zaten banlı."
+   helpBan: "&eYazdığın kullanıcıyı adadan banlar."
+   helpUnban: "&eYazdığın kullanıcının banını açar."
+
+teamchat:
+   prefix: "&e&lTAKIMCHAT &3• {ISLAND_PLAYER} "
+   helpChat: "&6Skyblock &7► &c&lTakım chatını &cAçar&e/&cKapatır"
+   statusOn: "&6Skyblock &7► &c&lTakım chatı Aktif"
+   statusOff: "&6Skyblock &7► &c&lTakım chatı Kapalı"
+   noTeamAround: "&6Skyblock &7► &eHenüz bir takıma sahip değilsin."
+   noTeam: "&6Skyblock &7► &eHenüz bir takıma sahip değilsin."
+
+adminLock:
+   errorInGame: "Must use command in-game while on an island!"
+   adminLockedIsland: "Admin locked your island"
+   adminUnlockedIsland: "Admin unlocked your island"
+
+adminTopBreeders:
+   finding: "Finding top breeders..."
+   checking: "Checking [number] islands..."
+
+adminDeleteIsland:
+   error: "Use &ldeleteisland confirm &r&cto delete the island you are on."
+   noid: "Cannot identify island."
+   use: "Use &ldelete [name] &r&cto delete the player instead."
+
+adminSetSpawn:
+   set: "Set island spawn to your location."
+   ownedBy: "This island space is owned by [name]"
+   move: "Move further away or unregister the owner."
+   setting: "Setting island spawn to your location [location]"
+   center: "Island center [location]"
+   limits: "Island limits [min] to [max]"
+   range: "Protection range = [number]"
+   coords: "Protection coords [min] to [max]"
+   locked: "Spawn is locked!"
+
+adminInfo:
+   title: "This is spawn island"
+   unowned: "This island is not owned by anyone right now."
+   player: "Player"
+   lastLogin: "Last login"
+   teamLeader: "Team Leader"
+   teamMembers: "Team Members"
+   maxSize: "Island max size (distance)"
+   isSpawn: "Island is spawn"
+   isLocked: "Island is locked"
+   isUnlocked: "Island is unlocked"
+   isProtected: "Island is purge protected"
+   isUnprotected: "Island is not purge protected"
+   bannedPlayers: "Banned players"
+   hoppers: "Island has [number] hoppers"
+     
+adminSetHome:
+   notSafe: "That location is not safe"
+   noneFound: "No safe location found!"
+   homeSet: "Home set to [location]"
+   notOnPlayersIsland: "You are not on the player's island"
+   
+adminResetSign:
+   noSign: "You must be looking at a sign post to run this command."
+   found: "Warp sign found!"
+   rescued: "Warp sign rescued and assigned to [name]"
+   errorExists: "That warp sign is already active and owned by [name]"
+   
+adminSetRange:
+   invalid: "Invalid range!"
+   tip: "Use 10 to [max]"
+   set: "Set new range to [number]"
+   warning: "Warning - range is greater than island range [max]"
+   warning2: "Overlapped islands will act like spawn!"
+   
+adminTp:
+   manualWarp: "No safe spot found. Manually warp to somewhere near [location]."  
+
+adminUnregister:
+   onTeam: "Player is in a team - disband it first."
+   keepBlocks: "Removing player from world, but keeping island at [location]"
+
+adminTeam:
+   kickLeader: "That player is a team leader. Remove team members first. Use '/[label] info [name]' to find team members."
+   addLeaderToOwn: "Cannot add a leader to their own team."
+   addLeaderNoIsland: "Team leader does not have their own island so cannot have a team!"
+   addedLeader: "Added the leader to this team!"
+   nowUnowned: "[name] had an island at [location] that will become unowned now. You may want to delete it manually." 
+   settingHome: "Setting player's home to the leader's home location"
+   addingPlayer: "Adding player to team."
+   alreadyOnTeam: "Player was already on this team!"
+   
+adminRegister:
+   notSpawn: "You cannot take ownership of spawn!"
+   leadsTeam: "[name] leads a team. kick players from it first."
+   taking: "Taking ownership away from [name]"
+   hadIsland: "[name] had an island at [location]"
+   noIsland: "There is no known island in this area!"

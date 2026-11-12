@@ -1,0 +1,354 @@
+# +----------------------------------------------------------------------------------------------+
+# |                                                                                              |
+# |                                          Resource World                                      |
+# |                                                                                              |
+# |                               Discord: https://discord.gg/m7j2Y9H                            |
+# |                                                                                              |
+# |                                           Author: Nik                                        |
+# |                                                                                              |
+# +----------------------------------------------------------------------------------------------+
+# General plugin settings
+settings:
+
+  # Should we check for updates on startup?
+  check_for_updates: true
+
+  # The world that the player will Teleport to once a Reset Happens
+  main_spawn_world: world
+
+  # If a player quits inside a resource world, Should we teleport him to spawn?
+  teleport_to_spawn_on_quit: true
+
+  # Sets the format of the remaining time.
+  reset_format: '%days% days %hours% hours %minutes% minutes %seconds% seconds'
+
+# Overworld Settings
+world:
+
+  # Should we enable this?
+  enabled: true
+
+  # What should the Resource World be named?
+  world_name: Tera
+
+  # Should this world have structures? (Villages e.t.c)
+  generate_structures: true
+
+  # Available World Types: NORMAL , FLAT , LARGE_BIOMES , AMPLIFIED
+  world_type: NORMAL
+
+  # Available Environments: NORMAL , NETHER , THE_END
+  environment: NORMAL
+
+  # Seed Properties
+  custom_seed:
+
+    # Should we use a custom seed?
+    enabled: false
+
+    # The seed to use
+    seed: -686298914
+
+  # World Border Properties
+  world_border:
+
+    # Should we enable this?
+    enabled: true
+
+    # The border size (Note that if you set the World Border for example to 2000, It will be 1000 in one side and 1000 in the opposite one)
+    size: 4500
+
+  # Should PvP be enabled?
+  allow_pvp: true
+
+  # Should it always be day in the Resource World?
+  always_day: false
+
+  # Should we disable suffocation damage?
+  disable_suffocation_damage: true
+
+  # Options: EASY , NORMAL , HARD , PEACEFUL
+  difficulty: NORMAL
+
+  # Should players keep their Inventory items if they die inside the Resource World?
+  keep_inventory_on_death: false
+
+  # World Reset Properties
+  automated_resets:
+
+    # Would you like the Resource World to Automatically Reset?
+    enabled: false
+
+    # The Interval between Resource World Resets. (In Hours)
+    interval: 8
+
+    # Do you wan't the plugin to store the remaining reset time once the server shuts down? and use the remaining time once it starts up again?
+    store_time_on_shutdown: true
+
+  # Execute specific commands after the world generates
+  commands_after_reset:
+
+    # Should we enable this?
+    enabled: true
+
+    # Commands listed below will be executed upon reset
+    commands:
+    - title @p title {\"text\":\"The Resource World\",\"color\":\"green\"}
+    - title @p subtitle {\"text\":\"Has been Reset!\",\"color\":\"green\"}
+
+  # Disabled Commands Settings
+  disabled_commands:
+
+    # Should we enable this?
+    enabled: false
+
+    # Commands listed below will be Disabled if they're executed inside this World
+    commands:
+    - /sethome
+    - /claim
+    - /setwarp
+    - /tpahere
+
+# Nether Settings
+nether:
+
+  # Should we enable this?
+  enabled: false
+
+  # What should the Resource World be named?
+  world_name: resource_nether
+
+  # Should this world have structures? (Villages e.t.c)
+  generate_structures: true
+
+  # Portal Properties
+  portals:
+
+    # Would you like to sync your portals with the Resource Worlds? For example if a player goes into a Nether Portal he'll get to the Nether Resource World instead of the default one
+    override: false
+
+    # Makes Portal Location Behavior work simularly to the Vanilla one
+    vanilla_portal_ratio: true
+
+    # The world where you wan't your players to be teleported to After they enter a Nether Portal inside the Nether.
+    portal_world: world
+
+    # If false, When a player enters a nether portal from any world, He is going to be teleported to the Resource Nether. If true, He will only be able to get to the Resource Nether if he enters a portal from the Resource World
+    only_resource: true
+
+  # Available World Types: NORMAL , FLAT , LARGE_BIOMES , AMPLIFIED
+  world_type: NORMAL
+
+  # Available Environments: NORMAL , NETHER , THE_END
+  environment: NETHER
+
+  # Seed Properties
+  custom_seed:
+
+    # Should we use a custom seed?
+    enabled: false
+
+    # The seed to use
+    seed: -686298914
+
+  # World Border Properties
+  world_border:
+
+    # Should we enable this?
+    enabled: true
+
+    # The border size (Note that if you set the World Border for example to 2000, It will be 1000 in one side and 1000 in the opposite one)
+    size: 4500
+
+  # Should PvP be enabled?
+  allow_pvp: true
+
+  # Should we disable suffocation damage?
+  disable_suffocation_damage: true
+
+  # Options: EASY , NORMAL , HARD , PEACEFUL
+  difficulty: NORMAL
+
+  # Should players keep their Inventory items if they die inside the Resource World?
+  keep_inventory_on_death: false
+
+  # World Reset Properties
+  automated_resets:
+
+    # Would you like the Resource World to Automatically Reset?
+    enabled: false
+
+    # The Interval between Resource World Resets. (In Hours)
+    interval: 4
+
+    # Do you wan't the plugin to store the remaining reset time once the server shuts down? and use the remaining time once it starts up again?
+    store_time_on_shutdown: true
+
+  # Execute specific commands after the world generates
+  commands_after_reset:
+
+    # Should we enable this?
+    enabled: true
+
+    # Commands listed below will be executed upon reset
+    commands:
+    - title @p title {\"text\":\"The Resource Nether\",\"color\":\"green\"}
+    - title @p subtitle {\"text\":\"Has been Reset!\",\"color\":\"green\"}
+
+  # Disabled Commands Settings
+  disabled_commands:
+
+    # Should we enable this?
+    enabled: false
+
+    # Commands listed below will be Disabled if they're executed inside this World
+    commands:
+    - /sethome
+    - /claim
+    - /setwarp
+    - /tpahere
+
+# End Settings
+end:
+
+  # Should we enable this?
+  enabled: false
+
+  # What should the Resource World be named?
+  world_name: resource_end
+
+  # Should this world have structures? (Villages e.t.c)
+  generate_structures: true
+
+  # Portal Properties
+  portals:
+
+    # Would you like to sync your portals with the Resource Worlds? For example if a player goes into a Nether Portal he'll get to the Nether Resource World instead of the default one
+    override: false
+
+    # The world where you wan't your players to be teleported to After they enter a End Portal inside the End.
+    portal_world: world
+
+    # If false, When a player enters a end portal from any world, He is going to be teleported to the Resource End. If true, He will only be able to get to the Resource End if he enters a portal from the Resource World
+    only_resource: true
+
+  # Available World Types: NORMAL , FLAT , LARGE_BIOMES , AMPLIFIED
+  world_type: NORMAL
+
+  # Available Environments: NORMAL , NETHER , THE_END
+  environment: THE_END
+
+  # Seed Properties
+  custom_seed:
+
+    # Should we use a custom seed?
+    enabled: false
+
+    # The seed to use
+    seed: -686298914
+
+  # World Border Properties
+  world_border:
+
+    # Should we enable this?
+    enabled: true
+
+    # The border size (Note that if you set the World Border for example to 2000, It will be 1000 in one side and 1000 in the opposite one)
+    size: 4500
+
+  # Should PvP be enabled?
+  allow_pvp: true
+
+  # Should we disable suffocation damage?
+  disable_suffocation_damage: true
+
+  # Options: EASY , NORMAL , HARD , PEACEFUL
+  difficulty: NORMAL
+
+  # Should players keep their Inventory items if they die inside the Resource World?
+  keep_inventory_on_death: false
+
+  # World Reset Properties
+  automated_resets:
+
+    # Would you like the Resource World to Automatically Reset?
+    enabled: false
+
+    # The Interval between Resource World Resets. (In Hours)
+    interval: 6
+
+    # Do you wan't the plugin to store the remaining reset time once the server shuts down? and use the remaining time once it starts up again?
+    store_time_on_shutdown: true
+
+  # Execute specific commands after the world generates
+  commands_after_reset:
+
+    # Should we enable this?
+    enabled: true
+
+    # Commands listed below will be executed upon reset
+    commands:
+    - title @p title {\"text\":\"The Resource End\",\"color\":\"green\"}
+    - title @p subtitle {\"text\":\"Has been Reset!\",\"color\":\"green\"}
+
+  # Disabled Commands Settings
+  disabled_commands:
+
+    # Should we enable this?
+    enabled: false
+
+    # Commands listed below will be Disabled if they're executed inside this World
+    commands:
+    - /sethome
+    - /claim
+    - /setwarp
+    - /tpahere
+
+# Teleport Settings
+teleport_settings:
+
+  # The price needed for a player to Teleport to a Resource World (Requires Vault)
+  price: 0
+
+  # The cooldown between teleportations
+  cooldown: 30
+
+  # The delay between teleportations
+  delay: 3
+
+  # The maximum X, Z The player will be teleported in the Resource World
+  # DO NOT Set this value higher than your World Border
+  world_max_teleport_range: 800
+
+  # The maximum X, Z The player will be teleported in the Resource Nether
+  # DO NOT Set this value higher than your World Border
+  nether_max_teleport_range: 800
+
+  # The maximum X, Z The player will be teleported in the Resource End
+  # DO NOT Set this value higher than your World Border
+  end_max_teleport_range: 800
+
+  # Effect Properties
+  effects:
+
+    # Would you like the player to get an effect after teleporting?
+    enabled: true
+
+    # Available Effects: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/potion/PotionEffectType.html
+    effect: ABSORPTION
+
+    # The duration of the Effect
+    duration: 5
+
+    # The amplifier of the Effect
+    amplifier: 2
+
+  # Sound Properties
+  sounds:
+
+    # Would you like it to play a sound after a player teleports?
+    enabled: true
+
+    # You should pick a sound that exists on the Spigot API
+    # https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html
+    sound: ENTITY_ENDERMAN_TELEPORT

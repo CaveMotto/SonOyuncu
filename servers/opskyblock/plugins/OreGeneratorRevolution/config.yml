@@ -1,0 +1,17 @@
+Items:
+  - 'STONE:0:0'
+  - 'COBBLESTONE:0:50'
+  - 'COAL_ORE:0:20'
+  - 'LAPIS_ORE:0:20'
+  - 'IRON_ORE:0:15'
+  - 'GOLD_ORE:0:10'
+  - 'REDSTONE_ORE:0:4'
+  - 'DIAMOND_ORE:0:2'
+  - 'EMERALD_ORE:0:3'
+
+Worlds:
+  - 'world'
+  - 'world_nether'
+  - 'world_the_end'
+  
+Metrics: true

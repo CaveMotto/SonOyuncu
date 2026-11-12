@@ -1,0 +1,124 @@
+menu_title: '&8Oyunlar'
+open_command:
+- oyunlar
+size: 45
+items:
+  'cerceve':
+    material: STAINED_GLASS_PANE
+    data: 7
+    slots:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 36
+    - 37
+    - 38
+    - 39
+    - 40
+    - 41
+    - 42
+    - 43
+    - 44
+    display_name: '&7'
+  'opskyblock':
+    material: GRASS
+    slot: 19
+    display_name: '&bOpSkyBlock'
+    lore:
+    - ''
+    - '&7Bir adada sinirli kaynaklarla'
+    - '&7kendi muhtesem adani yarat!'
+    - ''
+    - '&eOynamak icin tikla!'
+    left_click_commands:
+    - '[close]'
+    - '[connect] opskyblock'
+    right_click_commands:
+    - '[close]'
+    - '[connect] opskyblock'
+  'factions':
+    material: DIAMOND_CHESTPLATE
+    slot: 21
+    display_name: '&aFactions'
+    lore:
+    - ''
+    - '&7Klanini kur, topraklarini koru,'
+    - '&7rakip klanlara hakim ol!'
+    - ''
+    - '&eOynamak icin tikla!'
+    left_click_commands:
+    - '[close]'
+    - '[connect] factions'
+    right_click_commands:
+    - '[close]'
+    - '[connect] factions'
+  'survival':
+    material: DIRT
+    slot: 23
+    display_name: '&aTitanyum Survival'
+    lore:
+    - ''
+    - '&7Dogada hayatta kal,'
+    - '&7insa et ve guclen!'
+    - ''
+    - '&eOynamak icin tikla!'
+    left_click_commands:
+    - '[close]'
+    - '[connect] titanyum'
+    right_click_commands:
+    - '[close]'
+    - '[connect] titanyum'
+  'bedwars':
+    material: BED
+    slot: 25
+    display_name: '&dBedWars'
+    lore:
+    - ''
+    - '&7Yatagini koru,'
+    - '&7rakiplerin yatagini kir!'
+    - ''
+    - '&eOynamak icin tikla!'
+    left_click_commands:
+    - '[close]'
+    - '[connect] bedwars'
+    right_click_commands:
+    - '[close]'
+    - '[connect] bedwars'
+  'skywars':
+    material: FISHING_ROD
+    slot: 29
+    display_name: '&dSkyWars'
+    lore:
+    - ''
+    - '&7Sandiklari ac, esya topla,'
+    - '&7son kalan sen ol!'
+    - ''
+    - '&eOynamak icin tikla!'
+    left_click_commands:
+    - '[close]'
+    - '[connect] skywars'
+    right_click_commands:
+    - '[close]'
+    - '[connect] skywars'
+  'cakmalobi':
+    material: NETHER_STAR
+    slot: 33
+    display_name: '&6CakmaLobi'
+    lore:
+    - ''
+    - '&7Mini oyunlarin bulundugu'
+    - '&7ozel lobi.'
+    - ''
+    - '&eGitmek icin tikla!'
+    left_click_commands:
+    - '[close]'
+    - '[connect] cakmalobi'
+    right_click_commands:
+    - '[close]'
+    - '[connect] cakmalobi'

@@ -1,0 +1,24 @@
+Update-Checker: true
+Command-Aliases:
+- ib
+- islandborder
+- aiborder
+- bbborder
+- bsborder
+- usborder
+- iwborder
+- laros:sinir
+SubCommand-Enabled:
+  GUI: true
+  Enable: true
+  Disable: true
+  Toggle: true
+  Color: true
+  Language: true
+Default:
+  Language: EN
+  Border-State: true
+  Border-Color: BLUE
+Cooldown:
+  Enabled: true
+  Seconds: 5

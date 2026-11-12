@@ -1,0 +1,26 @@
+mine:
+  ==: com.koletar.jj.mineresetlite.Mine
+  resetDelay: 5
+  surface: ''
+  maxZ: 707
+  maxY: 128
+  maxX: 953
+  ignoreLadders: false
+  fillMode: false
+  world: Hammadde
+  minY: 113
+  resetWarnings: []
+  minX: 939
+  composition:
+    '12:0': 0.2
+    '1:0': 0.2
+    '3:0': 0.2
+    '17:0': 0.2
+    '13:0': 0.2
+  name: hammade
+  resetClock: 4
+  minZ: 693
+  isSilent: false
+  tpY: -1
+  tpX: 0
+  tpZ: 0

@@ -1,0 +1,93 @@
+menu_title: "&7Sunucu Bilgi"
+open_command:
+- yardım
+size: 45
+items: 
+  'bilgi-1':
+    material: MAP
+    slot: 10
+    display_name: '&eAda Sıfırlama'
+    lore:
+      - ''
+      - '&fAdanızı yenilemek ve sıfırlamak için'
+      - '&a/is reset &fyenilemek için'
+      - '&fmenudeki simgeye basmanız yeter'
+  'bilgi-2':
+    material: MAP
+    slot: 11
+    display_name: '&eFabrika'
+    lore:
+      - ''
+      - '&fSeçtiğiniz ürün fabrikasını'
+      - '&faldıktan sonra o ürün maksimum'
+      - '&fdinarı verir. Bir süre beklemelisiniz.'
+  'bilgi-3':
+    material: MAP
+    slot: 12
+    display_name: '&eEşya Bilgi'
+    lore:
+      - ''
+      - '&fElinizdeki ürün sohbete'
+      - '&fyansıtabilirsin. sohbete &a[item]'
+      - '&fyazısını yazman yeterlidir.'
+  'bilgi-4':
+    material: MAP
+    slot: 13
+    display_name: '&eDirhem'
+    lore:
+      - ''
+      - '&fDirhem bir edit para birimidir.'
+      - '&fyosunlu taş kazarak para birimini elde edebilirsin.'
+  'bilgi-5':
+    material: MAP
+    slot: 14
+    display_name: '&eSandık Eventi'
+    lore:
+      - ''
+      - '&fBelirli dünyada belirli noktada'
+      - '&fbir sürü kasa yukardan düşer.'
+      - '&fo kasaları açarak ödülleriniz alabilirsiniz.'
+  'bilgi-6':
+    material: MAP
+    slot: 15
+    display_name: '&eGünlük Ödül'
+    lore:
+      - ''
+      - '&fHer gün girerek ödül alabilirsin.'
+      - '&fÖdüllerini almak için &a/günlük'
+  'bilgi-7':
+    material: MAP
+    slot: 16
+    display_name: '&eİhale'
+    lore:
+      - ''
+      - '&fElinizde ürünü ihaleye koymak için'
+      - '&a/ihale başlat [fiyat] [miktar]'
+  'bilgi-8':
+    material: MAP
+    slot: 21
+    display_name: '&eCrypto'
+    lore:
+      - ''
+      - '&fBorsa yükselip artan sanal para'
+      - '&fborsayı takip et mantıklı sanal para'
+      - '&fsatın al kullanmak için &a/crypto'
+  'bilgi-9':
+    material: MAP
+    slot: 22
+    display_name: '&eJackpot'
+    lore:
+      - ''
+      - '&fDinar yatır zamanını bekle'
+      - '&fve süre geldiğinde şans dile.'
+      - '&fpara yatırmak için &a/jackpot [miktar]'
+      - '&fOyunun durumunu süresi için &a/jackpots'
+  'bilgi-10':
+    material: MAP
+    slot: 23
+    display_name: '&eTicaret'
+    lore:
+      - ''
+      - '&fTicaret komutunu sadece spawn da kulanabilirsin.'
+      - '&fTicaret yapcağınız kişiden çok uzakda durmayınız.'
+      - '&fKomudu kullanmak için &a/ticaret [oyuncu]'

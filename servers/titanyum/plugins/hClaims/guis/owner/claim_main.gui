@@ -1,0 +1,112 @@
+title: 'Claim Menu'
+size: 6
+type: 'CHEST'
+
+items:
+  claim-information:
+    type: 'NETHER_STAR'
+    name: 'Claim informations'
+    glow: false
+    amount: 1
+    datavalue: 0
+    lore:
+      - 'Claim adı: %claim_name%'
+      - 'Sahibi: %owner%'
+      - 'Ekli üye: %member_count%'
+      - 'Oluşturma tarihi: %creation_date%'
+    nbt: '{}'
+    slot: 4
+  change-block-location:
+    type: 'LADDER'
+    name: 'Claim  bloğunun yerini değiştir'
+    glow: false
+    amount: 1
+    datavalue: 0
+    lore: [ ]
+    nbt: '{}'
+    slot: 21
+  teleport:
+    type: 'ENDER_PEARL'
+    name: 'Claime ışınlan'
+    glow: false
+    amount: 1
+    datavalue: 0
+    lore:
+      - 'Tıkla ve ışınlan'
+    nbt: '{}'
+    slot: 22
+  change-name:
+    type: 'NAME_TAG'
+    name: 'Claim adını değiştir'
+    glow: false
+    amount: 1
+    datavalue: 0
+    lore:
+      - 'Tıkla ve ismini değiştir'
+    nbt: '{}'
+    slot: 23
+  claim-map:
+    type: 'MAP'
+    name: 'Claim Haritası'
+    glow: false
+    amount: 1
+    datavalue: 0
+    lore:
+      - 'Tıkla ve claim haritasını aç'
+    nbt: '{}'
+    slot: 29
+  member-list:
+    type: 'SKULL_ITEM'
+    name: 'Üye listesi'
+    glow: false
+    amount: 1
+    datavalue: 3
+    lore: [ ]
+    nbt: '{SkullOwner:{Id:"4519382e-8969-43a3-92a1-d222897c6b43",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzZjYmFlNzI0NmNjMmM2ZTg4ODU4NzE5OGM3OTU5OTc5NjY2YjRmNWE0MDg4ZjI0ZTI2ZTA3NWYxNDBhZTZjMyJ9fX0="}]}}}'
+    slot: 30
+  change-block-type:
+    type: 'BEDROCK'
+    name: 'Block görünümünü değiştir'
+    glow: false
+    amount: 1
+    datavalue: 0
+    lore: [ ]
+    nbt: '{}'
+    slot: 31
+  add-time:
+    type: 'STICK'
+    name: 'Claime zaman ekle'
+    glow: false
+    amount: 1
+    datavalue: 0
+    lore: [ ]
+    nbt: '{}'
+    slot: 32
+  claim-store:
+    type: 'ENDER_CHEST'
+    name: ''
+    glow: false
+    amount: 1
+    datavalue: 0
+    lore: [ ]
+    nbt: '{}'
+    slot: 33
+  delete:
+    type: 'REDSTONE'
+    name: 'Sil'
+    glow: false
+    amount: 1
+    datavalue: 0
+    lore: [ ]
+    nbt: '{}'
+    slot: 53
+  back:
+    type: 'BARRIER'
+    name: 'Geri'
+    glow: false
+    amount: 1
+    datavalue: 0
+    lore: [ ]
+    nbt: '{}'
+    slot: 49
+

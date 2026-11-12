@@ -1,0 +1,89 @@
+###################################################################################################
+#     _   _                  ___                         ___                              _       #
+#    /_\ | |___ _ _  ___ ___| _ )_  _ _ _  __ _ ___ ___ / __|___ _ __  _ __  __ _ _ _  __| |___   #
+#   / _ \| / _ \ ' \(_-</ _ \ _ \ || | ' \/ _` / -_) -_) (__/ _ \ '  \| '  \/ _` | ' \/ _` (_-<   #
+#  /_/ \_\_\___/_||_/__/\___/___/\_,_|_||_\__, \___\___|\___\___/_|_|_|_|_|_\__,_|_||_\__,_/__/   #
+#                                        |___/                                                    #
+#                                                                                                 #
+#                                     Created by AlonsoAliaga                                     #
+#                             https://www.spigotmc.org/members/281176/                            #
+#                                                                                                 #
+###################################################################################################
+
+#EXAMPLE OF CONFIGURATION, READ TO UNDERSTAND WHAT YOUR COMMAND NEEDS
+#
+#Commands:
+#  example:
+#    Name: 'command'
+#    Permission: 'none' <-- Use "none" if command doesnt require permission to be used, otherwise write it.
+#    No-permission-message: '&cYou do not have permissions to use /discord command.'
+#    Not-enough-arguments-message: '&cCorrect usage: /{COMMAND} (command to run)' <---
+#    Action: MESSAGE <-- Action type: MESSAGE to send a message to the player, GLOBAL to broadcast a message to whole server,
+#                        CONSOLE to run a command like console, COMMAND to run commands from configuration in console, ACTION send message in ACtion bar and
+#                        TITLE to send title and subtitle to players.
+#    Stream: GLOBAL <-- Type of stream GLOBAL to broadcast all network, SERVER to broadcast in the current server. ONLY AVAILABLE FOR Action: GLOBAL, ACTION and TITLE
+#    Message: <-- Message to send to the player
+#    - '&bYou have used the command /command'
+#    - '&bCommand also supports more than one line!'
+#    Commands: <-- Commands to run in console, placeholder available {PLAYER} for the player that perform the command.
+#    - 'command to run in console 1'
+#    - 'command to run in console 2'
+#    Global: '&f[&c&lGLOBAL&f] &c{PLAYER}&8(&7{SERVER}&8)&c: &f{MESSAGE}' <-- Format to send the broadcast. Placeholders: {PLAYER}, {SERVER} and {MESSAGE}
+#    Stay-time: 100 <-- Time the title will stay on screen in ticks 20 = 1 second, only available when Action is TITLE.
+#    Disabled-servers-feature: true <-- Should command be disabled in some servers?
+#    Disabled-servers-message: '&cYou cannot perform /discord command in this server.' <-- Message when player perfom command in a disabled server.
+#    Disabled-servers: <-- Which servers should the command be disabled?
+#    - 'Authlobby-1'
+#    - 'Authlobby-2'
+#    - 'Authlobby-3'
+
+#You cannot create more commands here. Only in "Commands:" section!
+Plugin-commands:
+  Reload-command:
+    Name: 'abcreload'
+    Permission: 'alonsobungeecommands.reload'
+    No-permission-message: '&6by Motto &7► &d/discord &ekomutunu kullanma izniniz yok.'
+    Reloaded-message: '&6by Motto &7► &eEklenti Yenilendi'
+    Disabled-servers-feature: true
+    Disabled-servers-message: '&6by Motto &7► &cBu sunucuda /discord komutunu gerçekleştiremezsiniz.'
+    Disabled-servers:
+    - 'Authlobby-1'
+    - 'Authlobby-2'
+    - 'Authlobby-3'
+
+Commands:
+  discord:
+    Name: 'discord'
+    Permission: 'none'
+    No-permission-message: '&6by Motto &7► &d/discord &ekomutunu kullanma izniniz yok.'
+    Action: MESSAGE
+    Message:
+    - '&9▇▇▇▇▇▇▇▇'
+    - '&9▇&f▇▇&9▇▇&f▇▇&9▇'
+    - '&9▇&f▇▇▇▇▇▇&9▇            &bDiscord'
+    - '&9▇&f▇&9▇&f▇▇&9▇&f▇&9▇'
+    - '&9▇&f▇▇▇▇▇▇&9▇     &3by Motto/discord'
+    - '&9▇&f▇&9▇▇▇▇&f▇&9▇'
+    - '&9▇&f▇▇&9▇▇&f▇▇&9▇'
+    - '&9▇▇&9▇▇▇▇▇▇'
+    Disabled-servers-feature: true
+    Disabled-servers-message: '&6by Motto &7► &cBu sunucuda /discord komutunu gerçekleştiremezsiniz.'
+    Disabled-servers:
+    - 'Authlobby-1'
+    - 'Authlobby-2'
+    - 'Authlobby-3'
+
+  lobi:
+    Name: 'lobi'
+    Permission: 'alonsobungeecommands.lobi'
+    No-permission-message: '&6by Motto &7► &d/lobi &ekomutunu kullanma izniniz yok.'
+    Not-enough-arguments-message: '&6by Motto &7► &eKomut: &d/{COMMAND}'
+    Action: COMMAND
+    Commands:
+    - 'send {PLAYER} lobi'
+    Disabled-servers-feature: true
+    Disabled-servers-message: '&6by Motto &7► &cBu sunucuda /discord komutunu gerçekleştiremezsiniz.'
+    Disabled-servers:
+    - 'Authlobby-1'
+    - 'Authlobby-2'
+    - 'Authlobby-3'

@@ -1,0 +1,55 @@
+Locations:
+  '9':
+    Crate: Lapis
+    World: Faction
+    X: -4
+    Y: 75
+    Z: -78
+  '10':
+    Crate: Görev
+    World: Faction
+    X: -7
+    Y: 75
+    Z: -76
+  '11':
+    Crate: Tortel
+    World: Faction
+    X: 4
+    Y: 75
+    Z: -78
+  '12':
+    Crate: Suqard
+    World: Faction
+    X: 0
+    Y: 75
+    Z: -78
+  '13':
+    Crate: pixel
+    World: Faction
+    X: 0
+    Y: 75
+    Z: -78
+  '14':
+    Crate: Event
+    World: Faction
+    X: 7
+    Y: 75
+    Z: -76
+  '15':
+    Crate: god
+    World: Faction
+    X: 4
+    Y: 75
+    Z: -78
+  '16':
+    Crate: oyver
+    World: Faction
+    X: -7
+    Y: 75
+    Z: -76
+  '17':
+    Crate: Lapis
+    World: Lapis
+    X: -1656
+    Y: 95
+    Z: -1339

@@ -1,0 +1,31 @@
+# Scoreboard Configuration for Notifier
+
+# Set this to true if the scoreboard should be enabled
+# The Scoreboard is on the side of the screen
+# Different versions have different character limits so make sure you use them properly
+# If you are going to use the FeatherBoard trigger, set this to false
+enabled: false
+
+# Set this to true to save the scoreboard the player had before combat
+# Otherwise, the main scoreboard will be restored instead
+save-previous: true
+
+# This is the scoreboard title
+# Make sure to follow your version's character limit
+scoreboard-title: ""
+
+# These are the scoreboard lines
+# Make sure to follow your version's line/character limit
+scoreboard-lines:
+- ""
+- ""
+- ""
+- ""
+- ""
+- ""
+- ""
+- ""
+- ""
+- ""
+- ""
+- ""

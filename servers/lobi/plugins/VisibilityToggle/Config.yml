@@ -1,0 +1,70 @@
+#######################################
+##               @Config             ##
+##      >>> VisibilityToggle <<<     ##
+##    @Developed By CleusGamer201    ##
+#######################################
+Prefix: '&6Lobi &7►'
+MySQL:
+  Enabled: false
+  Host: 127.0.0.1
+  Database: Minecraft
+  Username: root
+  Password: pass
+  Port: 3306
+
+Settings:
+  Slot: 8
+  Delay: 3
+  ToggleSound:
+    Enabled: true
+    Sound: 'LAVA_POP'
+    Vol: 2.0
+    Pitch: 2.0
+  BlockMovement: true
+  BlockDrop: true
+  GiveOnRespawn: true
+  ClearInvOnJoin: false
+  ClearInvOnWorldChange: false
+  JoinToggleMessage: true
+  ShowToggleMessages: true
+  ShowToggleTitles: true
+  ToggleItem: true
+  EnabledWorlds:
+  - Lobi
+
+Messages:
+  Show: '&6Lobi &7► &eOyuncular artık aktif'
+  Rank: '&6Lobi &7► &eSadece rütbe görünümü aktif'
+  Hide: '&6Lobi &7► &eOyuncular artık gizlendi'
+  Delay: '&6Lobi &7► &d{cooldown} &esaniye beklemen gereklidir.'
+
+Titles:
+  Show:
+    Title: '&aOyuncular Aktif'
+    Subtitle: '&7Artık oyuncuları görebilirsiniz.'
+  Rank:
+    Title: '&dRütbeliler Aktif'
+    Subtitle: '&7Artık rütbeli oyuncuları görebilirsiniz.'
+  Hide:
+    Title: '&cOyuncular Kapalı'
+    Subtitle: '&7Artık oyuncuları göremezsiniz.'
+
+Items:
+  Show:
+    Name: '&7Oyuncu: &aAçık'
+    Item: ENDER_PEARL
+    Data: 10
+    Lore: 
+    - '&7 '
+  Rank:
+    Name: '&7Oyuncu: &dRütbe Görünümü'
+    Item: FIRE_CHARGE
+    Data: 9
+    Lore: 
+    - '&7 '
+  Hide:
+    Name: '&7Oyuncu: &cKapalı'
+    Item: ENDER_EYE
+    Data: 8
+    Lore: 
+    - '&7 '

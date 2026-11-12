@@ -1,0 +1,161 @@
+No_Permissions: '&cNemÃƒÂ¡Ã…Â¡ oprÃƒÂ¡vnÃ„â€ºnÃƒÂ­ pro tuto akci!'
+Only_for_Player: '&cPouze pro hrÃƒÂ¡Ã„ï¿½e!'
+No_Money: '&cNemÃƒÂ¡Ã…Â¡ dostatek penÃ„â€ºz!'
+Enter_Correct_Amount: '&cZadej prosÃƒÂ­m platnou Ã„ï¿½ÃƒÂ¡stku.'
+Only_X_Amount: '&7MÃƒÂ¡Ã…Â¡ pouze &c%amount% %type%&7!'
+Trade_Was_Cancelled: '&cTento obchod byl zruÃ…Â¡en.'
+Trade_Was_Finished: '&7Tento obchod byl &adokonÃ„ï¿½en&7.'
+Cannot_Trade_With_Yourself: '&cNemÃ…Â¯Ã…Â¾eÃ…Â¡ obchodovat sÃƒÂ¡m se sebou.'
+Player_Not_Online: '&cTento hrÃƒÂ¡Ã„ï¿½ nenÃƒÂ­ online.'
+Want_To_Trade: '&7HrÃƒÂ¡Ã„ï¿½ &c%player% &7chce s vÃƒÂ¡mi obchodovat. &8[%accept%
+  &8| %deny%&8]'
+Want_To_Trade_Accept: '&aPÃ…â„¢ijmout'
+Want_To_Trade_Deny: '&cOdmÃƒÂ­tnout'
+Want_To_Trade_Hover: '&8Ã‚Â» Klikni Ã‚Â«'
+Player_Is_Invited: '&7HrÃƒÂ¡Ã„ï¿½ &c%player% &7 dostal pozvÃƒÂ¡nku k obchodu.'
+Command_How_To: '&7Zadej: /trade <player, accept, deny, toggle>'
+Command_How_To_Accept: '&7Zadej: /trade accept <JmÃƒÂ©noHrÃƒÂ¡Ã„ï¿½e>'
+Command_How_To_Deny: '&7Zadej: /trade deny <JmÃƒÂ©noHrÃƒÂ¡Ã„ï¿½e>'
+Player_Of_Request_Not_Online: '&cHrÃƒÂ¡Ã„ï¿½ kterÃƒÂ½ byl poÃ…Â¾ÃƒÂ¡dÃƒÂ¡n o obchod
+  nenÃƒÂ­ jiÃ…Â¾ aktivnÃƒÂ­!'
+Request_Accepted: '&aPÃ…â„¢ijal &7jsi poÃ…Â¾adavek na obchod&7.'
+Request_Was_Accepted: '&7Tvoje Ã…Â¾ÃƒÂ¡dost o obchod s &c%player% &7byla pÃ…â„¢ijata&7.'
+Request_Denied: '&7OdmÃƒÂ­tl jsi Ã…Â¾ÃƒÂ¡dost o obchod.'
+Request_Was_Denied: '&7VaÃ…Â¡e obchodnÃƒÂ­ Ã…Â¾ÃƒÂ¡dost s &c%player% &7byla odmÃƒÂ­tnuta&7.'
+No_Request_Found: '&cOd tohoto hrÃƒÂ¡Ã„ï¿½e jsi nedostal Ã…Â¾ÃƒÂ¡dnou pozvÃƒÂ¡nku
+  k obchodu!'
+No_Requests_Found: '&cNeobdrÃ…Â¾el jsi Ã…Â¾ÃƒÂ¡dnÃƒÂ© pozvÃƒÂ¡nky k obchodu!'
+Too_many_requests: '&cMÃƒÂ¡Ã…Â¡ nekolik pozvÃƒÂ¡nek k obchodu&7, upÃ…â„¢esni prosÃƒÂ­m
+  jmÃƒÂ©no hrÃƒÂ¡Ã„ï¿½e.'
+GUI_Title: '&cObchodovÃƒÂ¡nÃƒÂ­ s %player%%tradesystem_countdown_fancy%'
+Money_Amount: TvÃ…Â¯j obnos penÃ„â€ºz
+Coin: mince
+Coins: Mince
+PlayerPoint: PlayerPoint
+PlayerPoints: PlayerPoints
+Token: Token
+Tokens: Tokens
+ClaimBlock: ClaimBlock
+ClaimBlocks: ClaimBlocks
+Status: Status
+Ready: PÃ…â„¢ipraven
+Not_Ready: NepÃ…â„¢ipraven
+Wait_For_Other_Player: ProsÃƒÂ­m poÃ„ï¿½kej na druhÃƒÂ©ho hrÃƒÂ¡Ã„ï¿½e...
+Trade_Only_With_Objects: ChceÃ…Â¡-li dokonÃ„ï¿½it svÃ…Â¯j obchod musÃƒÂ­Ã…Â¡ nÃ„â€ºco nabÃƒÂ­dnout!.
+Click_To_Change: Klikni pro zmÃ„â€ºnÃ„â€ºnÃƒÂ­
+Cancel_Trade: Klikni pro zruÃ…Â¡enÃƒÂ­
+Not_Able_To_Trade: NemÃƒÂ¡Ã…Â¡ povolenÃƒÂ­ obchodovat.
+Player_Is_Not_Able_Trade: Tento hrÃƒÂ¡Ã„ï¿½ s tebou nemÃ…Â¯Ã…Â¾e obchodovat.
+TRADE_EDITOR: Editor - ObchodovacÃƒÂ­ GUI
+TRADE_EDITOR_FUNCTIONS: Editor - Funkce
+EDITOR_RESET: Tvoje doÃ„ï¿½asnÃ„â€º uloÃ…Â¾enÃƒÂ© GUI bylo resetovÃƒÂ¡no.
+Editor_Command_How_To: '&7Zadej: /tradeEditor [reset]'
+Editor_Not_Empty: Ã…Â½ÃƒÂ¡dnÃƒÂ½ prÃƒÂ¡zdnÃƒÂ½ slot!
+Editor_No_Item: Ã…Â½ÃƒÂ¡dnÃƒÂ½ item!
+Layout_Name: NÃƒÂ¡zev rozloÃ…Â¾enÃƒÂ­
+Layout_Name_Already_Exists: Tento nÃƒÂ¡zev rozloÃ…Â¾enÃƒÂ­ je jiÃ…Â¾ pÃ…â„¢iÃ…â„¢azen!
+Layout_Finished: RozloÃ…Â¾enÃƒÂ­ bylo &aÃƒÂºspÃ„â€ºÃ…Â¡nÃ„â€º&7 vytvoÃ…â„¢eno.
+Layout_Edited: RozloÃ…Â¾enÃƒÂ­ &aÃƒÂºspÃ„â€ºÃ…Â¡nÃ„â€º&7 upraveno.
+Layout_Editor: '&9RozloÃ…Â¾enÃƒÂ­ &8- &9Editor'
+Save: UloÃ…Â¾eno
+Not_Ready_For_Saving: '&cRozloÃ…Â¾enÃƒÂ­ jeÃ…Â¡tÃ„â€º nelze uloÃ…Â¾it'
+Items: Items
+Set: Nastavit
+Not_Set: Nenastaveno
+Functions: Funkce
+Name: JmÃƒÂ©no
+Ambiguous_Functions: NejednoznaÃ„ï¿½nÃƒÂ© funkce
+Layout_Set_Items: VyplÃ…Ë† standartnÃƒÂ­ obchodnÃƒÂ­ gui
+Layout_Set_Functions: Nastav funkce
+Layout_Set_Name: Nastav nÃƒÂ¡zev rozloÃ…Â¾enÃƒÂ­
+Layout_Set_Ambiguous_Functions: Nastav dvojznaÃ„ï¿½nÃƒÂ© funkce
+Layout_Editor_Set_Items: '&cZavÃ…â„¢i a pokraÃ„ï¿½uj'
+Back: ZpÃ„â€ºt
+Trader: Obchod
+Other: JinÃƒÂ½
+Layout_Set_Own_Slots: Nastav svÃƒÂ© obchodnÃƒÂ­ sloty
+Layout_Set_Other_Slots: Nastav obchodnÃƒÂ­ sloty pro partnera
+Layout_Set_Cancel: Nastav ikonu zruÃ…Â¡enÃƒÂ­
+Layout_Set_Other_Not_Ready: Nastav 'NepÃ…â„¢ipraven' ikonu pro partnera
+Layout_Set_Status: Nastav si vlastnÃƒÂ­ ikonu stavu
+Layout_Set_Money: Nastav vlastnÃƒÂ­ ikonu penÃ„â€ºz
+Layout_Set_Other_Money: Nastav ikonu penÃ„â€ºz pro partnera
+Help_TradeSystem: '&7Zadej &e/%label% <layout, reload>'
+Help_TradeSystem_Layout: '&7Zadej &e/%label% layout <create, edit, delete, activate>'
+Help_TradeSystem_Layout_Create: '&7Use &e/%label% layout create <jmÃƒÂ©no> [9..54]'
+Help_TradeSystem_Layout_Activate: '&7Zadej &e/%label% layout activate <jmÃƒÂ©no>'
+Help_TradeSystem_Layout_Delete: '&7Zadej &e/%label% layout delete <jmÃƒÂ©no>'
+Help_TradeSystem_Layout_Edit: '&7Zadej &e/%label% layout edit <jmÃƒÂ©no>'
+Layout_Does_Not_Exist: '&cToto rozloÃ…Â¾enÃƒÂ­ neexistuje!'
+Layout_Activated: '&7Toto rozloÃ…Â¾enÃƒÂ­ ''&b%name%&7'' bylo &aaktivovÃƒÂ¡no&7.'
+Layout_Deleted: '&7Toto rozloÃ…Â¾enÃƒÂ­ ''&b%name%&7'' bylo &csmazÃƒÂ¡no&7.'
+Enter_Correct_Name_Space: '&cNepouÃ…Â¾ÃƒÂ­vej prosÃƒÂ­m mezery!.'
+Sure_That_You_Want_To_Loose_Your_Data: '&7Jsi si jist &7Ã…Â¾e &cnechceÃ…Â¡ &7uloÃ…Â¾it
+  zmÃ„â€ºny?'
+Close: ZavÃ…â„¢ÃƒÂ­t
+Layout_Already_Activated: '&7Toto rozloÃ…Â¾enÃƒÂ­ &cjiÃ…Â¾ bylo aktivovÃƒÂ¡no&7!'
+Layout_Set_Replacement_For_Money: '&7Ikona kterÃƒÂ¡ &enahradÃƒÂ­ ikonu penez&7, kdyÃ…Â¾
+  &ekdyÃ…Â¾ nenÃƒÂ­ zjiÃ…Â¡ten Ã…Â¾adnÃƒÂ½ &7ekonomickÃƒÂ½ plugin.'
+Layout_Hint_Same_Slot_Amount: '&7Oba hrÃƒÂ¡Ã„ï¿½i &cmusÃƒÂ­ mÃƒÂ­t &cstejnÃƒÂ½ poÃ„ï¿½et
+  slotÃ…Â¯&7!'
+Current_Amount: AktualnÃƒÂ­ Ã„ï¿½ÃƒÂ¡stka
+Trade_Spam: '&7Tento hrÃƒÂ¡Ã„ï¿½ &cjiÃ…Â¾ obdrÃ…Â¾el Ã…Â¾ÃƒÂ¡dost o trade&7!'
+Plugin_Reloading: '&cPlugin se znovu naÃ„ï¿½ÃƒÂ­tÃƒÂ¡...'
+Success_Plugin_Reloaded: '&aPlugin se znovu naÃ„ï¿½etl.'
+Player_is_not_in_range: '&c%player% &7nenÃƒÂ­ v dosahu&7!'
+Cannot_trade_in_that_GameMode: '&7V tomto &chernÃƒÂ­m reÃ…Â¾imu &7nelze obchodovat!'
+Other_cannot_trade_in_that_GameMode: '&7Tento hrÃƒÂ¡Ã„ï¿½ &cnemÃ…Â¯Ã…Â¾e obchodovat
+  &7v tomto hernÃƒÂ­m modu!'
+Trade_cancelled_by_attack: '&cObchod byl zruÃ…Â¡en protoÃ…Â¾e jsi byl zranÃ„â€ºn!.'
+Trade_Partner_No_Space: '&7TvÃ…Â¯j obchodnÃƒÂ­ partner &cnemÃ…Â¯Ã…Â¾e obchodovat protoÃ…Â¾e
+  &7nemÃƒÂ¡ mÃƒÂ­sto v inventÃƒÂ¡Ã…â„¢i!'
+Trade_Offline: '&7JiÃ…Â¾ nejsi &ck dispozici &7pro obchodovÃƒÂ¡nÃƒÂ­!'
+Trade_Online: '&7NynÃƒÂ­ jsi &ak dispozici &7pro obchodovÃƒÂ¡nÃƒÂ­!'
+Trade_Partner_is_Offline: '&7Tento hrÃƒÂ¡Ã„ï¿½ &cneni k dispozici &7pro obchodovÃƒÂ¡nÃƒÂ­!'
+Trade_You_are_Offline: '&7Zadej "%command%&e/trade toggle%command%&7" pro opakovÃƒÂ¡nÃƒÂ­
+  obchodu.'
+Trade_Placed_Blocked_Item: '&7S touto &cpoloÃ…Â¾kou &7nemÃ…Â¯Ã…Â¾eÃ…Â¡ obchodovat!'
+Cannot_trade_in_bed: '&cNemÃ…Â¯Ã…Â¾es obchodovat&7, kdyÃ…Â¾ leÃ…Â¾ÃƒÂ­Ã…Â¡ v posteli.'
+Cannot_trade_in_world: '&7V toomto &csvÃ„â€ºtÃ„â€º &7nelze obchodovat!'
+Other_cannot_trade_in_world: '&7Tento hrÃƒÂ¡Ã„ï¿½ Ã‚Â§cnemÃ…Â¯Ã…Â¾e &7nemÃ…Â¯Ã…Â¾e
+  obchodovat ve svÃƒÂ©m svÃ„â€ºtÃ„â€º!'
+Cannot_trade_while_invisible: '&cNemÃ…Â¯Ã…Â¾eÃ…Â¡ obchodovat &7kdyÃ…Â¾ jsi &cneviditelnÃƒÂ½&7!'
+Cannot_trade_in_region: '&7You &ccannot trade &7in this region!'
+Other_cannot_trade_in_region: '&7This player &ccannot trade &7in their region!'
+Other_is_already_trading: '&7Tento hrÃƒÂ¡Ã„ï¿½ &cjiÃ…Â¾ v tuto &7chvÃƒÂ­li obchoduje,
+  prosÃƒÂ­m poÃ„ï¿½kej.'
+Online: Online
+Offline: Offline
+Your_request_expired: '&7Platnost obchodu s &e%player% vyprÃ…Â¡ela&7.'
+Request_expired: '&7PoÃ…Â¾adavek na obchod od &e%player% vyprÃ…Â¡el&7.'
+Fancy_Countdown: ' &7- &e%seconds%s'
+Economy_Error: '&7Obchod byl &czruÃ…Â¡en &7kvÃ…Â¯li &cchybÃ„â€º ekonomiky&7.'
+Items_Dropped: '&7TvÃ…Â¯j inventÃƒÂ¡Ã…â„¢ je &cplnÃƒÂ½&7, nÃ„â€ºjakÃƒÂ© vÃ„â€ºci byli
+  &cvyhozeny na zem&7!'
+Sign_Enter_Amount: |-
+  ^^^^^^^^
+  VloÃ…Â¾ Ã„ï¿½ÃƒÂ¡stku
+  nahoÃ…â„¢e
+Leftclick: LevÃƒÂ½ klik
+Rightclick: PravÃƒÂ½ klik
+Shift_Leftclick: Shift-LevÃƒÂ½ klik
+Shift_Rightclick: Shift-PravÃƒÂ½ klik
+Select: Vybrat
+Select_Foreign_Preview: Vyber cizÃƒÂ­ nÃƒÂ¡hled
+Edit: ZmÃ„â€ºnit
+Edit_Variant: ZmÃ„â€ºnit variantu
+Variant: Varianta
+Cancel: ZruÃ…Â¡it
+Finish: DokonÃ„ï¿½it
+Levels: Levely
+Level: Level
+Too_Little_Exp: '&cNemÃƒÂ¡Ã…Â¡ &cexp na obchodovÃƒÂ¡nÃƒÂ­&7.'
+Exp_Points: Xp body
+Exp_Point: Xp bod
+Reset: Reset
+Balance_limit_reached: '&7VÃƒÂ¡Ã…Â¡ zÃ…Â¯statek je &cnedostateÃ„ï¿½nÃƒÂ½&7.'
+AnvilGUI_Title: Repair & Name
+Shulker_Box: Shulker Box
+Trade_Finish_Report_Receive: '  &a+ &7%object%'
+Trade_Finish_Report_Give: '  &c- &7%object%'
+Trade_Finish_Report_Object_Item: '%amount%x %item%'

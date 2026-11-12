@@ -1,0 +1,45 @@
+# This is an example book to show how to create one
+# Note: The placeholders in this book (like %player_name%) need PlaceholderAPI installed
+# with the proper expansion, see here for more informations: https://www.spigotmc.org/resources/placeholderapi.6245/
+
+# Item's name
+name: Zindan
+
+# Book's title
+title: Zindan
+
+# Book's author
+author: Zindan
+
+# Book's generation
+# Valid values: ORIGINAL, COPY_OF_ORIGINAL, COPY_OF_COPY, TATTERED
+generation: ORIGINAL
+
+# Item's lore
+lore:
+- Zindan
+
+# Command to open this book
+# You can remove this by setting it to ''
+# Separate multiple commands with a space
+open_command: 'zindanbilgi'
+
+pages:
+  '1':
+  - '<blue>          ZINDAN</blue>'
+  - ''
+  - '<dark_grey>Magarada belirli ücret karşılığında 4 dakika durup kozmik zombi öldür hediyeler kazan</dark_grey>'
+  - ''
+  - '<dark_blue>         Hediyeler</dark_blue>'
+  - ''
+  - '<dark_grey>200 Kinas</dark_grey> <green>%50</green>'
+  - '<dark_grey>500 Kinas</dark_grey> <green>%40</green>'
+  - '<dark_grey>1000 Kinas</dark_grey> <green>%8</green>'
+  - '<dark_grey>Guard Spawner</dark_grey> <green>%2</green>'
+  
+# For the placeholders to work correctly
+# you should download the Player and Vault
+# extensions for PlaceholderAPI:
+# /papi ecloud download Player
+# /papi ecloud download Vault
+# /papi reload

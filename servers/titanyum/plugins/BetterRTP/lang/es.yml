@@ -1,0 +1,82 @@
+# Help translate this file into more languages!
+Messages:
+  Prefix: '&7[&6BetterRTP&7] '
+  Success:
+    Paid: '&aÃ‚Â¡Has sido teletransportado a&7 x=%x% y=%y% z=%z% por &c$%price%&7!'
+    Bypass: '&aHas sido teletransportado a&7 x=%x% y=%y% z=%z%'
+    Loading: '&aÃ‚Â¡Lugar seguro localizado! &7Cargando chunks...'
+    Teleport: '&fÃ‚Â¡&aTeletransportandote... &fpor favor, espere mientras encontramos
+      un lugar seguro!'
+  Failed:
+    Price: '&cÃ‚Â¡No pudimos teletransportarte aleatoriamente por falta de fondos!
+      &7Ã‚Â¡Debes tener al menos $%price% &7para teletransportarte!'
+    NotSafe: '&cÃ‚Â¡No pudimos encontrar un lugar seguro en %attempts% intentos! &7Ã‚Â¡No
+      fuiste teletransportado!'
+    Hunger: '&cÃ‚Â¡No pudimos teletransportarte aleatoriamente porque tienes... &7demasiada
+      hambre&c, come algo amigo!'
+  Other:
+    Success: '&7Ã‚Â¡&a%player% ha sido teletransportado a&7 x=%x% y=%y% z=%z%!'
+    NotSafe: '&cÃ‚Â¡No se pudo encontrar un lugar seguro en %attempts% intentos! &7Ã‚Â¡%player%
+      no fue teletransportado aleatoriamente!'
+    Biome: '&cÃ‚Â¡Parece que el bioma&7 %biome%&c no existe! &7Ã‚Â¡Intenta usar la
+      lista del tab!'
+  Reload: '&eÃ‚Â¡ConfiguraciÃƒÂ³n recargada exitosamente!'
+  NoPermission:
+    Basic: '&cÃ‚Â¡Lo siento! &7Ã‚Â¡No tienes permiso para usar este comando! &8Permission:
+      %permission%'
+    World: '&cÃ‚Â¡Lo siento! &7Ã‚Â¡No tienes permitido teletransportarte aleatoriamente
+      en el mundo %world%! &8Permission: %permission%'
+  DisabledWorld: '&cÃ‚Â¡Mundo %world% Deshabilitado! &7Ã‚Â¡No se puede usar RTP!'
+  Cooldown: '&cÃ‚Â¡Lo siento! &7Ã‚Â¡No puedes teletransportarte aleatoriamente por
+    otros &c%time%&7!'
+  Locked: '&cÃ‚Â¡Lo siento! &7Ã‚Â¡Has usado todos tus RTPs!'
+  Invalid: '&cArgumento invÃƒÂ¡lido. Intenta ''/%command% help'''
+  NotOnline: '&cÃ‚Â¡El jugador &7%player% &cno estÃƒÂ¡ conectado!'
+  Delay: '&aÃ‚Â¡Teletransportandote en &f%time% &asegundos! Ã‚Â¡No te muevas!'
+  Moved: '&cÃ‚Â¡Te has movido! &7Ã‚Â¡El teletransporte aleatorio fue cancelado!'
+  NotExist: '&cÃ‚Â¡Parece que el mundo &7%world% &cno existe!'
+  Already: '&cÃ‚Â¡Oops! &7Ã‚Â¡Parece que ya estÃƒÂ¡s teletransportandote aleatoriamente,
+    ten un poco de paciencia!'
+  Sign: '&7Ã‚Â¡Un cartel de comando ha sido creado! &7El comando es... ''&f/rtp %command%&7'''
+  Edit:
+    Error: '&cÃ‚Â¡Error! &7Ã‚Â¡Entrada proporcionada invÃƒÂ¡lida!'
+    Set: '&bÃ‚Â¡Exito! &7%type% establecido a %value%'
+    Remove: '&cÃ‚Â¡Eliminado! &7Has eliminado el Mundo Personalizado %world%'
+Help:
+  Prefix: '&e&m-----&6&l BetterRTP &8| Ayuda &e&m-----'
+  Main: ' &7- &e/%command% &7- Ã‚Â¡Te teletransporta aleatoriamente!'
+  Biome: ' &7- &e/%command% biome <bioma1, bioma2...> &7- Teletransporte aleatorio
+    dentro de estos biomas'
+  Edit: ' &7- &e/%command% edit <default/world> [args...] &7- Editar algunos ajustes
+    del plugin'
+  Help: ' &7- &e/%command% help &7- Muestra la lista de ayuda'
+  Info: ' &7- &e/%command% info [world/particles/shapes/potion_effects] &7- Ver informaciÃƒÂ³n
+    especÃƒÂ­fica sobre los parÃƒÂ¡metros del plugin'
+  Player: ' &7- &e/%command% player <jugador> [mundo] [bioma1, bioma2...] &7- Teletransportar
+    aleatoriamente a otro jugador'
+  Reload: ' &7- &e/%command% reload &7- Recarga el plugin'
+  Settings: ' &7- &e/%command% settings &7- Abre una GUI y edita algunos ajustes'
+  Test: ' &7- &e/%command% test &7- Probar los efectos del plugin despuÃƒÂ©s de un
+    teletransporte sin moverse'
+  Version: ' &7- &e/%command% version &7- Ver la versiÃƒÂ³n actual'
+  World: ' &7- &e/%command% world <mundo> [bioma1, bioma2...] &7- Teletransportarse
+    aleatoriamente a otro mundo'
+  Location: ' &7- &e/%command% location <nombre_de_la_ubicaciÃƒÂ³n> &7- Teletransportarse
+    aleatoriamente utilizando una ubicaciÃƒÂ³n especÃƒÂ­fica'
+Usage:
+  Player: '&cUso&7: /%command% player <jugador> [world] [bioma1, bioma2]'
+  World: '&cUso&7: /%command% world <mundo> [bioma1, bioma2...]'
+  Biome: '&cUso&7: /%command% biome <bioma1, bioma2...>'
+  Location: '&cUso&7: /%command% location <nombre_de_la_ubicaciÃƒÂ³n>'
+  Edit:
+    Base: '&cUso&7: /%command% edit <default/world> [args...]'
+    Default: '&cUso&7: /%command% edit default <max/min/useworldborder/center> <valor>'
+    World: '&cUso&7: /%command% edit world <mundo> <max/min/useworldborder/center>
+      <valor>'
+    PermissionGroup: '&cUsage&7: /%command% edit permission_group <group> <world>
+      <max/min/useworldborder/center> <value>'
+    Location: '&cUsage&7: /%command% edit location <location_name> <max/min/useworldborder/center>
+      <value>'
+    Worldtype: '&cUso&7: /%command% edit world_type <mundo> <NETHER/NORMAL>'
+    Override: '&cUso&7: /%command% edit override <mundo1> <mundo2>'
+    BlacklistedBlocks: '&cUso&7: /%command% edit blacklistedblocks <add/remove> <id_del_bloque>'

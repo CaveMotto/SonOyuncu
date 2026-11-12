@@ -1,0 +1,42 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 78.167.4.55
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1718396395076
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1718395963496
+  login: 1718489353352
+  kits:
+    otosat: 1707180686087
+    lvip: 1718396360539
+    rehber: 1717036779837
+money: '9657720.0'
+last-account-name: Sqruat
+lastlocation:
+  world: e9eb162d-3f33-4337-b280-eac493cf8b1b
+  world-name: Edit
+  x: 182.92591042724393
+  y: 63.0
+  z: 219.15891117289667
+  yaw: -3.450291872024536
+  pitch: 15.749748229980469
+logoutlocation:
+  world: 4bd4f2dd-afea-44ea-b6bf-00c7bcb89ce0
+  world-name: Spawn
+  x: -2297.538373607652
+  y: 14.0
+  z: -267.77130782649317
+  yaw: -179.16036987304688
+  pitch: 3.40132474899292

@@ -1,0 +1,263 @@
+variables:
+    {dirhem::%player%} = 0
+    {kirmasayisi::%player%} = 0
+	
+on first join:
+
+    set {dirhem::%player%} to 0
+    set {blokistatistik::%player%} to 0
+    set {kirmasayisi::%player%} to 0
+
+# dev.sqruat - bonus
+
+on break obsidian:
+	cancel event
+	set block to air
+	if {kirmasayisi::%player%} = 0:
+	add 1 to {kirmasayisi::%player%}
+	add 1 to {blokistatistik::%player%}
+	if {kirmasayisi::%player%} >= 16:
+		if player has permission "dirhem.boost":
+			add 288 to {dirhem::%player%}
+			set {kirmasayisi::%player%} to 0
+			send "&6SkyBlock &7► &b288 ⛁ &edirhem aktarıldı." to player
+		else:
+			set {kirmasayisi::%player%} to 0
+			add 96 to {dirhem::%player%}
+			send "&6SkyBlock &7► &b96 ⛁ &edirhem aktarıldı." to player
+
+
+
+		
+	
+		
+		
+# dev.sqruat - dirhem bilgi
+	
+command /dirhem:
+	trigger:
+		send "&e&l&m--------------&6 &6Dirhem &e&l&m--------------&6"
+		send ""
+		send "                  &a(Dirhem %{dirhem::%player%}% ⛁)"
+		send ""
+		send "&6/Dirhem Market &7- &eÇeşitli özel ürünler satın alabilirsiniz"
+		send "&6/Dirhem Gönder (miktar) (oyuncu) &7- &cYeni Güncellemede."
+		send ""
+		send "&e&l&m--------------&6 &6Dirhem &e&l&m--------------&6"
+		
+
+# dev.sqruat - admin komut
+
+		
+command /admindirhem [<text>] [<offline player>] [<number>]:
+    permission: admin.dirhem
+    permission message:&6SkyBlock &7► &eBunu yapmaya yetkiniz yok!
+    trigger:
+        if arg 1 is "ver" or "gönder" or "add":
+            if arg 2 is set:
+                if arg 3 is set:
+                    add arg 3 to {dirhem::%arg-2%}
+                    send "&6SkyBlock &7► &d%arg 2% &eAdlı oyuncuya &b%arg 3% ⛁ &edirhem gönderildi." to player
+                    send "&6SkyBlock &7► &eHesabınıza &b%arg 3% ⛁ &edirhem aktarıldı." to arg 2
+                else:
+                    send "&6SkyBlock &7► &eBir miktar belirleyiniz."
+            else:
+                send "&6SkyBlock &7► &eBir kişi belirleyiniz."
+		
+		
+# dev.sqruat - market
+
+		
+command /kazma1:
+	trigger:
+		if {dirhem::%player%} >= 3000:
+			send "&6SkyBlock &7► &eBaşarıyla Satın Aldın."
+			give 1 278 of efficiency 10 and fortune 4 and unbreaking 5 named "&d&lEDIT KAZMA V" to player
+			remove 3000 from {dirhem::%player%}
+		else:
+			send "&6SkyBlock &7► &eYeterli dirhem'in yok."
+command /kazma2:
+	trigger:
+		if {dirhem::%player%} >= 7000:
+			send "&6SkyBlock &7► &eBaşarıyla Satın Aldın."
+			give 1 278 of efficiency 15 and fortune 5 and unbreaking 7 named "&d&lEDIT KAZMA IV" to player
+			remove 7000 from {dirhem::%player%}
+		else:
+			send "&6SkyBlock &7► &eYeterli dirhem'in yok."
+
+command /kazma3:
+	trigger:
+		if {dirhem::%player%} >= 15000:
+			send "&6SkyBlock &7► &eBaşarıyla Satın Aldın."
+			give 1 278 of efficiency 20 and fortune 7 and unbreaking 9 named "&d&lEDIT KAZMA III" to player
+			remove 15000 from {dirhem::%player%}
+		else:
+			send "&6SkyBlock &7► &eYeterli dirhem'in yok."
+
+command /kazma4:
+	trigger:
+		if {dirhem::%player%} >= 25000:
+			send "&6SkyBlock &7► &eBaşarıyla Satın Aldın."
+			give 1 278 of efficiency 30 and fortune 9 and unbreaking 12 named "&d&lEDIT KAZMA II" to player
+			remove 25000 from {dirhem::%player%}
+		else:
+			send "&6SkyBlock &7► &eYeterli dirhem'in yok."
+
+			
+command /kazma5:
+	trigger:
+		if {dirhem::%player%} >= 40000:
+			send "&6SkyBlock &7► &eBaşarıyla Satın Aldın."
+			give 1 278 of efficiency 40 and fortune 12 and unbreaking 15 named "&d&lEDIT KAZMA I" to player
+			remove 40000 from {dirhem::%player%}
+		else:
+			send "&6SkyBlock &7► &eYeterli dirhem'in yok."
+
+
+command /anahtar1:
+	trigger:
+		if {dirhem::%player%} >= 300000:
+			send "&6SkyBlock &7► &eBaşarıyla Satın Aldın."
+			remove 300000 from {dirhem::%player%}
+			execute console command "cc give p tera 1 %player%"
+		else:
+			send "&6SkyBlock &7► &eYeterli dirhem'in yok."
+		
+command /anahtar2:
+	trigger:
+		if {dirhem::%player%} >= 500000:
+			send "&6SkyBlock &7► &eBaşarıyla Satın Aldın."
+			remove 500000 from {dirhem::%player%}
+			execute console command "cc give p epic 1 %player%"
+		else:
+			send "&6SkyBlock &7► &eYeterli dirhem'in yok."
+			
+
+			
+
+command /spawner1:
+	trigger:
+		if {dirhem::%player%} >= 15000:
+			send "&6SkyBlock &7► &eBaşarıyla Satın Aldın."
+			remove 15000 from {dirhem::%player%}
+			execute console command "itemsp ver %player% demir 1"
+		else:
+			send "&6SkyBlock &7► &eYeterli dirhem'in yok."
+command /spawner2:
+	trigger:
+		if {dirhem::%player%} >= 25000:
+			send "&6SkyBlock &7► &eBaşarıyla Satın Aldın."
+			remove 25000 from {dirhem::%player%}
+			execute console command "itemsp ver %player% altin 1"
+		else:
+			send "&6SkyBlock &7► &eYeterli dirhem'in yok."
+command /spawner3:
+	trigger:
+		if {dirhem::%player%} >= 45000:
+			send "&6SkyBlock &7► &eBaşarıyla Satın Aldın."
+			remove 45000 from {dirhem::%player%}
+			execute console command "itemsp ver %player% elmas 1"
+		else:
+			send "&6SkyBlock &7► &eYeterli dirhem'in yok."
+command /spawner4:
+	trigger:
+		if {dirhem::%player%} >= 70000:
+			send "&6SkyBlock &7► &eBaşarıyla Satın Aldın."
+			remove 70000 from {dirhem::%player%}
+			execute console command "itemsp ver %player% zümrüt 1"
+		else:
+			send "&6SkyBlock &7► &eYeterli dirhem'in yok."
+command /spawner5:
+	trigger:
+		if {dirhem::%player%} >= 60000:
+			send "&6SkyBlock &7► &eBaşarıyla Satın Aldın."
+			remove 60000 from {dirhem::%player%}
+			execute console command "itemsp ver %player% demirblok 1"
+		else:
+			send "&6SkyBlock &7► &eYeterli dirhem'in yok."
+command /spawner6:
+	trigger:
+		if {dirhem::%player%} >= 100000:
+			send "&6SkyBlock &7► &eBaşarıyla Satın Aldın."
+			remove 100000 from {dirhem::%player%}
+			execute console command "itemsp ver %player% altinblok 1"
+		else:
+			send "&6SkyBlock &7► &eYeterli dirhem'in yok."
+command /spawner7:
+	trigger:
+		if {dirhem::%player%} >= 180000:
+			send "&6SkyBlock &7► &eBaşarıyla Satın Aldın."
+			remove 180000 from {dirhem::%player%}
+			execute console command "itemsp ver %player% elmasblok 1"
+		else:
+			send "&6SkyBlock &7► &eYeterli dirhem'in yok."
+command /spawner8:
+	trigger:
+		if {dirhem::%player%} >= 300000:
+			send "&6SkyBlock &7► &eBaşarıyla Satın Aldın."
+			remove 300000 from {dirhem::%player%}
+			execute console command "itemsp ver %player% zümrütblok 1"
+		else:
+			send "&6SkyBlock &7► &eYeterli dirhem'in yok."
+command /spawner9:
+	trigger:
+		if {dirhem::%player%} >= 2000000:
+			send "&6SkyBlock &7► &eBaşarıyla satın aldınız."
+			remove 2000000 from {dirhem::%player%}
+			execute console command "itemsp ver %player% end 1"
+		else:
+			send "&6SkyBlock &7► &eYeterli dirhem'in yok."
+command /spawner10:
+	trigger:
+		if {dirhem::%player%} >= 5000000:
+			send "&6SkyBlock &7► &eBaşarıyla satın aldınız."
+			remove 5000000 from {dirhem::%player%}
+			execute console command "itemsp ver %player% prizmarin 1"
+		else:
+			send "&6SkyBlock &7► &eYeterli dirhem'in yok."
+			
+
+			
+command /blok1:
+	trigger:
+		if {dirhem::%player%} >= 10000:
+			send "&6SkyBlock &7► &eBaşarıyla Satın Aldın."
+			remove 10000 from {dirhem::%player%}
+			execute console command "give %player% 133 64"
+		else:
+			send "&6SkyBlock &7► &eYeterli dirhem'in yok."
+command /blok2:
+	trigger:
+		if {dirhem::%player%} >= 50000:
+			send "&6SkyBlock &7► &eBaşarıyla Satın Aldın."
+			remove 50000 from {dirhem::%player%}
+			execute console command "give %player% 56 64"
+		else:
+			send "&6SkyBlock &7► &eYeterli dirhem'in yok."
+command /blok3:
+	trigger:
+		if {dirhem::%player%} >= 75000:
+			send "&6SkyBlock &7► &eBaşarıyla Satın Aldın."
+			remove 75000 from {dirhem::%player%}
+			execute console command "give %player% 129 64"
+		else:
+			send "&6SkyBlock &7► &eYeterli dirhem'in yok."
+command /blok4:
+	trigger:
+		if {dirhem::%player%} >= 150000:
+			send "&6SkyBlock &7► &eBaşarıyla Satın Aldın."
+			remove 150000 from {dirhem::%player%}
+			execute console command "give %player% 121 64"
+		else:
+			send "&6SkyBlock &7► &eYeterli dirhem'in yok."
+command /blok5:
+	trigger:
+		if {dirhem::%player%} >= 300000:
+			send "&6SkyBlock &7► &eBaşarıyla Satın Aldın."
+			remove 300000 from {dirhem::%player%}
+			execute console command "give %player% 168 64"
+		else:
+			send "&6SkyBlock &7► &eYeterli dirhem'in yok."
+			
+			
+		

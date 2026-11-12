@@ -1,0 +1,195 @@
+Crate:
+  CrateType: Wheel
+  CrateName: '&8Demir Kutu'
+  Preview-Name: ''
+  StartingKeys: 0
+  InGUI: true
+  Slot: 21
+  OpeningBroadCast: false
+  BroadCast: ''
+  Item: 'CHEST'
+  Glowing: false
+  Name: '&eDemir Kutu'
+  Lore:
+    - ''
+    - '&eİncelemek için tıkla'
+  Preview:
+    Toggle: true
+    ChestLines: 6
+    Glass:
+      Toggle: true
+      Item: 'STAINED_GLASS_PANE:7'
+  PhysicalKey:
+    Name: '&eDemir Kutu Anahtar'
+    Item: 'TRIPWIRE_HOOK'
+    Glowing: true
+  Prizes:
+    1:
+      DisplayName: '&6Domuz'
+      DisplayItem: 'mob_spawner'
+      MaxRange: 100
+      Chance: 2
+      Firework: true
+      Lore:
+      - '&f'
+      - '&6&lEfsanevi'
+      Messages:
+        - '&6Survival &8► &aTebrikler&f, Domuz Spawner &akazandınız!'
+      Commands:
+        - 'ss give %player% pig 1'
+        - 'broadcast &b%player%&f, &eDemir Kutu açtı. kutudan &dDomuz Spawner &eçıktı.'
+    2:
+      DisplayName: '&6İnek'
+      DisplayItem: 'mob_spawner'
+      MaxRange: 100
+      Chance: 2
+      Firework: true
+      Lore:
+      - '&f'
+      - '&6&lEfsanevi'
+      Messages:
+        - '&6Survival &8► &aTebrikler&f, İnek Spawner &akazandınız!'
+      Commands:
+        - 'ss give %player% cow 1'
+        - 'broadcast &b%player%&f, &eDemir Kutu açtı. kutudan &dİnek Spawner &eçıktı.'
+    3:
+      DisplayName: '&6Tavuk'
+      DisplayItem: 'mob_spawner'
+      MaxRange: 100
+      Chance: 2
+      Firework: true
+      Lore:
+      - '&f'
+      - '&6&lEfsanevi'
+      Messages:
+        - '&6Survival &8► &aTebrikler&f, Tavuk Spawner &akazandınız!'
+      Commands:
+        - 'ss give %player% chicken 1'
+        - 'broadcast &b%player%&f, &eDemir Kutu açtı. kutudan &dTavuk Spawner &eçıktı.'
+    4:
+      DisplayItem: '138'
+      DisplayAmount: 1
+      MaxRange: 100
+      Chance: 10
+      Lore:
+      - '&f'
+      - '&5&lGizemli'
+      Messages:
+        - '&6Survival &8► &aTebrikler&f, Fener &akazandınız!'
+      Commands:
+        - 'give %player% 138 1'
+        - 'broadcast &b%player%&f, &eDemir Kutu açtı. kutudan &dFener &eçıktı.'
+    5:
+      DisplayItem: '322:1'
+      DisplayAmount: 2
+      MaxRange: 100
+      Chance: 10
+      Lore:
+      - '&f'
+      - '&5&lGizemli'
+      Messages:
+        - '&6Survival &8► &aTebrikler&f, Büyülü Altın Elma &akazandınız!'
+      Commands:
+        - 'give %player% 322:1 2'
+        - 'broadcast &b%player%&f, &eDemir Kutu açtı. kutudan &dBüyülü Altın Elma &eçıktı.'
+    6:
+      DisplayItem: '57'
+      DisplayAmount: 2
+      MaxRange: 100
+      Chance: 10
+      Lore:
+      - '&f'
+      - '&5&lGizemli'
+      Messages:
+        - '&6Survival &8► &aTebrikler&f, Elmas Blok &akazandınız!'
+      Commands:
+        - 'give %player% 57 2'
+        - 'broadcast &b%player%&f, &eDemir Kutu açtı. kutudan &dElmas Blok &eçıktı.'
+    7:
+      DisplayItem: '310'
+      DisplayAmount: 1
+      Lore:
+      - '&f'
+      - '&b&lYaygın'
+      DisplayEnchantments:
+        - 'PROTECTION_ENVIRONMENTAL:4'
+      MaxRange: 100
+      Chance: 5
+      Firework: false
+      Glowing: false
+      Items:
+        - 'give %Player% 310 1 PROTECTION_ENVIRONMENTAL:4'    
+      Messages:
+        - '&6Survival &8► &aTebrikler&f, Elmas Kask &akazandınız!'
+      Commands:
+        - 'broadcast &b%player%&f, &eDemir Kutu açtı. kutudan &dElmas Kask &eçıktı.'
+    8:
+      DisplayItem: '311'
+      DisplayAmount: 1
+      Lore:
+      - '&f'
+      - '&b&lNadir'
+      DisplayEnchantments:
+        - 'PROTECTION_ENVIRONMENTAL:4'
+      MaxRange: 100
+      Chance: 5
+      Firework: false
+      Glowing: false
+      Items:
+        - 'give %Player% 311 1 PROTECTION_ENVIRONMENTAL:4'  
+      Messages:
+        - '&6Survival &8► &aTebrikler&f, Elmas Göğüslük &akazandınız!'
+      Commands:
+        - 'broadcast &b%player%&f, &eDemir Kutu açtı. kutudan &dElmas Göğüslük &eçıktı.'
+    9:
+      DisplayItem: '312'
+      DisplayAmount: 1
+      Lore:
+      - '&f'
+      - '&b&lNadir'
+      DisplayEnchantments:
+        - 'PROTECTION_ENVIRONMENTAL:4'
+      MaxRange: 100
+      Chance: 5
+      Firework: false
+      Glowing: false
+      Items:
+        - 'give %Player% 312 1 PROTECTION_ENVIRONMENTAL:4'  
+      Messages:
+        - '&6Survival &8► &aTebrikler&f, Elmas Pantalon &akazandınız!'
+      Commands:
+        - 'broadcast &b%player%&f, &eDemir Kutu açtı. kutudan &dElmas Pantalon &eçıktı.'
+    10:
+      DisplayItem: '313'
+      DisplayAmount: 1
+      Lore:
+      - '&f'
+      - '&b&lNadir'
+      DisplayEnchantments:
+        - 'PROTECTION_ENVIRONMENTAL:4'
+      MaxRange: 100
+      Chance: 5
+      Firework: false
+      Glowing: false
+      Items:
+        - 'give %Player% 313 1 PROTECTION_ENVIRONMENTAL:4'  
+      Messages:
+        - '&6Survival &8► &aTebrikler&f, Elmas Bot &akazandınız!'
+      Commands:
+        - 'broadcast &b%player%&f, &eDemir Kutu açtı. kutudan &dElmas Bot &eçıktı.'
+    11:
+      DisplayItem: '42'
+      DisplayAmount: 10
+      Lore:
+      - '&f'
+      - '&f&lYaygın'
+      MaxRange: 100
+      Chance: 5
+      Firework: false
+      Glowing: false
+      Items:
+        - 'give %Player% 42 10'  
+      Messages:
+        - '&6Survival &8► &aTebrikler&f, Demir Blok &akazandınız!'
+      Commands:
+        - 'broadcast &b%player%&f, &eDemir Kutu açtı. kutudan &dDemir Blok &eçıktı.'

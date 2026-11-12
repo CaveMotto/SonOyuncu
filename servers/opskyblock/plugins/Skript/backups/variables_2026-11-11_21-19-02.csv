@@ -1,0 +1,59 @@
+# === Skript's variable storage ===
+# Please do not modify this file manually!
+#
+# version: 2.2-dev36
+
+adakitaldi.omuxhz, long, 0000000000000000
+adakitaldi.sqruat, long, 0000000000000000
+adakitaldi.zeuxsss, long, 0000000000000000
+argokoruma::laros, string, 800AC2A7634B6170616CC4B1
+blokistatistik::omuxhz, long, 0000000000000000
+blokistatistik::zeuxsss, long, 0000000000000000
+dirhem::<player>, long, 0000000000000000
+dirhem::omuxhz, long, 0000000000000000
+dirhem::sqruat, long, 000000000000C355
+dirhem::zeuxsss, long, 000000000000B798
+kirmasayisi::<player>, long, 0000000000000000
+kirmasayisi::omuxhz, long, 0000000000000000
+kirmasayisi::zeuxsss, long, 0000000000000000
+kodbasladi, boolean, 01
+kodlar, long, 0000000743C1F00D
+kodlar.<none>, long, 0000000743C1F00D
+komut::1, string, 801565636F2067697665203C706C617965723E20323030
+komut::2, string, 801565636F2067697665203C706C617965723E20353030
+komut::3, string, 801665636F2067697665203C706C617965723E2031303030
+komut::4, string, 801D73732067697665203C706C617965723E2069726F6E5F676F6C656D2031
+küfürkoruma::laros, string, 800AC2A7634B6170616CC4B1
+reklamkoruma::laros, string, 800AC2A7634B6170616CC4B1
+ucus.omuxhz, boolean, 00
+ucus.sqruat, boolean, 00
+ucus.zeuxsss, boolean, 00
+
+komut::1, string, 801565636F2067697665203C706C617965723E20323030
+komut::2, string, 801565636F2067697665203C706C617965723E20353030
+komut::3, string, 801665636F2067697665203C706C617965723E2031303030
+komut::4, string, 801D73732067697665203C706C617965723E2069726F6E5F676F6C656D2031
+kodlar, long, 0000008F52C53D72
+kodlar.<none>, long, 0000008F52C53D72
+kodbasladi, boolean, 01
+kodlar, long, 00000002E28050B2
+kodlar.<none>, long, 00000002E28050B2
+kodbasladi, boolean, 01
+kodlar, long, 0000005FD52332FF
+kodlar.<none>, long, 0000005FD52332FF
+kodbasladi, boolean, 01
+kodlar, long, 00000099B4A2A3E9
+kodlar.<none>, long, 00000099B4A2A3E9
+kodbasladi, boolean, 01
+kodlar, long, 00000002930D0DDB
+kodlar.<none>, long, 00000002930D0DDB
+kodbasladi, boolean, 01
+kodlar, long, 000000E16EEC0983
+kodlar.<none>, long, 000000E16EEC0983
+kodbasladi, boolean, 01
+kodlar, long, 000000B0A5DC3898
+kodlar.<none>, long, 000000B0A5DC3898
+kodbasladi, boolean, 01
+kodlar, long, 0000004AE54CFC8A
+kodlar.<none>, long, 0000004AE54CFC8A
+kodbasladi, boolean, 01

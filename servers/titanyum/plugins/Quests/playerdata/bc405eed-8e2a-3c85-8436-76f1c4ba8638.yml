@@ -1,0 +1,37 @@
+quest-progress:
+  hasar:
+    started: true
+    started-date: 1720178656053
+    completed: false
+    completed-before: false
+    completion-date: 0
+    task-progress:
+      dealdamage:
+        completed: false
+  oyuncu:
+    started: true
+    started-date: 1720179218946
+    completed: false
+    completed-before: false
+    completion-date: 0
+    task-progress:
+      killplayers:
+        completed: false
+  aktif:
+    started: false
+    started-date: 1720180091931
+    completed: true
+    completed-before: true
+    completion-date: 1720180091931
+    task-progress:
+      playtime:
+        completed: false
+  öldürme6:
+    started: true
+    started-date: 1720301702174
+    completed: false
+    completed-before: false
+    completion-date: 0
+    task-progress:
+      killplayers:
+        completed: false

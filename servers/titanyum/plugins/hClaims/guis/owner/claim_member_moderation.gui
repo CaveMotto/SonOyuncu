@@ -1,0 +1,94 @@
+title: 'Claim Üye'
+size: 4
+type: 'CHEST'
+
+items:
+  block-place:
+    type: 'GRASS'
+    name: 'Block koyma yetkisi'
+    glow: false
+    amount: 1
+    datavalue: 0
+    lore:
+      - 'Durum: %status%'
+    nbt: '{}'
+    slot: 0
+  block-break:
+    type: 'WOOD_PICKAXE'
+    name: 'Block kırma yetkisi'
+    glow: false
+    amount: 1
+    datavalue: 0
+    lore:
+      - 'Durum: %status%'
+    nbt: '{}'
+    slot: 1
+  spawner-break:
+    type: 'MOB_SPAWNER'
+    name: 'Spawner kırma yetkisi'
+    glow: false
+    amount: 1
+    datavalue: 0
+    lore:
+      - 'Durum: %status%'
+    nbt: '{}'
+    slot: 2
+  damage-animals:
+    type: 'IRON_SWORD'
+    name: 'Hayvanları öldürme yetkisi'
+    glow: false
+    amount: 1
+    datavalue: 0
+    lore:
+      - 'Durum: %status%'
+    nbt: '{}'
+    slot: 3
+  interact:
+    type: 'STONE_BUTTON'
+    name: 'Etkileşim yetkisi (kapı vb)'
+    glow: false
+    amount: 1
+    datavalue: 0
+    lore:
+      - 'Durum: %status%'
+    nbt: '{}'
+    slot: 4
+  item-pickup:
+    type: 'DIAMOND'
+    name: 'Yerdeki eşyaları toplama yetkisi'
+    glow: false
+    amount: 1
+    datavalue: 0
+    lore:
+      - 'Durum: %status%'
+    nbt: '{}'
+    slot: 5
+  store-usage:
+    type: 'EMERALD'
+    name: 'Mağaza kullanma yetkisi'
+    glow: false
+    amount: 1
+    datavalue: 0
+    lore:
+      - 'Durum: %status%'
+    nbt: '{}'
+    slot: 6
+  delete-member:
+    type: 'REDSTONE'
+    name: 'Üyeyi claimden çıkar'
+    glow: false
+    amount: 1
+    datavalue: 0
+    lore: [ ]
+    nbt: '{}'
+    slot: 35
+  back:
+    type: 'BARRIER'
+    name: 'Geri'
+    glow: false
+    amount: 1
+    datavalue: 0
+    lore: [ ]
+    nbt: '{}'
+    slot: 31
+

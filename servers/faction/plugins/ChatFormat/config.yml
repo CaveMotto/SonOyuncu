@@ -1,0 +1,83 @@
+#Variables:
+#   PREFIX - {PREFIX}
+#   SUFFIX - {SUFFIX}
+#   RANK - {RANK}
+#   PLAYER-NAME - {PLAYER_NAME}
+#   DIPLAY-NAME - {DISPLAY_NAME}
+#   PLAYER-MESSAGE {MESSAGE}
+#   VAULT-ECONOMY-MONEY {MONEY}
+#   WORLD-NAME - {WORLD}
+#   COLOR CODES - &
+
+#Essentials Variables:
+# FOR PLUGIN: Essentials!
+#   Essentials money - {ESS_MONEY}
+#   Essentials nick name - {ESS_NICK_NAME}
+
+#PvPStats Variables:
+# FOR PLUGIN: PvPStats!
+#   PvPStats kills - {PVP_STATS_KILLS}
+#   PvPStats deaths - {PVP_STATS_DEATHS} 
+
+#Multiverse-Core Variables:
+# FOR PLUGIN: Multivesre-Core
+# Coloured world name - {MV_WORLD}
+
+#KingKits Variables:
+# FOR PLUGIN: KingKits!
+#   KillStreak - {KK_KILLSTREAK}
+#   Kit - {KK_KIT}
+#   Score - {KK_SCORE}
+
+#PlaceholderAPI Variables: https://www.spigotmc.org/wiki/placeholderapi-placeholders/
+# FOR PLUGIN: PlaceholderAPI!
+
+#DEPEND: 
+# - Vault: https://dev.bukkit.org/bukkit-plugins/vault/
+# - Permissions plugin based on Vault (PermissionsEx, GroupManager,...)
+
+#SOFTDEPENDS: 
+# - PvPStats: https://www.spigotmc.org/resources/pvp-stats.22396/
+# - Multiverse-Core: https://dev.bukkit.org/bukkit-plugins/multiverse-core/
+# - KingKits: https://www.spigotmc.org/resources/kingkits.2209/
+# - PlaceholderAPI: https://www.spigotmc.org/resources/placeholderapi.6245/
+# - Essentials
+
+#COMMANDS:
+# - /chatformat reload
+#
+
+#PERMISSIONS:
+# - ChatFormat.admin (For command /chatformat reload)
+# - ChatFormat.color (Color chat codes "&" for VIP!)
+
+
+#Settings
+default_format: ' &7┊ &7{PLAYER_NAME} &7► &f{MESSAGE}'
+
+PluginReloaded: '&0[&eChatFormat&0] &aConfig reloaded!'
+NoPermissions: '&0[&eChatFormat&0] &cYou dont have permissions!'
+UnkownCommand: '&0[&eChatFormat&0] &cUse: &e/chatformat reload'
+
+#GROUPS
+groups:
+  oyuncu:
+    format: ' &7┊ &3Oyuncu &b{PLAYER_NAME} &7► &f{MESSAGE}'
+  vip:
+    format: ' &7┊ &eVIP &7{PLAYER_NAME} &7► &f{MESSAGE}'
+  vip+:
+    format: ' &7┊ &eVIP&c+ &7{PLAYER_NAME} &7► &f{MESSAGE}'
+  mvip:
+    format: ' &7┊ &aMVIP &7{PLAYER_NAME} &7► &f{MESSAGE}'
+  mvip+:
+    format: ' &7┊ &aMVIP&c+ &7{PLAYER_NAME} &7► &f{MESSAGE}'
+  rehber:
+    format: ' &7┊ &aRehber &2{PLAYER_NAME} &7► &f{MESSAGE}'
+  mimar:
+    format: ' &7┊ &6Mimar &e{PLAYER_NAME} &7► &f{MESSAGE}'
+  moderatör:
+    format: ' &7┊ &5Moderator &d{PLAYER_NAME} &7► &f{MESSAGE}'
+  admin:
+    format: ' &7┊ &bAdmin &3{PLAYER_NAME} &7► &f{MESSAGE}'
+  yönetici:
+    format: ' &7┊ &4Yönetici &c{PLAYER_NAME} &7► &f{MESSAGE}'

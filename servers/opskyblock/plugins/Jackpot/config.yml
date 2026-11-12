@@ -1,0 +1,98 @@
+# +------------------------------------------------------+ #
+# |                 Jackpot (Configuration)              | #
+# +------------------------------------------------------+ #
+# If you have problems, join the Jackpot help support channel:
+# https://discord.gg/gFwVVTE
+# -----------------------------------------------------------
+# Use these placeholders to display information:
+# -
+# {amount} ---> Amount of tickets purchased.
+# {price} ---> Price for tickets purchased.
+# -
+# {timer} ---> Total time remaining till jackpot draw.
+# {total-value} ---> Total value of current jackpot.
+# {tax} ---> Jackpot tax percentage.
+# {total-tickets} ---> Total amount of jackpot tickets.
+# {player-tickets} ---> Number of jackpot tickets purchased by the player.
+# {player-percent} ---> The percentage change the player will win the draw.
+# -
+# {winner} ---> The player name of the current jackpot draw winner.
+# {prize} ---> The current jackpot draw prize.
+# -----------------------------------------------------------
+# IMPORTANT NOTES:
+#    > Wrap your text in '' (quotes) if using color codes.
+#    > All time values are in seconds.
+#    > A tax-percent value of 0.10 is a 10% tax.
+# -----------------------------------------------------------
+jackpot:
+  ticket-price: 100000
+  draw-time: 3600
+  tax-percent: 0.1
+  warnings:
+  - 1200
+  - 900
+  - 600
+  - 60
+  confirm-gui: true
+messages:
+  buy-ticket: Â§6SkyBlock &8â–º Â§b{price} dinar Â§ekarÅŸÄ±lÄ±ÄŸÄ±nda baÅŸarÄ±yla Â§d{amount} Â§ebilet satÄ±n aldÄ±nÄ±z
+  cannot-afford: Â§6SkyBlock &8â–º Â§b{price} dinar Â§etutarÄ±ndaki Â§c{amount} Â§ebiletin toplam fiyatÄ±nÄ± karÅŸÄ±layamazsÄ±nÄ±z!
+  jackpot-info:
+  - ''
+  - '&e&l&m---------&6 &6Jackpot &e&l&m---------&6'
+  - ''
+  - '&fYatÄ±rÄ±lan Miktar: &e{total-value} Dinar &7(-{tax}% Vergi)'
+  - '&fSatÄ±lan Biletler: &e{total-tickets}'
+  - '&fBiletleriniz: &e{player-tickets} &7({player-percent}%)'
+  - ''
+  - '&fJackpot SonuÃ§larÄ±na &d{timer}'
+  - ''
+  - '&e&l&m---------&6 &6Jackpot &e&l&m---------&6'
+  jackpot-results:
+  - ''
+  - '&e&l&m---------&6 &6Jackpot &e&l&m---------&6'
+  - ''
+  - '   &fJackpot kazandÄ±ÄŸÄ± iÃ§in &b{winner}''Ä± &ftebrik ederiz!'
+  - '   &fBakiyelerine &d{prize} Dinar &fÃ¶dÃ¼l eklendi.'
+  - ''
+  - '&e&l&m---------&6 &6Jackpot &e&l&m---------&6'
+  jackpot-warning:
+  - ''
+  - '&e&l&m---------&6 &6Jackpot &e&l&m---------&6'
+  - ''
+  - '&f   Bilet almak iÃ§in &b/jackpot'
+  - '&f   Jackpot Ã‡ekilmesine &d{timer}'
+  - ''
+  - '&e&l&m---------&6 &6Jackpot &e&l&m---------&6'
+confirm-gui:
+  title: Jackpot Bilet
+  confirm-button:
+    material: LIME_STAINED_GLASS_PANE
+    name: '&aSatÄ±n Al'
+    lore:
+    - ''
+    - '&fBilet alarak oyunu oynayabilirsin.'
+    - '&fFazla yatÄ±rÄ±rsan daha fazla kazanÄ±rsÄ±n.'
+    - ''
+    - '&fFiyat: &d{amount}'
+    - ''
+    - '&eâ–º Almak iÃ§in tÄ±kla!'
+  cancel-button:
+    material: RED_STAINED_GLASS_PANE
+    name: '&cÄ°ptal Et'
+    lore:
+    - ''
+    - '&fBilet alarak oyunu oynayabilirsin.'
+    - '&fFazla yatÄ±rÄ±rsan daha fazla kazanÄ±rsÄ±n.'
+    - ''
+    - '&fFiyat: &d{amount}'
+    - ''
+    - '&eâ–º Ä°ptal etmek iÃ§in tÄ±kla!'
+  center-button:
+    material: BOOK
+    name: '&eBilgi'
+    lore:
+    - ''
+    - '&fUnutmayÄ±n %10 vergi alÄ±r.'
+    - '&fOnaylayÄ±n veya iptal edin.'
+  cancel-message: '&6SkyBlock &8â–º &eBilet satÄ±n alma iÅŸleminizi iptal ettiniz!'

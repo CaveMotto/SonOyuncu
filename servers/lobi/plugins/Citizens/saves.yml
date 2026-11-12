@@ -1,0 +1,277 @@
+# Citizens NPC Storage
+
+
+last-created-npc-id: 6
+npc:
+  '0':
+    metadata:
+      cached-skin-uuid: a2f98472-b3cf-4bc3-936e-cbf0a4ff1729
+      cached-skin-uuid-name: deliveryman
+    name: '&f'
+    uuid: 7402d6f5-994d-4c57-86bc-143bf6c185e6
+    traits:
+      type: PLAYER
+      skintrait:
+        fetchDefaultSkin: true
+        signature: Kfp9qhIpf+wuikgeiujDmBvyUy6vuXPf3MoVD5waFKqUSXhxGcq4RX6I0KMJFs/AlYc7oPyGJtl+0CRmqcq/CchyTvBQ2ysILBEX1hwl3ofZJ4808mryYD4GjgipVDahXT3ExU5VrGKkoTqfiVZo978KKh3p3VrNBzV/HFfTcXQYl4qTRp21ZGDny19etfIoKXG9ZAYTdrg5oCVTqiIw6AEoyXIcdFpkbHlxA732nRY15kFIxhdF8nofzuPCkXQMxQF0t+NpKykRSilW3WlJghElz8zf3CDxvVGl/669y/N6kX8gtZu/DboPSHxtDbvxPzFb3QnwdWLtAyyEzaBoAXBYEWk0cfEsyqb4TEd0RiksWCYVbFg+pYPJCa+Hd9igZNz95G7j44vioL6t/uvSIAmn6Z7LG05QpwOnC6oS+DfkSBNhsDBSJ/tRcSCmyRlVV8QURZrTCr5q1fosed3IfbZEbrWln7klDRudz7xVfT1wAs+zTbld/lQxAfeHMLwkx35mgFaxuVH7L2rFPizA17be2g+6ZNDNffZPQ6XMJytzhUDDlePPNzM60vTYAlSfZvPp6L2YNcO3DgrYl0X4gPohLVpqhnwB0/VUtJBawjVAMr22jmU/jXbGJDpTR6z2uP6qyU+r2IT6SlDcsUp/fYT4U86H2cjYBexzWg0BOu4=
+        skinName: deliveryman
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTcyMjAzNDQxNDA3NywKICAicHJvZmlsZUlkIiA6ICJhMmY5ODQ3MmIzY2Y0YmMzOTM2ZWNiZjBhNGZmMTcyOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJEZWxpdmVyeU1hbiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9mOThiYzYzZjA1ZjYzNzhiZjI5ZWYxMGUzZDgyYWNiM2NlYjczYTcyMGJmODBmMzBiYzU3NmQwYWQ4YzQwY2ZiIgogICAgfQogIH0KfQ==
+        updateSkins: false
+      spawned: true
+      scoreboardtrait: {}
+      inventory: {}
+      location:
+        bodyYaw: -178.95107
+        world: Lobi
+        x: '68.5002'
+        y: '117.0'
+        z: '22.4852'
+        yaw: '-178.9511'
+        pitch: '1.8'
+      owner:
+        uuid: bc405eed-8e2a-3c85-8436-76f1c4ba8638
+    traitnames: skintrait,location,scoreboardtrait,type,mounttrait,inventory,owner,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: false
+  '3':
+    metadata:
+      cached-skin-uuid: f74c3634-9431-4e08-980b-4d4b4b89c98e
+      cached-skin-uuid-name: fycast
+    name: '&f'
+    uuid: d955076d-99ce-4df2-89a8-5a91b5851ed8
+    traits:
+      location:
+        bodyYaw: -94.002266
+        world: Lobi
+        x: '54.4913'
+        y: '118.0'
+        z: '11.4979'
+        yaw: '-94.0023'
+        pitch: '0.4269'
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: false
+        enableRandomLook: false
+        headonly: false
+        linkedbody: false
+        perplayer: false
+        randomLookDelay: 60
+        randomSwitchTargets: false
+        realisticlooking: false
+        targetnpcs: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      type: PLAYER
+      spawned: true
+      inventory: {}
+      owner:
+        uuid: bc405eed-8e2a-3c85-8436-76f1c4ba8638
+      scoreboardtrait: {}
+      rotationtrait:
+        globalParameters: {}
+      skintrait:
+        fetchDefaultSkin: true
+        signature: EZcs+ojLLvrwO7lnQx0GfokCL2bAB2HpyEYTKt0jg19H3y5XxXsZauC1HObyvlnwZz5TaR+t3IgXZr54iLpQkr/77BFpclv3oyvylutBGYNxdXBvRYXlrxHfPxcD9bEjxZZY/2oR6ugVc1tpY1mplfYKQKx8DZj8NSLAJOe+IbzLBnrchu+E5Jk3XFsXp3MOh0hD6VR9LaENFvHwoRdG+EcZ/ZkvwFeiqgJe17oM6vu2RQzoRO8LNSVE/U2wq1ks804TPlkASiurW4FTqn/PMECjvX1TSeGikmFt5BDTbSGmi4b44t3G5necVKxnvx+o24bIbCJluYKiJ6rvwfd2d6omBzweG4Bp38X6pR++K5eJNsKu96AucpZaGglkXlTN5TvrIEzjDsJoSFd8KXWNm7ttVuRyUH02coznZ4WSFSeUrbwxwPXLqQwiSL9wVpoa9cUWSXBW0R54YrOV9QgAc/3Io43zUowW+EIJyNbawxjyHodk1su6elkrPlvBBQZXMfxh9uXYnwJkLGIR+f2Obh2yhaGxALzkA8bLeOsovAf7ShKEJFUBNHfoJmL2+If4JahuhUe9+WsrTJjaZ25fFdE/BFB0BV8NUKL15+J3IYpP6p88GiLujKkxTCpbmAP8u0vrD7KkEGA6mXjG/G4xCtu0hEpZGiWr+zVz44m0Z3c=
+        skinName: fycast
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTcyMjA0MTc1MjU3MiwKICAicHJvZmlsZUlkIiA6ICJmNzRjMzYzNDk0MzE0ZTA4OTgwYjRkNGI0Yjg5Yzk4ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJmeWNhc3QiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDFiZmI5MWVhN2U3YTgyMGJiM2Q5ZThlZWU4OWMwMzYzNGRlYTQ0ODliYzlmOWM2N2M2YzE4YTZiNjg2ZGUxIgogICAgfQogIH0KfQ==
+        updateSkins: false
+    traitnames: skintrait,location,lookclose,scoreboardtrait,type,mounttrait,rotationtrait,inventory,spawned,owner
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: false
+  '2':
+    metadata:
+      cached-skin-uuid: c8d76c3e-0074-4281-b6b5-d6e92b066432
+      cached-skin-uuid-name: island
+    name: '&f'
+    uuid: 3b694a6b-c535-4ecb-915b-12519cf0d523
+    traits:
+      location:
+        bodyYaw: -88.85052
+        world: Lobi
+        x: '52.559'
+        y: '118.0'
+        z: '3.5147'
+        yaw: '-88.8505'
+        pitch: '-1.0833'
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: false
+        enableRandomLook: false
+        headonly: false
+        linkedbody: false
+        perplayer: false
+        randomLookDelay: 60
+        randomSwitchTargets: false
+        realisticlooking: false
+        targetnpcs: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      type: PLAYER
+      spawned: true
+      inventory: {}
+      owner:
+        uuid: bc405eed-8e2a-3c85-8436-76f1c4ba8638
+      scoreboardtrait: {}
+      rotationtrait:
+        globalParameters: {}
+      skintrait:
+        fetchDefaultSkin: true
+        signature: BoZOMG84MYJcCYOIoWxn1KClt1zOVkoAuVHxqRQrHmQs9g3POlMfy2HuTn7eFjExBV3d7Q6cEWl3oD0xchcuM7XnGMqDRkkt6hrvHZ0UC4wtxO+yFmiwewSkdA3rf6+Ip2fnt7RIy5wDmM1Oy/fxa9QXSCiZj0zDnI27l5jidD7MyF6X94GvB6krADSr0LE7Uuv4HR80wJiuTvE+hfaD03+y8RRKMpNdVSCWqgGiFohDAdoQtm9/RZy8KqmQBW2N/eRIOkwDLEIlq0zvIubhqbfSyernflzMf++RpQ5Ykwy/QjmdIPBcbP/wOj1RN0o1BaFVmE3EI0JxR1VbM7LWonW70ebY8fOz2DkepIEMOSeloe2I1pChRlV7nYlX0rcylqk+4TN61MPZyLoBAkMnub547G882w0wScPCbFEm6o+Hcpx9EPkuFICQM09ZuYxjhsOJAjtTXgY61Kp+wfBxvPbC31Aoi0kpQJGsVzkAFvgVCmSPFmT9JrPv+S7ksYNM4W1HyuteGl4m7dOTX2iolV15+9dzU3zaUBPWAUnGY4wqc8IS/JkzM20rvMN7bQOuysb0jNiLzwyuTa3LMy9kdI7eRvQnJMpJeivr1o2Eao6HorwBMexLfWyBKqxCRvzTQmdtJkHcEAnLAVC9HaxAj1UnQO5WYdiqo5Y/XBLi61g=
+        skinName: island
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTcyMjA0MTM0MDg1NywKICAicHJvZmlsZUlkIiA6ICJjOGQ3NmMzZTAwNzQ0MjgxYjZiNWQ2ZTkyYjA2NjQzMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJJc2xhbmQiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzUzYzg5YTJhZGM0ZWU1YmExZjA1ZTVkNjRlOWI0YmI2YjMyMzJjNzIwMjhlMGNiZTM1ZTFiNzNkMGM1N2RjMSIKICAgIH0KICB9Cn0=
+        updateSkins: false
+    traitnames: skintrait,location,lookclose,scoreboardtrait,type,mounttrait,rotationtrait,inventory,owner,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: false
+  '4':
+    metadata:
+      cached-skin-uuid: 1608521d-2449-42ad-83ae-9020f31af7dc
+      cached-skin-uuid-name: iam911
+    name: '&f'
+    uuid: dda172f6-4fba-4ac5-a3e1-312d1904f846
+    traits:
+      location:
+        bodyYaw: -90.67908
+        world: Lobi
+        x: '54.4996'
+        y: '118.0'
+        z: '-4.5121'
+        yaw: '-90.6791'
+        pitch: '9.0'
+      type: PLAYER
+      spawned: true
+      inventory: {}
+      owner:
+        uuid: bc405eed-8e2a-3c85-8436-76f1c4ba8638
+      scoreboardtrait: {}
+      skintrait:
+        fetchDefaultSkin: true
+        signature: SpPBSbm5IWA+qd19RZBJP5Mb4EP86XMkld3koi1Hub3/T5ZuJqZ2MpQVQd14sE+AVo0WweMPKik9UzSFVAso7eOYbPjSTF1+yd6ww8QNAKfbuyQDtG+vcUpJg5fAA38TLWNgfrw9Gk83fiHrBMWUylpEmd6ZVYDjFyXpIGG3gci7Peu1a/zLVoOMoki7YTc8x5daL0dHRw7Vl2XYo8AS+jRkY95fU3I+N1O7uMgmvoNyHVXeXXoefgqXlDRdoq9RJUBl0Aj+9O+npZltB3ZoY50oUlETnvWCOwR6gZQIFM+mYVELLkZp9cJj7UDtUfT/t54deWAIek/l3KESdhQFHZilHwgW8HR43fHpeM5OGAYcluBAc0ANVKtOqBmvoJADF7FdXBoJhjkl/NZGvtshfQwaJPbUA6h3Ua9PHLExBCH7kGfeFY3KUrQeoj5hFi2ZfuwwGHAwTDmrphKvjOQXHAGhR3ziwhUIwKmRxPGYQdZUuSPSe4ITNhLOcWH2e/c8Xs8f1AkyhaepAUBOxL6ITHeJgd2F3sfS4VLHl9ytNzbetelH/7U4EPGzbiO80KkOh+oTopCob+4QXI98iwYSilKgzxxJ16bQQ6Ge7hcnTTqk34a5zHC9AxUwdLOlKklL3nB3VoTgETkN6jbrQYRPBeVR5BE4lq6hlrGoS5hcVUs=
+        skinName: IAm911
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTcyMjA1Nzk1MDUyMywKICAicHJvZmlsZUlkIiA6ICIxNjA4NTIxZDI0NDk0MmFkODNhZTkwMjBmMzFhZjdkYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJJQW05MTEiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWY1MjBlNWJlZDEzNTQ5YTc0ZTAwNGRlYzkwNzY4YzVkYmU5YzQzN2JiNWVhNzQ5NjVhNjMyMjQ2NzI2MzVkMyIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9
+        updateSkins: false
+    traitnames: skintrait,location,scoreboardtrait,type,mounttrait,inventory,owner,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: false
+  '5':
+    metadata:
+      cached-skin-uuid: a39ef57a-387c-4cd1-9740-59b732ebc7a5
+      cached-skin-uuid-name: merchant
+    name: '&f'
+    uuid: 81b43fb1-b3bc-4909-8909-98edd1a08047
+    traits:
+      location:
+        bodyYaw: -95.2187
+        world: Lobi
+        x: '57.4988'
+        y: '118.0'
+        z: '-9.4872'
+        yaw: '-95.2187'
+        pitch: '3.1095'
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: false
+        enableRandomLook: false
+        headonly: false
+        linkedbody: false
+        perplayer: false
+        randomLookDelay: 60
+        randomSwitchTargets: false
+        realisticlooking: false
+        targetnpcs: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      type: PLAYER
+      spawned: true
+      inventory: {}
+      owner:
+        uuid: bc405eed-8e2a-3c85-8436-76f1c4ba8638
+      scoreboardtrait: {}
+      rotationtrait:
+        globalParameters: {}
+      skintrait:
+        fetchDefaultSkin: true
+        signature: IkvPI8goXLha1N80ndbtT9liWWgoHCr6SexG6mt+/D1h28/Z+TX0f/deLxiXCumCShWwmriZD0WRdLeHJS49f1zG8+fqzoiFeytrlRKymv/QyPskYMp+fw26+c/17ukh6W4G2UoqEE8dmAYdcqB75KFVUJ4XjaK8nEeJ/TN6jXmnURDV4CInzfNVr0fLerrR5/m/g8cFvqdkzx6g6NvgaIduJsqtFtSQVRn2Je94KMXchaksS/UXGpyhn5pzm9MkTI0oaoXyTUje6LK/6ok32bDHNq4d2DPEshw6dtK9zntXAS5pHNxAXOKAzZByxhOmKts1LGgHxf2rk8A+jJmmUmprcrwsoavjokDGjIaa892FDNV3gBYG0GMbI3eboUeasqi4YOB/16gRU8vH/a4x4nQu6JWna74xh/Z5nRhWdBofGQFfLj9daUsur2CtBatwgVrO/CIl0uDlJZHnqR1VXL7v85qTvpJT8FwMYOv99HUeEdu6TLPXW79eQwD9Y0O+qHJEJm0wVeH/ef8EwAQh+VNoLLjpg8Cb2moNhCss3YYcfrPef3kjP6xpiA1LaI1R4y6OLvcQBAdmp8c9tKGF7QVWR6C8EuOy+2JoXGRA8gZxAjTTeRvmJ52Sowmmwu/3cXtvBazftHKClT7uV/teYVns+oGCJ+8dhO0F89R1xf8=
+        skinName: merchant
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTcyMjA0MjI4OTgxOCwKICAicHJvZmlsZUlkIiA6ICJhMzllZjU3YTM4N2M0Y2QxOTc0MDU5YjczMmViYzdhNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJNZXJjaGFudCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS84NjRkNDMxNjUxZDhjZTdkYTJkOGY4OGRkODIyZDk1NTdkN2JjZjliMGI1ZDBhOGVkMTNiOTg5ODgxZmFkYmVmIgogICAgfQogIH0KfQ==
+        updateSkins: false
+    traitnames: skintrait,location,lookclose,scoreboardtrait,type,mounttrait,rotationtrait,inventory,owner,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: false
+  '6':
+    metadata:
+      cached-skin-uuid: c8e545bb-cff7-411d-ab07-b9deb5d41b9f
+      cached-skin-uuid-name: kevinn12
+    name: '&f'
+    uuid: a91357f3-5acf-4fcc-8135-a6d9496599e1
+    traits:
+      location:
+        bodyYaw: -86.320015
+        world: Lobi
+        x: '57.4772'
+        y: '118.0'
+        z: '16.4802'
+        yaw: '-86.32'
+        pitch: '-0.2597'
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: false
+        enableRandomLook: false
+        headonly: false
+        linkedbody: false
+        perplayer: false
+        randomLookDelay: 60
+        randomSwitchTargets: false
+        realisticlooking: false
+        targetnpcs: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      type: PLAYER
+      spawned: true
+      inventory: {}
+      owner:
+        uuid: bc405eed-8e2a-3c85-8436-76f1c4ba8638
+      scoreboardtrait: {}
+      rotationtrait:
+        globalParameters: {}
+      skintrait:
+        fetchDefaultSkin: true
+        signature: r8VHh6RwD6A9G/Azvz9ImivV8kcVAOGHn/G23d5sh5kAeLKqYBo5APfuJo3k9/G9H77Wx5iBYvow+kBzKRIHEhCtygLd4/5NASUanl2igG0GaI6sDcsOJC5mqc1dHkaDHHYbLCO4a+yupd4CMMQBRB2pg2CiVB4Sy0SOJzm7O906cFMc/gasVZzXYXsA0e4jJA/m2SfKeaco209Ke/hVzcOKt/0ilt4uxhS0ZzksXGMrpUdrwZWFaweGIfn1/SjuSJq7024yqdLNo5TQ2qAc+GMQSv5ZX2otdc+MpRe4CeaCWFqftQIZDS7uRrBgAK0IU9F4wKk/CnAimqdCL1Rf3Z4/U3si4vkkWqhGzf4Xp+G3xMYWc7Re+V6YN10qfoY75zmw5hZFKGq2xmd4GbXQquWHG/AVoehDG4kqjZtiGOlsIyr0++HjUs3gHxDiYd9WjYWHxyoEm2mfA45gjovcszOdz8pbn7GtnDu6pz7xL5p0uG6HBPaubKPKrJBf3dKVhlEqT3S4gvZqs+V1qJJR5aof+xnLpN+JFle3sFLhEzUdkzGaHyi2XbVcFSxUh0Xn0kHeynDra7uzVIzQfYxrzeZRd3bdApvM+6IJe2bbasBbsfjFEQL8m+qrjWkryCSYzr2/R8rhztlBTlUkA3V0zpeASVhAGij3NPUFcNqts2s=
+        skinName: kevinn12
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTcyMjA0MjYxNzk1MSwKICAicHJvZmlsZUlkIiA6ICJjOGU1NDViYmNmZjc0MTFkYWIwN2I5ZGViNWQ0MWI5ZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJrZXZpbm4xMiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8zMjg0M2JmNjlmNDk5MzVjZGM1ZjNlNmIxMTc2MTNkMWM4NzE0ZDg5YjA0YTRiN2YzNGEyNDgxYzA3N2JiNzQ0IgogICAgfQogIH0KfQ==
+        updateSkins: false
+    traitnames: skintrait,location,lookclose,scoreboardtrait,type,mounttrait,rotationtrait,inventory,spawned,owner
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: false

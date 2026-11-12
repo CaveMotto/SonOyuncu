@@ -1,0 +1,52 @@
+menu_title: "&7Dirhem Market"
+open_command:
+- dirhemmarket
+- dirhem market
+size: 27
+items: 
+  'blok':
+    material: PRISMARINE
+    slot: 10
+    display_name: '&eBlok'
+    click_commands:
+      - '[openguimenu] dirhemmarket-blok'
+      - '[close] '
+    right_click_commands:
+      - '[openguimenu] dirhemmarket-blok'
+      - '[close] '
+  'kazma':
+    material: DIAMOND_PICKAXE
+    slot: 12
+    display_name: '&eKazma'
+    hide_enchantments: true  
+    enchantments:
+    - DURABILITY;1
+    click_commands:
+      - '[openguimenu] dirhemmarket-kazma'
+      - '[close] '
+    right_click_commands:
+      - '[openguimenu] dirhemmarket-kazma'
+      - '[close] '
+  'spawner':
+    material: MOB_SPAWNER
+    slot: 14
+    display_name: '&eSpawner'
+    click_commands:
+      - '[openguimenu] dirhemmarket-spawner'
+      - '[close] '
+    right_click_commands:
+      - '[openguimenu] dirhemmarket-spawner'
+      - '[close] '
+  'anahtar':
+    material: TRIPWIRE_HOOK
+    slot: 16
+    display_name: '&eAnahtar'
+    enchantments:
+    - DURABILITY;1
+    hide_enchantments: true    
+    click_commands:
+      - '[openguimenu] dirhemmarket-anahtar'
+      - '[close] '
+    right_click_commands:
+      - '[openguimenu] dirhemmarket-anahtar'
+      - '[close] '

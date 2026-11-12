@@ -1,0 +1,162 @@
+﻿options:
+	P:&6Faction &8► 
+command /meslek [<text>] [<text>]:
+	permission: meslek.oyuncu
+	aliases: /m , /iş , /is
+	usage: <light yellow> Yardim icin <light green>/meslek bilgi, <light yellow>Meslek Hakkında Bilgi Almak Icin <light green>meslek bilgi <meslekadi>
+	trigger:
+		if arg 1 is "bilgi":
+			if arg 2 is not set:
+				send "{@P}<light yellow>Meslekler Hakkında Bilgi Almak İçin <light green>/meslek bilgi <meslekadi>" to player
+				send "{@P}<light yellow>Meslek Almak İçin <light green>/meslek al <meslekadi>" to player
+			if arg 2 is "Oduncu":
+				send "{@P}<light red>Oduncu Odun Kırak Para Kazanır." to player
+				send "{@P}<light red>Her Odun Basina 1.5 TL gelir." to player
+			if arg 2 is "Kazıcı":
+				send "{@P}<light red>Kazıcı Kum Ve Toprak Kazarak Para Kazanır" to player
+				send "{@P}<light red>Her Kum veya Toprak Kazısında 1 TL gelir" to player
+			if arg 2 is "Madenci":
+				send "{@P}<light red>Madenci Madenleri Kazarak Para Kazanır." to player
+				send "{@P}<light red>Tas 1.5TL, Demir 3TL, Altın 6TL, Elmas 10TL Kazandırır." to player
+			if arg 2 is "Balıkçı":
+				send "{@P}<light red>Balıkçı Balık Tutarak Para Kazanır." to player
+				send "{@P}<light red>Balık Basina 5TL Gelir." to player
+		if arg 1 is "liste":
+			if arg 2 is not set:
+				send "{@P}<light blue>Oduncu" to player
+				send "{@P}<light blue>Kazıcı" to player
+				send "{@P}<light blue>Balıkcı" to player
+				send "{@P}<light blue>Madenci" to player
+				send "{@P}<light blue>Avci" to player
+		if arg 1 is not set:
+			send "{@P}<light yellow> Yardim icin <light green>/meslek bilgi, <light yellow>Meslek Hakkında Bilgi Almak Icin <light green>/meslek bilgi <meslekadi>" to player
+			send "{@P}<light yellow> Yardim icin <light green>/meslek liste, <light yellow>Tüm Girebilceğin meslekleri listeler." to player
+			send "{@P}<light yellow> Yardim icin <light green>/meslek al, <light yellow>Meslek Yapmak İçin <light green>/meslek al <meslekadi>" to player
+			send "{@P}<light yellow> Yardim icin <light green>/meslek ayrıl, <light yellow>Meslekten Otamatik Ayrılır." to player
+		if arg 1 is "al":
+			if arg 2 is not set:
+				send "{@P}<light yellow> Yardim icin <light green>/meslek al, <light yellow>Meslek Yapmak İçin <light green>/meslek al <meslekadi>" to player
+			if arg 2 is "Oduncu":
+				if {meslek.%player%} is set:
+					send "{@P}<light yellow>Zaten Bir Mesleğin Var Önce <light green>/meslek ayril<light yellow> Komutuyla Meslekten Ayril!" to player
+				else:
+					set {meslek.%player%} to "Oduncu"
+					send "{@P}<light yellow>Başarıyla Oduncu Oldun." to player
+			if arg 2 is "Madenci":
+				if {meslek.%player%} is set:
+					send "{@P}<light yellow>Zaten Bir Mesleğin Var Önce <light green>/meslek ayril<light yellow> Komutuyla Meslekten Ayril!" to player
+				else:
+					set {meslek.%player%} to "Madenci"
+					send "{@P}<light red>Başarıyla Madenci Oldun." to player
+			if arg 2 is "Kazıcı":
+				if {meslek.%player%} is set:
+					send "{@P}<light yellow>Zaten Bir Mesleğin Var Önce <light green>/meslek ayril<light yellow> Komutuyla Meslekten Ayril!" to player
+				else:
+					set {meslek.%player%} to "Kazici"
+					send "{@P}<light red>Başarıyla Kazıcı Oldun." to player
+			if arg 2 is "Balıkçı":
+				if {meslek.%player%} is set:
+					send "{@P}<light yellow>Zaten Bir Mesleğin Var Önce <light green>/meslek ayril<light yellow> Komutuyla Meslekten Ayril!" to player
+				else:
+					set {meslek.%player%} to "Balikci"
+					send "{@P}<light red>Başarıyla Balıkçı Oldun." to player
+			if arg 2 is "Avci":
+				if {meslek.%player%} is set:
+					send "{@P}<light yellow>Zaten Bir Mesleğin Var Önce <light green>/meslek ayril<light yellow> Komutuyla Meslekten Ayril!" to player
+				else:
+					set {meslek.%player%} to "Avci"
+					send "{@P}<light red>Başarıyla Avcı Oldun." to player
+		if arg 1 is "ayril":
+			if arg 2 is not set:
+				if {meslek.%player%} is not set:
+					send "{@P}<light red>Zaten Bir Mesleğe Sahip Değilsin"  to player
+				else:
+					delete {meslek.%player%}
+					send "{@P}<light red>Başarıyla Mesleğinden Ayrıldın." to player
+on break of any log:
+	if {meslek.%player%} is "Oduncu":
+		add 1.5 to {para.%player%}
+		add 1.5 to {oduncupuan.%player%}
+on break of stone:
+	if {meslek.%player%} is "Madenci":
+		add 1.5 to {para.%player%}
+		add 1.5 to {madencipuan.%player%}
+on break of coal ore:
+	if {meslek.%player%} is "Madenci":
+		add 2.5 to {para.%player%}
+		add 2.5 to {madencipuan.%player%}
+on break of redstone ore:
+	if {meslek.%player%} is "Madenci":
+		add 5 to {para.%player%}
+		add 5 to {madencipuan.%player%}
+on break of lapis ore:
+	if {meslek.%player%} is "Madenci":
+		add 3 to {para.%player%}
+		add 3 to {madencipuan.%player%}
+on break of iron ore:
+	if {meslek.%player%} is "Madenci":
+		add 3 to {para.%player%}
+		add 3 to {madencipuan.%player%}
+on break of gold ore:
+	if {meslek.%player%} is "Madenci":
+		add 6 to {para.%player%}
+		add 6 to {madencipuan.%player%}
+on break of diamond ore:
+	if {meslek.%player%} is "Madenci":
+		add 10 to {para.%player%}
+		add 10 to {madencipuan.%player%}
+on break of sand or dirt:
+	if {meslek.%player%} is "Kazici":
+		add 1 to {para.%player%}
+		add 1 to {kazicipuan.%player%}
+on fishing:
+	if {meslek.%player%} is "Balikci":
+		add 5 to {para.%player%}
+		add 5 to {balikcipuan.%player%}
+on place of any log:
+	if {meslek.%player%} is "Oduncu":
+		remove 1.5 from {para.%player%}
+		remove 1.5 from {oduncupuan.%player%}
+on place of stone:
+	if {meslek.%player%} is "Madenci":
+		remove 1.5 from {para.%player%}
+		remove 1.5 from {madencipuan.%player%}
+on place of sand or dirt:
+	if {meslek.%player%} is "Kazici":
+		remove 1 from {para.%player%}
+		remove 1 from {kazicipuan.%player%}
+on place of stone:
+	if {meslek.%player%} is "Madenci":
+		remove 1.5 from {para.%player%}
+		remove 1.5 from {madencipuan.%player%}
+on place of iron ore:
+	if {meslek.%player%} is "Madenci":
+		remove 3 from {para.%player%}
+		remove 3 from {madencipuan.%player%}
+on place of gold ore:
+	if {meslek.%player%} is "Madenci":
+		remove 6 from {para.%player%}
+		remove 6 from {madencipuan.%player%}
+on place of lapis ore:
+	if {meslek.%player%} is "Madenci":
+		remove 3 from {para.%player%}
+		remove 3 from {madencipuan.%player%}
+on death:
+	if victim is a player:
+		if {meslek.%attacker%} is set:
+			add 7.5 to {para.%attacker%}
+	if victim is a zombie or creeper or spider:
+		if {meslek.%attacker%} is "Avci":
+			add 5 to {para.%attacker%}
+	if victim is an or enderman or zombie pigman or cave spider:
+		if {meslek.%attacker%} is "Avci":
+			add 7.5 to {para.%attacker%}
+	if victim is a pig or sheep or cow or chicken:
+		if {meslek.%attacker%} is "Avci":
+			add 3.5 to {para.%attacker%}
+	if victim is an Ender Dragon:
+		if {meslek.%attacker%} is "Avci":
+			add 150 to {para.%attacker%}
+	if victim is a ghast:
+		if {meslek.%attacker%} is "Avci":
+			add 10 to {para.%attacker%}

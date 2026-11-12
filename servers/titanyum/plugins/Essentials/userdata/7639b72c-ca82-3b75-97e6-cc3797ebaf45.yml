@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1794409385147
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1794480600391
+  login: 1794480520368
+money: '0'
+last-account-name: motto
+lastlocation:
+  world: 954a9da6-8d0f-4d95-bdd9-9cc36ea5c368
+  world-name: Yakamoz
+  x: -428.7731387802644
+  y: 76.0
+  z: -168.1990897721411
+  yaw: -336.62542724609375
+  pitch: 37.35000228881836
+logoutlocation:
+  world: a6cb88ec-8c99-4d98-a5ff-45c0d058a544
+  world-name: Liman
+  x: -9.905857135438815
+  y: 62.0
+  z: -4.671579295875378
+  yaw: -270.02081298828125
+  pitch: 23.849958419799805

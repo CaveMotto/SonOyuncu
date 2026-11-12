@@ -1,0 +1,11 @@
+message:
+  pickup-message: '&aBlocks from %blockColor% team picked, changed to team color.'
+  loot-message: '&aBlocks from %blockColor% team clicked, changed to team color'
+  enable-message: true
+sound: DIG_SNOW
+disabled-arenas:
+- disabled-arena-1
+- disabled-arena-2
+disabled-groups:
+- disabled-group-1
+- disabled-group-2

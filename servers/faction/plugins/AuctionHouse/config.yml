@@ -1,0 +1,144 @@
+# 
+# Your database information should go here.# 
+SQLite: true
+sql:
+  host: 127.0.0.1
+  port: '3306'
+  database: database
+  user: user
+  pass: password
+auction:
+  listingPrice: 2
+  listingHours: 24
+  unclaimedHours: 240
+  preventCreativeSale: true
+  maxSellPrice: 500000000
+blacklist:
+- '1000'
+- '1001:12'
+- '12333:4'
+blacklistLore:
+- Blacklisted Line Of Lore
+language:
+  mainMenuName: Oyuncu Market
+  currentListingsMenuName: SatÄ±ÅŸta Olan EÅŸyalarÄ±nÄ±z
+  expiredMenuName: SatÄ±lmayan EÅŸyalarÄ±nÄ±z
+  purchaseItemMenuName: 'SatÄ±n Almaktan Emin Misin? '
+  menuItemText:
+    listedItem:
+      lore:
+      - '&8&m-------------------------'
+      - '&eAlmak iÃ§in tÄ±kla.'
+      - ''
+      - '&7Fiyat: &6%price%TL'
+      - '&7SatÄ±cÄ±: &6%seller%'
+      - '&8&m-------------------------'
+    yourListedItem:
+      lore:
+      - '&8&m-------------------------'
+      - '&eÄ°ptal etmek iÃ§in tÄ±kla.'
+      - ''
+      - '&7Fiyat: &6%price%TL'
+      - '&7Zaman: &6%time%'
+      - '&8&m-------------------------'
+    yourExpiredItem:
+      lore:
+      - '&8&m-------------------------'
+      - '&eÄ°temini almak iÃ§in tÄ±kla.'
+      - '&8&m-------------------------'
+    yourListedItems:
+      id: '264'
+      name: '&eSatÄ±ÅŸta Olan EÅŸyalarÄ±nÄ±z'
+      lore:
+      - '&7Satmakta olduÄŸunuz kaÃ§ item'
+      - '&7var hepsine bakabilirsiniz.'
+      - ''
+      - '&8â‹† &7EÅŸya Adeti: &6%selling%'
+    yourExpiredItems:
+      id: '394'
+      name: '&eSatÄ±lmayan EÅŸyalarÄ±nÄ±z'
+      lore:
+      - '&7Burada satamadÄ±ÄŸÄ±nÄ±z eÅŸyalara'
+      - '&7bakÄ±p inceleyebilirsiniz.'
+      - ''
+      - '&8â‹† &7EÅŸya Adeti: &6%expired%'
+    returnAllItems:
+      id: '390'
+      name: '&eHepsini Al'
+      lore:
+      - '&7Buna tÄ±klayarak geri envanterine alabilirsin.'
+    previousPage:
+      id: '339'
+      name: '&8â—„ &eÃ–nceki sayfa'
+    refreshPage:
+      id: '175'
+      name: '&eSayfayÄ± yenile'
+    nextPage:
+      id: '339'
+      name: '&eSonraki sayfa &8â–º'
+    backButton:
+      id: '339'
+      name: '&eGeri dÃ¶n'
+    howToSell:
+      id: '388'
+      name: '&ePazara nasÄ±l eÅŸya konur?'
+      lore:
+      - '&7Satmak istediÄŸiniz eÅŸyayÄ± elinize'
+      - '&7alÄ±p ÅŸu komutu giriniz.'
+      - ''
+      - '&8â‹† &6/ah sell &7(fiyat) (adet)'
+    mainWhatIsThisPage:
+      id: '340'
+      name: '&eSanal Pazar nedir?'
+      lore:
+      - '&7TicaretÃ§i Bir Ä°hale Sistemidir.'
+      - '&7EÅŸya AlÄ±mÄ± Ve SatÄ±ÅŸÄ± GerÃ§ekleÅŸtirebilirsin.'
+      - '&7Yada EÅŸyalarÄ±nÄ± Satarak Para Kazanabilirsin.'
+    yourListedWhatIsThisPage:
+      id: '340'
+      name: '&eBu Sayfa Ne Ä°Ã§in ?'
+      lore:
+      - '&7Burda SatÄ±ÅŸa KoyduÄŸun TÃ¼m EÅŸyalarÄ± GÃ¶rebilirsin.'
+      - '&7Burada SatÄ±ÅŸta Olan EÅŸyalarÄ±nÄ± Ä°ptal Edebilirsin.'
+    expiredWhatIsThisPage:
+      id: '340'
+      name: '&eBu Sayfa Ne Ä°Ã§in ?'
+      lore:
+      - '&7Bu Sayfada TÃ¼m Ä°ptal EttiÄŸin EÅŸyalarÄ±nÄ± GÃ¶rebilirsin.'
+      - '&7Bu Sayfada TÃ¼m Ä°ptal EttiÄŸin EÅŸyalarÄ± Geri Alabilirsin.'
+    purchaseConfirm:
+      name: '&aEminim'
+    purchaseCancel:
+      name: '&cEmin DeÄŸilim'
+    purchaseItem:
+      lore:
+      - ''
+      - '&7Fiyat: &6%price%TL'
+      - '&7Satan: &6%seller%'
+  clickFails:
+    notEnoughInventory: Not Enough Inventory Space
+    cannotPurchaseSelf: Kendi eÅŸyanÄ± alamazsÄ±n.
+    notExists: This Item No Longer Exists
+    cannotAfford: Maalesef paranÄ±z yetmiyor.
+    noListingsToReturn: No Listings To Return
+  chatMessages:
+    itemPurchased: '&3SkyBlock &8âŠ± &eBaÅŸarÄ±lÄ± ÅŸekilde satÄ±n aldÄ±nÄ±z.'
+    buyerPurchased: '&3SkyBlock &8âŠ± &a%buyer% &eadlÄ± kiÅŸi senin pazarÄ±ndan &a%price%TL&eye
+      eÅŸya satÄ±n aldÄ±.'
+    listedItem: '&3SkyBlock &8âŠ± &eEÅŸyanÄ±z &apazara &eeklendi.'
+    listingCancel: '&3SkyBlock &8âŠ± &eEÅŸyanÄ±z iptal edildi almak iÃ§in &a/ah expired.'
+    adminRemoveListing: '&3SkyBlock &8âŠ± &eListing Removed.'
+    expiredReturned: '&3SkyBlock &8âŠ± &eEÅŸyanÄ±z envanterinize geldi.'
+    notEnoughInventory: '&3SkyBlock &8âŠ± &eEnvanterinÄ°Z dolu lÃ¼tfen boÅŸaltÄ±nÄ±z.'
+    returnedAll: '&3SkyBlock &8âŠ± &eTÃ¼m eÅŸyalar envanterinize geldi.'
+    unknownCommand: '&3SkyBlock &8âŠ± &a/ah help &eyazarak komutlara eriÅŸebilirsiniz.'
+    notHoldingItem: '&3SkyBlock &8âŠ± &eElinizde eÅŸya bulunmamakta.'
+    inCreative: '&3SkyBlock &8âŠ± &eYaratÄ±cÄ± modda pazara eÅŸya koyamazsÄ±nÄ±z.'
+    noMore: '&cYou can not list any more items at once.'
+    max: '&cYou cannot list more than 45 items at a time.'
+    invalidPrice: '&cThat is not a valid price.'
+    maxMoney: '&3SkyBlock &8âŠ± &eMarkette &a5T &eden fazla para koyamazsÄ±nÄ±z.'
+    maxSetMoney: '&cYou can not list with a price higher than $1,000,000,000,000'
+    notEnoughMoney: '&cYou do not have enough money to list an auction.'
+    getHelp: '&3SkyBlock &8âŠ± &a/ah help &eyazarak komutlara eriÅŸebilirsiniz.'
+    isBlacklisted: '&cThat item is not allowed to be put on the auction house!'

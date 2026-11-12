@@ -1,0 +1,561 @@
+'1':
+  uniqueId: 5332d716-7f75-444b-bfc3-0580bc064913
+  name: Spawner Yukseltme
+  world: Edit
+  x: 127
+  y: 66
+  z: 217
+  type: admin
+  object: vıllager
+  uuid: 8299e2fc-7fce-4479-99cd-242396d0f6aa
+  prof: 4
+  recipes:
+    '0':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: MOB_SPAWNER
+        amount: 16
+        meta:
+          ==: ItemMeta
+          meta-type: TILE_ENTITY
+          display-name: §8▸ §eDemir Blok Spawner
+          lore:
+          - §8▸ §dby Motto
+          blockMaterial: MOB_SPAWNER
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        type: MOB_SPAWNER
+        amount: 2
+        meta:
+          ==: ItemMeta
+          meta-type: TILE_ENTITY
+          display-name: §8▸ §eAltın Blok Spawner
+          lore:
+          - §8▸ §dby Motto
+          blockMaterial: MOB_SPAWNER
+    '1':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: MOB_SPAWNER
+        amount: 16
+        meta:
+          ==: ItemMeta
+          meta-type: TILE_ENTITY
+          display-name: §8▸ §eAltın Blok Spawner
+          lore:
+          - §8▸ §dby Motto
+          blockMaterial: MOB_SPAWNER
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        type: MOB_SPAWNER
+        amount: 2
+        meta:
+          ==: ItemMeta
+          meta-type: TILE_ENTITY
+          display-name: §8▸ §eElmas Blok Spawner
+          lore:
+          - §8▸ §dby Motto
+          blockMaterial: MOB_SPAWNER
+    '2':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: MOB_SPAWNER
+        amount: 16
+        meta:
+          ==: ItemMeta
+          meta-type: TILE_ENTITY
+          display-name: §8▸ §eElmas Blok Spawner
+          lore:
+          - §8▸ §dby Motto
+          blockMaterial: MOB_SPAWNER
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        type: MOB_SPAWNER
+        amount: 2
+        meta:
+          ==: ItemMeta
+          meta-type: TILE_ENTITY
+          display-name: §8▸ §eZümrüt Blok Spawner
+          lore:
+          - §8▸ §dby Motto
+          blockMaterial: MOB_SPAWNER
+    '3':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: MOB_SPAWNER
+        amount: 16
+        meta:
+          ==: ItemMeta
+          meta-type: TILE_ENTITY
+          display-name: §8▸ §eElmas Cevheri Spawner
+          lore:
+          - §8▸ §dby Motto
+          blockMaterial: MOB_SPAWNER
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        type: MOB_SPAWNER
+        amount: 16
+        meta:
+          ==: ItemMeta
+          meta-type: TILE_ENTITY
+          display-name: §8▸ §eZümrüt Cevheri Spawner
+          lore:
+          - §8▸ §dby Motto
+          blockMaterial: MOB_SPAWNER
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        type: MOB_SPAWNER
+        meta:
+          ==: ItemMeta
+          meta-type: TILE_ENTITY
+          display-name: §8▸ §ePrizmarin Spawner
+          lore:
+          - §8▸ §dby Motto
+          blockMaterial: MOB_SPAWNER
+    '4':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: MOB_SPAWNER
+        amount: 32
+        meta:
+          ==: ItemMeta
+          meta-type: TILE_ENTITY
+          display-name: §8▸ §eElmas Cevheri Spawner
+          lore:
+          - §8▸ §dby Motto
+          blockMaterial: MOB_SPAWNER
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        type: MOB_SPAWNER
+        amount: 32
+        meta:
+          ==: ItemMeta
+          meta-type: TILE_ENTITY
+          display-name: §8▸ §eZümrüt Cevheri Spawner
+          lore:
+          - §8▸ §dby Motto
+          blockMaterial: MOB_SPAWNER
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        type: MOB_SPAWNER
+        meta:
+          ==: ItemMeta
+          meta-type: TILE_ENTITY
+          display-name: §8▸ §eEnd Taşı Spawner
+          lore:
+          - §8▸ §dby Motto
+          blockMaterial: MOB_SPAWNER
+    '5':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: MOB_SPAWNER
+        amount: 16
+        meta:
+          ==: ItemMeta
+          meta-type: TILE_ENTITY
+          display-name: §8▸ §eEnd Taşı Spawner
+          lore:
+          - §8▸ §dby Motto
+          blockMaterial: MOB_SPAWNER
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        type: MOB_SPAWNER
+        amount: 16
+        meta:
+          ==: ItemMeta
+          meta-type: TILE_ENTITY
+          display-name: §8▸ §ePrizmarin Spawner
+          lore:
+          - §8▸ §dby Motto
+          blockMaterial: MOB_SPAWNER
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        type: MOB_SPAWNER
+        meta:
+          ==: ItemMeta
+          meta-type: TILE_ENTITY
+          display-name: §8▸ §eKuvars Cevheri Spawner
+          lore:
+          - §8▸ §dby Motto
+          blockMaterial: MOB_SPAWNER
+'2':
+  uniqueId: 893adfb4-8dda-4f9b-bdcc-954d2dfa6fb4
+  name: Spawner Birlestirme
+  world: Edit
+  x: 122
+  y: 66
+  z: 217
+  type: admin
+  object: vıllager
+  uuid: 6db117b7-fd9b-47d2-9ce3-c7fa7e661a10
+  prof: 4
+  recipes:
+    '0':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: MOB_SPAWNER
+        amount: 8
+        meta:
+          ==: ItemMeta
+          meta-type: TILE_ENTITY
+          display-name: §8▸ §eDemir Spawner
+          lore:
+          - §8▸ §dby Motto
+          blockMaterial: MOB_SPAWNER
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        type: MOB_SPAWNER
+        meta:
+          ==: ItemMeta
+          meta-type: TILE_ENTITY
+          display-name: §8▸ §eDemir Blok Spawner
+          lore:
+          - §8▸ §dby Motto
+          blockMaterial: MOB_SPAWNER
+    '1':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: MOB_SPAWNER
+        amount: 8
+        meta:
+          ==: ItemMeta
+          meta-type: TILE_ENTITY
+          display-name: §8▸ §eAltın Spawner
+          lore:
+          - §8▸ §dby Motto
+          blockMaterial: MOB_SPAWNER
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        type: MOB_SPAWNER
+        meta:
+          ==: ItemMeta
+          meta-type: TILE_ENTITY
+          display-name: §8▸ §eAltın Blok Spawner
+          lore:
+          - §8▸ §dby Motto
+          blockMaterial: MOB_SPAWNER
+    '2':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: MOB_SPAWNER
+        amount: 8
+        meta:
+          ==: ItemMeta
+          meta-type: TILE_ENTITY
+          display-name: §8▸ §eElmas Spawner
+          lore:
+          - §8▸ §dby Motto
+          blockMaterial: MOB_SPAWNER
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        type: MOB_SPAWNER
+        meta:
+          ==: ItemMeta
+          meta-type: TILE_ENTITY
+          display-name: §8▸ §eElmas Blok Spawner
+          lore:
+          - §8▸ §dby Motto
+          blockMaterial: MOB_SPAWNER
+    '3':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: MOB_SPAWNER
+        amount: 8
+        meta:
+          ==: ItemMeta
+          meta-type: TILE_ENTITY
+          display-name: §8▸ §eZümrüt Spawner
+          lore:
+          - §8▸ §dby Motto
+          blockMaterial: MOB_SPAWNER
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        type: MOB_SPAWNER
+        meta:
+          ==: ItemMeta
+          meta-type: TILE_ENTITY
+          display-name: §8▸ §eZümrüt Blok Spawner
+          lore:
+          - §8▸ §dby Motto
+          blockMaterial: MOB_SPAWNER
+'3':
+  uniqueId: f1c63535-df66-4b47-bdc3-4ecc76a61bdd
+  name: Balikci Esya
+  world: Edit
+  x: 127
+  y: 66
+  z: 204
+  type: admin
+  object: vıllager
+  uuid: 0c7a2c52-0302-49fe-9e74-179dc65dc6a5
+  prof: 4
+  recipes:
+    '0':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: QUARTZ
+        amount: 16
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §r§6§lBALIK YEMI
+          lore:
+          - §7§7
+          - §7§7Sadece bu ürünü balık tutarken kazanabilirsin.
+          - §7§7Bu ürün takaslamak için §6/warp takas.
+          - §7§7
+          - §7§eby Motto
+          enchants:
+            DURABILITY: 1
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        type: SKULL_ITEM
+        damage: 3
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: §eŞans Bloğu §7(§aSıradan§7)
+          lore:
+          - ''
+          - §fElinizdeki şans bloğu
+          - §fçok değerlidir.
+          - ''
+          - §dİçindekiler
+          - ''
+          - §f- Demir Blok §7(§d128 Adet§7)
+          - §f- Altın Blok §7(§d64 Adet§7)
+          - §f- Elmas Cevheri §7(§d316 Adet§7)
+          - §f- Zümrüt Cevheri §7(§d8 Adet§7)
+          - §f- Altın Spawner §7(§d5 Adet§7)
+          - §f- Elmas Blok Spawner §7(§d1 Adet§7)
+          internal: H4sIAAAAAAAA/01Oy06DQBS9Gk2QmPgTbk14FLQLF01QCikz8igFNqbQaUrn0jbt0DJ8kx8pbtSzOI/FOTkqgAIP2FZclriv+KeQBwY3JbZMhfuYt4gfx/26RqbAtbeCR90wR5b9/PL0Y/6R9odSBXUoHdhR1Ox0B4pgnWiP7KQCwJUCt+lymIcvZkbIppFeNWlPdyKJNaSDDvlie81GW00n9kyOtSIbfOZjJS2xXFiYm/6m2IVt2aTa7HdjfqbOvCeu1xEjlIVDarJ4M4gb6MTI9WI7GQVuxElfmTQJddLnXeFgQ/p3Th0fqZvrNMEm2IaSJpVRJBEP3OBCYn+8zrTX4Tl8A+zyP8MsAQAA
+    '1':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: QUARTZ
+        amount: 32
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §r§6§lBALIK YEMI
+          lore:
+          - §7§7
+          - §7§7Sadece bu ürünü balık tutarken kazanabilirsin.
+          - §7§7Bu ürün takaslamak için §6/warp takas.
+          - §7§7
+          - §7§eby Motto
+          enchants:
+            DURABILITY: 1
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        type: SKULL_ITEM
+        damage: 3
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: §eŞans Bloğu §7(§dEfsanevi§7)
+          lore:
+          - ''
+          - §fElinizdeki şans bloğu
+          - §fçok değerlidir.
+          - ''
+          - §dİçindekiler
+          - ''
+          - §f- Kuvars Cevheri §7(§d128 Adet§7)
+          - §f- Prizmarin Spawner §7(§d1 Adet§7)
+          - §f- Elmas Blok Spawner §7(§d3 Adet§7)
+          - §f- Zümrüt Blok Spawner §7(§d2 Adet§7)
+          - §f- Elmas Cevheri Spawner §7(§d1 Adet§7)
+          - §f- Zümrüt Cevheri Spawner §7(§d1 Adet§7)
+          internal: H4sIAAAAAAAA/01OzU6DQBj8NNEgMfElvJpsy4/24KEmSiFdqnQLLBfTwjYsfFuaFlrgmXxI8aLOYX4OMxkdQIM7bNKy22CVlp91txdw3QnE6qzD7bJsEN8P1Vai0ODSzeB+NDZMy358evgx/4j8wdRBH0p7cailON6AVou2bg7iqAPAhQZX4RobAV/CCFDMglGqwn6xq9mS4GLQIZ9tV+Ukm03teTchSTz42MO0s+p1ZCE3vDzZfTQbFZL578bqRFkmef8m/SIouHrtE4cSPg5VwgKkzG157xeJ40levCjOSotHXk6dVUuZL/2IWpRxk7JQ8R4l7ackYUNDepNtTJ6H5/ANRxuExC4BAAA=
+    '2':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: QUARTZ
+        amount: 48
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §r§6§lBALIK YEMI
+          lore:
+          - §7§7
+          - §7§7Sadece bu ürünü balık tutarken kazanabilirsin.
+          - §7§7Bu ürün takaslamak için §6/warp takas.
+          - §7§7
+          - §7§eby Motto
+          enchants:
+            DURABILITY: 1
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        type: SKULL_ITEM
+        damage: 3
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: §eŞans Bloğu §7(§bNadir§7)
+          lore:
+          - ''
+          - §fElinizdeki şans bloğu
+          - §fçok değerlidir.
+          - ''
+          - §dİçindekiler
+          - ''
+          - §f- 1M Dinar §7(§d1 Adet§7)
+          - §f- End Taşı §7(§d64 Adet§7)
+          - §f- Prizmarin Bloğu §7(§d32 Adet§7)
+          - §f- Kuvars Cevheri §7(§d16 Adet§7)
+          - §f- Elmas Blok Spawner §7(§d2 Adet§7)
+          - §f- Zümrüt Blok Spawner §7(§d1 Adet§7)
+          internal: H4sIAAAAAAAA/01OS0+DQBj8NGmCxMQ/4dVkAUF78GBCSyHdRR7yupgWtpSwSxsKwvKb/JHiRZ3DPA4zGRlAgjvW57XYs1Nef3TiTGFRtpQ2MtwGdc/YW3s6VIxKcG0XcK+o2qNuPD0//Jh/hP5QyCDPpTNtu4pebkDq6Nj1Lb3IAHAlwSLasZ7CF9V8Rje+kvNocpsuDBBzZ53zYNj8iIrNq7EVS5Qls08clgu928U6SzXnmDVev+cR2v5uvH8Svq5wWA5ZWApspRoOU+HG6YDjVJDYVjF36iy29XTCgliegq3V5FprTiafEb7S8WSPxMQ6MfMRm56aWRjhwFkeEvQyP4dvax7Bcy0BAAA=
+'4':
+  uniqueId: c66f575a-0c5c-43e6-b809-3343aa699ad5
+  name: Balikci Spawner
+  world: Edit
+  x: 122
+  y: 66
+  z: 204
+  type: admin
+  object: vıllager
+  uuid: 252b9e42-60ef-4f39-827c-dffbaeae6852
+  prof: 4
+  recipes:
+    '0':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: QUARTZ
+        amount: 32
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §r§6§lBALIK YEMI
+          lore:
+          - §7§7
+          - §7§7Sadece bu ürünü balık tutarken kazanabilirsin.
+          - §7§7Bu ürün takaslamak için §6/warp takas.
+          - §7§7
+          - §7§eby Motto
+          enchants:
+            DURABILITY: 1
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        type: MOB_SPAWNER
+        meta:
+          ==: ItemMeta
+          meta-type: TILE_ENTITY
+          display-name: §8▸ §eZümrüt Blok Spawner
+          lore:
+          - §8▸ §dby Motto
+          blockMaterial: MOB_SPAWNER
+    '1':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: QUARTZ
+        amount: 64
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §r§6§lBALIK YEMI
+          lore:
+          - §7§7
+          - §7§7Sadece bu ürünü balık tutarken kazanabilirsin.
+          - §7§7Bu ürün takaslamak için §6/warp takas.
+          - §7§7
+          - §7§eby Motto
+          enchants:
+            DURABILITY: 1
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        type: MOB_SPAWNER
+        meta:
+          ==: ItemMeta
+          meta-type: TILE_ENTITY
+          display-name: §8▸ §eEnd Taşı Spawner
+          lore:
+          - §8▸ §dby Motto
+          blockMaterial: MOB_SPAWNER
+    '2':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: QUARTZ
+        amount: 64
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §r§6§lBALIK YEMI
+          lore:
+          - §7§7
+          - §7§7Sadece bu ürünü balık tutarken kazanabilirsin.
+          - §7§7Bu ürün takaslamak için §6/warp takas.
+          - §7§7
+          - §7§eby Motto
+          enchants:
+            DURABILITY: 1
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        type: QUARTZ
+        amount: 32
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §r§6§lBALIK YEMI
+          lore:
+          - §7§7
+          - §7§7Sadece bu ürünü balık tutarken kazanabilirsin.
+          - §7§7Bu ürün takaslamak için §6/warp takas.
+          - §7§7
+          - §7§eby Motto
+          enchants:
+            DURABILITY: 1
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        type: MOB_SPAWNER
+        meta:
+          ==: ItemMeta
+          meta-type: TILE_ENTITY
+          display-name: §8▸ §ePrizmarin Spawner
+          lore:
+          - §8▸ §dby Motto
+          blockMaterial: MOB_SPAWNER
+    '3':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: QUARTZ
+        amount: 64
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §r§6§lBALIK YEMI
+          lore:
+          - §7§7
+          - §7§7Sadece bu ürünü balık tutarken kazanabilirsin.
+          - §7§7Bu ürün takaslamak için §6/warp takas.
+          - §7§7
+          - §7§eby Motto
+          enchants:
+            DURABILITY: 1
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        type: QUARTZ
+        amount: 64
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §r§6§lBALIK YEMI
+          lore:
+          - §7§7
+          - §7§7Sadece bu ürünü balık tutarken kazanabilirsin.
+          - §7§7Bu ürün takaslamak için §6/warp takas.
+          - §7§7
+          - §7§eby Motto
+          enchants:
+            DURABILITY: 1
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        type: MOB_SPAWNER
+        meta:
+          ==: ItemMeta
+          meta-type: TILE_ENTITY
+          display-name: §8▸ §eKuvars Cevheri Spawner
+          lore:
+          - §8▸ §dby Motto
+          blockMaterial: MOB_SPAWNER

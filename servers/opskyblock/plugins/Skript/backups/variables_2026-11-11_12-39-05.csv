@@ -1,0 +1,52 @@
+dirhem::<player>, long, 0000000000000000
+kirmasayisi::<player>, long, 0000000000000000
+reklamkoruma::laros, string, 800AC2A7634B6170616CC4B1
+küfürkoruma::laros, string, 800AC2A7634B6170616CC4B1
+argokoruma::laros, string, 800AC2A7634B6170616CC4B1
+adakitaldi.sqruat, long, 0000000000000000
+ucus.sqruat, boolean, 00
+dirhem::sqruat, long, 0000000000000005
+adakitaldi.zeuxsss, long, 0000000000000000
+ucus.zeuxsss, boolean, 00
+dirhem::zeuxsss, long, 0000000000000000
+blokistatistik::zeuxsss, long, 0000000000000000
+kirmasayisi::zeuxsss, long, 0000000000000000
+reklam::sqruat, null, 
+küfür::sqruat, null, 
+argo::sqruat, null, 
+adakitaldi.zeuxsss, long, 0000000000000000
+dirhem::zeuxsss, long, 0000000000000000
+blokistatistik::zeuxsss, long, 0000000000000000
+kirmasayisi::zeuxsss, long, 0000000000000000
+adakitaldi.omuxhz, long, 0000000000000000
+ucus.omuxhz, boolean, 00
+dirhem::omuxhz, long, 0000000000000000
+blokistatistik::omuxhz, long, 0000000000000000
+kirmasayisi::omuxhz, long, 0000000000000000
+dirhem::zeuxsss, long, 000000000000C350
+skyold::zeuxsss, null, 
+skynew::zeuxsss, null, 
+skyarmy::zeuxsss, null, 
+skycaptain::zeuxsss, null, 
+skywarrant::zeuxsss, null, 
+skyairman::zeuxsss, null, 
+skyking::zeuxsss, null, 
+skypro::zeuxsss, null, 
+skychef::zeuxsss, null, 
+dirhem::sqruat, long, 000000000000C355
+dirhem::zeuxsss, long, 000000000000B798
+reklam::zeuxsss, null, 
+küfür::zeuxsss, null, 
+argo::zeuxsss, null, 
+kodlar, long, 00000015873AB1B2
+kodlar.<none>, long, 00000015873AB1B2
+kodbasladi, boolean, 01
+kodlar, long, 0000004F63038A25
+kodlar.<none>, long, 0000004F63038A25
+kodbasladi, boolean, 01
+kodlar, long, 0000007D8BB567CF
+kodlar.<none>, long, 0000007D8BB567CF
+kodbasladi, boolean, 01
+kodlar, long, 000000168CBEF3EA
+kodlar.<none>, long, 000000168CBEF3EA
+kodbasladi, boolean, 01

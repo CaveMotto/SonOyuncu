@@ -1,0 +1,87 @@
+menu_title: '&7Oyuncu Kit'
+open_command:
+- oyuncukit
+size: 27
+items:
+  'camlar': 
+    material: STAINED_GLASS_PANE
+    data: 15
+    amount: 1
+    slots:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 15
+    - 16
+    - 17
+    - 18
+    - 19
+    - 20
+    - 21
+    - 22
+    - 23
+    - 24
+    - 25
+    - 26
+    display_name: '&7' 
+  'oyuncu-kit':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmJhNTRlNjk3MmM3MDJjMzY0MTUyOWNmNzI3NDA3OGU1MzJhYjU1NTk0MjZmZmVlYTIyZjVkZmZhZTZhZjY3NiJ9fX0=
+    slot: 12
+    display_name: '&eOyuncu Kit'
+    lore:
+    - ''
+    - '&7Sana Demir Set Verir '
+    - ''
+    - '&7Set Durumu: &6P2'
+    - '&7Alet Durumu: &6K2'
+    - ''
+    - '&8► &aAlmak için tıkla.'
+    left_click_commands:   
+    - '[player] kit oyuncu'
+    - '[close]'
+    right_click_commands:
+    - '[player] kit oyuncu'
+    - '[close]'
+  'oyverme':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWM5Mzg2MTg2MTM5YjBhMDllN2FjYjM2MjQ5NmU5ZDkwMDgzYzE1YzZjNjZhNzhhYmYxMjUxZDJiN2RmYzdmZCJ9fX0=
+    slot: 13
+    display_name: '&eOy Verme'
+    lore:
+    - ''
+    - '&7Adakit Sadece 1 Kerez Kullanabilirsin.'
+    - ''
+    - '&dby Motto'
+    - ''
+    - '&8► &aAlmak için tıkla.'
+    left_click_commands:   
+    - '[player] oyver'
+    - '[close]'
+    right_click_commands:
+    - '[player] oyver'
+    - '[close]'
+  'Günlük-kit':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjRjNzk3YmUwMWI1NWM0OTViN2Y4MzYwZTZjZmJlNTA3OTg4ZjJjN2ZjMzY2NzMwMjc2Yzg2ODk5YmIxNjRiIn19fQ==
+    slot: 14
+    display_name: '&eGünlük Ödül'
+    lore:
+    - ''
+    - '&7Her Gün Günlük Ödül Alma Şansı'
+    - ''
+    - '&dby Motto'
+    - ''
+    - '&8► &aAlmak için tıkla.'
+    left_click_commands:   
+    - '[player] rewards'
+    - '[close]'
+    right_click_commands:
+    - '[player] rewards'
+    - '[close]'

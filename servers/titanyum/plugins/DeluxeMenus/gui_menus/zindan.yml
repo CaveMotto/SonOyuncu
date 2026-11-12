@@ -1,0 +1,55 @@
+menu_title: '&8Zindan'
+open_command:
+- 0wt2kşli2ş198
+size: 27
+items:
+  'bilgi':
+    material: book
+    slot: 4
+    display_name: '&eBilgi'
+    lore:
+    - '&8'
+    - '&7Zindana girerek'
+    - '&7ödül ve tecrübe'
+    - '&7kazanabilirsin.'
+    - '&8'
+    - '&eGirmek için tıkla'
+    left_click_commands:
+    - '[player] zindanbilgi'
+    right_click_commands:
+    - '[player] zindanbilgi'
+  'zindangiriş':
+    material: FIREBALL 
+    slot: 11
+    display_name: '&eZindan Giriş'
+    lore:
+    - '&8'
+    - '&7Bileti aldığınız zaman'
+    - '&7buradan zindana giriş yapabilirsin.'
+    - '&8'
+    - '&eGitmek için tıkla'
+    left_click_commands:
+    - '[player] zindan-ışınlan'
+    - '[close]'
+    right_click_commands:
+    - '[player] zindan-ışınlan'
+    - '[close]'
+  'zindanbilet':
+    material: paper
+    slot: 15
+    display_name: '&aBilet Al'
+    lore:
+    - '&8'
+    - '&7Bileti alarak zindan'
+    - '&7giriş hakkı kazanıp'
+    - '&7ödül kazanabilirsin.'
+    - '&8'
+    - '&7Fiyat: &d500.000 ⛃'
+    - '&8'
+    - '&eAçmak için tıkla'
+    left_click_commands:
+    - '[player] biletal'
+    - '[close]'
+    right_click_commands:
+    - '[player] biletal'
+    - '[close]'

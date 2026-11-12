@@ -1,0 +1,50 @@
+prefix: "&6Skyblock &7⊱ &e"
+iteminfo: "&aEşya Bilgileri"
+
+ACCESS_DENIED: "Bunu yapmak icin gerekli izniniz yok!"
+
+NOT_ENOUGH_MONEY: "Maalesef bunu almaya paranız yetmiyor."
+NOT_ENOUGH_MONEY_SHOP: "Market sahibinin bu kadar parası yok!"
+
+CLIENT_DEPOSIT_FAILED: "Hesabiniza para yatirma islemi sirasinda hata olustu!"
+SHOP_DEPOSIT_FAILED: "Market sahibine para yatirilirken hata olustu!"
+
+NO_BUYING_HERE: "Buradan eşya satın alamazsınız."
+NO_SELLING_HERE: "Buradan eşya satamazsınız."
+
+NOT_ENOUGH_SPACE_IN_INVENTORY: "Envanterinde yeterli alan yok!"
+NOT_ENOUGH_SPACE_IN_CHEST: "Yeterli alan yok."
+NOT_ENOUGH_ITEMS_TO_SELL: "Satmak için eşyanız eksik!"
+
+NOT_ENOUGH_STOCK: "Bu marketin stokları bos!"
+NOT_ENOUGH_STOCK_IN_YOUR_SHOP: "Sizin %material marketinizde yeterli malzeme kalmamis!"
+
+YOU_BOUGHT_FROM_SHOP: "%item / %price tlye aldiniz."
+SOMEBODY_BOUGHT_FROM_YOUR_SHOP: "&a%buyer &7adlı oyuncu sizden &a%item / %price &7tlye aldi."
+
+YOU_SOLD_TO_SHOP: "&a%amount / %item &7eşyayı &a%buyer &7adlı oyuncuya  &a%price. &7tlye sattınız."
+SOMEBODY_SOLD_TO_YOUR_SHOP: "&a%seller &7adlı oyuncu / &a%item &7eşyayı &a%price &7tlye size sattı."
+
+YOU_CANNOT_CREATE_SHOP: "Böyle market açılamıyor."
+NO_CHEST_DETECTED: "Market bulunamadı."
+INVALID_SHOP_DETECTED: "Bu market kullanılmıyor."
+CANNOT_ACCESS_THE_CHEST: "Bunu yapmak için yetkiniz yetersiz."
+
+PROTECTED_SHOP: "Lwc ile market basariyla korumaya alindi."
+SHOP_CREATED: "Market başarılı şekilde kuruldu."
+SHOP_FEE_PAID: "İşlem düzgün şekilde yapıldı. &a%amount"
+SHOP_REFUNDED: "Geri iade ettin. &a%amount."
+ITEM_GIVEN: "Verildi &a%item / %player."
+
+RESTRICTED_SIGN_CREATED: "Tabela yaratıldı."
+
+PLAYER_NOT_FOUND: "Oyuncu Bulunamadi!"
+NO_PERMISSION: "Bunu yapmak icin izniniz yok!"
+INCORRECT_ITEM_ID: "Gecersiz item belirttiniz."
+NOT_ENOUGH_PROTECTIONS: "Olusturulamadi!"
+
+CANNOT_CREATE_SHOP_HERE: "Market yaratamazsin!"
+
+TOGGLE_MESSAGES_OFF: "Artik marketten mesaj alamazsiniz."
+TOGGLE_MESSAGES_ON: "Artik marketten mesaj alabilirsiniz."
+

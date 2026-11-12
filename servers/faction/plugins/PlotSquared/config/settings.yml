@@ -1,0 +1,138 @@
+# These first 4 aren't configurable
+ıssues: "https://github.com/IntellectualSites/PlotSquared/issues"
+wıkı: "https://github.com/IntellectualSites/PlotSquared/wiki"
+versıon: "3.4.6"
+platform: "Bukkit"
+# Show additional information in console
+debug: true
+# The big annoying text that appears when you enter a plot
+# For a single plot: `/plot flag set titles false`
+# For just you: `/plot toggle titles`
+tıtles: true
+
+# Enable or disable part of the plugin
+# Note: A cache will use some memory if enabled
+enabled-components:
+  # The database stores all the plots
+  database: true
+  # Events are needed to track a lot of things
+  events: true
+  # Commands are used to interact with the plugin
+  commands: true
+  # The UUID cacher is used to resolve player names
+  uuıd-cache: true
+  # Notify players of updates
+  updater: true
+  # Stores user metadata in a database
+  persıstent-meta: true
+  # Optimizes permission checks
+  permıssıon-cache: true
+  # Optimizes block changing code
+  block-cache: true
+  # Getting a rating won't need the database
+  ratıng-cache: true
+  # The converter will attempt to convert the PlotMe database
+  plotme-converter: true
+  # Allow WorldEdit to be restricted to plots
+  worldedıt-restrıctıons: true
+  # Allow economy to be used
+  economy: true
+  # Send anonymous usage statistics. Bukkit only setting.
+  metrıcs: true
+  # Expiry will clear old or simplistic plots
+  plot-expıry: false
+  # Processes chunks (trimming, or entity/tile limits) 
+  chunk-processor: false
+  # Kill mobs or vehicles on roads
+  kıll-road-mobs: false
+  kıll-road-vehıcles: false
+  # Notify a player of any missed comments upon plot entry
+  comment-notıfıer: false
+  # Actively purge invalid database entries
+  database-purger: false
+  # Delete plots when a player is banned
+  ban-deleter: false
+
+ratings:
+  categorıes: []
+
+claim:
+  # The max plots claimed in a single `/plot auto <size>` command
+  max-auto-area: 4
+
+redstone:
+  # Disable redstone in unoccupied plots
+  dısable-unoccupıed: false
+  # Disable redstone when all owners/trusted/members are offline
+  dısable-offlıne: false
+
+teleport:
+  # Teleport to your plot on death
+  on-death: false
+  # Teleport to your plot on login
+  on-logın: false
+  # Add a teleportation delay to all commands
+  delay: 0
+
+# Switching from PlotMe?
+plotme:
+  # Cache the uuids from the PlotMe database
+  cache-uuds: false
+
+# Relating to how many plots someone can claim  
+limit:
+  # Should the limit be global (over multiple worlds)
+  global: false
+  # The range of permissions to check e.g. plots.plot.127
+  max-plots: 127
+
+chat:
+  # Sometimes console color doesn't work, you can disable it here
+  console-color: true
+  # Should chat be interactive
+  ınteractıve: true
+
+done:
+  # Require a done plot to download
+  requıred-for-download: false
+  # Only done plots can be rated
+  requıred-for-ratıngs: false
+  # Restrict building when a plot is done
+  restrıct-buıldıng: false
+  # The limit being how many plots a player can claim
+  counts-towards-lımıt: true
+
+web:
+  # We are already hosting a web interface for you:
+  url: "http://empcraft.com/plots/"
+  # The ip that will show up in the interface
+  server-ıp: "your.ip.here"
+
+# Configure the paths that will be used
+paths:
+  schematıcs: "schematics"
+  bo3: "bo3"
+  scrıpts: "scripts"
+  templates: "templates"
+  translatıons: "translations"
+
+uuıd:
+  # Force using offline UUIDs (it usually detects the right mode)
+  offlıne: false
+  # Force using lowercase UUIDs
+  force-lowercase: false
+  # Use a database to store UUID/name info
+  use-sqluuıdhandler: false
+
+chunk-processor:
+  # Auto trim will not save chunks which aren't claimed
+  auto-trım: false
+  # Max tile entities per chunk
+  max-tıles: 4096
+  # Max entities per chunk
+  max-entıtıes: 512
+  # Disable block physics
+  dısable-physıcs: false
+
+# This is an auto clearing task called `task1`
+auto-clear:

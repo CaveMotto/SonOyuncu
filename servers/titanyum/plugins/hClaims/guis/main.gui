@@ -1,0 +1,41 @@
+title: '&8Laros Claim'
+size: 3
+type: 'CHEST'
+
+items:
+  claim-list:
+    type: 'PAPER'
+    name: '&e&lClaim Listesi'
+    glow: false
+    amount: 1
+    datavalue: 0
+    lore:
+      - ''
+      - '&7Sahip olduğunuz claim'
+      - '&7Listesini görmek için tıkla.'
+    nbt: '{}'
+    slot: 11
+  claim-here:
+    type: 'BEDROCK'
+    name: '&e&lClaim Al'
+    glow: false
+    amount: 1
+    datavalue: 0
+    lore:
+      - ''
+      - '&7Bulunduğunuz konuma claim'
+      - '&7Almak için tıkla.'
+    nbt: '{}'
+    slot: 13
+  chunk-look-tool:
+    type: 'SEA_LANTERN'
+    name: '&e&lChunkları Gör'
+    glow: false
+    amount: 1
+    datavalue: 0
+    lore:
+      - ''
+      - '&7Bulunduğunuz konumdaki claim'
+      - '&7Chunkları görüntülemek için tıkla.'
+    nbt: '{}'
+    slot: 15

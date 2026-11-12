@@ -1,0 +1,69 @@
+
+				
+command /kinas [<text>] [<text>]:
+    trigger:
+        arg 1 is not set:
+            execute player command "545wat41awrfq855qa"
+        arg 1 is "gönder":
+            arg 1 is set:
+                execute player command "pay %arg-2%"
+            else if arg 1 is not set:
+                send "yardım"
+            else if arg 2 is not set:
+                send "oyuncu ismi belirtmedin"  
+				
+command /545wat41awrfq855qa:
+    trigger:
+        send "&e&l&m--------------&6 &6Skyblock &e&l&m--------------&6"
+        send ""
+        send "&6/kinas gönder (oyuncu) (miktar) &7- &eKarşıdaki oyuncuya dinar gönderirsin."
+        send ""
+        send "&e&l&m--------------&6 &6Skyblock &e&l&m--------------&6"
+		
+			
+command /market:
+    trigger:
+        execute player command "/shop"	
+			
+
+command /kafa:
+    trigger:
+        execute player command "/hat"	
+		
+command /chest:
+    trigger:
+        execute player command "/enderchest"	
+
+			
+command /günlük [<text>] [<text>]:
+    trigger:
+        arg 1 is not set:
+            execute player command "rewards"
+			
+command /tamir:
+    trigger:
+        execute player command "/repair"		
+			
+command /ihale [<text>] [<text>]:
+    trigger:
+        arg 1 is not set:
+            execute player command "ah"
+        arg 1 is "başlat":
+            arg 1 is set:
+                execute player command "ah bid %arg-2%"
+            else if arg 1 is not set:
+                send "yardım"
+            else if arg 2 is not set:
+                send "oyuncu ismi belirtmedin"
+	
+	
+command /discord:
+    trigger:
+        send "&e" to player
+        send "&e             &aDiscord'a &7katılarak arkadaşlarınla sohbet et!" to player
+        send "&e            &7veya arkadaşlarınla sohbet ederek oynayabilirsin!" to player
+        send "&e" to player
+        send "&e                      https://discord.gg/bymotto " to player
+        send "&e" to player
+		
+		

@@ -1,0 +1,16 @@
+name: MottoClient
+main: com.laros.client.LarosClientPlugin
+version: 1.0.0
+author: Motto
+description: Sadece MottoClient ile girişe izin verir
+api-version: 1.13
+depend:
+  - ProtocolLib
+commands:
+  larosclient:
+    description: LarosClient yönetim komutu
+    usage: /<command> reload | give <oyuncu> <id>
+    permission: larosclient.admin
+permissions:
+  larosclient.admin:
+    default: op

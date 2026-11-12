@@ -1,0 +1,9 @@
+spawns:
+  default:
+    world: a6cb88ec-8c99-4d98-a5ff-45c0d058a544
+    world-name: Liman
+    x: 0.5
+    y: 65.0
+    z: 0.5
+    yaw: -268.52508544921875
+    pitch: 2.9999895095825195

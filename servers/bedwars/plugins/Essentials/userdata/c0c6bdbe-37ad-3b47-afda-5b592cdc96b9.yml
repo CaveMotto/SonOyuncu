@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 46.1.252.204
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 0
+  login: 1716334730178
+money: '130.0'
+last-account-name: XDodomom
+lastlocation:
+  world: 6d67b767-a21f-46e9-be21-5b7309fcb1b4
+  world-name: külateşi
+  x: 38.375828104240384
+  y: 75.0
+  z: -91.48298432905386
+  yaw: 225.60052490234375
+  pitch: 40.04996871948242

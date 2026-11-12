@@ -1,0 +1,3 @@
+#by Motto Ekibi tarafından hazırlanmıştır.
+#Hayallerinden daha fazlası.
+eula=true

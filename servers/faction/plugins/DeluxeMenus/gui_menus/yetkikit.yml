@@ -1,0 +1,52 @@
+menu_title: '&7Yetki Kit'
+open_command:
+- yetkikit
+size: 9
+items:
+  'camlar': 
+    material: STAINED_GLASS_PANE
+    data: 15
+    amount: 1
+    slots:
+    - 0
+    - 1
+    - 2
+    - 4
+    - 6
+    - 7
+    - 8
+    display_name: '&7' 
+  'rehber-kit':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTMxYjdiZTAyMmJhYjg2NDY3YTE1NjMyNzQwNGY5NDZiYjFjNGFkOTQzN2YzMTE1NzRjODNkOTlkYjU1YSJ9fX0=
+    slot: 3
+    display_name: '&eRehber Kit'
+    lore:
+    - ''
+    - '&7Bu Kit Anca Yetkili Ekibe Verilir.'
+    - ''
+    - '&7Kit Durumu: &6P6'
+    - ''
+    - '&8► &aAlmak için tıkla.'
+    left_click_commands:   
+    - '[player] kit rehber'
+    - '[close]'
+    right_click_commands:
+    - '[player] kit rehber'
+    - '[refresh]'
+  'youtuber-kit':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDJmNmMwN2EzMjZkZWY5ODRlNzJmNzcyZWQ2NDU0NDlmNWVjOTZjNmNhMjU2NDk5YjVkMmI4NGE4ZGNlIn19fQ==
+    slot: 5
+    display_name: '&eYoutuber Kit'
+    lore:
+    - ''
+    - '&7Bu Kit Anca Yetkili Ekibe Verilir.'
+    - ''
+    - '&7Kit Durumu: &6P6'
+    - ''
+    - '&8► &aAlmak için tıkla.'
+    left_click_commands:   
+    - '[player] kit youtuber'
+    - '[refresh]'
+    right_click_commands:
+    - '[player] kit youtuber'
+    - '[refresh]'

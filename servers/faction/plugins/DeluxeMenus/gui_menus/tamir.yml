@@ -1,0 +1,55 @@
+menu_title: '&7Tamirci - Karıt'
+open_command:
+- tamir
+size: 27
+items:
+  'camlar': 
+    material: STAINED_GLASS_PANE
+    data: 15
+    amount: 1
+    slots:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 14
+    - 15
+    - 16
+    - 17
+    - 18
+    - 19
+    - 20
+    - 21
+    - 22
+    - 23
+    - 24
+    - 25
+    - 26
+    display_name: '&7' 
+  'tamir':
+    material: 145
+    slot: 13
+    display_name: '&a&lTamir Et!'
+    lore:
+    - '&8'
+    - ' &7Elinizde bulunan eşyayı FC'
+    - ' &7karşılığında tamir eder.'
+    - '&8'
+    - ' &7Fiyat: &a50.000 ⛁ '
+    - '&8'
+    - ' &e&nTamir etmek için tıkla!'
+    left_click_commands:
+    - '[player] tamirb'
+    - '[close]'
+    right_click_commands:
+    - '[player] tamirb'
+    - '[close]'

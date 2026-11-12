@@ -1,0 +1,164 @@
+menu_title: '&8Kaptan'
+open_command:
+- 185ts4t6est445est
+size: 27
+items:
+  'orman-1':
+    material: grass
+    slot: 10
+    display_name: '&eSancak'
+    lore:
+    - '&8'
+    - '&eGitmek için tıkla'
+    left_click_commands:
+    - '[player] rtp world Sancak'
+    - '[close]'
+    right_click_commands:
+    - '[player] rtp world Sancak'
+    - '[close]'
+  'orman-2':
+    material: grass
+    slot: 11
+    display_name: '&eYakamoz'
+    lore:
+    - '&8'
+    - '&eGitmek için tıkla'
+    left_click_commands:
+    - '[player] rtp world Yakamoz'
+    - '[close]'
+    right_click_commands:
+    - '[player] rtp world Yakamoz'
+    - '[close]'
+  'orman-3':
+    material: grass
+    slot: 12
+    display_name: '&eAvrasya'
+    lore:
+    - '&8'
+    - '&eGitmek için tıkla'
+    left_click_commands:
+    - '[player] rtp world Avrasya'
+    - '[close]'
+    right_click_commands:
+    - '[player] rtp world Avrasya'
+    - '[close]'
+  'orman-4':
+    material: grass
+    slot: 13
+    display_name: '&ePruva'
+    lore:
+    - '&8'
+    - '&eGitmek için tıkla'
+    left_click_commands:
+    - '[player] rtp world Pruva'
+    - '[close]'
+    right_click_commands:
+    - '[player] rtp world Pruva'
+    - '[close]'
+  'orman-5':
+    material: grass
+    slot: 14
+    display_name: '&eVelana'
+    lore:
+    - '&8'
+    - '&eGitmek için tıkla'
+    left_click_commands:
+    - '[player] rtp world Velana'
+    - '[close]'
+    right_click_commands:
+    - '[player] rtp world Velana'
+    - '[close]'
+  'orman-6':
+    material: grass
+    slot: 15
+    display_name: '&eFlador'
+    lore:
+    - '&8'
+    - '&eGitmek için tıkla'
+    left_click_commands:
+    - '[player] rtp world Flador'
+    - '[close]'
+    right_click_commands:
+    - '[player] rtp world Flador'
+    - '[close]'
+  'orman-7-biletsiz':
+    material: dirt
+    data: 2
+    slot: 16
+    priority: 2
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: 'byMotto.bilet0'
+    display_name: '&eTera &6(Premium)'
+    lore:
+    - '&8'
+    - '&7Bu dünyaya gidebilmek'
+    - '&7için önce bu dünyanın'
+    - '&7biletini aktif etmelisin.'
+    - '&8'
+    - '&cBilet aktif edilmedi'
+    left_click_commands:
+    - '[message] &6Survival &7▸ &cÖnce bu dünyaya giriş biletini aktif etmelisin.'
+    - '[close]'
+    right_click_commands:
+    - '[message] &6Survival &7▸ &cÖnce bu dünyaya giriş biletini aktif etmelisin.'
+    - '[close]'
+  'orman-7':
+    material: dirt
+    data: 2
+    slot: 16
+    priority: 1
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: 'byMotto.tera'
+    display_name: '&eTera &6(Premium)'
+    lore:
+    - '&8'
+    - '&7Bu dünyaya gidebilmek'
+    - '&7için önce bu dünyanın'
+    - '&7biletini aktif etmelisin.'
+    - '&8'
+    - '&eGitmek için tıkla'
+    left_click_commands:
+    - '[player] rtp world Tera'
+    - '[close]'
+    right_click_commands:
+    - '[player] rtp world Tera'
+    - '[close]'
+  'Nether':
+    material: netherrack
+    slot: 25
+    display_name: '&aNether'
+    lore:
+    - '&8'
+    - '&7Nethera buradan hızlıca'
+    - '&7gidebilirsin.'
+    - '&8'
+    - '&eGitmek için tıkla'
+    left_click_commands:
+    - '[console] mvtp %player_name% Nether'
+    - '[close]'
+    right_click_commands:
+    - '[console] mvtp %player_name% Nether'
+    - '[close]'
+  'Pandora':
+    material: diamond_sword
+    slot: 26
+    hide_attributes: true
+    display_name: '&aPandoranın Dağları'
+    lore:
+    - '&8'
+    - '&eGitmek için tıkla'
+    left_click_commands:
+    - '[console] mvtp %player_name% Pandora'
+    - '[close]'
+    right_click_commands:
+    - '[console] mvtp %player_name% Pandora'
+    - '[close]'
+#Yardım Almak için sqruat.
+#Bu eklenti paketi byMotto tarafından yapıldı.
+

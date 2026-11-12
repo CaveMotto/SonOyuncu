@@ -1,0 +1,212 @@
+#
+# From 1.16 version you can also use HEX colors.
+# Instead of &f format use <#ffffff>
+# and for gradient: <#ffffff>Text where will be applied gradient</#000000>
+#
+lang:
+  prefix: '&6Lobi &8ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“Ãƒâ€šÃ‚Âº'
+  auto-claim-notification:
+  - ' '
+  - '&a ÃƒÆ’Ã‚Â¢Ãƒâ€¦Ã¢â‚¬Å“ÃƒÂ¢Ã¢â€šÂ¬Ã¯Â¿Â½ &f%rewards% ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¶dÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼l baÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€¦Ã‚Â¸arÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€šÃ‚Â±yla otomatik olarak talep edildi!'
+  - ' '
+  unclaimed-rewards-notification-hover-text: '&eÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“dÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼l almak iÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â§in tÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€šÃ‚Â±klayÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€šÃ‚Â±n!'
+  reward-reset: '&e%prefix% &d%player% 6eoyuncusunun &b%type% &eÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¶dÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼llerini
+  sÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€šÃ‚Â±fÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€šÃ‚Â±rladÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€šÃ‚Â±nÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€šÃ‚Â±z'
+  unavailable-player: '%prefix% &eOyuncu mevcut deÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€¦Ã‚Â¸il!'
+  unavailable-setting: '%prefix% &eBu ayar mevcut deÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€¦Ã‚Â¸il!'
+  reward-disabled: '%prefix% &eÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“dÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼l alÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€šÃ‚Â±namÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€šÃ‚Â±yor!'
+  permission-msg: '%prefix% &eBu eylemi gerÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â§ekleÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€¦Ã‚Â¸tirmenize izin
+  verilmiyor.'
+  rewards-are-not-set: '%prefix% &eÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“dÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼ller belirlenmedi!'
+  reload-msg: '&e%prefix% &eEklenti baÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€¦Ã‚Â¸arÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€šÃ‚Â±yla yeniden yÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼klendi'
+  incomplete-reward-reset: '%prefix% &eÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“zel olarak neyi sÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€šÃ‚Â±fÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€šÃ‚Â±rlamak
+  istediÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€¦Ã‚Â¸inizi belirtin (gÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼nlÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼k/haftalÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€šÃ‚Â±k/aylÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€šÃ‚Â±k/tÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼mÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼)'
+  full-inventory-message: '%prefix% &eÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“dÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼l(ler)i alamÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€šÃ‚Â±yorsunuz,
+  envanteriniz dolu!'
+  claiming-in-disabled-world: '%prefix% &d%world% &edÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼nyasÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€šÃ‚Â±nda ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¶dÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼l
+  alamazsÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€šÃ‚Â±nÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€šÃ‚Â±z'
+  not-enough-required-time-to-claim: '%prefix% &eÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“nce sunucuda en az %requiredMinutes% dakika
+  geÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â§irmelisiniz ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¶dÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼lleri toplayabilirsiniz
+  &d(%minutes%% dakika kaldÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€šÃ‚Â±)'
+  command-usage: '%prefix% &cGeÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â§erli kullanÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€šÃ‚Â±m: %usage%'
+  loading: '&bYÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼kleniyor...'
+  back: '&cGeri'
+  help:
+  - '&fList with all available commands:'
+  - '&f/rewards &7- Main GUI menu'
+  - '&f/reward claim <reward>&7- Obtains certain reward'
+  - '&f/reward reset <player> <daily|weekly|monthly|all>'
+  - '&f/reward import - &7Imports file data to database'
+  - '&f/reward reload &7- Reloads configuration section'
+  - '&f/reward settings &7- Opens settings menu'
+  - '&f/reward toggle <setting> &7- Toggles certain setting'
+  #
+  # Settings
+  #
+  settings-title: Ayarlar
+  settings-display-name: '&eAyarlar'
+  setting-enabled: '%prefix% &b%setting% &eetkinleÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€¦Ã‚Â¸tirdiniz!'
+  setting-disabled: '%prefix% &d%setting% &edevre dÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€šÃ‚Â±ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€¦Ã‚Â¸ÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€šÃ‚Â±
+  bÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€šÃ‚Â±raktÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€šÃ‚Â±nÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€šÃ‚Â±z!'
+  auto-claim-failed: '%prefix% &eBazÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€šÃ‚Â± ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¶dÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼ller otomatik
+  olarak alÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€šÃ‚Â±namadÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€šÃ‚Â±, ayrÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€šÃ‚Â±ntÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€šÃ‚Â±lar
+  iÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â§in fareyle ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼zerine gelin.'
+  auto-claim-failed-hover-text-list-format: '%reward% - %reason%'
+  auto-claim-failed-hover-text: '&eAÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€¦Ã‚Â¸aÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€¦Ã‚Â¸ÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€šÃ‚Â±daki ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¶dÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼ller
+  otomatik olarak alÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€šÃ‚Â±namaz: %format%'
+  join-auto-claim-notification:
+  - ' '
+  - '&a ÃƒÆ’Ã‚Â¢Ãƒâ€¦Ã¢â‚¬Å“ÃƒÂ¢Ã¢â€šÂ¬Ã¯Â¿Â½ AÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€¦Ã‚Â¸aÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€¦Ã‚Â¸ÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€šÃ‚Â±daki ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¶dÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼ller otomatik olarak talep edildi: &d%listOfRewards%'
+  - ' '
+  join-notification-setting-name: Bildirime KatÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€šÃ‚Â±lÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€šÃ‚Â±n
+  join-auto-claim-setting-name: Otomatik Hak Talebine KatÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€šÃ‚Â±lÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€šÃ‚Â±n
+  no-permission-setting-display-name: '&c&l%settingType%'
+  no-permission-setting-lore:
+  - '&cBu tÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼r ayarlarÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€šÃ‚Â± deÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€¦Ã‚Â¸iÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€¦Ã‚Â¸tiremezsiniz!'
+  - '&cEksik izin: %permission%'
+  join-notification-display-name: '&aBildirime KatÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€šÃ‚Â±lÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€šÃ‚Â±n'
+  join-notification-enabled-lore:
+  - ' '
+  - '&7KatÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€šÃ‚Â±ldÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€šÃ‚Â±ÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€¦Ã‚Â¸ÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€šÃ‚Â±nÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€šÃ‚Â±zda size bildirim gÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¶nder'
+  - '&7toplanmayan ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¶dÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼lleriniz varsa'
+  - ' '
+  - '&cÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“Ãƒâ€šÃ‚Âº Devre dÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€šÃ‚Â±ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€¦Ã‚Â¸ÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€šÃ‚Â± iÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â§in tÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€šÃ‚Â±kla!'
+  join-notification-disabled-lore:
+  - ' '
+  - '&7KatÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€šÃ‚Â±ldÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€šÃ‚Â±ÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€¦Ã‚Â¸ÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€šÃ‚Â±nÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€šÃ‚Â±zda size bildirim gÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¶nder'
+  - '&7toplanmayan ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¶dÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼lleriniz varsa'
+  - ' '
+  - '&aÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“Ãƒâ€šÃ‚Âº Aktif etmek iÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â§in tÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€šÃ‚Â±kla!'
+  auto-claim-display-name: '&aOtomatik ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“dÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼llerini Al'
+  auto-claim-enabled-lore:
+  - ' '
+  - '&7Otomatik olarak ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¶dÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼l talebinde bulunacak'
+  - '&7katÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€šÃ‚Â±lÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€šÃ‚Â±m sÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€šÃ‚Â±rasÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€šÃ‚Â±nda mevcut tÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼m ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¶dÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼ller'
+  - ' '
+  - '&cÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“Ãƒâ€šÃ‚Âº Devre dÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€šÃ‚Â±ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€¦Ã‚Â¸ÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€šÃ‚Â± iÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â§in tÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€šÃ‚Â±kla!'
+  auto-claim-disabled-lore:
+  - ' '
+  - '&7Otomatik olarak ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¶dÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼l talebinde bulunacak'
+  - '&7katÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€šÃ‚Â±lÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€šÃ‚Â±m sÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€šÃ‚Â±rasÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€šÃ‚Â±nda mevcut tÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼m ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¶dÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼ller'
+  - ' '
+  - '&aÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“Ãƒâ€šÃ‚Âº Aktif etmek iÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â§in tÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€šÃ‚Â±kla!'
+
+  located-in-restricted-world: ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“dÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼l mevcut dÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼nyada mevcut deÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€¦Ã‚Â¸il
+  insufficient-play-time: Hak talebinde bulunmak iÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â§in yeterli oyun sÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼resi yok
+  insufficient-permissions: Yetersiz yetkiler
+  not-enough-free-inventory-slots: Yeterli ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼cretsiz envanter yuvasÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€šÃ‚Â± yok
+  unavailable-reward: ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“dÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼l kullanÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€šÃ‚Â±lamÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€šÃ‚Â±yor
+  #
+  # Rewards menu
+  #
+  menu-title: Hediyeci Motto
+  join-hover-message: '&7ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“dÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼llerinizi toplamak iÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â§in
+  tÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€šÃ‚Â±klayÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€šÃ‚Â±n'
+  join-notification:
+  - ' '
+  - '&eHey &d%player% &eve bir &b%rewards% &eÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¶dÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼lÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼ sizi bekliyor! &f(Buraya tÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€šÃ‚Â±klayÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€šÃ‚Â±n)'
+  - ' '
+  cooldown-message: '%prefix% &d%type% &eÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¶dÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼lÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼ iÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â§in
+  &b%time% &ebeklemeniz gerekir'
+  daily-name: GÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼nlÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼k ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“dÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼l
+  daily-title: '&a&lÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“dÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼l'
+  daily-subtitle: '&eGÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼nlÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼k ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¶dÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼lÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼nÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼zÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼
+  topladÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€šÃ‚Â±nÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€šÃ‚Â±z'
+  daily-collected: '&d%player% &egÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼nlÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼k ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¶dÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼lÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼nÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼
+  aldÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€šÃ‚Â±!'
+  daily-premium-collected: '&a%player% &evip gÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼nlÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼k ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¶dÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼lÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼nÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼
+  topladÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€šÃ‚Â±!'
+  daily-displayname-available: '&a&lGÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼nlÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼k ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“dÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼l'
+  daily-premium-displayname-available: '&a&lGÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼nlÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼k ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“dÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼l'
+  daily-available-lore:
+  - ' '
+  - '&6ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“dÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼ller'
+  - '&7- &e500 Coin'
+  - '&7- &e1 Gizemli Kutu'
+  - '&7- &e50 TecrÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼be PuanÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€šÃ‚Â±'
+  - ' '
+  - '&7KullanÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€šÃ‚Â±m: &bOyuncu'
+  daily-available-premium-lore:
+  - ' '
+  - '&6ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“dÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼ller'
+  - '&7- &e1.500 Coin'
+  - '&7- &e2 Gizemli Kutu'
+  - '&7- &e100 TecrÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼be PuanÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€šÃ‚Â±'
+  - ' '
+  - '&7KullanÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€šÃ‚Â±m: &6VIP'
+  daily-displayname-unavailable: '&c&lGÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼nlÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼k ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“dÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼l'
+  daily-premium-displayname-unavailable: '&c&lGÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼nlÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼k ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“dÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼l'
+  daily-unavailable-lore:
+  - ' '
+  - '&7Kalan SÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼re: &e%cooldown%'
+  daily-unavailable-premium-lore:
+  - ' '
+  - '&7Kalan SÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼re: &e%cooldown%'
+  weekly-name: Haftalk ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“dÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼l
+  weekly-title: '&e&lÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“dÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼l'
+  weekly-subtitle: '&eHaftalÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€šÃ‚Â±k ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¶dÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼lÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼nÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼zÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼
+  aldÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€šÃ‚Â±nÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€šÃ‚Â±z'
+  weekly-collected: '&d%player% &ehaftalÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€šÃ‚Â±k ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¶dÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼lÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼nÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼
+  aldÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€šÃ‚Â±!'
+  weekly-premium-collected: '&d%player% &evip haftalÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€šÃ‚Â±k ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¶dÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼lÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼nÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼
+  aldÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€šÃ‚Â±!'
+  weekly-displayname-available: '&a&lHaftalÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€šÃ‚Â±k ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“dÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼l'
+  weekly-premium-displayname-available: '&a&lHaftalÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€šÃ‚Â±k ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“dÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼l'
+  weekly-available-lore:
+  - ' '
+  - '&6ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“dÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼ller'
+  - '&7- &e2.000 Coin'
+  - '&7- &e2 Gizemli Kutu'
+  - '&7- &e100 TecrÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼be PuanÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€šÃ‚Â±'
+  - ' '
+  - '&7KullanÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€šÃ‚Â±m: &bOyuncu'
+  weekly-available-premium-lore:
+  - ' '
+  - '&6ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“dÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼ller'
+  - '&7- &e4.000 Coin'
+  - '&7- &e4 Gizemli Kutu'
+  - '&7- &e150 TecrÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼be PuanÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€šÃ‚Â±'
+  - ' '
+  - '&7KullanÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€šÃ‚Â±m: &6VIP'
+  weekly-displayname-unavailable: '&c&lHaftalÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€šÃ‚Â±k ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“dÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼l'
+  weekly-premium-displayname-unavailable: '&c&lHaftalÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€šÃ‚Â±k ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“dÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼l'
+  weekly-unavailable-lore:
+  - ' '
+  - '&7Kalan SÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼re: &e%cooldown%'
+  weekly-unavailable-premium-lore:
+  - ' '
+  - '&7Kalan SÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼re: &e%cooldown%'
+  monthly-name: AylÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€šÃ‚Â±k ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“dÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼l
+  monthly-title: '&e&lÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“dÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼l'
+  monthly-subtitle: '&eAylÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€šÃ‚Â±k ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¶dÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼lÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼nÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼zÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼
+  aldÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€šÃ‚Â±nÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€šÃ‚Â±z'
+  monthly-collected: '&d%player% &eaylÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€šÃ‚Â±k ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¶dÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼lÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼
+  talep etti!'
+  monthly-premium-collected: '&d%player% &eaylÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€šÃ‚Â±k vip ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¶dÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼lÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼nÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼
+  aldÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€šÃ‚Â±!'
+  monthly-displayname-available: '&a&lHaftalÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€šÃ‚Â±k ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“dÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼l'
+  monthly-premium-displayname-available: '&a&lHaftalÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€šÃ‚Â±k ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“dÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼l'
+  monthly-available-lore:
+  - ' '
+  - '&6ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“dÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼ller'
+  - '&7- &e4.000 Coin'
+  - '&7- &e4 Gizemli Kutu'
+  - '&7- &e150 TecrÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼be PuanÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€šÃ‚Â±'
+  - ' '
+  - '&7KullanÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€šÃ‚Â±m: &bOyuncu'
+  monthly-available-premium-lore:
+  - ' '
+  - '&6ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“dÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼ller'
+  - '&7- &e8.000 Coin'
+  - '&7- &e8 Gizemli Kutu'
+  - '&7- &e200 TecrÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼be PuanÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€šÃ‚Â±'
+  - ' '
+  - '&7KullanÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€šÃ‚Â±m: &6VIP'
+  monthly-displayname-unavailable: '&c&lAylÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€šÃ‚Â±k ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“dÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼l'
+  monthly-premium-displayname-unavailable: '&c&lAylÃƒÆ’Ã¢â‚¬ï¿½Ãƒâ€šÃ‚Â±k ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“dÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼l'
+  monthly-unavailable-lore:
+  - ' '
+  - '&7Kalan SÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼re: &e%cooldown%'
+  monthly-unavailable-premium-lore:
+  - ' '
+  - '&7Kalan SÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼re: &e%cooldown%'

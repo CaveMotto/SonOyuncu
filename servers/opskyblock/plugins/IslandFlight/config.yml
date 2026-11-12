@@ -1,0 +1,7 @@
+island-flight-enabled: true
+skyblock-world-name: askyblock
+not-in-island: '&6Skyblock &7► &eYalnızca bir ada dünyasında olduğunuzda kullanılabilir.'
+if-activated: '&6Skyblock &7► &eArtık uçabilirsin!'
+if-disabled: '&6Skyblock &7► &eBu eklenti yapılandırmadan devre dışı bırakıldı.'
+only-in-game: 'This plugin can not be used by console.'
+no-perm: '&cYou dont have permission to use this command!'

@@ -1,0 +1,423 @@
+﻿command /sil:
+    permission: rehber.sil 
+    trigger:
+        send "&f" to all players
+        send "&f" to all players
+        send "&f" to all players
+        send "&f" to all players
+        send "&f" to all players
+        send "&f" to all players
+        send "&f" to all players
+        send "&f" to all players
+        send "&f" to all players
+        send "&f" to all players
+        send "&f" to all players
+        send "&f" to all players
+        send "&f" to all players
+        send "&f" to all players
+        send "&f" to all players
+        send "&f" to all players
+        send "&f" to all players
+        send "&f" to all players
+        send "&f" to all players
+        send "&f" to all players
+        send "&f" to all players
+        send "&f" to all players
+        send "&f" to all players
+        send "&f" to all players
+        send "&f" to all players
+        send "&f" to all players
+        send "&f" to all players
+        send "&f" to all players
+        send "&f" to all players
+        send "&f" to all players
+        send "&f" to all players
+        send "&f" to all players
+        send "&f" to all players
+        send "&f" to all players
+        send "&f" to all players
+        send "&f" to all players
+        send "&f" to all players
+        send "&f" to all players
+        send "&f" to all players
+        send "&f" to all players
+        send "&f" to all players
+        send "&f" to all players
+        send "&f" to all players
+        send "&f" to all players
+        send "&f" to all players
+        send "&f" to all players
+        send "&f" to all players
+        send "&f" to all players
+        send "&f" to all players
+        send "&f" to all players
+        send "&f" to all players
+        send "&f" to all players
+        send "&f" to all players
+        send "&f" to all players
+        send "&f" to all players
+        send "&f" to all players
+        send "&f" to all players
+        send "&f" to all players
+        send "&f" to all players
+        send "&f" to all players
+        send "&f" to all players
+        send "&f" to all players
+        send "&f" to all players
+        send "&f" to all players
+        send "&f" to all players
+        send "&f" to all players
+        send "&f" to all players
+        send "&f" to all players
+        send "&f" to all players
+        send "&f" to all players
+        send "&f" to all players
+        send "&f" to all players
+        send "&f" to all players
+        send "&f" to all players
+        send "&f" to all players
+        send "&f" to all players
+        send "&f" to all players
+        send "&f" to all players
+        send "&f" to all players
+        send "&f" to all players
+        send "&f" to all players
+        send "&f" to all players
+        send "&f" to all players
+        send "&f" to all players
+        send "&f" to all players
+        send "&f" to all players
+        send "&f" to all players
+        send "&f" to all players
+        send "&f" to all players
+        send "&f" to all players
+        send "&f" to all players
+        send "   &8≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋" to all players
+        send "&f" to all players
+        send "&r &r &r                  &eLaros Store" to all players
+        send "&f" to all players
+        send "&r       &7Sohbet &cOtomatik &7olarak temizlenmistir!" to all players
+        send "&r &r    &7Lütfen Spam Yaparak Sohbeti Kirletmeyiniz." to all players
+		send "&f" to all players
+        send "   &8≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋" to players
+		
+Command /chat <text>:
+    permission: chat.kilit 
+    trigger:
+        if arg 1 is "kapat":
+            set {kilitli} to true
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast "   &8≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋" 
+            broadcast "&f" 
+            broadcast "&r &r &r                  &eLaros Store" 
+            broadcast "&f"
+            broadcast "&r   &7Sohbet &c%player% &7tarafından kapatıldı!"
+            broadcast "&r &r   &7Lütfen Spam Yaparak Sohbeti Kirletmeyiniz."
+		    broadcast "&f"
+            broadcast "   &8≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋"
+            broadcast " "         
+        else:
+            if arg 1 is "ac":
+                set {kilitli} to false
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast " "
+            broadcast "   &8≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋" 
+            broadcast "&f" 
+            broadcast "&r &r &r                  &eLaros Store" 
+            broadcast "&f"
+            broadcast "&r  &r   &7Sohbet &a%player% &7tarafından açıldı!"
+            broadcast "&r &r   &7Lütfen Spam Yaparak Sohbeti Kirletmeyiniz."
+		    broadcast "&f"
+            broadcast "   &8≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋"
+            broadcast " "         
+
+on chat:
+    {kilitli} is true:
+        if player doesn't have permission "chat.konus":
+            cancel event
+            send "&8» &7Sohbet kapalıdır konuşamassın" to player
+			

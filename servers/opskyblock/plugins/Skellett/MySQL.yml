@@ -1,0 +1,16 @@
+# Skellett the addon with the beast name!
+# By LimeGlass
+# 
+# If you want to use Skellett mysql syntax, enable it here.
+MySQL: false
+SQLite: false
+ClassPath: jdbc:mysql://
+mysqlProperties: ?allowMultiQueries=true&autoReconnect=true
+PasswordSyntax: false
+MySQLSetup:
+  Host: localhost
+  Port: 3306
+  Username: admin
+  Password: skellett_password
+  Database: _table
+allowMultiQueries: true

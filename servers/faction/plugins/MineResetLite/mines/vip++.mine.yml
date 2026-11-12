@@ -1,0 +1,21 @@
+mine:
+  ==: com.koletar.jj.mineresetlite.Mine
+  resetDelay: 0
+  surface: ''
+  maxZ: 513
+  maxY: 43
+  maxX: 513
+  ignoreLadders: false
+  fillMode: false
+  world: VIP-Kazi
+  minY: 3
+  resetWarnings: []
+  minX: 487
+  composition: {}
+  name: vip++
+  resetClock: 0
+  minZ: 487
+  isSilent: false
+  tpY: -1
+  tpX: 0
+  tpZ: 0

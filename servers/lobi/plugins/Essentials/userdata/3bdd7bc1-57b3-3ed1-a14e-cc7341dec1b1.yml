@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1794385725199
+  login: 1794385188244
+money: '0'
+last-account-name: Player375
+lastlocation:
+  world: b19f8c60-05ff-4c2e-978a-fdd95b8b771e
+  world-name: Lobi
+  x: 85.0
+  y: 118.0
+  z: 3.0
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: b19f8c60-05ff-4c2e-978a-fdd95b8b771e
+  world-name: Lobi
+  x: 84.3981196814469
+  y: 118.0
+  z: 4.1556804200421436
+  yaw: -299.69921875
+  pitch: 3.4499967098236084

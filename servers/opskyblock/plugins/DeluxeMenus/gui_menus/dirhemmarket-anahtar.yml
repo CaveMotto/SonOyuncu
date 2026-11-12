@@ -1,0 +1,51 @@
+menu_title: "&7Dirhem Market - Anahtar"
+size: 27
+items: 
+  'anahtar-1':
+    material: TRIPWIRE_HOOK
+    slot: 12
+    display_name: '&dTera Anahtarı'
+    enchantments:
+    - DURABILITY;1
+    hide_enchantments: true
+    lore:
+    - ''
+    - '&fFiyat: 300.000 ⛁'
+    - ''
+    - '&eAlmak için tıkla!'
+    click_commands:
+      - '[player] anahtar1'
+      - '[close]' 
+    right_click_commands:
+      - '[player] anahtar1'
+      - '[close]' 
+  'anahtar-2':
+    material: TRIPWIRE_HOOK
+    slot: 14
+    display_name: '&dEpic Anahtarı'
+    enchantments:
+    - DURABILITY;1
+    hide_enchantments: true
+    lore:
+    - ''
+    - '&fFiyat: 500.000 ⛁'
+    - ''
+    - '&eAlmak için tıkla!'
+    click_commands:
+      - '[player] anahtar2'
+      - '[close]' 
+    right_click_commands:
+      - '[player] anahtar3'
+      - '[close]' 
+  'geri':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzE1OTdhMzY5NmIxOWY1Y2ZiYTlmOGJlNzU3OTA4NDgxYzg2YmU1YmIzZTc2YTg5M2I0MmZlNTYxNzJlYyJ9fX0=
+    slot: 18
+    display_name: "&aGeri"  
+    click_commands:
+      - '[player] dirhemmarket'
+      - '[close]' 
+    right_click_commands:
+      - '[player] dirhemmarket'
+      - '[close]' 
+
+

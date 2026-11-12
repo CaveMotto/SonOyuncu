@@ -1,0 +1,26 @@
+menu_title: "&7Ada Sil"
+open_command:
+- onayla
+- is confirm
+size: 36
+items: 
+  'ada-sil':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjgwZDMyOTVkM2Q5YWJkNjI3NzZhYmNiOGRhNzU2ZjI5OGE1NDVmZWU5NDk4YzRmNjlhMWMyYzc4NTI0YzgyNCJ9fX0=
+    slot: 13
+    display_name: '&aAdanı Sil'
+    lore:
+      - ''
+      - '&fBu adayı silersen'
+      - '&fiçindeki eşyalar, bloklar'
+      - '&fve rütben gidecektir.'
+      - ''
+      - '&e▶ Silmek için tıkla!'
+    click_commands:
+      - '[player] island confirm'
+      - '[close]'
+  'kapat':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2VkMWFiYTczZjYzOWY0YmM0MmJkNDgxOTZjNzE1MTk3YmUyNzEyYzNiOTYyYzk3ZWJmOWU5ZWQ4ZWZhMDI1In19fQ==
+    slot: 31
+    display_name: "&cKapat"  
+    click_commands:
+      - '[close] '

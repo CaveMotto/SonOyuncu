@@ -1,0 +1,132 @@
+Animatronic:
+  profil:
+    '1':
+      world: Faction
+      yaw: -29.458313
+      x: -6.457639617254064
+      y: 67.0
+      z: -30.445101637493842
+      hx: 0.0
+      hy: 0.0
+      hz: 0.0
+      bx: 0.0
+      by: 0.0
+      bz: 0.0
+      lax: 4.004775094525731
+      lay: 4.72067300927149
+      laz: -0.17453292519943295
+      rax: -0.2617993877991494
+      ray: 0.0
+      raz: 0.0
+      llx: 5.879927324390916
+      lly: 6.283185307179586
+      llz: -0.017453292519943295
+      rlx: 5.935783399829802
+      rly: 1.5857063004738141
+      rlz: 0.017453292519943295
+    delay: 7
+    clothes:
+      head:
+        type: LEGACY_ANIMATRONICS_SKULL
+        skull:
+          textures: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2E4OTZiNDhhZmQ5ZDg3MGYwMzg2ZGIyNGQzYjcxOGFmMTMwNDFkZWU3Mjc5NDMxYjY2NTI1ZTc2Mjg1YmQifX19
+      body:
+        ==: org.bukkit.inventory.ItemStack
+        type: LEATHER_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: LEATHER_ARMOR
+          color:
+            ==: Color
+            RED: 242
+            BLUE: 153
+            GREEN: 242
+      pants:
+        ==: org.bukkit.inventory.ItemStack
+        type: LEATHER_LEGGINGS
+        meta:
+          ==: ItemMeta
+          meta-type: LEATHER_ARMOR
+          color:
+            ==: Color
+            RED: 242
+            BLUE: 153
+            GREEN: 242
+      boots:
+        ==: org.bukkit.inventory.ItemStack
+        type: LEATHER_BOOTS
+        meta:
+          ==: ItemMeta
+          meta-type: LEATHER_ARMOR
+          color:
+            ==: Color
+            RED: 242
+            BLUE: 153
+            GREEN: 242
+      '2':
+        head:
+          type: LEGACY_ANIMATRONICS_SKULL
+          skull:
+            textures: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2E4OTZiNDhhZmQ5ZDg3MGYwMzg2ZGIyNGQzYjcxOGFmMTMwNDFkZWU3Mjc5NDMxYjY2NTI1ZTc2Mjg1YmQifX19
+        body:
+          ==: org.bukkit.inventory.ItemStack
+          type: LEATHER_CHESTPLATE
+          meta:
+            ==: ItemMeta
+            meta-type: LEATHER_ARMOR
+            color:
+              ==: Color
+              RED: 242
+              BLUE: 153
+              GREEN: 242
+        pants:
+          ==: org.bukkit.inventory.ItemStack
+          type: LEATHER_LEGGINGS
+          meta:
+            ==: ItemMeta
+            meta-type: LEATHER_ARMOR
+            color:
+              ==: Color
+              RED: 242
+              BLUE: 153
+              GREEN: 242
+        boots:
+          ==: org.bukkit.inventory.ItemStack
+          type: LEATHER_BOOTS
+          meta:
+            ==: ItemMeta
+            meta-type: LEATHER_ARMOR
+            color:
+              ==: Color
+              RED: 242
+              BLUE: 153
+              GREEN: 242
+    visible: true
+    small: false
+    poslist:
+    - '1'
+    - '2'
+    '2':
+      world: Faction
+      yaw: -29.458313
+      x: -6.457639617254064
+      y: 67.0
+      z: -30.445101637493842
+      hx: 0.0
+      hy: 0.0
+      hz: 0.0
+      bx: 0.0
+      by: 0.0
+      bz: 0.0
+      lax: 4.522660058005265
+      lay: 4.72067300927149
+      laz: -0.17453292519943295
+      rax: -0.2617993877991494
+      ray: 0.0
+      raz: 0.0
+      llx: 5.879927324390916
+      lly: 6.283185307179586
+      llz: -0.017453292519943295
+      rlx: 5.935783399829802
+      rly: 1.5857063004738141
+      rlz: 0.017453292519943295

@@ -1,0 +1,165 @@
+menu_title: "&7Dirhem Market - Spawner"
+size: 45
+items: 
+  'spawner-1':
+    material: MOB_SPAWNER
+    slot: 11
+    display_name: '&fDemir Spawner'
+    lore:
+    - ''
+    - '&fFiyat: 15.000 ⛁'
+    - ''
+    - '&eAlmak için tıkla!'
+    click_commands:
+      - '[player] spawner1'
+      - '[close]' 
+    right_click_commands:
+      - '[player] spawner1'
+      - '[close]' 
+  'spawner-2':
+    material: MOB_SPAWNER
+    slot: 12
+    display_name: '&fAltın Spawner'
+    lore:
+    - ''
+    - '&fFiyat: 25.000 ⛁'
+    - ''
+    - '&eAlmak için tıkla!'
+    click_commands:
+      - '[player] spawner2'
+      - '[close]' 
+    right_click_commands:
+      - '[player] spawner2'
+      - '[close]' 
+  'spawner-3':
+    material: MOB_SPAWNER
+    slot: 13
+    display_name: '&fElmas Spawner'
+    lore:
+    - ''
+    - '&fFiyat: 45.000 ⛁'
+    - ''
+    - '&eAlmak için tıkla!'
+    click_commands:
+      - '[player] spawner3'
+      - '[close]' 
+    right_click_commands:
+      - '[player] spawner3'
+      - '[close]' 
+  'spawner-4':
+    material: MOB_SPAWNER
+    slot: 14
+    display_name: '&fZümrüt Spawner'
+    lore:
+    - ''
+    - '&fFiyat: 70.000 ⛁'
+    - ''
+    - '&eAlmak için tıkla!'
+    click_commands:
+      - '[player] spawner4'
+      - '[close]' 
+    right_click_commands:
+      - '[player] spawner4'
+      - '[close]' 
+  'spawner-5':
+    material: MOB_SPAWNER
+    slot: 15
+    display_name: '&fDemir Blok Spawner'
+    lore:
+    - ''
+    - '&fFiyat: 60.000 ⛁'
+    - ''
+    - '&eAlmak için tıkla!'
+    click_commands:
+      - '[player] spawner5'
+      - '[close]' 
+    right_click_commands:
+      - '[player] spawner5'
+      - '[close]' 
+  'spawner-6':
+    material: MOB_SPAWNER
+    slot: 20
+    display_name: '&fAltın Blok Spawner'
+    lore:
+    - ''
+    - '&fFiyat: 100.000 ⛁'
+    - ''
+    - '&eAlmak için tıkla!'
+    click_commands:
+      - '[player] spawner6'
+      - '[close]' 
+    right_click_commands:
+      - '[player] spawner6'
+      - '[close]' 
+  'spawner-7':
+    material: MOB_SPAWNER
+    slot: 21
+    display_name: '&fElmas Blok Spawner'
+    lore:
+    - ''
+    - '&fFiyat: 180.000 ⛁'
+    - ''
+    - '&eAlmak için tıkla!'
+    click_commands:
+      - '[player] spawner7'
+      - '[close]' 
+    right_click_commands:
+      - '[player] spawner7'
+      - '[close]' 
+  'spawner-8':
+    material: MOB_SPAWNER
+    slot: 22
+    display_name: '&fZümrüt Blok Spawner'
+    lore:
+    - ''
+    - '&fFiyat: 300.000 ⛁'
+    - ''
+    - '&eAlmak için tıkla!'
+    click_commands:
+      - '[player] spawner8'
+      - '[close]' 
+    right_click_commands:
+      - '[player] spawner8'
+      - '[close]' 
+  'spawner-9':
+    material: MOB_SPAWNER
+    slot: 23
+    display_name: '&fEnd Blok Spawner'
+    lore:
+    - ''
+    - '&fFiyat: 2.000.000 ⛁'
+    - ''
+    - '&eAlmak için tıkla!'
+    click_commands:
+      - '[player] spawner9'
+      - '[close]' 
+    right_click_commands:
+      - '[player] spawner9'
+      - '[close]' 
+  'spawner-10':
+    material: MOB_SPAWNER
+    slot: 24
+    display_name: '&fPrizmarin Blok Spawner'
+    lore:
+    - ''
+    - '&fFiyat: 5.000.000 ⛁'
+    - ''
+    - '&eAlmak için tıkla!'
+    click_commands:
+      - '[player] spawner10'
+      - '[close]' 
+    right_click_commands:
+      - '[player] spawner10'
+      - '[close]' 
+  'geri':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzE1OTdhMzY5NmIxOWY1Y2ZiYTlmOGJlNzU3OTA4NDgxYzg2YmU1YmIzZTc2YTg5M2I0MmZlNTYxNzJlYyJ9fX0=
+    slot: 36
+    display_name: "&aGeri"  
+    click_commands:
+      - '[player] dirhemmarket'
+      - '[close]' 
+    right_click_commands:
+      - '[player] dirhemmarket'
+      - '[close]' 
+
+

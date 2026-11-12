@@ -1,0 +1,236 @@
+# https://github.com/NEZNAMY/TAB/wiki/sqruatFeature-guide:-Header-&-Footer
+header-footer:
+  enabled: true
+  header:
+  - ''
+  - '&eᴏᴘꜱᴋʏʙʟᴏᴄᴋ ꜱᴜʀᴜᴍ 0.1'
+  - ''
+  - '&8&l&m----------------------&8&l&m-----------------------'
+  footer:
+  - '&8&l&m----------------------&8&l&m-----------------------'
+  - ''
+  - '&f       &7VIP , Spawner , Anahtar ve daha fazlası için:      '
+  - '&eby Motto'
+  - ''
+  disable-condition: '%world%=disabledworld'
+  per-world:
+    world1:
+      header:
+      - an example of world with custom
+      footer:
+      - header/footer and prefix/suffix
+    world2;world3:
+      header:
+      - This is a shared header for
+      - world2 and world3
+  per-server:
+    server1:
+      header:
+      - an example of server with custom header
+tablist-name-formatting:
+  enabled: true
+  anti-override: true
+  disable-condition: '%world%=disabledworld'
+scoreboard-teams:
+  enabled: true
+  enable-collision: true
+  invisible-nametags: false
+  anti-override: true
+  sorting-types:
+  - GROUPS:yönetici,youtuber,rehber,vip,default
+  - PLACEHOLDER_A_TO_Z:%player%
+  case-sensitive-sorting: true
+  can-see-friendly-invisibles: false
+  disable-condition: '%world%=disabledworld'
+  unlimited-nametag-mode:
+    enabled: false
+    disable-on-boats: true
+    disable-condition: '%world%=disabledworld'
+    dynamic-lines:
+    - abovename
+    - nametag
+    - belowname
+    - another
+    static-lines:
+      myCustomLine: 0.66
+playerlist-objective:
+  enabled: false
+  value: '%ping%'
+  fancy-value: '&7Ping: %ping%'
+  disable-condition: '%world%=disabledworld'
+belowname-objective:
+  enabled: false
+  number: '%health%'
+  text: '&cHealth'
+  fancy-display-players: '&c%health%'
+  fancy-display-default: NPC
+  disable-condition: '%world%=disabledworld'
+prevent-spectator-effect:
+  enabled: false
+bossbar:
+  enabled: false
+  toggle-command: /bossbar
+  remember-toggle-choice: false
+  hidden-by-default: false
+  bars:
+    ServerInfo:
+      style: PROGRESS
+      color: '%animation:barcolors%'
+      progress: '1000'
+      text: '&dKOD:15TATIL &7- &dnewskyblock.xyz Kullanabilirsin.'
+scoreboard:
+  enabled: true
+  toggle-command: /sb
+  remember-toggle-choice: false
+  hidden-by-default: false
+  use-numbers: false
+  static-number: 0
+  delay-on-join-milliseconds: 0
+  respect-other-plugins: true
+  scoreboards:
+    scoreboard-1.20.3+:
+      title: '&eᴏᴘꜱᴋʏʙʟᴏᴄᴋ ꜱᴜʀᴜᴍ 0.1'
+      display-condition: '%player-version-id%>=765'
+      lines:
+      - '&f'
+      - '&fDinar: &e%vault_eco_balance_formatted%'
+      - '&fDirhem: &d%skript_dirhem::{player}% ⛁'
+      - '&fRütbe: &b%deluxetags_description% ︽'
+      - '&c'
+      - '&f    Sandık Eventi'
+      - '&c    %crazyenvoys_cooldown%'
+      - '&e'
+      - '&fAda Sıralaması: &6%aslbp_rank% ♥'
+      - '&fAda Takımı: &a%askyblock_team_size%/%askyblock_members_max% ▲'
+      - '&d'
+      - '&fOyuncular: &3%online% ✔'
+      - '&b'
+      - '&e  by Motto  '
+      
+    scoreboard:
+      title: '&eᴏᴘꜱᴋʏʙʟᴏᴄᴋ ꜱᴜʀᴜᴍ 0.1'
+      lines:
+      - '&f'
+      - '&fDinar: &e%vault_eco_balance_formatted%'
+      - '&fDirhem: &d%skript_dirhem::{player}% ⛁'
+      - '&fRütbe: &b%deluxetags_description% ︽'
+      - '&c'
+      - '&f    Sandık Eventi'
+      - '&c    %crazyenvoys_cooldown%'
+      - '&e'
+      - '&fAda Sıralaması: &6%aslbp_rank% ♥'
+      - '&fAda Takımı: &a%askyblock_team_size%/%askyblock_members_max% ▲'
+      - '&d'
+      - '&fOyuncular: &3%online% ✔'
+      - '&b'
+      - '&e  by Motto  '
+      
+      
+layout:
+  enabled: false
+  direction: COLUMNS
+  default-skin: mineskin:1753261242
+  enable-remaining-players-text: true
+  remaining-players-text: '... and %s more'
+  empty-slot-ping-value: 1000
+  layouts:
+    default:
+      fixed-slots:
+      - '1|&3Website&f:'
+      - 2|&bmyserver.net
+      - '3|&8&m                       '
+      - '4|&3Name&f:'
+      - 5|&b%player%
+      - '7|&3Rank&f:'
+      - '8|Rank: %group%'
+      - '10|&3World&f:'
+      - 11|&b%world%
+      - '13|&3Time&f:'
+      - 14|&b%time%
+      - '21|&3Teamspeak&f:'
+      - 22|&bts.myserver.net
+      - '23|&8&m                       '
+      - '41|&3Store&f:'
+      - 42|&bshop.myserver.net
+      - '43|&8&m                       '
+      groups:
+        staff:
+          condition: permission:tab.staff
+          slots:
+          - 24-40
+        players:
+          slots:
+          - 44-80
+ping-spoof:
+  enabled: false
+  value: 0
+placeholders:
+  date-format: dd.MM.yyyy
+  time-format: '[HH:mm:ss / h:mm a]'
+  time-offset: 0
+placeholder-output-replacements:
+  '%essentials_vanished%':
+    'yes': '&7| Vanished'
+    'no': ''
+  '%essentials_nickname%':
+    '%essentials_nickname%': '%player%'
+conditions:
+  nick:
+    conditions:
+    - '%player%=%essentials_nickname%'
+    true: '%player%'
+    false: ~%essentials_nickname%
+placeholderapi-refresh-intervals:
+  default-refresh-interval: 500
+  '%server_uptime%': 1000
+  '%server_tps_1_colored%': 1000
+  '%server_unique_joins%': 5000
+  '%player_health%': 200
+  '%player_ping%': 1000
+  '%vault_prefix%': 1000
+  '%rel_factionsuuid_relation_color%': 1000
+assign-groups-by-permissions: false
+primary-group-finding-list:
+- Yönetici
+- Rehber
+- youtuber
+- vip
+- default
+debug: false
+mysql:
+  enabled: false
+  host: 127.0.0.1
+  port: 3306
+  database: tab
+  username: user
+  password: password
+per-world-playerlist:
+  enabled: false
+  allow-bypass-permission: false
+  ignore-effect-in-worlds:
+  - ignoredworld
+  - build
+  shared-playerlist-world-groups:
+    lobby:
+    - lobby1
+    - lobby2
+    minigames:
+    - paintball
+    - bedwars
+global-playerlist:
+  enabled: false
+  display-others-as-spectators: false
+  display-vanished-players-as-spectators: true
+  isolate-unlisted-servers: false
+  spy-servers:
+  - spyserver1
+  - spyserver2
+  server-groups:
+    lobbies:
+    - lobby1
+    - lobby2
+    group2:
+    - server1
+    - server2
+use-bukkit-permissions-manager: false
+use-online-uuid-in-tablist: true

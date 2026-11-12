@@ -1,0 +1,177 @@
+# Default Language Configuration for CombatLogX
+# Made by SirBlobman for v10.3.8.5
+#
+# Do not set any messages to 'false' or 'null'
+# Do not delete any message entries from this file
+# You can set any message to "" to prevent it from being sent
+
+prefixes:
+  plugin: ""
+  expansion: ""
+
+broadcasts:
+  on-load: "&aCombatLogX başarıyla yüklendi!"
+  on-enable: "&aCombatLogX etkinleştirildi!"
+  on-disable: "&cCombatLogX devre dışı!"
+
+expansion-logging:
+  loading: "Yükleniyor - '{name} v{version}'..."
+  loaded: "Başarıyla yüklendi - {amount} expansion{s}."
+  enabling: "Aktif ediliyor - '{name} v{version}'..."
+  enabled: "Aktif edildi - {amount} expansion{s}."
+
+placeholders:
+  time-left-zero: "0"
+  unknown-enemy: "Bilinmiyor"
+  status:
+    fighting: "&cSavaşta"
+    idling: "&aBoşta"
+    in-combat: "&aEvet"
+    not-in-combat: "&cHayır"
+    option-enable: "&aAçık"
+    option-disable: "&cKapalı"
+
+errors:
+  unknown-entity-name: "Bilinmeyen Yaratık"
+  no-permission: "&6 Savaş &8▸ &cBunu yapmak için yeterli yetkiye sahip değilsin!"
+  not-player: "&6 Savaş &8▸ &cOyuncu değilsin!"
+  invalid-target: "&6 Savaş &8▸ &e{target} &chedefi bulunamadı!"
+  target-not-in-combat: "&6 Savaş &8▸ &e{target} &csavaşta değil!"
+  self-not-in-combat: "&6 Savaş &8▸ &fSavaştasın."
+
+commands:
+  combatlogx:
+    reloaded: "&6 Savaş &8▸ &aEklenti başarıyla yenilendi!"
+    tag-player: "&6 Savaş &8▸ &e{target &fadlı oyuncuyu savaşa zorladın."
+    tag-player-fail: "&6 Savaş &8▸ &e{target} &cadlı oyuncu etiketlenemedi."
+    untag-player: "&6 Savaş &8▸ &e{target} &fadlı oyuncuyu savaştan çıkmaya zorladın."
+    help-message-list:
+    - ""
+    - "&6CombatLogX Komut Yardımı:"
+    - "  &f/combatlogx help&7: Yardım sayfasını görüntüleyin."
+    - "  &f/combatlogx reload&7: Eklentiyi yeniler."
+    - "  &f/combatlogx version&7: Eklenti versiyonunu görüntüler."
+    - "  &f/combatlogx tag <player>&7: Bir oyuncuyu savaşa zorlar."
+    - "  &f/combatlogx untag <player>&7: Bir oyuncuyu savaştan çıkarır."
+    - ""
+
+  combat-timer:
+    time-left:
+      self: "&e{time} &fsaniyeniz kaldı."
+      other: "&6{target} &fadlı oyuncunun &e{time} &fsaniyesi kaldı."
+
+combat-timer:
+  expire: "&6 Savaş &8▸ &fArtık savaşta değilsin."
+  enemy-death: "&6 Savaş &8▸ &fDüşmanın öldü."
+
+tag-messages:
+  unknown: "&6 Savaş &8▸ &fSavaştasın, sakın oyundan çıkma!"
+  attacked:
+    by-player: "&6 Savaş &8▸ &e{name} &ftarafından saldırıya uğradın. Sakın oyundan çıkma!"
+    by-mob: "&6 Savaş &8▸ &e{mob_type} &ftarafından saldırıya uğradın. Sakın oyundan çıkma!"
+  attacker:
+    of-player: "&6 Savaş &8▸ &e{name} &file savaşa girdin, sakın oyundan çıkma!"
+    of-mob: "&6 Savaş &8▸ &e{mob_type} &file savaşa girdin, sakın oyundan çıkma!"
+
+# Messages after this point are only for Expansions
+
+cheat-prevention:
+  command-blocked: "&6 Savaş &8▸ &cSavaş esnasında komut kullanamazsın!"
+  no-riptide: "&6 Savaş &8▸ &cSavaş esnasında bu büyüyü kullanamazsın!"
+  no-totem: "&6 Savaş &8▸ &cSavaş esnasında totem kullanamazsın!"
+  no-entity-interaction: "&6 Savaş &8▸ &cSavaş esnasında bu yaratık ile etkileşime giremezsin."
+  no-chat: "&6 Savaş &8▸ &cSavaş esnasında sohbet mesajı gönderemezsin!"
+
+  game-mode:
+    force-changed: "&6 Savaş &8▸ &fOyun modunuz &e{game_mode} &folarak değiştirildi."
+    no-changing: "&6 Savaş &8▸ &cSavaş esnasında oyun modunu değiştiremezsin."
+
+  flight:
+    force-disabled: "&6 Savaş &8▸ &cSavaşa girdiğin için uçuş modun kapatıldı."
+    no-flying: "&6 Savaş &8▸ &cSavaş esnasında uçamazsın."
+
+  elytra:
+    force-disabled: "&6 Savaş &8▸ &cElytranız devre dışı bırakıldı!"
+    no-gliding: "&6 Savaş &8▸ &cSavaş esnasında elytra kullanamazsın!"
+
+  teleportation:
+    block-pearl: "&6 Savaş &8▸ &cSavaş esnasında enderpearl kullanamazsın!"
+    block-other: "&6 Savaş &8▸ &cSavaş esnasında ışınlanamazsın!"
+
+  inventory:
+    force-closed: "&6 Savaş &8▸ &cSavaşa girdiğin için envanterin kapatıldı!"
+    no-opening: "&6 Savaş &8▸ &cSavaş esnasında envanterini açamazsın!"
+
+  blocks:
+    no-breaking: "&6 Savaş &8▸ &cSavaş esnasında blok kıramazsın!"
+    no-placing: "&6 Savaş &8▸ &cSavaş esnasında blok koyamazsın!"
+    no-interaction: "&6 Savaş &8▸ &cSavaş esnasında blok ile etkileşime giremezsin!"
+
+  items:
+    no-pickup: "&6 Savaş &8▸ &cSavaş esnasında eşya alamazsın!"
+    no-dropping: "&6 Savaş &8▸ &cSavaş esnasında eşya atamazsın!"
+
+damage-tagger:
+  unknown-damage: "&6 Savaş &8▸ &cSavaştasın, oyundan çıkarsan ölür ve 1000 dinar kaybedersin!"
+  damage-type:
+    contact: "&6 Savaş &8▸ &cSavaştasın, oyundan çıkarsan ölür ve 1000 dinar kaybedersin!"
+    suffocation: "&6 Savaş &8▸ &cSavaştasın, oyundan çıkarsan ölür ve 1000 dinar kaybedersin!"
+    fall: "&6 Savaş &8▸ &cSavaştasın, oyundan çıkarsan ölür ve 1000 dinar kaybedersin!"
+    fire: "&6 Savaş &8▸ &cSavaştasın, oyundan çıkarsan ölür ve 1000 dinar kaybedersin!"
+    fire-tick: "&6 Savaş &8▸ &cSavaştasın, oyundan çıkarsan ölür ve 1000 dinar kaybedersin!"
+    lava: "&6 Savaş &8▸ &cSavaştasın, oyundan çıkarsan ölür ve 1000 dinar kaybedersin!"
+    drowning: "&6 Savaş &8▸ &cSavaştasın, oyundan çıkarsan ölür ve 1000 dinar kaybedersin!"
+    block-explosion: "&6 Savaş &8▸ &cSavaştasın, oyundan çıkarsan ölür ve 1000 dinar kaybedersin!"
+    lightning: "&6 Savaş &8▸ &cSavaştasın, oyundan çıkarsan ölür ve 1000 dinar kaybedersin!"
+    starvation: "&6 Savaş &8▸ &cSavaştasın, oyundan çıkarsan ölür ve 1000 dinar kaybedersin!"
+    poison: "&6 Savaş &8▸ &cSavaştasın, oyundan çıkarsan ölür ve 1000 dinar kaybedersin!"
+    magic: "&6 Savaş &8▸ &cSavaştasın, oyundan çıkarsan ölür ve 1000 dinar kaybedersin!"
+    wither: "&6 Savaş &8▸ &cSavaştasın, oyundan çıkarsan ölür ve 1000 dinar kaybedersin!"
+    falling-block: "&6 Savaş &8▸ &cSavaştasın, oyundan çıkarsan ölür ve 1000 dinar kaybedersin!"
+    custom: "&6 Savaş &8▸ &cSavaştasın, oyundan çıkarsan ölür ve 1000 dinar kaybedersin!"
+    fly-into-wall: "&6 Savaş &8▸ &cSavaştasın, oyundan çıkarsan ölür ve 1000 dinar kaybedersin!"
+    hot-floor: "&6 Savaş &8▸ &cSavaştasın, oyundan çıkarsan ölür ve 1000 dinar kaybedersin!"
+    cramming: "&6 Savaş &8▸ &cSavaştasın, oyundan çıkarsan ölür ve 1000 dinar kaybedersin!"
+
+newbie-helper:
+  status:
+    protected: "&aKorunuyor"
+    not-protected: "&cKorunmuyor"
+  pvptoggle:
+    enabled: "&7PvP &8▸ &aAktif"
+    disabled: "&7PvP &8▸ &cDeaktif"
+    admin-enabled: "&6 Savaş &8▸ &e{target} &fadlı oyuncunun savaş durumunu &aaktifleştirdin."
+    admin-disabled: "&6 Savaş &8▸ &e{target} &fadlı oyuncunun savaş durumunu &adeaktifleştirdin."
+  no-pvp:
+    self: "&6 Savaş &8▸ &cSavaş devre dışıyken saldıramazsın!"
+    other: "&6 Savaş &8▸ &cBu oyuncu savaşı devre dışı bıraktı!"
+    protected: "&6 Savaş &8▸ &cBu oyuncu savaştan korunuyor ve saldırmak için yeterli iznin yok!"
+    protected-self: "&6 Savaş &8▸ &cKorunma altındasın, henüz saldıramazsın!"
+  protection-disabled:
+    attacker: "&6 Savaş &8▸ &cKorunman devre dışı bırakıldı!"
+    expired: "&6 Savaş &8▸ &cKorunman bitti!"
+  check:
+    format: "&6 Savaş &8▸ &e{target} &fsavaş ayarını &c{settings} &folarak ayarlamış."
+    enabled: "&aAçık"
+    disabled: "&cKapalı"
+
+notifier:
+  toggle-bossbar: "&7Boss Bar &8▸ {status}"
+  toggle-actionbar: "&7Action Bar &8▸ {status}"
+  toggle-scoreboard: "&7Scoreboard &8▸ {status}"
+
+citizens-join-deny: "&6 Savaş &8▸ &cSavaş esnasında çıkış yapmanızın cezası olarak, klonunuz öldürülene ya da kaldırılana kadar oyuna giremezsiniz!"
+
+factions-compatibility-no-entry: "&6 Savaş &8▸ &cSavaş esnasında bu alana giriş yapamazsın!"
+griefprevention-compatibility-no-entry: "&6 Savaş &8▸ &cSavaş esnasında claime giriş yapamazsın!"
+lands-compatibility-no-entry: "&6 Savaş &8▸ &cSavaş esnasında bu alana giriş yapamazsın!"
+redprotect-compatibility-no-entry: "&6 Savaş &8▸ &cSavaş esnasında bu alana giriş yapamazsın!"
+residence-compatibility-no-entry: "&6 Savaş &8▸ &cSavaş esnasında bu alana giriş yapamazsın!"
+towny-compatibility-no-entry: "&6 Savaş &8▸ &cSavaş esnasında bu alana giriş yapamazsın!"
+preciousstones-compatibility-no-entry: "&6 Savaş &8▸ &cSavaş esnasında bu alana giriş yapamazsın!"
+preciousstones-compatibility-no-field: "&6 Savaş &8▸ &cSavaş esnasında bir koruma alanı oluşturamazsın!"
+disguise-compatibility-remove-disguise: "&6 Savaş &8▸ &cGizlilik/görünmezlik modun devre dışı bırakıldı!"
+
+worldguard-compatibility-no-entry:
+  pvp: "&6 Savaş &8▸ &cSavaş esnasında oyuncu olmayan bir bölgeye giriş yapamazsın!"
+  mob: "&6 Savaş &8▸ &cSavaş esnasında yaratık olmayan bir bölgeye giriş yapamazsın!"

@@ -1,0 +1,40 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 149.140.158.239
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1718396524742
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1718396578393
+  login: 1718395970678
+  kits:
+    oyuncu: 1718396447124
+money: '1000000'
+last-account-name: Zeuxsss
+lastlocation:
+  world: 4bd4f2dd-afea-44ea-b6bf-00c7bcb89ce0
+  world-name: Spawn
+  x: -2283.139362876924
+  y: 9.249187078744683
+  z: -308.3271796015256
+  yaw: 20.758935928344727
+  pitch: -5.07103967666626
+logoutlocation:
+  world: 4bd4f2dd-afea-44ea-b6bf-00c7bcb89ce0
+  world-name: Spawn
+  x: -2295.2027117862963
+  y: 14.0
+  z: -269.7622213921197
+  yaw: -236.5355224609375
+  pitch: 15.272244453430176

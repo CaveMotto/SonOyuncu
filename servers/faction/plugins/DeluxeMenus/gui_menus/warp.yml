@@ -1,0 +1,250 @@
+menu_title: '&7Işınlanma - Bölgeler'
+open_command:
+- warp
+- ışınlayıcı
+- bölge
+size: 45
+items:
+  'camlar': 
+    material: STAINED_GLASS_PANE
+    data: 15
+    amount: 1
+    slots:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 13
+    - 16
+    - 17
+    - 18
+    - 19
+    - 20
+    - 22
+    - 24
+    - 25
+    - 26
+    - 27
+    - 28
+    - 34
+    - 35
+    - 36
+    - 37
+    - 38
+    - 39
+    - 40
+    - 41
+    - 42
+    - 43
+    - 44
+  'warp-lapis':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGRlYTc0ZGU1OWI4MmNjNDQxNzhhMTJmNTcxNTI5MGUzMDMwNGFkZTYzYjE5MDQ2NDNiMDRiMjJkYzFlODhhMiJ9fX0=
+    slot: 11
+    display_name: ' &bLapis'
+    lore:
+    - ''
+    - ' &8▪ &7Oyuncu Olarak Lapis Kaz.'
+    - ' &8▪ &7Lapis Kazara Para Kas'
+    - ''
+    - ' &8▪ &7Savaş: &cx'
+    - ' &8▪ &7Yenilenme Süresi: &e10 Dakika'
+    - ''
+    - " &8► &aGitmek İçin Tıkla"
+    left_click_commands:   
+    - '[player] warp lapis'
+    - '[close]'
+    right_click_commands:
+    - '[player] warp lapis'
+    - '[close]'
+  'warp-hammadde':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmU3OGQ4ZWI1ODgzYTExMDY2N2I1MWVlMjBhM2IyMWQ1MmQwODlhMGQ0YzkxYmUzY2I3ODZjMzE4MjhhMjA5NyJ9fX0=
+    slot: 12
+    display_name: ' &bHammadde'
+    lore:
+    - ''
+    - ' &8▪ &7Bütün hammadde ihtiyacınızı'
+    - ' &8▪ &7buradan karşılayabilirsiniz.'
+    - ''
+    - ' &8▪ &7Savaş: &cx'
+    - ' &8▪ &7Yenilenme Süresi: &e20 Dakika'
+    - ''
+    - " &8► &aGitmek İçin Tıkla"
+    left_click_commands:   
+    - '[player] warp hammadde'
+    - '[close]'
+    right_click_commands:
+    - '[player] warp hammadde'
+    - '[close]'
+  'warp-vip':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmIxYzI2OGVmZWM4ZDdkODhhMWNiODhjMmJmYTA5N2ZhNTcwMzc5NDIyOTlmN2QyMDIxNTlmYzkzY2QzMDM2ZCJ9fX0=
+    slot: 14
+    display_name: ' &bVIP Hammade'
+    lore:
+    - ''
+    - ' &8▪ &7Sıteden Vip Alarak'
+    - ' &8▪ &7Burda Büyük Paralar Dönüyor.'
+    - ''
+    - ' &8▪ &7Savaş: &cx'
+    - ' &8▪ &7Yenilenme Süresi: &e10 Dakika'
+    - ''
+    - " &8► &aGitmek İçin Tıkla"
+    left_click_commands:   
+    - '[player] vip-ha'
+    - '[close]'
+    right_click_commands:
+    - '[player] vip-ha'
+    - '[close]'
+  'warp-event-kazı':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGRhMjI0NmZjMTc2NTlkOTBlMmU4MjkxMGZjZjU3MGYyN2NjNDUyYjZjZjE5YzljZWFiNmJkZTE4MzQxM2Y4YyJ9fX0=
+    slot: 15
+    display_name: ' &bKazı Event'
+    lore:
+    - ''
+    - ' &8▪ &7Burda Herkes Event''en Yararlanır.'
+    - ' &8▪ &7Her Hafta Belirli Günler Yapılır.'
+    - ''
+    - ' &8▪ &7Günler: &cYakında'
+    - ' &8▪ &7Etkinlik Süresi: &e5 Dakika'
+    - ''
+    - " &8► &aGitmek İçin Tıkla"
+    left_click_commands:   
+    - '[message] &6Faction &7►  &eYeni Güncellemede Sizinle Olacaktır.'
+    - '[close]'
+    right_click_commands:
+    - '[message] &6Faction &7►  &eYeni Güncellemede Sizinle Olacaktır.'
+    - '[close]'
+  'warp-kron':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzdiOWRmZDI4MWRlYWVmMjYyOGFkNTg0MGQ0NWJjZGE0MzZkNjYyNjg0NzU4N2YzYWM3NjQ5OGE1MWM4NjEifX19
+    slot: 21
+    display_name: ' &bKron Canavarı'
+    lore:
+    - ''
+    - ' &8▪ &7Kron Canavarı Güclüdür.'
+    - ' &8▪ &7Bir Orman Hükümdarıdır.'
+    - ''
+    - ' &8▪ &7Kron''un Gücü: &d1000'
+    - ' &8▪ &7Düşenler: &eP4 SET'
+    - ''
+    - " &8► &aGitmek İçin Tıkla"
+    left_click_commands:   
+    - '[player] warp boss'
+    - '[close]'
+    right_click_commands:
+    - '[player] warp boss'
+    - '[close]'
+  'warp-arena':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2RjMmU3NTg1ZGQ5YTRmMTA3OTdlZjM1ODE1MTBjNmM3ZmM5Y2UyYWE5OWJlNWViNjA0YzdiOGUzZjc2NmI1NCJ9fX0=
+    slot: 23
+    display_name: ' &bArena'
+    lore:
+    - ''
+    - ' &8▪ &7En Güclü Kitini Al'
+    - ' &8▪ &7Meydanda Hükümdarın'
+    - ' &8▪ &7Kim Olduğunu Göster.'  
+    - ''
+    - ' &8▪ &7Savaş: &d✔'
+    - ' &8▪ &7Durum: &eItem Düşer'
+    - ''
+    - " &8► &aGitmek İçin Tıkla"
+    left_click_commands:   
+    - '[player] warp arena'
+    - '[close]'
+    right_click_commands:
+    - '[player] warp arena'
+    - '[close]'
+  'warp-arsalar':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODNjMjVhN2ExODgxOTZiMTg3MTcyNjRmZmU4MzdjYTM0OGNmNzE5ZTgyNzE3OWVkYzRiNzhjYmNiOGM3ZGQ4In19fQ==
+    slot: 29
+    display_name: ' &bArsa'
+    lore:
+    - ''
+    - ' &8▪ &7Arsa Satın Alarak'
+    - ' &8▪ &7Hem Yapı Hemde Zafer Kazan.'
+    - ''
+    - ' &8▪ &7Arsa Limit: &c3x'
+    - ''
+    - " &8► &aGitmek İçin Tıkla"
+    left_click_commands:   
+    - '[player] warp arsalar'
+    - '[close]'
+    right_click_commands:
+    - '[player] warp arsalar'
+    - '[close]'
+  'warp-Kutu':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzc0ZWUxNTQyYzQ1NjNmZDZlN2Q3MmRlMjZlNzM3Y2YxOGZiZDA0Y2NhYjFiOGIyODM1M2RhODczNDhlY2ZiIn19fQ==
+    slot: 30
+    display_name: ' &bKutu'
+    lore:
+    - ''
+    - ' &8▪ &7Burda Eventler Ve Satın Alarak.'
+    - ' &8▪ &7Rengarek İtemlerin Cıkmasını Sağlar.'
+    - ''
+    - " &8► &aGitmek İçin Tıkla"
+    left_click_commands:   
+    - '[player] warp kasa'
+    - '[close]'
+    right_click_commands:
+    - '[player] warp kasa'
+    - '[close]'
+  'warp-Karıt':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWI3MGNiN2M1YTJhMWFmNDU3MmIxN2YwOWQyOTE5ODhhZmI1NzVjMjk3OGFmOGU5YzEyNDBmZjkwZGE1MGE0In19fQ==
+    slot: 31
+    display_name: ' &bTamirci Karıt'
+    lore:
+    - ''
+    - ' &8▪ &7Tamir Kartla Kıralan.'
+    - ' &8▪ &7Eşyanı Hemen Tamir Et.'
+    - ''
+    - ' &8▪ &7Fiyat: &d50.000 ⛁ '
+    - ''
+    - " &8► &aGitmek İçin Tıkla"
+    left_click_commands:   
+    - '[player] warp tamir'
+    - '[close]'
+    right_click_commands:
+    - '[player] warp tamir'
+  'warp-sıralama':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWMyZTlkODM5NWNhY2Q5OTIyODY5YzE1MzczY2Y3Y2IxNmRhMGE1Y2U1ZjNjNjMyYjE5Y2ViMzkyOWM5YTExIn19fQ==
+    slot: 32
+    display_name: '&bSıralama'
+    lore:
+    - ''
+    - ' &8▪ &7En İyi Sıralamaya'
+    - ' &8▪ &7Gir Kral Sen Ol' 
+    - ''
+    - ' &8▪ &7Sıralama Tipi: &cBakiye'
+    - ''
+    - " &8► &aGitmek İçin Tıkla"
+    left_click_commands:   
+    - '[player] baltop'
+    - '[close]'
+    right_click_commands:
+    - '[player] baltop'
+    - '[close]'
+  'warp-orman':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzVhMzViNWNhMTUyNjg2ODVjNDY2MDUzNWU1ODgzZDIxYTVlYzU3YzU1ZDM5NzIzNDI2OWFjYjVkYzI5NTRmIn19fQ==
+    slot: 33
+    display_name: ' &bOrman'
+    lore:
+    - ''
+    - ' &8▪ &7Ormanda Klan Kurarak'
+    - ' &8▪ &7Ve Klan Evi Kur'
+    - ' &8▪ &7Hükümdar Sen Ol'  
+    - ''
+    - ' &8▪ &7Savaş: &d✔'
+    - ' &8▪ &7Durum: &eItem Düşer'
+    - ''
+    - " &8► &aGitmek İçin Tıkla"
+    left_click_commands:   
+    - '[player] warp orman'
+    - '[close]'
+    right_click_commands:
+    - '[player] warp orman'
+    - '[close]'

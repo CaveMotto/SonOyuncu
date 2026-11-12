@@ -1,0 +1,79 @@
+options:
+    oyuncu.oldugunde.kafa.dusme.orani: 25
+    zombidomuz.kafasi.dusmeorani: 15
+    blaze.kafasi.dusmeorani: 15
+    magaraorumcegi.kafasi.dusmeorani: 15
+    tavuk.kafasi.dusmeorani: 15
+    inek.kafasi.dusmeorani: 15
+    enderman.kafasi.dusmeorani: 15
+    ghast.kafasi.dusmeorani: 15
+    golem.kafasi.dusmeorani: 15
+    mantarinek.kafasi.dusmeorani: 15
+    kedi.kafasi.dusmeorani: 15
+    domuz.kafasi.dusmeorani: 15
+    koyun.kafasi.dusmeorani: 15
+    suluk.kafasi.dusmeorani: 15
+    orumcek.kafasi.dusmeorani: 15
+    ahtapot.kafasi.dusmeorani: 15
+
+on death:
+    if victim is player:
+        chance of {@oyuncu.oldugunde.kafa.dusme.orani}%:
+            execute console command "/give %attacker% 397:3 1 player:%victim%"
+
+on death:
+    if victim is zombie pigman:
+        chance of {@zombidomuz.kafasi.dusmeorani}%:
+            make console execute command "/give %attacker% 397:3 1 player:MHF_PigZombie"
+on death:
+    if victim is blaze:
+        chance of {@blaze.kafasi.dusmeorani}%:
+            make console execute command "/give %attacker% 397:3 1 player:MHF_Blaze"
+on death:
+    if victim is cave spider:
+        chance of {@magaraorumcegi.kafasi.dusmeorani}%:
+            make console execute command "/give %attacker% 397:3 1 player:MHF_CaveSpider"
+on death:
+    if victim is chicken:
+        chance of {@tavuk.kafasi.dusmeorani}%:
+            make console execute command "/give %attacker% 397:3 1 player:MHF_Chicken"
+on death:
+    if victim is cow:
+        chance of {@inek.kafasi.dusmeorani}%:
+            make console execute command "/give %attacker% 397:3 1 player:MHF_Cow"
+on death:
+    if victim is enderman:
+        chance of {@enderman.kafasi.dusmeorani}%:
+            make console execute command "/give %attacker% 397:3 1 player:MHF_Enderman"
+on death:
+    if victim is ghast:
+        chance of {@ghast.kafasi.dusmeorani}%:
+            make console execute command "/give %attacker% 397:3 1 player:MHF_Ghast"
+on death:
+    if victim is iron golem:
+        chance of {@golem.kafasi.dusmeorani}%:
+            make console execute command "/give %attacker% 397:3 1 player:MHF_Golem"
+on death:
+    if victim is ocelot:
+        chance of {@kedi.kafasi.dusmeorani}%:
+            make console execute command "/give %attacker% 397:3 1 player:MHF_Ocelot"
+on death:
+    if victim is pig:
+        chance of {@domuz.kafasi.dusmeorani}%:
+            make console execute command "/give %attacker% 397:3 1 player:MHF_Pig"
+on death:
+    if victim is sheep:
+        chance of {@koyun.kafasi.dusmeorani}%:
+            make console execute command "/give %attacker% 397:3 1 player:MHF_Sheep"
+on death:
+    if victim is slime:
+        chance of {@suluk.kafasi.dusmeorani}%:
+            make console execute command "/give %attacker% 397:3 1 player:MHF_Slime"
+on death:
+    if victim is spider:
+        chance of {@orumcek.kafasi.dusmeorani}%:
+            make console execute command "/give %attacker% 397:3 1 player:MHF_Spider"
+on death:
+    if victim is squid:
+        chance of {@ahtapot.kafasi.dusmeorani}%:
+            make console execute command "/give %attacker% 397:3 1 player:MHF_Squid"

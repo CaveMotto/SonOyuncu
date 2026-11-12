@@ -1,0 +1,168 @@
+menu_title: '&8&nArsa Hakkı - Yükseltme'
+open_command: ayükseltme
+size: 27
+update_interval: 1
+items:
+      '1':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTUwNmVlMGUzODJhMjg5MWViMWEzMzIyYTFjODg2YzlkOTdjMzQ4NWZiYzEyN2IzMzY4OWZjMTI4M2U3MWMifX19
+        data: 3
+        slot: 13
+        view_requirement:
+          requirements:
+            music:
+              type: string equals
+              input: '%javascript_arsa%'
+              output: '&f....'
+        priority: 1
+        display_name: '&eArsa Almak Hakkı #1'
+        lore:
+        - ''
+        - '&7Bunu satın aldığınız zaman'
+        - '&7ikinci yükseltme açılacaktır.'
+        - ''
+        - '&7Arsa Alma Hakkı: &d2'
+        - ''
+        - '&7Fiyat: &c50.000 ⛁'
+        - ''
+        - '&a► Satın almak için tıkla!'
+        left_click_commands:
+        - '[close]'
+        - '[console] lp user %player_name% permission set plots.plot.2'
+        - '[console] money take %player_name% 50000'
+        - '[message] &aPixel Faction &7► &aArsa Alma Hakkı #1 &ebaşarıyla tamamlandı.'
+        right_click_commands:
+        - '[console] lp user %player_name% permission set plots.plot.2'
+        - '[console] money take %player_name% 50000'
+        - '[message] &aPixel Faction &7► &aArsa Alma Hakkı #1 &ebaşarıyla tamamlandı.'
+        left_click_requirement:
+          requirements:
+            name:
+              type: has money
+              amount: 50000
+              deny_commands:
+              - '[close]'
+              - '[message] &aPixel Faction &7► &eYeterli Bakiyen Yok Sonra Tekrar Gel'
+        right_click_requirement:
+          requirements:
+            name:
+              type: has money
+              amount: 50000
+              deny_commands:
+              - '[close]'
+              - '[message] &aPixel Faction &7► &eYeterli Bakiyen Yok Sonra Tekrar Gel'
+      '2':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzNjZjJjMTUyM2Y1ZTkxYzNiZGFiMDc2YjM5NWExYjM4MTEyMWNhMWMwYjQyYWU2NzgzZmI3Y2U1MThhIn19fQ==
+        data: 3
+        slot: 13
+        view_requirement:
+          requirements:
+            music:
+              type: string equals
+              input: '%javascript_arsa%'
+              output: '&f....'
+        priority: 2
+        display_name: '&eArsa Almak Hakkı #2'
+        lore:
+        - ''
+        - '&7Bunu satın aldığınız zaman'
+        - '&7ikinci yükseltme açılacaktır.'
+        - ''
+        - '&7Arsa Alma Hakkı: &d3'
+        - ''
+        - '&7Fiyat: &c120.000 ⛁'
+        - ''
+        - '&a► Satın almak için tıkla!'
+        left_click_commands:
+        - '[close]'
+        - '[console] lp user %player_name% permission set plots.plot.3'
+        - '[console] money take %player_name% 120000'
+        - '[message] &aPixel Faction &7► &aArsa Alma Hakkı #2 &ebaşarıyla tamamlandı.'
+        right_click_commands:
+        - '[close]'
+        - '[console] lp user %player_name% permission set plots.plot.3'
+        - '[console] money take %player_name% 120000'
+        - '[message] &aPixel Faction &7► &aArsa Alma Hakkı #2 &ebaşarıyla tamamlandı.'
+        left_click_requirement:
+          requirements:
+            name:
+              type: has money
+              amount: 120000
+              deny_commands:
+              - '[close]'
+              - '[message] &aPixel Faction &7► &eYeterli Bakiyen Yok Sonra Tekrar Gel'
+        right_click_requirement:
+          requirements:
+            name:
+              type: has money
+              amount: 120000
+              deny_commands:
+              - '[close]'
+              - '[message] &aPixel Faction &7► &eYeterli Bakiyen Yok Sonra Tekrar Gel'
+      '3':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDJjZDJiZmYyMWY2OTE4ZWE3ZGE0MTgzM2Q5OWEwYmRiMDE5YWNhMmE2N2U1ZGMyMGYxYTE3YTYxYjNkNjJhIn19fQ==
+        data: 3
+        slot: 13
+        view_requirement:
+          requirements:
+            music:
+              type: string equals
+              input: '%javascript_arsa%'
+              output: '&f....'
+        priority: 3
+        display_name: '&eArsa Almak Hakkı #3'
+        lore:
+        - ''
+        - '&7Bunu satın aldığınız zaman'
+        - '&7ikinci yükseltme açılacaktır.'
+        - ''
+        - '&7Arsa Alma Hakkı: &d4'
+        - ''
+        - '&7Fiyat: &c200.000 ⛁'
+        - ''
+        - '&a► Satın almak için tıkla!'
+        left_click_commands:
+        - '[close]'
+        - '[console] lp user %player_name% permission set plots.plot.4'
+        - '[console] money take %player_name% 200000'
+        - '[message] &aPixel Faction &7► &aArsa Alma Hakkı #3 &ebaşarıyla tamamlandı.'
+        right_click_commands:
+        - '[close]'
+        - '[console] lp user %player_name% permission set plots.plot.4'
+        - '[console] money take %player_name% 200000'
+        - '[message] &aPixel Faction &7► &aArsa Alma Hakkı #3 &ebaşarıyla tamamlandı.'
+        left_click_requirement:
+          requirements:
+            name:
+              type: has money
+              amount: 200000
+              deny_commands:
+              - '[close]'
+              - '[message] &aPixel Faction &7► &eYeterli Bakiyen Yok Sonra Tekrar Gel'
+        right_click_requirement:
+          requirements:
+            name:
+              type: has money
+              amount: 200000
+              deny_commands:
+              - '[close]'
+              - '[message] &aPixel Faction &7► &eYeterli Bakiyen Yok Sonra Tekrar Gel'
+      '4':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTM3ZGNmYjY2YTYxYzUyOWYyYTEyOGFlZWY5M2MyNWY5ZDBiMDQzOWI1OWZiMTk5ZDJiMDRhY2ZlMGI4NWFhYyJ9fX0=
+        data: 3
+        slot: 13
+        priority: 4
+        display_name: '&eArsa Almak Hakkı #4'
+        lore:
+        - ''
+        - '&7Bunu satın aldığınız zaman'
+        - '&7ikinci yükseltme açılacaktır.'
+        - ''
+        - '&7Arsa Alma: &dMaks'
+        - ''
+        - '&a► Satın almak için tıkla!'
+        left_click_commands:
+        - '[close]'
+        - '[message] &aPixel Faction &7► &eArsa Yükseltme tamamlanmış daha fazla yükseltemezsin.'       
+        right_click_commands:
+        - '[close]'
+        - '[message] &aPixel Faction &7► &eArsa Yükseltme tamamlanmış daha fazla yükseltemezsin.'

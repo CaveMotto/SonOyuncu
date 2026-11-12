@@ -1,0 +1,23 @@
+#Bu /anadolujet komutunu aktif eder!
+Anadolukomutaktif: false
+
+Anadolu:
+  #Not: 2 = 1 Kalp. Bu yuzden oyuncular dustugunde 4 = 2 kalp gidecek!
+  DusmeHasari: 4
+  #Ince ayarlar
+  Ziplasana: 1.0
+  Hol: 1.0
+  Corba: false
+  #^^^^ Bu PvP corbasini aktif eder.
+  KitHaberi: '&4Elde edilden kit:&2 Anadolu Kiti!'
+
+#Ornek zirh turleri:
+#GOLD_HELMET, IRON_CHESTPLATE, LEATHER_LEGGINGS, ve DIAMOND_BOOTS | AIR hic bir sey icin
+
+Anadolu-Zirh:
+  Kask: GOLD_HELMET
+  Zirh: IRON_CHESTPLATE
+  Pantolon: LEATHER_LEGGINGS
+  Ayakkabi: DIAMOND_BOOTS
+  Kilic: DIAMOND_SWORD
+  #Ornek kilic isimleri: DIAMOND_SWORD, GOLD_SWORD, STONE_SWORD, WOOD_SWORD, ve GOLD_SWORD

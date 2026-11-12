@@ -1,0 +1,36 @@
+# General Messages
+
+general:
+  reload: '&eEklenti yenilendi'
+  save: '&eTüm veriler kaydedildi'
+  prefix: '&6Skyblock &7► '
+
+command:
+  player-only: '&cYou must be a player to execute this command.'
+  no-permission: '&cYou must have the permission {permission} to do this.'
+  invalid-usage: '&cInvalid usage. Try /{label} {args}'
+  invalid-sub: '&cThat command doesn''t exist. Try /{label} help'
+  label-optional-args: optional arguments
+  label-required-args: required arguments
+  help:
+    description: '&7Description: &f{description}'
+    permission: '&7Permission: &f{permission}'
+    usage: '&7Usage: &f'
+
+config:
+  enter-value: '&7Enter a new value to set (Type ''cancel'' to cancel)'
+
+interface:
+  confirm:
+    confirm:
+      name: '&a&lConfirm'
+      lore: '&7&o(Click to confirm)'
+    deny:
+      name: '&c&lDeny'
+      lore: '&7&o(Click to deny)'
+
+update:
+  available: |-
+    &2You're on an &a{status}&2 version of &a{plugin_name}&2.
+    &2Current version: &a{current}&2; Latest version: &a{new}
+    &2URL: &ahttps://spigotmc.org/resources/{resource_id}/.

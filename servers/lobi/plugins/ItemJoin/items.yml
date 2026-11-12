@@ -1,0 +1,52 @@
+# --{ =-=-=-=-=-=-=-=-=-= ItemJoin's Custom Item Configurations, by RockinChaos =-=-=-=-=-=-=-=-=-= }--
+# See the tutorial page for a more in-depth explanation; https://github.com/RockinChaos/ItemJoin/wiki
+# Join the discord for easy plugin support; https://discord.gg/D5FnJ7C
+# 
+# Modifying the Version will cause this file to break and regenerate.
+items-Version: 8
+items-Delay: 2
+items-Overwrite: false
+items-Spamming: false
+items-RestrictCount: false
+items:
+  oyunlar:
+    id: COMPASS
+    slot: 0
+    name: '&aOyun Menüsü'
+    itemflags: unbreakable, hide-flags, self-drops, auto-remove, death-drops, CreativeBypass, death-keep , inventory-close, inventory-modify, unbreakable, hide-attributes
+    triggers: join, respawn, world-switch, region-enter
+    enabled-worlds: Lobi
+    interact-right:
+      - 'player: oyunlar'
+    interact-left:
+      - 'player: oyunlar'
+  kozmetik:
+    id: ENDER_CHEST
+    slot: 4
+    name: '&aKozmetik Kutusu'
+    itemflags: unbreakable, hide-flags, self-drops, auto-remove, death-drops, CreativeBypass, death-keep , inventory-close, inventory-modify, unbreakable, hide-attributes
+    triggers: join, respawn, world-switch, region-enter
+    enabled-worlds: Lobi
+    interact-right:
+      - 'player: gmenu main'
+    interact-left:
+      - 'player: gmenu main'
+  jet:
+    id: 401
+    slot: 1
+    name: '&aJet'
+    itemflags: unbreakable, hide-flags, self-drops, auto-remove, death-drops, CreativeBypass, death-keep , inventory-close, inventory-modify, unbreakable, hide-attributes
+    triggers: join, respawn, world-switch, region-enter
+    enabled-worlds: Lobi
+  profil:
+    id: SKULL_ITEM:3
+    skull-owner: '%player%'
+    slot: 8
+    name: '&aOyuncu Profili'
+    itemflags: unbreakable, hide-flags, self-drops, auto-remove, death-drops, CreativeBypass, death-keep , inventory-close, inventory-modify, unbreakable, hide-attributes
+    triggers: join, respawn, world-switch, region-enter
+    enabled-worlds: Lobi
+    interact-right:
+      - 'player: profil'
+    interact-left:
+      - 'player: profil'

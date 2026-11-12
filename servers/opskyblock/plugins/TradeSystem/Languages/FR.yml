@@ -1,0 +1,163 @@
+No_Permissions: '&cVous n''avez pas les permissions de faire Ã§a !'
+Only_for_Player: '&cOnly for players!'
+No_Money: '&cVous n''avez pas d''argent !'
+Enter_Correct_Amount: '&cVeuillez entrer un montant valide.'
+Only_X_Amount: '&7You only have &c%amount% %type%&7!'
+Trade_Was_Cancelled: '&cl''opÃ©ration a Ã©tÃ© &cannulÃ©e.'
+Trade_Was_Finished: '&7L''Ã©change est &aterminÃ©.'
+Cannot_Trade_With_Yourself: '&cVous ne pouvez pas Ã©changer avec vous-mÃªme.'
+Player_Not_Online: '&cCe joueur n''est pas en ligne.'
+Want_To_Trade: '&7Le joueur &c%player% &7veut Ã©changer avec vous. &8[%accept% &8|
+  %deny%&8]'
+Want_To_Trade_Accept: '&aAccepter'
+Want_To_Trade_Deny: '&cRefuser'
+Want_To_Trade_Hover: '&8Â» Click Â«'
+Player_Is_Invited: '&7Le joueur &c%player% &7a Ã©tÃ© invitÃ©.'
+Command_How_To: '&7Utilisation: /trade <player, accept, deny, toggle>'
+Command_How_To_Accept: '&7Utilisation: /trade accept <Player>'
+Command_How_To_Deny: '&7Utilisation: /trade deny <Player>'
+Player_Of_Request_Not_Online: '&cLe joueur de la demande de d''Ã©change n''est plus
+  en ligne !'
+Request_Accepted: '&7Vous avez &aacceptÃ© &7la demande d''Ã©change&7.'
+Request_Was_Accepted: '&7Votre demande d''Ã©change avec &c%player% &7a Ã©tÃ© &aacceptÃ©e&7.'
+Request_Denied: '&7Vous avez &crefusÃ© &7la demande d''Ã©change.'
+Request_Was_Denied: '&7Votre demande d''Ã©change avec &c%player% &7a Ã©tÃ© &crefusÃ©e&7.'
+No_Request_Found: '&cVous n''avez reÃ§u aucune demande d''Ã©change de la part de ce
+  joueur !'
+No_Requests_Found: '&cVous n''avez reÃ§u aucune demande d''Ã©change !'
+Too_many_requests: '&cVous avez plusieurs demandes, merci de prÃ©ciser le nom du joueur.'
+GUI_Title: '&cÃ‰changer avec %player%'
+Money_Amount: Montant d'argent
+Coin: Argent
+Coins: Argents
+PlayerPoint: PlayerPoint
+PlayerPoints: PlayerPoints
+Token: Token
+Tokens: Tokens
+ClaimBlock: ClaimBlock
+ClaimBlocks: ClaimBlocks
+Status: Status
+Ready: PrÃªt
+Not_Ready: Pas prÃªt
+Wait_For_Other_Player: En attente de l'autre joueur....
+Trade_Only_With_Objects: Vous devez offrir quelque chose pour complÃ©ter votre Ã©change.
+Click_To_Change: Cliquez pour changer
+Cancel_Trade: Cliquez pour annuler
+Not_Able_To_Trade: Vous n'avez pas le droit d'Ã©changer.
+Player_Is_Not_Able_Trade: Ce joueur n'est pas autorisÃ© Ã  Ã©changer.
+TRADE_EDITOR: Ã‰diteur - Trading GUI
+TRADE_EDITOR_FUNCTIONS: Ã‰diteur - Fonctions
+EDITOR_RESET: Votre interface sauvegardÃ©e temporairement a Ã©tÃ© rÃ©initialisÃ©e.
+Editor_Command_How_To: '&7Utilisation: /tradeEditor [reset]'
+Editor_Not_Empty: Il n'y a pas de place libre !
+Editor_No_Item: Il n'y a pas d'objet !
+Layout_Name: Nom du modÃ¨le
+Layout_Name_Already_Exists: Ce nom de modÃ¨le est dÃ©jÃ  pris !
+Layout_Finished: Le modÃ¨le a Ã©tÃ© crÃ©Ã© avec &asuccÃ¨s&7.
+Layout_Edited: Le modÃ¨le a Ã©tÃ© Ã©ditÃ© vec &asuccÃ¨s&7.
+Layout_Editor: '&9Ã‰diteur &8- &9ModÃ¨le'
+Save: Sauvegarder
+Not_Ready_For_Saving: '&cLe modÃ¨le ne peut pas encore Ãªtre sauvegardÃ©'
+Items: Objets
+Set: DÃ©fini
+Not_Set: Pas DÃ©fini
+Functions: Fonctions
+Name: Nom
+Ambiguous_Functions: Double functions
+Layout_Set_Items: Fill standard trade gui
+Layout_Set_Functions: DÃ©finir les fonctions
+Layout_Set_Name: DÃ©finir le nom du modÃ¨le
+Layout_Set_Ambiguous_Functions: DÃ©finir les fonctions doubles
+Layout_Editor_Set_Items: '&cFermer pour continuer'
+Back: Retour
+Trader: Ã‰changeur
+Other: Autres
+Layout_Set_Own_Slots: DÃ©finir ses propres slots d'Ã©changes
+Layout_Set_Other_Slots: DÃ©finir les slots d'Ã©changes du partenaire
+Layout_Set_Cancel: DÃ©finir l'icÃ´ne d'annulation
+Layout_Set_Other_Not_Ready: DÃ©finir l'icÃ´ne'Pas prÃªt' du partenaire
+Layout_Set_Status: DÃ©finir son icÃ´ne d'Ã©tat
+Layout_Set_Money: DÃ©finir son icÃ´ne d'argent
+Layout_Set_Other_Money: DÃ©finir l'icÃ´ne d'argent du partenaire
+Help_TradeSystem: '&7Utilisation &e/%label% <layout, reload>'
+Help_TradeSystem_Layout: '&7Utilisation &e/%label% layout <create, edit, delete, activate>'
+Help_TradeSystem_Layout_Create: '&7Use &e/%label% layout create <name> [9..54]'
+Help_TradeSystem_Layout_Activate: '&7Utilisation &e/%label% layout activate <name>'
+Help_TradeSystem_Layout_Delete: '&7Utilisation &e/%label% layout delete <name>'
+Help_TradeSystem_Layout_Edit: '&7Utilisation &e/%label% layout edit <name>'
+Layout_Does_Not_Exist: '&cCe modÃ¨le n''existe pas !'
+Layout_Activated: '&7Le modÃ¨le ''&b%name%&7'' a Ã©tÃ© &aactivÃ©&7.'
+Layout_Deleted: '&7Le modÃ¨le ''&b%name%&7'' a Ã©tÃ© &csupprimÃ©&7.'
+Enter_Correct_Name_Space: '&cVeuillez ne pas utiliser d''espaces.'
+Sure_That_You_Want_To_Loose_Your_Data: '&7Vous Ãªtes sÃ»r de ne &cpas vouloir sauvegarder
+  &7vos modifications ?'
+Close: Fermer
+Layout_Already_Activated: '&7Ce modÃ¨le est &cdÃ©jÃ  activÃ©&7!'
+Layout_Set_Replacement_For_Money: '&7IcÃ´ne, qui &aremplace l''icÃ´ne argent&7, lorsqu''aucun
+  plugin Ã©conomique n''est dÃ©tectÃ©.'
+Layout_Hint_Same_Slot_Amount: '&7Les deux marchands doivent avoir &cle mÃªme nombre
+  &7de slots d''Ã©changes !'
+Current_Amount: Montant actuel
+Trade_Spam: '&7Ce joueur a &cdÃ©jÃ  reÃ§u une demande d''Ã©change&7 !'
+Plugin_Reloading: '&cLe plugin va Ãªtre rechargÃ©....'
+Success_Plugin_Reloaded: '&aLe plugin a Ã©tÃ© rechargÃ©.'
+Player_is_not_in_range: '&7Le joueur &c%player% &7n''est &cpas Ã  portÃ©e&7!'
+Cannot_trade_in_that_GameMode: '&7Vous &cn''Ãªtes pas en mesure d''Ã©changer &7dans
+  ce mode de jeu !'
+Other_cannot_trade_in_that_GameMode: '&7Ce joueur &cne peut pas Ã©changer &7dans son
+  mode de jeu !'
+Trade_cancelled_by_attack: '&cL''Ã©change a Ã©tÃ© &cannulÃ© &7en raison d''une attaque.'
+Trade_Partner_No_Space: '&7Votre partenaire d''Ã©change &cn''a pas d''espace &7dans
+  son inventaire !'
+Trade_Offline: '&7Vous &cn''Ãªtes plus disponible &7pour des demandes d''Ã©change
+  !'
+Trade_Online: '&7vous Ãªtes maintenant &adisponible &7pour des demandes d''Ã©change
+  !'
+Trade_Partner_is_Offline: '&7Ce joueur &cn''est pas disponible &7pour les demandes
+  d''Ã©change !'
+Trade_You_are_Offline: '&7Utilisez "%command%&e/trade toggle%command%&7" pour recommencer
+  les Ã©changes.'
+Trade_Placed_Blocked_Item: '&7Cet article &cne peut pas &7Ãªtre Ã©changÃ© !'
+Cannot_trade_in_bed: '&cVous ne pouvez pas Ã©changer&7, tant que vous Ãªtes dans un
+  lit..'
+Cannot_trade_in_world: '&7You &ccannot trade &7in this world !'
+Other_cannot_trade_in_world: '&7This player Â§ccannot trade &7in his world !'
+Cannot_trade_while_invisible: '&7You &ccannot trade &7while you''re &cinvisible&7
+  !'
+Cannot_trade_in_region: '&7You &ccannot trade &7in this region!'
+Other_cannot_trade_in_region: '&7This player &ccannot trade &7in their region!'
+Other_is_already_trading: '&cCe joueur fait dÃ©jÃ  du commerce en ce moment !'
+Online: Online
+Offline: Offline
+Your_request_expired: '&7Votre demande d''Ã©change Ã  &e%player% &7a &expirÃ©&7.'
+Request_expired: '&7La demande d''Ã©change de &e%player% &7a &expirÃ©&7.'
+Fancy_Countdown: ' &7- &e%seconds%s'
+Economy_Error: '&7The trade was &ccancelled &7due to an &ceconomy error&7.'
+Items_Dropped: '&7Your inventory was &cfull&7, some items were &cdropped on the ground&7!'
+Sign_Enter_Amount: |-
+  ^^^^^^^^
+  Enter amount
+  above
+Leftclick: Leftclick
+Rightclick: Rightclick
+Shift_Leftclick: Shift-Leftclick
+Shift_Rightclick: Shift-Rightclick
+Select: Select
+Select_Foreign_Preview: Select foreign preview
+Edit: Edit
+Edit_Variant: Edit variant
+Variant: Variant
+Cancel: Cancel
+Finish: Finish
+Levels: Levels
+Level: Level
+Too_Little_Exp: '&cYou have &cno exp to trade&7.'
+Exp_Points: Exp points
+Exp_Point: Exp point
+Reset: Reset
+Balance_limit_reached: '&7Votre solde est &cinsuffisant&7.'
+AnvilGUI_Title: Repair & Name
+Shulker_Box: Shulker Box
+Trade_Finish_Report_Receive: '  &a+ &7%object%'
+Trade_Finish_Report_Give: '  &c- &7%object%'
+Trade_Finish_Report_Object_Item: '%amount%x %item%'

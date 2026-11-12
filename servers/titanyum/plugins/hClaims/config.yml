@@ -1,0 +1,90 @@
+settings:
+  disabled-worlds:
+  - Liman
+  - Nether
+  - Pandora
+  - Zindan
+  disabled-commands-in-claim:
+  - sethome
+  - test
+  - command
+  pvp-in-claim: true
+  claim-enter-mode: true
+  players-can-pickup-in-claim: true
+  default-claim-name: '%owner% Claimi'
+  default-claim-time: 604800
+  claim-money: 0.012
+  mob-limiter: false
+  item-limiter: false
+  mob-limit-in-claim-chunks: 1000
+  item-limit-in-claim-chunks: 1000
+  language-yaml: en.yml
+  default-permissions:
+  - BLOCK_BREAK
+  - BLOCK_PLACE
+  - SPAWNER_BREAK
+  - DAMAGE_ANIMALS
+  - INTERACT
+  - ITEM_PICKUP
+  - STORE_USAGE
+  world-guard-support: true
+hologram:
+  mode: EVERYONE
+  height: 2.1
+  lines:
+  - '&d%claim_name%'
+  - '&a%remaining_time%'
+  - ' '
+  - 'Sahibi: %owner%'
+  - 'Ekli üye: %member_count%'
+  - 'Oluşturma tarihi: %creation_date%'
+blocks:
+  default-block: block1
+  types:
+    block1:
+      permission: ''
+      block:
+        type: BEDROCK
+        datavalue: 0
+      gui-item:
+        type: BEDROCK
+        glow: false
+        amount: 1
+        datavalue: 0
+        name: Bedrock
+        lore:
+        - ''
+        - Click to change your claim block.
+        nbt: '{}'
+    block2:
+      permission: claim.blockchange.obsidian
+      block:
+        type: OBSIDIAN
+        datavalue: 0
+      gui-item:
+        type: OBSIDIAN
+        name: Obsidian
+        glow: true
+        amount: 1
+        datavalue: 0
+        lore:
+        - ''
+        - Click to change your claim block.
+        nbt: '{}'
+discord-webhook:
+  player:
+    webhook-url: '.'
+    avatar: https://i.pinimg.com/236x/a9/53/f2/a953f2f7aa095ba64f56efa1308d4a15.jpg
+    username: Motto Claim
+  admin:
+    webhook-url: '.'
+    avatar: https://i.pinimg.com/236x/a9/53/f2/a953f2f7aa095ba64f56efa1308d4a15.jpg
+    username: Motto Claim
+database:
+  type: sqlite
+  database-name: hclaims_database
+  auth:
+    ip: localhost
+    port: 3306
+    username: root
+    password: ''

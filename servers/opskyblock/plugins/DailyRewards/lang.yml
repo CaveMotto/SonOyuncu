@@ -1,0 +1,168 @@
+#
+# From 1.16 version you can also use HEX colors.
+# Instead of &f format use <#ffffff>
+# and for gradient: <#ffffff>Text where will be applied gradient</#000000>
+#
+lang:
+  prefix: '&6Skyblock &7Ã¢â€“Âº'
+  auto-claim-notification:
+  - ' '
+  - '&dÃ¢Å“â€� %rewards% &eÃƒÂ¶dÃƒÂ¼ller baÃ…Å¸arÃ„Â±yla otomatik olarak talep edildi!'
+  - ' '
+  unclaimed-rewards-notification-hover-text: '&aÃƒâ€“dÃƒÂ¼l almak iÃƒÂ§in tÃ„Â±klayÃ„Â±n!'
+  reward-reset: '&e%prefix% &d%player% &eoyuncusunun &b%type% &eÃƒÂ¶dÃƒÂ¼llerini sÃ„Â±fÃ„Â±rladÃ„Â±nÃ„Â±z'
+  unavailable-player: '%prefix% &eOyuncu &d%player% &emevcut deÃ„Å¸il'
+  reward-disabled: '%prefix% &eÃƒâ€“dÃƒÂ¼l alÃ„Â±namÃ„Â±yor!'
+  permission-msg: '%prefix% &eBu komutu kullanmanÃ„Â±za izin verilmiyor'
+  rewards-are-not-set: '%prefix% &eÃƒâ€“dÃƒÂ¼ller belirlenmedi!'
+  reload-msg: '&e%prefix% &eEklenti baÃ…Å¸arÃ„Â±yla yeniden yÃƒÂ¼klendi'
+  invalid-arguments: '%prefix% &eKullanÃ„Â±labilir komutlarÃ„Â±n sÃƒÂ¶zdizimini listelemek iÃƒÂ§in /gÃƒÂ¼nlÃƒÂ¼kÃƒÂ¶dÃƒÂ¼l
+  yardÃ„Â±mÃ„Â±nÃ„Â± kullanÃ„Â±n'
+  incomplete-reward-reset: '%prefix% &eÃƒâ€“zel olarak neyi sÃ„Â±fÃ„Â±rlamak istediÃ„Å¸inizi belirtin (gÃƒÂ¼nlÃƒÂ¼k/haftalÃ„Â±k/aylÃ„Â±k/tÃƒÂ¼mÃƒÂ¼)'
+  full-inventory-message: '%prefix% &eÃƒâ€“dÃƒÂ¼l(ler)i alamÃ„Â±yorsunuz, envanteriniz dolu!'
+  claiming-in-disabled-world: '%prefix% &eGÃƒÂ¼nlÃƒÂ¼k ÃƒÂ¶dÃƒÂ¼l sadece &cspawn &ebÃƒÂ¶lgesinde alabilirsin.'
+  not-enough-required-time-to-claim: '%prefix% &eÃƒâ€“nce sunucuda en az %requiredMinutes% dakika geÃƒÂ§irmelisiniz ÃƒÂ¶dÃƒÂ¼lleri
+  toplayabilirsiniz (%minutes% dakika kaldÃ„Â±)'
+  command-usage: '%prefix% &cKomut: %usage%'
+  loading: '&bYÃƒÂ¼kleniyor...'
+  back: '&cGeri'
+  help:
+  - '&fList with all available commands:'
+  - '&f/rewards &7- Main GUI menu'
+  - '&f/reward &7- Obtain daily reward'
+  - '&f/reward weekly &7- Obtain weekly reward'
+  - '&f/reward monthly &7- Obtain monthly reward'
+  - '&f/reward reset <player> <daily|weekly|monthly|all>'
+  - '&f/reward reload &7- Reloads configuration section'
+  - '&f/reward settings &7- Opens settings menu'
+  #
+  # Settings menu
+  #
+  settings-title: Ayarlar
+  settings-display-name: '&eAyarlar'
+  join-notification-display-name: '&aGiriÃ…Å¸ Bildirimi'
+  join-notification-enabled-lore:
+  - ' '
+  - '&fSunucya katÃ„Â±ldÃ„Â±Ã„Å¸Ã„Â±n zaman'
+  - '&fhangi ÃƒÂ¶dÃƒÂ¼lleri alabileÃ„Å¸in mesaj'
+  - ' '
+  - '&cÃ¢â€“Âº Kapatmak iÃƒÂ§in tÃ„Â±kla'
+  join-notification-disabled-lore:
+  - ' '
+  - '&fSunucya katÃ„Â±ldÃ„Â±Ã„Å¸Ã„Â±n zaman'
+  - '&fhangi ÃƒÂ¶dÃƒÂ¼lleri alabileÃ„Å¸in mesaj'
+  - ' '
+  - '&aÃ¢â€“Âº AÃƒÂ§mak iÃƒÂ§in tÃ„Â±kla'
+  auto-claim-display-name: '&aOtomatik Talep'
+  auto-claim-enabled-lore:
+  - ' '
+  - '&fSunucya katÃ„Â±ldÃ„Â±Ã„Å¸Ã„Â±n zaman'
+  - '&ftÃƒÂ¼m ÃƒÂ¶dÃƒÂ¼llerini envanterine gelir'
+  - ' '
+  - '&cÃ¢â€“Âº Kapatmak iÃƒÂ§in tÃ„Â±kla'
+  auto-claim-disabled-lore:
+  - ' '
+  - '&fSunucya katÃ„Â±ldÃ„Â±Ã„Å¸Ã„Â±n zaman'
+  - '&ftÃƒÂ¼m ÃƒÂ¶dÃƒÂ¼llerini envanterine gelir'
+  - ' '
+  - '&aÃ¢â€“Âº AÃƒÂ§mak iÃƒÂ§in tÃ„Â±kla'
+  #
+  # Rewards menu
+  #
+  menu-title: GÃƒÂ¼nlÃƒÂ¼k Ãƒâ€“dÃƒÂ¼l
+  join-hover-message: '&eÃƒâ€“dÃƒÂ¼llerinizi toplamak iÃƒÂ§in tÃ„Â±klayÃ„Â±n'
+  join-notification:
+  - ' '
+  - '&d- %rewards% &eÃƒâ€“dÃƒÂ¼lÃƒÂ¼n bulunmaktadÃ„Â±r. Almak iÃƒÂ§in (Buraya TÃ„Â±kla)'
+  - ' '
+  cooldown-message: '%prefix% &d%type% &eÃƒÂ¶dÃƒÂ¼lÃƒÂ¼ iÃƒÂ§in &b%time% &ebeklemeniz gerekir'
+  daily-title: '&aGÃƒÂ¼nlÃƒÂ¼k Ãƒâ€“dÃƒÂ¼l'
+  daily-subtitle: '&eGÃƒÂ¼nlÃƒÂ¼k ÃƒÂ¶dÃƒÂ¼lÃƒÂ¼nÃƒÂ¼zÃƒÂ¼ topladÃ„Â±nÃ„Â±z.'
+  daily-collected: '&6Skyblock &7Ã¢â€“Âº &d%player% &egÃƒÂ¼nlÃƒÂ¼k ÃƒÂ¶dÃƒÂ¼lÃƒÂ¼nÃƒÂ¼ aldÃ„Â±!'
+  daily-premium-collected: '&6Skyblock &7Ã¢â€“Âº &d%player% &6LVIP &egÃƒÂ¼nlÃƒÂ¼k ÃƒÂ¶dÃƒÂ¼lÃƒÂ¼nÃƒÂ¼ aldÃ„Â±!'
+  daily-displayname-available: '&aGÃƒÂ¼nlÃƒÂ¼k Ãƒâ€“dÃƒÂ¼l'
+  daily-premium-displayname-available: '&aGÃƒÂ¼nlÃƒÂ¼k Ãƒâ€“dÃƒÂ¼l &7(&6LVIP&7)'
+  daily-available-lore:
+  - ' '
+  - '&dÃƒâ€“dÃƒÂ¼ller'
+  - ' '
+  - '&fDemir Blok Spawner 1x'
+  - '&f500 Dirhem'
+  - ' '
+  - '&eAlmak iÃƒÂ§in tÃ„Â±kla!'
+  daily-available-premium-lore:
+  - ' '
+  - '&dÃƒâ€“dÃƒÂ¼ller'
+  - ' '
+  - '&fDemir Blok Spawner 3x'
+  - '&f1500 Dirhem'
+  - ' '
+  - '&eAlmak iÃƒÂ§in tÃ„Â±kla!'
+  daily-displayname-unavailable: '&aGÃƒÂ¼nlÃƒÂ¼k Ãƒâ€“dÃƒÂ¼l'
+  daily-premium-displayname-unavailable: '&aGÃƒÂ¼nlÃƒÂ¼k Ãƒâ€“dÃƒÂ¼l &7(&6LVIP&7)'
+  daily-unavailable-lore:
+  - ' '
+  - '&fBekleme SÃƒÂ¼resi: &d%cooldown%'
+  daily-unavailable-premium-lore:
+  - ' '
+  - '&fBekleme SÃƒÂ¼resi: &d%cooldown%'
+  weekly-title: '&aHaftalÃ„Â±k Ãƒâ€“dÃƒÂ¼l'
+  weekly-subtitle: '&eHaftalÃ„Â±k ÃƒÂ¶dÃƒÂ¼lÃƒÂ¼nÃƒÂ¼zÃƒÂ¼ topladÃ„Â±nÃ„Â±z.'
+  weekly-collected: '&6Skyblock &7Ã¢â€“Âº &d%player% &ehaftalÃ„Â±k ÃƒÂ¶dÃƒÂ¼lÃƒÂ¼nÃƒÂ¼ aldÃ„Â±!'
+  weekly-premium-collected: '&6Skyblock &7Ã¢â€“Âº &d%player% &6LVIP &ehaftalÃ„Â±k ÃƒÂ¶dÃƒÂ¼lÃƒÂ¼nÃƒÂ¼ aldÃ„Â±!'
+  weekly-displayname-available: '&aHaftalÃ„Â±k Ãƒâ€“dÃƒÂ¼l'
+  weekly-premium-displayname-available: '&aHaftalÃ„Â±k Ãƒâ€“dÃƒÂ¼l &7(&6LVIP&7)'
+  weekly-available-lore:
+  - ' '
+  - '&dÃƒâ€“dÃƒÂ¼ller'
+  - ' '
+  - '&fElmas Blok Spawner 1x'
+  - '&f2000 Dirhem'
+  - ' '
+  - '&eAlmak iÃƒÂ§in tÃ„Â±kla!'
+  weekly-available-premium-lore:
+  - ' '
+  - '&dÃƒâ€“dÃƒÂ¼ller'
+  - ' '
+  - '&fElmas Blok Spawner 3x'
+  - '&f6000 Dirhem'
+  - ' '
+  - '&eAlmak iÃƒÂ§in tÃ„Â±kla!'
+  weekly-displayname-unavailable: '&aHaftalÃ„Â±k Ãƒâ€“dÃƒÂ¼l'
+  weekly-premium-displayname-unavailable: '&aHaftalÃ„Â±k Ãƒâ€“dÃƒÂ¼l &7(&6LVIP&7)'
+  weekly-unavailable-lore:
+  - ' '
+  - '&fBekleme SÃƒÂ¼resi: &d%cooldown%'
+  weekly-unavailable-premium-lore:
+  - ' '
+  - '&fBekleme SÃƒÂ¼resi: &d%cooldown%'
+  monthly-title: '&eAylÃ„Â±k Ãƒâ€“dÃƒÂ¼l'
+  monthly-subtitle: '&eAylÃ„Â±k ÃƒÂ¶dÃƒÂ¼lÃƒÂ¼nÃƒÂ¼zÃƒÂ¼ topladÃ„Â±nÃ„Â±z.'
+  monthly-collected: '&6Skyblock &7Ã¢â€“Âº &d%player% &eaylÃ„Â±k ÃƒÂ¶dÃƒÂ¼lÃƒÂ¼nÃƒÂ¼ aldÃ„Â±!'
+  monthly-premium-collected: '&6Skyblock &7Ã¢â€“Âº &d%player% &6LVIP &eaylÃ„Â±k ÃƒÂ¶dÃƒÂ¼lÃƒÂ¼nÃƒÂ¼ aldÃ„Â±!'
+  monthly-displayname-available: '&aAylÃ„Â±k Ãƒâ€“dÃƒÂ¼l'
+  monthly-premium-displayname-available: '&aAylÃ„Â±k Ãƒâ€“dÃƒÂ¼l &7(&6LVIP&7)'
+  monthly-available-lore:
+  - ' '
+  - '&dÃƒâ€“dÃƒÂ¼ller'
+  - ' '
+  - '&fZÃƒÂ¼mrÃƒÂ¼t Blok Spawner 1x'
+  - '&f5000 Dirhem'
+  - ' '
+  - '&eAlmak iÃƒÂ§in tÃ„Â±kla!'
+  monthly-available-premium-lore:
+  - ' '
+  - '&dÃƒâ€“dÃƒÂ¼ller'
+  - ' '
+  - '&fZÃƒÂ¼mrÃƒÂ¼t Blok Spawner 1x'
+  - '&f15000 Dirhem'
+  - ' '
+  - '&eAlmak iÃƒÂ§in tÃ„Â±kla!'
+  monthly-displayname-unavailable: '&aAylÃ„Â±k Ãƒâ€“dÃƒÂ¼l'
+  monthly-premium-displayname-unavailable: '&aAylÃ„Â±k Ãƒâ€“dÃƒÂ¼l &7(&6LVIP&7)'
+  monthly-unavailable-lore:
+  - ' '
+  - '&fBekleme SÃƒÂ¼resi: &d%cooldown%'
+  monthly-unavailable-premium-lore:
+  - ' '
+  - '&fBekleme SÃƒÂ¼resi: &d%cooldown%'

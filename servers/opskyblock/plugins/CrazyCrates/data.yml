@@ -1,0 +1,18 @@
+Players: {}
+Offline-Players:
+  sentron:
+    krantik: 3
+    oyver: 5
+  '@a':
+    oyver: 2
+  all:
+    oyver: 1
+  all_players:
+    oyver: 1
+  '@p':
+    oyver: 1
+  '%loop-players%':
+    oyver: 1
+  ulasbabapro:
+    krantik: 3
+    oyver: 5

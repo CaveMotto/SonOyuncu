@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 78.185.225.242
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1707802578798
+  login: 1707801906683
+money: '15.0'
+last-account-name: LarosStore
+logoutlocation:
+  world: 8da62124-f50f-4d56-9ef6-0acdacfbba61
+  world-name: Lobi
+  x: 0.5488156799049895
+  y: 65.0
+  z: 0.5557157353409665
+  yaw: -180.2998809814453
+  pitch: -0.5999950170516968

@@ -1,0 +1,88 @@
+MainMenu:
+  Hats:
+    Name: '&bKafalar'
+    Material: DIAMOND_HELMET
+    Lore:
+    - ''
+    - '&7AradÄ±ÄŸÄ±n bÃ¼tÃ¼n kafalarÄ±'
+    - '&7burada bulabilirsin.'
+  Particles:
+    Name: '&bParÃ§acÄ±klar'
+    Material: BLAZE_POWDER
+    Lore:
+    - ''
+    - '&7Karakterinizin etrafÄ±n da'
+    - '&7uÃ§uÅŸan efektler ister misin?'
+  Suits:
+    Name: '&bKostÃ¼mler'
+    Material: GOLDEN_LEGGINGS
+    Lore:
+    - ''
+    - '&7SÃ¼per kahraman olmak iÃ§in'
+    - '&7hazÄ±r hissediyor musun?'
+  Gadgets:
+    Name: '&bEÄŸlence'
+    Material: PISTON
+    Lore:
+    - ''
+    - '&7Birbirinden eÄŸlenceli'
+    - '&7tÃ¼rler ile hem sen eÄŸlen'
+    - '&7hemde arkadaÅŸlarÄ±n eÄŸlensin!'
+  Pets:
+    Name: '&bEvcil Hayvan'
+    Material: BONE
+    Lore:
+    - ''
+    - '&7Kendine minnoÅŸ bir'
+    - '&7evcil hayvan edin!'
+  Morphs:
+    Name: '&bDÃ¶nÃ¼ÅŸÃ¼m'
+    Material: ZOMBIE_HEAD
+    Lore:
+    - ''
+    - '&7DÃ¶nÃ¼ÅŸÃ¼m vakti!'
+    - '&7istediÄŸin moba dÃ¶nÃ¼ÅŸ'
+    - '&7herkes senden korksun!'
+  Banners:
+    Name: '&bAfiÅŸler'
+    Material: CUSTOM_MATERIAL_1
+    Lore:
+    - ''
+    - '&7Kafana afiÅŸler takarak'
+    - '&7gÃ¶rÃ¼ntÃ¼ne gÃ¼zellik katabilir'
+    - '&7etrafÄ±ndaki kiÅŸilerin'
+    - '&7dikkatini Ã§ekebilirsin.'
+  Emotes:
+    Name: '&bEmojiler'
+    Material: head:60c432cbc490a8af6e9dfeb28095c0a0ec79fff705fb184674d1e743bd05baa
+    Lore:
+    - ''
+    - '&7Kendini ifade et! Bu benzersiz'
+    - '&7hareketli emojiler ile kendinizi'
+    - '&7nasÄ±l hissettiÄŸinizi gÃ¶sterin.'
+  Cloaks:
+    Name: '&bEfektler'
+    Material: ENCHANTING_TABLE
+    Lore:
+    - ''
+    - '&7ParÃ§acÄ±ktan yapÄ±lan bu'
+    - '&7pelerinleri ve efektleri'
+    - '&7sende kuÅŸan!'
+  Animated Hats:
+    Name: '&bHareketli Kafalar'
+    Material: head:5ebfd2396cbabdb42c348bcf41599c87a506a71ef60948c496f95c6cb63141
+    Lore:
+    - ''
+    - '&7TaktÄ±ÄŸÄ±nÄ±z bu kafalar'
+    - '&7baÅŸÄ±nÄ±zdayken sÃ¼rekli'
+    - '&7hareket halin de olurlar.'
+  Miniatures:
+    Name: '&bMinyatÃ¼rler'
+    Material: head:9da39269ef45f825ec61bb4f8aa09bd3cf07996fb6fac338a6e91d6699ae425
+    Lore:
+    - ''
+    - '&7KÃ¼Ã§Ã¼k bir dost edinin'
+    - '&7ve bu dostunuz siz nereye'
+    - '&7giderseniz o da sizle gelsin.'
+Slot-Layout: 10, 12, 14, 16, 27, 29, 31, 33, 35
+Inventory-Size: 54

@@ -1,0 +1,118 @@
+#----------------------------------#
+#         [Rewards GUI]            #
+#         by Sneklingame           #
+#----------------------------------#
+
+#Please check the Wiki for more information: https://github.com/sneklingame/Rewards-GUI/wiki/
+
+check-for-updates: false
+
+storage-method: YAML
+
+host: 
+port: 3306
+database: 
+table: players
+username: 
+password: ''
+
+click-message: '&6Lobi &8► &eBaşarıyla Hediyeni Aldın'
+cooldown-message: '&6Lobi &8► &7Bu Hediye''yi &d%days% &7Gün &d%hours% &7Saat &d%minutes% &7Dakika &d%seconds% &7Saniye'
+
+title: '&eGünlük Ödül'
+rows: 3
+keep-open: false
+
+fill-blank-space:
+  enabled: false
+  item: STAINED_GLASS_PANE
+  data-value: 7
+
+
+Items:
+
+  günlüködül:    
+    name: '&eGünlük Ödül'
+    type: 159
+    active-cooldown-type: 159
+    data-value: 13
+    slot: 11
+    lore:
+      - ''
+      - '&7Her Gün Aynı Saatte Gelebilirsin'
+      - '&7İhtiyarlık Zor Birşey Ben Gelemiyorum'
+      - ''
+      - '&aTıkla ve Gör'
+
+    give-money: 250
+    commands:
+      - 'console: gmysteryboxes give %player% 1'
+    sound: 'LEVEL_UP'
+    unavailable-sound: 'LEVEL_UP'
+    cooldown: 86400
+    permission: larosstore.günlük
+    no-permission-message: "&cYou don't have permission to claim this reward."
+
+  vip:
+    name: '&6VIP &eHaftalık Ödül'
+    type: 159
+    active-cooldown-type: 159
+    data-value: 13
+    slot: 13
+    lore:
+      - ''
+      - '&7Her Haftada Bir Gelebilirsin'
+      - '&7Günlük Ödül &6VIP &7Rütbeleri'
+      - ''
+      - '&aTıkla ve Gör'
+    give-money: 500
+    commands:
+      - 'console: gmysteryboxes give %player% 2'
+    sound: 'LEVEL_UP'
+    unavailable-sound: 'LEVEL_UP'
+    cooldown: 604800
+    permission: larosstore.vip
+    no-permission-message: "&6Lobi &8► &eBu ödülü anca &6VIP &erütbedekiler alabilir"
+
+  svip:
+    name: '&aMVIP &dHaftalık Ödül'
+    type: 159
+    active-cooldown-type: 159
+    data-value: 13
+    slot: 14
+    lore:
+      - ''
+      - '&7Her Haftada Bir Gelebilirsin'
+      - '&7Günlük Ödül &aMVIP &7Rütbeleri'
+      - ''
+      - '&aTıkla ve Gör'
+    give-money: 2000
+    commands:
+      - 'console: gmysteryboxes give %player% 3'
+    sound: 'LEVEL_UP'
+    unavailable-sound: 'LEVEL_UP'
+    cooldown: 2592000
+    permission: larosstore.mvip
+    no-permission-message: "&6Lobi &8► &eBu ödülü anca &aMVIP &erütbedekiler alabilir"
+
+  svip+:
+    name: '&aMVIP+ &dHaftalık Ödül'
+    type: 159
+    active-cooldown-type: 159
+    data-value: 13
+    slot: 15
+    lore:
+      - ''
+      - '&7Her Haftada Bir Gelebilirsin'
+      - '&7Günlük Ödül &aMVIP+ &7Rütbeleri'
+      - ''
+      - '&aTıkla ve Gör'
+    give-money: 3000
+    commands:
+      - 'console: gmysteryboxes give %player% 4'
+    sound: 'LEVEL_UP'
+    unavailable-sound: 'LEVEL_UP'
+    cooldown: 86400
+    permission: larosstore.mvipplus
+    no-permission-message: "&6Lobi &8► &eBu ödülü anca &aMVIP+ &erütbedekiler alabilir"
+

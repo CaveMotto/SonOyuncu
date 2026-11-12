@@ -1,0 +1,54 @@
+kits:
+  oyuncu:
+    delay: 86400
+    items:
+    - 276 1 sharpness:7 unbreaking:3 name:&8▸&eOyuncu_Kiti
+    - 278 1 silktouch:1 name:&8▸_&aİpeksi_Kiti
+    - 278 1 efficiency:7 unbreaking:3 fortune:3 name:&8▸_&eOyuncu_Kiti
+    - 279 1 efficiency:7 unbreaking:3 name:&8▸_&eOyuncu_Kiti
+    - 277 1 efficiency:7 unbreaking:3 name:&8▸_&eOyuncu_Kiti
+    - 310 1 protection:7 unbreaking:3 name:&8▸_&eOyuncu_Kiti
+    - 311 1 protection:7 unbreaking:3 name:&8▸_&eOyuncu_Kiti
+    - 312 1 protection:7 unbreaking:3 name:&8▸_&eOyuncu_Kiti
+    - 313 1 protection:7 unbreaking:3 name:&8▸_&eOyuncu_Kiti
+    - 57 64
+    - 133 64
+    - 41 128
+    - 42 128
+  lvip:
+    delay: 86400
+    items:
+    - 276 1 sharpness:10 unbreaking:5 name:&8▸_&6LVIP_Kiti
+    - 278 1 silktouch:1 name:&8▸_&aİpeksi_Kiti
+    - 278 1 efficiency:10 unbreaking:5 fortune:4 name:&8▸_&6LVIP_Kiti
+    - 279 1 efficiency:10 unbreaking:5 name:&8▸_&6LVIP_Kiti
+    - 277 1 efficiency:10 unbreaking:5 name:&8▸_&6LVIP_Kiti
+    - 310 1 protection:10 unbreaking:5 name:&8▸_&6LVIP_Kiti
+    - 311 1 protection:10 unbreaking:5 name:&8▸_&6LVIP_Kiti
+    - 312 1 protection:10 unbreaking:5 name:&8▸_&6LVIP_Kiti
+    - 313 1 protection:10 unbreaking:5 name:&8▸_&6LVIP_Kiti
+    - 121 96
+    - 168 96
+    - 56 96
+    - 129 96
+  rehber:
+    delay: 86400
+    items:
+    - 276 1 sharpness:9 unbreaking:4 name:&8▸_&aRehber_Kiti
+    - 278 1 efficiency:9 unbreaking:4 fortune:3 name:&8▸_&aRehber_Kiti
+    - 279 1 efficiency:9 unbreaking:4 name:&8▸_&aRehber_Kiti
+    - 277 1 efficiency:9 unbreaking:4 name:&8▸_&aRehber_Kiti
+    - 310 1 protection:9 unbreaking:4 name:&8▸_&aRehber_Kiti
+    - 311 1 protection:9 unbreaking:4 name:&8▸_&aRehber_Kiti
+    - 312 1 protection:9 unbreaking:4 name:&8▸_&aRehber_Kiti
+    - 313 1 protection:9 unbreaking:4 name:&8▸_&aRehber_Kiti
+    - 278 1 silktouch:1 name:&8▸_&aİpeksi_Kiti
+    - 121 64
+    - 168 64
+    - 56 64
+    - 129 64
+  otosat:
+    delay: 86400
+    items:
+    - stick 1 name:&dSatış_Çubuğu&9&8&7&b&2 lore:&a|&fSandığa_sağ_tıkladğınızda|&d/market_&ffiyat_sistemiyle_satar.||&dwww.laroscraft.com
+      durability:1 itemflags:HIDE_ENCHANTS

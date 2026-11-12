@@ -1,0 +1,66 @@
+menu_title: 'Ihale'
+open_command:
+- ihale
+- ah
+size: 27
+items:
+  auctions:
+    material: GOLD_INGOT
+    slot: 11
+    display_name: "&aMevcut Ihaleler"
+    lore:
+    - "&7Burada aktif ihaleleri"
+    - "&7görebilirsin!"
+    - ""
+    - "&eAçmak için tıkla"
+    right_click_commands:
+    - "[player] ca"
+    left_click_commands:
+    - "[player] ca"
+  depo:
+    material: CHEST
+    slot: 13
+    display_name: "&aSandık"
+    lore:
+    - "&7Ihaleden kazandığın"
+    - "&7eşyalar veya iptal ettiğin,"
+    - "&7satılmayan eşyalar burada"
+    - "&7depolanır, süresi bitene"
+    - "&7kadar buradan alabilirsin."
+    - ""
+    - "&eAçmak için tıkla"
+    right_click_commands:
+    - "[player] ca collect"
+    - "[close]"
+    left_click_commands:
+    - "[player] ca collect"
+    - "[close]"
+  yourauctions:
+    material: DIAMOND
+    slot: 15
+    display_name: "&aSenin Ihalelerin"
+    lore:
+    - "&7Şuan da aktif ihalelerini"
+    - "&7burada görebilir ve iptal"
+    - "&7edebilirsin."
+    - ""
+    - "&eAçmak için tıkla"
+    right_click_commands:
+    - "[player] ca listed"
+    - "[close]"
+    left_click_commands:
+    - "[player] ca listed"
+    - "[close]"
+  help:
+    material: BOOK
+    slot: 22
+    display_name: '&eNasıl ihaleye eşya eklerim?'
+    lore:
+    - ''
+    - '&7Ihaleye bir eşya eklemek için'
+    - '&7elinize ekleyeceğiniz eşyayı alın'
+    - '&7ve aşağıdaki komutu uygulayın.'
+    - '&f/ihale başlat <fiyat> <adet>'
+    - '&7'
+    - '&eHangi eşyaları ihaleye eklerim?'
+    - '&f* Herhangi bir eşyayı koyabilirsin!'

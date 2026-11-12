@@ -1,0 +1,8 @@
+custom-chat-format: true
+chat-format: '%player% > %message%'
+message-format: '&6[%minigame%] &r&b%message%'
+messages:
+  start-in-x-seconds: The game will start in %secs% seconds!
+  start-in-1-second: The game will start in 1 second!
+  player-joined: '%player% joined the game!'
+  player-left: '%player% left the game!'

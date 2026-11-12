@@ -1,0 +1,180 @@
+No_Permissions: '&cBÃ¡ÂºÂ¡n khÃƒÂ´ng cÃƒÂ³ quyÃ¡Â»ï¿½n lÃƒÂ m Ã„â€˜iÃ¡Â»ï¿½u Ã„â€˜ÃƒÂ³!'
+Only_for_Player: '&cOnly for players!'
+No_Money: '&cBÃ¡ÂºÂ¡n khÃƒÂ´ng cÃƒÂ³ tiÃ¡Â»ï¿½n!'
+Enter_Correct_Amount: '&cVui lÃƒÂ²ng nhÃ¡ÂºÂ­p sÃ¡Â»â€˜ lÃ†Â°Ã¡Â»Â£ng hÃ¡Â»Â£p lÃ¡Â»â€¡.'
+Only_X_Amount: '&7You only have &c%amount% %type%&7!'
+Trade_Was_Cancelled: '&cGiao dÃ¡Â»â€¹ch Ã„â€˜ÃƒÂ£ hÃ¡Â»Â§y.'
+Trade_Was_Finished: '&7Giao dÃ¡Â»â€¹ch Ã„â€˜ÃƒÂ£ &ahoÃƒÂ n thÃƒÂ nh&7.'
+Cannot_Trade_With_Yourself: '&cBÃ¡ÂºÂ¡n khÃƒÂ´ng thÃ¡Â»Æ’ giao dÃ¡Â»â€¹ch vÃ¡Â»â€ºi
+  chÃƒÂ­nh bÃ¡ÂºÂ¡n.'
+Player_Not_Online: '&cNgÃ†Â°Ã¡Â»ï¿½i chÃ†Â¡i Ã„â€˜ang ngoÃ¡ÂºÂ¡i tuyÃ¡ÂºÂ¿n.'
+Want_To_Trade: '&7NgÃ†Â°Ã¡Â»ï¿½i chÃ†Â¡i &c%player% &7muÃ¡Â»â€˜n giao dÃ¡Â»â€¹ch vÃ¡Â»â€ºi
+  bÃ¡ÂºÂ¡n. &8[%accept% &8| %deny%&8]'
+Want_To_Trade_Accept: '&aÃ„ï¿½Ã¡Â»â€œng ÃƒÂ½'
+Want_To_Trade_Deny: '&cTÃ¡Â»Â« chÃ¡Â»â€˜i'
+Want_To_Trade_Hover: '&8Ã‚Â» NhÃ¡ÂºÂ¥p vÃƒÂ o Ã‚Â«'
+Player_Is_Invited: '&7NgÃ†Â°Ã¡Â»ï¿½i chÃ†Â¡i &c%player% &7Ã„â€˜Ã†Â°Ã¡Â»Â£c mÃ¡Â»ï¿½i.'
+Command_How_To: '&7DÃƒÂ¹ng: /trade <player, accept, deny, toggle>'
+Command_How_To_Accept: '&7DÃƒÂ¹ng: /trade accept <NgÃ†Â°Ã¡Â»ï¿½i chÃ†Â¡i>'
+Command_How_To_Deny: '&7DÃƒÂ¹ng: /trade deny <NgÃ†Â°Ã¡Â»ï¿½i chÃ†Â¡i>'
+Player_Of_Request_Not_Online: '&cNgÃ†Â°Ã¡Â»ï¿½i chÃ†Â¡i gÃ¡Â»Â­i yÃƒÂªu cÃ¡ÂºÂ§u Ã„â€˜ang
+  ngoÃ¡ÂºÂ¡i tuyÃ¡ÂºÂ¿n!'
+Request_Accepted: '&7BÃ¡ÂºÂ¡n Ã„â€˜ÃƒÂ£ &aÃ„â€˜Ã¡Â»â€œng ÃƒÂ½ &7yÃƒÂªu cÃ¡ÂºÂ§u giao
+  dÃ¡Â»â€¹ch.'
+Request_Was_Accepted: '&7YÃƒÂªu cÃ¡ÂºÂ§u cho &c%player% &7Ã„â€˜ÃƒÂ£ Ã„â€˜Ã†Â°Ã¡Â»Â£c
+  &achÃ¡ÂºÂ¥p nhÃ¡ÂºÂ­n&7.'
+Request_Denied: '&7BÃ¡ÂºÂ¡n Ã„â€˜ÃƒÂ£ &ctÃ¡Â»Â« chÃ¡Â»â€˜i &7yÃƒÂªu cÃ¡ÂºÂ§u giao
+  dÃ¡Â»â€¹ch.'
+Request_Was_Denied: '&7YÃƒÂªu cÃ¡ÂºÂ§u cho &c%player% &7Ã„â€˜ÃƒÂ£ bÃ¡Â»â€¹ &ctÃ¡Â»Â«
+  chÃ¡Â»â€˜i&7.'
+No_Request_Found: '&cBÃ¡ÂºÂ¡n khÃƒÂ´ng cÃƒÂ³ bÃ¡ÂºÂ¥t kÃƒÂ¬ yÃƒÂªu cÃ¡ÂºÂ§u nÃƒÂ o
+  tÃ¡Â»Â« ngÃ†Â°Ã¡Â»ï¿½i chÃ†Â¡i nÃƒÂ y!'
+No_Requests_Found: '&cBÃ¡ÂºÂ¡n khÃƒÂ´ng cÃƒÂ³ bÃ¡ÂºÂ¥t kÃƒÂ¬ yÃƒÂªu cÃ¡ÂºÂ§u nÃƒÂ o!'
+Too_many_requests: '&cBÃ¡ÂºÂ¡n cÃƒÂ³ quÃƒÂ¡ nhiÃ¡Â»ï¿½u yÃƒÂªu cÃ¡ÂºÂ§u&7, vui lÃƒÂ²ng
+  chÃ¡Â»â€° rÃƒÂµ tÃƒÂªn ngÃ†Â°Ã¡Â»ï¿½i chÃ†Â¡i.'
+GUI_Title: '&cGiao dÃ¡Â»â€¹ch vÃ¡Â»â€ºi %player%%tradesystem_countdown_fancy%'
+Money_Amount: LÃ†Â°Ã¡Â»Â£ng tiÃ¡Â»ï¿½n
+Coin: $
+Coins: $
+PlayerPoint: PlayerPoint
+PlayerPoints: PlayerPoints
+Token: Token
+Tokens: Tokens
+ClaimBlock: ClaimBlock
+ClaimBlocks: ClaimBlocks
+Status: TrÃ¡ÂºÂ¡ng thÃƒÂ¡i
+Ready: SÃ¡ÂºÂµn sÃƒÂ ng
+Not_Ready: ChÃ†Â°a sÃ¡ÂºÂµn sÃƒÂ ng
+Wait_For_Other_Player: ChÃ¡Â»ï¿½ ngÃ†Â°Ã¡Â»ï¿½i chÃ†Â¡i cÃƒÂ²n lÃ¡ÂºÂ¡i...
+Trade_Only_With_Objects: BÃ¡ÂºÂ¡n phÃ¡ÂºÂ£i Ã„â€˜Ã¡Â»Æ’ mÃ¡Â»â„¢t thÃ¡Â»Â© gÃƒÂ¬ Ã„â€˜ÃƒÂ³ Ã„â€˜Ã¡Â»Æ’ hoÃƒÂ n thÃƒÂ nh giao dÃ¡Â»â€¹ch.
+Click_To_Change: NhÃ¡ÂºÂ¥p Ã„â€˜Ã¡Â»Æ’ thay Ã„â€˜Ã¡Â»â€¢i
+Cancel_Trade: NhÃ¡ÂºÂ¥p Ã„â€˜Ã¡Â»Æ’ hÃ¡Â»Â§y
+Not_Able_To_Trade: BÃ¡ÂºÂ¡n khÃƒÂ´ng Ã„â€˜Ã†Â°Ã¡Â»Â£c phÃƒÂ©p giao dÃ¡Â»â€¹ch.
+Player_Is_Not_Able_Trade: NgÃ†Â°Ã¡Â»ï¿½i chÃ†Â¡i khÃƒÂ´ng Ã„â€˜Ã†Â°Ã¡Â»Â£c phÃƒÂ©p giao dÃ¡Â»â€¹ch.
+TRADE_EDITOR: ChÃ¡Â»â€°nh sÃ¡Â»Â­a - Giao diÃ¡Â»â€¡n giao dÃ¡Â»â€¹ch
+TRADE_EDITOR_FUNCTIONS: ChÃ¡Â»â€°nh sÃ¡Â»Â­a - TÃƒÂ­nh nÃ„Æ’ng
+EDITOR_RESET: Giao diÃ¡Â»â€¡n tÃ¡ÂºÂ¡m thÃ¡Â»ï¿½i cÃ¡Â»Â§a bÃ¡ÂºÂ¡n Ã„â€˜ÃƒÂ£ Ã„â€˜Ã†Â°Ã¡Â»Â£c nÃ¡ÂºÂ¡p lÃ¡ÂºÂ¡i.
+Editor_Command_How_To: '&7DÃƒÂ¹ng: /tradeEditor [reset]'
+Editor_Not_Empty: KhÃƒÂ´ng cÃƒÂ³ ÃƒÂ´ trÃ¡Â»â€˜ng!
+Editor_No_Item: KhÃƒÂ´ng cÃƒÂ³ vÃ¡ÂºÂ­t phÃ¡ÂºÂ©m!
+Layout_Name: TÃƒÂªn khung
+Layout_Name_Already_Exists: TÃƒÂªn khung nÃƒÂ y Ã„â€˜ÃƒÂ£ cÃƒÂ³ rÃ¡Â»â€œi!
+Layout_Finished: Khung Ã„â€˜ÃƒÂ£ Ã„â€˜Ã†Â°Ã¡Â»Â£c tÃ¡ÂºÂ¡o &athÃƒÂ nh cÃƒÂ´ng&7.
+Layout_Edited: Khung Ã„â€˜ÃƒÂ£ Ã„â€˜Ã†Â°Ã¡Â»Â£c chÃ¡Â»â€°nh &athÃƒÂ nh cÃƒÂ´ng&7.
+Layout_Editor: '&9Layout &8- &9Editor'
+Save: LÃ†Â°u
+Not_Ready_For_Saving: '&cKhung khÃƒÂ´ng thÃ¡Â»Æ’ lÃ†Â°u'
+Items: VÃ¡ÂºÂ­t phÃ¡ÂºÂ©m
+Set: Ã„ï¿½ÃƒÂ£ chÃ¡Â»â€°nh
+Not_Set: ChÃ†Â°a chÃ¡Â»â€°nh
+Functions: TÃƒÂ­nh nÃ„Æ’ng
+Name: TÃƒÂªn
+Ambiguous_Functions: TÃƒÂ­nh nÃ„Æ’ng mÃ†Â¡ hÃ¡Â»â€œ
+Layout_Set_Items: LÃ¡ÂºÂ¯p Ã„â€˜Ã¡ÂºÂ§y giao diÃ¡Â»â€¡n tiÃƒÂªu chuÃ¡ÂºÂ©n
+Layout_Set_Functions: ChÃ¡Â»â€°nh tÃƒÂ­nh nÃ„Æ’ng
+Layout_Set_Name: ChÃ¡Â»â€°nh tÃƒÂªn khung
+Layout_Set_Ambiguous_Functions: ChÃ¡Â»â€°nh tÃƒÂ­nh nÃ„Æ’ng mÃ†Â¡ hÃ¡Â»â€œ
+Layout_Editor_Set_Items: '&cÃ„ï¿½ÃƒÂ³ng Ã„â€˜Ã¡Â»Æ’ tiÃ¡ÂºÂ¿p tÃ¡Â»Â¥c'
+Back: Quay vÃ¡Â»ï¿½
+Trader: NgÃ†Â°Ã¡Â»ï¿½i giao dÃ¡Â»â€¹ch
+Other: KhÃƒÂ¡c
+Layout_Set_Own_Slots: ChÃ¡Â»â€°nh ÃƒÂ´ giao dÃ¡Â»â€¹ch cho bÃ¡ÂºÂ£n thÃƒÂ¢n
+Layout_Set_Other_Slots: ChÃ¡Â»â€°nh ÃƒÂ´ giao dÃ¡Â»â€¹ch cho ngÃ†Â°Ã¡Â»ï¿½i khÃƒÂ¡c
+Layout_Set_Cancel: ChÃ¡Â»â€°nh biÃ¡Â»Æ’u tÃ†Â°Ã¡Â»Â£ng hÃ¡Â»Â§y
+Layout_Set_Other_Not_Ready: ChÃ¡Â»â€°nh biÃ¡Â»Æ’u tÃ†Â°Ã¡Â»Â£ng 'ChÃ†Â°a sÃ¡ÂºÂµn sÃƒÂ ng' tÃ¡Â»Â« ngÃ†Â°Ã¡Â»ï¿½i khÃƒÂ¡c
+Layout_Set_Status: ChÃ¡Â»â€°nh biÃ¡Â»â€¦u tÃ†Â°Ã¡Â»Â£ng trÃ¡ÂºÂ¡ng thÃƒÂ¡i cho bÃ¡ÂºÂ£n thÃƒÂ¢n
+Layout_Set_Money: ChÃ¡Â»â€°nh biÃ¡Â»Æ’u tÃ†Â°Ã¡Â»Â£ng tiÃ¡Â»ï¿½n cho bÃ¡ÂºÂ£n thÃƒÂ¢n
+Layout_Set_Other_Money: ChÃ¡Â»â€°nh biÃ¡Â»Æ’u tÃ†Â°Ã¡Â»Â£ng tiÃ¡Â»ï¿½n cho ngÃ†Â°Ã¡Â»ï¿½i khÃƒÂ¡c
+Help_TradeSystem: '&7DÃƒÂ¹ng &e/%label% <layout, reload>'
+Help_TradeSystem_Layout: '&7DÃƒÂ¹ng &e/%label% layout <create, edit, delete, activate>'
+Help_TradeSystem_Layout_Create: '&7Use &e/%label% layout create <name> [9..54]'
+Help_TradeSystem_Layout_Activate: '&DÃƒÂ¹ng &e/%label% layout activate <name>'
+Help_TradeSystem_Layout_Delete: '&7DÃƒÂ¹ng &e/%label% layout delete <name>'
+Help_TradeSystem_Layout_Edit: '&7DÃƒÂ¹ng &e/%label% layout edit <name>'
+Layout_Does_Not_Exist: '&cKhung nÃƒÂ y khÃƒÂ´ng tÃ¡Â»â€œn tÃ¡ÂºÂ¡i!'
+Layout_Activated: '&7Khung ''&b%name%&7'' Ã„â€˜ÃƒÂ£ Ã„â€˜Ã†Â°Ã¡Â»Â£c &akÃƒÂ­ch hoÃ¡ÂºÂ¡t&7.'
+Layout_Deleted: '&7Khung ''&b%name%&7'' Ã„â€˜ÃƒÂ£ bÃ¡Â»â€¹ &cxÃƒÂ³a&7.'
+Enter_Correct_Name_Space: '&cKhÃƒÂ´ng dÃƒÂ¹ng dÃ¡ÂºÂ¥u cÃƒÂ¡ch.'
+Sure_That_You_Want_To_Loose_Your_Data: '&7BÃ¡ÂºÂ¡n cÃƒÂ³ chÃ¡ÂºÂ¯c bÃ¡ÂºÂ¡n &ckhÃƒÂ´ng
+  &7muÃ¡Â»â€˜n &clÃ†Â°u &7thay Ã„â€˜Ã¡Â»â€¢i cÃ¡Â»Â§a bÃ¡ÂºÂ¡n?'
+Close: Ã„ï¿½ÃƒÂ³ng
+Layout_Already_Activated: '&7Khung nÃƒÂ y &cÃ„â€˜ÃƒÂ£ Ã„â€˜Ã†Â°Ã¡Â»Â£c kÃƒÂ­ch hoÃ¡ÂºÂ¡t&7!'
+Layout_Set_Replacement_For_Money: '&7BiÃ¡Â»Æ’u tÃ†Â°Ã¡Â»Â£ng &ethay thÃ¡ÂºÂ¿ biÃ¡Â»Æ’u
+  tÃ†Â°Ã¡Â»Â£ng tiÃ¡Â»ï¿½n&7, khi &ekhÃƒÂ´ng cÃƒÂ³ plugin tiÃ¡Â»ï¿½n &7Ã„â€˜Ã†Â°Ã¡Â»Â£c
+  tÃƒÂ¬m thÃ¡ÂºÂ¥y.'
+Layout_Hint_Same_Slot_Amount: '&7CÃ¡ÂºÂ£ 2 ngÃ†Â°Ã¡Â»ï¿½i giao dÃ¡Â»â€¹ch &cphÃ¡ÂºÂ£i
+  cÃƒÂ³ sÃ¡Â»â€˜ ÃƒÂ´ nhÃ†Â° nhau&7!'
+Current_Amount: SÃ¡Â»â€˜ lÃ†Â°Ã¡Â»Â£ng hiÃ¡Â»â€¡n tÃ¡ÂºÂ¡i
+Trade_Spam: '&7NgÃ†Â°Ã¡Â»ï¿½i chÃ†Â¡i nÃƒÂ y Ã„â€˜ÃƒÂ£ &cnhÃ¡ÂºÂ­n yÃƒÂªu cÃ¡ÂºÂ§u
+  giao dÃ¡Â»â€¹ch rÃ¡Â»â€œi&7!'
+Plugin_Reloading: '&cPlugin sÃ¡ÂºÂ½ Ã„â€˜Ã†Â°Ã¡Â»Â£c nÃ¡ÂºÂ¡p lÃ¡ÂºÂ¡i...'
+Success_Plugin_Reloaded: '&aPlugin Ã„â€˜ÃƒÂ£ Ã„â€˜Ã†Â°Ã¡Â»Â£c nÃ¡ÂºÂ¡p lÃ¡ÂºÂ¡i.'
+Player_is_not_in_range: '&7NgÃ†Â°Ã¡Â»ï¿½i chÃ†Â¡i &c%player% &7Ã„â€˜ang &ckhÃƒÂ´ng
+  Ã¡Â»Å¸ gÃ¡ÂºÂ§n&7!'
+Cannot_trade_in_that_GameMode: '&7BÃ¡ÂºÂ¡n &ckhÃƒÂ´ng thÃ¡Â»Æ’ giao dÃ¡Â»â€¹ch &7Ã¡Â»Å¸
+  chÃ¡ÂºÂ¿ Ã„â€˜Ã¡Â»â„¢ nÃƒÂ y!'
+Other_cannot_trade_in_that_GameMode: '&7NgÃ†Â°Ã¡Â»ï¿½i chÃ†Â¡i &ckhÃƒÂ´ng thÃ¡Â»Æ’
+  giao dÃ¡Â»â€¹ch &7Ã¡Â»Å¸ chÃ¡ÂºÂ¿ Ã„â€˜Ã¡Â»â„¢ nÃƒÂ y!'
+Trade_cancelled_by_attack: '&cGiao dÃ¡Â»â€¹ch Ã„â€˜ÃƒÂ£ hÃ¡Â»Â§y do cÃƒÂ³ sÃ¡Â»Â±
+  tÃ¡ÂºÂ¥n cÃƒÂ´ng.'
+Trade_Partner_No_Space: '&7BÃ¡ÂºÂ¡n giao dÃ¡Â»â€¹ch cÃ¡Â»Â§a bÃ¡ÂºÂ¡n &ckhÃƒÂ´ng cÃƒÂ²n
+  chÃ¡Â»â€” trÃ¡Â»â€˜ng &7trong kho cÃ¡Â»Â§a hÃ¡Â»ï¿½!'
+Trade_Offline: '&7BÃ¡ÂºÂ¡n &ckhÃƒÂ´ng cÃƒÂ²n nhÃ¡ÂºÂ­n &7yÃƒÂªu cÃ¡ÂºÂ§u giao dÃ¡Â»â€¹ch
+  nÃ¡Â»Â¯a!'
+Trade_Online: '&7BÃ¡ÂºÂ¡n bÃƒÂ¢y giÃ¡Â»ï¿½ &acÃƒÂ³ thÃ¡Â»Æ’ nhÃ¡ÂºÂ­n &7yÃƒÂªu cÃ¡ÂºÂ§u
+  giao dÃ¡Â»â€¹ch!'
+Trade_Partner_is_Offline: '&7NgÃ†Â°Ã¡Â»ï¿½i chÃ†Â¡i &ckhÃƒÂ´ng cÃƒÂ²n nhÃ¡ÂºÂ­n &7yÃƒÂªu
+  cÃ¡ÂºÂ§u giao dÃ¡Â»â€¹ch!'
+Trade_You_are_Offline: '&7DÃƒÂ¹ng "%command%&e/trade toggle%command%&7" Ã„â€˜Ã¡Â»Æ’
+  giao dÃ¡Â»â€¹ch lÃ¡ÂºÂ¡i.'
+Trade_Placed_Blocked_Item: '&7VÃƒÂ¢t phÃ¡ÂºÂ©m nÃƒÂ y &ckhÃƒÂ´ng thÃ¡Â»Æ’ &7giao dÃ¡Â»â€¹ch!'
+Cannot_trade_in_bed: '&7BÃ¡ÂºÂ¡n &ckhÃƒÂ´ng thÃ¡Â»Æ’ giao dÃ¡Â»â€¹ch&7, khi Ã„â€˜ang
+  Ã¡Â»Å¸ trÃƒÂªn giÃ†Â°Ã¡Â»ï¿½ng.'
+Cannot_trade_in_world: '&7BÃ¡ÂºÂ¡n &ckhÃƒÂ´ng thÃ¡Â»Æ’ giao dÃ¡Â»â€¹ch &7Ã¡Â»Å¸ thÃ¡ÂºÂ¿
+  giÃ¡Â»â€ºi nÃƒÂ y!'
+Other_cannot_trade_in_world: '&7NgÃ†Â°Ã¡Â»ï¿½i chÃ†Â¡i Ã‚Â§ckhÃƒÂ´ng thÃ¡Â»Æ’ giao
+  dÃ¡Â»â€¹ch &7Ã¡Â»Å¸ thÃ¡ÂºÂ¿ giÃ¡Â»â€ºi cÃ¡Â»Â§a hÃ¡Â»ï¿½!'
+Cannot_trade_while_invisible: '&7BÃ¡ÂºÂ¡n &ckhÃƒÂ´ng thÃ¡Â»Æ’ giao dÃ¡Â»â€¹ch &7khi
+  Ã„â€˜ang &ctÃƒÂ ng hÃƒÂ¬nh&7!'
+Cannot_trade_in_region: '&7You &ccannot trade &7in this region!'
+Other_cannot_trade_in_region: '&7This player &ccannot trade &7in their region!'
+Other_is_already_trading: '&7NgÃ†Â°Ã¡Â»ï¿½i chÃ†Â¡i nÃƒÂ y hiÃ¡Â»â€¡n tÃ¡ÂºÂ¡i &cÃ„â€˜ang
+  giao dÃ¡Â»â€¹ch&7!'
+Online: TrÃ¡Â»Â±c tuyÃ¡ÂºÂ¿n
+Offline: NgoÃ¡ÂºÂ¡i tuyÃ¡ÂºÂ¿n
+Your_request_expired: '&7YÃƒÂªu cÃ¡ÂºÂ§u giao dÃ¡Â»â€¹ch Ã„â€˜Ã¡ÂºÂ¿n &e%player% &7Ã„â€˜ÃƒÂ£
+  &chÃ¡ÂºÂ¿t hÃ¡ÂºÂ¡n&7.'
+Request_expired: '&7YÃƒÂªu cÃ¡ÂºÂ§u giao dÃ¡Â»â€¹ch tÃ¡Â»Â« &e%player% &7Ã„â€˜ÃƒÂ£
+  &chÃ¡ÂºÂ¿t hÃ¡ÂºÂ¡n&7.'
+Fancy_Countdown: ' &7- &e%seconds% giÃƒÂ¢y'
+Economy_Error: '&7Giao dÃ¡Â»â€¹ch &cÃ„â€˜ÃƒÂ£ hÃ¡Â»Â§y &7vÃƒÂ¬ &clÃ¡Â»â€”i thÃ¡Â»â€¹
+  trÃ†Â°Ã¡Â»ï¿½ng&7.'
+Items_Dropped: '&7Kho cÃ¡Â»Â§a bÃ¡ÂºÂ¡n Ã„â€˜ÃƒÂ£ &cÃ„â€˜Ã¡ÂºÂ§y&7, vÃƒÂ i vÃ¡ÂºÂ­t
+  phÃ¡ÂºÂ©m Ã„â€˜ÃƒÂ£ &crÃ¡Â»â€ºt xuÃ¡Â»â€˜ng Ã„â€˜Ã¡ÂºÂ¥t&7!'
+Sign_Enter_Amount: |-
+  ^^^^^^^^
+  Enter amount
+  above
+Leftclick: Leftclick
+Rightclick: Rightclick
+Shift_Leftclick: Shift-Leftclick
+Shift_Rightclick: Shift-Rightclick
+Select: Select
+Select_Foreign_Preview: Select foreign preview
+Edit: Edit
+Edit_Variant: Edit variant
+Variant: Variant
+Cancel: Cancel
+Finish: Finish
+Levels: Levels
+Level: Level
+Too_Little_Exp: '&cYou have &cno exp to trade&7.'
+Exp_Points: Exp points
+Exp_Point: Exp point
+Reset: Reset
+Balance_limit_reached: '&7SÃ¡Â»â€˜ dÃ†Â° cÃ¡Â»Â§a bÃ¡ÂºÂ¡n &ckhÃƒÂ´ng Ã„â€˜Ã¡Â»Â§&7.'
+AnvilGUI_Title: Repair & Name
+Shulker_Box: Shulker Box
+Trade_Finish_Report_Receive: '  &a+ &7%object%'
+Trade_Finish_Report_Give: '  &c- &7%object%'
+Trade_Finish_Report_Object_Item: '%amount%x %item%'

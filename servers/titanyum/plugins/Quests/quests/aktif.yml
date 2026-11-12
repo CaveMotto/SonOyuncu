@@ -1,0 +1,35 @@
+tasks:
+  playtime:
+    type: "playtime"
+    minutes: 15
+    ignore-afk: false
+
+display:
+  name: "&eSunucuda Oyna I"
+  lore-normal:
+    - "&7Sunucuda belirtliten sürede"
+    - "&7Oyun oynayıp aktif kalın"
+    - ""
+    - "&7Süre: &f15 Dakika"
+    - ""
+    - "&7Odül: &f100 ⛃"
+  lore-started:
+    - ""
+    - "&7Mevcut ilerlemeniz:"
+    - "&c{playtime:progress}/15 Dakika oyna"
+  type: "BOOK"
+
+rewards:
+  - "eco give {player} 100"
+
+placeholders:
+  description: "&7Mevcut ilerlemeniz:"
+  progress: "&c{playtime:progress}/15 Dakika oyna"
+
+options:
+  category: "aktif"
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 1440
+  sort-order: 1

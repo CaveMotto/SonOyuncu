@@ -1,0 +1,27 @@
+## --------------------------------------- ##
+## Scrayos's Rankup Placeholders
+## https://www.spigotmc.org/resources/rankup.71/
+## About: This configuration allows you to
+##        configure what certain placeholders return.
+## --------------------------------------- ##
+
+# DO NOT EDIT THE CONFIG VERSION
+config: 1
+
+# Enable/Disable the placeholder group
+# Placeholder groups will not be loaded into the memory
+# when not used.
+enabled: true
+
+# Placeholder settings {rankupscrayos_rankup_name} returns
+rankupscrayos_rankup_name:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {rankupscrayos_rankup_neededkills} returns
+rankupscrayos_rankup_neededkills:
+  # Default return value
+  default: ""
+
+

@@ -1,0 +1,15 @@
+title: 'Claim System'
+size: 6
+type: 'CHEST'
+
+items:
+  back:
+    type: 'BARRIER'
+    name: 'Back'
+    glow: false
+    amount: 1
+    datavalue: 0
+    lore: [ ]
+    nbt: '{}'
+    slot: 49
+

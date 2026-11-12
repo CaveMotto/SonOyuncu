@@ -1,0 +1,23 @@
+title: 'Onayla'
+size: 3
+type: 'CHEST'
+
+items:
+  confirm:
+    type: 'STAINED_GLASS_PANE'
+    name: 'Onayla'
+    glow: false
+    amount: 1
+    datavalue: 5
+    lore: [ ]
+    nbt: '{}'
+    slot: 11
+  cancel:
+    type: 'STAINED_GLASS_PANE'
+    name: 'İptal et'
+    glow: false
+    amount: 1
+    datavalue: 14
+    lore: [ ]
+    nbt: '{}'
+    slot: 15

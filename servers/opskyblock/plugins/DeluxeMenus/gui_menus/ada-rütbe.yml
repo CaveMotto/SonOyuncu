@@ -1,0 +1,283 @@
+menu_title: '&7Ada Rütbe'
+open_command:
+- rütbe
+- rank
+- rankup
+- rütbeatla
+- rütbeler
+- rütbem
+size: 27
+items:
+  rütbelerrr:
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDY1Y2FhNmFhZWQzNGQyYzQyODUyNWJkZTY2ZWJlZjUyYTdmZmM5ODg3YjUyMzZkMTE5OTY4MDMxNDcxNTU5MyJ9fX0=
+    slot: 12
+    display_name: '&eRütbeler'
+    lore:
+    - ''
+    - '&aSkyOld: &f10K'
+    - '&bSkyNew: &f30K'
+    - '&eSkyArmy: &f50K'
+    - '&6SkyCaptain: &f100K'
+    - '&3SkyWarrant: &f250K'
+    - '&dSkyAirman: &f500K'
+    - '&cSkyKing: &f1M'
+    - '&5SkyPro: &f10M'
+    - '&2SkyChef: &f50M'
+    - ''
+    - '&dwww.laros.network'
+  skyold:
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzVhZDcyOWY5MGViMWQwYWNiMTA1ZjU0MGZhN2UyMThiMjViOTM5YTAyNDM4YTBiYjhjZDVmNDI4MmYxODQwMSJ9fX0=
+    slot: 14
+    priority: 10
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: 'deluxetags.tag.skybasic'
+    display_name: '&aSkyOld'
+    lore:
+    - ''
+    - '&fAdanızı genişletin.'
+    - '&fDeğerli blokları dizin.'
+    - ''
+    - '&fGörünüm: &aSkyOld'
+    - '&fSeviye: &d10K'
+    - ''
+    - '&fSonraki: &bSkyNew'
+    - ''
+    - "&8► &eRütbe Atlamak için tıkla"
+    enchantments: SILK_TOUCH
+    left_click_commands:
+    - '[player] larosoldrank'
+    - '[close]'
+    right_click_commands:
+    - '[player] larosoldrank'
+    - '[close]'
+  skynew:
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjczMzc2NDc3YzJmOTQzNGQ3MTk0OTRmMzlmMzdlMDcwOGJhM2IyZjIwMDlkOTRmZDU3ZDdiZGIwNmM0MDQ5YSJ9fX0=
+    slot: 14
+    priority: 9
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: 'deluxetags.tag.skyold'
+    display_name: '&aSkyNew'
+    lore:
+    - ''
+    - '&fAdanızı genişletin.'
+    - '&fDeğerli blokları dizin.'
+    - ''
+    - '&fGörünüm: &bSkyNew'
+    - '&fSeviye: &d30K'
+    - ''
+    - '&fSonraki: &eSkyArmy'
+    - ''
+    - "&8► &eRütbe atlamak için tıkla"
+    left_click_commands:
+    - '[player] larosnewrank'
+    - '[close]'
+    right_click_commands:
+    - '[player] larosnewrank'
+    - '[close]'
+  skyarmy:
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGU4NmJlNTQ5OWViNDI0NWE0NjFiZGNiODZmZjE2M2M4NTVjMTgyODFmOTcxMDU0MmIxN2ZkMjhiYWU0MjQzYiJ9fX0=
+    slot: 14
+    priority: 8
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: 'deluxetags.tag.skynew'
+    display_name: '&aSkyArmy'
+    lore:
+    - ''
+    - '&fAdanızı genişletin.'
+    - '&fDeğerli blokları dizin.'
+    - ''
+    - '&fGörünüm: &eSkyArmy'
+    - '&fSeviye: &d50K'
+    - ''
+    - '&fSonraki: &6SkyCaptain'
+    - ''
+    - "&8► &eRütbe atlamak için tıkla"
+    left_click_commands:
+    - '[player] larosarmyrank'
+    - '[close]'
+    right_click_commands:
+    - '[player] larosarmyrank'
+    - '[close]'
+  skycaptain:
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTlkODQ3N2UxOTY2OThiZjQ5NmJjYjNiYmIyZDhmNWMxNTdlNzVmMTA0ZjUxNmFiMmIyOGRlOGY3MzEyOGNhMSJ9fX0=
+    slot: 14
+    priority: 7
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: 'deluxetags.tag.skyarmy'
+    display_name: '&aSkyCaptain'
+    lore:
+    - ''
+    - '&fAdanızı genişletin.'
+    - '&fDeğerli blokları dizin.'
+    - ''
+    - '&fGörünüm: &6SkyCaptain'
+    - '&fSeviye: &d100K'
+    - ''
+    - '&fSonraki: &3SkyWarrant'
+    - ''
+    - "&8► &eRütbe atlamak için tıkla"
+    left_click_commands:
+    - '[player] laroscaptainrank'
+    - '[close]'
+    right_click_commands:
+    - '[player] laroscaptainrank'
+    - '[close]'
+  skywarrant:
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTQyODJjODRhMjMyYWRiNDEyNWRiMDNiZDc2ODdhN2Q5Nzg3NzAxOTMwNTNjMWRlZWYwMTFkMTY1ZjljN2UyOSJ9fX0=
+    slot: 14
+    priority: 6
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: 'deluxetags.tag.skycaptain'
+    display_name: '&aSkyWarrant'
+    lore:
+    - ''
+    - '&fAdanızı genişletin.'
+    - '&fDeğerli blokları dizin.'
+    - ''
+    - '&fGörünüm: &3SkyWarrant'
+    - '&fSeviye: &d250K'
+    - ''
+    - '&fSonraki: &dSkyAirman'
+    - ''
+    - "&8► &eRütbe atlamak için tıkla"
+    left_click_commands:
+    - '[player] laroswarrantrank'
+    - '[close]'
+    right_click_commands:
+    - '[player] laroswarrantrank'
+    - '[close]'
+  skyairman:
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDhkOWEwOTM2NGJlMzE0YWJmYjhiOTE3ZWZhODQ1ZDVkYjgyNWZjYjg4MzJiMjNmODA1NWNlOWE4YWU1MjAyOSJ9fX0=
+    slot: 14
+    priority: 5
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: 'deluxetags.tag.skywarrant'
+    display_name: '&aSkyAirman'
+    lore:
+    - ''
+    - '&fAdanızı genişletin.'
+    - '&fDeğerli blokları dizin.'
+    - ''
+    - '&fGörünüm: &dSkyAirman'
+    - '&fSeviye: &d500K'
+    - ''
+    - '&fSonraki: &cSkyKing'
+    - ''
+    - "&8► &eRütbe atlamak için tıkla"
+    left_click_commands:
+    - '[player] larosairmanrank'
+    - '[close]'
+    right_click_commands:
+    - '[player] larosairmanrank'
+    - '[close]'
+  skyking:
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjczMzc2NDc3YzJmOTQzNGQ3MTk0OTRmMzlmMzdlMDcwOGJhM2IyZjIwMDlkOTRmZDU3ZDdiZGIwNmM0MDQ5YSJ9fX0=
+    slot: 14
+    priority: 4
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: 'deluxetags.tag.skyairman'
+    display_name: '&aSkyKing'
+    lore:
+    - ''
+    - '&fAdanızı genişletin.'
+    - '&fDeğerli blokları dizin.'
+    - ''
+    - '&fGörünüm: &cSkyKing'
+    - '&fSeviye: &d1M'
+    - ''
+    - "&8► &eRütbe atlamak için tıkla"
+    left_click_commands:
+    - '[player] laroskingrank'
+    - '[close]'
+    right_click_commands:
+    - '[player] laroskingrank'
+    - '[close]'
+  skypro:
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWU3MGFiZTAwNGZkZGZkNzU5ODNhYzY2YjFjMjdhMmQyYmU5YzQxOTM2ZmVhMWQyYmU0YTUxYzhjYTJiZWE2NyJ9fX0=
+    slot: 14
+    priority: 3
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: 'deluxetags.tag.skyking'
+    display_name: '&aSkyPro'
+    lore:
+    - ''
+    - '&fAdanızı genişletin.'
+    - '&fDeğerli blokları dizin.'
+    - ''
+    - '&fGörünüm: &5SkyPro'
+    - '&fSeviye: &d10M'
+    - ''
+    - "&8► &eRütbe atlamak için tıkla"
+    left_click_commands:
+    - '[player] larosprorank'
+    - '[close]'
+    right_click_commands:
+    - '[player] larosprorank'
+    - '[close]'
+  skychef:
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOThjN2E0NTFjMmVmMzE1NmViMzAyMjQ2NjQzZGQzZDc3NmIxOTU5MGFkYWRiY2Q5NDNkZWMxOGYwYTEwODQ5ZiJ9fX0=
+    slot: 14
+    priority: 2
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: 'deluxetags.tag.skypro'
+    display_name: '&aSkyChef'
+    lore:
+    - ''
+    - '&fAdanızı genişletin.'
+    - '&fDeğerli blokları dizin.'
+    - ''
+    - '&fGörünüm: &2SkyChef'
+    - '&fSeviye: &d50M'
+    - ''
+    - "&8► &eRütbe atlamak için tıkla"
+    left_click_commands:
+    - '[player] laroschefrank'
+    - '[close]'
+    right_click_commands:
+    - '[player] laroschefrank'
+    - '[close]'
+  rütbeson:
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2VkMWFiYTczZjYzOWY0YmM0MmJkNDgxOTZjNzE1MTk3YmUyNzEyYzNiOTYyYzk3ZWJmOWU5ZWQ4ZWZhMDI1In19fQ==
+    slot: 14
+    priority: 1
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: 'deluxetags.tag.skychef'
+    display_name: '&aRütbeler Bitti'
+    lore:
+    - ''
+    - '&fAdanızı genişletin.'
+    - '&fDeğerli blokları dizin.'
+    - ''
+    - '&fGörünüm: &2SkyChef'
+    - ''
+    - "&8► &cMaksimum Rütbedesin."

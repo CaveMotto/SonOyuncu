@@ -1,0 +1,48 @@
+##########################################
+#Ayarları yaparken config bozulursa
+#Konsolda hata alırsınız                  
+#Pls dikkat edin
+##########################################
+Ayarlar:
+#Mesajların önündeki Prefix Tagı
+  Prefix: '&6Skyblock &7►'
+#Metinin canı
+  Can: 100
+#Birisi Metine vurunca alttaki saniye boyunca başka birisi aynı metine vuramaz
+  ÇalmaKoruması: 15
+#Metinin kırılan Bloğu
+  Blok: SPONGE
+#Tekrar doğma süresi (dakika olarak)
+  TekrarDoğmaSüresi: 30
+#Kırılan blok yere mi düşşsün yoksa yok mu olsun (true yaparsanız yere düşer)
+  BlokYereDüşsün: false
+#Metin kesinde herkese mesaj gitsin mi
+  MetinKesinceMesaj: true
+#Üstteki seçenek true ise atılacak olan mesaj
+  Mesaj: '&e Skyblock taşını &d%player% &etarafından kırıldı!'
+#Metin taşının en üstündeki yazı
+  MetinYazi: '&aSkyblock Taş'
+#
+#Biri metin taşını kesince kullanılcak komutlar
+Komutlar:
+  - 'itemsp ver %player% zümrüt 1'
+#Esyalar bölümü burdan düşecek tüm eşyaları ayarlayabilirsiniz.
+Esyalar:
+#Eşyanın ismi
+  dirhem:
+    #Düşen Eşya
+    Material: PAPER
+    #İsmi
+    İsim: '&62000 Dirhem'
+    #Düşme şansı
+    Şans: 10
+    #Düşünce herkese mesaj atsın mı
+    DüşürünceMesajAtsın: false
+    #Üstteki seçenek true ise atılcak olan mesaj
+    Mesaj: '&d %player% &eLaros taşından &62000 Dirhem &edüşürdü.'
+    #İtem yere mi düşsün yoksa envantere mi gelsin? (true yaparsanız yere düşer)
+    İtemYereDüşsün: false
+    #İtemde bulunacak Enchantlar
+    Enchants:
+    - PROTECTION_ENVIRONMENTAL:2
+    - DURABILITY:2

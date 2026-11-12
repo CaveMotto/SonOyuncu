@@ -1,0 +1,108 @@
+menu_title: '&7Dil Ayarları'
+open_command:
+- ayarlar-dil
+- ayarlar
+size: 36
+items:
+  'ayarlar-dil-turkiye':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmJiZWFmNTJlMWM0YmZjZDhhMWY0YzY5MTMyMzRiODQwMjQxYWE0ODgyOWMxNWFiYzZmZjhmZGY5MmNkODllIn19fQ=='
+    slot: 11
+    display_name: '&bTürkiye'
+    lore:
+    - ''
+    - '&fSkyBlock Ada Komutlarını'
+    - '&fSize Yönlendiren Mesajları Dil Değiştirir'
+    - '&fVe Bu Sizin Kolayca Oyunu Anlamınza'
+    - '&fYada Oynamınıza Yardım Olabilir.'
+    - ''
+    - "&8► &eSeçenek için tıkla"
+    left_click_commands:   
+    - '[player] is lang 16'
+    - '[close]'
+    right_click_commands:
+    - '[player] is lang 16'
+    - '[close]'
+  'ayarlar-dil-ABD':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGNhYzk3NzRkYTEyMTcyNDg1MzJjZTE0N2Y3ODMxZjY3YTEyZmRjY2ExY2YwY2I0YjM4NDhkZTZiYzk0YjQifX19'
+    slot: 12
+    display_name: '&bABD (Ingilizce)'
+    lore:
+    - ''
+    - '&fSkyBlock Island Commands'
+    - '&fChanges Your Language Messages That'
+    - '&fRedirect You And This Will Easily'
+    - '&fMean Your Game Or It Can Help You Play.'
+    - ''
+    - "&8► &eClick for option"
+    left_click_commands:   
+    - '[player] is lang 3'
+    - '[close]'
+    right_click_commands:
+    - '[player] is lang 3'
+    - '[close]'
+  'ayarlar-dil-italya':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODVjZTg5MjIzZmE0MmZlMDZhZDY1ZDhkNDRjYTQxMmFlODk5YzgzMTMwOWQ2ODkyNGRmZTBkMTQyZmRiZWVhNCJ9fX0='
+    slot: 13
+    display_name: '&bItalya'
+    lore:
+    - ''
+    - "&fSkyBlock Island Commands"
+    - "&fCambia i messaggi in lingua che ti reindirizzano"
+    - "&fE questo significherà facilmente il tuo gioco"
+    - "&fOppure può aiutarti a giocare."
+    - ''
+    - "&8► &eFai clic per opzione"
+    left_click_commands:   
+    - '[player] is lang 9'
+    - '[close]'
+    right_click_commands:
+    - '[player] is lang 9'
+    - '[close]'
+  'ayarlar-dil-almanya':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWU3ODk5YjQ4MDY4NTg2OTdlMjgzZjA4NGQ5MTczZmU0ODc4ODY0NTM3NzQ2MjZiMjRiZDhjZmVjYzc3YjNmIn19fQ=='
+    slot: 14
+    display_name: '&bAlmanya'
+    lore:
+    - ''
+    - '&fSkyBlock Island-Befehle'
+    - '&fÄndert Ihre Sprachnachrichten, die Sie umleiten'
+    - '&fUnd das wird leicht dein Spiel bedeuten'
+    - '&fOder es kann dir beim Spielen helfen.'
+    - ''
+    - "&8► &eKlicken Sie auf Option"
+    left_click_commands:   
+    - '[player] is lang 2'
+    - '[close]'
+    right_click_commands:
+    - '[player] is lang 2'
+    - '[close]'
+  'ayarlar-dil-fransa':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTEyNjlhMDY3ZWUzN2U2MzYzNWNhMWU3MjNiNjc2ZjEzOWRjMmRiZGRmZjk2YmJmZWY5OWQ4YjM1Yzk5NmJjIn19fQ=='
+    slot: 15
+    display_name: '&bFransa'
+    lore:
+    - ''
+    - '&fSkyBlock Island Commandes'
+    - '&fChange vos messages linguistiques qui vous redirigent'
+    - '&fEt cela signifiera facilement votre jeu'
+    - '&fOu ça peut vous aider à jouer.'
+    - ''
+    - "&8► &eCliquez pour l'option"
+    left_click_commands:   
+    - '[player] is lang 7'
+    - '[close]'
+    right_click_commands:
+    - '[player] is lang 7'
+    - '[close]'
+  'geri':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzE1OTdhMzY5NmIxOWY1Y2ZiYTlmOGJlNzU3OTA4NDgxYzg2YmU1YmIzZTc2YTg5M2I0MmZlNTYxNzJlYyJ9fX0=
+    slot: 30
+    display_name: "&aGeri"  
+    click_commands:
+      - '[openguimenu] ada-panel'
+  'kapat':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2VkMWFiYTczZjYzOWY0YmM0MmJkNDgxOTZjNzE1MTk3YmUyNzEyYzNiOTYyYzk3ZWJmOWU5ZWQ4ZWZhMDI1In19fQ==
+    slot: 32
+    display_name: "&cKapat"  
+    click_commands:
+      - '[close] '

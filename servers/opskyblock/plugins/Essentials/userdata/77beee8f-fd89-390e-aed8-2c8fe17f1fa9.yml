@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 95.13.115.228
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1718396231614
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 0
+  login: 1718396048035
+money: '0'
+last-account-name: omuxhz
+lastlocation:
+  world: 4bd4f2dd-afea-44ea-b6bf-00c7bcb89ce0
+  world-name: Spawn
+  x: -2297.538373607652
+  y: 14.0
+  z: -267.77130782649317
+  yaw: -181.86038208007812
+  pitch: 4.90132474899292

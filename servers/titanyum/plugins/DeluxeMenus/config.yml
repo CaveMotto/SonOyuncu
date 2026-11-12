@@ -1,0 +1,26 @@
+# DeluxeMenus 1.13.6-Release main configuration file
+# 
+# A full wiki on how to use this plugin can be found at:
+# https://wiki.helpch.at/clips-plugins/deluxemenus
+
+debug: false
+check_updates: false
+gui_menus:
+  kaptan:
+    file: kaptan.yml
+  pandorakaptan:
+    file: pandorakaptan.yml
+  depo:
+    file: depo.yml
+  depolar:
+    file: depolar.yml
+  menu:
+    file: menu.yml
+  duel:
+    file: duel.yml
+  gÃ¶rev:
+    file: gÃ¶rev.yml
+  zindan:
+    file: zindan.yml
+  ayarlar:
+    file: ayarlar.yml

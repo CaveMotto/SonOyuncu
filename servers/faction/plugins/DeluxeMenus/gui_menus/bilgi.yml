@@ -1,0 +1,128 @@
+menu_title: '&7Bilgi'
+open_command:
+- bilgi
+size: 27
+items:
+  'camlar': 
+    material: STAINED_GLASS_PANE
+    data: 15
+    amount: 1
+    slots:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 15
+    - 16
+    - 17
+    - 18
+    - 19
+    - 20
+    - 21
+    - 22
+    - 23
+    - 24
+    - 25
+    - 26
+    display_name: '&7' 
+  'bilgi-1':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmQ2MWNhNjY3YmU4ODE3ZWNlNTUyNzBkNDViOTkxNWM3NmE3M2VlZDgyNjk1YmMwZmRmMGE5M2Y4ZDViMmM5NCJ9fX0=
+    slot: 12
+    display_name: '&a&lKlan Bilgi'
+    lore:
+    - ''
+    - '&8• &6/f create <Klan Ismi> &7- &eKlan kurar.'
+    - '&8• &6/f leave &7- &eKlandan Ayrılır.'
+    - '&8• &6/f join <Klan Ismi> &7- &eKlana katılırsınız.'
+    - '&8• &6/f disband &7- &eKlanı kapatır.'
+    - '&8• &6/f officer <Isim> &7- &eKlan moderatorü yaparsınız.'
+    - '&8• &6/f leader <Isim> &7- &eKlan sahipliğini verirsiniz.'
+    - '&8• &6/f claim one &7- &eDurdugunuz yere claim atar.'
+    - '&8• &6/f claim auto &7- &eYürüdüğünüz yerlere claim atar.'
+    - '&8• &6/f unclaim one &7- &eDurdugunuz yeredeki claimi siler.'
+    - '&8• &6/f unclaim auto &7- &eYürüdüğünüz yerlerdeki claimi siler.'
+    - '&8• &6/f money d <Miktar> &7- &eKlana para yatırır.'
+    - '&8• &6/f list &7- &eKlanların listeleri.'
+    - '&8• &6/f faction &7- &eKlan bilgisini gösterir.'
+    - '&8• &6/f player &7- &eKendi istatistiğini gösterir.'
+    - '&8• &6/f home &7- &eKlan evine ışınlanır.'
+    - '&8• &6/f sethome &7- &eKlan evini belirler.'
+    - '&8• &6/f unsethome &7- &eKlan evini siler.'
+    - '&8• &6/f map &7- &eKlan mapını gösterir.'
+    - '&8• &6/f name &7- &eKlan ismini değiştirir.'
+    - '&8• &6/f motd &7- &eGünün mesajını eklersin.'
+    - '&8• &6/f inv add <Isim> &7- &eKlana kişi alırsınız.'
+    - '&8• &6/f inv remove <Isim> &7- &eKlanadan daveti geri alırsınız.'
+    - '&8• &6/f inv list &7- &eKlana istek atmış kişileri görürsünüz.'
+    - '&8• &6/f kick <Isim> &7- &eKlandan kişi atarsınız.'
+    - '&8• &6/f title <Isim> &7- &eKlandaki adamın yanındaki yazıyı değiştirirsiniz.'
+    - '&8• &6/f rank <Isim> <Yetki> &7- &eKlandaki oyuncuya yetki verirsiniz.'
+    - '&8• &6/f seechunk &7- &eChunkları gösterir.'
+    - '&8• &6/f access View &7- &eYetkinizi gösterir.'
+    - '&8• &6/f ally <Klan Ismi> &7- &eKlan ile barış olursunuz.'
+    - '&8• &6/f enemy <Klan Ismi> &7- &eKlan ile düşman olursunuz.'
+    - ''
+    - '&8► &dKomutları öğrenmek için tıkla.'
+    left_click_commands:   
+    - '[player] '
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    - '[refresh]'
+    right_click_commands:
+    - '[player] '
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    - '[refresh]'
+  'bilgi-2':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWM0MzY2YmQ5Y2QxZTM3ZWJlNjY0NmRiMjExZmViNDYxZGUwOTZhYWVhZmNmNDU1NTVjZGNjOTgzZWY4NzdmNiJ9fX0=
+    slot: 13
+    display_name: '&a&lARSA KOMUTLAR'
+    lore:
+    - ''
+    - '&8• &e/p auto &7- &6Rastgele arsa alır.'
+    - '&8• &e/p h &7- &6Almış olduğun arsaya ışınlar.'
+    - '&8• &e/p claim &7- &6Üstünde durduğun yeri alır.'
+    - '&8• &e/p delete &7- &6Arsanı siler.'
+    - '&8• &e/p clear &7- &6Arsanı sıfırlar.'
+    - '&8• &e/p add <isim> &7- &6Arsana birilerini ekler.'
+    - '&8• &e/p kick <isim> &7- &6Arsana birilerini atar.'
+    - '&8• &e/p deny <isim> &7- &6Arsana girilmez.'
+    - '&8• &e/p chat on &7- &6Yazarak arsa sohbeti açarsın.'
+    - '&8• &e/p chat off &7- &6Yazarak arsa sohbeti kapatırsın.'
+    - '&8• &e/p info &7- &6Arsanın üstüne gelip yaz arsa bilgisi verir.'
+    - ''
+    - '&8► &dSatın Almak için tıkla.'
+    left_click_commands:   
+    - '[player] '
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    - '[refresh]'
+    right_click_commands:
+    - '[player] '
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    - '[refresh]'
+  'bilgi-3':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjE3MzEyYjgwZTY0YTA0NWYzMDA2N2U4YmVkMjMyM2QwMjhiMmU4YTlhNGEyYTcxZTE2MWU2MmY5NDg5ZDFhMCJ9fX0=
+    slot: 14
+    display_name: '&a&lMESLEK'
+    lore:
+    - ''
+    - '&8• &e/meslek bilgi <meslek adı> &7- &6Mesleğin Durumuna Bakarsın.'
+    - '&8• &e/meslek liste &7- &6Mesleklerli Listeler.'
+    - '&8• &e/meslek al <meslek adı> &7- &6Meslek Alır Otamatik'
+    - '&8• &e/meslek ayrıl &7- &6Meslekten otamatik ayrılır.'
+    - ''
+    - '&8► &dMesleklere Komutları için tıkla.'
+    left_click_commands:   
+    - '[player] meslek'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    - '[refresh]'
+    right_click_commands:
+    - '[player] meslek'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    - '[refresh]'

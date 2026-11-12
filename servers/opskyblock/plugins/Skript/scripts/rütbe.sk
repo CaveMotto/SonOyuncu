@@ -1,0 +1,254 @@
+options:
+	p: &6Skyblock &7► 
+	levelhata: &eada seviyeniz yetmiyor.
+	parahata: &eparanız yeterli değil.
+	alinmis: &eÜzgünüm, bu rütbeyi zaten daha önce almışsınız.	
+	
+command /rütbesifirla [<offlineplayer>]:
+    permission: op
+    trigger:
+        if arg-1 exist:
+            delete {skyold::%arg-1%}
+            delete {skynew::%arg-1%}
+            delete {skyarmy::%arg-1%}
+            delete {skycaptain::%arg-1%}
+            delete {skywarrant::%arg-1%}
+            delete {skyairman::%arg-1%}
+            delete {skyking::%arg-1%}
+            delete {skypro::%arg-1%}
+            delete {skychef::%arg-1%}
+        else:
+            send "{@p} &eOyuncu ismi girin &d/rütbesifirla <player>"          
+
+	
+command /larosoldrank:
+	trigger:
+		if player's group is "moderator" or "yardımcı":
+			send "{@p} &eEkip üyeleri bu rütbeler ulaşamaz."
+			stop
+		if asb player's island level is greater than 10000:
+			if {skyold::%player%} is not set:
+				if player's balance >= 50000:
+					remove 50000 from player's money
+					set {skyold::%player%} to true
+					execute console command "lp user %player% permission set deluxetags.tag.skyold"
+					execute console command "lp user %player% permission unset deluxetags.tag.basic"
+					send "{@p} &eBaşarıyla &dSkyOld &erütbesine ulaştınız."
+					wait 0.3 seconds
+					execute console command "tags set %player% skyold"
+				else:
+					send "{@p} {@parahata}"
+			else:
+				send "{@p} {@alinmis}" to player
+		else:
+			send "{@p} {@levelhata}" to player
+			
+command /larosnewrank:
+	trigger:
+		if player's group is "moderator" or "yardımcı":
+			send "{@p} &eEkip üyeleri bu rütbeler ulaşamaz."
+			stop
+		if asb player's island level is greater than 30000:
+			if {skyold::%player%} is set:
+				if {skynew::%player%} is not set:
+					if player's balance >= 50000:
+						remove 50000 from player's money
+						set {skynew::%player%} to true
+						execute console command "lp user %player% permission set deluxetags.tag.skynew"
+						execute console command "lp user %player% permission unset deluxetags.tag.skyold"
+						send "{@p} &eBaşarıyla &dSkyNew &erütbesine ulaştınız."
+						wait 0.3 seconds
+						execute console command "tags set %player% skynew"
+					else:
+						send "{@p} {@parahata}"
+				else:
+					send "{@p} {@alinmis}"
+			else:
+				send "{@p} &eBu rütbe için önce &dSkyOld &erütbesine ulaşmalısın."
+		else:
+			send "{@p} {@levelhata}" to player
+		
+command /larosarmyrank:
+	trigger:
+		if player's group is "moderator" or "yardımcı":
+			send "{@p} &eEkip üyeleri bu rütbeler ulaşamaz."
+			stop
+		if asb player's island level is greater than 50000:
+			if {skynew::%player%} is set:
+				if {skyarmy::%player%} is not set:
+					if player's balance >= 50000:
+						remove 50000 from player's money
+						set {skyarmy::%player%} to true
+						execute console command "lp user %player% permission set deluxetags.tag.skyarmy"
+						execute console command "lp user %player% permission unset deluxetags.tag.skynew"
+						send "{@p} &eBaşarıyla &dSkyArmy &erütbesine ulaştınız."
+						wait 0.3 seconds
+						execute console command "tags set %player% skyarmy"
+					else:
+						send "{@p} {@parahata}"
+				else:
+					send "{@p} {@alinmis}"
+			else:
+				send "{@p} &eBu rütbe için önce &dSkyNew &erütbesine ulaşmalısın."
+		else:
+			send "{@p} {@levelhata}" to player
+			
+command /laroscaptainrank:
+	trigger:
+		if player's group is "moderator" or "yardımcı":
+			send "{@p} &eEkip üyeleri bu rütbeler ulaşamaz."
+			stop
+		if asb player's island level is greater than 100000:
+			if {skyarmy::%player%} is set:
+				if {skycaptain::%player%} is not set:
+					if player's balance >= 50000:
+						remove 50000 from player's money
+						set {skycaptain::%player%} to true
+						execute console command "lp user %player% permission set deluxetags.tag.skycaptain" 
+						execute console command "lp user %player% permission unset deluxetags.tag.skyarmy"
+						send "{@p} &eBaşarıyla &dSkyCaptain &erütbesine ulaştınız."
+						wait 0.3 seconds
+						execute console command "tags set %player% skycaptain"
+					else:
+						send "{@p} {@parahata}"
+				else:
+					send "{@p} {@alinmis}"
+			else:
+				send "{@p} &eBu rütbe için önce &dSkyArmy &erütbesine ulaşmalısın."
+		else:
+			send "{@p} {@levelhata}" to player
+
+			
+command /laroswarrantrank:
+	trigger:
+		if player's group is "moderator" or "yardımcı":
+			send "{@p} &eEkip üyeleri bu rütbeler ulaşamaz."
+			stop
+		if asb player's island level is greater than 250000:
+			if {skycaptain::%player%} is set:
+				if {skywarrant::%player%} is not set:
+					if player's balance >= 50000:
+						remove 50000 from player's money
+						set {skywarrant::%player%} to true
+						execute console command "lp user %player% permission set deluxetags.tag.skywarrant" 
+						execute console command "lp user %player% permission unset deluxetags.tag.skycaptain"
+						send "{@p} &eBaşarıyla &dSkyWarrant &erütbesine ulaştınız."
+						wait 0.3 seconds
+						execute console command "tags set %player% skywarrant"
+					else:
+						send "{@p} {@parahata}"
+				else:
+					send "{@p} {@alinmis}"
+			else:
+				send "{@p} &eBu rütbe için önce &dSkyCaptain &erütbesine ulaşmalısın."
+		else:
+			send "{@p} {@levelhata}" to player
+command /larosairmanrank:
+	trigger:
+		if player's group is "moderator" or "yardımcı":
+			send "{@p} &eEkip üyeleri bu rütbeler ulaşamaz."
+			stop
+		if asb player's island level is greater than 500000:
+			if {skywarrant::%player%} is set:
+				if {skyairman::%player%} is not set:
+					if player's balance >= 50000:
+						remove 50000 from player's money
+						set {skyairman::%player%} to true
+						execute console command "lp user %player% permission set deluxetags.tag.skyairman"
+						execute console command "lp user %player% permission unset deluxetags.tag.skywarrant"
+						send "{@p} &eBaşarıyla &dSkyAirman &erütbesine ulaştınız."
+						wait 0.3 seconds
+						execute console command "tags set %player% skyairman"
+					else:
+						send "{@p} {@parahata}"
+				else:
+					send "{@p} {@alinmis}"
+			else:
+				send "{@p} &eBu rütbe için önce &dSkyWarrant &erütbesine ulaşmalısın."
+		else:
+			send "{@p} {@levelhata}" to player
+command /laroskingrank:
+	trigger:
+		if player's group is "moderator" or "yardımcı":
+			send "{@p} &eEkip üyeleri bu rütbeler ulaşamaz."
+			stop
+		if asb player's island level is greater than 1000000:
+			if {skyairman::%player%} is set:
+				if {skyking::%player%} is not set:
+					if player's balance >= 50000:
+						remove 50000 from player's money
+						set {skyking::%player%} to true
+						execute console command "lp user %player% permission set deluxetags.tag.skyking"
+						execute console command "lp user %player% permission unset deluxetags.tag.skyairman"
+						execute console command "lp user %player% permission unset deluxetags.tag.skyold"
+						send "{@p} &eBaşarıyla &dSkyKing &erütbesine ulaştınız."
+						wait 0.3 seconds
+						execute console command "tags set %player% skyking"
+					else:
+						send "{@p} {@parahata}"
+				else:
+					send "{@p} {@alinmis}"
+			else:
+				send "{@p} &eBu rütbe için önce &dSkyAirman &erütbesine ulaşmalısın."
+		else:
+			send "{@p} {@levelhata}" to player
+		
+		
+command /larosprorank:
+	trigger:
+		if player's group is "moderator" or "yardımcı":
+			send "{@p} &eEkip üyeleri bu rütbeler ulaşamaz."
+			stop
+		if asb player's island level is greater than 10000000:
+			if {skyking::%player%} is set:
+				if {skypro::%player%} is not set:
+					if player's balance >= 50000:
+						remove 50000 from player's money
+						set {skypro::%player%} to true
+						execute console command "lp user %player% permission set deluxetags.tag.skypro"
+						execute console command "lp user %player% permission unset deluxetags.tag.skyking"
+						execute console command "lp user %player% permission unset deluxetags.tag.skyold"
+						send "{@p} &eBaşarıyla &dSkyKing &erütbesine ulaştınız."
+						wait 0.3 seconds
+						execute console command "tags set %player% skypro"
+					else:
+						send "{@p} {@parahata}"
+				else:
+					send "{@p} {@alinmis}"
+			else:
+				send "{@p} &eBu rütbe için önce &dSkyKing &erütbesine ulaşmalısın."
+		else:
+			send "{@p} {@levelhata}" to player
+			
+			
+command /laroschefrank:
+	trigger:
+		if player's group is "moderator" or "yardımcı":
+			send "{@p} &eEkip üyeleri bu rütbeler ulaşamaz."
+			stop
+		if asb player's island level is greater than 50000000:
+			if {skypro::%player%} is set:
+				if {skychef::%player%} is not set:
+					if player's balance >= 50000:
+						remove 50000 from player's money
+						set {skychef::%player%} to true
+						execute console command "lp user %player% permission set deluxetags.tag.skychef"
+						execute console command "lp user %player% permission unset deluxetags.tag.skypro"
+						execute console command "lp user %player% permission unset deluxetags.tag.skyold"
+						send "{@p} &eBaşarıyla &dSkyKing &erütbesine ulaştınız."
+						wait 0.3 seconds
+						execute console command "tags set %player% skychef"
+					else:
+						send "{@p} {@parahata}"
+				else:
+					send "{@p} {@alinmis}"
+			else:
+				send "{@p} &eBu rütbe için önce &dSkyPro &erütbesine ulaşmalısın."
+		else:
+			send "{@p} {@levelhata}" to player
+		
+		
+on first join:
+    execute console command "lp user %player% permission set deluxetags.tag.skybasic"
+    execute console command "tags set %player% skybasic"
+

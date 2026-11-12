@@ -1,0 +1,76 @@
+inject_commands: false
+server_connect_timeout: 500
+enforce_secure_profile: false
+remote_ping_cache: -1
+forge_support: true
+player_limit: 2024
+permissions:
+  default:
+  - alonsobungeecommands.lobi
+  - alonsobungeecommands.command
+  denetim:
+  - bymotto.admin
+  admin:
+  - bymotto.admin
+timeout: 30000
+log_commands: false
+online_mode: false
+servers:
+  cakmalobi:
+    motd: '&eCakmaLobi'
+    address: localhost:25566
+    restricted: false
+  lobi:
+    motd: '&elobi'
+    address: localhost:25567
+    restricted: false
+  opskyblock:
+    motd: '&eSkyblock'
+    address: localhost:25568
+    restricted: false
+  bedwars:
+    motd: '&eBedwars'
+    address: localhost:25569
+    restricted: false
+  skywars:
+    motd: '&eskywars'
+    address: localhost:25570
+    restricted: false
+  titanyum:
+    motd: '&eTitanyum'
+    address: localhost:25571
+    restricted: false
+  faction:
+    motd: '&eFaction'
+    address: localhost:25572
+    restricted: false
+listeners:
+- query_port: 25577
+  motd: '&bMottoSMP &7- &fMinecraft 1.8'
+  priorities:
+  - lobi
+  bind_local_address: true
+  tab_list: GLOBAL_PING
+  query_enabled: false
+  host: 0.0.0.0:25565
+  forced_hosts:
+    pvp.md-5.net: pvp
+  max_players: 2024
+  tab_size: 120
+  ping_passthrough: false
+  force_default_server: true
+  proxy_protocol: false
+prevent_proxy_connections: false
+remote_ping_timeout: -1
+ip_forward: true
+network_compression_threshold: 256
+reject_transfers: false
+disabled_commands:
+- disabledcommandhere
+connection_throttle: -1
+stats: c21c26ca-1e61-43cf-8cf3-320d5ae48bbf
+connection_throttle_limit: -1
+groups:
+  Kulanıcıadı:
+  - admin
+log_pings: true

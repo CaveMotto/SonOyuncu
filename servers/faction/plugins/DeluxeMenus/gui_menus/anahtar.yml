@@ -1,0 +1,75 @@
+
+menu_title: '&7Site Market - Anahtar'
+open_command:
+- anahtar
+size: 27
+items:
+  'camlar': 
+    material: STAINED_GLASS_PANE
+    data: 15
+    amount: 1
+    slots:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 13
+    - 15
+    - 16
+    - 17
+    - 18
+    - 19
+    - 20
+    - 21
+    - 22
+    - 23
+    - 24
+    - 25
+    - 26
+    display_name: '&7' 
+  'pixel-kutu':
+    material: 131
+    slot: 12
+    display_name: '&ePIXEL ANAHTAR'
+    lore:
+    - ''
+    - '&7Hemen Siteden Satın Alabilirsin '
+    - ''
+    - '&d/warp kutu&7 yazarak Açabilirsin'
+    - ''
+    - '&7Fiyat: &c20 TL'
+    - ''
+    - '&8► &aAlmak için tıkla.'
+    left_click_commands:   
+    - '[message] &6Faction &7► &eby Motto '
+    - '[close]'
+    right_click_commands:
+    - '[message] &6Faction &7► &eby Motto '
+    - '[close]'
+  'god-kutu':
+    material: 131
+    slot: 14
+    display_name: '&eGOD ANAHTAR'
+    lore:
+    - ''
+    - '&7Hemen Siteden Satın Alabilirsin '
+    - ''
+    - '&d/warp kutu&7 yazarak Açabilirsin'
+    - ''
+    - '&7Fiyat: &c10 TL'
+    - ''
+    - '&8► &aAlmak için tıkla.'
+    left_click_commands:   
+    - '[message] &6Faction &7► &eby Motto '
+    - '[close]'
+    right_click_commands:
+    - '[message] &6Faction &7► &eby Motto '
+    - '[close]'

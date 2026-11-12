@@ -1,0 +1,261 @@
+## --------------------------------------- ##
+## Factions 2.7< Placeholders
+## http://www.spigotmc.org/resources/factions.1900/
+## About: This configuration allows you to
+##        configure what certain placeholders return.
+## --------------------------------------- ##
+
+# DO NOT EDIT THE CONFIG VERSION
+config: 1
+
+# Enable/Disable the placeholder group
+# Placeholder groups will not be loaded into the memory
+# when not used.
+enabled: true
+
+# Define what the boolean placeholder {factions_locationfaction_isanyonline} returns
+factions_locationfaction_isanyonline:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {factions_locationfaction_isdefault} returns
+factions_locationfaction_isdefault:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Placeholder settings {factions_player_displayname} returns
+factions_player_displayname:
+  # Default return value
+  default: ""
+
+
+# Define what the boolean placeholder {factions_faction_isexplosions_raw} returns
+factions_faction_isexplosions_raw:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {factions_locationfaction_isnormal} returns
+factions_locationfaction_isnormal:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {factions_locationfaction_home_chunk_isloaded} returns
+factions_locationfaction_home_chunk_isloaded:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {factions_faction_isdefault_raw} returns
+factions_faction_isdefault_raw:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {factions_faction_hasinflation_raw} returns
+factions_faction_hasinflation_raw:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Placeholder settings {factions_player_title} returns
+factions_player_title:
+  # Default return value
+  default: ""
+
+
+# Define what the boolean placeholder {factions_locationfaction_isexplosions} returns
+factions_locationfaction_isexplosions:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Placeholder settings {factions_player_name} returns
+factions_player_name:
+  # Default return value
+  default: ""
+
+
+# Define what the boolean placeholder {factions_locationfaction_isonline} returns
+factions_locationfaction_isonline:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {factions_faction_hasmotd_raw} returns
+factions_faction_hasmotd_raw:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {factions_faction_isanyonline_raw} returns
+factions_faction_isanyonline_raw:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {factions_faction_isonline_raw} returns
+factions_faction_isonline_raw:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Placeholder settings {factions_player_nameandfaction} returns
+factions_player_nameandfaction:
+  # Default return value
+  default: ""
+
+
+# Define what the boolean placeholder {factions_faction_isoffline_raw} returns
+factions_faction_isoffline_raw:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {factions_locationfaction_isnone} returns
+factions_locationfaction_isnone:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {factions_locationfaction_isoffline} returns
+factions_locationfaction_isoffline:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {factions_faction_isnone_raw} returns
+factions_faction_isnone_raw:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Placeholder settings {factions_player_universe} returns
+factions_player_universe:
+  # Default return value
+  default: ""
+
+
+# Define what the boolean placeholder {factions_locationfaction_hasinflation} returns
+factions_locationfaction_hasinflation:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {factions_faction_isalloffline_raw} returns
+factions_faction_isalloffline_raw:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {factions_faction_hashome_raw} returns
+factions_faction_hashome_raw:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {factions_locationfaction_hasdescription} returns
+factions_locationfaction_hasdescription:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {factions_faction_home_chunk_isloaded_raw} returns
+factions_faction_home_chunk_isloaded_raw:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {factions_faction_hasdescription_raw} returns
+factions_faction_hasdescription_raw:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {factions_infaction_raw} returns
+factions_infaction_raw:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {factions_faction_isnormal_raw} returns
+factions_faction_isnormal_raw:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {factions_locationfaction_hashome} returns
+factions_locationfaction_hashome:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {factions_locationfaction_hasmotd} returns
+factions_locationfaction_hasmotd:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {factions_locationfaction_isalloffline} returns
+factions_locationfaction_isalloffline:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+

@@ -1,0 +1,144 @@
+title: 'Claim Map'
+size: 6
+type: 'CHEST'
+
+items:
+  main-claim:
+    type: 'STAINED_GLASS_PANE'
+    name: 'Your main chunk - %claim_name%'
+    glow: false
+    amount: 1
+    datavalue: 5
+    lore:
+      - 'Sahibi: %owner%'
+      - 'Claim adı: %claim_name%'
+      - 'Location: %world%, %x%, %z%'
+      - 'Chunk Id: %chunk_id%'
+      - ''
+      - 'Main chunk of your claim'
+    nbt: '{}'
+  sub-claim:
+    type: 'STAINED_GLASS_PANE'
+    name: 'Sub Chunk - %claim_name%'
+    glow: false
+    amount: 1
+    datavalue: 13
+    lore:
+      - 'Owner: %owner%'
+      - 'Claim name: %claim_name%'
+      - 'Location: %world%, %x%, %z%'
+      - 'Chunk Id: %chunk_id%'
+      - ''
+      - 'Sub chunk of your claim'
+    nbt: '{}'
+  other-main-claim:
+    type: 'STAINED_GLASS_PANE'
+    name: 'Your main chunk - %claim_name%'
+    glow: false
+    amount: 1
+    datavalue: 3
+    lore:
+      - 'Owner: %owner%'
+      - 'Claim name: %claim_name%'
+      - 'Location: %world%, %x%, %z%'
+      - 'Chunk Id: %chunk_id%'
+      - ''
+      - 'Main chunk of your claim'
+    nbt: '{}'
+  other-sub-claim:
+    type: 'STAINED_GLASS_PANE'
+    name: 'Sub Chunk - %claim_name%'
+    glow: false
+    amount: 1
+    datavalue: 11
+    lore:
+      - 'Owner: %owner%'
+      - 'Claim name: %claim_name%'
+      - 'Location: %world%, %x%, %z%'
+      - 'Chunk Id: %chunk_id%'
+      - ''
+      - 'Sub chunk of your claim'
+    nbt: '{}'
+  enemy-claim:
+    type: 'STAINED_GLASS_PANE'
+    name: 'Enemy Chunk - %claim_name%'
+    glow: false
+    amount: 1
+    datavalue: 14
+    lore:
+      - 'Owner: %owner%'
+      - 'Claim name: %claim_name%'
+      - 'Location: %world%, %x%, %z%'
+      - 'Chunk Id: %chunk_id%'
+      - ''
+      - 'Claim of %owner%'
+    nbt: '{}'
+  empty:
+    type: 'STAINED_GLASS_PANE'
+    name: 'Claimable Chunk'
+    glow: false
+    amount: 1
+    datavalue: 7
+    lore:
+      - 'Location: %world%, %x%, %z%'
+      - 'Chunk Id: %chunk_id%'
+      - ''
+      - 'This claim is empty'
+    nbt: '{}'
+
+  left:
+    type: 'ARROW'
+    name: 'Left'
+    glow: false
+    amount: 1
+    datavalue: 0
+    lore: [ ]
+    nbt: '{}'
+    slot: 18
+  right:
+    type: 'ARROW'
+    name: 'Right'
+    glow: false
+    amount: 1
+    datavalue: 0
+    lore: [ ]
+    nbt: '{}'
+    slot: 26
+  up:
+    type: 'ARROW'
+    name: 'Up'
+    glow: false
+    amount: 1
+    datavalue: 0
+    lore: [ ]
+    nbt: '{}'
+    slot: 4
+  down:
+    type: 'ARROW'
+    name: 'Down'
+    glow: false
+    amount: 1
+    datavalue: 0
+    lore: [ ]
+    nbt: '{}'
+    slot: 49
+
+  remove-latest-subclaim:
+    type: 'FLINT_AND_STEEL'
+    name: 'Back'
+    glow: false
+    amount: 1
+    datavalue: 0
+    lore: [ ]
+    nbt: '{}'
+    slot: 8
+
+  back:
+    type: 'BARRIER'
+    name: 'Back'
+    glow: false
+    amount: 1
+    datavalue: 0
+    lore: [ ]
+    nbt: '{}'
+    slot: 53

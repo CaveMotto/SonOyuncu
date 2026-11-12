@@ -1,0 +1,436 @@
+database:
+  #Database backend type, can be set to mysql or sqlite
+  type: sqlite
+  #MySQL database host
+  mySQLHost: localhost
+  #MySQL connection port number
+  mySQLPort: 3306
+  #MySQL database name
+  mySQLDatabase: db
+  #MySQL database user
+  mySQLUser: root
+  #MySQL user's password
+  mySQLPassword: ""
+  #MySQL table names
+  tableNames:
+    players: "players"
+
+economyType: VAULT
+shopMenuName: "&dMarket"
+shopMenuSize: 27
+enableSellAll: true
+enableBuyGUI: true
+enableSellGUI: true
+enableSellGUISellAll: true
+returnToShop: true
+quickBuySell: false
+hideBuyPriceForUnbuyable: true
+hideSellPriceForUnsellable: true
+invertBuySell: false
+maxEnchantments: 3
+limitEnchantmentLevelDiff: false
+enableAmountSelectionFix: true
+allowAllSellAllStackSizes: false
+roundPrices: none
+disableMainMenu: false
+useDifferentMessagesForFreeItems: true
+capitalizeItemNames: true
+priceModifiersType: BOTH
+closeGuiAfterSellAll: false
+itemStackSizeCappedAt:
+  1:
+    material: ENDER_PEARL
+    size: 16
+  2:
+    material: SNOW_BALL
+    size: 16
+  3:
+    material: SIGN
+    size: 16
+  4:
+    material: EGG
+    size: 16
+  5:
+    material: BUCKET
+    size: 1
+
+disableShopsInGamemodes:
+  - ADVENTURE
+  - SPECTATOR
+disableShopsInWorlds: []
+  
+displayPriceModifiersInPercents: true
+
+disableSudoWorldPermissionCheck: false
+
+disableSudoShopPermissionCheck: false
+
+shopItemLoreFormat:
+  item:
+    - "&7Alış Fiyatı &8► &a%buy%TL"
+    - "&7Satış Fiyatı &8► &a%sell%TL"
+  itemBuyGUI:
+    - "&7Alış Fiyatı &8► &a%buy%TL"
+  itemSellGUI:
+    - "&7Satış Fiyatı &8► &a%sell%TL"
+  itemSellGUISellAll:
+    - "&7Hepsini &a%sell%TL &7fiyatını sat!"
+  permission:
+    - "&7Alış Fiyatı &8► &a%buy%TL"
+  enchantment:
+    - "&7Alış Fiyatı &8► &a%buy%TL"
+  command:
+    - "&7Alış Fiyatı &8► &a%buy%TL"
+
+log:
+  toConsole: false
+  toFile: true
+  formatDate: "yyyy/MM/dd HH:mm:ss"
+  formatBuy: "%player%,  %shop% marketinden %price%⛁ fiyatına %amount% x %item% aldı."
+  formatSell: "%player%,  %shop% marketine %price%⛁ fiyatına %amount% x %item% sattı."
+  formatSellAll: "%player%,  %shop% marketine %price%⛁ fiyatına bütün %amount% x %item% sattı."
+
+buttons:
+  goBack:
+    item:
+      material: BARRIER
+      amount: 1 
+      damage: 0 
+      name: "&8◄ &eGeri Dön"
+      lore: []
+    slot: 49 
+  previousPage:
+    item:
+      material: PAPER
+      quantity: 1
+      name: "&8◄ &eÖnceki sayfa"
+    slot: 48
+  nextPage:
+    item:
+      material: PAPER
+      quantity: 1
+      name: "&eSonraki sayfa &8►"
+    slot: 50
+
+amountSelectionGUIBulkBuy:
+  size: 18
+  replaceButtonsType: true
+  buttons:
+    buy1:
+      item:
+        quantity: 1
+        name: "&e1 Stack &8[&c1x64&8] &eSatın Al"
+        lore:
+          - "&7Ücret &8► &a%buy%TL"
+      value: 1
+      slot: 0
+    buy2:
+      item:
+        quantity: 2
+        name: "&e2 Stack &8[&c2x64&8] &eSatın Al"
+        lore:
+          - "&7Ücret &8► &a%buy%TL"
+      value: 2
+      slot: 1
+    buy3:
+      item:
+        quantity: 3
+        name: "&e3 Stack &8[&c3x64&8] &eSatın Al"
+        lore:
+          - "&7Ücret &8► &a%buy%TL"
+      value: 3
+      slot: 2
+    buy4:
+      item:
+        quantity: 4
+        name: "&e4 Stack &8[&c4x64&8] &eSatın Al"
+        lore:
+          - "&7Ücret &8► &a%buy%TL"
+      value: 4
+      slot: 3
+    buy5:
+      item:
+        quantity: 5
+        name: "&e5 Stack &8[&c5x64&8] &eSatın Al"
+        lore:
+          - "&7Ücret &8► &a%buy%TL"
+      value: 5
+      slot: 4
+    buy6:
+      item:
+        quantity: 6
+        name: "&e6 Stack &8[&c6x64&8] &eSatın Al"
+        lore:
+          - "&7Ücret &8► &a%buy%TL"
+      value: 6
+      slot: 5
+    buy7:
+      item:
+        quantity: 7
+        name: "&e7 Stack &8[&c7x64&8] &eSatın Al"
+        lore:
+          - "&7Ücret &8► &a%buy%TL"
+      value: 7
+      slot: 6
+    buy8:
+      item:
+        quantity: 8
+        name: "&e8 Stack &8[&c8x64&8] &eSatın Al"
+        lore:
+          - "&7Ücret &8► &a%buy%TL"
+      value: 8
+      slot: 7
+    buy9:
+      item:
+        quantity: 9
+        name: "&e9 Stack &8[&c9x64&8] &eSatın Al"
+        lore:
+          - "&7Ücret &8► &a%buy%TL"
+      value: 9
+      slot: 8
+    cancel:
+      item:
+        material: STAINED_GLASS
+        quantity: 1
+        damage: 14
+        name: "&eİptal et"
+        lore:
+          - ""
+      slot: 13
+      
+amountSelectionGUIBulkBuy:
+  size: 18
+  replaceButtonsType: true
+  buttons:
+    buy1:
+      item:
+        quantity: 1
+        name: "&e1 Stack &8[&c1x64&8] &eSatın Al"
+        lore:
+          - "&7Ücret &8► &a%buy%TL"
+      value: 1
+      slot: 0
+    buy2:
+      item:
+        quantity: 2
+        name: "&e2 Stack &8[&c2x64&8] &eSatın Al"
+        lore:
+          - "&7Ücret &8► &a%buy%TL"
+      value: 2
+      slot: 1
+    buy3:
+      item:
+        quantity: 3
+        name: "&e3 Stack &8[&c3x64&8] &eSatın Al"
+        lore:
+          - "&7Ücret &8► &a%buy%TL"
+      value: 3
+      slot: 2
+    buy4:
+      item:
+        quantity: 4
+        name: "&e4 Stack &8[&c4x64&8] &eSatın Al"
+        lore:
+          - "&7Ücret &8► &a%buy%TL"
+      value: 4
+      slot: 3
+    buy5:
+      item:
+        quantity: 5
+        name: "&e5 Stack &8[&c5x64&8] &eSatın Al"
+        lore:
+          - "&7Ücret &8► &a%buy%TL"
+      value: 5
+      slot: 4
+    buy6:
+      item:
+        quantity: 6
+        name: "&e6 Stack &8[&c6x64&8] &eSatın Al"
+        lore:
+          - "&7Ücret &8► &a%buy%TL"
+      value: 6
+    buy7:
+      item:
+        quantity: 7
+        name: "&e7 Stack &8[&c7x64&8] &eSatın Al"
+        lore:
+          - "&7Ücret &8► &a%buy%TL"
+      value: 7
+      slot: 6
+    buy8:
+      item:
+        quantity: 8
+        name: "&e8 Stack &8[&c8x64&8] &eSatın Al"
+        lore:
+          - "&7Ücret &8► &a%buy%TL"
+      value: 8
+      slot: 7
+    buy9:
+      item:
+        quantity: 9
+        name: "&e9 Stack &8[&c9x64&8] &eSatın Al"
+        lore:
+          - "&7Ücret &8► &a%buy%TL"
+      value: 9
+      slot: 8
+    cancel:
+      item:
+        material: STAINED_GLASS
+        quantity: 1
+        damage: 14
+        name: "&eİptal et"
+        lore:
+          - ""
+      slot: 13
+
+amountSelectionGUI:
+  size: 54
+  itemSlot: 22
+  buttons:
+    set1:
+      item:
+        material: STAINED_GLASS_PANE
+        quantity: 1
+        damage: 14
+        name: "&c1'e taneye düşür"
+      slot: 18
+    remove10:
+      item:
+        material: STAINED_GLASS_PANE
+        quantity: 10
+        damage: 14
+        name: "&c- 10"
+      slot: 19
+    remove1:
+      item:
+        material: STAINED_GLASS_PANE
+        quantity: 1
+        damage: 14
+        name: "&c- 1"
+      slot: 20
+    add1:
+      item:
+        material: STAINED_GLASS_PANE
+        quantity: 1
+        damage: 5
+        name: "&a+ 1"
+      slot: 24
+    add10:
+      item:
+        material: STAINED_GLASS_PANE
+        quantity: 10
+        damage: 5
+        name: "&a+ 10"
+      slot: 25
+    set16:
+      item:
+        material: STAINED_GLASS_PANE
+        quantity: 16
+        damage: 5
+        name: "&aSadece 16"
+      slot: 26
+    set64:
+      item:
+        material: STAINED_GLASS_PANE
+        quantity: 64
+        damage: 5
+        name: "&a64'e tamamla"
+      slot: 26
+    confirm:
+      item:
+        material: STAINED_GLASS
+        quantity: 1
+        damage: 5
+        name: "&aOnayla"   
+      slot: 39
+    sellAll:
+      item:
+        material: STAINED_GLASS
+        quantity: 1
+        damage: 5
+        name: "&aHepsini Sat"      
+      slot: 40
+    buyMore:
+      item:
+        material: STAINED_GLASS
+        quantity: 64
+        damage: 5
+        name: "&aDaha fazla satın al"    
+      slot: 49
+    sellMore:
+      item:
+        material: STAINED_GLASS
+        quantity: 64
+        damage: 5
+        name: "&aDaha fazla sat"
+      slot: 49
+    cancel:
+      item:
+        material: STAINED_GLASS
+        quantity: 1
+        damage: 14
+        name: "&cİptal et"
+      slot: 41
+      
+shopMenuItems:
+  1:
+    item:
+      material: GRASS
+      quantity: 1
+      name: "&eBloklar"
+    shop: "building"
+    slot: 10
+  2:
+    item:
+      material: DIAMOND_SWORD
+      quantity: 1
+      name: "&eAletler"
+    shop: "tools"
+    slot: 11
+  3:
+    item:
+      material: DIAMOND
+      quantity: 1
+      name: "&eMadenler"
+    shop: "minerals"
+    slot: 12
+  4:
+    item:
+      material: BREAD
+      quantity: 1
+      name: "&eYemekler & Tarım"
+    shop: "food"
+    slot: 13
+  5:
+    item:
+      material: ROTTEN_FLESH
+      quantity: 1
+      name: "&eMob Eşyaları"
+    shop: "mobdrops"
+    slot: 14
+  6:
+    item:
+      material: BREWING_STAND_ITEM
+      quantity: 1
+      name: "&eSimya Eşyaları"
+    shop: "brewing"
+    slot: 15
+  7:
+    item:
+      material: REDSTONE
+      quantity: 1
+      name: "&eKızıltaş"
+    shop: "redstone"
+    slot: 16
+
+    
+specialElements:
+  balance:
+    item:
+      material: GOLD_INGOT
+      quantity: 1
+      name: "&eŞuanki Paranız"
+      lore:
+        - ""
+        - "&8► &7Miktar: &a%balance%TL"
+        - ""

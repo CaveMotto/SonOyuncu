@@ -1,0 +1,5293 @@
+Hats:
+  Hamburger:
+    Name: '&a Hamburger KafasÄ±'
+    Mystery Dust: 12
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Chocolate Donut:
+    Name: '&a Ã‡ikolatalÄ± Donut KafasÄ±'
+    Mystery Dust: 15
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Sandwich:
+    Name: '&a SandviÃ§ KafasÄ±'
+    Mystery Dust: 15
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Computer:
+    Name: '&a Bilgisayar KafasÄ±'
+    Mystery Dust: 12
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Gold Steve:
+    Name: '&9 AltÄ±n Steve KafasÄ±'
+    Mystery Dust: 28
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Diamond Steve:
+    Name: '&5 Elmas Steve KafasÄ±'
+    Mystery Dust: 38
+    Rarity: Epic
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Emerald Steve:
+    Name: '&6 ZÃ¼mrÃ¼t Steve KafasÄ±'
+    Mystery Dust: 42
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Scared:
+    Name: '&a KorkmuÅŸ KafasÄ±'
+    Mystery Dust: 8
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Angel:
+    Name: '&a Melek KafasÄ±'
+    Mystery Dust: 8
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Embarrassed:
+    Name: '&a Macup KafasÄ±'
+    Mystery Dust: 8
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Sad:
+    Name: '&a ÃœzgÃ¼n KafasÄ±'
+    Mystery Dust: 8
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Cool:
+    Name: '&a Cool KafasÄ±'
+    Mystery Dust: 8
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Surprised:
+    Name: '&a Å�aÅŸÄ±rtÄ±cÄ± KafasÄ±'
+    Mystery Dust: 8
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Dead:
+    Name: '&a Ã–lÃ¼ KafasÄ±'
+    Mystery Dust: 8
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Cry:
+    Name: '&a ÃœzgÃ¼n KafasÄ±'
+    Mystery Dust: 8
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Grin:
+    Name: '&a SÄ±rÄ±tÄ±ÅŸ KafasÄ±'
+    Mystery Dust: 8
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Wink:
+    Name: '&a GÃ¶z KÄ±rpma KafasÄ±'
+    Mystery Dust: 8
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Derp:
+    Name: '&a Derp KafasÄ±'
+    Mystery Dust: 8
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Mustache:
+    Name: '&a BÄ±yÄ±klÄ± KafasÄ±'
+    Mystery Dust: 8
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Big Smile:
+    Name: '&a Kahkaha KafasÄ±'
+    Mystery Dust: 8
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Smile:
+    Name: '&a GÃ¼lÃ¼cÃ¼k KafasÄ±'
+    Mystery Dust: 8
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Netherlands:
+    Name: '&a HollandalÄ± KafasÄ±'
+    Mystery Dust: 15
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Norway:
+    Name: '&a NorveÃ§li KafasÄ±'
+    Mystery Dust: 15
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Sweden:
+    Name: '&a YunanlÄ± KafasÄ±'
+    Mystery Dust: 15
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Chile:
+    Name: '&a Å�ilili KafasÄ±'
+    Mystery Dust: 15
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Monaco:
+    Name: '&a Monacolu KafasÄ±'
+    Mystery Dust: 15
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Canada:
+    Name: '&a KanadalÄ± KafasÄ±'
+    Mystery Dust: 15
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  United States:
+    Name: '&a AmerikalÄ± KafasÄ±'
+    Mystery Dust: 15
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Italy:
+    Name: '&a Ä°talyalÄ± KafasÄ±'
+    Mystery Dust: 15
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  England:
+    Name: '&a Ä°ngiltereli KafasÄ±'
+    Mystery Dust: 15
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Germany:
+    Name: '&a Alman KafasÄ±'
+    Mystery Dust: 15
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Singapore:
+    Name: '&a Singapurlu KafasÄ±'
+    Mystery Dust: 15
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  France:
+    Name: '&a FransÄ±z KafasÄ±'
+    Mystery Dust: 15
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Spain:
+    Name: '&a Ä°spanyalÄ± KafasÄ±'
+    Mystery Dust: 15
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Australia:
+    Name: '&a Avusturulya KafasÄ±'
+    Mystery Dust: 15
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Letter-A:
+    Name: '&a A KafasÄ±'
+    Mystery Dust: 7
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Letter-B:
+    Name: '&a B KafasÄ±'
+    Mystery Dust: 7
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Letter-C:
+    Name: '&a C KafasÄ±'
+    Mystery Dust: 7
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Letter-D:
+    Name: '&a D KafasÄ±'
+    Mystery Dust: 7
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Letter-E:
+    Name: '&a E KafasÄ±'
+    Mystery Dust: 7
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Letter-F:
+    Name: '&a F KafasÄ±'
+    Mystery Dust: 7
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Letter-G:
+    Name: '&a G KafasÄ±'
+    Mystery Dust: 7
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Letter-H:
+    Name: '&a H KafasÄ±'
+    Mystery Dust: 7
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Letter-I:
+    Name: '&a I KafasÄ±'
+    Mystery Dust: 7
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Letter-J:
+    Name: '&a J KafasÄ±'
+    Mystery Dust: 7
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Letter-K:
+    Name: '&a K KafasÄ±'
+    Mystery Dust: 7
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Letter-L:
+    Name: '&a L KafasÄ±'
+    Mystery Dust: 7
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Letter-M:
+    Name: '&a M KafasÄ±'
+    Mystery Dust: 7
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Letter-N:
+    Name: '&a N KafasÄ±'
+    Mystery Dust: 7
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Letter-O:
+    Name: '&a O KafasÄ±'
+    Mystery Dust: 7
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Letter-P:
+    Name: '&a P KafasÄ±'
+    Mystery Dust: 7
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Letter-Q:
+    Name: '&a Q KafasÄ±'
+    Mystery Dust: 7
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Letter-R:
+    Name: '&a R KafasÄ±'
+    Mystery Dust: 7
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Letter-S:
+    Name: '&a S KafasÄ±'
+    Mystery Dust: 7
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Letter-T:
+    Name: '&a T KafasÄ±'
+    Mystery Dust: 7
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Letter-U:
+    Name: '&a U KafasÄ±'
+    Mystery Dust: 7
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Letter-V:
+    Name: '&a V KafasÄ±'
+    Mystery Dust: 7
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Letter-W:
+    Name: '&a W KafasÄ±'
+    Mystery Dust: 7
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Letter-X:
+    Name: '&a X KafasÄ±'
+    Mystery Dust: 7
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Letter-Y:
+    Name: '&a Y KafasÄ±'
+    Mystery Dust: 7
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Letter-Z:
+    Name: '&a Z KafasÄ±'
+    Mystery Dust: 7
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Number-0:
+    Name: '&a 0 KafasÄ±'
+    Mystery Dust: 7
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Number-1:
+    Name: '&a 1 KafasÄ±'
+    Mystery Dust: 7
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Number-2:
+    Name: '&a 2 KafasÄ±'
+    Mystery Dust: 7
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Number-3:
+    Name: '&a 3 KafasÄ±'
+    Mystery Dust: 7
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Number-4:
+    Name: '&a 4 KafasÄ±'
+    Mystery Dust: 7
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Number-5:
+    Name: '&a 5 KafasÄ±'
+    Mystery Dust: 7
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Number-6:
+    Name: '&a 6 KafasÄ±'
+    Mystery Dust: 7
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Number-7:
+    Name: '&a 7 KafasÄ±'
+    Mystery Dust: 7
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Number-8:
+    Name: '&a 8 KafasÄ±'
+    Mystery Dust: 7
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Number-9:
+    Name: '&a 9 KafasÄ±'
+    Mystery Dust: 7
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Symbol-Plus:
+    Name: '&a + KafasÄ±'
+    Mystery Dust: 7
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Symbol-Pound-Key:
+    Name: '&a # KafasÄ±'
+    Mystery Dust: 7
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Symbol-Question:
+    Name: '&a ? KafasÄ±'
+    Mystery Dust: 7
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Symbol-Exclamation:
+    Name: '&a ! KafasÄ±'
+    Mystery Dust: 7
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Blaze:
+    Name: '&a Blaze KafasÄ±'
+    Mystery Dust: 12
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Enderman:
+    Name: '&a Enderman KafasÄ±'
+    Mystery Dust: 12
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Slime:
+    Name: '&a Slime KafasÄ±'
+    Mystery Dust: 12
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Ocelot:
+    Name: '&a Leopar KafasÄ±'
+    Mystery Dust: 12
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Ender Dragon:
+    Name: '&9 Ender Dragon KafasÄ±'
+    Mystery Dust: 18
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Cave Spider:
+    Name: '&a MaÄŸara Ã–rÃ¼mceÄŸi KafasÄ±'
+    Mystery Dust: 12
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Pig Zombie:
+    Name: '&9 Domuz Zombi KafasÄ±'
+    Mystery Dust: 18
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Chicken:
+    Name: '&a Tavuk KafasÄ±'
+    Mystery Dust: 12
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Pig:
+    Name: '&a Domuz KafasÄ±'
+    Mystery Dust: 12
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Cow:
+    Name: '&a Ä°nek KafasÄ±'
+    Mystery Dust: 12
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Squid:
+    Name: '&9 Ahtapot KafasÄ±'
+    Mystery Dust: 20
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Horse:
+    Name: '&9 At KafasÄ±'
+    Mystery Dust: 15
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Bird:
+    Name: '&a KuÅŸ KafasÄ±'
+    Mystery Dust: 12
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Poke Ball:
+    Name: '&a Pokemon Topu KafasÄ±'
+    Mystery Dust: 12
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Mario:
+    Name: '&a Mario KafasÄ±'
+    Mystery Dust: 8
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Freddy Fazbear:
+    Name: '&a FNAF KafasÄ±'
+    Mystery Dust: 12
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Bonnie:
+    Name: '&a Bonnie KafasÄ±'
+    Mystery Dust: 12
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Jake:
+    Name: '&a  KafasÄ±Jake'
+    Mystery Dust: 7
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Doge:
+    Name: '&a KÃ¶pek KafasÄ±'
+    Mystery Dust: 9
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Polar Bear:
+    Name: '&a Kutup AyÄ±sÄ± KafasÄ±'
+    Mystery Dust: 12
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Koala:
+    Name: '&a Koala KafasÄ±'
+    Mystery Dust: 9
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Bee:
+    Name: '&a ArÄ± KafasÄ±'
+    Mystery Dust: 7
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Clownfish:
+    Name: '&9 Karanfil BalÄ±ÄŸÄ± KafasÄ±'
+    Mystery Dust: 7
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Ferret:
+    Name: '&a Gelincik KafasÄ±'
+    Mystery Dust: 9
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Walrus:
+    Name: '&a Mors KafasÄ±'
+    Mystery Dust: 12
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Monkey:
+    Name: '&a Maymun KafasÄ±'
+    Mystery Dust: 12
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Cactus:
+    Name: '&a KaktÃ¼s KafasÄ±'
+    Mystery Dust: 7
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Duck:
+    Name: '&9 Ã–rdek KafasÄ±'
+    Mystery Dust: 15
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Earth:
+    Name: '&a DÃ¼nya KafasÄ±'
+    Mystery Dust: 9
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Snowglobe:
+    Name: '&a Kar KÃ¼resi KafasÄ±'
+    Mystery Dust: 12
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Toaster:
+    Name: '&a Tost KafasÄ±'
+    Mystery Dust: 12
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Cheese:
+    Name: '&9 Peynir KafasÄ±'
+    Mystery Dust: 15
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Mars:
+    Name: '&9 Mars KafasÄ±'
+    Mystery Dust: 15
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Penguin:
+    Name: '&a Penguen KafasÄ±'
+    Mystery Dust: 12
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Elephant:
+    Name: '&a Fil KafasÄ±'
+    Mystery Dust: 12
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Astronaut:
+    Name: '&9 Astronot KafasÄ±'
+    Mystery Dust: 15
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Otter:
+    Name: '&9 Su Samuru KafasÄ±'
+    Mystery Dust: 20
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Mummy:
+    Name: '&9 Mumya KafasÄ±'
+    Mystery Dust: 20
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Orc:
+    Name: '&9 Ork KafasÄ±'
+    Mystery Dust: 18
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Minotaur:
+    Name: '&9 YarÄ± Ä°nsan KafasÄ±'
+    Mystery Dust: 18
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Demon Knight:
+    Name: '&9 Ä°blis Å�ovelyesi KafasÄ±'
+    Mystery Dust: 21
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  White Wizard:
+    Name: '&9 Beyaz Sihirbaz KafasÄ±'
+    Mystery Dust: 15
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Miner:
+    Name: '&9 Madenci KafasÄ±'
+    Mystery Dust: 15
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Monk:
+    Name: '&9 KeÅŸiÅŸ KafasÄ±'
+    Mystery Dust: 15
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Wood Elf:
+    Name: '&9 AhÅŸap Elf KafasÄ±'
+    Mystery Dust: 15
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Pirate:
+    Name: '&9 Korsan KafasÄ±'
+    Mystery Dust: 18
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Odin:
+    Name: '&9 Odin KafasÄ±'
+    Mystery Dust: 18
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Ghost:
+    Name: '&9 Hayalet KafasÄ±'
+    Mystery Dust: 20
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Scarecrow:
+    Name: '&9 Korkuluk KafasÄ±'
+    Mystery Dust: 20
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Fox:
+    Name: '&9 Tilki KafasÄ±'
+    Mystery Dust: 18
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Ghast:
+    Name: '&9 Ghast KafasÄ±'
+    Mystery Dust: 25
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Candy Cane:
+    Name: '&9 Å�eker KamÄ±ÅŸÄ± KafasÄ±'
+    Mystery Dust: 25
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Pug:
+    Name: '&9 BoksÃ¶r KafasÄ±'
+    Mystery Dust: 18
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Owl:
+    Name: '&9 BaykuÅŸ KafasÄ±'
+    Mystery Dust: 20
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Panda:
+    Name: '&9 Panda KafasÄ±'
+    Mystery Dust: 20
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Sloth:
+    Name: '&9 Tembel KafasÄ±'
+    Mystery Dust: 25
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Gorilla:
+    Name: '&9 Goril KafasÄ±'
+    Mystery Dust: 25
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Snowman:
+    Name: '&5 Kardan Adam KafasÄ±'
+    Mystery Dust: 43
+    Rarity: Epic
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Reindeer:
+    Name: '&5 Geyik KafasÄ± KafasÄ±'
+    Mystery Dust: 43
+    Rarity: Epic
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Shulker:
+    Name: '&5 Shulker KafasÄ±'
+    Mystery Dust: 45
+    Rarity: Epic
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Black Chocolate Bar:
+    Name: '&a Siyah Ã‡ikolata KafasÄ±'
+    Mystery Dust: 15
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  White Chocolate Bar:
+    Name: '&a Beyaz Ã‡ikolata KafasÄ±'
+    Mystery Dust: 15
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Magma Cube:
+    Name: '&a Magma KÃ¼bÃ¼ KafasÄ±'
+    Mystery Dust: 15
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Mushroom Cow:
+    Name: '&a MantarlÄ± Ä°nek KafasÄ±'
+    Mystery Dust: 15
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Iron Golem:
+    Name: '&9 Demir Adam KafasÄ±'
+    Mystery Dust: 25
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Herobine:
+    Name: '&9 Herobine KafasÄ±'
+    Mystery Dust: 25
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Rabbit:
+    Name: '&a TavÅŸan KafasÄ±'
+    Mystery Dust: 12
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Tiger:
+    Name: '&a Kaplan KafasÄ±'
+    Mystery Dust: 12
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Beach Ball:
+    Name: '&a Plaj Topu KafasÄ±'
+    Mystery Dust: 12
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Turtle:
+    Name: '&5 KaplumbaÄŸa KafasÄ±'
+    Mystery Dust: 45
+    Rarity: Epic
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Solved Rubiks Cube:
+    Name: '&5 KÃ¼p #1 KafasÄ±'
+    Mystery Dust: 45
+    Rarity: Epic
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Scrambled Rubiks Cube:
+    Name: '&6 KÃ¼p #2 KafasÄ±'
+    Mystery Dust: 55
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Rainbow Glitch:
+    Name: '&9 Rengarenk Delik KafasÄ±'
+    Mystery Dust: 18
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Gold Block:
+    Name: '&9 AltÄ±n Blok KafasÄ±'
+    Mystery Dust: 28
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Diamond Block:
+    Name: '&5 Elmas blok KafasÄ±'
+    Mystery Dust: 35
+    Rarity: Epic
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Neutral:
+    Name: '&a NÃ¶tr KafasÄ±'
+    Mystery Dust: 8
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Fall In Love:
+    Name: '&a AÅŸÄ±k Olma KafasÄ±'
+    Mystery Dust: 8
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  China:
+    Name: '&a Ã‡in KafasÄ±'
+    Mystery Dust: 15
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Rainbow-Letter-A:
+    Name: '&a Rengarenk ''''A'''' KafasÄ±'
+    Mystery Dust: 15
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Rainbow-Letter-B:
+    Name: '&a Rengarenk ''''B'''' KafasÄ±'
+    Mystery Dust: 15
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Rainbow-Letter-C:
+    Name: '&a Rengarenk ''''C'''' KafasÄ±'
+    Mystery Dust: 15
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Rainbow-Letter-D:
+    Name: '&a Rengarenk ''''D'''' KafasÄ±'
+    Mystery Dust: 15
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Rainbow-Letter-E:
+    Name: '&a Rengarenk ''''E'''' KafasÄ±'
+    Mystery Dust: 15
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Rainbow-Letter-F:
+    Name: '&a Rengarenk ''''F'''' KafasÄ±'
+    Mystery Dust: 15
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Rainbow-Letter-G:
+    Name: '&a Rengarenk ''''G'''' KafasÄ±'
+    Mystery Dust: 15
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Rainbow-Letter-H:
+    Name: '&a Rengarenk ''''H'''' KafasÄ±'
+    Mystery Dust: 15
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Rainbow-Letter-I:
+    Name: '&a Rengarenk ''''I'''' KafasÄ±'
+    Mystery Dust: 15
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Rainbow-Letter-J:
+    Name: '&a Rengarenk ''''J'''' KafasÄ±'
+    Mystery Dust: 15
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Rainbow-Letter-K:
+    Name: '&a Rengarenk ''''K'''' KafasÄ±'
+    Mystery Dust: 15
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Rainbow-Letter-L:
+    Name: '&a Rengarenk ''''L'''' KafasÄ±'
+    Mystery Dust: 15
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Rainbow-Letter-M:
+    Name: '&a Rengarenk ''''M'''' KafasÄ±'
+    Mystery Dust: 15
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Rainbow-Letter-N:
+    Name: '&a Rengarenk ''''N'''' KafasÄ±'
+    Mystery Dust: 15
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Rainbow-Letter-O:
+    Name: '&a Rengarenk ''''O'''' KafasÄ±'
+    Mystery Dust: 15
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Rainbow-Letter-P:
+    Name: '&a Rengarenk ''''P'''' KafasÄ±'
+    Mystery Dust: 15
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Rainbow-Letter-Q:
+    Name: '&a Rengarenk ''''Q'''' KafasÄ±'
+    Mystery Dust: 15
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Rainbow-Letter-R:
+    Name: '&a Rengarenk ''''R'''' KafasÄ±'
+    Mystery Dust: 15
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Rainbow-Letter-S:
+    Name: '&a Rengarenk ''''S'''' KafasÄ±'
+    Mystery Dust: 15
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Rainbow-Letter-T:
+    Name: '&a Rengarenk ''''T'''' KafasÄ±'
+    Mystery Dust: 15
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Rainbow-Letter-U:
+    Name: '&a Rengarenk ''''U'''' KafasÄ±'
+    Mystery Dust: 15
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Rainbow-Letter-V:
+    Name: '&a Rengarenk ''''V'''' KafasÄ±'
+    Mystery Dust: 15
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Rainbow-Letter-W:
+    Name: '&a Rengarenk ''''W'''' KafasÄ±'
+    Mystery Dust: 15
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Rainbow-Letter-X:
+    Name: '&a Rengarenk ''''X'''' KafasÄ±'
+    Mystery Dust: 15
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Rainbow-Letter-Y:
+    Name: '&a Rengarenk ''''Y'''' KafasÄ±'
+    Mystery Dust: 15
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Rainbow-Letter-Z:
+    Name: '&a Rengarenk ''''Z'''' KafasÄ±'
+    Mystery Dust: 15
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Aquarius Constellation:
+    Name: '&9 ''''Kova Burcu'''' KafasÄ±'
+    Mystery Dust: 28
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Pisces Constellation:
+    Name: '&9 ''''BalÄ±k Burcu'''' KafasÄ±'
+    Mystery Dust: 28
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Aries Constellation:
+    Name: '&9 ''''KoÃ§ Burcu'''' KafasÄ±'
+    Mystery Dust: 28
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Taurus Constellation:
+    Name: '&9 ''''BoÄŸa Burcu'''' KafasÄ±'
+    Mystery Dust: 28
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Gemini Constellation:
+    Name: '&9 ''''Ä°kizler Burcu'''' KafasÄ±'
+    Mystery Dust: 28
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Cancer Constellation:
+    Name: '&9 ''''Kanser'''' KafasÄ±'
+    Mystery Dust: 28
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Leo Constellation:
+    Name: '&9 ''''Aslan Burcu'''' KafasÄ±'
+    Mystery Dust: 28
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Virgo Constellation:
+    Name: '&9 ''''BaÅŸak burcu'''' KafasÄ±'
+    Mystery Dust: 28
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Libra Constellation:
+    Name: '&9 ''''Terazi burcu'''' KafasÄ±'
+    Mystery Dust: 28
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Scorpio Constellation:
+    Name: '&9 ''''Akrep burcu'''' KafasÄ±'
+    Mystery Dust: 28
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Sagittarius Constellation:
+    Name: '&9 ''''Yay Burcu'''' KafasÄ±'
+    Mystery Dust: 28
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Capricorn Constellation:
+    Name: '&9 ''''OÄŸlak burcu'''' KafasÄ±'
+    Mystery Dust: 28
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Nurse:
+    Name: '&a HemÅŸire KafasÄ±'
+    Mystery Dust: 8
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Cool Doge:
+    Name: '&9 SoÄŸuk Doge KafasÄ±'
+    Mystery Dust: 15
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Skull:
+    Name: '&9 Kafa KafasÄ±'
+    Mystery Dust: 22
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Pumpkin:
+    Name: '&9 Kabak KafasÄ±'
+    Mystery Dust: 25
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Pacman:
+    Name: '&9 Pacman KafasÄ±'
+    Mystery Dust: 18
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 En gÃ¼zel gÃ¶rÃ¼nÃ¼me sahip'
+      - '&7 olmanÄ± saÄŸlayan kafalar.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'

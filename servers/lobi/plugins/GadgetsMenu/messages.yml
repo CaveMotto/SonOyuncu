@@ -1,0 +1,785 @@
+GUI-Menus:
+  Mystery-Vault-Menu:
+    Items:
+      Gift-Inventory:
+        Name: '&bHediye Envanteri'
+        Material: head:1497b147cfae52205597f72e3c4ef52512e9677020e4b4fa7512c3c6acdd8c1
+        Show: true
+        Slot: 45
+        Lore:
+        - ''
+        - '&7ArkadaÅŸlarÄ±nÄ±za hediyeler gÃ¶nderin'
+        - '&7karÅŸÄ±lÄ±ÄŸÄ±nda daha iyi arkadaÅŸlÄ±klar kazanÄ±n!'
+        - ''
+        - '&7GÃ¶nderilen hediyeler: &e{GIFT_SENT}'
+        - '&7AlÄ±nan hediyeler: &e{GIFT_RECEIVED}'
+        - ''
+        - '&7â–º &aBakmak Icin TÄ±kla'
+      Error:
+        Name: '&cGÃ¶rÃ¼necek Kutu Yok'
+        Material: head:3ed1aba73f639f4bc42bd48196c715197be2712c3b962c97ebf9e9ed8efa025
+        Lore:
+        - ''
+        - '&7ÃœzÃ¼lme Dostum GÃ¼nlÃ¼k Ã–dÃ¼lÃ¼nÃ¼ Al Gel'
+        - ''
+      Loading-Mystery-Boxes:
+        Name: '&bYÃ¼kleniyor...'
+        Material: head:3ed1aba73f639f4bc42bd48196c715197be2712c3b962c97ebf9e9ed8efa025
+        Lore:
+        - ''
+        - '&7Galiba Hata GÃ¶rÃ¼yorum Bana Bidaha TÄ±klarmÄ±sÄ±n'
+      Mystery-Box-Information:
+        Name: '&bGizemliKutu Bilgi'
+        Material: head:2cdc0feb7001e2c10fd5066e501b87e3d64793092b85a50c856d962f8be92c78
+        Slot: 48
+        Lore:
+        - ''
+        - '&7Gizemli Kutu neredeyse tÃ¼m kozmetik Ã¼rÃ¼nlerini iÃ§erir'
+        - '&7Gizemli Kutular kazanmak iÃ§in yapmanÄ±z gereken'
+        - '&7Tek ÅŸey sunucuda oynamak!'
+        - ''
+        - '&dBulunan en son 5 Ã¶ÄŸeniz:'
+        - '&71. {RECENT_LOOT_1}'
+        - '&72. {RECENT_LOOT_2}'
+        - '&73. {RECENT_LOOT_3}'
+        - '&74. {RECENT_LOOT_4}'
+        - '&75. {RECENT_LOOT_5}'
+        - ''
+        - '&7â–º &b{MYSTERY_BOXES} &aAdet Gizemli Tozun Var'
+      Craft-Mystery-Boxes:
+        Name: '&bGizemli Kutular Ãœretin'
+        Material: head:6b84208e4be2233fcd96e7f02d9613d5437f1d006236277c57d40652c5be2f23
+        Show: true
+        Slot: 49
+        Lore:
+        - '&7'
+        - '&7Zaten sahip olduÄŸunuz eÅŸyalarÄ± bulduÄŸunuzda'
+        - '&7Bunun yerine gizemlitoz alacaksÄ±nÄ±z '
+        - '&7Yeni ganimetler bulmak iÃ§in bu tozu '
+        - '&7Gizemli Kutular oluÅŸturmak iÃ§in kullanabilirsiniz!'
+        - ''
+        - '&7Toz SayÄ±sÄ±: &b{MYSTERY_DUST}'
+        - ''
+        - '&7â–º &aÃœretmek IcÄ±n TÄ±kla'
+      Animations:
+        Name: '&bAnimasyonlar'
+        Material: head:3a36b3fb238e9f2cf82e9ba1c3034b969ff95d38d8d15168d43d466453164
+        Show: true
+        Slot: 53
+        Lore:
+        - ''
+        - '&7Gizemli kutularÄ± aÃ§tÄ±ÄŸÄ±nÄ±zda '
+        - '&7Gizemli Kutu animasyonlarÄ±nÄ±zÄ± seÃ§in.'
+        - ''
+        - '&7â–º &aSecmek IcÄ±n TÄ±kla'
+      Open-Multiple-Boxes:
+        Name: '&bBirden Ã‡ok Kutu AÃ§'
+        Material: head:b0da23cc9cb7928140584441c3740f8f41135a2475cc34ba05c0a233aadf63fb
+        Show: true
+        Slot: 50
+        Lore:
+        - ''
+        - '&7AynÄ± anda birden fazla kutu aÃ§Ä±n!'
+        - ''
+        - '&7â–º &aCoklu AlÄ±m IcÄ±n TÄ±kla'
+    GUI-Name: Gizemli Kutu
+  Main: Menu
+  Hats: Å�apka
+  Animated Hats: Animasyonlu Å�apkalar
+  Particles: ParÃ§acÄ±k
+  Suits: KostÃ¼mler
+  Gadgets: Aletler
+  Pets: Evcil Hayva
+  Morphs: Morphs
+  Banners: Flama
+  Emotes: Emoji
+  Cloaks: Pelerin
+  Purchase-Menu:
+    GUI-Name: SatÄ±n Alma OnayÄ±
+    Items:
+      Confirm:
+        Name: '&aOnayla'
+        Material: head:8e9b27fccd80921bd263c91dc511d09e9a746555e6c9cad52e8562ed0182a2f
+        Lore: ''
+      Cancel:
+        Name: '&cIptal Et'
+        Material: head:5fde3bfce2d8cb724de8556e5ec21b7f15f584684ab785214add164be7624b
+        Lore: ''
+  Confirm-Open-Mystery-Box-Menu:
+    GUI-Name: AÃ§ma OnayÄ±
+    Items:
+      Open:
+        Name: '&aOnayla'
+        Material: head:8e9b27fccd80921bd263c91dc511d09e9a746555e6c9cad52e8562ed0182a2f
+        Lore:
+        - ''
+        - '&7â–º &aAcmak IcÄ±n TÄ±kla'
+      Cancel:
+        Name: '&cIptal Et'
+        Material: head:5fde3bfce2d8cb724de8556e5ec21b7f15f584684ab785214add164be7624b
+        Lore:
+        - ''
+        - '&7â–º &cIptal Etmek IcÄ±n TÄ±kla'
+  Mystery-Box-Crafting-Menu:
+    GUI-Name: Mystery Box Crafting
+    Items:
+      1-Star:
+        Name: '&bGizemliKutu &d#1'
+        Material: head:ddcc189633c789cb6d5e78d13a5043b26e7b40cdb7cfc4e23aa2279574967b4
+        Price: 1000
+        Lore:
+        - ''
+        - '&7Gizemli Kutu ÅŸunlarÄ± iÃ§erir:'
+        - ''
+        - '&7Ortak eÅŸyalar: &d4'
+        - '&7Nadir eÅŸyalar: &d1'
+        - '&7Epik Ã¶ÄŸeler: &d1'
+        - '&7Efsanevi Ã¶ÄŸeler: &d1'
+        - ''
+        - '&7DeÄŸer: &aâˆ�&7âˆ�âˆ�âˆ�âˆ�'
+      2-Star:
+        Name: '&bGizemliKutu &d#2'
+        Material: head:ddcc189633c789cb6d5e78d13a5043b26e7b40cdb7cfc4e23aa2279574967b4
+        Price: 2000
+        Lore:
+        - ''
+        - '&7Gizemli Kutu ÅŸunlarÄ± iÃ§erir:'
+        - ''
+        - '&7Ortak eÅŸyalar: &d3'
+        - '&7Nadir eÅŸyalar: &d2'
+        - '&7Epik Ã¶ÄŸeler: &d1'
+        - '&7Efsanevi Ã¶ÄŸeler: &d1'
+        - ''
+        - '&7DeÄŸer: &aâˆ�&7âˆ�âˆ�âˆ�âˆ�'
+      3-Star:
+        Name: '&bGizemliKutu &d#3'
+        Material: head:ddcc189633c789cb6d5e78d13a5043b26e7b40cdb7cfc4e23aa2279574967b4
+        Price: 3000
+        Lore:
+        - ''
+        - '&7Gizemli Kutu ÅŸunlarÄ± iÃ§erir:'
+        - ''
+        - '&7Ortak eÅŸyalar: &d2'
+        - '&7Nadir eÅŸyalar: &d2'
+        - '&7Epik Ã¶ÄŸeler: &d2'
+        - '&7Efsanevi Ã¶ÄŸeler: &d1'
+        - ''
+        - '&7DeÄŸer: &aâˆ�&7âˆ�âˆ�âˆ�âˆ�'
+      4-Star:
+        Name: '&bGizemliKutu &d#4'
+        Material: head:ddcc189633c789cb6d5e78d13a5043b26e7b40cdb7cfc4e23aa2279574967b4
+        Price: 4000
+        Lore:
+        - ''
+        - '&7Gizemli Kutu ÅŸunlarÄ± iÃ§erir:'
+        - ''
+        - '&7Ortak eÅŸyalar: &d41'
+        - '&7Nadir eÅŸyalar: &d1'
+        - '&7Epik Ã¶ÄŸeler: &d2'
+        - '&7Efsanevi Ã¶ÄŸeler: &d3'
+        - ''
+        - '&7DeÄŸer: &aâˆ�&7âˆ�âˆ�âˆ�âˆ�'
+      5-Star:
+        Name: '&bGizemliKutu &d#5'
+        Material: head:ddcc189633c789cb6d5e78d13a5043b26e7b40cdb7cfc4e23aa2279574967b4
+        Price: 5000
+        Lore:
+        - ''
+        - '&7Gizemli Kutu ÅŸunlarÄ± iÃ§erir:'
+        - ''
+        - '&7Ortak eÅŸyalar: &d0'
+        - '&7Nadir eÅŸyalar: &d1'
+        - '&7Epik Ã¶ÄŸeler: &d2'
+        - '&7Efsanevi Ã¶ÄŸeler: &d4'
+        - ''
+        - '&7DeÄŸer: &aâˆ�&7âˆ�âˆ�âˆ�âˆ�'
+  Gift-Inventory-Menu:
+    GUI-Name: Hediye Envanteri
+    Items:
+      Mystery-Gift:
+        Name: '&bGizemli Hediye &7(&d5''li Paket&7)'
+        Material: head:75419fce506a495343a1d368a71d22413f08c6d67cb951d656cd03f80b4d3d3
+        Lore:
+        - ''
+        - '&7Bu hediye paketi ÅŸunlarÄ± iÃ§erir:'
+        - '&bGizemli Kutu'
+        - ''
+        - '&7â–º &aAcmak IcÄ±n TÄ±kla'
+      Error:
+        Name: '&cGÃ¶rÃ¼necek Kutu Yok'
+        Material: head:3ed1aba73f639f4bc42bd48196c715197be2712c3b962c97ebf9e9ed8efa025
+        Lore:
+        - ''
+        - '&7ÃœzÃ¼lme Dostum Mutlu Ol Sen :('
+        - ''
+  Send-Gift-Menu:
+    GUI-Name: Ã‡evrimiÃ§i Oyuncular
+    Items:
+      Mystery-Gift:
+        Name: '&bGizemli Hediye &7(&d5''li Paket&7)'
+        Material: head:75419fce506a495343a1d368a71d22413f08c6d67cb951d656cd03f80b4d3d3
+        Lore:
+        - ''
+        - '&7Bu hediye paketi ÅŸunlarÄ± iÃ§erir:'
+        - '&bGizemli Kutu'
+      Player:
+        Lore:
+        - ''
+        - '&7â–º &aAcmak IcÄ±n TÄ±kla'
+  Confirm-Send-Gift-Menu:
+    GUI-Name: Hediye Kutu OnayÄ±
+    Items:
+      Player:
+        Name: '&7{PLAYER}'
+        Lore: ''
+      Mystery-Gift:
+        Name: '&aMystery Gift (5-Pack)'
+        Material: head:75419fce506a495343a1d368a71d22413f08c6d67cb951d656cd03f80b4d3d3
+        Lore:
+        - ''
+        - '&7Bu hediye paketi ÅŸunlarÄ± iÃ§erir:'
+        - '&bGizemli Kutu'
+      Confirm:
+        Name: '&aOnayla'
+        Material: head:8e9b27fccd80921bd263c91dc511d09e9a746555e6c9cad52e8562ed0182a2f
+        Lore:
+        - ''
+        - '&7â–º &aAcmak IcÄ±n TÄ±kla'
+      Cancel:
+        Name: '&cIptal Et'
+        Material: head:5fde3bfce2d8cb724de8556e5ec21b7f15f584684ab785214add164be7624b
+        Lore:
+        - ''
+        - '&7â–º &cIptal Etmek IcÄ±n TÄ±kla'
+  Settings-Menu:
+    GUI-Name: Ayarlar
+    Items:
+      Ignore-Cooldown:
+        Name: '&bBekleme SÃ¼resi'
+        Material: head:c0b8b5889ee1c6388dc6c2c5dbd70b6984aefe54319a095e64db7638097b821
+        Show: true
+        Slot: 20
+        Lore: ''
+      Self-Morph-View:
+        Name: '&bKendinden Morf GÃ¶rÃ¼nÃ¼mÃ¼'
+        Material: head:c0b8b5889ee1c6388dc6c2c5dbd70b6984aefe54319a095e64db7638097b821
+        Show: true
+        Slot: 24
+        Lore: ''
+      Enabled:
+        Name: '&aAktif'
+        Material: head:8e9b27fccd80921bd263c91dc511d09e9a746555e6c9cad52e8562ed0182a2f
+        Lore: ''
+      Disabled:
+        Name: '&cDeAktif'
+        Material: head:8bbd89db83d59863e2b0c3dca27f4020b906740e1ac7e4b6de90120ef6719b23
+        Lore: ''
+  Mystery-Vault-Animations-Menu:
+    GUI-Name: GizemliKutu AnimasyonlarÄ±
+    Items:
+      Random-Mystery-Vault-Animation:
+        Name: '&bRastgele Animasyon'
+        Material: ENDER_PEARL
+        Show: true
+        Slot: 40
+        Lore:
+        - ''
+        - '&7Ä°stediÄŸiniz animasyonu sizin iÃ§in seÃ§elim.'
+        - ''
+        - '&bDurum: &c{STATUS}'
+        - ''
+  Open-Multiple-Boxes-Menu:
+    GUI-Name: Birden Ã‡ok Kutu AÃ§
+    Items:
+      Open-20-Boxes:
+        Name: '&b20''li Ac'
+        Material: head:8bbd89db83d59863e2b0c3dca27f4020b906740e1ac7e4b6de90120ef6719b23
+        Lore:
+        - ''
+        - '&7Aynanda 20''li Kutu AÃ§ar'
+        - ''
+      Open-50-Boxes:
+        Name: '&b50''li Ac'
+        Material: head:8bbd89db83d59863e2b0c3dca27f4020b906740e1ac7e4b6de90120ef6719b23
+        Lore:
+        - ''
+        - '&7Aynanda 50''li Kutu AÃ§ar'
+        - ''
+      Open-250-Boxes:
+        Name: '&b250''li Ac'
+        Material: head:8bbd89db83d59863e2b0c3dca27f4020b906740e1ac7e4b6de90120ef6719b23
+        Lore:
+        - ''
+        - '&7Aynanda 250''li Kutu AÃ§ar'
+        - ''
+  Confirm-Open-Multiple-Boxes-Menu:
+    GUI-Name: Confirm Open Multiple Boxes
+    Items:
+      Confirm:
+        Name: '&aOnayla'
+        Material: head:8e9b27fccd80921bd263c91dc511d09e9a746555e6c9cad52e8562ed0182a2f
+        Lore:
+        - ''
+        - '&7â–º &aAcmak IcÄ±n TÄ±kla'
+      Cancel:
+        Name: '&cIptal Et'
+        Material: head:5fde3bfce2d8cb724de8556e5ec21b7f15f584684ab785214add164be7624b
+        Lore:
+        - ''
+        - '&7â–º &cIptal Etmek IcÄ±n TÄ±kla'
+Prefix: '&6Lobi &7â–º &r'
+Items:
+  Go-Back:
+    Name: '&eGeriDÃ¶n'
+    Material: ARROW
+    Show: true
+    Lore: ''
+  Previous-Page:
+    Name: '&eÃ–nceki sayfa'
+    Material: ARROW
+    Lore:
+    - '&7Sayfa &d{PAGE}'
+  Next-Page:
+    Name: '&eYeni Sayfa'
+    Material: ARROW
+    Lore:
+    - '&7Sayfa &d{PAGE}'
+  Already-Selected:
+    Show-In-Lore: true
+    Lore:
+    - ''
+    - '&7Zaten seÃ§ildi'
+  Click-To-Select:
+    Show-In-Lore: true
+    Lore:
+    - ''
+    - '&eSeÃ§mek iÃ§in tÄ±kla'
+  Unlocked:
+    Show-In-Lore: true
+    Lore:
+    - ''
+    - '&7Durum: &d{HASPERMISSION}&7/&d{SIZE} &8({PERCENTAGE}%)'
+    - ''
+    - '&7â–º &aGÃ¶z atmak iÃ§in tÄ±klayÄ±n!'
+  Settings:
+    Name: '&bAyarlar'
+    Material: COMPARATOR
+    Show: true
+    Lore:
+    - ''
+    - '&7Ã‡eÅŸitli kiÅŸisel ayarlarÄ± dÃ¼zenlemenize'
+    - '&7Kontrol etmenize izin verir.'
+    - ''
+    - '&7â–º &aGÃ¶z atmak iÃ§in tÄ±klayÄ±n!'
+  MainMenu-Item:
+    Name: '&bAna menÃ¼'
+    Material: TRAPPED_CHEST
+    Show: true
+    Lore:
+    - ''
+    - '&7Gizemli Toz: &e{MYSTERY_DUST}'
+    - '&7Gizemli Kutu: &e{MYSTERY_BOXES}'
+    - ''
+    - '&7EÄŸlenceli kozmetik Ã¶zelliklerin tadÄ±nÄ± Ã§Ä±karÄ±n! '
+    - '&7Zamanla daha fazla ÅŸey eklenecektir'
+    - ''
+  Morph-Slimeball:
+    Name: '&bMorph Becerisini EtkinleÅŸtir'
+  Self-Morph-View:
+    Name: '&eKendinden Morf GÃ¶rÃ¼nÃ¼mÃ¼'
+    Material: ENDER_EYE
+    Show: true
+    Lore:
+    - '&7Durum: &e{STATUS}'
+    - ''
+    - '&7â–º &aKendi kendine morf gÃ¶rÃ¼nÃ¼mÃ¼nÃ¼'
+    - '&7â–º &aDeÄŸiÅŸtirmek iÃ§in tÄ±klayÄ±n.'
+  Rename-Pet:
+    Name: '&bEvcil HayvanÄ±nÄ±za Ä°sim Verin'
+    Material: NAME_TAG
+    Show: true
+    Lore:
+    - '&7Evcil hayvanÄ±nÄ±zÄ± sohbette yazarak yeniden adlandÄ±rÄ±n.'
+  Pages:
+    Name: ' &r(Page {CURRENT_PAGE}/{MAX_PAGES})'
+  Enough-Mystery-Dust:
+    Lore:
+    - ''
+    - '&7â–º &d{COST} &aGizemli Toz'
+    Play-Sound:
+      Enabled: true
+      Sound: ENTITY_EXPERIENCE_ORB_PICKUP
+  Not-Enough-Mystery-Dust:
+    Lore:
+    - ''
+    - '&d{COST} &7Gizemli Toz'
+    - '&b{COST_LEFT} &cTane Daha Gizemli Toz LazÄ±m'
+    Play-Sound:
+      Enabled: true
+      Sound: ENTITY_ENDERMAN_TELEPORT
+  Enough-Mystery-Dust-To-Craft-Mystery-Box:
+    Lore:
+    - ''
+    - '&7Fiyat: &a{COST} &7GizemliToz'
+    - '&aZanaat yapmak iÃ§in tÄ±klayÄ±n!'
+    Play-Sound:
+      Enabled: true
+      Sound: ENTITY_EXPERIENCE_ORB_PICKUP
+  Not-Enough-Mystery-Dust-To-Craft-Mystery-Box:
+    Lore:
+    - ''
+    - '&7Fiyat: &a{COST} &7GizemliToz'
+    - '&cYeterli Gizemli Toz yok!'
+    Play-Sound:
+      Enabled: true
+      Sound: ENTITY_ENDERMAN_TELEPORT
+  Item-Unpurchasable:
+    Lore:
+    - ''
+    - '&cGizemli toz ile yapÄ±lamaz.'
+    Play-Sound:
+      Enabled: true
+      Sound: ENTITY_ENDERMAN_TELEPORT
+  Failed-To-Purchase:
+    Play-Sound:
+      Enabled: true
+      Sound: ENTITY_ENDERMAN_TELEPORT
+  Failed-To-Deduct-Mystery-Dust:
+    Play-Sound:
+      Enabled: true
+      Sound: ENTITY_ENDERMAN_TELEPORT
+  Multiple-Boxes-Loot-Book:
+  - '       &1&lMYSTERY BOX'
+  - ''
+  - '&0You found the'
+  - '&0following loot in your'
+  - '&0Mystery Boxes:'
+  - '&9&l+{MYSTERY_DUST} Mystery Dust'
+  - ''
+  - '&9&l{MYSTERY_BOXES_OPENED} &0Mystery Boxes opened'
+  - ''
+  - ''
+  - '&0Go to the next page to'
+  - '&0see all the items'
+  Settings-Status:
+  - '&e&l{SETTING}'
+  - ''
+  - '  &bDurum: {STATUS}'
+  - ''
+Reset-Buttons:
+  Reset-Cosmetics:
+    Name: '&cSÄ±fÄ±rla Kozmatikleri'
+    Material: RED_STAINED_GLASS
+    Show: true
+    Lore: ''
+    Play-Sound:
+      Enabled: true
+      Sound: ENTITY_EXPERIENCE_ORB_PICKUP
+  Reset-Hat:
+    Name: '&cSÄ±fÄ±rla Å�apkalarÄ±'
+    Material: RED_STAINED_GLASS
+    Show: true
+    Lore: ''
+    Play-Sound:
+      Enabled: true
+      Sound: ENTITY_EXPERIENCE_ORB_PICKUP
+  Reset-Animated-Hat:
+    Name: '&cSÄ±fÄ±rla Animasyonlu Å�apkalarÄ±'
+    Material: RED_STAINED_GLASS
+    Show: true
+    Lore: ''
+    Play-Sound:
+      Enabled: true
+      Sound: ENTITY_EXPERIENCE_ORB_PICKUP
+  Reset-Particle:
+    Name: '&cSÄ±fÄ±rla ParÃ§acÄ±klarÄ±'
+    Material: RED_STAINED_GLASS
+    Show: true
+    Lore: ''
+    Play-Sound:
+      Enabled: true
+      Sound: ENTITY_EXPERIENCE_ORB_PICKUP
+  Reset-Suit:
+    Name: '&cSÄ±fÄ±rla KostÃ¼mleri'
+    Material: RED_STAINED_GLASS
+    Show: true
+    Lore: ''
+    Play-Sound:
+      Enabled: true
+      Sound: ENTITY_EXPERIENCE_ORB_PICKUP
+  Reset-Gadget:
+    Name: '&cSÄ±fÄ±rla Aletleri'
+    Material: RED_STAINED_GLASS
+    Show: true
+    Lore: ''
+    Play-Sound:
+      Enabled: true
+      Sound: ENTITY_EXPERIENCE_ORB_PICKUP
+  Reset-Pet:
+    Name: '&cSÄ±fÄ±rla Evcil HayvanlarÄ±'
+    Material: RED_STAINED_GLASS
+    Show: true
+    Lore: ''
+    Play-Sound:
+      Enabled: true
+      Sound: ENTITY_EXPERIENCE_ORB_PICKUP
+  Reset-Morph:
+    Name: '&cSÄ±fÄ±rla Morph'
+    Material: RED_STAINED_GLASS
+    Show: true
+    Lore: ''
+    Play-Sound:
+      Enabled: true
+      Sound: ENTITY_EXPERIENCE_ORB_PICKUP
+  Reset-Banner:
+    Name: '&cSÄ±fÄ±rla FlamlarÄ±'
+    Material: RED_STAINED_GLASS
+    Show: true
+    Lore: ''
+    Play-Sound:
+      Enabled: true
+      Sound: ENTITY_EXPERIENCE_ORB_PICKUP
+  Reset-Emote:
+    Name: '&cSÄ±fÄ±rla Emojileri'
+    Material: RED_STAINED_GLASS
+    Show: true
+    Lore: ''
+    Play-Sound:
+      Enabled: true
+      Sound: ENTITY_EXPERIENCE_ORB_PICKUP
+  Reset-Cloak:
+    Name: '&cSÄ±fÄ±rla Pelerinleri'
+    Material: RED_STAINED_GLASS
+    Show: true
+    Lore: ''
+    Play-Sound:
+      Enabled: true
+      Sound: ENTITY_EXPERIENCE_ORB_PICKUP
+Cooldown-In-Action-Bar:
+  Enabled: true
+  Cooldown-Block:
+    Remain: '&c|'
+    Retain: '&a|'
+    Amount-Of-Blocks: 100
+  Cooldown-Message: '{NAME} &f{COOLDOWN_BLOCK} &f{TIME_LEFT}s'
+Item-Purchase-Messages:
+  Purchase-Hat: '{PREFIX}&eSatÄ±n aldÄ±nÄ±z {ITEM}'
+  Purchase-Animated-Hat: '{PREFIX}&eSatÄ±n aldÄ±nÄ±z {ITEM}&e.'
+  Purchase-Particle: '{PREFIX}&eSatÄ±n aldÄ±nÄ±z {ITEM}&e.'
+  Purchase-Suit: '{PREFIX}&eSatÄ±n aldÄ±nÄ±z {ITEM}&e.'
+  Purchase-Gadget: '{PREFIX}&eSatÄ±n aldÄ±nÄ±z {ITEM}&e.'
+  Purchase-Pet: '{PREFIX}&eSatÄ±n aldÄ±nÄ±z {ITEM}&e.'
+  Purchase-Morph: '{PREFIX}&eSatÄ±n aldÄ±nÄ±z {ITEM}&e.'
+  Purchase-Banner: '{PREFIX}&eSatÄ±n aldÄ±nÄ±z {ITEM}&e.'
+  Purchase-Emote: '{PREFIX}&eSatÄ±n aldÄ±nÄ±z {ITEM}&e.'
+  Purchase-Cloak: '{PREFIX}&eSatÄ±n aldÄ±nÄ±z {ITEM}&e.'
+Checking-For-Update: '{PREFIX}&rGÃ¼ncellemeler kontrol ediliyor ...'
+Cooldown: '{PREFIX}&eBunu kullanmadan Ã¶nce &d{COOLDOWN} &esaniye beklemelisiniz!'
+Error: '{PREFIX}&cBu iÅŸlem gerÃ§ekleÅŸtirilirken hata oluÅŸtu!'
+No-Permission: '{PREFIX}&cGerekli izne sahip deÄŸilsiniz {PERMISSION}!'
+World-Disabled: '{PREFIX}&cBu dÃ¼nyada bunu yapma izniniz yok!'
+Scanning-Player-Data-Files: '{PREFIX}&eOyuncu veri dosyalarÄ± taranÄ±yor ...'
+Deleted-Player-Data-Files: '{PREFIX}&c{DELETED_FILES} dosya silindi ve {NON_DELETED_FILES}
+  dosya kaldÄ±.'
+Folder-Is-Empty: '{PREFIX}&cHerhangi bir oynatÄ±cÄ± veri dosyasÄ± bulamaz.'
+Banners-Are-Disabled: '{PREFIX}&cKozmetik afiÅŸler devre dÄ±ÅŸÄ± bÄ±rakÄ±ldÄ±!'
+Cloaks-Are-Disabled: '{PREFIX}&cKozmetik pelerinler devre dÄ±ÅŸÄ± bÄ±rakÄ±ldÄ±!'
+Emotes-Are-Disabled: '{PREFIX}&cKozmetik ifadeler devre dÄ±ÅŸÄ± bÄ±rakÄ±ldÄ±!'
+Gadgets-Are-Disabled: '{PREFIX}&cKozmetik aletler devre dÄ±ÅŸÄ± bÄ±rakÄ±ldÄ±!'
+Hats-Are-Disabled: '{PREFIX}&cKozmetik aletler devre dÄ±ÅŸÄ± bÄ±rakÄ±ldÄ±!'
+Animated-Hats-Are-Disabled: '{PREFIX}&cKozmetik aletler devre dÄ±ÅŸÄ± bÄ±rakÄ±ldÄ±!'
+Morphs-Are-Disabled: '{PREFIX}&cKozmetik morflar devre dÄ±ÅŸÄ± bÄ±rakÄ±ldÄ±!'
+Particles-Are-Disabled: '{PREFIX}&cKozmetik parÃ§acÄ±klar devre dÄ±ÅŸÄ± bÄ±rakÄ±ldÄ±!'
+Pets-Are-Disabled: '{PREFIX}&cKozmetik evcil hayvanlar devre dÄ±ÅŸÄ± bÄ±rakÄ±ldÄ±!'
+Suits-Are-Disabled: '{PREFIX}&cKozmetik giysiler devre dÄ±ÅŸÄ± bÄ±rakÄ±ldÄ±!'
+Equip-Animated-Hat-For-Player: '&b{PLAYER} &eiÃ§in &d{ANIMATED_HAT}&e kuÅŸandÄ±nÄ±z'
+Equip-Banner-For-Player: '&b{PLAYER} &eiÃ§in &d{BANNER}&e kuÅŸandÄ±nÄ±z'
+Equip-Cloak-For-Player: '&b{PLAYER} &eiÃ§in &d{CLOAK}&e kuÅŸandÄ±nÄ±z'
+Equip-Emote-For-Player: '&b{PLAYER} &eiÃ§in &d{EMOTE}&e kuÅŸandÄ±nÄ±z'
+Equip-Gadget-For-Player: '&b{PLAYER} &eiÃ§in &d{GADGET}&e kuÅŸandÄ±nÄ±z'
+Equip-Hat-For-Player: '&b{PLAYER} &eiÃ§in &d{HAT}&e kuÅŸandÄ±nÄ±z'
+Equip-Morph-For-Player: '&b{PLAYER} &eiÃ§in &d{MORPH}&e kuÅŸandÄ±nÄ±z'
+Equip-Particle-For-Player: '&b{PLAYER} &eiÃ§in &d{PARTICLE}&e kuÅŸandÄ±nÄ±z'
+Equip-Pet-For-Player: '&b{PLAYER} &eiÃ§in &d{PET} &eevcil hayvan doÄŸdu.'
+Equip-Suit-For-Player: '&b{PLAYER} &eiÃ§in &d{SUIT} &ekuÅŸandÄ±nÄ±z'
+Select-Animated-Hat: '&eYou selected {ANIMATED_HAT}'
+Select-Banner: '&b{BANNER} &eSeÃ§tin'
+Select-Cloak: '&b{CLOAK} &eSeÃ§tin'
+Select-Emote: '&b{EMOTE} &eSeÃ§tin'
+Select-Gadget: '&b{GADGET} &eSeÃ§tin'
+Select-Hat: '&b{HAT} &eSeÃ§tin'
+Select-Morph: '&b{MORPH} &eSeÃ§tin'
+Select-Particle: '&b{PARTICLE} &eSeÃ§tin'
+Select-Pet: '&b{PET} &eevcil hayvanÄ±nÄ±zÄ± doÄŸurdu'
+Select-Suit: '&b{SUIT} &eSeÃ§tin'
+Reset-Animated-Hat: '&eBaÅŸarÄ±yla SÄ±rÄ±fladÄ±nÄ±z'
+Reset-Banner: '&eBaÅŸarÄ±yla SÄ±rÄ±fladÄ±nÄ±z'
+Reset-Cloak: '&eBaÅŸarÄ±yla SÄ±rÄ±fladÄ±nÄ±z'
+Reset-Cosmetics: '&eBaÅŸarÄ±yla SÄ±rÄ±fladÄ±nÄ±z'
+Reset-Emote: '&eBaÅŸarÄ±yla SÄ±rÄ±fladÄ±nÄ±z'
+Reset-Gadget: '&eBaÅŸarÄ±yla SÄ±rÄ±fladÄ±nÄ±z'
+Reset-Hat: '&eBaÅŸarÄ±yla SÄ±rÄ±fladÄ±nÄ±z'
+Reset-Morph: '&eBaÅŸarÄ±yla SÄ±rÄ±fladÄ±nÄ±z'
+Reset-Particle: '&eBaÅŸarÄ±yla SÄ±rÄ±fladÄ±nÄ±z'
+Reset-Pet: '&eBaÅŸarÄ±yla SÄ±rÄ±fladÄ±nÄ±z'
+Reset-Suit: '&eBaÅŸarÄ±yla SÄ±rÄ±fladÄ±nÄ±z'
+Reset-Suit-Helmet: '&eBaÅŸarÄ±yla SÄ±rÄ±fladÄ±nÄ±z'
+Reset-Suit-Chestplate: '&eBaÅŸarÄ±yla SÄ±rÄ±fladÄ±nÄ±z'
+Reset-Suit-Leggings: '&eBaÅŸarÄ±yla SÄ±rÄ±fladÄ±nÄ±z'
+Reset-Suit-Boots: '&eBaÅŸarÄ±yla SÄ±rÄ±fladÄ±nÄ±z'
+Cosmetic-Reset-Completed: '&eBaÅŸarÄ±yla SÄ±rÄ±fladÄ±nÄ±z'
+Characters-Too-Long: '{PREFIX}&eEvcil hayvanÄ±n adÄ± &d{CHARACTERS} &ekarakterinden
+  uzun olamaz karakterler!'
+Does-Not-Support-Characters: '{PREFIX}&cSadece Ä°ngilizce alfabe kullanabilirsiniz.
+  isim.'
+Does-Not-Support-Special-Characters: '{PREFIX}&cSadece Ä°ngilizce alfabe kullanabilirsiniz.
+  isim.'
+No-Player-Nearby: '{PREFIX}&cÃ–zel karakterler kullanamazsÄ±nÄ±z isim iÃ§in'
+Not-Allowed-From-Console: '{PREFIX}&cBu komutu konsoldan kullanamazsÄ±nÄ±z!'
+Not-Allow-Teleport-To-That-Location: '{PREFIX}&cIÅŸÄ±nlanma izniniz yok o yer!'
+Not-Allow-Cosmetics-In-This-Location: '{PREFIX}&cKozmetik kullanma izniniz yok bu
+  konumda!'
+Not-Enough-Space: '{PREFIX}&cÃ‡evrenizde veya Ã¼stÃ¼nÃ¼zde bunu kullanmak iÃ§in yeterli
+  alan yok gadget!'
+Not-Enough-Space-For-Target-Block: '{PREFIX}&cBunu kullanmak iÃ§in yeterli alan yok
+  gadget''Ä± hedeflediÄŸiniz blokta!'
+Not-On-Ground: '{PREFIX}&cBunu kullanmak iÃ§in yerde olmalÄ±sÄ±n!'
+Not-On-Flat-Ground: '{PREFIX}&cBunu kullanmak iÃ§in dÃ¼z zeminde olmalÄ±sÄ±n!'
+Stand-On-Two-Blocks-High: '{PREFIX}&cBunu kullanmak iÃ§in dÃ¼z zeminde olmalÄ±sÄ±n!'
+Player-Not-Found: '{PREFIX}&cOyuncu bulunamadÄ±!'
+Player-Is-Offline: '{PREFIX}&cBu oyuncu ÅŸu anda Ã§evrimdÄ±ÅŸÄ±!'
+Plugin-Reloaded: '{PREFIX}&3GadgetsMenu eklentisi yeniden yÃ¼klendi.'
+Reloading-Plugin: '{PREFIX}&3Eklenti yeniden yÃ¼kleniyor ...'
+Required-Number-Format: '{PREFIX}&cBir numara gerekli!'
+Required-Positive-Number: '{PREFIX}&cPozitif bir sayÄ± gerekli!'
+Target-A-Block: '{PREFIX}&cBir bloÄŸu hedeflemelisiniz!'
+Target-A-Player: '{PREFIX}&cBir oyuncuyu hedeflemelisiniz!'
+Remove-Item-From-Slot-To-Equip-Gadget: '{PREFIX}&cÃ–ÄŸenizi yuvadan Ã§Ä±karmalÄ±sÄ±nÄ±z
+  Gadget''Ä± donatmak iÃ§in {SLOT} ({ITEM})!'
+Remove-Item-From-Slot-To-Equip-Morph: '{PREFIX}&cÃ–ÄŸenizi yuvadan Ã§Ä±karmalÄ±sÄ±nÄ±z
+  Gadget''Ä± donatmak iÃ§in {SLOT} ({ITEM})!'
+Remove-Item-From-Slot-To-Equip-Emote: '{PREFIX}&cÃ–ÄŸenizi yuvadan Ã§Ä±karmalÄ±sÄ±nÄ±z
+  Gadget''Ä± donatmak iÃ§in {SLOT} ({ITEM})!'
+Remove-Helmet-To-Equip-Hat: '{PREFIX}&cÅ�apkayÄ± donatmak iÃ§in kaskÄ±nÄ±zÄ± Ã§Ä±karmalÄ±sÄ±nÄ±z!'
+Remove-Helmet-To-Equip-Animated-Hat: '{PREFIX}&cGiymek iÃ§in kaskÄ±nÄ±zÄ± Ã§Ä±karmalÄ±sÄ±nÄ±z
+  animasyonlu ÅŸapka!'
+Remove-Helmet-To-Equip-Banner: '{PREFIX}&cAfiÅŸi donatmak iÃ§in kaskÄ±nÄ±zÄ± Ã§Ä±karmalÄ±sÄ±nÄ±z!'
+Remove-Helmet-To-Equip-Emote: '{PREFIX}&cÄ°fadeyi donatmak iÃ§in kaskÄ±nÄ±zÄ± Ã§Ä±karmalÄ±sÄ±nÄ±z!'
+Remove-Armor-To-Equip-Suit: '{PREFIX}&cTakÄ±m elbise giymek iÃ§in zÄ±rhÄ±nÄ±zÄ± Ã§Ä±karmalÄ±sÄ±nÄ±z!'
+Failed-To-Purchase: '&cSatÄ±n aldÄ±ÄŸÄ±nÄ±z Ã¼rÃ¼n alÄ±namadÄ±!'
+Item-Unpurchasable: '{PREFIX}&cBu Ã¼rÃ¼nÃ¼ satÄ±n alamazsÄ±nÄ±z!'
+Player-Not-Enough-MysteryDust: '{PREFIX}&cSadece {MYSTERY_DUST} gizemli toz!'
+Added-MysteryDust: '{PREFIX}&b{MYSTERY_DUST} &egizemini baÅŸarÄ±yla eklediniz &d{PLAYER}
+  &eiÃ§in toz'
+Added-MysteryDust-To-All-Players: '{PREFIX}&b{MYSTERY_DUST} &eÃ¶ÄŸesini baÅŸarÄ±yla
+  eklediniz &d{ONLINE} &eoyuncuya / oyunculara gizemli toz'
+Check-MysteryDust: '&b{PLAYER}, &d{MYSTERY_DUST} &eGizemli Toz''a sahip.'
+Received-MysteryDust: '{PREFIX}&b{PLAYER}, &d{MYSTERY_DUST} &eGizemli Toz''a sahip.'
+Removed-MysteryDust: '{PREFIX}&eÅ�uradan &d{MYSTERY_DUST} &egizemli tozu Ã§Ä±kardÄ±nÄ±z:
+  &b{OYUNCU}'
+Sent-MysteryDust: '{PREFIX}&d{PLAYER} &eoyununa &b{MYSTERY_DUST} &eve gizemli tozu
+  gÃ¶nderdiniz'
+Set-MysteryDust: '{PREFIX}&d{PLAYER} &eiÃ§in &b{MYSTERY_DUST} &egizemli tozu ayarladÄ±nÄ±z'
+Only-Have-MysteryDust: '{PREFIX}&d{PLAYER} &eiÃ§in &b{MYSTERY_DUST} &egizemli tozu
+  ayarladÄ±nÄ±z'
+Removed-MysteryDust-From-Player: '{PREFIX}&b{MYSTERY_DUST}&e gizemli toz hesabÄ±nÄ±zdan
+  kaldÄ±rÄ±ldÄ±.'
+Set-Player-MysteryDust: '{PREFIX}&eGizemli tozunuz &b{MYSTERY_DUST} &eolarak ayarlandÄ±'
+Not-Enough-MysteryDust-To-Purchase: '{PREFIX}&cÃœzgÃ¼nÃ¼m, yeterince gizeminiz yok
+  Bu Ã¼rÃ¼nÃ¼ satÄ±n almak iÃ§in toz!'
+Pay-MysteryDust-To-Self: '{PREFIX}&cGizemli tozu kendine Ã¶deyemezsin!'
+Failed-To-Deduct-Mystery-Dust: '{PREFIX}&cGizemli tozunuzu Ã§Ä±karamadÄ±nÄ±z. LÃ¼tfen
+  Tekrar deneyin.'
+Gave-Mystery-Boxes: '{PREFIX}&d{PLAYER} &eiÃ§in baÅŸarÄ±yla &b{MYSTERY_BOXES} &egizemli
+  kutunuz var'
+Gave-Mystery-Boxes-To-All-Players: '{PREFIX}&d{ONLINE} &eoyuncuya &b{MYSTERY_BOXES}&e
+  gizemli kutunuz baÅŸarÄ±yla eklendi'
+Received-Mystery-Boxes: '{PREFIX}&b{MYSTERY_BOXES} &egizemli kutuyu aldÄ±nÄ±z {PLAYER}
+  oyunundan'
+Added-Mystery-Vault: '{PREFIX}&aGizemli Kasa {NAME} baÅŸarÄ±yla oluÅŸturuldu'
+Redefined-Mystery-Vault: '{PREFIX}&aGizemli kasanÄ±n konumu &b{NAME} &ehas yeniden
+  tanÄ±mlandÄ±.'
+Mystery-Vault-Same-Location: '{PREFIX}&cYzaten bu konumda gizemli kasa oluÅŸturdunuz!'
+Mystery-Vault-Is-Exists: '{PREFIX}&cBu isimde Gizemli Kasa zaten var!'
+Do-Not-Have-Any-Mystery-Vault: '{PREFIX}&cOluÅŸturulmuÅŸ herhangi bir Gizemli KasanÄ±z
+  yok!'
+No-Mystery-Vault-Nearby: '{PREFIX}&cVerilen yarÄ±Ã§apta Gizemli Kasa yok!'
+Removed-Mystery-Vault: '{PREFIX}&aGizemli Kasa  {NAME} baÅŸarÄ±yla kaldÄ±rÄ±ldÄ±'
+Mystery-Vault-Not-Found: '{PREFIX}&cBu konumda herhangi bir Mystery Vault bulamÄ±yorum!'
+Mystery-Vault-Not-Found-With-Name: '{PREFIX}&c {NAME} adlÄ± bir Gizemli Kasa bulunamÄ±yor'
+Teleport-To-Mystery-Vault: '{PREFIX}&eAdlÄ± Gizem KasasÄ±na Ä±ÅŸÄ±nlandÄ±n {NAME}'
+Open-Mystery-Vault-At-A-Time: '{PREFIX}&cGizemli KasayÄ± sadece bir oyuncu kullanabilir
+  zamanÄ±nda!'
+Can-Only-Open-One-Mystery-Box: '{PREFIX}&cÄ°lk Ã¶nce bu kutunun aÃ§Ä±lÄ±ÅŸÄ±nÄ± bitirmesini
+  bekleyin!'
+Purchase-Cancelled: '{PREFIX}&cSatÄ±n alma iptal edildi!'
+Mystery-Boxes-Are-Disabled: '{PREFIX}&cGizemli Kutular devre dÄ±ÅŸÄ± bÄ±rakÄ±ldÄ±!'
+Crafted-Mystery-Box: '&a{NAME} ve bendiniz'
+Gave-Mystery-Gifts: '{PREFIX}&e{GIFTS} iÃ§in gizemli hediyeyi baÅŸarÄ±yla verdiniz
+  paketler ve {PLAYER} iÃ§in'
+Received-Mystery-Gifts: '{PREFIX}&e{GIFTS} gizemli hediye paketi aldÄ±nÄ±z ve {PLAYER}
+  oyunundan'
+Send-A-Gift-To-Player: '&b5 Gizemli Kutu &eve &a{PLAYER} &eiÃ§eren bir hediye gÃ¶nderdin'
+Received-Gift: '&b{PLAYER} &eadlÄ± oyuncudan bir hediye aldÄ±nÄ±z!'
+Mystery-Box-Was-Expired: '{PREFIX}&cBu gizemli kutunun sÃ¼resi doldu. LÃ¼tfen aÃ§
+  gizemli kutu sÃ¼resi dolmadan.'
+Check-Mystery-Boxes: '&b{PLAYER}, &d{MYSTERY_BOXES} &eGizemli Kutulara sahiptir.'
+Select-Mystery-Vault-Animation: '&eGizemli kasanÄ±z iÃ§in &b{ANIMATION} &eseÃ§tiniz
+  animasyon.'
+Not-Enough-Mystery-Boxes: '&cYeterli gizemli kutunuz yok aÃ§Ä±labilir.'
+Counting-Mystery-Boxes: '&cGizemli KutularÄ± Sayma ...'
+Emote-Is-Activated: '{PREFIX}&cÄ°fade zaten aktif!'
+Gadget-Is-Activated: '{PREFIX}&b{GADGET} &ezaten aktif!'
+Morph-Skill-Is-Activated: '{PREFIX}&b{MORPH} &eyeteneÄŸi zaten aktif!'
+Suit-Ability-Is-Activated: '{PREFIX}&b{SUIT} &eyeteneÄŸi zaten aktif!'
+Is-Not-Morphed: '&cÅ�u anda deÄŸiÅŸtirilmediniz!'
+Morph-Ability-Is-Disabled: '{PREFIX}&b{MORPH} &eyeteneÄŸi ÅŸu anda devre dÄ±ÅŸÄ±!'
+Rename-Pet: '&eEvcil hayvanÄ±nÄ±zÄ±n adÄ±nÄ± ÅŸu ÅŸekilde ayarlayÄ±n: &a{NAME}'
+Rename-Pet-For-Player: '&d{PLAYER} &eadlÄ± oyuncunun evcil hayvanÄ±nÄ±n adÄ±nÄ± &d{NAME}
+  &eolarak ayarlayÄ±n'
+Rename-Pet-In-Chat: |-
+  &eEvcil hayvanÄ±nÄ±zÄ±n adÄ±nÄ± yazmak iÃ§in 20 saniyeniz var, lÃ¼tfen sohbete evcil hayvanÄ±nÄ±zÄ±n adÄ±nÄ± girin.
+  &eEvcil hayvanÄ±nÄ±zÄ±n adÄ±nÄ± deÄŸiÅŸtirmeyi iptal etmek iÃ§in Ä°ptal yazÄ±n.
+Timed-Out: '&cEvcil hayvanÄ±n adÄ±nÄ± deÄŸiÅŸtirme sÃ¼resi bitti, evcil hayvanÄ±nÄ±zÄ±n
+  adÄ±nÄ± deÄŸiÅŸtirmediniz!'
+Cancel-Rename-Pet: '&cEvcil hayvanÄ±nÄ±zÄ±n yeniden adlandÄ±rÄ±lmasÄ± iptal edildi.'
+Rocket-Countdown: '&c&lROKET LANSMANI {TIMER} {SECOND}!'
+Rocket-Lift-Off: '&a&lKALDIRIYORUZ!'
+Enabled-Self-Morph-View: '{PREFIX}&eMorflar iÃ§in kendi gÃ¶rÃ¼nÃ¼mÃ¼nÃ¼ etkinleÅŸtirdiniz!'
+Disabled-Self-Morph-View: '{PREFIX}&eMorflar iÃ§in kendini gÃ¶rmeyi devre dÄ±ÅŸÄ±
+  bÄ±raktÄ±n!'
+Enabled-Bypass-Cooldown: '{PREFIX}&eCooldown bypass''Ä± etkinleÅŸtirdiniz.'
+Disabled-Bypass-Cooldown: '{PREFIX}&eBekleme sÃ¼resini devre dÄ±ÅŸÄ± bÄ±raktÄ±nÄ±z.'
+Enabled-Random-Mystery-Vault-Animation: '{PREFIX}&eRastgele Animasyonu &betkinleÅŸtirdiniz
+  &egizemli kasa animasyonunuz iÃ§in.'
+Disabled-Random-Mystery-Vault-Animation: '{PREFIX}&eRastgele Animasyonu &cdevre dÄ±ÅŸÄ±
+  &ebÄ±raktÄ±nÄ±z gizemli kasa animasyonunuz iÃ§in.'
+Disabled-Command-While-Cosmetics-Activated: '{PREFIX}&cBu komutu kullanamazsÄ±nÄ±z
+  kozmetikler etkinleÅŸtirilirken!'
+Invalid-Type: '{PREFIX}&eGirdiÄŸiniz bu &b{TYPE} &egeÃ§ersiz!'
+Type-Is-Not-Enabled: '{PREFIX}&eBu &b{TYPE} &eetkinleÅŸtirilmedi!'
+Turn-Off-Bumblebee-Song: '{PREFIX}&cBumblebee ÅŸarkÄ±sÄ± kapatÄ±ldÄ±!'
+Playing-Song: '{RANDOM_COLOR}Å�imdi oynuyor: {SONG}'
+Only-Boolean-Value-Can-Be-Accepted: '&eYalnÄ±zca boole deÄŸeri kabul edilebilir!'
+Required-Time-Format: '{PREFIX}&cLÃ¼tfen doÄŸru saat biÃ§imini girin! ('' h '' iÃ§in
+  gÃ¼nler iÃ§in '' d '', aylar iÃ§in '' m '').'
+Required-Full-Data: '{PREFIX}&cLÃ¼tfen verilerinizin eksik olmadÄ±ÄŸÄ±ndan emin olun.'
+Already-Activate-One: '{PREFIX}&eZaten bir &b{GADGET} &eetkinleÅŸtirmesi var! LÃ¼tfen
+  daha sonra tekrar deneyin.'
+Gadget-Activated-In-Same-Area: '{PREFIX}&eBu alanda etkinleÅŸtirilen bir gadget var!
+  LÃ¼tfen baÅŸka bir alanda deneyin.'
+Enabled: '&aAktif'
+Disabled: '&cDeAktif'
+Cooldown-Bypass: Cooldown Baypas
+Self-Morph-View: Kendinden Morf GÃ¶rÃ¼nÃ¼mÃ¼
+Second: Saniye
+Seconds: Saniyeler
+Minute: Dakika
+Minutes: Dakikalar
+Hour: Saat
+Hours: Saatler
+Day: GÃ¼n
+Days: GÃ¼nler
+No-Cosmetic-Equipped: HayÄ±r
+No-Recent-Loot-Found: HayÄ±r
+Loading: '&cYÃ¼kleniyor...'

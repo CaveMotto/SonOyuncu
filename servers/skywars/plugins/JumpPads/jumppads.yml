@@ -1,0 +1,19 @@
+JumpPads:
+  Lobi, -1, 59, 24:
+    owners:
+    - bc405eed-8e2a-3c85-8436-76f1c4ba8638
+    plate: SLIME_BLOCK
+    power: 20.0
+    angle: 45.0
+  Lobi, 0, 59, 24:
+    owners:
+    - bc405eed-8e2a-3c85-8436-76f1c4ba8638
+    plate: SLIME_BLOCK
+    power: 20.0
+    angle: 45.0
+  Lobi, 1, 59, 24:
+    owners:
+    - bc405eed-8e2a-3c85-8436-76f1c4ba8638
+    plate: SLIME_BLOCK
+    power: 20.0
+    angle: 45.0

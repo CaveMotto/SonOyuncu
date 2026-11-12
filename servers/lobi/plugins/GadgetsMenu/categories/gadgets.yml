@@ -1,0 +1,1243 @@
+Gadgets:
+  Fun And Games:
+    Name: '&bEÄŸlenceli Oyunlar'
+    Enabled: true
+    Lore: ''
+    Types:
+      Magic 9 Ball:
+        Name: '&a Tenten Topu'
+        Cooldown: 3
+        Mystery Dust: 22
+        Rarity: Common
+        Enabled: false
+        CanBeFound: true
+        Purchasable: true
+        Messages: ''
+        Lore:
+          Locked:
+          - ''
+          - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+          - '&7 Ã§Ä±kartabilirsin.'
+          - ''
+          - '&8 â–ª &7Durum: &câœ•'
+          - ''
+          - '&c &nBunu kullanamazsÄ±n.'
+          Unlocked:
+          - '&7'
+          - '&8 â–ª &7Durum: &aâœ”'
+          - ''
+          - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+        Material: BLACK_WOOL
+      Fortune Cookie:
+        Name: '&a Dondurma TezgahÄ±'
+        Cooldown: 0
+        Mystery Dust: 10
+        Rarity: Common
+        Enabled: false
+        CanBeFound: true
+        Purchasable: true
+        Messages:
+          Player: ''
+          Fortune Cookie: ''
+        Lore:
+          Locked:
+          - ''
+          - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+          - '&7 Ã§Ä±kartabilirsin.'
+          - ''
+          - '&8 â–ª &7Durum: &câœ•'
+          - ''
+          - '&c &nBunu kullanamazsÄ±n.'
+          Unlocked:
+          - '&7'
+          - '&8 â–ª &7Durum: &aâœ”'
+          - ''
+          - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+        Material: COOKIE
+      Tetherball:
+        Name: '&5 AsÄ±lÄ± Tavuk'
+        Cooldown: 90
+        Mystery Dust: 55
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+          Locked:
+          - ''
+          - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+          - '&7 Ã§Ä±kartabilirsin.'
+          - ''
+          - '&8 â–ª &7Durum: &câœ•'
+          - ''
+          - '&c &nBunu kullanamazsÄ±n.'
+          Unlocked:
+          - '&7'
+          - '&8 â–ª &7Durum: &aâœ”'
+          - ''
+          - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+        Material: OAK_FENCE
+      Diving Board:
+        Name: '&6 Tramplen'
+        Cooldown: 60
+        Mystery Dust: 75
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Messages: ''
+        Lore:
+          Locked:
+          - ''
+          - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+          - '&7 Ã§Ä±kartabilirsin.'
+          - ''
+          - '&8 â–ª &7Durum: &câœ•'
+          - ''
+          - '&c &nBunu kullanamazsÄ±n.'
+          Unlocked:
+          - '&7'
+          - '&8 â–ª &7Durum: &aâœ”'
+          - ''
+          - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+        Material: CAULDRON
+      Trampoline:
+        Name: '&6 Trambolin'
+        Cooldown: 80
+        Mystery Dust: 92
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+          Locked:
+          - ''
+          - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+          - '&7 Ã§Ä±kartabilirsin.'
+          - ''
+          - '&8 â–ª &7Durum: &câœ•'
+          - ''
+          - '&c &nBunu kullanamazsÄ±n.'
+          Unlocked:
+          - '&7'
+          - '&8 â–ª &7Durum: &aâœ”'
+          - ''
+          - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+        Material: HOPPER
+      Flower Giver:
+        Name: '&9 Hediyelik Ã‡iÃ§ek'
+        Cooldown: 5
+        Mystery Dust: 25
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Messages:
+          Target-A-Player: '&3Kozmetik &8Â» &cÃ‡iÃ§ek vermek iÃ§in bir oyuncuya saÄŸ
+            tÄ±klayÄ±n.'
+          Sent-A-Flower: '&3Kozmetik &8Â» &a{PLAYER} &eadlÄ± oyuncuya Ã§iÃ§ek gÃ¶nderdin.'
+          Already-Sent-A-Request: '&3Kozmetik &8Â» &cZaten &b{PLAYER}&c adlÄ± oyuncuya
+            Ã§iÃ§ek gÃ¶nderdin.'
+          Received-Flower: '&3Kozmetik &8Â» &a{PLAYER} &eadlÄ± oyuncu Ã§iÃ§eÄŸi aldÄ±.'
+          Accept: '&b&l[KABUL]'
+          Decline: '&c&l[REDDET]'
+          Accept-Json-message: '&3Kozmetik &8Â» &eTÄ±kla ve Ã§iÃ§eÄŸi kabul et.'
+          Decline-Json-message: '&3Kozmetik &8Â» &eTÄ±kla ve Ã§iÃ§eÄŸi reddet.'
+          No-Pending-Invite: '&3Kozmetik &8Â» &cBir oyuncudan davetiniz yok.'
+          Accepted-Flower: '&3Kozmetik &8Â» &a{PLAYER} &eadlÄ± oyuncu Ã§iÃ§eÄŸi kabul
+            etti.'
+          Declined-Flower: '&3Kozmetik &8Â» &c{PLAYER} &eadlÄ± oyuncu Ã§iÃ§eÄŸi reddetti.'
+          Right-Click-To-Remove-Flower: '&3Kozmetik &8Â» &cSaÄŸ tÄ±kla ve Ã§iÃ§eÄŸi
+            kaldÄ±r.'
+          Already-Had-A-Flower: '&3Kozmetik &8Â» &cOyuncunun zaten bir Ã§iÃ§eÄŸi vardÄ±.
+            BaÅŸka birini bul.'
+        Lore:
+          Locked:
+          - ''
+          - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+          - '&7 Ã§Ä±kartabilirsin.'
+          - ''
+          - '&8 â–ª &7Durum: &câœ•'
+          - ''
+          - '&c &nBunu kullanamazsÄ±n.'
+          Unlocked:
+          - '&7'
+          - '&8 â–ª &7Durum: &aâœ”'
+          - ''
+          - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+        Material: FLOWER_POT
+      Tic Tac Toe:
+        Messages:
+          Already-Had-A-Flower: '&3Kozmetik &8Â» &cBu oyuncuya istek gÃ¶nderemezsin.'
+          Target-A-Player: '&3Kozmetik &8Â» &cSoS oyunu baÅŸlatmak iÃ§in bir oyuncuya
+            saÄŸ tÄ±klayÄ±n.'
+          Target-Other-Player: '&3Kozmetik &8Â» &cÅ�u anda bu oyuncu SoS oynuyor.
+            SoS oyunu baÅŸlatmak iÃ§in lÃ¼tfen diÄŸer oyuncuya saÄŸ tÄ±klayÄ±n.'
+          Challenge: '&3Kozmetik &8Â» &a{PLAYER} &eadlÄ± oyuncu challange yapacak.'
+          Already-Sent-A-Request: '&3Kozmetik &8Â» &cZaten &b{PLAYER}&c adlÄ± oyuncuya
+            SoS daveti gÃ¶nderdin.'
+          Received-Challenge: '&3Kozmetik &8Â» &a{PLAYER} &eadlÄ± oyuncu oyunu kabul
+            etmedi.'
+          Accept: '&b&l[KABUL]'
+          Decline: '&c&l[REDDET]'
+          Accept-Json-message: '&3Kozmetik &8Â» &eTÄ±kla ve kabul et.'
+          Decline-Json-message: '&3Kozmetik &8Â» &cTÄ±kla ve reddet.'
+          No-Pending-Challenge: '&3Kozmetik &8Â» &cO oyuncudan beklemede olan bir
+            oyunun yok.'
+          Accepted-Challenge: '&3Kozmetik &8Â» &a{PLAYER} &eadlÄ± oyuncu oyunu kabul
+            etti.'
+          Declined-Challenge: '&3Kozmetik &8Â» &c{PLAYER} &eadlÄ± oyuncu oyunu reddetti.'
+          Draw: '&3Kozmetik &8Â» &a{PLAYER} &eadlÄ± oyunucyla berabere kaldÄ±n.'
+          Win: '&3Kozmetik &8Â» &b{PLAYER} &badlÄ± oyuncu oyunu kazandÄ±.'
+          Loss: '&3Kozmetik &8Â» &c{PLAYER} &eadlÄ± oyuncu oyunu kaybetti.'
+          Opponent-Left-Game: '&3Kozmetik &8Â» &cRakibin oyundan ayrÄ±ldÄ±.'
+          Player-Left-Game: '&3Kozmetik &8Â» &cBaÅŸarÄ±yla oyundan ayrÄ±ldÄ±n.'
+        Name: '&6 SoS'
+        Cooldown: 30
+        Mystery Dust: 85
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Items:
+          GUI-Name: SoS - {OPPONENT}
+          Place-Symbol:
+            Name: '&b TÄ±kla!'
+            Material: ITEM_FRAME
+            Lore: ''
+          Not-Your-Turn:
+            Name: '&c SÄ±ra sende deÄŸil!'
+            Material: PAINTING
+            Lore: ''
+          Challenger:
+            Name: '&b Turuncu: &f{PLAYER}'
+            Material: ORANGE_TERRACOTTA
+            Lore: ''
+          Opponent:
+            Name: '&b Mavi: &f{PLAYER}'
+            Material: LIGHT_BLUE_TERRACOTTA
+            Lore: ''
+          Challenger-Symbol:
+            Name: '&b Turuncu'
+            Material: ORANGE_TERRACOTTA
+            Lore: ''
+          Opponent-Symbol:
+            Name: '&b Mavi'
+            Material: LIGHT_BLUE_TERRACOTTA
+            Lore: ''
+        Lore:
+          Locked:
+          - ''
+          - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+          - '&7 Ã§Ä±kartabilirsin.'
+          - ''
+          - '&8 â–ª &7Durum: &câœ•'
+          - ''
+          - '&c &nBunu kullanamazsÄ±n.'
+          Unlocked:
+          - '&7'
+          - '&8 â–ª &7Durum: &aâœ”'
+          - ''
+          - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+        Material: head:a6864136e374f5d676fb4f5b03e10a7bcdb4190b376378ae9492045fb4adf9d
+      Sand Castle:
+        Name: '&9 Kumdan Kale'
+        Cooldown: 30
+        Mystery Dust: 28
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+          Locked:
+          - ''
+          - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+          - '&7 Ã§Ä±kartabilirsin.'
+          - ''
+          - '&8 â–ª &7Durum: &câœ•'
+          - ''
+          - '&c &nBunu kullanamazsÄ±n.'
+          Unlocked:
+          - '&7'
+          - '&8 â–ª &7Durum: &aâœ”'
+          - ''
+          - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+        Material: head:9918b3b7516b1946566fd7b287f82ef44afafea9a2c3bd385691f7f0f42097f8
+      BBQ Grill:
+        Name: '&5 Kamp AteÅŸi'
+        Cooldown: 45
+        Mystery Dust: 58
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+          Locked:
+          - ''
+          - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+          - '&7 Ã§Ä±kartabilirsin.'
+          - ''
+          - '&8 â–ª &7Durum: &câœ•'
+          - ''
+          - '&c &nBunu kullanamazsÄ±n.'
+          Unlocked:
+          - '&7'
+          - '&8 â–ª &7Durum: &aâœ”'
+          - ''
+          - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+        Material: OBSIDIAN
+      Pocket Beach:
+        Name: '&5 Plaj'
+        Cooldown: 60
+        Mystery Dust: 55
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+          Locked:
+          - ''
+          - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+          - '&7 Ã§Ä±kartabilirsin.'
+          - ''
+          - '&8 â–ª &7Durum: &câœ•'
+          - ''
+          - '&c &nBunu kullanamazsÄ±n.'
+          Unlocked:
+          - '&7'
+          - '&8 â–ª &7Durum: &aâœ”'
+          - ''
+          - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+        Material: SAND
+      Ice Cream Stand:
+        Name: '&6 DondurmacÄ±'
+        Cooldown: 30
+        Mystery Dust: 68
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Messages: ''
+        Lore:
+          Locked:
+          - ''
+          - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+          - '&7 Ã§Ä±kartabilirsin.'
+          - ''
+          - '&8 â–ª &7Durum: &câœ•'
+          - ''
+          - '&c &nBunu kullanamazsÄ±n.'
+          Unlocked:
+          - '&7'
+          - '&8 â–ª &7Durum: &aâœ”'
+          - ''
+          - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+        Material: head:239299c36b54bb11e57c686bfe53a5c1c441310f90f69347bacddbf343609d
+    Material: head:b89042082bb7a7618b784ee7605a134c58834e21e374c888937161057f6c7
+    GUI-Name: EÄŸlence ve Oyunlar
+  Mobs And NPCs:
+    Name: '&8YaratÄ±klar ve NPC'
+    Enabled: true
+    Lore: ''
+    Types:
+      CATapult:
+        Name: '&9 FÄ±rlayan Kediler'
+        Cooldown: 50
+        Mystery Dust: 25
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+          Locked:
+          - ''
+          - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+          - '&7 Ã§Ä±kartabilirsin.'
+          - ''
+          - '&8 â–ª &7Durum: &câœ•'
+          - ''
+          - '&c &nBunu kullanamazsÄ±n.'
+          Unlocked:
+          - '&7'
+          - '&8 â–ª &7Durum: &aâœ”'
+          - ''
+          - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+        Material: OCELOT_SPAWN_EGG
+      When Pigs Fly:
+        Name: '&9 UÃ§an Domuz'
+        Cooldown: 30
+        Mystery Dust: 28
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+          Locked:
+          - ''
+          - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+          - '&7 Ã§Ä±kartabilirsin.'
+          - ''
+          - '&8 â–ª &7Durum: &câœ•'
+          - ''
+          - '&c &nBunu kullanamazsÄ±n.'
+          Unlocked:
+          - '&7'
+          - '&8 â–ª &7Durum: &aâœ”'
+          - ''
+          - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+        Material: SADDLE
+      Creeper Astronaut:
+        Name: '&9 UÃ§an Creeper'
+        Cooldown: 40
+        Mystery Dust: 30
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+          Locked:
+          - ''
+          - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+          - '&7 Ã§Ä±kartabilirsin.'
+          - ''
+          - '&8 â–ª &7Durum: &câœ•'
+          - ''
+          - '&c &nBunu kullanamazsÄ±n.'
+          Unlocked:
+          - '&7'
+          - '&8 â–ª &7Durum: &aâœ”'
+          - ''
+          - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+        Material: CREEPER_SPAWN_EGG
+      Exploding Sheep:
+        Name: '&9 CanlÄ± Bomba'
+        Cooldown: 15
+        Mystery Dust: 25
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+          Locked:
+          - ''
+          - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+          - '&7 Ã§Ä±kartabilirsin.'
+          - ''
+          - '&8 â–ª &7Durum: &câœ•'
+          - ''
+          - '&c &nBunu kullanamazsÄ±n.'
+          Unlocked:
+          - '&7'
+          - '&8 â–ª &7Durum: &aâœ”'
+          - ''
+          - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+        Material: SHEARS
+        Remain-Time: '&c&l{REMAIN_TIME}sn'
+      Bat Launcher:
+        Name: '&9 Yarasa SaldÄ±rÄ±sÄ±'
+        Affect-Players: true
+        Cooldown: 10
+        Mystery Dust: 20
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+          Locked:
+          - ''
+          - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+          - '&7 Ã§Ä±kartabilirsin.'
+          - ''
+          - '&8 â–ª &7Durum: &câœ•'
+          - ''
+          - '&c &nBunu kullanamazsÄ±n.'
+          Unlocked:
+          - '&7'
+          - '&8 â–ª &7Durum: &aâœ”'
+          - ''
+          - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+        Material: IRON_HORSE_ARMOR
+      Scarecrow:
+        Name: '&6 Korkuluk'
+        Cooldown: 30
+        Mystery Dust: 65
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+          Locked:
+          - ''
+          - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+          - '&7 Ã§Ä±kartabilirsin.'
+          - ''
+          - '&8 â–ª &7Durum: &câœ•'
+          - ''
+          - '&c &nBunu kullanamazsÄ±n.'
+          Unlocked:
+          - '&7'
+          - '&8 â–ª &7Durum: &aâœ”'
+          - ''
+          - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+        Material: JACK_O_LANTERN
+        Jack-O-Lantern-DisplayName: '&cKorsan'
+      Piggy Bank:
+        Name: '&9 Domuz BankasÄ±'
+        Material: head:198df42f477f213ff5e9d7fa5a4cc4a69f20d9cef2b90c4ae4f29bd17287b5
+        Cooldown: 40
+        Mystery Dust: 35
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+          Locked:
+          - ''
+          - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+          - '&7 Ã§Ä±kartabilirsin.'
+          - ''
+          - '&8 â–ª &7Durum: &câœ•'
+          - ''
+          - '&c &nBunu kullanamazsÄ±n.'
+          Unlocked:
+          - '&7'
+          - '&8 â–ª &7Durum: &aâœ”'
+          - ''
+          - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+    Material: CREEPER_HEAD
+    GUI-Name: YaratÄ±klar ve NPC
+  Movement:
+    Name: '&b Hareket'
+    Enabled: true
+    Lore: ''
+    Types:
+      Cowboy:
+        Name: '&5 Kovboy'
+        Cooldown: 5
+        Mystery Dust: 30
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+          Locked:
+          - ''
+          - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+          - '&7 Ã§Ä±kartabilirsin.'
+          - ''
+          - '&8 â–ª &7Durum: &câœ•'
+          - ''
+          - '&c &nBunu kullanamazsÄ±n.'
+          Unlocked:
+          - '&7'
+          - '&8 â–ª &7Durum: &aâœ”'
+          - ''
+          - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+        Material: CACTUS
+      Teleport Stick:
+        Name: '&9 IÅŸÄ±nlanma CihazÄ±'
+        Cooldown: 5
+        Mystery Dust: 18
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+          Locked:
+          - ''
+          - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+          - '&7 Ã§Ä±kartabilirsin.'
+          - ''
+          - '&8 â–ª &7Durum: &câœ•'
+          - ''
+          - '&c &nBunu kullanamazsÄ±n.'
+          Unlocked:
+          - '&7'
+          - '&8 â–ª &7Durum: &aâœ”'
+          - ''
+          - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+        Range: 30
+        Material: STICK
+      Fire Trail:
+        Name: '&9 Yanan Adam'
+        Cooldown: 50
+        Mystery Dust: 20
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+          Locked:
+          - ''
+          - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+          - '&7 Ã§Ä±kartabilirsin.'
+          - ''
+          - '&8 â–ª &7Durum: &câœ•'
+          - ''
+          - '&c &nBunu kullanamazsÄ±n.'
+          Unlocked:
+          - '&7'
+          - '&8 â–ª &7Durum: &aâœ”'
+          - ''
+          - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+        Material: BLAZE_POWDER
+      Paint Trail:
+        Name: '&9 Rengarenk Adam'
+        Cooldown: 35
+        Mystery Dust: 22
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+          Locked:
+          - ''
+          - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+          - '&7 Ã§Ä±kartabilirsin.'
+          - ''
+          - '&8 â–ª &7Durum: &câœ•'
+          - ''
+          - '&c &nBunu kullanamazsÄ±n.'
+          Unlocked:
+          - '&7'
+          - '&8 â–ª &7Durum: &aâœ”'
+          - ''
+          - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+        Material: MAGENTA_DYE
+        Blacklist:
+        - SPAWNER
+      Parachute:
+        Name: '&5 ParaÅŸÃ¼t'
+        Cooldown: 60
+        Mystery Dust: 40
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+          Locked:
+          - ''
+          - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+          - '&7 Ã§Ä±kartabilirsin.'
+          - ''
+          - '&8 â–ª &7Durum: &câœ•'
+          - ''
+          - '&c &nBunu kullanamazsÄ±n.'
+          Unlocked:
+          - '&7'
+          - '&8 â–ª &7Durum: &aâœ”'
+          - ''
+          - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+        Material: LEAD
+      Teleporter:
+        Name: '&5 IÅŸÄ±nlan'
+        Cooldown: 30
+        Mystery Dust: 45
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Messages:
+          Initiating-Teleport-Sequence: '&3Kozmetik &8Â» &e&lIÅŸÄ±nlanma dizisi baÅŸlatÄ±lÄ±yor.
+            LÃ¼tfen bekleyin!'
+          Scanning-Players: '&3Kozmetik &8Â» &e&lOyuncular aranÄ±yor.'
+          Target-Acquired: '&3Kozmetik &8Â» &e&lHedef Edilen: &k&lSALLA&e&l!'
+          Teleport-Initiating: '&3Kozmetik &8Â» &e&lKemerini baÄŸla Ä±ÅŸÄ±nlanma iÅŸlemi
+            baÅŸlatÄ±lÄ±yor.'
+          Teleport-Complete: '&3Kozmetik &8Â» &e&lIÅŸÄ±nlanma tamamlandÄ±! HÄ±zlÄ±
+            Seyahati kullandÄ±ÄŸÄ±nÄ±z iÃ§in teÅŸekkÃ¼r ederiz!'
+          Process-Failed: '&3Kozmetik &8Â» &cGeÃ§erli hedef bulunamadÄ±. IÅŸÄ±nlanma
+            iÅŸlemi durduruldu.'
+          Aborted-Teleport-Sequence: '&3Kozmetik &8Â» &cSÄ±ra olduÄŸu iÃ§in iÅŸleminiz
+            iptal edildi.'
+        Lore:
+          Locked:
+          - ''
+          - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+          - '&7 Ã§Ä±kartabilirsin.'
+          - ''
+          - '&8 â–ª &7Durum: &câœ•'
+          - ''
+          - '&c &nBunu kullanamazsÄ±n.'
+          Unlocked:
+          - '&7'
+          - '&8 â–ª &7Durum: &aâœ”'
+          - ''
+          - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+        Material: ENDER_EYE
+      Rocket:
+        Name: '&6 Roket'
+        Cooldown: 120
+        Mystery Dust: 125
+        Rarity: Legendary
+        Enabled: false
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+          Locked:
+          - ''
+          - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+          - '&7 Ã§Ä±kartabilirsin.'
+          - ''
+          - '&8 â–ª &7Durum: &câœ•'
+          - ''
+          - '&c &nBunu kullanamazsÄ±n.'
+          Unlocked:
+          - '&7'
+          - '&8 â–ª &7Durum: &aâœ”'
+          - ''
+          - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+        Material: FIREWORK_ROCKET
+      Let It Snow:
+        Name: '&9 Kar YaÄŸÄ±yor'
+        Cooldown: 80
+        Mystery Dust: 60
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+          Locked:
+          - ''
+          - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+          - '&7 Ã§Ä±kartabilirsin.'
+          - ''
+          - '&8 â–ª &7Durum: &câœ•'
+          - ''
+          - '&c &nBunu kullanamazsÄ±n.'
+          Unlocked:
+          - '&7'
+          - '&8 â–ª &7Durum: &aâœ”'
+          - ''
+          - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+        Material: SNOW_BLOCK
+    Material: GOLDEN_BOOTS
+    GUI-Name: Hareketli
+  Musical:
+    Name: '&b MÃ¼zik'
+    Enabled: true
+    Lore: ''
+    Types:
+      Jukebox:
+        Name: '&5 Å�arkÄ± Dinle'
+        Cooldown: 3
+        Mystery Dust: 52
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+          Locked:
+          - ''
+          - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+          - '&7 Ã§Ä±kartabilirsin.'
+          - ''
+          - '&8 â–ª &7Durum: &câœ•'
+          - ''
+          - '&c &nBunu kullanamazsÄ±n.'
+          Unlocked:
+          - '&7'
+          - '&8 â–ª &7Durum: &aâœ”'
+          - ''
+          - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+        Items:
+          GUI-Name: Mzuik Kutusu
+          Track:
+            Name: '&b {TRACK}'
+            Lore: ''
+          Stop-Track:
+            Name: '&c MÃ¼ziÄŸi Durdur'
+            Material: RED_WOOL
+            Lore: ''
+        Material: MUSIC_DISC_CAT
+      Radio:
+        Name: '&6 Radyo Dinle'
+        Cooldown: 3
+        Mystery Dust: 105
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+          Locked:
+          - ''
+          - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+          - '&7 Ã§Ä±kartabilirsin.'
+          - ''
+          - '&8 â–ª &7Durum: &câœ•'
+          - ''
+          - '&c &nBunu kullanamazsÄ±n.'
+          Unlocked:
+          - '&7'
+          - '&8 â–ª &7Durum: &aâœ”'
+          - ''
+          - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+        Items:
+          GUI-Name: Radyo
+          Track:
+            Name: '&b {TRACK}'
+            Material: NOTE_BLOCK
+            Lore: ''
+          Stop-Track:
+            Name: '&c MÃ¼ziÄŸi durdur.'
+            Material: RED_WOOL
+            Lore: ''
+        Material: MUSIC_DISC_13
+      Disco Ball:
+        Name: '&5 Disko'
+        Duration-Seconds: 60
+        Cooldown: 80
+        Mystery Dust: 60
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+          Locked:
+          - ''
+          - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+          - '&7 Ã§Ä±kartabilirsin.'
+          - ''
+          - '&8 â–ª &7Durum: &câœ•'
+          - ''
+          - '&c &nBunu kullanamazsÄ±n.'
+          Unlocked:
+          - '&7'
+          - '&8 â–ª &7Durum: &aâœ”'
+          - ''
+          - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+        Material: LIGHT_BLUE_STAINED_GLASS
+      DJ Booth:
+        Name: '&6 DJ Olma Vakti'
+        Duration-Seconds: 60
+        Cooldown: 60
+        Mystery Dust: 85
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+          Locked:
+          - ''
+          - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+          - '&7 Ã§Ä±kartabilirsin.'
+          - ''
+          - '&8 â–ª &7Durum: &câœ•'
+          - ''
+          - '&c &nBunu kullanamazsÄ±n.'
+          Unlocked:
+          - '&7'
+          - '&8 â–ª &7Durum: &aâœ”'
+          - ''
+          - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+        Material: NOTE_BLOCK
+    Material: JUKEBOX
+    GUI-Name: Musical
+  Projectile:
+    Name: '&b Mermi'
+    Enabled: true
+    Lore: ''
+    Types:
+      MobGun:
+        Name: '&9 Mob SaldÄ±rÄ±sÄ±'
+        Cooldown: 30
+        Mystery Dust: 28
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+          Locked:
+          - ''
+          - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+          - '&7 Ã§Ä±kartabilirsin.'
+          - ''
+          - '&8 â–ª &7Durum: &câœ•'
+          - ''
+          - '&c &nBunu kullanamazsÄ±n.'
+          Unlocked:
+          - '&7'
+          - '&8 â–ª &7Durum: &aâœ”'
+          - ''
+          - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+        Actionbar-Message: '{GADGET} &r- {MOB}'
+        Mob-Name:
+          Pig: Domuz
+          Villager: KÃ¶ylÃ¼
+          Ocelot: Kedi
+          Cow: Ä°nek
+          Creeper: Creeper
+          Spider: Ã–rÃ¼mcek
+          Squid: Ahtapot
+          Chicken: Tavuk
+          Sheep: Koyun
+          Wolf: Kurt
+          Witch: CadÄ±
+          Blaze: Blaze
+          Horse: At
+          Zombie: Zombi
+          Skeleton: Ä°skelet
+          MushroomCow: MantarÄ°neÄŸi
+          CaveSpider: MaÄŸaraÃ–rÃ¼mceÄŸi
+          PigZombie: ZombiDomuzAdam
+        Material: BLAZE_ROD
+      Railgun:
+        Name: '&a Tabanca'
+        Cooldown: 5
+        Mystery Dust: 16
+        Rarity: Common
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+          Locked:
+          - ''
+          - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+          - '&7 Ã§Ä±kartabilirsin.'
+          - ''
+          - '&8 â–ª &7Durum: &câœ•'
+          - ''
+          - '&c &nBunu kullanamazsÄ±n.'
+          Unlocked:
+          - '&7'
+          - '&8 â–ª &7Durum: &aâœ”'
+          - ''
+          - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+        Material: LEVER
+      Paintball Gun:
+        Name: '&a Rengarenk'
+        Radius: 3
+        Cooldown: 3
+        Mystery Dust: 10
+        Rarity: Common
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+          Locked:
+          - ''
+          - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+          - '&7 Ã§Ä±kartabilirsin.'
+          - ''
+          - '&8 â–ª &7Durum: &câœ•'
+          - ''
+          - '&c &nBunu kullanamazsÄ±n.'
+          Unlocked:
+          - '&7'
+          - '&8 â–ª &7Durum: &aâœ”'
+          - ''
+          - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+        Material: DIAMOND_HORSE_ARMOR
+        Blacklist:
+        - SAND
+        - GRAVEL
+        - SPAWNER
+      Explosive Bow:
+        Name: '&a Patlayan Ok'
+        Cooldown: 8
+        Mystery Dust: 10
+        Rarity: Common
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+          Locked:
+          - ''
+          - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+          - '&7 Ã§Ä±kartabilirsin.'
+          - ''
+          - '&8 â–ª &7Durum: &câœ•'
+          - ''
+          - '&c &nBunu kullanamazsÄ±n.'
+          Unlocked:
+          - '&7'
+          - '&8 â–ª &7Durum: &aâœ”'
+          - ''
+          - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+        Material: BOW
+      Melon Launcher:
+        Name: '&a Patlayan Kabak'
+        Cooldown: 3
+        Mystery Dust: 10
+        Rarity: Common
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+          Locked:
+          - ''
+          - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+          - '&7 Ã§Ä±kartabilirsin.'
+          - ''
+          - '&8 â–ª &7Durum: &câœ•'
+          - ''
+          - '&c &nBunu kullanamazsÄ±n.'
+          Unlocked:
+          - '&7'
+          - '&8 â–ª &7Durum: &aâœ”'
+          - ''
+          - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+        Material: MELON
+    Material: BOW
+    GUI-Name: Fiziksel
+  Visual:
+    Name: '&b GÃ¶rsel'
+    Enabled: true
+    Lore: ''
+    Types:
+      Kookie Fountain:
+        Name: '&5 Kurabiye CanavarÄ±'
+        Cooldown: 60
+        Mystery Dust: 62
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+          Locked:
+          - ''
+          - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+          - '&7 Ã§Ä±kartabilirsin.'
+          - ''
+          - '&8 â–ª &7Durum: &câœ•'
+          - ''
+          - '&c &nBunu kullanamazsÄ±n.'
+          Unlocked:
+          - '&7'
+          - '&8 â–ª &7Durum: &aâœ”'
+          - ''
+          - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+        Material: COOKIE
+      Pyromaniac:
+        Name: '&a Yanan Adam'
+        Cooldown: 30
+        Mystery Dust: 35
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+          Locked:
+          - ''
+          - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+          - '&7 Ã§Ä±kartabilirsin.'
+          - ''
+          - '&8 â–ª &7Durum: &câœ•'
+          - ''
+          - '&c &nBunu kullanamazsÄ±n.'
+          Unlocked:
+          - '&7'
+          - '&8 â–ª &7Durum: &aâœ”'
+          - ''
+          - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+        Material: FLINT_AND_STEEL
+      Diamond Shower:
+        Name: '&5 Elmas FÄ±rlatÄ±cÄ±sÄ±'
+        Cooldown: 60
+        Mystery Dust: 75
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+          Locked:
+          - ''
+          - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+          - '&7 Ã§Ä±kartabilirsin.'
+          - ''
+          - '&8 â–ª &7Durum: &câœ•'
+          - ''
+          - '&c &nBunu kullanamazsÄ±n.'
+          Unlocked:
+          - '&7'
+          - '&8 â–ª &7Durum: &aâœ”'
+          - ''
+          - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+        Material: DIAMOND
+      Gold Fountain:
+        Name: '&a AltÄ±n FÄ±rlatÄ±cÄ±sÄ±'
+        Cooldown: 60
+        Mystery Dust: 70
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+          Locked:
+          - ''
+          - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+          - '&7 Ã§Ä±kartabilirsin.'
+          - ''
+          - '&8 â–ª &7Durum: &câœ•'
+          - ''
+          - '&c &nBunu kullanamazsÄ±n.'
+          Unlocked:
+          - '&7'
+          - '&8 â–ª &7Durum: &aâœ”'
+          - ''
+          - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+        Material: GOLD_NUGGET
+      Kawarimi No Jutsu:
+        Name: '&9 GÃ¶rÃ¼nmez Adam'
+        Cooldown: 30
+        Mystery Dust: 25
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+          Locked:
+          - ''
+          - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+          - '&7 Ã§Ä±kartabilirsin.'
+          - ''
+          - '&8 â–ª &7Durum: &câœ•'
+          - ''
+          - '&c &nBunu kullanamazsÄ±n.'
+          Unlocked:
+          - '&7'
+          - '&8 â–ª &7Durum: &aâœ”'
+          - ''
+          - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+        Material: OAK_LOG
+      Cryotube:
+        Name: '&9 Buz Adam'
+        Cooldown: 45
+        Mystery Dust: 25
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+          Locked:
+          - ''
+          - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+          - '&7 Ã§Ä±kartabilirsin.'
+          - ''
+          - '&8 â–ª &7Durum: &câœ•'
+          - ''
+          - '&c &nBunu kullanamazsÄ±n.'
+          Unlocked:
+          - '&7'
+          - '&8 â–ª &7Durum: &aâœ”'
+          - ''
+          - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+        Material: SNOWBALL
+      Ghosts:
+        Name: '&9 Hayalet'
+        Cooldown: 40
+        Mystery Dust: 30
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+          Locked:
+          - ''
+          - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+          - '&7 Ã§Ä±kartabilirsin.'
+          - ''
+          - '&8 â–ª &7Durum: &câœ•'
+          - ''
+          - '&c &nBunu kullanamazsÄ±n.'
+          Unlocked:
+          - '&7'
+          - '&8 â–ª &7Durum: &aâœ”'
+          - ''
+          - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+        Material: WITHER_SKELETON_SKULL
+      Party Popper:
+        Name: '&9 Parti PatlayÄ±cÄ±sÄ±'
+        Affect-Players: true
+        Cooldown: 60
+        Mystery Dust: 50
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+          Locked:
+          - ''
+          - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+          - '&7 Ã§Ä±kartabilirsin.'
+          - ''
+          - '&8 â–ª &7Durum: &câœ•'
+          - ''
+          - '&c &nBunu kullanamazsÄ±n.'
+          Unlocked:
+          - '&7'
+          - '&8 â–ª &7Durum: &aâœ”'
+          - ''
+          - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+        Material: ENDER_CHEST
+      Poop Bomb:
+        Name: '&5 Ä°ÄŸrenÃ§ Bomba'
+        Cooldown: 40
+        Mystery Dust: 45
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+          Locked:
+          - ''
+          - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+          - '&7 Ã§Ä±kartabilirsin.'
+          - ''
+          - '&8 â–ª &7Durum: &câœ•'
+          - ''
+          - '&c &nBunu kullanamazsÄ±n.'
+          Unlocked:
+          - '&7'
+          - '&8 â–ª &7Durum: &aâœ”'
+          - ''
+          - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+        Material: COCOA_BEANS
+      TNT Fountain:
+        Name: '&6 TNT Ã‡eÅŸmesi'
+        Cooldown: 80
+        Mystery Dust: 90
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+          Locked:
+          - ''
+          - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+          - '&7 Ã§Ä±kartabilirsin.'
+          - ''
+          - '&8 â–ª &7Durum: &câœ•'
+          - ''
+          - '&c &nBunu kullanamazsÄ±n.'
+          Unlocked:
+          - '&7'
+          - '&8 â–ª &7Durum: &aâœ”'
+          - ''
+          - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+        Material: TNT
+      Dracula:
+        Name: '&a Drakula'
+        Cooldown: 30
+        Mystery Dust: 15
+        Rarity: Common
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+          Locked:
+          - ''
+          - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+          - '&7 Ã§Ä±kartabilirsin.'
+          - ''
+          - '&8 â–ª &7Durum: &câœ•'
+          - ''
+          - '&c &nBunu kullanamazsÄ±n.'
+          Unlocked:
+          - '&7'
+          - '&8 â–ª &7Durum: &aâœ”'
+          - ''
+          - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+        Material: GHAST_TEAR
+    Material: head:fec5963e1f78f2f05943f4dd32224661374c220ecfde1e54754f5ee1e555dd
+    GUI-Name: GÃ¶rsel

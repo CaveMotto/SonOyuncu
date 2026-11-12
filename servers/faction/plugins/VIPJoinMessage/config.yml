@@ -1,0 +1,19 @@
+# ##################################### #
+# VIPJOINMESSAGE VERSION: vjm-4.0       #
+# AUTHOR: Diuwz - TWITTER: @manudeew    #
+# ##################################### #
+default:
+  join:
+    enabled: 'true'
+    message: '&6Faction &7► &b%player% &eAramıza Katıldı'
+  quit:
+    enabled: 'true'
+    message: '&6Faction &7► &b%player% &eAramızdan Ayrıldı'
+join-messages:
+  priorities-and-messages:
+    '1': '&6Faction &7► &4Yönetici &c%player% &eAramıza Katıldı'
+    '2': '&6Faction &7► &eVIP &f%player% &eAramıza Katıldı'
+quit-messages:
+  priorities-and-messages:
+    '1': '&6Faction &7► &4Yönetici &c%player% &eAramızdan Ayrıldı'
+    '2': '&6Faction &7► &eVIP &f%player% &eAramızdan Ayrıldı'

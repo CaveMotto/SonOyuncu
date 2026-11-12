@@ -1,0 +1,66 @@
+command:
+	if command is "adakit":
+		if {adakit.%player%} is 1:
+			set {adakit.%player%} to 0
+		else:
+			if {adakitaldi.%player%} is 0:
+				cancel event
+				execute console command "tm msg %player% &6SkyBlock &8► &dAdaKit \n &7Adakitini almak için tekrar &a/adakit &7yaz!"
+				set {adakit.%player%} to 1
+				wait 20 real seconds 
+				set {adakit.%player%} to 0
+				stop
+			else:
+				cancel event
+				execute console command "tm msg %player% &6SkyBlock &8► &dAdaKit \n &fHakkınız bitmiştir."
+
+command /adakit:
+	trigger:
+		set {adakitaldi.%player%} to 1
+		give 128 42 to player
+		give 64 41 to player
+		give 32 57 to player
+		give 16 133 to player
+		execute console command "sellstick give %player% 1 i"
+		execute console command "itemsp ver %player% demir 5"
+		execute console command "itemsp ver %player% demirblok 3"
+		execute console command "admindirhem ver %player% 1000"
+		execute console command "eco give %player% 500000"
+		execute console command "itemsp ver %player% altin 2"
+		wait 0.1 seconds
+		execute console command "tm msg %player% &6SkyBlock &8► &dAdaKit  \n &7Adakitini &abaşarılı &7şekilde aldın."
+
+command /adakitsifirla:
+	trigger:
+		if player has permission "op":
+			set {adakitaldi.%player%} to 0
+			wait 1 tick
+			execute console command "tm msg %player% &6SkyBlock &8► &dAdaKit \n &7Adakitini &abaşarılı &7şekilde sıfırladın."
+		else:
+			execute console command "tm msg %player% &6SkyBlock &8► &eSkyBlock \n &fBunun için yetkiniz yok."
+			
+on first join:
+	set {adakitaldi.%player%} to 0
+	
+on join:
+	if {adakitaldi.%player%} is not set:
+		set {adakitaldi.%player%} to 0
+		
+		
+on join:
+	if {ucus.%player%} is not set:
+		set {ucus.%player%} to false
+
+			
+on command "/skript:adakit":
+    cancel event
+on command "/plugin":
+    cancel event
+on command "/plugins":
+    cancel event
+on command "/pl":
+    cancel event
+on command "/me":
+    cancel event
+
+

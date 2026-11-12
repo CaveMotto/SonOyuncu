@@ -1,0 +1,207 @@
+# BedWars1058-MapSelector v1.4.2 made by [itz_leoo].
+# Dependencies: [].
+# Soft Dependencies: [BedWarsProxy, BedWars1058, PlaceholderAPI].
+# Read the wiki: https://leo18bernese.gitbook.io/bedwars1058-mapselector/
+# Join my discord for support: https://pixelstudios.dev/discord
+# Storage methods: MySQL / SQLite.
+
+map-selector:
+  debug: false
+  storage: SQLite
+  last-date: 13
+  messages:
+    open:
+      group-doesnt-exists: '&cThis group doesn''t exists'
+      missing: '&cUse: /bwmenu <group>'
+      missing2: '&cUse: /bwmap <group>'
+    reload:
+      success: '&aConfiguration reloaded!'
+    reset-uses:
+      missing: '&cUse: /bwselector resetuses <player>'
+      not-found: '&cPlayer not found!'
+      success: '&aReset uses of {player}!'
+    set-uses:
+      missing: '&cUse: /bwselector setuses <player> <uses>'
+      not-found: '&cPlayer not found!'
+      success: '&aSet uses of {player} to {uses}!'
+    limit-reached: '&cYou''ve reached your limit of daily map selections today!'
+    no-favorites-maps: '&cYou don''t have any favorite maps'
+    no-maps: '&cThere aren''t any available arenas of this group'
+    not-party-leader: '&cYou can''t join arenas because your aren''t the leader of
+      your party'
+  selections:
+    permission: bwselector.selector
+    unlimited-message: Unlimited
+    selections:
+      default:
+        permission: bwselector.default
+        daily-uses: 3
+        unlimited: false
+      mvp+:
+        permission: bwselector.mvp+
+        daily-uses: 0
+        unlimited: true
+      admin:
+        permission: bwselector.admin
+        daily-uses: 0
+        unlimited: true
+  menus:
+    bedwars-menu:
+      title: '&8Bedwars Oyna '
+      slots: 27
+      items:
+        join-random:
+          material: BED
+          amount: 1
+          enchanted: false
+          slot: 12
+          name: '&aBedwars ({groupName})'
+          lore:
+          - ''
+          - '&eOynamak iÃ§in tÄ±kla!'
+        map-selector:
+          material: GRASS
+          amount: 1
+          enchanted: false
+          slot: 14
+          name: '&aHarita SeÃ§ici ({groupName})'
+          lore:
+          - ''
+          - '&eHarita seÃ§mek iÃ§in tÄ±kla!'
+        close:
+          material: BARRIER
+          amount: 1
+          enchanted: false
+          slot: 38
+          name: '&cClose'
+          lore: []
+        rejoin:
+          material: ENDER_PEARL
+          amount: 1
+          enchanted: false
+          slot: 26
+          name: '&eTekrar giriÅŸ yap'
+          lore:
+          - ''
+          - '&7YarÄ±m kaldÄ±ÄŸÄ±n oyuna'
+          - '&7tekrar giriÅŸ yapabilirsin.'
+          - ''
+          - '&eTekrar girmek iÃ§in tÄ±klayÄ±n!'
+        practice:
+          material: BED
+          amount: 1
+          enchanted: false
+          slot: 37
+          name: '&aPractice'
+          lore:
+          - '&7Improve your gameplay by'
+          - '&7practicing different aspects of'
+          - '&7Bed Wars!'
+          - ''
+          - '&eClick to view modes!'
+    maps-menu:
+      title: '&8Bedwars Harita'
+      slots: 54
+      maps-slots: 10,11,12,13,14,15,16,19,20,21,22,23,24,25,28,29,30,31,32,33,34
+      items:
+        map:
+          material: GRASS
+          amount: 1
+          enchanted: false
+          slot: 0
+          name: '&e{mapName}'
+          lore:
+          - '&8{groupName}'
+          - ''
+          - '&7Kalan Limit: &a{selectionsType}'
+          - '&7Aktif: &a{availableGames}'
+          - ''
+          - '&eOynamak iÃ§in tÄ±klayÄ±n!'
+          - '&eFavorilere eklemek iÃ§in saÄŸ tÄ±klayÄ±n!'
+        map-favorite:
+          material: GRASS
+          amount: 1
+          enchanted: true
+          slot: 0
+          name: '&6âœ« &e{mapName}'
+          lore:
+          - '&8{groupName}'
+          - ''
+          - '&7Kalan Limit: &a{selectionsType}'
+          - '&7Aktif: &a{availableGames}'
+          - ''
+          - '&eOynamak iÃ§in tÄ±klayÄ±n!'
+          - '&eFavorilere silmek iÃ§in saÄŸ tÄ±klayÄ±n!'
+        map-no-permissions-no-uses:
+          material: SULPHUR
+          amount: 1
+          enchanted: false
+          slot: 0
+          name: '&a{mapName}'
+          lore:
+          - '&8{groupName}'
+          - ''
+          - '&7Kalan Limit: &a{selectionsType}'
+          - '&7Aktif: &a{availableGames}'
+          - ''
+          - '&eOynamak iÃ§in tÄ±klayÄ±n!'
+          - '&cFavorilere ekleme yetkin yok'
+        random-map:
+          material: FIREWORK
+          amount: 1
+          enchanted: false
+          slot: 39
+          name: '&aRastgele Harita'
+          lore:
+          - '&8{groupName}'
+          - ''
+          - '&7Kalan Limit: &a{selectionsType}'
+          - ''
+          - '&eOynamak iÃ§in tÄ±klayÄ±n!'
+        random-favourite:
+          material: DIAMOND
+          amount: 1
+          enchanted: false
+          slot: 41
+          name: '&aRastgele Favori Harita'
+          lore:
+          - '&8{groupName}'
+          - ''
+          - '&7Kalan Limit: &a{selectionsType}'
+          - ''
+          - '&eOynamak iÃ§in tÄ±klayÄ±n!'
+        back:
+          material: ARROW
+          amount: 1
+          enchanted: false
+          slot: 44
+          name: '&aBack'
+          lore: []
+        next-page:
+          material: ARROW
+          amount: 1
+          enchanted: false
+          slot: 26
+          name: '&eYeni Sayfa'
+          lore: []
+        previous-page:
+          material: ARROW
+          amount: 1
+          enchanted: false
+          slot: 18
+          name: '&eEski Sayfa'
+          lore: []
+        book:
+          material: BOOK
+          amount: 1
+          enchanted: false
+          slot: 70
+          name: '&aMap Selection'
+          lore:
+          - '&7Each day you can choose which'
+          - '&7map you want to play 1 time.'
+          - '&7Unlock unlimited map selection!'
+          - '&7by upgrading to &bMVP&c+ &7rank'
+          - '&7on our store!'
+          - ''
+          - '&ehttps://store.myserver.net!'

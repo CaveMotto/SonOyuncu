@@ -1,0 +1,84 @@
+# Help translate this file into more languages!
+Messages:
+  Prefix: '&7[&6BetterRTP&7] '
+  Success:
+    Paid: '&aZostaÃ…â€šeÃ…â€º przeniesiony do&7 x=%x% y=%y% z=%z% za &c$%price%&7!'
+    Bypass: '&aZostaÃ…â€šeÃ…â€º przeniesiony do&7 x=%x% y=%y% z=%z%'
+    Loading: '&aZnaleziono bezpiecznÃ„â€¦ strefÃ„â„¢! &7Ã…ï¿½adowanie chunkÃƒÂ³w...'
+    Teleport: '&aTeleportujÃ„â„¢... &fproszÃ„â„¢ czekaÃ„â€¡ aÃ…Â¼ znajdziemy bezpiecznÃ„â€¦
+      lokacjÃ„â„¢!'
+  Failed:
+    Price: '&cNie udaÃ…â€šo siÃ„â„¢ wykonaÃ„â€¡ losowej teleportacji z powodu niewystarczajÃ„â€¦cych
+      Ã…â€ºrodkÃƒÂ³w! &7Musisz mieÃ„â€¡ przynajmniej $%price% &7by siÃ„â„¢ teleportowaÃ„â€¡!'
+    NotSafe: '&cNie udaÃ…â€šo siÃ„â„¢ znaleÃ…Âº bezpiecznego miejsca po %attempts%
+      prÃƒÂ³bach! &7Nie zostaÃ…â€šeÃ…â€º przeniesiony!'
+    Hunger: '&cNie udaÃ…â€šo siÃ„â„¢ wykonaÃ„â€¡ losowej teleportacji, poniewaÃ…Â¼
+      jesteÃ…â€º &7zbyt gÃ…â€šodny&c, zjedz coÃ…â€º!'
+  Other:
+    Success: '&a%player% zostaÃ…â€š przeteleportowany do&7 x=%x% y=%y% z=%z%!'
+    NotSafe: '&cNie udaÃ…â€šo siÃ„â„¢ znaleÃ…ÂºÃ„â€¡ bezpiecznego miejsca po %attempts%
+      prÃƒÂ³bach! &7%player% nie zostaÃ…â€š przeteleportowany!'
+    Biome: '&cWyglÃ„â€¦da na to, Ã…Â¼e biom&7 %biome%&c nie istnieje! &7SprÃƒÂ³buj
+      uÃ…Â¼yÃ„â€¡ biomu z listy!'
+  Reload: '&ePrzeÃ…â€šadowano konfiguracjÃ„â„¢!'
+  NoPermission:
+    Basic: '&cHej! &7Nie masz uprawnieÃ…â€� do tej komendy! &8Permission: %permission%'
+    World: '&cHej! &7Nie masz uprawnieÃ…â€� aby wykonaÃ„â€¡ losowÃ„â€¦ teleoprtacjÃ„â„¢
+      w Ã…â€ºwiecie %world%! &8Permission: %permission%'
+  DisabledWorld: '&cÃ…Å¡wiat %world% jest wyÃ…â€šÃ„â€¦czony! &7Nie udaÃ…â€šo siÃ„â„¢
+    wykonaÃ„â€¡ losowej teleportacji!'
+  Cooldown: '&cWybacz! &7Nie moÃ…Â¼esz wykonaÃ„â€¡ losowej teleportacji przez nastÃ„â„¢pne
+    &c%time%&7!'
+  Locked: '&cWybacz! &7WykorzystaÃ…â€šeÃ…â€º wszystkie losowe teleportacje!'
+  Invalid: '&cNiewÃ…â€šaÃ…â€ºciwy argument. SprÃƒÂ³buj ''/%command% help'''
+  NotOnline: '&cGraz &7%player% &cnie jest online!'
+  Delay: '&aTeleportacja za &f%time% &asekund! Nie ruszaj siÃ„â„¢!'
+  Moved: '&cPoruszyÃ…â€šeÃ…â€º siÃ„â„¢! &7Teleportacja zostaÃ…â€ša odwoÃ…â€šana!'
+  NotExist: '&cWyglÃ„â€¦da na to, Ã…Â¼e Ã…â€ºwiat &7%world% &cnie istnieje!'
+  Already: '&cUps! &7WyglÃ„â€¦da na to, Ã…Â¼e jesteÃ…â€º juÃ…Â¼ podczas losowej teleportacji,
+    cierpliwoÃ…â€ºci!'
+  Sign: '&7Tabliczka z komendÃ„â€¦ utworzony! &7KomendÃ„â€¦ jest... ''&f/rtp %command%&7'''
+  Edit:
+    Error: '&cBÃ…â€šÃ„â€¦d! &7Wpisano niewÃ…â€šaÃ…â€ºciwÃ„â€¦ wartoÃ…â€ºÃ„â€¡!'
+    Set: '&bSukces! &7%type% ustawiony na %value%'
+    Remove: '&cUsuniÃ„â„¢to! &7UsunÃ„â€¦Ã…â€šeÃ…â€º niestandardowy Ã…â€ºwiat %world%'
+Help:
+  Prefix: '&e&m-----&6&l BetterRTP &8| Pomoc &e&m-----'
+  Main: ' &7- &e/%command% &7- Wkonuje losowÃ„â€¦ teleportacjÃ„â„¢!'
+  Biome: ' &7- &e/%command% biome <biome1, biome2...> &7- Losowo teleportuje do ktÃƒÂ³regoÃ…â€º
+    z biomÃƒÂ³w'
+  Edit: ' &7- &e/%command% edit <default/world> [args...] &7- Edytuje niektÃƒÂ³re
+    ustawienia pluginu'
+  Help: ' &7- &e/%command% help &7- Pokazuje listÃ„â„¢ z pomocÃ„â€¦'
+  Info: ' &7- &e/%command% info [world/particles/shapes/potion_effects] &7- Pokazuje
+    wybrane informacje o parametrach pluginu'
+  Player: ' &7- &e/%command% player <player> [world] [biome1, biome2...] &7- Losowo
+    teleportuje innego gracza'
+  Reload: ' &7- &e/%command% reload &7- PrzeÃ…â€šadowuje plugin'
+  Settings: ' &7- &e/%command% settings &7- Pokazuje GUI z ustawieniami'
+  Test: ' &7- &e/%command% test &7- Testuje efekty teleportacji bez ruszania siÃ„â„¢
+    z miejsca'
+  Version: ' &7- &e/%command% version &7- Pokazuje wersjÃ„â„¢ pluginu'
+  World: ' &7- &e/%command% world <world> [biome1, biome2...] &7- Losowo teleportuj
+    do innego Ã…â€ºwiata'
+  Location: ' &7- &e/%command% location <location_name> &7- Przenosi w podanÃ„â€¦
+    lokalizacjÃ„â„¢'
+Usage:
+  Player: '&cUÃ…Â¼ycie&7: /%command% player <player> [world] [biome1, biome2]'
+  World: '&cUÃ…Â¼ycie&7: /%command% world <world> [biome1, biome2...]'
+  Biome: '&cUÃ…Â¼ycie&7: /%command% biome <biome1, biome2...>'
+  Location: '&cUÃ…Â¼ycie&7: /%command% location <location_name>'
+  Edit:
+    Base: '&cUÃ…Â¼ycie&7: /%command% edit <default/world> [args...]'
+    Default: '&cUÃ…Â¼ycie&7: /%command% edit default <max/min/useworldborder/center>
+      <value>'
+    World: '&cUÃ…Â¼ycie&7: /%command% edit world <world> <max/min/useworldborder/center>
+      <value>'
+    PermissionGroup: '&cUsage&7: /%command% edit permission_group <group> <world>
+      <max/min/useworldborder/center> <value>'
+    Location: '&cUsage&7: /%command% edit location <location_name> <max/min/useworldborder/center>
+      <value>'
+    Worldtype: '&cUÃ…Â¼ycie&7: /%command% edit world_type <world> <NETHER/NORMAL>'
+    Override: '&cUÃ…Â¼ycie&7: /%command% edit override <world> <world_to>'
+    BlacklistedBlocks: '&cUÃ…Â¼ycie&7: /%command% edit blacklistedblocks <add/remove>
+      <block_id>'

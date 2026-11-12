@@ -1,0 +1,71 @@
+options:
+    dunya: Kozmik
+    saniye: 60
+    fiyat: 25000
+    maxbilet: 1000
+    prefix: &6Skyblock &8►
+    
+    
+on join:
+    {bilet::%player%} is not set
+    set {bilet::%player%} to 0
+
+command /biletal:
+    trigger:
+        if player's balance is bigger than or equal to {@fiyat}:
+            remove {@fiyat} from player's balance
+            add +1 to {bilet::%player%}
+            send "{@prefix} &b25.000 Dinar &ekarşılığında &d1 &eadet bilet verildi. Toplam bilet: &c%{bilet::%player%}%"
+        else:
+            send "{@prefix} &cYetersiz Dinar'ın var. Sana 25.000 Dinar Lazım"
+
+command /kozmik-ışınlan:
+    trigger:
+        if {bilet::%player%} is bigger than 0:
+            remove 1 from {bilet::%player%}
+            teleport player to {maden}
+            send "{@prefix} &bKozmik &eMağarasına ışınlandınız dikkatli olunuz"
+        else:
+            send "{@prefix} &eBiletsiz giriş yapamazsınız!"
+
+on world change:
+    wait 2 tick
+    if player's world is "{@dunya}":
+        set {_x} to {@saniye} / 29
+        set {_s} to {@saniye}
+        loop {_s} times:
+            if player's world is not "{@dunya}":
+                stop loop
+            set {_a} to ({_s} - ({_s} mod {_x}) / {_x})
+            set {_b} to 29 - {_a}
+            set {_text} to ""
+            loop {_a} times:
+                set {_text} to "%{_text}%&b▋"
+            loop {_b} times:
+                set {_text} to "%{_text}%&3▋"
+            set action bar of player to "&6Skyblock &8► %{_text}% &d%{_s}% &esaniye var"
+            remove 1 from {_s}
+            wait 1 second
+            if {_s} is smaller than 1:
+                teleport player to {spawn}
+                send "&6Skyblock &8► &eSüreniz doldu ve spawn'a aktarıldın"
+                send "&6Skyblock &8► &eSüreniz doldu ve spawn'a aktarıldın"
+                stop loop
+                
+on load:
+    loop all players:
+        delete {bilet::%loop-player%}
+                
+
+command /alanbelirle [<text>]:
+    trigger:
+        if player is op:
+            if arg 1 is "spawn":
+                set {spawn} to player's location
+                send "&7Spawn belirlendi: &f%player's location%"
+            else if arg 1 is "maden":
+                set {maden} to player's location
+                send "&7Maden belirlendi: &f%player's location%"
+            else:
+                send "&7/alanbelirle maden / spawn"
+				

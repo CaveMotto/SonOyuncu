@@ -1,0 +1,24 @@
+mine:
+  ==: com.koletar.jj.mineresetlite.Mine
+  resetDelay: 60
+  surface: ''
+  maxZ: -191
+  maxY: 85
+  maxX: 291
+  ignoreLadders: false
+  fillMode: false
+  world: MVIP+-Kazi
+  minY: 46
+  resetWarnings: []
+  minX: 265
+  composition:
+    '57:0': 0.4
+    '41:0': 0.2
+    '133:0': 0.4
+  name: mvip+
+  resetClock: 23
+  minZ: -217
+  isSilent: false
+  tpY: -1
+  tpX: 0
+  tpZ: 0

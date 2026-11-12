@@ -1,0 +1,172 @@
+No_Permissions: '&6Survival &8Ã¢â€“Âº &eBunun iÃƒÂ§in yetkin bulunmuyor!'
+Only_for_Player: '&cOnly for players!'
+No_Money: '&6Survival &8Ã¢â€“Âº &eYeteri kadar paran yok!'
+Enter_Correct_Amount: '&6Survival &8Ã¢â€“Âº &eLÃƒÂ¼tfen geÃƒÂ§erli bir miktar girin.'
+Only_X_Amount: '&7You only have &c%amount% %type%&7!'
+Trade_Was_Cancelled: '&6Survival &8Ã¢â€“Âº &eticaret iptal edildi.'
+Trade_Was_Finished: '&6Survival &8Ã¢â€“Âº &eticaret &atamamlandÃ„Â±&7.'
+Cannot_Trade_With_Yourself: '&6Survival &8Ã¢â€“Âº &eKendinle ticaret yapamazsÃ„Â±n.'
+Player_Not_Online: '&6Survival &8Ã¢â€“Âº &eBu oyuncu aktif deÃ„Å¸il.'
+Want_To_Trade: \n &e&l&m--------------&6 &6Ticaret &e&l&m--------------&6\n \n     &e%player% &eadlÃ„Â± oyuncu ticarette bulunmaktadÃ„Â±r.\n\n                        &a&l%accept%    &c&l%deny%\n\n &e&l&m--------------&6 &6Ticaret &e&l&m--------------&6 \n
+Want_To_Trade_Accept: '&aONAYLA'
+Want_To_Trade_Deny: '&cIPTAL'
+Want_To_Trade_Hover: '&8Ã‚Â» TÃ„Â±kla Ã‚Â«'
+Player_Is_Invited: '&c%player% &7adlÃ„Â± oyuncuya istek gÃƒÂ¶nderildi.'
+Command_How_To: \n &e&l&m--------------&6 &6Ticaret &e&l&m--------------&6\n \n &6/ticaret (oyuncu) &7- &eOyuncuya ticaret isteÃ„Å¸i bulunursunuz.\n &6/ticaret kabul &7- &eOyuncunun ticaret isteÃ„Å¸ini kabuledersin.\n &6/ticaret iptal &7- &eOyuncunun ticaret isteÃ„Å¸ini &ciptal &eedersin.\n &6/ticaret istek &7- &eÃ„Â°stekleri gelmesini aÃƒÂ§Ã„Â±p veya kapatÃ„Â±rsÃ„Â±n. \n \n &e&l&m--------------&6 &6Ticaret &e&l&m--------------&6 \n
+Command_How_To_Accept: '&6Survival &8Ã¢â€“Âº &7Komut: /ticaret kabul <Oyuncu>'
+Command_How_To_Deny: '&6Survival &8Ã¢â€“Âº &7Komut: /ticaret iptal <Oyuncu>'
+Player_Of_Request_Not_Online: '&6Survival &8Ã¢â€“Âº &eticaret teklifi yollayan oyuncu
+  artÃ„Â±k aktif deÃ„Å¸il!'
+Request_Accepted: '&6Survival &8Ã¢â€“Âº &eticaret isteÃ„Å¸ini kabul ettiniz.'
+Request_Was_Accepted: '&6Survival &8Ã¢â€“Âº &d%player% &7eyolladÃ„Â±Ã„Å¸Ã„Â±nÃ„Â±z
+  ticaret iteÃ„Å¸i kabul edildi.'
+Request_Denied: '&6Survival &8Ã¢â€“Âº &eticaret isteÃ„Å¸ini reddettiniz.'
+Request_Was_Denied: '&6Survival &8Ã¢â€“Âº &b%player% &eyolladÃ„Â±Ã„Å¸Ã„Â±nÃ„Â±z ticaret
+  isteÃ„Å¸i reddedildi.'
+No_Request_Found: '&6Survival &8Ã¢â€“Âº &eBu oyuncudan herhangi bir ticaret teklifi
+  almadÃ„Â±nÃ„Â±z!'
+No_Requests_Found: '&6Survival &8Ã¢â€“Âº &eSize yollanan herhangi bir ticaret teklifi
+  yok!'
+Too_many_requests: '&6Survival &8Ã¢â€“Âº &eSize gelen bir ÃƒÂ§ok ticaret isteÃ„Å¸i
+  var&7, lÃƒÂ¼tfen oyuncunun ismini belirtin.'
+GUI_Title: '&3%player% &b%tradesystem_countdown_fancy% '
+Money_Amount: Para miktarÃ„Â±
+Coin: Para
+Coins: Para
+PlayerPoint: PlayerPoint
+PlayerPoints: PlayerPoints
+Token: Token
+Tokens: Tokens
+ClaimBlock: ClaimBlock
+ClaimBlocks: ClaimBlocks
+Status: Durum
+Ready: HazÃ„Â±r
+Not_Ready: HazÃ„Â±r deÃ„Å¸il
+Wait_For_Other_Player: Ãƒâ€“teki oyuncuyu bekleyin...
+Trade_Only_With_Objects: ticaretÃ„Â± tamamlamak iÃƒÂ§in bir Ã…Å¸eyler eklemelisiniz.
+Click_To_Change: DeÃ„Å¸iÃ…Å¸tirmek iÃƒÂ§in tÃ„Â±klayÃ„Â±n
+Cancel_Trade: Ã„Â°ptal etmek iÃƒÂ§in tÃ„Â±klayÃ„Â±n
+Not_Able_To_Trade: ticaret yapamÃ„Â±yorsunuz.
+Player_Is_Not_Able_Trade: Bu oyuncu ticaret yapamÃ„Â±yor.
+TRADE_EDITOR: EditÃƒÂ¶r - ticaret
+TRADE_EDITOR_FUNCTIONS: EditÃƒÂ¶r - Fonksiyonlar
+EDITOR_RESET: GeÃƒÂ§ici olarak kaydedilen guiniz sÃ„Â±fÃ„Â±rlandÃ„Â±.
+Editor_Command_How_To: '&7Komut: /ticaretEditor [reset]'
+Editor_Not_Empty: ArayÃƒÂ¼zde boÃ…Å¸ yer yok!
+Editor_No_Item: ArayÃƒÂ¼zde eÃ…Å¸ya yok!
+Layout_Name: ArayÃƒÂ¼z-ismi
+Layout_Name_Already_Exists: Bu arayÃƒÂ¼z ismi zaten alÃ„Â±nmÃ„Â±Ã…Å¸!
+Layout_Finished: ArayÃƒÂ¼z&a baÃ…Å¸arÃ„Â±lÃ„Â± bir Ã…Å¸ekilde&7 oluÃ…Å¸turuldu.
+Layout_Edited: ArayÃƒÂ¼z &abaÃ…Å¸arÃ„Â±lÃ„Â± bir Ã…Å¸ekilde&7 deÃ„Å¸iÃ…Å¸tirildi.
+Layout_Editor: '&9ArayÃƒÂ¼z &8- &9EditÃƒÂ¶r'
+Save: Kaydet
+Not_Ready_For_Saving: '&cArayÃƒÂ¼z Ã…Å¸u anlÃ„Â±k kaydedilemez'
+Items: EÃ…Å¸yalar
+Set: HazÃ„Â±r
+Not_Set: HazÃ„Â±r deÃ„Å¸il
+Functions: Ã„Â°konlar
+Name: Ad
+Ambiguous_Functions: DeÃ„Å¸iÃ…Å¸ken ikonlar
+Layout_Set_Items: Guideki ikonlarÃ„Â±n yerlerini belirleyin/dÃƒÂ¼zenleyin
+Layout_Set_Functions: Ã„Â°konlarÃ„Â± ayarlayÃ„Â±n
+Layout_Set_Name: ArayÃƒÂ¼z ismi belirlerin
+Layout_Set_Ambiguous_Functions: DeÃ„Å¸iÃ…Å¸ken ikonlarÃ„Â± ayarlayÃ„Â±n.
+Layout_Editor_Set_Items: '&cDevam etmek iÃƒÂ§in kapayÃ„Â±n'
+Back: Geri
+Trader: Siz
+Other: ticaret Partneri
+Layout_Set_Own_Slots: Kendi ticaret slotlarÃ„Â±nÃ„Â± belirle
+Layout_Set_Other_Slots: Partnerinin ticaret slotlarÃ„Â±nÃ„Â± belirle
+Layout_Set_Cancel: Ã„Â°ptal etme tuÃ…Å¸u ayarla
+Layout_Set_Other_Not_Ready: Partnerin iÃƒÂ§in hazÃ„Â±r deÃ„Å¸il tuÃ…Å¸u ayarla
+Layout_Set_Status: Kendi hazÃ„Â±r verme/hazÃ„Â±r olmama tuÃ…Å¸unu ayarla
+Layout_Set_Money: Kendi para tuÃ…Å¸unu ayarla
+Layout_Set_Other_Money: Partnerinin para tuÃ…Å¸unu ayarla
+Help_TradeSystem: '&7Komut: &e/%label% <layout, reload>'
+Help_TradeSystem_Layout: '&7Komut: &e/%label% layout <create, edit, delete, activate>'
+Help_TradeSystem_Layout_Create: '&7Use &e/%label% layout create <name> [9..54]'
+Help_TradeSystem_Layout_Activate: '&7Komut: &e/%label% layout activate <name>'
+Help_TradeSystem_Layout_Delete: '&7Komut: &e/%label% layout delete <name>'
+Help_TradeSystem_Layout_Edit: '&7Komut: &e/%label% layout edit <name>'
+Layout_Does_Not_Exist: '&6Survival &8Ã¢â€“Âº &eBÃƒÂ¶yle bir arayÃƒÂ¼z yok!'
+Layout_Activated: '&6Survival &8Ã¢â€“Âº &b%name%&e arayÃƒÂ¼zÃƒÂ¼ &aaktive edildi&7.'
+Layout_Deleted: '&6Survival &8Ã¢â€“Âº &b%name%&e arayÃƒÂ¼zÃƒÂ¼ &csilindi&7.'
+Enter_Correct_Name_Space: '&6Survival &8Ã¢â€“Âº &eLÃƒÂ¼tfen boÃ…Å¸luk kullanmayÃ„Â±n.'
+Sure_That_You_Want_To_Loose_Your_Data: '&6Survival &8Ã¢â€“Âº &eDeÃ„Å¸iÃ…Å¸iklikleri
+  kaydetmek istemediÃ„Å¸inden emin misin?'
+Close: Kapat
+Layout_Already_Activated: '&6Survival &8Ã¢â€“Âº &eBu arayÃƒÂ¼z zaten aktif!'
+Layout_Set_Replacement_For_Money: '&6Survival &8Ã¢â€“Âº &eHiÃƒÂ§bir ekonomi plugini
+  tespit edilemediÃ„Å¸inde para iÃ…Å¸areti ile yer deÃ„Å¸iÃ…Å¸terecek ikon.'
+Layout_Hint_Same_Slot_Amount: '&6Survival &8Ã¢â€“Âº &eÃ„Â°ki tarafÃ„Â±n da eÃ…Å¸it
+  miktarda ticaret slotu olmalÃ„Â±!'
+Current_Amount: Ã…ï¿½u anki miktar
+Trade_Spam: '&6Survival &8Ã¢â€“Âº &eBu oyuncu zaten bir ticaret teklifi aldÃ„Â±!'
+Plugin_Reloading: '&ePlugin yenileniyor/reloadlanÃ„Â±yor...'
+Success_Plugin_Reloaded: '&ePlugin yenilendi/reloadlandÃ„Â±.'
+Player_is_not_in_range: '&6Survival &8Ã¢â€“Âº &d%player% &eadlÃ„Â± oyuncu ticaret
+  yapmak iÃƒÂ§in ÃƒÂ§ok uzakta!'
+Cannot_trade_in_that_GameMode: '&6Survival &8Ã¢â€“Âº &eÃ…ï¿½u anki oyun modunuzda
+  ticaret yapamazsÃ„Â±nÃ„Â±z&7!'
+Other_cannot_trade_in_that_GameMode: '&6Survival &8Ã¢â€“Âº &eBu oyuncu &cÃ…Å¸u anki
+  oyun modunda ticaret yapamaz!'
+Trade_cancelled_by_attack: '&6Survival &8Ã¢â€“Âº &eBiri size saldÃ„Â±rdÃ„Â±Ã„Å¸Ã„Â±
+  iÃƒÂ§in ticaret iptal oldu.'
+Trade_Partner_No_Space: '&6Survival &8Ã¢â€“Âº &eticaret parterinizin &cenvanterinde
+  yer yok&7!'
+Trade_Offline: '&6Survival &8Ã¢â€“Âº &eArtÃ„Â±k ticaret yapmaya &cticaret teklifi
+  almayacaksÃ„Â±nÃ„Â±z!'
+Trade_Online: '&6Survival &8Ã¢â€“Âº &eArtÃ„Â±k ticaret yapmaya &aticaret teklifi alabilirsin!'
+Trade_Partner_is_Offline: '&6Survival &8Ã¢â€“Âº &eBu oyuncu ticaret &cisteÃ„Å¸i almÃ„Â±yor&7.'
+Trade_You_are_Offline: '&6Survival &8Ã¢â€“Âº &eOyuncu bulunumadÃ„Â± yada baÃ…Å¸ka
+  komutmu denemeye ÃƒÂ§alÃ„Â±sÃ„Â±yorsunuz.'
+Trade_Placed_Blocked_Item: '&6Survival &8Ã¢â€“Âº &eBu item ticareta mÃƒÂ¼sait deÃ„Å¸il!'
+Cannot_trade_in_bed: '&6Survival &8Ã¢â€“Âº &eYatakta yatarken ticaret yapamazsÃ„Â±nÃ„Â±z.'
+Cannot_trade_in_world: '&6Survival &8Ã¢â€“Âº &eBu dÃƒÂ¼nyada &cticaret yapamazsÃ„Â±nÃ„Â±z
+  &a(Spawn) &edÃƒÂ¼nyasÃ„Â±nda yapÃ„Â±nÃ„Â±z.!'
+Other_cannot_trade_in_world: '&6Survival &8Ã¢â€“Âº &eBu oyuncu bu dÃƒÂ¼nyada ticaret
+  yapamaz!'
+Cannot_trade_while_invisible: '&6Survival &8Ã¢â€“Âº &dGÃƒÂ¶rÃƒÂ¼nmez&e iken ticaret
+  yapamazsÃ„Â±nÃ„Â±z!'
+Cannot_trade_in_region: '&7You &ccannot trade &7in this region!'
+Other_cannot_trade_in_region: '&7This player &ccannot trade &7in their region!'
+Other_is_already_trading: '&6Survival &8Ã¢â€“Âº &eBu oyuncu zaten Ã…Å¸u an ticaret
+  yapÃ„Â±yor!'
+Online: Aktif
+Offline: Ãƒâ€¡evrimdÃ„Â±Ã…Å¸Ã„Â±
+Your_request_expired: '&6Survival &8Ã¢â€“Âº &d%player% &eyolladÃ„Â±Ã„Å¸Ã„Â±nÃ„Â±z
+  ticaret teklifinin sÃƒÂ¼resi doldu.'
+Request_expired: '&6Survival &8Ã¢â€“Âº &d%player% &eÃ„Â±n ticaret teklifinin sÃƒÂ¼resi
+  doldu.'
+Fancy_Countdown: ' &7- &b%seconds%s'
+Economy_Error: '&6Survival &8Ã¢â€“Âº &eticaret &ciptal edildi. &eBir &cekonomi hatasÃ„Â±
+  yÃƒÂ¼zÃƒÂ¼den.'
+Items_Dropped: '&6Survival &8Ã¢â€“Âº &eEnvanteriniz dolu, bazÃ„Â± eÃ…Å¸yalar yere
+  &cbÃ„Â±rakÃ„Â±ldÃ„Â±!'
+Sign_Enter_Amount: |-
+  ^^^^^^^^
+  Enter amount
+  above
+Leftclick: Leftclick
+Rightclick: Rightclick
+Shift_Leftclick: Shift-Leftclick
+Shift_Rightclick: Shift-Rightclick
+Select: Select
+Select_Foreign_Preview: Select foreign preview
+Edit: Edit
+Edit_Variant: Edit variant
+Variant: Variant
+Cancel: Cancel
+Finish: Finish
+Levels: Levels
+Level: Level
+Too_Little_Exp: '&cYou have &cno exp to ticaret&7.'
+Exp_Points: Exp points
+Exp_Point: Exp point
+Reset: Reset
+Balance_limit_reached: '&6Survival &8Ã¢â€“Âº &eBakiyeniz yetersiz.'
+AnvilGUI_Title: Repair & Name
+Shulker_Box: Shulker Box
+Trade_Finish_Report_Receive: '  &a+ &7%object%'
+Trade_Finish_Report_Give: '  &c- &7%object%'
+Trade_Finish_Report_Object_Item: '%amount%x %item%'

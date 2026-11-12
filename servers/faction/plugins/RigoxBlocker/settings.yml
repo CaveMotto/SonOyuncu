@@ -1,0 +1,17 @@
+settings:
+  check-update: true
+  PlaceholderAPI-Support: true
+modules:
+  commandBlocker:
+    toggle: true
+    onError:
+    - '[msg][prefix]&cNe yapmaya Ã§alÄ±ÅŸÄ±yorsun?'
+    - '[msg][prefix]&eBu Komut Bu Sunucuda YasaklÄ± &a<command>'
+    - '[sound]VILLAGER_NO'
+  Block-TabCompleter:
+    toggle: false
+    fakeList:
+      toggle: false
+      list:
+      - NetworkAPI
+      - PixelMOTD

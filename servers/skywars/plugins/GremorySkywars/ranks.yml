@@ -1,0 +1,33 @@
+ranks:
+ Yönetici:
+  perm: '*'
+  tag: '&4Yönetici &c'
+  display: '&4Yönetici &c'
+ Yardımcı:
+  perm: 'laros.yardımcı'
+  tag: '&3Yardımcı &b'
+  display: '&3Yardımcı &b'
+ Moderator:
+  perm: 'laros.moderator'
+  tag: '&5Moderator &d'
+  display: '&5Moderator &d'
+ Vip:
+  perm: 'laros.vip'
+  tag: '&6VIP &f'
+  display: '&6VIP &f'
+ Vip+:
+  perm: 'laros.vip+'
+  tag: '&6VIP&c+ &f'
+  display: '&6VIP&c+ &f'
+ Mvip:
+  perm: 'laros.mvip'
+  tag: '&aMVIP &f'
+  display: '&aMVIP &f'
+ Mvip+:
+  perm: 'laros.mvip+'
+  tag: '&aMVIP&c+ &f'
+  display: '&aMVIP&c+ &f'
+ Oyuncu:
+  perm: 'none'
+  tag: '&7'
+  display: '&7'

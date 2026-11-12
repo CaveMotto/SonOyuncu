@@ -1,0 +1,246 @@
+#########
+#FORMATS#
+#########
+time-format: 'dd:HH:mm:ss'
+date-format: 'dd-MM-yyyy HH:mm:ss'
+
+
+#################
+#DIRECT MESSAGES#
+#################
+you-dont-have-permission: 'You dont have permission to do this!'
+you-cant-break: 'You cant break this block!'
+you-cant-add-member: 'The maximum number of members you can add is %count%!'
+you-are-teleporting: 'Please wait %seconds% seconds, you are teleporting to claim.'
+you-moved: 'Your teleport has been cancelled because you moved.'
+there-is-no-money: 'You dont have enough money to do this.'
+main-claim-size-out: 'The maximum size of main claims that can be received is %max%.'
+here-is-no-claimable: 'Here is not claimable area.'
+world-is-no-claimable: 'Your current world is close for claims.'
+added-member-to-claim: 'You added a member named %member_name% to your claim.'
+you-added-to-claim: 'You added to claim named %claim_name% by %player%.'
+removed-member-from-claim: 'You removed a member named %member_name% from your claim.'
+you-removed-from-claim: 'You removed from claim named %claim_name% by %player%.'
+member-is-offline: 'This player is offline, try again later!'
+member-already-exist: 'You cant add this member to the claim because this player already exist in the claim!'
+time-expire-broadcast: 'Time of %owner%''s claim at %x%, %y%, %z%, %world% is expired.'
+there-is-store-viewer: 'Someone looking at claim store for now. Please try again later.'
+someone-opened-store: 'Someone with a higher rank opened the store.'
+claim-chunk-size-out: 'The maximum size of claims chunks that can be received is %max%.'
+claim-name-too-short: 'The name of the claim must be at least 3 characters long.'
+claim-name-is-not-valid: 'The name of the claim is not valid.'
+claim-time-out: 'The maximum time that you can give to your claim is %time%.'
+cant-break-here: 'You can''t break this block, because you don''t have permission'
+cant-place-here: 'You can''t place block here, because you don''t have permission'
+cant-damage-animals-here: 'You can''t damage animals here, because you don''t have permission'
+cant-teleport-here: 'You can''t teleport here, because you don''t have permission'
+cant-interact-here: 'You can''t interact at here, because you don''t have permission'
+cant-pickup-here: 'You can''t pickup item from here, because you don''t have permission'
+cant-use-command-here: 'You can''t use this command at here, because you don''t have permission'
+cant-move-block-here: 'You can''t move your claim block here, because here is outside of your main chunk'
+
+
+#####################
+#TITLE AND GUI TEXTS#
+#####################
+claim-enter:
+  title: '&a'
+  subtitle: '&a'
+  actionbar: '&d%claim.owner.name% &7isimli oyuncunun claimine girdin.'
+claim-leave:
+  title: '&a'
+  subtitle: '&a'
+  actionbar: '&d%claim.owner.name% &7isimli oyuncunun claiminden çıktın.'
+member-status-mode:
+  active: 'Active'
+  deactive: 'Deactive'
+
+
+##################
+#WEBHOOK MESSAGES#
+##################
+claim-create-embed:
+  send-to: 'admin'
+  title: 'Claim created'
+  image: ''
+  thumbnail: 'https://www.spigotmc.org/data/resource_icons/90/90540.jpg?1616615228'
+  color: '#85e048'
+  description:
+    - 'claim named %claim.name% created'
+    - 'id: %claim.id%'
+    - 'owner: %claim.owner.name%'
+  footer:
+    text: 'Claim created'
+    icon: 'https://www.spigotmc.org/data/resource_icons/90/90540.jpg?1616615228'
+  author:
+    name: 'hClaims'
+    avatar-url: 'https://www.spigotmc.org/data/resource_icons/90/90540.jpg?1616615228'
+
+claim-delete-embed:
+  send-to: 'admin'
+  title: 'Claim deleted'
+  image: ''
+  thumbnail: 'https://www.spigotmc.org/data/resource_icons/90/90540.jpg?1616615228'
+  color: '#ed1c8f'
+  description:
+    - 'claim named %claim.name% deleted'
+    - 'id: %claim.id%'
+    - 'owner: %claim.owner.name%'
+  footer:
+    text: 'Claim deleted'
+    icon: 'https://www.spigotmc.org/data/resource_icons/90/90540.jpg?1616615228'
+  author:
+    name: 'hClaims'
+    avatar-url: 'https://www.spigotmc.org/data/resource_icons/90/90540.jpg?1616615228'
+
+claim-time-expire-embed:
+  send-to: 'player, admin'
+  title: 'Claim time expired'
+  image: ''
+  thumbnail: 'https://www.spigotmc.org/data/resource_icons/90/90540.jpg?1616615228'
+  color: '#ad9b21'
+  description:
+    - 'time of claim named %claim.name% expired'
+    - 'id: %claim.id%'
+    - 'owner: %claim.owner%'
+    - '%claim.location.world.name%, %claim.location.x%, %claim.location.y%, %claim.location.z%'
+  footer:
+    text: 'Claim time expired'
+    icon: 'https://www.spigotmc.org/data/resource_icons/90/90540.jpg?1616615228'
+  author:
+    name: 'hClaims'
+    avatar-url: 'https://www.spigotmc.org/data/resource_icons/90/90540.jpg?1616615228'
+
+claim-name-change-embed:
+  send-to: 'admin'
+  title: 'Claim name changed'
+  image: ''
+  thumbnail: 'https://www.spigotmc.org/data/resource_icons/90/90540.jpg?1616615228'
+  color: '#00c3ff'
+  description:
+    - 'name of claim named %claim.name% changed'
+    - '%old_name%'
+    - '%new_name%'
+  footer:
+    text: 'Claim name changed'
+    icon: 'https://www.spigotmc.org/data/resource_icons/90/90540.jpg?1616615228'
+  author:
+    name: 'hClaims'
+    avatar-url: 'https://www.spigotmc.org/data/resource_icons/90/90540.jpg?1616615228'
+
+claim-block-move-embed:
+  send-to: 'admin'
+  title: 'Claim block location change'
+  image: ''
+  thumbnail: 'https://www.spigotmc.org/data/resource_icons/90/90540.jpg?1616615228'
+  color: '#007599'
+  description:
+    - 'claim named %claim.name% moved another location'
+    - '%old_location%'
+    - '%new_location%'
+  footer:
+    text: 'Claim moved'
+    icon: 'https://www.spigotmc.org/data/resource_icons/90/90540.jpg?1616615228'
+  author:
+    name: 'hClaims'
+    avatar-url: 'https://www.spigotmc.org/data/resource_icons/90/90540.jpg?1616615228'
+
+claim-block-change-embed:
+  send-to: 'admin'
+  title: 'Claim block type change'
+  image: ''
+  thumbnail: 'https://www.spigotmc.org/data/resource_icons/90/90540.jpg?1616615228'
+  color: '#007599'
+  description:
+    - 'claim named %claim.name% change its block type'
+    - '%old_type%'
+    - '%new_type%'
+  footer:
+    text: 'Claim moved'
+    icon: 'https://www.spigotmc.org/data/resource_icons/90/90540.jpg?1616615228'
+  author:
+    name: 'hClaims'
+    avatar-url: 'https://www.spigotmc.org/data/resource_icons/90/90540.jpg?1616615228'
+
+claim-expire-date-change-embed:
+  send-to: 'admin'
+  title: 'Claim expire date changed'
+  image: ''
+  thumbnail: 'https://www.spigotmc.org/data/resource_icons/90/90540.jpg?1616615228'
+  color: '#3bd1ff'
+  description:
+    - 'expire date of claim named %claim.name% changed'
+    - '%old_expire_date%'
+    - '%new_expire_date%'
+  footer:
+    text: 'Claim expire date changed'
+    icon: 'https://www.spigotmc.org/data/resource_icons/90/90540.jpg?1616615228'
+  author:
+    name: 'hClaims'
+    avatar-url: 'https://www.spigotmc.org/data/resource_icons/90/90540.jpg?1616615228'
+
+claim-member-add-embed:
+  send-to: 'admin'
+  title: 'Claim member added'
+  image: ''
+  thumbnail: 'https://www.spigotmc.org/data/resource_icons/90/90540.jpg?1616615228'
+  color: '#2a9abd'
+  description:
+    - 'a member added to claim named %claim.name%'
+    - '%claimMember.uid%'
+    - '%claimMember.name%'
+  footer:
+    text: 'Claim member added'
+    icon: 'https://www.spigotmc.org/data/resource_icons/90/90540.jpg?1616615228'
+  author:
+    name: 'hClaims'
+    avatar-url: 'https://www.spigotmc.org/data/resource_icons/90/90540.jpg?1616615228'
+
+claim-member-remove-embed:
+  send-to: 'admin'
+  title: 'Claim member removed'
+  image: ''
+  thumbnail: 'https://www.spigotmc.org/data/resource_icons/90/90540.jpg?1616615228'
+  color: '#1c6880'
+  description:
+    - 'a member removed to claim named %claim.name%'
+    - '%claimMember.uid%'
+    - '%claimMember.name%'
+  footer:
+    text: 'Claim member removed'
+    icon: 'https://www.spigotmc.org/data/resource_icons/90/90540.jpg?1616615228'
+  author:
+    name: 'hClaims'
+    avatar-url: 'https://www.spigotmc.org/data/resource_icons/90/90540.jpg?1616615228'
+
+claim-chunk-create-embed:
+  send-to: 'admin'
+  title: 'Claim chunk created'
+  image: ''
+  thumbnail: 'https://www.spigotmc.org/data/resource_icons/90/90540.jpg?1616615228'
+  color: '#51dbdb'
+  description:
+    - 'a chunk created for claim named %claim.name%'
+    - '%chunkData.world.name%, %chunkData.x%, %chunkData.z%'
+  footer:
+    text: 'Claim chunk created'
+    icon: 'https://www.spigotmc.org/data/resource_icons/90/90540.jpg?1616615228'
+  author:
+    name: 'hClaims'
+    avatar-url: 'https://www.spigotmc.org/data/resource_icons/90/90540.jpg?1616615228'
+
+claim-chunk-delete-embed:
+  send-to: 'admin'
+  title: 'Claim chunk deleted'
+  image: ''
+  thumbnail: 'https://www.spigotmc.org/data/resource_icons/90/90540.jpg?1616615228'
+  color: '#3fa1a1'
+  description:
+    - 'a chunk deleted from claim named %claim.name%'
+    - '%chunkData.world.name%, %chunkData.x%, %chunkData.z%'
+  footer:
+    text: 'Claim chunk deleted'
+    icon: 'https://www.spigotmc.org/data/resource_icons/90/90540.jpg?1616615228'
+  author:
+    name: 'hClaims'
+    avatar-url: 'https://www.spigotmc.org/data/resource_icons/90/90540.jpg?1616615228'

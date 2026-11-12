@@ -1,0 +1,13 @@
+allowed-brands:
+  - "craftrise"
+  - "MottoClient"
+  - "vanilla"
+
+verification-timeout-seconds: 5
+
+kick-message: "&cBu sunucuya sadece &bMottoClient &cile girebilirsiniz!"
+
+debug: false
+
+handshake-token-key: ""
+handshake-token-value: ""

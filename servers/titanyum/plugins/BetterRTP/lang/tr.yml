@@ -1,0 +1,82 @@
+# 
+#    PermissionGroup: '&cKullanım&7: /%command% edit permission_group <grup> <dünya> <max/min/useworldborder/center> <değer>'
+#    Worldtype: '&cKullanım&7: /%command% edit world_type <dünya> <NETHER/NORMAL>'
+#    Override: '&cKullanım&7: /%command% edit override <dünya> <dünyaya>'
+#    BlacklistedBlocks: '&cKullanım&7: /%command% edit blacklistedblocks <ekle/kaldr> <block_id>'
+
+Messages:
+  Prefix: '&6Survival &7â–¸ '
+  Success:
+    Paid: '&aSizi x=%x% y=%y% z=%z% konumuna taÅŸÄ±dÄ±k. &7Ãœcret: &c$%price%&7!'
+    Bypass: '&eIÅŸÄ±nlanma baÅŸarÄ±yla gerÃ§ekleÅŸti.'
+    Loading: '&aGÃ¼venli bir nokta bulundu! &7BÃ¶lge yÃ¼kleniyor...'
+    Teleport: '&eGiriÅŸ sÄ±rasÄ±na alÄ±ndÄ±n.'
+  Failed:
+    Price: '&cYetersiz bakiye nedeniyle Ä±ÅŸÄ±nlanma yapÄ±lamadÄ±! &7En az &c$%price%
+      &7bakiyeniz olmalÄ±!'
+    NotSafe: '&c%attempts% denemede gÃ¼venli bir nokta bulunamadÄ±! &7Ä±ÅŸÄ±nlanma
+      yapÄ±lmadÄ±!'
+    Hunger: '&cÃ‡ok aÃ§ olduÄŸunuz iÃ§in Ä±ÅŸÄ±nlanma yapÄ±lamadÄ±, bir ÅŸeyler yiyin!'
+  Other:
+    Success: '&a'
+    NotSafe: '&c%attempts% denemede %player%, gÃ¼venli bir nokta bulunamadÄ±!'
+    Biome: '&cGÃ¶rÃ¼nÃ¼ÅŸe gÃ¶re &7%biome%&c biyomu mevcut deÄŸil! &7Sekme listesini
+      kullanmayÄ± deneyin!'
+  Reload: '&eAyarlar baÅŸarÄ±yla yeniden yÃ¼klendi!'
+  NoPermission:
+    Basic: '&cÃœzgÃ¼nÃ¼z! &7Bu komutu kullanma izniniz yok! &8Ä°zin: %permission%'
+    World: '&cÃœzgÃ¼nÃ¼z! &7%world% dÃ¼nyasÄ±nda Ä±ÅŸÄ±nlanma yapma izniniz yok! &8Ä°zin:
+      %permission%'
+  DisabledWorld: '&c%world% DÃ¼nyasÄ± Devre DÄ±ÅŸÄ±! &7Ä±ÅŸÄ±nlanma yapÄ±lamadÄ±!'
+  Cooldown: '&cÃœzgÃ¼nÃ¼z! &7BaÅŸka bir &c%time% &7saniye boyunca Ä±ÅŸÄ±nlanma yapamazsÄ±nÄ±z!'
+  Locked: '&cÃœzgÃ¼nÃ¼z! &7TÃ¼m Ä±ÅŸÄ±nlanma hakkÄ±nÄ±zÄ± kullandÄ±nÄ±z!'
+  Invalid: '&cGeÃ§ersiz argÃ¼man. ''/%command% help'' komutunu deneyin'
+  NotOnline: '&cOyuncu &7%player% &Ã§evrimdÄ±ÅŸÄ±!'
+  Delay: '&a%time% &asaniye iÃ§inde taÅŸÄ±nÄ±yor! LÃ¼tfen hareket etmeyin!'
+  Moved: '&cHareket ettiniz! &7Ä±ÅŸÄ±nlanma iptal edildi!'
+  NotExist: '&cGÃ¶rÃ¼nÃ¼ÅŸe gÃ¶re &7%world% &cdÃ¼nyasÄ± mevcut deÄŸil!'
+  Already: '&cHoppla! &7Zaten Ä±ÅŸÄ±nlanma yapÄ±lÄ±yor, lÃ¼tfen sabÄ±rlÄ± olun!'
+  Sign: '&7Komut tabelasÄ± oluÅŸturuldu! Komut: ''&f/Ä±ÅŸÄ±nlanma %command%&7'''
+  Edit:
+    Error: '&cHata! &7GeÃ§ersiz giriÅŸ saÄŸlandÄ±!'
+    Set: '&bBaÅŸarÄ±lÄ±! &7%type% deÄŸeri %value% olarak ayarlandÄ±.'
+    Remove: '&cKaldÄ±rÄ±ldÄ±! &7Ã–zel DÃ¼nya %world% kaldÄ±rÄ±ldÄ±.'
+Help:
+  Prefix: '&e&m-----&6&l Ä±ÅŸÄ±nlanma &8| YardÄ±m &e&m-----'
+  Main: ' &7- &e/%command% &7- Sizi rasgele bir yere taÅŸÄ±r!'
+  Biome: ' &7- &e/%command% biome <biome1, biome2...> &7- Bu biyomlarda rasgele taÅŸÄ±n'
+  Edit: ' &7- &e/%command% edit <default/world> [args...] &7- BazÄ± eklenti ayarlarÄ±nÄ±
+    dÃ¼zenle'
+  Help: ' &7- &e/%command% help &7- YardÄ±m listesini gÃ¶sterir'
+  Info: ' &7- &e/%command% info [world/particles/shapes/potion_effects] &7- Eklenti
+    parametreleri hakkÄ±nda Ã¶zel bilgileri gÃ¶rÃ¼ntÃ¼ler'
+  Player: ' &7- &e/%command% player <oyuncu> [world] [biome1, biome2...] &7- BaÅŸka
+    bir oyuncuyu rasgele taÅŸÄ±r'
+  Reload: ' &7- &e/%command% reload &7- Eklentiyi yeniden yÃ¼kler'
+  Settings: ' &7- &e/%command% settings &7- Bir arayÃ¼z aÃ§ar ve bazÄ± ayarlarÄ± dÃ¼zenler'
+  Test: ' &7- &e/%command% test &7- TaÅŸÄ±ndÄ±ktan sonra hareket etmeden eklenti efektlerini
+    test eder'
+  Version: ' &7- &e/%command% version &7- Å�u anda Ã§alÄ±ÅŸan sÃ¼rÃ¼mÃ¼ gÃ¶rÃ¼ntÃ¼ler'
+  World: ' &7- &e/%command% world <dÃ¼nya> [biome1, biome2...] &7- BaÅŸka bir dÃ¼nyada
+    rasgele taÅŸÄ±r'
+  Location: ' &7- &e/%command% location <konum_adÄ±> &7- Belirli bir konumu kullanarak
+    Ä±ÅŸÄ±nlanma yapar'
+Usage:
+  Player: '&cKullanÄ±m&7: /%command% player <oyuncu> [dÃ¼nya] [biyom1, biyom2]'
+  World: '&cKullanÄ±m&7: /%command% world <dÃ¼nya> [biyom1, biyom2...]'
+  Biome: '&cKullanÄ±m&7: /%command% biome <biyom1, biyom2...>'
+  Location: '&cKullanÄ±m&7: /%command% location <konum_adÄ±>'
+  Edit:
+    Base: '&cKullanÄ±m&7: /%command% edit <default/world> [args...]'
+    Default: '&cKullanÄ±m&7: /%command% edit default <max/min/useworldborder/center>
+      <deÄŸer>'
+    World: '&cKullanÄ±m&7: /%command% edit customworld <dÃ¼nya> <max/min/useworldborder/center>
+      <deÄŸer>'
+    PermissionGroup: '&cKullanÄ±m&7: /%command% edit permission_group <grup> <dÃ¼nya>
+      <max/min/useworldborder/center> <deÄŸer>'
+    Location: '&cKullanÄ±m&7: /%command% edit location <konum_adÄ±> <max/min/useworldborder/center>
+      <deÄŸer>'
+    Worldtype: '&cKullanÄ±m&7: /%command% edit world_type <dÃ¼nya> <NETHER/NORMAL>'
+    Override: '&cKullanÄ±m&7: /%command% edit override <dÃ¼nya> <dÃ¼nya_hedef>'
+    BlacklistedBlocks: '&cKullanÄ±m&7: /%command% edit blacklistedblocks <ekle/sil>
+      <blok_id>'

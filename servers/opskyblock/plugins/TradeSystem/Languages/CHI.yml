@@ -1,0 +1,148 @@
+No_Permissions: '&cæ‚¨æ²¡æœ‰è¯¥æ“�ä½œçš„æ�ƒé™�!'
+Only_for_Player: '&cOnly for players!'
+No_Money: '&cä½ æ²¡æœ‰è¶³å¤Ÿçš„é’±!'
+Enter_Correct_Amount: '&cè¯·è¾“å…¥ä¸€ä¸ªæœ‰æ•ˆçš„é‡‘é¢�.'
+Only_X_Amount: '&7You only have &c%amount% %type%&7!'
+Trade_Was_Cancelled: '&cäº¤æ˜“å·²å�–æ¶ˆï¼�'
+Trade_Was_Finished: '&7äº¤æ˜“å·²å®Œæˆ�&7.'
+Cannot_Trade_With_Yourself: '&cä½ ä¸�èƒ½ä¸�è‡ªå·±äº¤æ˜“.'
+Player_Not_Online: '&cè¯¥ç�©å®¶æœªè¿›å…¥äº¤æ˜“æ‰€.'
+Want_To_Trade: '&7ç�©å®¶&c%player%&7æƒ³è¦�å’Œä½ äº¤æ˜“. &8[%accept% &8| %deny%&8]'
+Want_To_Trade_Accept: '&aæ�¥å�—'
+Want_To_Trade_Deny: '&cæ‹’ç»�'
+Want_To_Trade_Hover: '&8Â» ç‚¹å‡» Â«'
+Player_Is_Invited: '&7å·²é‚€è¯·ç�©å®¶&c%player%&7.'
+Command_How_To: '&7ä½¿ç”¨: /trade <ç�©å®¶å��, accept, deny, toggle>è¿›è¡Œäº¤æ˜“'
+Command_How_To_Accept: '&7ä½¿ç”¨: /trade accept <ç�©å®¶å��>æ�¥å�—äº¤æ˜“è¯·æ±‚'
+Command_How_To_Deny: '&7ä½¿ç”¨: /trade deny <ç�©å®¶å��>æ‹’ç»�äº¤æ˜“è¯·æ±‚'
+Player_Of_Request_Not_Online: '&cäº¤æ˜“è¯·æ±‚çš„ç�©å®¶ä¸�åœ¨äº¤æ˜“æ‰€!'
+Request_Accepted: '&7æ‚¨å·²&aæ�¥å�—&7äº¤æ˜“è¯·æ±‚&7.'
+Request_Was_Accepted: '&7æ‚¨å¯¹&c%player%&7å�‘èµ·çš„äº¤æ˜“å·²è¢«&aæ�¥å�—&7.'
+Request_Denied: '&7æ‚¨å·²æ‹’ç»�äº¤æ˜“è¯·æ±‚.'
+Request_Was_Denied: '&7æ‚¨çš„äº¤æ˜“è¯·æ±‚è¢«&c%player%&cæ‹’ç»�&7.'
+No_Request_Found: '&cæ‚¨å°šæœªæ”¶åˆ°è¯¥ç�©å®¶çš„ä»»ä½•äº¤æ˜“è¯·æ±‚!'
+No_Requests_Found: '&cæ‚¨å°šæœªæ”¶åˆ°ä»»ä½•äº¤æ˜“è¯·æ±‚!'
+Too_many_requests: '&cæ‚¨æœ‰å¾ˆå¤šè¯·æ±‚&7, è¯·æŒ‡å®šäº¤æ˜“ç�©å®¶å��ç§°.'
+GUI_Title: '&cæ­£åœ¨ä¸�&e%player%&cè¿›è¡Œäº¤æ˜“.%tradesystem_countdown_fancy%'
+Money_Amount: é‡‘é¢�
+Coin: é‡‘å¸�
+Coins: é‡‘å¸�
+PlayerPoint: PlayerPoint
+PlayerPoints: PlayerPoints
+Token: Token
+Tokens: Tokens
+ClaimBlock: ClaimBlock
+ClaimBlocks: ClaimBlocks
+Status: ç›®å‰�çŠ¶æ€�
+Ready: å·²å‡†å¤‡
+Not_Ready: æœªå‡†å¤‡
+Wait_For_Other_Player: æ­£ç­‰å¾…å¯¹æ–¹...
+Trade_Only_With_Objects: ä½ å¿…é¡»æ‹¿ç‚¹ä¸œè¥¿æ”¾åœ¨å·¦è¾¹æ�¥å®Œæˆ�äº¤æ˜“.
+Click_To_Change: ç‚¹å‡»åˆ‡æ�¢æ¨¡å¼�
+Cancel_Trade: ç‚¹å‡»å�–æ¶ˆ
+Not_Able_To_Trade: ä½ æš‚æ—¶æ— æ³•è¿›è¡Œäº¤æ˜“.
+Player_Is_Not_Able_Trade: ç›®æ ‡ç�©å®¶æš‚æ—¶æ— æ³•è¿›è¡Œäº¤æ˜“.
+TRADE_EDITOR: ç¼–è¾‘å™¨ - äº¤æ˜“æ‰€ç•Œé�¢
+TRADE_EDITOR_FUNCTIONS: ç¼–è¾‘å™¨ - åŠŸèƒ½
+EDITOR_RESET: ç•Œé�¢å·²é‡�ç½®ã€‚.
+Editor_Command_How_To: '&7ä½¿ç”¨: /tradeEditor [reset]'
+Editor_Not_Empty: ç‰©å“�æ �ç©ºé—´ä¸�è¶³!
+Editor_No_Item: æ²¡æœ‰æ­¤ç‰©å“�!
+Layout_Name: æ˜¾ç¤ºå��ç§°
+Layout_Name_Already_Exists: è¿™ä¸ªæ˜¾ç¤ºå��ç§°å·²è¢«å� ç”¨!
+Layout_Finished: æ–°ç•Œé�¢åˆ›å»º &aæˆ�åŠŸ&7.
+Layout_Edited: ç•Œé�¢ç¼–è¾‘ &aæˆ�åŠŸ&7.
+Layout_Editor: '&9äº¤æ˜“ç•Œé�¢ &8- &9ç¼–è¾‘å™¨'
+Save: ä¿�å­˜
+Not_Ready_For_Saving: '&cè¿™ä¸ªç•Œé�¢æš‚æ—¶æ— æ³•ä¿�å­˜'
+Items: ç•Œé�¢æ�’ç‰ˆ
+Set: å·²è®¾ç½®
+Not_Set: æœªè®¾ç½®
+Functions: åŠŸèƒ½å›¾æ ‡é€‰æ‹©
+Name: æ­¤æ¨¡æ�¿å��ç§°
+Ambiguous_Functions: å®�ç�°åŠŸèƒ½
+Layout_Set_Items: ç¼–è¾‘äº¤æ˜“æ‰€ç•Œé�¢
+Layout_Set_Functions: è®¾ç½®åŠŸèƒ½å›¾æ ‡
+Layout_Set_Name: è®¾ç½®æ­¤æ¨¡æ�¿å��ç§°
+Layout_Set_Ambiguous_Functions: è®¾ç½®å®�ç�°åŠŸèƒ½
+Layout_Editor_Set_Items: '&cé€€å‡ºä»¥ä¿�å­˜æ­¤ç•Œé�¢'
+Back: è¿”å›�
+Trader: å·±æ–¹å��ç§°
+Other: å¯¹æ–¹å��ç§°
+Layout_Set_Own_Slots: è®¾ç½®å·±æ–¹äº¤æ˜“æ �
+Layout_Set_Other_Slots: è®¾ç½®å¯¹æ–¹äº¤æ˜“æ �
+Layout_Set_Cancel: è®¾è®¾ç½®å�–æ¶ˆå›¾æ ‡
+Layout_Set_Other_Not_Ready: è®¾ç½®å¯¹æ–¹çŠ¶æ€�æ˜¾ç¤ºå›¾æ ‡
+Layout_Set_Status: å·±æ–¹çŠ¶æ€�å›¾æ ‡
+Layout_Set_Money: å·±æ–¹é‡‘é¢�å›¾æ ‡
+Layout_Set_Other_Money: å¯¹æ–¹é‡‘é¢�å›¾æ ‡
+Help_TradeSystem: '&7ä½¿ç”¨ &e/%label% <layout, reload>è®¾ç½®äº¤æ˜“æ‰€'
+Help_TradeSystem_Layout: '&7ä½¿ç”¨ &e/%label% layout <create, edit, delete, activate>è®¾ç½®äº¤æ˜“æ‰€ç•Œé�¢'
+Help_TradeSystem_Layout_Create: '&7Use &e/%label% layout create <name> [9..54]'
+Help_TradeSystem_Layout_Activate: '&7ä½¿ç”¨ &e/%label% layout activate <å��ç§°>æ¿€æ´»ç•Œé�¢'
+Help_TradeSystem_Layout_Delete: '&7ä½¿ç”¨ &e/%label% layout delete <å��ç§°>åˆ é™¤ç•Œé�¢'
+Help_TradeSystem_Layout_Edit: '&7ä½¿ç”¨ &e/%label% layout edit <å��ç§°>ç¼–è¾‘ç•Œé�¢'
+Layout_Does_Not_Exist: '&cè¿™ä¸ªç•Œé�¢ä¸�å­˜åœ¨!'
+Layout_Activated: '&7ç•Œé�¢ ''&b%name%&7'' å·²&aæ¿€æ´»&7.'
+Layout_Deleted: '&7ç•Œé�¢ ''&b%name%&7'' å·²&cåˆ é™¤&7.'
+Enter_Correct_Name_Space: '&cè¯·å‹¿è¾“å…¥ç©ºæ ¼.'
+Sure_That_You_Want_To_Loose_Your_Data: '&7ä½ ç¡®å®šè¦�&cæ”¾å¼ƒ&7ä½ çš„æ›´æ”¹?'
+Close: ç¡®å®š
+Layout_Already_Activated: '&7è¿™ä¸ªç•Œé�¢&cå·²æ¿€æ´»&7!'
+Layout_Set_Replacement_For_Money: '&7å½“&eæœªå®‰è£…ç»�æµ�æ�’ä»¶æ—¶&7æ‰€é€‰å›¾æ ‡å°†ä¼šè¢«æ­¤&eæ›¿æ�¢&7.'
+Layout_Hint_Same_Slot_Amount: '&7å�Œæ–¹çš„äº¤æ˜“æ �&cæ•°é‡�&7éœ€è¦�&cç›¸å�Œ&7!'
+Current_Amount: ç›®å‰�è®¾ç½®æ•°é‡�
+Trade_Spam: '&7è¯¥ç�©å®¶ &cå·²ç»�æ”¶åˆ°è¿‡ä¸€ä¸ªäº¤æ˜“è¯·æ±‚äº†&7!'
+Plugin_Reloading: '&cæ�’ä»¶æ­£åœ¨é‡�è½½...'
+Success_Plugin_Reloaded: '&aæ�’ä»¶è½½å…¥æˆ�åŠŸ.'
+Player_is_not_in_range: '&7ç�©å®¶&c%player%&7ç�°åœ¨&cä¸�åœ¨èŒƒå›´å†…&7!'
+Cannot_trade_in_that_GameMode: '&7ä½  &cæ— æ³•åœ¨&7è¿™ä¸ªæ¨¡å¼�äº¤æ˜“!'
+Other_cannot_trade_in_that_GameMode: '&7è¯¥ç�©å®¶&cæ— æ³•åœ¨&7é‚£ä¸ªæ¨¡å¼�äº¤æ˜“!'
+Trade_cancelled_by_attack: '&cæœ‰å†…é¬¼ï¼Œç»ˆæ­¢äº¤æ˜“ï¼�'
+Trade_Partner_No_Space: '&7å¯¹æ–¹çš„èƒŒåŒ…&cæ²¡æœ‰&7è¶³å¤Ÿçš„ç©ºé—´!'
+Trade_Offline: '&7ä½ å·²ç»�&cé€€å‡º&7äº¤æ˜“æ‰€'
+Trade_Online: '&7ä½ å·²ç»�&aè¿›å…¥&7äº¤æ˜“æ‰€'
+Trade_Partner_is_Offline: '&7è¯¥ç�©å®¶&cæœªè¿›å…¥&7äº¤æ˜“æ‰€!'
+Trade_You_are_Offline: '&7ä½¿ç”¨"%command%&e/trade toggle%command%&7"è¿›å…¥äº¤æ˜“æ‰€.'
+Trade_Placed_Blocked_Item: '&7æ­¤ç‰©å“�&cæ— æ³•&7è¿›è¡Œäº¤æ˜“!'
+Cannot_trade_in_bed: '&cä½ æ— æ³•è¿›è¡Œäº¤æ˜“&7,å› ä¸ºä½ èººåœ¨åºŠä¸Š.'
+Cannot_trade_in_world: '&7è¿™ä¸ªä¸–ç•Œ&cæ— æ³•&7è¿›è¡Œäº¤æ˜“!'
+Other_cannot_trade_in_world: '&7è¯¥ç�©å®¶å¤„äº�Â§cæ— æ³•&7äº¤æ˜“çš„ä¸–ç•Œ!'
+Cannot_trade_while_invisible: '&7ä½ &cæ— æ³•&7åœ¨&céš�èº«çŠ¶æ€�&7ä¸‹äº¤æ˜“!'
+Cannot_trade_in_region: '&7You &ccannot trade &7in this region!'
+Other_cannot_trade_in_region: '&7This player &ccannot trade &7in their region!'
+Other_is_already_trading: '&7è¯¥ç�©å®¶&cæ­£åœ¨&7äº¤æ˜“!'
+Online: æ­£åœ¨äº¤æ˜“æ‰€
+Offline: å·²ç¦»å¼€äº¤æ˜“æ‰€
+Your_request_expired: '&7ä½ å�‘ç»™&e%player%&7çš„äº¤æ˜“è¯·æ±‚&cå·²è¿‡æœŸ&7.'
+Request_expired: '&7æ�¥è‡ª&e%player%&7çš„äº¤æ˜“è¯·æ±‚&cå·²è¿‡æœŸ&7.'
+Fancy_Countdown: '&7æ­£åœ¨å¤„ç�†-&e%seconds%s'
+Economy_Error: '&7æ­¤äº¤æ˜“å› &cé‡‘é¢�é”™è¯¯&7è€Œ&cå�–æ¶ˆ&7.'
+Items_Dropped: '&7ä½ çš„èƒŒåŒ…&cæ²¡æœ‰&7è¶³å¤Ÿçš„ç©ºé—´, ä¸€äº›ç‰©å“�&cæ�‰è�½åœ¨åœ°ä¸Šäº†&7!'
+Sign_Enter_Amount: |-
+  ^^^^^^^^
+  Enter amount
+  above
+Leftclick: é¼ æ ‡å·¦é”®
+Rightclick: é¼ æ ‡å�³é”®
+Shift_Leftclick: Shift-é¼ æ ‡å·¦é”®
+Shift_Rightclick: Shift-é¼ æ ‡å�³é”®
+Select: é€‰æ‹©
+Select_Foreign_Preview: é€‰æ‹©å�¦ä¸€ç§�é¢„è§ˆ
+Edit: ç¼–è¾‘
+Edit_Variant: ç¼–è¾‘å�˜é‡�
+Variant: å�˜é‡�
+Cancel: å�–æ¶ˆ
+Finish: å®Œæˆ�
+Levels: ç­‰çº§
+Level: ç­‰çº§
+Too_Little_Exp: '&cä½ &cæ²¡æœ‰è¶³å¤Ÿçš„ç»�éªŒ&7.'
+Exp_Points: ç»�éªŒå€¼
+Exp_Point: ç»�éªŒå€¼
+Reset: é‡�ç½®
+Balance_limit_reached: '&7æ‚¨çš„ä½™é¢�æ˜¯&cä¸�è¶³&7.'
+AnvilGUI_Title: Repair & Name
+Shulker_Box: Shulker Box
+Trade_Finish_Report_Receive: '  &a+ &7%object%'
+Trade_Finish_Report_Give: '  &c- &7%object%'
+Trade_Finish_Report_Object_Item: '%amount%x %item%'

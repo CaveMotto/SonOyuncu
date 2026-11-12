@@ -1,0 +1,64 @@
+game-title: '&e&lSKY WARS'
+scoreboard-lobby:
+ enabled: true
+ title: '&e&lSKY WARS'
+ lines:
+ - ''
+ - 'Seviye: &e1'
+ - 'Coinler: &e%coins%'
+ - ''
+ - 'Solo Öldürme: &a%sKills%'
+ - 'Solo Kazanma: &a%sWins%'
+ - ''
+ - 'Takım Öldürme: &a%tKills%'
+ - 'Takım Kazanma: &a%tWins%'
+ - ''
+ - '&eby Motto'
+scoreboard-waiting:
+  enabled: true
+  lines:
+  - ''
+  - 'Harita: &e%serverName%'
+  - ''
+  - 'Oyuncular: &a%players%/%maxPlayers%'
+  - ''
+  - '&eby Motto'
+scoreboard-starting:
+  enabled: true
+  lines:
+  - ''
+  - 'Harita: &e%serverName%'
+  - ''
+  - 'Başlıyor...'
+  - ''
+  - 'Oyuncular: &a%players%/%maxPlayers%'
+  - ''
+  - '&eby Motto'
+scoreboard-game:
+  enabled: true
+  lines_solo:
+  - '&7%date%'
+  - ''
+  - 'Harita: &e%mapName%'
+  - 'Oyun modu: &e%mode%'
+  - ''
+  - '&fSandık Yenileme:&a%event%'
+  - 'Hayatta: &a%playersLeft%'
+  - ''
+  - 'Sıralama: &dN/A'
+  - 'Öldürme: &e%kills%'
+  - ''
+  - '&eby Motto'
+  lines_team:
+  - '&7%date%'
+  - ''
+  - 'Harita: &e%mapName%'
+  - 'Oyun modu: &e%mode%'
+  - ''
+  - '&fSandık Yenileme:&a%event%'
+  - 'Hayatta: &a%playersLeft%'
+  - ''
+  - 'Sıralama: &dN/A'
+  - 'Öldürme: &e%kills%'
+  - ''
+  - '&eby Motto'

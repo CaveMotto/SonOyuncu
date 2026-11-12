@@ -1,0 +1,110 @@
+#Warning: not delete the kit 'Default' is the default kit to this plugin!
+kits:
+ Barbar:
+  name: 'Barbar'
+  icon: 'DIAMOND_AXE : 1 : name=&aBarbar : lore=\n&6Kit Eşyaları:\n&7- &e16 Kırıktaş\n&7- &e1 Elmas Balta'
+  price: 2000
+  mode: SOLO
+  rarity: COMMON
+  found: ALL
+  helmet: AIR
+  chestplate: AIR
+  leggings: AIR
+  boots: AIR
+  items:
+  - 'COBBLESTONE : 16'
+  - 'DIAMOND_AXE : 1'
+ Mimar:
+  name: 'Mimar'
+  icon: 'STONE : 1 : name=&aMimar : lore=\n&6Kit Eşyaları:\n&7- &e64 Taş\n&7- &e64 Tahta'
+  price: 4000
+  mode: SOLO
+  rarity: COMMON
+  found: ALL
+  helmet: AIR
+  chestplate: AIR
+  leggings: AIR
+  boots: AIR
+  items:
+  - 'STONE : 64'
+  - 'PLANKS : 64'
+ Madenci:
+  name: 'Madenci'
+  icon: 'DIAMOND_PICKAXE : 1 : name=&aMadenci : lore=\n&6Kit Eşyaları:\n&7- &e64 Taş\n&7- &e1 Elmas Kazma'
+  price: 4000
+  mode: SOLO
+  rarity: COMMON
+  found: ALL
+  helmet: AIR
+  chestplate: AIR
+  leggings: AIR
+  boots: AIR
+  items:
+  - 'STONE : 64'
+  - 'DIAMOND_PICKAXE : 1'
+ tnt:
+  name: 'Bombacı Mülayim'
+  icon: 'TNT : 1 : name=&aBombacı Mülayim : lore=\n&6Kit Eşyaları:\n&7- &e3 TNT\n&7- &e1 Çakmak\n&7- &e1 Taş Kılıç'
+  price: 5000
+  mode: SOLO
+  rarity: COMMON
+  found: ALL
+  helmet: AIR
+  chestplate: AIR
+  leggings: AIR
+  boots: AIR
+  items:
+  - 'TNT : 3'
+  - 'STONE_SWORD : 1'
+  - 'FLINT_AND_STEEL : 1'
+  effects: []
+ Muhafız:
+  name: 'Muhafız'
+  icon: 'IRON_CHESTPLATE : 1 : name=&aMuhafız : lore=\n&6Kit Eşyaları:\n&7- &e1 Demir Kask\n&7- &e1 Demir Zırh\n&7- &e1 Demir Pantalon\n&7- &e1 Demir Bot\n&7- &e1 Demir Kılıö'
+  price: 8000
+  mode: SOLO
+  rarity:  Tavsiye Edilen
+  found: ALL
+  helmet: AIR
+  chestplate: AIR
+  leggings: AIR
+  boots: AIR
+  items:
+  - 'IRON_HELMET : 1'
+  - 'IRON_CHESTPLATE : 1'
+  - 'IRON_LEGGINGS : 1'
+  - 'IRON_BOOTS : 1'
+  - 'IRON_SWORD : 1'
+  effects: []
+ tdefault:
+  name: 'Default'
+  icon: 'WOOD_PICKAXE : 1 : name=&aNormal : lore=\n&7Yeni başlayanlar için kullanılır.'
+  price: 0
+  mode: TEAM
+  rarity: COMMON
+  found: ALL
+  helmet: AIR
+  chestplate: AIR
+  leggings: AIR
+  boots: AIR
+  items:
+  - 'WOOD_PICKAXE : 1'
+  - 'WOOD_AXE : 1'
+  - 'WOOD_SPADE : 1'
+  effects: []
+ mdefault:
+  name: 'Default'
+  icon: 'WOOD_PICKAXE : 1 : name=&aNormal : lore=\n&7Yeni başlayanlar için kullanılır.'
+  price: 0
+  mode: MEGA
+  rarity: COMMON
+  found: ALL
+  helmet: AIR
+  chestplate: AIR
+  leggings: AIR
+  boots: AIR
+  items:
+  - 'WOOD_PICKAXE : 1'
+  - 'WOOD_AXE : 1'
+  - 'WOOD_SPADE : 1'
+  effects: []

@@ -1,0 +1,35 @@
+tasks:
+  playtime:
+    type: "playtime"
+    minutes: 240
+    ignore-afk: false
+
+display:
+  name: "&eSunucuda Oyna IV"
+  lore-normal:
+    - "&7Sunucuda belirtliten sürede"
+    - "&7Oyun oynayıp aktif kalın"
+    - ""
+    - "&7Süre: &f240 Dakika"
+    - ""
+    - "&7Odül: &fAltın Elma &d1x"
+  lore-started:
+    - ""
+    - "&7Mevcut ilerlemeniz:"
+    - "&c{playtime:progress}/240 Dakika oyna"
+  type: "BOOK"
+
+rewards:
+  - "give {player} 322 1"
+
+placeholders:
+  description: "&7Mevcut ilerlemeniz:"
+  progress: "&c{playtime:progress}/240 Dakika oyna"
+
+options:
+  category: "aktif"
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 1440
+  sort-order: 1

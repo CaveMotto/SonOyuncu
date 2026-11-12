@@ -1,0 +1,23 @@
+format-version: '2'
+config:
+  msgToConsole: true
+  enableLeftClick: false
+armor_stands:
+  loc(0,67,-34):
+    commands:
+    - 'player bilgi '
+  loc(-6,67,-14):
+    commands:
+    - 'player menu '
+  loc(7,67,-30):
+    commands:
+    - 'player sitemarket '
+  loc(-6,67,-30):
+    commands:
+    - 'player profil '
+  loc(-1675,94,-1361):
+    commands:
+    - 'player tamir '
+  loc(8,67,-14):
+    commands:
+    - 'player bölge '

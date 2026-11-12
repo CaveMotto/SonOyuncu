@@ -1,0 +1,110 @@
+menu_title: "&7Dirhem Market - Kazma"
+size: 36
+items: 
+  'editkazma-5':
+    material: DIAMOND_PICKAXE
+    slot: 11
+    display_name: '&d&lEDIT KAZMA V'
+    lore:
+    - ''
+    - '&fFiyat: 3.000 ⛁'
+    - ''
+    - '&eAlmak için tıkla!'
+    enchantments:
+    - DIG_SPEED 40
+    - LOOT_BONUS_BLOCKS 4
+    - DURABILITY 5
+    click_commands:
+      - '[player] kazma1'
+      - '[close]' 
+    right_click_commands:
+      - '[player] kazma1'
+      - '[close]' 
+  'editkazma-4':
+    material: DIAMOND_PICKAXE
+    slot: 12
+    display_name: '&d&lEDIT KAZMA IV'
+    lore:
+    - ''
+    - '&fFiyat: 7.000 ⛁'
+    - ''
+    - '&eAlmak için tıkla!'
+    enchantments:
+    - DIG_SPEED;15
+    - LOOT_BONUS_BLOCKS;5
+    - DURABILITY;7
+    click_commands:
+      - '[player] kazma2'
+      - '[close]' 
+    right_click_commands:
+      - '[player] kazma2'
+      - '[close]' 
+  'editkazma-3':
+    material: DIAMOND_PICKAXE
+    slot: 13
+    display_name: '&d&lEDIT KAZMA III'
+    lore:
+    - ''
+    - '&fFiyat: 15.000 ⛁'
+    - ''
+    - '&eAlmak için tıkla!'
+    enchantments:
+    - DIG_SPEED;20
+    - LOOT_BONUS_BLOCKS;7
+    - DURABILITY;9
+    click_commands:
+      - '[player] kazma3'
+      - '[close]' 
+    right_click_commands:
+      - '[player] kazma3'
+      - '[close]' 
+  'editkazma-2':
+    material: DIAMOND_PICKAXE
+    slot: 14
+    display_name: '&d&lEDIT KAZMA II'
+    lore:
+    - ''
+    - '&fFiyat: 25.000 ⛁'
+    - ''
+    - '&eAlmak için tıkla!'
+    enchantments:
+    - DIG_SPEED;30
+    - LOOT_BONUS_BLOCKS;9
+    - DURABILITY;10
+    click_commands:
+      - '[player] kazma4'
+      - '[close]' 
+    right_click_commands:
+      - '[player] kazma4'
+      - '[close]' 
+  'editkazma-1':
+    material: DIAMOND_PICKAXE
+    slot: 15
+    display_name: '&d&lEDIT KAZMA I'
+    lore:
+    - ''
+    - '&fFiyat: 40.000 ⛁'
+    - ''
+    - '&eAlmak için tıkla!'
+    enchantments:
+    - DIG_SPEED;40
+    - LOOT_BONUS_BLOCKS;9
+    - DURABILITY;15
+    click_commands:
+      - '[player] kazma5'
+      - '[close]' 
+    right_click_commands:
+      - '[player] kazma5'
+      - '[close]' 
+  'geri':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzE1OTdhMzY5NmIxOWY1Y2ZiYTlmOGJlNzU3OTA4NDgxYzg2YmU1YmIzZTc2YTg5M2I0MmZlNTYxNzJlYyJ9fX0=
+    slot: 27
+    display_name: "&aGeri"  
+    click_commands:
+      - '[player] dirhemmarket'
+      - '[close]' 
+    right_click_commands:
+      - '[player] dirhemmarket'
+      - '[close]' 
+
+

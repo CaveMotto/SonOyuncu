@@ -1,0 +1,76 @@
+Console-Not-Available: '&6Skyblock &7â–¶ &eBu komut konsolda kullanÄ±lamaz.'
+Info:
+  SubCommand:
+    GUI: '&7&oSÄ±nÄ±r ayarlarÄ± menÃ¼sÃ¼.'
+    Enable: '&7&oAda Ã§evresinde sÄ±nÄ±rÄ± etkinleÅŸtir.'
+    Disable: '&7&oAda Ã§evresindeki sÄ±nÄ±rÄ± devre dÄ±ÅŸÄ± bÄ±rak.'
+    Toggle: '&7&oAdanÄ±n etrafÄ±ndaki sÄ±nÄ±rÄ± deÄŸiÅŸtir.'
+    Color: '&7&oOyuncu dilini deÄŸiÅŸtirin.'
+No-Permission:
+  Command: '&6Skyblock &7â–¶ &eBu komutu kullanma izniniz yok.'
+  GUI: '&6Skyblock &7â–¶ &eBu menÃ¼ye eriÅŸim izniniz yok.'
+  Color: '&6Skyblock &7â–¶ &eKenarlÄ±ÄŸÄ±n rengini [color] &eolarak deÄŸiÅŸtirme izniniz
+    yok.'
+Command:
+  Available-On-Island: '&6Skyblock &7â–¶ &eBu komut, ada Ã¼zerindeyken kullanÄ±labilir.'
+  Usage:
+    Wrong: '&6Skyblock &7â–¶ &eKomut yanlÄ±ÅŸ kullanÄ±lmÄ±ÅŸ.'
+    Example: '&eâ¦� &f[command]'
+    Click: '&eâ¦� &f[name] &c&l[Click Here]'
+    Color: /isborder color <&cRed&f, &aGreen&f, &9Blue&f>
+  Click-To:
+    Suggest: '&eBu komutu Ã¶nermek iÃ§in tÄ±klayÄ±n.'
+    Run: '&eBu komutu Ã§alÄ±ÅŸtÄ±rmak iÃ§in tÄ±klayÄ±n.'
+Language:
+  Display: English
+  Available: '&7Mevcut diller:'
+  Not-Found: '&6Skyblock &7â–¶ &eDil bulunamadÄ±! Mevcut diller:'
+  List-Format: '&eâ¦� &7[&e[languageAbbreviation]&7] &8| &f[languageName]'
+  Changed: '&6Skyblock &7â–¶ &eDil, &b[languageName] &d[[languageAbbreviation]] &eolarak
+    deÄŸiÅŸtirildi!'
+Border:
+  Cooldown: '&6Skyblock &7â–¶ &eSÄ±nÄ±r bekleme sÃ¼resi &d[seconds] [secondsFormatted]
+    &eiÃ§inde sona eriyor&f.'
+  Toggled:
+    'On': '&6Skyblock &7â–¶ &eSÄ±nÄ±r ÅŸimdi [color] &erengiyle gÃ¶steriliyor.'
+    'Off': '&6Skyblock &7â–¶ &eSÄ±nÄ±r artÄ±k gizlenmiÅŸtir.'
+  Already-Toggled:
+    'On': '&6Skyblock &7â–¶ &eSÄ±nÄ±r zaten aÃ§Ä±k.'
+    'Off': '&6Skyblock &7â–¶ &eSÄ±nÄ±r zaten kapalÄ±.'
+  GUI:
+    Title: '&fSÄ±nÄ±r AyarlarÄ±'
+Color:
+  Changed: '&6Skyblock &7â–¶ &eSÄ±nÄ±r rengi [color] &eolarak deÄŸiÅŸtirildi&f.'
+  Already-Showing: '&6Skyblock &7â–¶ &eSÄ±nÄ±r zaten bu rengi gÃ¶steriyor.'
+  Red: '&cKÄ±rmÄ±zÄ±'
+  Green: '&aYeÅŸil'
+  Blue: '&9Mavi'
+  GUI:
+    Title: '&fColor Settings'
+Placeholders:
+  Size-Not-On-Island: '&cAda Yok'
+  State:
+    Enabled: '&aEnabled'
+    Disabled: '&cDisabled'
+  Color-None: '&cNone'
+  Cooldown: '&7No Cooldown'
+Units:
+  Second: saniye
+  Seconds: saniye
+Slots:
+  Border:
+    Enable-Button:
+      Name: '&aEnable Border'
+      Lore: []
+    Empty-1:
+      Name: ' '
+      Lore: []
+    Disable-Button:
+      Name: '&aDisable Border'
+      Lore: []
+    Empty-2:
+      Name: ' '
+      Lore: []
+    Color-Button:
+      Name: '&7Border Color: [color]'
+      Lore: []

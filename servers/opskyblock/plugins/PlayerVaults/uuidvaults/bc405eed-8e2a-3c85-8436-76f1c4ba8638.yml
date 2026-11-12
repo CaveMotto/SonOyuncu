@@ -1,0 +1,3 @@
+vault1:
+  '0': '{"type":"MUTTON","==":"org.bukkit.inventory.ItemStack"}'
+  '1': '{"type":"WOOL","==":"org.bukkit.inventory.ItemStack"}'

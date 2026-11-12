@@ -1,0 +1,85 @@
+menu_title: "&7Dirhem Market - Blok"
+size: 27
+items: 
+  'blok1':
+    material: EMERALD_BLOCK
+    slot: 11
+    lore:
+    - ''
+    - '&fFiyat: 10.000 ⛁'
+    - ''
+    - '&eAlmak için tıkla!'
+    click_commands:
+      - '[player] blok1'
+      - '[close]' 
+    right_click_commands:
+      - '[player] blok1'
+      - '[close]' 
+  'blok2':
+    material: DIAMOND_ORE
+    slot: 12
+    lore:
+    - ''
+    - '&fFiyat: 50.000 ⛁'
+    - ''
+    - '&eAlmak için tıkla!'
+    click_commands:
+      - '[player] blok2'
+      - '[close]' 
+    right_click_commands:
+      - '[player] blok2'
+      - '[close]' 
+  'blok3':
+    material: EMERALD_ORE
+    slot: 13
+    lore:
+    - ''
+    - '&fFiyat: 75.000 ⛁'
+    - ''
+    - '&eAlmak için tıkla!'
+    click_commands:
+      - '[player] blok3'
+      - '[close]' 
+    right_click_commands:
+      - '[player] blok3'
+      - '[close]' 
+  'blok4':
+    material: ENDER_STONE 
+    slot: 14
+    lore:
+    - ''
+    - '&fFiyat: 150.000 ⛁'
+    - ''
+    - '&eAlmak için tıkla!'
+    click_commands:
+      - '[player] blok4'
+      - '[close]' 
+    right_click_commands:
+      - '[player] blok4'
+      - '[close]' 
+  'blok5':
+    material: PRISMARINE
+    slot: 15
+    lore:
+    - ''
+    - '&fFiyat: 300.000 ⛁'
+    - ''
+    - '&eAlmak için tıkla!'
+    click_commands:
+      - '[player] blok5'
+      - '[close]' 
+    right_click_commands:
+      - '[player] blok5'
+      - '[close]' 
+  'geri':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzE1OTdhMzY5NmIxOWY1Y2ZiYTlmOGJlNzU3OTA4NDgxYzg2YmU1YmIzZTc2YTg5M2I0MmZlNTYxNzJlYyJ9fX0=
+    slot: 18
+    display_name: "&aGeri"  
+    click_commands:
+      - '[player] dirhemmarket'
+      - '[close]' 
+    right_click_commands:
+      - '[player] dirhemmarket'
+      - '[close]' 
+
+

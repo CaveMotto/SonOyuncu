@@ -1,0 +1,336 @@
+Animatronic:
+  bilgi:
+    '1':
+      world: Faction
+      yaw: -2.770874
+      x: 0.4405560515432455
+      y: 67.0
+      z: -34.51551106076918
+      hx: 0.0
+      hy: 0.0
+      hz: 0.0
+      bx: 0.0
+      by: 0.0
+      bz: 0.0
+      lax: 5.887327716428028
+      lay: 0.2587594227043376
+      laz: 5.412047205119254
+      rax: 0.6700681081788038
+      ray: 1.7112916564181357
+      raz: 2.832879552660026
+      llx: -0.017453292519943295
+      lly: 0.0
+      llz: -0.017453292519943295
+      rlx: 0.017453292519943295
+      rly: 0.0
+      rlz: 0.017453292519943295
+    delay: 3
+    clothes:
+      head:
+        type: LEGACY_ANIMATRONICS_SKULL
+        skull:
+          textures: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMDQ0YjY1M2JiYjcyN2I1Yzg2NWE4ZWZjNzUwOTJhZmU5MzllMmMzZTY4NjEzZGI5YWJhZTRmMWI2NGY5OWY4In19fQ==
+      body:
+        ==: org.bukkit.inventory.ItemStack
+        type: LEATHER_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: LEATHER_ARMOR
+          color:
+            ==: Color
+            RED: 178
+            BLUE: 153
+            GREEN: 165
+      pants:
+        ==: org.bukkit.inventory.ItemStack
+        type: LEATHER_LEGGINGS
+        meta:
+          ==: ItemMeta
+          meta-type: LEATHER_ARMOR
+          color:
+            ==: Color
+            RED: 178
+            BLUE: 153
+            GREEN: 165
+      boots:
+        ==: org.bukkit.inventory.ItemStack
+        type: LEATHER_BOOTS
+        meta:
+          ==: ItemMeta
+          meta-type: LEATHER_ARMOR
+          color:
+            ==: Color
+            RED: 178
+            BLUE: 153
+            GREEN: 165
+      hand:
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_SWORD
+      '2':
+        head:
+          type: LEGACY_ANIMATRONICS_SKULL
+          skull:
+            textures: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMDQ0YjY1M2JiYjcyN2I1Yzg2NWE4ZWZjNzUwOTJhZmU5MzllMmMzZTY4NjEzZGI5YWJhZTRmMWI2NGY5OWY4In19fQ==
+        body:
+          ==: org.bukkit.inventory.ItemStack
+          type: LEATHER_CHESTPLATE
+          meta:
+            ==: ItemMeta
+            meta-type: LEATHER_ARMOR
+            color:
+              ==: Color
+              RED: 178
+              BLUE: 153
+              GREEN: 165
+        pants:
+          ==: org.bukkit.inventory.ItemStack
+          type: LEATHER_LEGGINGS
+          meta:
+            ==: ItemMeta
+            meta-type: LEATHER_ARMOR
+            color:
+              ==: Color
+              RED: 178
+              BLUE: 153
+              GREEN: 165
+        boots:
+          ==: org.bukkit.inventory.ItemStack
+          type: LEATHER_BOOTS
+          meta:
+            ==: ItemMeta
+            meta-type: LEATHER_ARMOR
+            color:
+              ==: Color
+              RED: 178
+              BLUE: 153
+              GREEN: 165
+        hand:
+          ==: org.bukkit.inventory.ItemStack
+          type: DIAMOND_SWORD
+      '3':
+        head:
+          type: LEGACY_ANIMATRONICS_SKULL
+          skull:
+            textures: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMDQ0YjY1M2JiYjcyN2I1Yzg2NWE4ZWZjNzUwOTJhZmU5MzllMmMzZTY4NjEzZGI5YWJhZTRmMWI2NGY5OWY4In19fQ==
+        body:
+          ==: org.bukkit.inventory.ItemStack
+          type: LEATHER_CHESTPLATE
+          meta:
+            ==: ItemMeta
+            meta-type: LEATHER_ARMOR
+            color:
+              ==: Color
+              RED: 178
+              BLUE: 153
+              GREEN: 165
+        pants:
+          ==: org.bukkit.inventory.ItemStack
+          type: LEATHER_LEGGINGS
+          meta:
+            ==: ItemMeta
+            meta-type: LEATHER_ARMOR
+            color:
+              ==: Color
+              RED: 178
+              BLUE: 153
+              GREEN: 165
+        boots:
+          ==: org.bukkit.inventory.ItemStack
+          type: LEATHER_BOOTS
+          meta:
+            ==: ItemMeta
+            meta-type: LEATHER_ARMOR
+            color:
+              ==: Color
+              RED: 178
+              BLUE: 153
+              GREEN: 165
+        hand:
+          ==: org.bukkit.inventory.ItemStack
+          type: DIAMOND_SWORD
+      '4':
+        head:
+          type: LEGACY_ANIMATRONICS_SKULL
+          skull:
+            textures: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMDQ0YjY1M2JiYjcyN2I1Yzg2NWE4ZWZjNzUwOTJhZmU5MzllMmMzZTY4NjEzZGI5YWJhZTRmMWI2NGY5OWY4In19fQ==
+        body:
+          ==: org.bukkit.inventory.ItemStack
+          type: LEATHER_CHESTPLATE
+          meta:
+            ==: ItemMeta
+            meta-type: LEATHER_ARMOR
+            color:
+              ==: Color
+              RED: 178
+              BLUE: 153
+              GREEN: 165
+        pants:
+          ==: org.bukkit.inventory.ItemStack
+          type: LEATHER_LEGGINGS
+          meta:
+            ==: ItemMeta
+            meta-type: LEATHER_ARMOR
+            color:
+              ==: Color
+              RED: 178
+              BLUE: 153
+              GREEN: 165
+        boots:
+          ==: org.bukkit.inventory.ItemStack
+          type: LEATHER_BOOTS
+          meta:
+            ==: ItemMeta
+            meta-type: LEATHER_ARMOR
+            color:
+              ==: Color
+              RED: 178
+              BLUE: 153
+              GREEN: 165
+        hand:
+          ==: org.bukkit.inventory.ItemStack
+          type: DIAMOND_SWORD
+      '5':
+        head:
+          type: LEGACY_ANIMATRONICS_SKULL
+          skull:
+            textures: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMDQ0YjY1M2JiYjcyN2I1Yzg2NWE4ZWZjNzUwOTJhZmU5MzllMmMzZTY4NjEzZGI5YWJhZTRmMWI2NGY5OWY4In19fQ==
+        body:
+          ==: org.bukkit.inventory.ItemStack
+          type: LEATHER_CHESTPLATE
+          meta:
+            ==: ItemMeta
+            meta-type: LEATHER_ARMOR
+            color:
+              ==: Color
+              RED: 178
+              BLUE: 153
+              GREEN: 165
+        pants:
+          ==: org.bukkit.inventory.ItemStack
+          type: LEATHER_LEGGINGS
+          meta:
+            ==: ItemMeta
+            meta-type: LEATHER_ARMOR
+            color:
+              ==: Color
+              RED: 178
+              BLUE: 153
+              GREEN: 165
+        boots:
+          ==: org.bukkit.inventory.ItemStack
+          type: LEATHER_BOOTS
+          meta:
+            ==: ItemMeta
+            meta-type: LEATHER_ARMOR
+            color:
+              ==: Color
+              RED: 178
+              BLUE: 153
+              GREEN: 165
+        hand:
+          ==: org.bukkit.inventory.ItemStack
+          type: DIAMOND_SWORD
+    visible: true
+    small: false
+    poslist:
+    - '1'
+    - '2'
+    - '3'
+    - '4'
+    - '5'
+    '2':
+      world: Faction
+      yaw: -2.770874
+      x: 0.4405560515432455
+      y: 67.0
+      z: -34.51551106076918
+      hx: 0.0
+      hy: 0.0
+      hz: 0.0
+      bx: 0.0
+      by: 0.0
+      bz: 0.0
+      lax: 5.887327716428028
+      lay: 0.2587594227043376
+      laz: 5.412047205119254
+      rax: 0.6700681081788038
+      ray: 1.7112916564181357
+      raz: 2.832879552660026
+      llx: -0.017453292519943295
+      lly: 0.0
+      llz: -0.017453292519943295
+      rlx: 5.587021149795205
+      rly: 1.556595552914267
+      rlz: 0.017453292519943295
+    '3':
+      world: Faction
+      yaw: -2.770874
+      x: 0.4405560515432455
+      y: 67.0
+      z: -34.51551106076918
+      hx: 0.0
+      hy: 0.0
+      hz: 0.0
+      bx: 0.0
+      by: 0.0
+      bz: 0.0
+      lax: 5.887327716428028
+      lay: 0.2587594227043376
+      laz: 5.412047205119254
+      rax: 0.6700681081788038
+      ray: 1.7112916564181357
+      raz: 2.832879552660026
+      llx: -0.017453292519943295
+      lly: 0.0
+      llz: -0.017453292519943295
+      rlx: 6.283185307179586
+      rly: 6.283185307179586
+      rlz: 0.017453292519943295
+    '4':
+      world: Faction
+      yaw: -2.770874
+      x: 0.4405560515432455
+      y: 67.0
+      z: -34.51551106076918
+      hx: 0.0
+      hy: 0.0
+      hz: 0.0
+      bx: 0.0
+      by: 0.0
+      bz: 0.0
+      lax: 5.887327716428028
+      lay: 0.2587594227043376
+      laz: 5.412047205119254
+      rax: 0.6700681081788038
+      ray: 1.7112916564181357
+      raz: 2.832879552660026
+      llx: 5.672535785029868
+      lly: 4.709690665568222
+      llz: -0.017453292519943295
+      rlx: 6.283185307179586
+      rly: 6.283185307179586
+      rlz: 0.017453292519943295
+    '5':
+      world: Faction
+      yaw: -2.770874
+      x: 0.4405560515432455
+      y: 67.0
+      z: -34.51551106076918
+      hx: 0.0
+      hy: 0.0
+      hz: 0.0
+      bx: 0.0
+      by: 0.0
+      bz: 0.0
+      lax: 5.887327716428028
+      lay: 0.2587594227043376
+      laz: 5.412047205119254
+      rax: 0.6700681081788038
+      ray: 1.7112916564181357
+      raz: 2.832879552660026
+      llx: 6.283185307179586
+      lly: 6.283185307179586
+      llz: -0.017453292519943295
+      rlx: 6.283185307179586
+      rly: 6.283185307179586
+      rlz: 0.017453292519943295

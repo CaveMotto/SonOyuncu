@@ -1,0 +1,165 @@
+No_Permissions: '&6SkyBlock &8â–º &eBunun iÃ§in yetkin bulunmuyor!'
+Only_for_Player: '&cOnly for players!'
+No_Money: '&6SkyBlock &8â–º &eYeteri kadar paran yok!'
+Enter_Correct_Amount: '&6SkyBlock &8â–º &eLÃ¼tfen geÃ§erli bir miktar girin.'
+Only_X_Amount: '&7You only have &c%amount% %type%&7!'
+Trade_Was_Cancelled: '&6SkyBlock &8â–º &eticaret iptal edildi.'
+Trade_Was_Finished: '&6SkyBlock &8â–º &eticaret &atamamlandÄ±&7.'
+Cannot_Trade_With_Yourself: '&6SkyBlock &8â–º &eKendinle ticaret yapamazsÄ±n.'
+Player_Not_Online: '&6SkyBlock &8â–º &eBu oyuncu aktif deÄŸil.'
+Want_To_Trade: \n &e&l&m--------------&6 &6Ticaret &e&l&m--------------&6\n \n     &e%player% &eadlÄ± oyuncu ticarette bulunmaktadÄ±r.\n\n                        &a&l%accept%    &c&l%deny%\n\n &e&l&m--------------&6 &6Ticaret &e&l&m--------------&6 \n
+Want_To_Trade_Accept: '&aONAYLA'
+Want_To_Trade_Deny: '&cIPTAL'
+Want_To_Trade_Hover: '&8Â» TÄ±kla Â«'
+Player_Is_Invited: '&c%player% &7adlÄ± oyuncuya istek gÃ¶nderildi.'
+Command_How_To: \n &e&l&m--------------&6 &6Ticaret &e&l&m--------------&6\n \n &6/ticaret (oyuncu) &7- &eOyuncuya ticaret isteÄŸi bulunursunuz.\n &6/ticaret kabul &7- &eOyuncunun ticaret isteÄŸini kabuledersin.\n &6/ticaret iptal &7- &eOyuncunun ticaret isteÄŸini &ciptal &eedersin.\n &6/ticaret istek &7- &eÄ°stekleri gelmesini aÃ§Ä±p veya kapatÄ±rsÄ±n. \n \n &e&l&m--------------&6 &6Ticaret &e&l&m--------------&6 \n
+Command_How_To_Accept: '&6SkyBlock &8â–º &7Komut: /ticaret kabul <Oyuncu>'
+Command_How_To_Deny: '&6SkyBlock &8â–º &7Komut: /ticaret iptal <Oyuncu>'
+Player_Of_Request_Not_Online: '&6SkyBlock &8â–º &eticaret teklifi yollayan oyuncu
+  artÄ±k aktif deÄŸil!'
+Request_Accepted: '&6SkyBlock &8â–º &eticaret isteÄŸini kabul ettiniz.'
+Request_Was_Accepted: '&6SkyBlock &8â–º &d%player% &7eyolladÄ±ÄŸÄ±nÄ±z ticaret iteÄŸi
+  kabul edildi.'
+Request_Denied: '&6SkyBlock &8â–º &eticaret isteÄŸini reddettiniz.'
+Request_Was_Denied: '&6SkyBlock &8â–º &b%player% &eyolladÄ±ÄŸÄ±nÄ±z ticaret isteÄŸi
+  reddedildi.'
+No_Request_Found: '&6SkyBlock &8â–º &eBu oyuncudan herhangi bir ticaret teklifi almadÄ±nÄ±z!'
+No_Requests_Found: '&6SkyBlock &8â–º &eSize yollanan herhangi bir ticaret teklifi
+  yok!'
+Too_many_requests: '&6SkyBlock &8â–º &eSize gelen bir Ã§ok ticaret isteÄŸi var&7,
+  lÃ¼tfen oyuncunun ismini belirtin.'
+GUI_Title: '&3%player% &b%tradesystem_countdown_fancy% '
+Money_Amount: Para miktarÄ±
+Coin: Para
+Coins: Para
+PlayerPoint: PlayerPoint
+PlayerPoints: PlayerPoints
+Token: Token
+Tokens: Tokens
+ClaimBlock: ClaimBlock
+ClaimBlocks: ClaimBlocks
+Status: Durum
+Ready: HazÄ±r
+Not_Ready: HazÄ±r deÄŸil
+Wait_For_Other_Player: Ã–teki oyuncuyu bekleyin...
+Trade_Only_With_Objects: ticaretÄ± tamamlamak iÃ§in bir ÅŸeyler eklemelisiniz.
+Click_To_Change: DeÄŸiÅŸtirmek iÃ§in tÄ±klayÄ±n
+Cancel_Trade: Ä°ptal etmek iÃ§in tÄ±klayÄ±n
+Not_Able_To_Trade: ticaret yapamÄ±yorsunuz.
+Player_Is_Not_Able_Trade: Bu oyuncu ticaret yapamÄ±yor.
+TRADE_EDITOR: EditÃ¶r - ticaret
+TRADE_EDITOR_FUNCTIONS: EditÃ¶r - Fonksiyonlar
+EDITOR_RESET: GeÃ§ici olarak kaydedilen guiniz sÄ±fÄ±rlandÄ±.
+Editor_Command_How_To: '&7Komut: /ticaretEditor [reset]'
+Editor_Not_Empty: ArayÃ¼zde boÅŸ yer yok!
+Editor_No_Item: ArayÃ¼zde eÅŸya yok!
+Layout_Name: ArayÃ¼z-ismi
+Layout_Name_Already_Exists: Bu arayÃ¼z ismi zaten alÄ±nmÄ±ÅŸ!
+Layout_Finished: ArayÃ¼z&a baÅŸarÄ±lÄ± bir ÅŸekilde&7 oluÅŸturuldu.
+Layout_Edited: ArayÃ¼z &abaÅŸarÄ±lÄ± bir ÅŸekilde&7 deÄŸiÅŸtirildi.
+Layout_Editor: '&9ArayÃ¼z &8- &9EditÃ¶r'
+Save: Kaydet
+Not_Ready_For_Saving: '&cArayÃ¼z ÅŸu anlÄ±k kaydedilemez'
+Items: EÅŸyalar
+Set: HazÄ±r
+Not_Set: HazÄ±r deÄŸil
+Functions: Ä°konlar
+Name: Ad
+Ambiguous_Functions: DeÄŸiÅŸken ikonlar
+Layout_Set_Items: Guideki ikonlarÄ±n yerlerini belirleyin/dÃ¼zenleyin
+Layout_Set_Functions: Ä°konlarÄ± ayarlayÄ±n
+Layout_Set_Name: ArayÃ¼z ismi belirlerin
+Layout_Set_Ambiguous_Functions: DeÄŸiÅŸken ikonlarÄ± ayarlayÄ±n.
+Layout_Editor_Set_Items: '&cDevam etmek iÃ§in kapayÄ±n'
+Back: Geri
+Trader: Siz
+Other: ticaret Partneri
+Layout_Set_Own_Slots: Kendi ticaret slotlarÄ±nÄ± belirle
+Layout_Set_Other_Slots: Partnerinin ticaret slotlarÄ±nÄ± belirle
+Layout_Set_Cancel: Ä°ptal etme tuÅŸu ayarla
+Layout_Set_Other_Not_Ready: Partnerin iÃ§in hazÄ±r deÄŸil tuÅŸu ayarla
+Layout_Set_Status: Kendi hazÄ±r verme/hazÄ±r olmama tuÅŸunu ayarla
+Layout_Set_Money: Kendi para tuÅŸunu ayarla
+Layout_Set_Other_Money: Partnerinin para tuÅŸunu ayarla
+Help_TradeSystem: '&7Komut: &e/%label% <layout, reload>'
+Help_TradeSystem_Layout: '&7Komut: &e/%label% layout <create, edit, delete, activate>'
+Help_TradeSystem_Layout_Create: '&7Use &e/%label% layout create <name> [9..54]'
+Help_TradeSystem_Layout_Activate: '&7Komut: &e/%label% layout activate <name>'
+Help_TradeSystem_Layout_Delete: '&7Komut: &e/%label% layout delete <name>'
+Help_TradeSystem_Layout_Edit: '&7Komut: &e/%label% layout edit <name>'
+Layout_Does_Not_Exist: '&6SkyBlock &8â–º &eBÃ¶yle bir arayÃ¼z yok!'
+Layout_Activated: '&6SkyBlock &8â–º &b%name%&e arayÃ¼zÃ¼ &aaktive edildi&7.'
+Layout_Deleted: '&6SkyBlock &8â–º &b%name%&e arayÃ¼zÃ¼ &csilindi&7.'
+Enter_Correct_Name_Space: '&6SkyBlock &8â–º &eLÃ¼tfen boÅŸluk kullanmayÄ±n.'
+Sure_That_You_Want_To_Loose_Your_Data: '&6SkyBlock &8â–º &eDeÄŸiÅŸiklikleri kaydetmek
+  istemediÄŸinden emin misin?'
+Close: Kapat
+Layout_Already_Activated: '&6SkyBlock &8â–º &eBu arayÃ¼z zaten aktif!'
+Layout_Set_Replacement_For_Money: '&6SkyBlock &8â–º &eHiÃ§bir ekonomi plugini tespit
+  edilemediÄŸinde para iÅŸareti ile yer deÄŸiÅŸterecek ikon.'
+Layout_Hint_Same_Slot_Amount: '&6SkyBlock &8â–º &eÄ°ki tarafÄ±n da eÅŸit miktarda
+  ticaret slotu olmalÄ±!'
+Current_Amount: Å�u anki miktar
+Trade_Spam: '&6SkyBlock &8â–º &eBu oyuncu zaten bir ticaret teklifi aldÄ±!'
+Plugin_Reloading: '&ePlugin yenileniyor/reloadlanÄ±yor...'
+Success_Plugin_Reloaded: '&ePlugin yenilendi/reloadlandÄ±.'
+Player_is_not_in_range: '&6SkyBlock &8â–º &d%player% &eadlÄ± oyuncu ticaret yapmak
+  iÃ§in Ã§ok uzakta!'
+Cannot_trade_in_that_GameMode: '&6SkyBlock &8â–º &eÅ�u anki oyun modunuzda ticaret
+  yapamazsÄ±nÄ±z&7!'
+Other_cannot_trade_in_that_GameMode: '&6SkyBlock &8â–º &eBu oyuncu &cÅŸu anki oyun
+  modunda ticaret yapamaz!'
+Trade_cancelled_by_attack: '&6SkyBlock &8â–º &eBiri size saldÄ±rdÄ±ÄŸÄ± iÃ§in ticaret
+  iptal oldu.'
+Trade_Partner_No_Space: '&6SkyBlock &8â–º &eticaret parterinizin &cenvanterinde yer
+  yok&7!'
+Trade_Offline: '&6SkyBlock &8â–º &eArtÄ±k ticaret yapmaya &cticaret teklifi almayacaksÄ±nÄ±z!'
+Trade_Online: '&6SkyBlock &8â–º &eArtÄ±k ticaret yapmaya &aticaret teklifi alabilirsin!'
+Trade_Partner_is_Offline: '&6SkyBlock &8â–º &eBu oyuncu ticaret &cisteÄŸi almÄ±yor&7.'
+Trade_You_are_Offline: '&6SkyBlock &8â–º &eOyuncu bulunumadÄ± yada baÅŸka komutmu
+  denemeye Ã§alÄ±sÄ±yorsunuz.'
+Trade_Placed_Blocked_Item: '&6SkyBlock &8â–º &eBu item ticareta mÃ¼sait deÄŸil!'
+Cannot_trade_in_bed: '&6SkyBlock &8â–º &eYatakta yatarken ticaret yapamazsÄ±nÄ±z.'
+Cannot_trade_in_world: '&6SkyBlock &8â–º &eBu dÃ¼nyada &cticaret yapamazsÄ±nÄ±z &a(Spawn)
+  &edÃ¼nyasÄ±nda yapÄ±nÄ±z.!'
+Other_cannot_trade_in_world: '&6SkyBlock &8â–º &eBu oyuncu bu dÃ¼nyada ticaret yapamaz!'
+Cannot_trade_while_invisible: '&6SkyBlock &8â–º &dGÃ¶rÃ¼nmez&e iken ticaret yapamazsÄ±nÄ±z!'
+Cannot_trade_in_region: '&7You &ccannot trade &7in this region!'
+Other_cannot_trade_in_region: '&7This player &ccannot trade &7in their region!'
+Other_is_already_trading: '&6SkyBlock &8â–º &eBu oyuncu zaten ÅŸu an ticaret yapÄ±yor!'
+Online: Aktif
+Offline: Ã‡evrimdÄ±ÅŸÄ±
+Your_request_expired: '&6SkyBlock &8â–º &d%player% &eyolladÄ±ÄŸÄ±nÄ±z ticaret teklifinin
+  sÃ¼resi doldu.'
+Request_expired: '&6SkyBlock &8â–º &d%player% &eÄ±n ticaret teklifinin sÃ¼resi doldu.'
+Fancy_Countdown: ' &7- &b%seconds%s'
+Economy_Error: '&6SkyBlock &8â–º &eticaret &ciptal edildi. &eBir &cekonomi hatasÄ±
+  yÃ¼zÃ¼den.'
+Items_Dropped: '&6SkyBlock &8â–º &eEnvanteriniz dolu, bazÄ± eÅŸyalar yere &cbÄ±rakÄ±ldÄ±!'
+Sign_Enter_Amount: |-
+  ^^^^^^^^
+  Enter amount
+  above
+Leftclick: Leftclick
+Rightclick: Rightclick
+Shift_Leftclick: Shift-Leftclick
+Shift_Rightclick: Shift-Rightclick
+Select: Select
+Select_Foreign_Preview: Select foreign preview
+Edit: Edit
+Edit_Variant: Edit variant
+Variant: Variant
+Cancel: Cancel
+Finish: Finish
+Levels: Levels
+Level: Level
+Too_Little_Exp: '&cYou have &cno exp to ticaret&7.'
+Exp_Points: Exp points
+Exp_Point: Exp point
+Reset: Reset
+Balance_limit_reached: '&6SkyBlock &8â–º &eBakiyeniz yetersiz.'
+AnvilGUI_Title: Repair & Name
+Shulker_Box: Shulker Box
+Trade_Finish_Report_Receive: '  &a+ &7%object%'
+Trade_Finish_Report_Give: '  &c- &7%object%'
+Trade_Finish_Report_Object_Item: '%amount%x %item%'

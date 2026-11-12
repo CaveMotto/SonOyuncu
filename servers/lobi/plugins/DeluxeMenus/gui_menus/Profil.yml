@@ -1,0 +1,92 @@
+menu_title: '&7Profil'
+open_command:
+- profil
+size: 54
+items:
+  'camlar': 
+    material: STAINED_GLASS_PANE
+    data: 7
+    amount: 1
+    slots:
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    - 17
+    display_name: '&7' 
+  'bilgiler':
+    material: head-%player_name%
+    data: 0
+    amount: 1
+    slot: 4
+    display_name: '&e%player_name%'
+    lore:
+    - ''
+    - '&7Coin: &6%vault_eco_balance_commas%'
+    - '&7Seviye: %alonsolevels_level%'
+    - '&7Kredi: &e0' #leaderos veya minexon kullanuyorsanız placeholder apisni buraya yazınız.
+    update: true
+  arkadaş:
+    material: BARRIER
+    slot: 30
+    display_name: '&cYakında'
+    left_click_commands:   
+    - '[message] &6Lobi &8► &eÜcretli Lobi Plugin Paketini Alarak Tüm Sistemler Mevcuttur. Almak için &dby Motto ' 
+    - '[close]'
+    right_click_commands:
+    - '[message] &6Lobi &8► &eÜcretli Lobi Plugin Paketini Alarak Tüm Sistemler Mevcuttur. Almak için &dby Motto ' 
+    - '[close]'
+  seviye:
+    material: BARRIER
+    display_name: '&cYakında'
+    slot: 31
+    left_click_commands:   
+    - '[message] &6Lobi &8► &eÜcretli Lobi Plugin Paketini Alarak Tüm Sistemler Mevcuttur. Almak için &dby Motto ' 
+    - '[close]'
+    right_click_commands:
+    - '[message] &6Lobi &8► &eÜcretli Lobi Plugin Paketini Alarak Tüm Sistemler Mevcuttur. Almak için &dby Motto ' 
+    - '[close]'
+  istatistikler:
+    material: BARRIER
+    slot: 32
+    display_name: '&cYakında'
+    left_click_commands:   
+    - '[message] &6Lobi &8► &eÜcretli Lobi Plugin Paketini Alarak Tüm Sistemler Mevcuttur. Almak için &dby Motto ' 
+    - '[close]'
+    right_click_commands:
+    - '[message] &6Lobi &8► &eÜcretli Lobi Plugin Paketini Alarak Tüm Sistemler Mevcuttur. Almak için &dby Motto ' 
+    - '[close]'
+  başarımlar:
+    material: BARRIER
+    slot: 39
+    display_name: '&cYakında'
+    left_click_commands:   
+    - '[message] &6Lobi &8► &eÜcretli Lobi Plugin Paketini Alarak Tüm Sistemler Mevcuttur. Almak için &dby Motto ' 
+    - '[close]'
+    right_click_commands:
+    - '[message] &6Lobi &8► &eÜcretli Lobi Plugin Paketini Alarak Tüm Sistemler Mevcuttur. Almak için &dby Motto ' 
+    - '[close]'
+  mviprenk:
+    material: BARRIER
+    slot: 40
+    display_name: '&cYakında'
+    left_click_commands:   
+    - '[message] &6Lobi &8► &eÜcretli Lobi Plugin Paketini Alarak Tüm Sistemler Mevcuttur. Almak için &dby Motto ' 
+    - '[close]'
+    right_click_commands:
+    - '[message] &6Lobi &8► &eÜcretli Lobi Plugin Paketini Alarak Tüm Sistemler Mevcuttur. Almak için &dby Motto ' 
+    - '[close]'
+  ayarlar:
+    material: BARRIER
+    slot: 41
+    display_name: '&cYakında'
+    left_click_commands:   
+    - '[message] &6Lobi &8► &eÜcretli Lobi Plugin Paketini Alarak Tüm Sistemler Mevcuttur. Almak için &dby Motto ' 
+    - '[close]'
+    right_click_commands:
+    - '[message] &6Lobi &8► &eÜcretli Lobi Plugin Paketini Alarak Tüm Sistemler Mevcuttur. Almak için &dby Motto ' 
+    - '[close]'

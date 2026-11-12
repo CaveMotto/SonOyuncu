@@ -1,0 +1,72 @@
+# %pDName% = Player Display Name
+# %pName% = Player Name
+months:
+ 1: 'January'
+ 2: 'February'
+ 3: 'March'
+ 4: 'April'
+ 5: 'May'
+ 6: 'June'
+ 7: 'July'
+ 8: 'August'
+ 9: 'September'
+ 10: 'October'
+ 11: 'November'
+ 12: 'December'
+claim:
+ perm: '&aAlmak için tıklayın!'
+ no-perm: '&cYetkin yok'
+ lore: '&7Bu teslimatı zaten aldınız\n,&7daha sonra tekrar gelin!\n\n%next%'
+next: '&7Sonraki teslimat: %time%'
+rewards:
+ daily:
+  days: 1
+  type: 'free'
+  slot: 20
+  perm: 'none'
+  commands:
+  - 'gmysterybox give %pName% 1'
+  - 'sw add coins %pName% 2000'
+  - 'tellraw %pName% ["",{"text":"You won ","color":"yellow"},{"text":"2,000 ","color":"aqua"},{"text":"coins.","color":"green"}]'
+  icon: '%material% : 1 : name=%color%Günlük Ödül : lore=\n&7Ödül: &b2.000\n&7Her hafta gelip\n \n&7ödülünü alırsın.\n \n%final%'
+ vip:
+  days: 7
+  type: 'permission'
+  slot: 21
+  perm: 'laros.vip'
+  commands:
+  - 'gmysterybox give %pName% 3'
+  - 'sw add coins %pName% 5000'
+  - 'tellraw %pName% ["",{"text":"You won ","color":"yellow"},{"text":"5,000 ","color":"aqua"},{"text":"coins.","color":"green"}]'
+  icon: '%material% : 1 : name=%color%Haftalık Ödül &6(VIP) : lore=\n&7Ödül: &b5.000\n&7Her hafta gelip\n \n&7ödülünü alırsın.\n \n%final%'
+ vip+:
+  days: 7
+  type: 'permission'
+  slot: 22
+  perm: 'laros.vip+'
+  commands:
+  - 'gmysterybox give %pName% 5'
+  - 'sw add coins %pName% 7000'
+  - 'tellraw %pName% ["",{"text":"You won ","color":"yellow"},{"text":"7,000 ","color":"aqua"},{"text":"coins.","color":"green"}]'
+  icon: '%material% : 1 : name=%color%Haftalık Ödül &6(VIP&c+&6) : lore=\n&7Ödül: &b7.000\n&7Her hafta gelip\n \n&7ödülünü alırsın.\n \n%final%'
+ mvip:
+  days: 7
+  type: 'permission'
+  slot: 23
+  perm: 'laros.mvip'
+  commands:
+  - 'gmysterybox give %pName% 7'
+  - 'sw add coins %pName% 10000'
+  - 'tellraw %pName% ["",{"text":"You won ","color":"yellow"},{"text":"10,000 ","color":"aqua"},{"text":"coins.","color":"green"}]'
+  icon: '%material% : 1 : name=%color%Haftalık Ödül &a(MVIP) : lore=\n&7Ödül: &b10.000\n&7Her hafta gelip\n \n&7ödülünü alırsın.\n \n%final%'
+ mvip+:
+  days: 7
+  type: 'permission'
+  slot: 24
+  perm: 'laros.mvip+'
+  commands:
+  - 'gmysterybox give %pName% 9'
+  - 'sw add coins %pName% 15000'
+  - 'tellraw %pName% ["",{"text":"You won ","color":"yellow"},{"text":"15,000 ","color":"aqua"},{"text":"coins.","color":"green"}]'
+  icon: '%material% : 1 : name=%color%Haftalık Ödül &a(MVIP&c+&a) : lore=\n&7Ödül: &b15.000\n&7Her hafta gelip\n \n&7ödülünü alırsın.\n \n%final%'
+  

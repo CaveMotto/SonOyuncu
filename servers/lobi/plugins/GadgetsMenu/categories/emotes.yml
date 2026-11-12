@@ -1,0 +1,528 @@
+Emotes:
+  Smile:
+    Name: '&a Mutlu Emoji'
+    Cooldown: 10
+    Mystery Dust: 10
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Hologram:
+      Enabled: true
+      Text: '&fGÃ¼lÃ¼mse'
+    Lore:
+      Locked:
+      - ''
+      - '&7 YÃ¼z ifadeleri ile diÄŸer oyunculara'
+      - '&7 ruh halinin nasÄ±l olduÄŸunu gÃ¶ster.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 YÃ¼z ifadeleri ile diÄŸer oyunculara'
+      - '&7 ruh halinin nasÄ±l olduÄŸunu gÃ¶ster.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Cool:
+    Name: '&a Cool Emoji'
+    Cooldown: 10
+    Mystery Dust: 12
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Hologram:
+      Enabled: true
+      Text: '&fB)'
+    Lore:
+      Locked:
+      - ''
+      - '&7 YÃ¼z ifadeleri ile diÄŸer oyunculara'
+      - '&7 ruh halinin nasÄ±l olduÄŸunu gÃ¶ster.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 YÃ¼z ifadeleri ile diÄŸer oyunculara'
+      - '&7 ruh halinin nasÄ±l olduÄŸunu gÃ¶ster.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Wink:
+    Name: '&a GÃ¶z KÄ±rpan Emoji'
+    Cooldown: 10
+    Mystery Dust: 12
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Hologram:
+      Enabled: true
+      Text: '&f.)'
+    Lore:
+      Locked:
+      - ''
+      - '&7 YÃ¼z ifadeleri ile diÄŸer oyunculara'
+      - '&7 ruh halinin nasÄ±l olduÄŸunu gÃ¶ster.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 YÃ¼z ifadeleri ile diÄŸer oyunculara'
+      - '&7 ruh halinin nasÄ±l olduÄŸunu gÃ¶ster.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Grin:
+    Name: '&a SÄ±rÄ±tan Emoji'
+    Cooldown: 10
+    Mystery Dust: 13
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Hologram:
+      Enabled: true
+      Text: '&fYey!'
+    Lore:
+      Locked:
+      - ''
+      - '&7 YÃ¼z ifadeleri ile diÄŸer oyunculara'
+      - '&7 ruh halinin nasÄ±l olduÄŸunu gÃ¶ster.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 YÃ¼z ifadeleri ile diÄŸer oyunculara'
+      - '&7 ruh halinin nasÄ±l olduÄŸunu gÃ¶ster.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Surprised:
+    Name: '&a Å�aÅŸkÄ±n Emoji'
+    Cooldown: 10
+    Mystery Dust: 25
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Hologram:
+      Enabled: true
+      Text: '&fOneeeee!'
+    Lore:
+      Locked:
+      - ''
+      - '&7 YÃ¼z ifadeleri ile diÄŸer oyunculara'
+      - '&7 ruh halinin nasÄ±l olduÄŸunu gÃ¶ster.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 YÃ¼z ifadeleri ile diÄŸer oyunculara'
+      - '&7 ruh halinin nasÄ±l olduÄŸunu gÃ¶ster.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Sleepy:
+    Name: '&9 Uykulu Emoji'
+    Cooldown: 10
+    Mystery Dust: 20
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Hologram:
+      Enabled: true
+      Text: '&fZZzzzz'
+    Lore:
+      Locked:
+      - ''
+      - '&7 YÃ¼z ifadeleri ile diÄŸer oyunculara'
+      - '&7 ruh halinin nasÄ±l olduÄŸunu gÃ¶ster.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 YÃ¼z ifadeleri ile diÄŸer oyunculara'
+      - '&7 ruh halinin nasÄ±l olduÄŸunu gÃ¶ster.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Rage:
+    Name: '&9 Ã–fkeli Emoji'
+    Cooldown: 10
+    Mystery Dust: 23
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Hologram:
+      Enabled: true
+      Text: '&cGRRRRR!!!'
+    Lore:
+      Locked:
+      - ''
+      - '&7 YÃ¼z ifadeleri ile diÄŸer oyunculara'
+      - '&7 ruh halinin nasÄ±l olduÄŸunu gÃ¶ster.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 YÃ¼z ifadeleri ile diÄŸer oyunculara'
+      - '&7 ruh halinin nasÄ±l olduÄŸunu gÃ¶ster.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Frown:
+    Name: '&9 AÅŸÄ±k SuratlÄ± Emoji'
+    Cooldown: 10
+    Mystery Dust: 22
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Hologram:
+      Enabled: true
+      Text: '&fAÅŸk kokuyorsun.'
+    Lore:
+      Locked:
+      - ''
+      - '&7 YÃ¼z ifadeleri ile diÄŸer oyunculara'
+      - '&7 ruh halinin nasÄ±l olduÄŸunu gÃ¶ster.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 YÃ¼z ifadeleri ile diÄŸer oyunculara'
+      - '&7 ruh halinin nasÄ±l olduÄŸunu gÃ¶ster.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Cheeky:
+    Name: '&9 YÃ¼zsÃ¼z Emoji'
+    Cooldown: 10
+    Mystery Dust: 22
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Hologram:
+      Enabled: true
+      Text: '&f:P'
+    Lore:
+      Locked:
+      - ''
+      - '&7 YÃ¼z ifadeleri ile diÄŸer oyunculara'
+      - '&7 ruh halinin nasÄ±l olduÄŸunu gÃ¶ster.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 YÃ¼z ifadeleri ile diÄŸer oyunculara'
+      - '&7 ruh halinin nasÄ±l olduÄŸunu gÃ¶ster.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Sun Tan:
+    Name: '&9 Bronz Emoji'
+    Cooldown: 10
+    Mystery Dust: 25
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Hologram:
+      Enabled: true
+      Text: '&fGÃ¼neÅŸli'
+    Lore:
+      Locked:
+      - ''
+      - '&7 YÃ¼z ifadeleri ile diÄŸer oyunculara'
+      - '&7 ruh halinin nasÄ±l olduÄŸunu gÃ¶ster.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 YÃ¼z ifadeleri ile diÄŸer oyunculara'
+      - '&7 ruh halinin nasÄ±l olduÄŸunu gÃ¶ster.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Heart Eyes:
+    Name: '&9 AÅŸÄ±k Emoji'
+    Cooldown: 10
+    Mystery Dust: 28
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Hologram:
+      Enabled: true
+      Text: '&dâ�¤  â�¤'
+    Lore:
+      Locked:
+      - ''
+      - '&7 YÃ¼z ifadeleri ile diÄŸer oyunculara'
+      - '&7 ruh halinin nasÄ±l olduÄŸunu gÃ¶ster.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 YÃ¼z ifadeleri ile diÄŸer oyunculara'
+      - '&7 ruh halinin nasÄ±l olduÄŸunu gÃ¶ster.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Dizzy:
+    Name: '&9 Sersem Emoji'
+    Cooldown: 10
+    Mystery Dust: 28
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Hologram:
+      Enabled: true
+      Text: '&fx_x'
+    Lore:
+      Locked:
+      - ''
+      - '&7 YÃ¼z ifadeleri ile diÄŸer oyunculara'
+      - '&7 ruh halinin nasÄ±l olduÄŸunu gÃ¶ster.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 YÃ¼z ifadeleri ile diÄŸer oyunculara'
+      - '&7 ruh halinin nasÄ±l olduÄŸunu gÃ¶ster.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  RIP:
+    Name: '&9 Ã–lÃ¼ Emoji'
+    Cooldown: 10
+    Mystery Dust: 28
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Hologram:
+      Enabled: true
+      Text: '&fDinlenme vakti'
+    Lore:
+      Locked:
+      - ''
+      - '&7 YÃ¼z ifadeleri ile diÄŸer oyunculara'
+      - '&7 ruh halinin nasÄ±l olduÄŸunu gÃ¶ster.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 YÃ¼z ifadeleri ile diÄŸer oyunculara'
+      - '&7 ruh halinin nasÄ±l olduÄŸunu gÃ¶ster.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Relax:
+    Name: '&9 RahatlamÄ±ÅŸ Emoji'
+    Cooldown: 10
+    Mystery Dust: 28
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Hologram:
+      Enabled: true
+      Text: '&fVay be'
+    Lore:
+      Locked:
+      - ''
+      - '&7 YÃ¼z ifadeleri ile diÄŸer oyunculara'
+      - '&7 ruh halinin nasÄ±l olduÄŸunu gÃ¶ster.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 YÃ¼z ifadeleri ile diÄŸer oyunculara'
+      - '&7 ruh halinin nasÄ±l olduÄŸunu gÃ¶ster.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Spicy:
+    Name: '&9 ÃœzgÃ¼n Emoji'
+    Cooldown: 10
+    Mystery Dust: 28
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Hologram:
+      Enabled: true
+      Text: '&fÃœzgÃ¼nÃ¼m.'
+    Lore:
+      Locked:
+      - ''
+      - '&7 YÃ¼z ifadeleri ile diÄŸer oyunculara'
+      - '&7 ruh halinin nasÄ±l olduÄŸunu gÃ¶ster.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 YÃ¼z ifadeleri ile diÄŸer oyunculara'
+      - '&7 ruh halinin nasÄ±l olduÄŸunu gÃ¶ster.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Deal With It:
+    Name: '&9 GÃ¶zlÃ¼klÃ¼ Emoji'
+    Cooldown: 10
+    Mystery Dust: 28
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Hologram:
+      Enabled: true
+      Text: '&fÃ‡ok mu iyiyim?'
+    Lore:
+      Locked:
+      - ''
+      - '&7 YÃ¼z ifadeleri ile diÄŸer oyunculara'
+      - '&7 ruh halinin nasÄ±l olduÄŸunu gÃ¶ster.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 YÃ¼z ifadeleri ile diÄŸer oyunculara'
+      - '&7 ruh halinin nasÄ±l olduÄŸunu gÃ¶ster.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Cry:
+    Name: '&9 AÄŸlayan Emoji'
+    Cooldown: 10
+    Mystery Dust: 25
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Hologram:
+      Enabled: true
+      Text: '&fIngaaa!'
+    Lore:
+      Locked:
+      - ''
+      - '&7 YÃ¼z ifadeleri ile diÄŸer oyunculara'
+      - '&7 ruh halinin nasÄ±l olduÄŸunu gÃ¶ster.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 YÃ¼z ifadeleri ile diÄŸer oyunculara'
+      - '&7 ruh halinin nasÄ±l olduÄŸunu gÃ¶ster.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'

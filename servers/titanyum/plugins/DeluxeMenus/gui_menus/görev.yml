@@ -1,0 +1,51 @@
+menu_title: '&8Görev'
+open_command:
+- 6598pi5klşl456
+size: 27
+items:
+  'bilgi':
+    material: diamond
+    slot: 4
+    display_name: '&eBilgi'
+    lore:
+    - '&8'
+    - '&7Görev yaparak'
+    - '&7buradan ödül'
+    - '&7kazanabilirsin.'
+    - '&8'
+    - '&7Görevleri bulmak ve'
+    - '&7öğrenmek için &e/görev'
+  'randomgorev':
+    material: fishing_rod
+    slot: 11
+    display_name: '&eRandom Görev'
+    lore:
+    - '&8'
+    - '&7Görev seçmekte zorlanıyorsanız.'
+    - '&7Bu menude rastgele'
+    - '&7görev belirler.'
+    - '&8'
+    - '&eAçmak için tıkla'
+    left_click_commands:
+    - '[player] quests random'
+    - '[close]'
+    right_click_commands:
+    - '[player] quests random'
+    - '[close]'
+  'görevler':
+    material: coal_block
+    slot: 15
+    display_name: '&eGörev'
+    lore:
+    - '&8'
+    - '&7Görev menüsüne'
+    - '&7ulaşabilir ve'
+    - '&7ödül kazanabilirsin.'
+    - '&8'
+    - '&eAçmak için tıkla'
+    left_click_commands:
+    - '[player] quests'
+    - '[close]'
+    right_click_commands:
+    - '[player] quests'
+    - '[close]'

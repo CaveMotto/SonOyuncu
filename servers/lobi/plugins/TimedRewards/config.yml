@@ -1,0 +1,64 @@
+# Timed Rewards by Bradley Steele (Ibiza).
+#
+# /Contact
+# Spigot: https://www.spigotmc.org/members/292138/
+# Discord: Bradley#4169
+# Discord Support Server: https://redirect.bradleysteele.me/bps
+#
+# /Information
+# Timed Rewards is a plugin much alike Hypixel's 'Delivery Man'
+# and Mineplex's 'Carl the Creeper' in which players can claim
+# rewards over set periods of times.
+#
+# If you have an invalid setting, the plugin will do its best
+# to use its default setting without causing any issues.
+#
+# If you have any questions, suggestions, features you'd like
+# to see added or report any bugs, please post them in the
+# discord server above.
+#
+# The premium version of Timed Rewards offers multiple reward
+# menus, NPCs, unclaimed and claimed items, vote rewards, full
+# in-game management and much more. For more information,
+# visit the plugin page: https://www.spigotmc.org/resources/46501/
+# for questions, feel free to ask in the Discord Support Server.
+
+
+# Do not change this number. You will be notified if a new
+# configuration version is available.
+config-version: 2
+
+
+menu:
+
+  # Should the inventory close if the player successfully
+  # claims a reward?
+  close-on-claim: true
+
+  # The names of external NPCs (such as from Citizens) which
+  # will trigger the rewards menu to open.
+  npcs:
+  - 'Carl the Creeper'
+  - 'The Delivery Man'
+
+
+rewards:
+
+  # If true then players will be able to type /rewards
+  # <menu_name> to open the rewards menu.
+  #
+  # Default: true
+  enabled: true
+
+  # The permission node required to execute /rewards. Leave
+  # blank to allow all users access to the command.
+  #
+  # Note: requires full server restart for changes to take place.
+  permission: ''
+
+  # Other aliases for the /rewards command. If you do not
+  # want any aliases, use: aliases: []
+  #
+  # Note: requires full server restart for changes to take place.
+  aliases:
+  - 'reward'

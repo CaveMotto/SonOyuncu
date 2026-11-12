@@ -1,0 +1,19 @@
+#######################################################
+##                   Created By                      ##
+##                    Deckerz, ThunderGemios10       ##
+#######################################################
+announcement:
+    enabled: true
+    random: false
+    prefix: '&6&lDUYURU &8▸ '
+    interval: 30
+    check-for-updates: true
+    auto-update: false
+    messages:
+    - '&eVIP, Kutular, Kozmetik, Skin ve daha fazlası için: &6https://by Motto'
+    - '&8▸ &eDiscorda Sunucumuza Gelerek vip çekilişlerine katılın &b/Discord'
+    - '&eOyuncularla güvenilir takas yapmak istiyorsanız. &d/ticaret'
+    - '&eSunucumuza oyverek hediye kazanabilirsin. &d/oyver'
+    - '&eElinde değerli bir eşya varsa sohbette hava atabilirsin. &d[item]'
+    - '&eGünlük Ödül Almak İçin &a/günlük'
+    - '&6&lDUYURU &8▸ &eDirhemleri harcamak için; &a/dirhem market'

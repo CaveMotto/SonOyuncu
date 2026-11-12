@@ -1,0 +1,87 @@
+options:
+	Hologram başlık: &6- &lADA REKLAM&6 -
+	Müsait yazısı: &aMÜSAİT!
+	Maksimum karakter: 50
+	Prefix: &6Skyblock &8► 
+	Reklam formatı: &f{oyuncu}:&d {reklam yazısı}
+	Reklam ücreti: 50000000
+	
+	# Factions, Skyblock veya benzeri başka sunucuların bunu farklılaştırabilmesi için
+	# böyle bir seçenek ekledim. Bu sadece yazıları değiştirir. Örn: Ada reklam, Klan reklam
+	# Claim reklam, vb...
+	Reklam türü: Ada
+	
+	
+command /reklam [<text>] [<text>]:
+	trigger:
+		arg 1 is "ekle" or "ver":
+			{islandADs::players::%player%} is not set:
+				size of {islandADs::list::*} < 5:
+					arg 2 is set:
+						delete {islandADs::getChat::%player%}
+						adv_setAd(arg 2, player)
+					else:
+						set {islandADs::getChat::%player%} to true
+						send "&7Lütfen sohbette bir reklam metni belirtin."
+						send player title "&6- &6&lREKLAM &6-" with subtitle "&eReklam yazınızı sohbete yazın!"
+					
+				else:
+					send "{@Prefix} &cŞu anda {@Reklam türü} reklamlarında hiç boş yer yok."
+			else:
+				send "{@Prefix} &cAynı anda 2 reklam veremezsiniz."
+		else if arg 1 is "holo":
+			player is op:
+				set {islandADs::holoLoc} to location
+				send "{@Prefix} &7Hologram lokasyonu başarıyla kaydedildi."
+				delete holo {islandADs::holo}
+				loop 5 times:
+					{islandADs::list::%loop-number%} is not set:
+						set {_%loop-number%} to "{@Müsait yazısı}"
+					else:
+						set {_%loop-number%} to {islandADs::list::%loop-number%}
+				create a new hologram with line "{@Hologram başlık}","",{_1},{_2},{_3},{_4},{_5},"","&e reklamını yaptırmak için &b/reklam ver&e yazın.","","&cReklamlar saat başlarında sıfırlanır, yani","&c00:00, 12:00, 21:00 gibi saat başlarında" and "&ctüm reklamlar kaldırılır" at {islandADs::holoLoc} and store in {islandADs::holo}
+				
+			else:
+				send "{@Prefix} &cBunun için izniniz yok."
+		else:
+			send "{@Prefix}&e Reklam vermek için &a/reklam ver <reklam>&e komutunu kullanın veya &a/reklam ver&e komutundan sonra sohbete reklamınızı yazın."
+			player is op:
+				send "{@Prefix} &cYönetici misiniz? Reklam hologramını ayarlamak için &f/reklam holo &ckomutunu kullanın."
+on load:
+	delete holo {islandADs::holo}
+	loop 5 times:
+		{islandADs::list::%loop-number%} is not set:
+			set {_%loop-number%} to "{@Müsait yazısı}"
+		else:
+			set {_%loop-number%} to {islandADs::list::%loop-number%}
+	create a new hologram with line "{@Hologram başlık}","",{_1},{_2},{_3},{_4},{_5},"","&e{@Reklam türü} reklamını yaptırmak için &b/reklam ver&e yazın.","","&cReklamlar saat başlarında sıfırlanır, yani","&c00:00, 12:00, 21:00 gibi saat başlarında" and "&ctüm reklamlar kaldırılır" at {islandADs::holoLoc} and store in {islandADs::holo}
+on chat:
+	{islandADs::getChat::%player%} is true:
+		cancel event
+		adv_setAd(message, player)
+		delete {islandADs::getChat::%player%}
+function adv_setAd(ad:text, p:player):
+	{_p}'s money >= {@Reklam ücreti}:
+		length of {_ad} <= {@Maksimum karakter}:
+			remove {@Reklam ücreti} from {_p}'s money
+			set {_index} to size of {islandADs::list::*}+1
+			set {_format} to "{@Reklam formatı}"
+			set {_format} to colored {_format}
+			replace all "{oyuncu}" with "%{_p}%" in {_format}
+			replace all "{reklam yazısı}" with "%uncolored {_ad}%" in {_format}
+			set {islandADs::list::%{_index}%} to {_format}
+			set {islandADs::players::%{_p}%} to {_index}
+			send "{@Prefix} &7{@Reklam türü} reklamınız başarıyla eklendi. Hesabınızdan para çekildi. (&7%{_format}%&7)" to {_p}
+			set line {_index}+2 of {islandADs::holo} to {_format}
+		else:
+			send "{@Prefix} &c{@Maksimum karakter} karakterden uzun bir metin yazamazsınız." to {_p}
+	else:
+		send "{@Prefix} &cBunun {@Reklam ücreti}TL'ye sahip olmalısınız." to {_p}
+every minute:
+	now formatted with "mm" is "00":
+		broadcast "{@Prefix}&e{@Reklam türü} reklamları sıfırlanıyor.."
+		delete {islandADs::list::*} and {islandADs::players::*}
+		set {_n} to 2
+		loop 5 times:
+			add 1 to {_n}
+			set line {_n} of {islandADs::holo} to "{@Müsait yazısı}"

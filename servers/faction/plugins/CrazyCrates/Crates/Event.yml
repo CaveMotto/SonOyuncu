@@ -1,0 +1,220 @@
+Crate:
+  CrateType: Wheel
+  CrateName: '&eEvent Kasa'
+  StartingKeys: 0
+  InGUI: true
+  Slot: 14
+  OpeningBroadCast: false
+  BroadCast: '%Prefix% &e%Player% &7isimli kullanıcı &aEvent Kasası &7açıyor!' #Message that is broadcasted when opening the crate.
+  Item: '54'
+  Name: '&eEvent Kasa'
+  Lore:
+  - ''
+  - '&8► &7Sanal Bir Kutu :D'
+  - ''
+  PhysicalKey:
+    Name: '&8► &dEvent Kutusu '
+    Lore:
+      - ''
+      - '&a/Warp kutu &eAçabilirsiniz.'
+    Item: '342'
+    Glowing: true
+#         For Cosmic Crates Only
+#############################################
+#  Tiers: #The tiers in the Crate
+#    Basic: #The Config Name for the Crate
+#      Name: '&8Basic Prize' #The in-game name of the Crate
+#      Color: 7 #Use the MetaData for the color of the glass
+#      Chance: 80 #Chance of that item getting picked. It would be 80/100 chance because MaxRange is 100.
+#      MaxRange: 100 #The max range that the chance will go though.
+#    UnCommon:
+#      Name: '&aUnCommon Prize'
+#      Color: 5
+#      Chance: 55
+#      MaxRange: 100
+#    Rare:
+#      Name: '&4Rare Prize'
+#      Color: 14
+#      Chance: 20
+#      MaxRange: 100
+#############################################
+  Prizes: #All the prizes that can be gotten in the Crate.
+    1:
+      DisplayName: '&eEvent Kılıç &dV3'
+      DisplayItem: '276'
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&7Öldürme Birimi.'
+      - '&7Kazanma Şansın &c%2'
+      - ''
+      - '&aŞans Senin Yerine Gider'
+      DisplayEnchantments:
+        - 'DAMAGE_ALL:3'
+        - 'UNBREAKING:2'
+        - 'FIRE_ASPECT:2'
+      MaxRange: 100
+      Chance: 2
+      Firework: false
+      Glowing: false
+      Items:
+        - 'Item:276, Amount:1, Name:&dEvent Kılıç, DAMAGE_ALL:3, FIRE_ASPECT:2, UNBREAKING:2'
+    2:
+      DisplayName: '&eEvent Kazma &dV3'
+      DisplayItem: '278'
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&7Kazı Kazma'
+      - '&7Kazanma Şansın &c%1'
+      - ''
+      - '&aŞans Senin Yerine Gider'
+      DisplayEnchantments:
+        - 'EFFICIENCY:3'
+        - 'UNBREAKING:2'
+        - 'FORTUNE:2'
+      MaxRange: 100
+      Chance: 1
+      Firework: false
+      Glowing: false
+      Items:
+        - 'Item:276, Amount:1, Name:&aEvent Kazma, EFFICIENCY:3, UNBREAKING:2, FORTUNE:2'   
+    3:
+      DisplayName: '&eEvent Balta &dV3'
+      DisplayItem: '279'
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&7Kafayı Kırma.'
+      - '&7Kazanma Şansın &c%1'
+      - ''
+      - '&aŞans Senin Yerine Gider'
+      DisplayEnchantments:
+        - 'PROTECTION_ENVIRONMENTAL:3'
+        - 'UNBREAKING:2'
+      MaxRange: 100
+      Chance: 8
+      Firework: false
+      Glowing: false
+      Items:
+        - 'Item:279, Amount:1, Name:&eEvent Balta, PROTECTION_ENVIRONMENTAL:3, UNBREAKING:2'    
+    4:
+      DisplayName: '&eBüyülü Altın Elma &dx32'
+      DisplayItem: '322:1'
+      DisplayAmount: 16
+      Lore:
+      - ''
+      - '&7Savaş Elmasıdır.'
+      - '&7Kazanma Şansın &c%5'
+      - ''
+      - '&aŞans Senin Yerine Gider'
+      DisplayEnchantments: #Adds enchantments to the display item.
+      MaxRange: 100
+      Chance: 5
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'give player 322:1 16'
+    5:
+      DisplayName: '&eLapis Kutu Anahtarı &d5x'
+      DisplayItem: '131'
+      DisplayAmount: 1
+      Lore:
+      Lore:
+      - ''
+      - '&7Bir Anahtar.'
+      - '&7Kazanma Şansın &c%7'
+      - ''
+      - '&aŞans Senin Yerine Gider'
+      DisplayEnchantments: #Adds enchantments to the display item.
+        - 'PROTECTION_ENVIRONMENTAL:1'
+      MaxRange: 100
+      Chance: 7
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'cc give p lapis 5 %player%'     
+    6:
+      DisplayName: '&ePixel Kutu Anahtarı &d1x'
+      DisplayItem: '131'
+      DisplayAmount: 1
+      Lore:
+      Lore:
+      - ''
+      - '&7Bir Anahtar.'
+      - '&7Kazanma Şansın &c%5'
+      - ''
+      - '&aŞans Senin Yerine Gider'
+      DisplayEnchantments: #Adds enchantments to the display item.
+        - 'PROTECTION_ENVIRONMENTAL:1'
+      MaxRange: 100
+      Chance: 1
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'cc give p pixel 1 %player%'     
+    7:
+      DisplayName: '&eEvent Kasa Anahtarı &d3x'
+      DisplayItem: '131'
+      DisplayAmount: 1
+      Lore:
+      Lore:
+      - ''
+      - '&7Bir Anahtar.'
+      - '&7Kazanma Şansın &c%2'
+      - ''
+      - '&aŞans Senin Yerine Gider'
+      DisplayEnchantments: #Adds enchantments to the display item.
+        - 'PROTECTION_ENVIRONMENTAL:1'
+      MaxRange: 100
+      Chance: 2
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'cc give p event 2 %player%'    
+    8:
+      DisplayName: '&e10.000 Oyun Parası'
+      DisplayItem: '339'
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&7Bir Para Birimidir.'
+      - '&7Kazanma Şansın &c%5'
+      - ''
+      - '&aŞans Senin Yerine Gider'
+      DisplayEnchantments: #Adds enchantments to the display item.
+      MaxRange: 100
+      Chance: 5
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'eco give %player% 10000'
+    9:
+      DisplayName: '&e20.000 Oyun Parası'
+      DisplayItem: '339'
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&7Bir Para Birimidir.'
+      - '&7Kazanma Şansın &c%3'
+      - ''
+      - '&aŞans Senin Yerine Gider'
+      DisplayEnchantments: #Adds enchantments to the display item.
+      MaxRange: 100
+      Chance: 3
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'eco give %player% 20000'

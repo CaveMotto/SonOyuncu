@@ -1,0 +1,108 @@
+# SuperbVote configuration
+# A superb vote plugin made by Tux.
+#
+# https://github.com/minecrafter/SuperbVote/wiki
+
+# Once you've configured SuperbVote, add it to our official server list, CraftServers.net:
+# Official server list: https://www.craftservers.net/
+
+# Database configuration.
+storage:
+  database: json
+  json:
+    file: votes.json
+  mysql:
+    host: 127.0.0.1
+    username: root
+    password: topsecret
+    database: superbvote
+    table: votes
+    read-only: false
+
+# General vote configuration.
+votes:
+  # At least this many seconds must pass before allowing another vote (per-service). This will apply per service.
+  # Default: 3600 seconds (1 hour)
+  cooldown-per-service: 3600
+
+  # Whether or not to treat fake votes as real votes
+  process-fake-votes: true
+
+# Rewards. This is the main section you will need to edit. Ordering is important.
+rewards:
+  # Example of matchers. See https://github.com/minecrafter/SuperbVote/wiki/Configuration#if for a full list of available
+  # matchers.
+  - if:
+      permission: superbvote.test
+      chance-percentage: 5
+      service: SpecialService
+    commands:
+    - ntdluckyblock give %player% blue
+    - mama %player% ver %player%
+    - crazycrate give p oyver 1 %player%
+    player-message: "&6Skyblock &7► &eSunucumuza oyverdiğiniz için teşekkürler."
+    broadcast-message: "&6Skyblock &7► &e%player% &esunucumuza oy verdiği için &bKutu anahtarı &ekazandı. &a/oyver"
+  # A default reward is required. Default rewards are defined by using default: true as a matcher. No other matchers can
+  # be used with this matcher and only one such reward can be the default reward.
+  - if:
+      default: true
+    commands:
+    - ntdluckyblock give %player% blue
+    - crazycrate give p oyver 1 %player%
+    - mama %player% ver
+    player-message: "&6Skyblock &7► &eSunucumuza oyverdiğiniz için teşekkürler."
+    broadcast-message: "&6Skyblock &7► &e%player% &esunucumuza oy verdiği için &bKutu anahtarı &ekazandı. &a/oyver"
+
+# Whether or not players need to be online to vote. If set, offline player votes are queued for when the player next logs in.
+require-online: true
+
+# Broadcast settings:
+broadcast:
+  # Should we broadcast votes at all?
+  enabled: true
+
+  # Should we tell players if they voted?
+  message-player: true
+
+  # Should we broadcast queued votes?
+  queued: true
+
+# Vote command.
+# See http://www.minecraftforum.net/forums/minecraft-discussion/redstone-discussion-and/351959-1-9-json-text-component-for-tellraw-title-books
+# and https://www.minecraftjson.com for json text format
+vote-command:
+  enabled: false
+  use-json-text: false
+  text: |-
+    You could vote for us, but the owner forgot to add the list of websites to vote at!
+
+# Vote reminder.
+vote-reminder:
+  message: "&e "
+  on-join: false
+  repeat: 1800000000000000
+
+# Controls the /sv <top/leaderboard> command.
+leaderboard:
+  # Supported: text, scoreboard
+  display: text
+
+  # The text format supports pagination.
+  text:
+    per-page: 10
+    header: "&c&m         &r&b Top Voters &r&c&m         &r"
+    entry: "&e%num%. &7%player% (&e%votes%&7 votes)"
+    page: "&7(page %page%/%total%)"
+
+  # Control the scoreboard.
+  scoreboard:
+    title: Top voters
+    max: 10
+
+# Control top player signs.
+top-player-signs:
+  format:
+  - "#%num%"
+  - ""
+  - "%player%"
+  - "&l%votes% &rvotes"

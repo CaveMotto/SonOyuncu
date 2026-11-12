@@ -1,0 +1,138 @@
+title: 'Claim Map'
+size: 6
+type: 'CHEST'
+
+items:
+  main-claim:
+    type: 'LIME_STAINED_GLASS_PANE'
+    name: 'Your main chunk - %claim.name%'
+    glow: false
+    amount: 1
+    datavalue: 5
+    lore:
+      - 'Owner: %claim.owner.name%'
+      - 'Claim name: %claim.name%'
+      - 'Chunk: %chunkData.world.name%, %chunkData.x%, %chunkData.z%'
+      - ''
+      - 'Main chunk of your claim'
+    nbt: '{}'
+  sub-claim:
+    type: 'GREEN_STAINED_GLASS_PANE'
+    name: 'Sub Chunk - %claim.name%'
+    glow: false
+    amount: 1
+    datavalue: 13
+    lore:
+      - 'Owner: %claim.owner.name%'
+      - 'Claim name: %claim.name%'
+      - 'Chunk: %chunkData.world.name%, %chunkData.x%, %chunkData.z%'
+      - ''
+      - 'Sub chunk of your claim'
+    nbt: '{}'
+  ally-main-claim:
+    type: 'LIGHT_BLUE_STAINED_GLASS_PANE'
+    name: 'Ally main chunk - %claim.name%'
+    glow: false
+    amount: 1
+    datavalue: 3
+    lore:
+      - 'Owner: %claim.owner.name%'
+      - 'Claim name: %claim.name%'
+      - 'Chunk: %chunkData.world.name%, %chunkData.x%, %chunkData.z%'
+      - ''
+      - 'Main chunk of your claim'
+    nbt: '{}'
+  ally-sub-claim:
+    type: 'BLUE_STAINED_GLASS_PANE'
+    name: 'Ally sub Chunk - %claim.name%'
+    glow: false
+    amount: 1
+    datavalue: 11
+    lore:
+      - 'Owner: %claim.owner.name%'
+      - 'Claim name: %claim.name%'
+      - 'Chunk: %chunkData.world.name%, %chunkData.x%, %chunkData.z%'
+      - ''
+      - 'Sub chunk of your claim'
+    nbt: '{}'
+  enemy-claim:
+    type: 'RED_STAINED_GLASS_PANE'
+    name: 'Enemy Chunk - %claim.name%'
+    glow: false
+    amount: 1
+    datavalue: 14
+    lore:
+      - 'Owner: %claim.owner.name%'
+      - 'Claim name: %claim.name%'
+      - 'Chunk: %chunkData.world.name%, %chunkData.x%, %chunkData.z%'
+      - ''
+      - 'Claim of %claim.owner.name%'
+    nbt: '{}'
+  empty:
+    type: 'GRAY_STAINED_GLASS_PANE'
+    name: 'Claimable Chunk'
+    glow: false
+    amount: 1
+    datavalue: 7
+    lore:
+      - 'Chunk: %chunkData.world.name%, %chunkData.x%, %chunkData.z%'
+      - ''
+      - 'This claim is empty'
+    nbt: '{}'
+
+  left:
+    type: 'ARROW'
+    name: 'Left'
+    glow: false
+    amount: 1
+    datavalue: 0
+    lore: [ ]
+    nbt: '{}'
+    slot: 18
+  right:
+    type: 'ARROW'
+    name: 'Right'
+    glow: false
+    amount: 1
+    datavalue: 0
+    lore: [ ]
+    nbt: '{}'
+    slot: 26
+  up:
+    type: 'ARROW'
+    name: 'Up'
+    glow: false
+    amount: 1
+    datavalue: 0
+    lore: [ ]
+    nbt: '{}'
+    slot: 4
+  down:
+    type: 'ARROW'
+    name: 'Down'
+    glow: false
+    amount: 1
+    datavalue: 0
+    lore: [ ]
+    nbt: '{}'
+    slot: 49
+
+  remove-latest-chunk:
+    type: 'FLINT_AND_STEEL'
+    name: 'Back'
+    glow: false
+    amount: 1
+    datavalue: 0
+    lore: [ ]
+    nbt: '{}'
+    slot: 8
+
+  back:
+    type: 'BARRIER'
+    name: 'Back'
+    glow: false
+    amount: 1
+    datavalue: 0
+    lore: [ ]
+    nbt: '{}'
+    slot: 53

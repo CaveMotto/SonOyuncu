@@ -1,0 +1,141 @@
+menu_title: '&7Site Market - Eşyalar'
+open_command:
+- eşyalar
+size: 27
+items:
+  'camlar': 
+    material: STAINED_GLASS_PANE
+    data: 15
+    amount: 1
+    slots:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 12
+    - 15
+    - 17
+    - 18
+    - 19
+    - 20
+    - 21
+    - 22
+    - 23
+    - 24
+    - 25
+    - 26
+    display_name: '&7' 
+  'V15':
+    material: 278
+    slot: 10
+    display_name: '&eV15 Kazma'
+    lore:
+    - ''
+    - '&7Hemen Siteden Satın Alabilirsin '
+    - ''
+    - '&7Verimlilik Durumu: &eV15'
+    - '&7Kırılmazlık Durumu: &cK6'
+    - '&7Servet Durumu: &dS4'
+    - ''
+    - '&7Fiyat: &c25 TL'
+    - ''
+    - '&8► &aAlmak için tıkla.'
+    left_click_commands:   
+    - '[message] &6Faction&7► &eby Motto '
+    - '[close]'
+    right_click_commands:
+    - '[message] &6Faction&7► &eby Motto '
+    - '[close]'
+  'V20':
+    material: 278
+    slot: 11
+    display_name: '&eV20 Kazma'
+    lore:
+    - ''
+    - '&7Hemen Siteden Satın Alabilirsin '
+    - ''
+    - '&7Verimlilik Durumu: &eV20'
+    - '&7Kırılmazlık Durumu: &cK8'
+    - '&7Servet Durumu: &dS5'
+    - ''
+    - '&7Fiyat: &c35 TL'
+    - ''
+    - '&8► &aAlmak için tıkla.'
+    left_click_commands:   
+    - '[message] &6Faction&7► &eby Motto '
+    - '[close]'
+    right_click_commands:
+    - '[message] &6Faction&7► &eby Motto '
+    - '[close]'
+  'P4':
+    material: 311
+    slot: 13
+    display_name: '&eP4 Set'
+    lore:
+    - ''
+    - '&7Hemen Siteden Satın Alabilirsin '
+    - ''
+    - '&7Koruma Durumu: &eP4'
+    - '&7Kırılmazlık Durumu: &cK4'
+    - '&7Patlama Koruması Durumu: &dS5'
+    - '&7Dikenler Durumu: &bD3'
+    - ''
+    - '&7Fiyat: &c5 TL'
+    - ''
+    - '&8► &aAlmak için tıkla.'
+    left_click_commands:   
+    - '[message] &6Faction&7► &eby Motto '
+    - '[close]'
+    right_click_commands:
+    - '[message] &6Faction&7► &eby Motto '
+    - '[close]'
+  'P10':
+    material: 311
+    slot: 14
+    display_name: '&eP10 Set'
+    lore:
+    - ''
+    - '&7Hemen Siteden Satın Alabilirsin '
+    - ''
+    - '&7Koruma Durumu: &eP10'
+    - '&7Kırılmazlık Durumu: &cK8'
+    - '&7Patlama Koruması Durumu: &dS8'
+    - '&7Ateş Kormuası Durumu: &bA10'
+    - ''
+    - '&7Fiyat: &c20 TL'
+    - ''
+    - '&8► &aAlmak için tıkla.'
+    left_click_commands:   
+    - '[message] &6Faction&7► &eby Motto '
+    - '[close]'
+    right_click_commands:
+    - '[message] &6Faction&7► &eby Motto '
+    - '[close]'
+  'K15':
+    material: 276
+    slot: 16
+    display_name: '&eK15 Kılıç Set'
+    lore:
+    - ''
+    - '&7Hemen Siteden Satın Alabilirsin '
+    - ''
+    - '&7Keskinlik Durumu: &eK15'
+    - '&7Kırılmazlık Durumu: &cK6'
+    - '&7Ganimeyet Durumu: &dG4'
+    - '&7Savurma: &bS4'
+    - ''
+    - '&7Fiyat: &c25 TL'
+    - ''
+    - '&8► &aAlmak için tıkla.'
+    left_click_commands:   
+    - '[message] &6Faction&7► &eby Motto '
+    - '[close]'
+    right_click_commands:
+    - '[message] &6Faction&7► &eby Motto '
+    - '[close]'

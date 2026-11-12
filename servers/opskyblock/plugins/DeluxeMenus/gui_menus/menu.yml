@@ -1,0 +1,107 @@
+menu_title: "&7Menu"
+open_command:
+- menu
+- menü
+size: 36
+items: 
+  'ada-panel':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODlmN2EwNGFjMzM0ZmNhZjYxOGRhOWU4NDFmMDNjMDBkNzQ5MDAyZGM1OTJmODU0MGVmOTUzNDQ0MmNlY2Y0MiJ9fX0=
+    slot: 13
+    display_name: '&eAda Panel'
+    lore:
+      - ''
+      - '&7Adandaki Ayarları ve Görünümleri'
+      - '&7Kolayca bulabilme ve kullanma şansı' 
+      - ''
+      - "&aListelemek İçin Tıkla"
+    left_click_commands:
+      - '[player] is'
+      - '[close] '
+    right_click_commands:
+      - '[player] is'
+      - '[close] '
+  'bilgi':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2VmZjM5OGZjMzQ1YWFjOTljYzJkZjI1ZTg3ODU1ZTZiZjhjNmIzODRiZTM0Mjg5MmU0OGZiOWNmYjJhOTc2NyJ9fX0=
+    slot: 20
+    display_name: '&eBilgi'
+    lore:
+      - ''
+      - '&7Oyunu Bilmiyorsan Yardımcı Olabilir.'
+      - ''
+      - "&aListelemek İçin Tıkla"
+    left_click_commands:
+      - '[player] bilgi'
+      - '[close] '
+    right_click_commands:
+      - '[player] bilgi'
+      - '[close] '
+  'kurallar':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWNiMDA5ZDc4OTcxZTI2NTIwNzk1YzBiNTc3NjM5OGU4ODg4NDEyZWViYzY1Yzg1YzFiMzVkMDE0MDMxMGM2NSJ9fX0=
+    slot: 21
+    display_name: '&eKurallar'
+    lore:
+      - ''
+      - '&7Sunucuda oynadığınız zamanlar'
+      - '&7Kurallara uymak zorunluluğu vardır.'
+      - ''
+      - "&aListelemek İçin Tıkla"
+    left_click_commands:
+      - '[player] kurallar'
+      - '[close] '
+    right_click_commands:
+      - '[player] kurallar'
+      - '[close] '
+  'Kit':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjU5ZThkNDE5NmZlYTgyNzAyNWMyOTI3YTZmY2Q2ZTk4ZDAzMDA1NzM3MTIzOGE3N2FlNGNkZGViY2U4NjQ3NyJ9fX0=
+    slot: 22
+    display_name: '&eKit'
+    lore:
+      - ''
+      - '&7Oyundan ücretsiz şekilde ekipman'
+      - '&7Kazanma şansı vip üyeliği ve'
+      - '&7daha yüksek ekipmanlar alabilirsiniz.'
+      - ''
+      - '&dwww.laros.network'
+      - ''
+      - "&aListelemek İçin Tıkla"
+    left_click_commands:
+      - '[player] kit'
+      - '[close] '
+    right_click_commands:
+      - '[player] kit'
+      - '[close] '
+  'rütbe':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDk0NzM4YTg4Njc4ZDAwNDdmNzMwZGNjZGExODkxMGEwYjNkYmJhMjJhN2I3NDRjZjE2MTUxNDYyNjY3NjJhNiJ9fX0=
+    slot: 23
+    display_name: '&eRütbe'
+    lore:
+      - ''
+      - '&7Ada seviyenizi yükselterek'
+      - '&7yeni rütbeler kazanabilirsiniz.'
+      - ''
+      - '&7Komut: &d/rank'
+      - ''
+      - "&aListelemek İçin Tıkla"
+    left_click_commands:
+      - '[player] rütbe'
+      - '[close] '
+    right_click_commands:
+      - '[player] rütbe'
+      - '[close] '
+  'sitemarket':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzgyODY0YzI2YjRmNGU5MzMyNmFhM2MzY2FjZTBiYjZhZWUzMDU5MzVjMDc4NTNhYTMxMTkyZDEwYTJmMzIxZSJ9fX0=
+    slot: 24
+    display_name: '&eSite Market'
+    lore:
+      - ''
+      - '&7Mağazamızda gelişmeğe odaklı'
+      - '&7ürün satın alarak oyunun kralı'
+      - '&7olmaya hak kazanabilirsiniz.'
+      - ''
+      - "&aListelemek İçin Tıkla"
+    left_click_commands:
+      - '[message] &6Skyblock &7► &ehttps://by Motto'
+      - '[close] '
+    right_click_commands:
+      - '[message] &6Skyblock &7► &ehttps://by Motto'
+      - '[close] '

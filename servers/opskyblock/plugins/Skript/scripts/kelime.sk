@@ -1,0 +1,29 @@
+command /kelimeoyunu:
+    permission: kelime.oyunu
+    permission message: &6Skyblock &8► &7Bu komutu kullanabilmek için gerekli yetkiniz yok!
+    trigger:
+        if {kodlar.%{_kodgecici.%player%}%} is set:
+        set {kodlar} to a random integer between 1 and 999999999999
+        set {kodlar.%{_kodgecici.%player%}%} to {kodlar}
+        set {kodBasladi} to true
+        broadcast "   &8≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋"
+        broadcast " "
+        broadcast "&r &r &r                  &e&n%{kodlar}%&f"                   
+        broadcast " "
+        broadcast "&r  &r   &7Yukarıdaki kodu sohbete ilk yazan kişi"
+        broadcast "&r  &r   &r  &r        &a1.000 Dirhem &7kazanır.             "
+        broadcast " "
+        broadcast "   &8≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋"
+         
+on chat:
+    if {kodBasladi} is true:
+        if message is "%{kodlar}%":
+            wait 5 tick
+            broadcast "&6Skyblock &8► &6%player% &ekelime oyununu kazandı."
+            set {kodBasladi} to false
+            execute console command "admindirhem ver %player% 1000"
+         
+         
+every 1800 seconds:
+    execute console command "kelimeoyunu"
+    stop

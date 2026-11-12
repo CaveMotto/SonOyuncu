@@ -1,0 +1,44 @@
+#Owner:
+#  tabprefix: "&0&l[&a&lOwner&0&l] &a"
+#  tagprefix: "&2&lOwner &a"
+Player:
+  tabprefix: "&a[%wolrd%]&0&l[&7&lPlayer&0&l] &3"
+  tagprefix: "&2&lPlayer &3"
+example_group:
+  header:
+    - "This is an example of per-group header/footer"
+  footer:
+    - "applied to a group"
+
+ # default settings for all groups, all groups will take properties from this section unless player's primary group overrides a specific setting
+_DEFAULT_:
+  tabprefix: "&2[%world%] &f%luckperms-prefix%"
+  tagprefix: "&2[%world%] &f%luckperms-prefix%"
+svip:
+  tabprefix: "&2[%world%] &3SVIP &b%luckperms-prefix%"
+  tagprefix: "&2[%world%] &3SVIP &b%luckperms-prefix%"
+svip+:
+  tabprefix: "&2[%world%] &3SVIP&c+ &b%luckperms-prefix%"
+  tagprefix: "&2[%world%] &3SVIP&c+ &b%luckperms-prefix%"
+asistan:
+  tabprefix: "&2[%world%] &aAsistan &2%luckperms-prefix%"
+  tagprefix: "&2[%world%] &aAsistan &2%luckperms-prefix%"
+youtuber:
+  tabprefix: "&2[%world%] &cYou&fTuber &f%luckperms-prefix%"
+  tagprefix: "&2[%world%] &cYou&fTuber &f%luckperms-prefix%"
+moderator:
+  tabprefix: "&2[%world%] &5Moderator &d%luckperms-prefix%"
+  tagprefix: "&2[%world%] &5Moderator &d%luckperms-prefix%"
+admin:
+  tabprefix: "&2[%world%] &6Admin &e%luckperms-prefix%"
+  tagprefix: "&2[%world%] &6Admin &e%luckperms-prefix%"
+yönetici:
+  tabprefix: "&2[%world%] &4Yönetici &c%luckperms-prefix%"
+  tagprefix: "&2[%world%] &4Yönetici &c%luckperms-prefix%"
+
+
+per-world:
+  world1:
+    Owner:
+      tabprefix: "&0&l[&a&lOwner&0&l] &a"
+      tagprefix: "&2&lOwner &a"

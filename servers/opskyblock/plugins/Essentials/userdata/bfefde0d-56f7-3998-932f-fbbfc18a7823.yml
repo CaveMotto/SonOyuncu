@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 88.230.120.72
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1711290220703
+  login: 1711289739244
+money: '0'
+lastlocation:
+  world: 4bd4f2dd-afea-44ea-b6bf-00c7bcb89ce0
+  world-name: Spawn
+  x: -2297.538373607652
+  y: 14.0
+  z: -267.77130782649317
+  yaw: -179.16036987304688
+  pitch: 3.40132474899292
+last-account-name: Swoxyii
+logoutlocation:
+  world: 4bd4f2dd-afea-44ea-b6bf-00c7bcb89ce0
+  world-name: Spawn
+  x: -2319.056284970635
+  y: 8.0
+  z: -314.64264453418025
+  yaw: -44.00927734375
+  pitch: 41.999977111816406

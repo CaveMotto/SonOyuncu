@@ -1,0 +1,106 @@
+bilgi:
+  location: Faction, 0.427, 72.200, -34.660
+  lines:
+  - '&aFaction Bilgi'
+  - ''
+  - '&7► Oyun Oynamayı Bilmiyosan'
+  - '&7► Komutları Nasıl Kullanıldığın Bilmiyosan'
+  - '&7► Sistemlerin Nasıl Kullanıldığın Bilmiyosan'
+  - ''
+  - '&7► Bana Tıklayarak Bilgi Alabilirsin.'
+  - ''
+  - '&cby Motto'
+pixelkutu:
+  location: Faction, 0.401, 78.075, -77.680
+  lines:
+  - '&a◆&b◆&c◆ &6Kutu &a◆&b◆&c◆'
+  - ''
+  - '&7Açmak İçin &dSol &7Tık'
+  - '&7Bakmak İçin &dSağ &7Tık'
+  - ''
+  - '&dDegeri: &a❖❖❖❖❖'
+lapiskutu:
+  location: Faction, -3.379, 78.075, -77.495
+  lines:
+  - '&a◆&b◆&c◆ &6Lapis Kutu &a◆&b◆&c◆'
+  - ''
+  - '&7Açmak İçin &dSol &7Tık'
+  - '&7Bakmak İçin &dSağ &7Tık'
+  - ''
+  - '&dDegeri: &a❖❖&f❖❖❖'
+oyver:
+  location: Faction, -6.303, 78.075, -75.214
+  lines:
+  - '&a◆&b◆&c◆ &6OyVer Kutu &a◆&b◆&c◆'
+  - ''
+  - '&7Açmak İçin &dSol &7Tık'
+  - '&7Bakmak İçin &dSağ &7Tık'
+  - ''
+  - '&dDegeri: &a❖&f❖❖❖❖'
+eventkutu:
+  location: Faction, 7.504, 78.075, -75.430
+  lines:
+  - '&a◆&b◆&c◆ &6Event Kutu &a◆&b◆&c◆'
+  - ''
+  - '&7Açmak İçin &dSol &7Tık'
+  - '&7Bakmak İçin &dSağ &7Tık'
+  - ''
+  - '&dDegeri: &a❖❖❖&f❖❖'
+godkutu:
+  location: Faction, 4.700, 78.075, -77.547
+  lines:
+  - '&a◆&b◆&c◆ &6God Kutu &a◆&b◆&c◆'
+  - ''
+  - '&7Açmak İçin &dSol &7Tık'
+  - '&7Bakmak İçin &dSağ &7Tık'
+  - ''
+  - '&dDegeri: &a❖❖❖❖&f❖'
+profil:
+  location: Faction, -6.612, 71.400, -30.588
+  lines:
+  - '&aFaction Profil'
+  - ''
+  - '&7► Toplam Öldürme: &eN/A'
+  - '&7► Toplam Ölme: &eN/A'
+  - '&7► Toplam Kazma: &eN/A'
+  - '&7► Mob Öldürme: &eN/A'
+  - '&7► Depocu: &eN/A'
+  - ''
+sitemarket:
+  location: Faction, 7.541, 71.500, -30.483
+  lines:
+  - '&aFaction Site Market'
+  - ''
+  - '&7► Faction Edit İtemler'
+  - '&7► Faction P4 Set , P10 Set'
+  - '&7► Faction P15 Kazma , P20 Kazma'
+  - '&7► Faction K15 Kılıc , K20 Kılıc'
+  - ''
+  - '&7► Eşyaları Siteden Satın Alabilirsin.'
+warp:
+  location: Faction, 8.690, 71.000, -14.264
+  lines:
+  - '&aFaction Bölge''ler'
+  - ''
+  - '&7► Her Yere Kolayca Işınlanmak'
+  - ''
+  - '&8( &c/warp,/bögle &8)'
+menu:
+  location: Faction, -6.968, 71.200, -14.752
+  lines:
+  - '&aFaction Menu''ler'
+  - ''
+  - '&7► Bütün Sistemleri Öğrenmek'
+  - '&7► Bütün Menulere Ulaşabilcek'
+  - '&7► Faction Ve Dahası'
+  - ''
+  - '&8( &d/menu &8)'
+lapiskutu2:
+  location: Lapis, -1655.552, 98.075, -1338.646
+  lines:
+  - '&a◆&b◆&c◆ &6Lapis Kutu &a◆&b◆&c◆'
+  - ''
+  - '&7Açmak İçin &dSol &7Tık'
+  - '&7Bakmak İçin &dSağ &7Tık'
+  - ''
+  - '&dDegeri: &a❖❖&f❖❖❖'

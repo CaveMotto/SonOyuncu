@@ -1,0 +1,233 @@
+time-format: '%day%:%hour%:%minute%:%second%'
+date-format: '%day%-%month%-%year% %hour%:%minute%'
+
+you-dont-have-enough-claims: 'Daha önceden hiç claim atmamışsınız.'
+you-cant-break: 'Bu bloğu kıramazsınız.'
+you-cant-add-member: 'Ekleyebileceğiniz maximum arkadaş sayısı %count% taneden fazla olamaz.'
+you-are-teleporting: 'Lütfen %seconds% saniye bekleyiniz, ışınlanıyorsunuz.'
+you-moved: 'Işınlanma işleminiz hareket ettiğiniz için iptal edildi.'
+there-is-no-money: 'Bunu yapmak için yeterli paranız yok.'
+main-claim-size-out: 'Ana claim sayınız %max% taneden fazla olamaz.'
+sub-claim-size-out: 'Yan claim sayınız %max% taneden fazla olamaz.'
+here-is-no-claimable: 'Burası claimlenebilir bir alan değil.'
+world-is-no-claimable: 'Aktif olarak bulunduğunuz dünya, claim atmaya uygun değil!'
+added-member-to-claim: '%member_name% isimli oyuncu claiminize eklendi.'
+you-added-to-claim: '%claim_name% isimli claim''e by %player% tarafından eklendin.'
+removed-member-from-claim: '%member_name% isimli oyuncuyu claim''inizden çıkarttınız.'
+you-removed-from-claim: '%claim_name% isim claimden %player% tarafından atıldınız.'
+member-is-offline: 'Bu üye aktif değil, daha sonra tekrar dene!'
+member-already-exist: 'Bu oyuncuyu claime ekleyemezsin çünkü bu oyuncu claimde zaten var!'
+time-expire-broadcast: '%x%, %y%, %z%, %world% lokasyonunda %owner% isimli oyuncunun claim süresi tükendiği için claimi kaldırıldı.'
+there-is-store-viewer: 'Birileri şu anda claim deposuna bakıyor. Daha sonra tekrar dene!'
+someone-opened-store: 'Daha yüksek rütbeli biri depoyu açtı.'
+claim-name-too-short: 'Claim adı en az 3 karakterden oluşmalıdır.'
+claim-time-out: 'Claiminize verebileceğiniz en yüksek süre %time%.'
+cant-break-here: 'Bu bloğu kıramazsınız, yetkiniz yok.'
+cant-place-here: 'Buraya blok koyamazsınız, yetkiniz yok.'
+cant-damage-animals-here: 'Hayvanlara hasar veremezsiniz, yetkiniz yok.'
+cant-interact-here: 'Burada herhangi bir eşya ile etkileşime geçemezsiniz, yetkiniz yok.'
+cant-pickup-here: 'Burada yerden eşya alamazsınız, yetkiniz yok.'
+cant-use-command-here: 'Burada bu komutu kullanamazsınız, yetkiniz yok.'
+cant-move-block-here: 'Claim taşınızı buraya taşıyamazsınız çünkü burası ana chunkın dışında bir yer.'
+
+claim-enter:
+  title: '&a'
+  subtitle: '&a'
+  actionbar: '&d%owner% &7isimli oyuncunun claimine girdin.'
+claim-leave:
+  title: '&a'
+  subtitle: '&a'
+  actionbar: '&d%owner% &7isimli oyuncunun claiminden çıktın.'
+member-status-mode:
+  active: 'Aktif'
+  deactive: 'Deaktif'
+
+
+##################
+#WEBHOOK MESSAGES#
+##################
+claim-create-embed:
+  send-to: 'admin'
+  title: 'Claim oluşturuldu'
+  image: ''
+  thumbnail: 'https://www.spigotmc.org/data/resource_icons/90/90540.jpg?1616615228'
+  color: '#85e048'
+  description:
+    - '%claim_name% isimli claim oluşturuldu.'
+    - 'uid: %claim_uid%'
+    - 'yönetici: %owner%'
+  footer:
+    text: 'Claim oluşturuldu'
+    icon: 'https://www.spigotmc.org/data/resource_icons/90/90540.jpg?1616615228'
+  author:
+    name: 'hClaims'
+    avatar-url: 'https://www.spigotmc.org/data/resource_icons/90/90540.jpg?1616615228'
+
+claim-delete-embed:
+  send-to: 'admin'
+  title: 'Claim silindi'
+  image: ''
+  thumbnail: 'https://www.spigotmc.org/data/resource_icons/90/90540.jpg?1616615228'
+  color: '#ed1c8f'
+  description:
+    - '%claim_name% isimli claim silindi.'
+    - 'uid: %claim_uid%'
+    - 'yönetici: %owner%'
+  footer:
+    text: 'Claim silindi'
+    icon: 'https://www.spigotmc.org/data/resource_icons/90/90540.jpg?1616615228'
+  author:
+    name: 'hClaims'
+    avatar-url: 'https://www.spigotmc.org/data/resource_icons/90/90540.jpg?1616615228'
+
+claim-time-expire-embed:
+  send-to: 'player, admin'
+  title: 'Claim süresi doldu'
+  image: ''
+  thumbnail: 'https://www.spigotmc.org/data/resource_icons/90/90540.jpg?1616615228'
+  color: '#ad9b21'
+  description:
+    - '%claim_name% isimli claimin süresi doldu.'
+    - 'uid: %claim_uid%'
+    - 'yönetici: %owner%'
+    - '%world%, %x%, %y%, %z%'
+  footer:
+    text: 'Claim süresi doldu'
+    icon: 'https://www.spigotmc.org/data/resource_icons/90/90540.jpg?1616615228'
+  author:
+    name: 'hClaims'
+    avatar-url: 'https://www.spigotmc.org/data/resource_icons/90/90540.jpg?1616615228'
+
+claim-name-change-embed:
+  send-to: 'admin'
+  title: 'Claim name changed'
+  image: ''
+  thumbnail: 'https://www.spigotmc.org/data/resource_icons/90/90540.jpg?1616615228'
+  color: '#00c3ff'
+  description:
+    - '%claim_name% isimli claimin ismi değiştirildi.'
+    - '%old_name%'
+    - '%new_name%'
+  footer:
+    text: 'Claim name changed'
+    icon: 'https://www.spigotmc.org/data/resource_icons/90/90540.jpg?1616615228'
+  author:
+    name: 'hClaims'
+    avatar-url: 'https://www.spigotmc.org/data/resource_icons/90/90540.jpg?1616615228'
+
+claim-owner-transfer-embed:
+  send-to: 'admin'
+  title: 'Claim sahibi değiştirildi'
+  image: ''
+  thumbnail: 'https://www.spigotmc.org/data/resource_icons/90/90540.jpg?1616615228'
+  color: '#0092bf'
+  description:
+    - '%claim_name% isimli claimin sahibi değiştirildi.'
+    - '%old_owner%'
+    - '%new_owner%'
+  footer:
+    text: 'Claim sahibi değiştirildi'
+    icon: 'https://www.spigotmc.org/data/resource_icons/90/90540.jpg?1616615228'
+  author:
+    name: 'hClaims'
+    avatar-url: 'https://www.spigotmc.org/data/resource_icons/90/90540.jpg?1616615228'
+
+claim-move-embed:
+  send-to: 'admin'
+  title: 'Claim taşındı'
+  image: ''
+  thumbnail: 'https://www.spigotmc.org/data/resource_icons/90/90540.jpg?1616615228'
+  color: '#007599'
+  description:
+    - '%claim_name% isimli claim taşındı.'
+    - '%old_location%'
+    - '%new_location%'
+  footer:
+    text: 'Claim taşındı'
+    icon: 'https://www.spigotmc.org/data/resource_icons/90/90540.jpg?1616615228'
+  author:
+    name: 'hClaims'
+    avatar-url: 'https://www.spigotmc.org/data/resource_icons/90/90540.jpg?1616615228'
+
+claim-expire-date-change-embed:
+  send-to: 'admin'
+  title: 'Claim bitiş süresi değiştirildi'
+  image: ''
+  thumbnail: 'https://www.spigotmc.org/data/resource_icons/90/90540.jpg?1616615228'
+  color: '#3bd1ff'
+  description:
+    - '%claim_name% isimli claimin bitiş süresi değiştirildi.'
+    - '%old_expire_date%'
+    - '%new_expire_date%'
+  footer:
+    text: 'Claim bitiş süresi değiştirildi'
+    icon: 'https://www.spigotmc.org/data/resource_icons/90/90540.jpg?1616615228'
+  author:
+    name: 'hClaims'
+    avatar-url: 'https://www.spigotmc.org/data/resource_icons/90/90540.jpg?1616615228'
+
+claim-member-add-embed:
+  send-to: 'admin'
+  title: 'Claime üye eklendi'
+  image: ''
+  thumbnail: 'https://www.spigotmc.org/data/resource_icons/90/90540.jpg?1616615228'
+  color: '#2a9abd'
+  description:
+    - '%claim_name% isimli claime üye eklendi.'
+    - '%member_name%'
+    - '%member_uid%'
+  footer:
+    text: 'Claime üye eklendi'
+    icon: 'https://www.spigotmc.org/data/resource_icons/90/90540.jpg?1616615228'
+  author:
+    name: 'hClaims'
+    avatar-url: 'https://www.spigotmc.org/data/resource_icons/90/90540.jpg?1616615228'
+
+claim-member-remove-embed:
+  send-to: 'admin'
+  title: 'Claimden üye silindi'
+  image: ''
+  thumbnail: 'https://www.spigotmc.org/data/resource_icons/90/90540.jpg?1616615228'
+  color: '#1c6880'
+  description:
+    - '%claim_name% isimli claimden üye silindi.'
+    - '%member_name%'
+    - '%member_uid%'
+  footer:
+    text: 'Claimden üye silindi'
+    icon: 'https://www.spigotmc.org/data/resource_icons/90/90540.jpg?1616615228'
+  author:
+    name: 'hClaims'
+    avatar-url: 'https://www.spigotmc.org/data/resource_icons/90/90540.jpg?1616615228'
+
+claim-subclaim-create-embed:
+  send-to: 'admin'
+  title: 'Claim alt claim oluşturuldu'
+  image: ''
+  thumbnail: 'https://www.spigotmc.org/data/resource_icons/90/90540.jpg?1616615228'
+  color: '#51dbdb'
+  description:
+    - '%claim_name% isimli claimin alt claimi oluşturuldu.'
+    - '%subclaim_chunk%'
+  footer:
+    text: 'Claim alt claim oluşturuldu'
+    icon: 'https://www.spigotmc.org/data/resource_icons/90/90540.jpg?1616615228'
+  author:
+    name: 'hClaims'
+    avatar-url: 'https://www.spigotmc.org/data/resource_icons/90/90540.jpg?1616615228'
+
+claim-subclaim-delete-embed:
+  send-to: 'admin'
+  title: 'Claimin alt claimi silindi'
+  image: ''
+  thumbnail: 'https://www.spigotmc.org/data/resource_icons/90/90540.jpg?1616615228'
+  color: '#3fa1a1'
+  description:
+    - '%claim_name% isimli claimin alt claimi silindi.'
+    - '%subclaim_chunk%'
+  footer:
+    text: 'Claimin alt claimi silindi'
+    icon: 'https://www.spigotmc.org/data/resource_icons/90/90540.jpg?1616615228'
+  author:
+    name: 'hClaims'
+    avatar-url: 'https://www.spigotmc.org/data/resource_icons/90/90540.jpg?1616615228'

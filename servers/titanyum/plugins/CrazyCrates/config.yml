@@ -1,0 +1,36 @@
+Settings:
+  Prefix: '&6Survival &8► '
+  InventoryName: '&8Kutucu Yusuf'
+  InventorySize: 45
+  KnockBack: true
+  Toggle-Metrics: true #Turn on and off if your server stats are sent to https://bstats.org/ - Requires a restart!
+  Physical-Accepts-Virtual-Keys: true #If physical crates can accept virtual keys.
+  Virtual-Accepts-Physical-Keys: true #If virtual crates can accept physical keys.
+  Give-Virtual-Keys-When-Inventory-Full: false #If the player's inventory is full when given a physical key it will instead give them virtual keys. If false it will drop the keys on the ground.
+  QuadCrate:
+    Timer: 300
+  DisabledWorlds:
+    - 'world_nether'
+  Preview:
+    Buttons:
+      Menu:
+        Item: 'COMPASS'
+        Name: '&cMenu'
+        Lore:
+          - '&7 '
+      Next:
+        Item: 'FEATHER'
+        Name: '&6&lNext >>'
+        Lore:
+          - '&7&lPage: &b%page%'
+      Back:
+        Item: 'FEATHER'
+        Name: '&6&l<< Back'
+        Lore:
+          - '&7&lPage: &b%page%'
+  Filler: #This allows you to quickly fill the GUI with one item.
+    Toggle: false #If it fills the GUI with an item.
+    Item: 'STAINED_GLASS_PANE:15' #The item you wish to use.
+    Name: ' ' #The name of the item.
+    Lore: [ ] #The lore of the item.
+  GUI-Customizer: #Place extra items in the GUI. If you wish to not use this, remove all items and set it to GUI-Customizer: []

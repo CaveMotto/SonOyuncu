@@ -1,0 +1,188 @@
+Crate:
+  CrateType: Wheel
+  CrateName: '&ePixel Kutu'
+  StartingKeys: 0
+  InGUI: true
+  Slot: 14
+  OpeningBroadCast: false
+  BroadCast: '%Prefix% &e%Player% &7isimli kullanıcı &aPixel Kasası &7açıyor!' #Message that is broadcasted when opening the crate.
+  Item: '54'
+  Name: '&ePixel Kutu'
+  Lore:
+  - ''
+  - '&8► &7Sanal Bir Kutu :D'
+  - ''
+  PhysicalKey:
+    Name: '&8► &dPixel Kutusu '
+    Lore:
+      - ''
+      - '&a/Warp kutu &eAçabilirsiniz.'
+    Item: '379'
+    Glowing: true
+#         For Cosmic Crates Only
+#############################################
+#  Tiers: #The tiers in the Crate
+#    Basic: #The Config Name for the Crate
+#      Name: '&8Basic Prize' #The in-game name of the Crate
+#      Color: 7 #Use the MetaData for the color of the glass
+#      Chance: 80 #Chance of that item getting picked. It would be 80/100 chance because MaxRange is 100.
+#      MaxRange: 100 #The max range that the chance will go though.
+#    UnCommon:
+#      Name: '&aUnCommon Prize'
+#      Color: 5
+#      Chance: 55
+#      MaxRange: 100
+#    Rare:
+#      Name: '&4Rare Prize'
+#      Color: 14
+#      Chance: 20
+#      MaxRange: 100
+#############################################
+  Prizes: #All the prizes that can be gotten in the Crate.
+    1:
+      DisplayName: '&eVIP Kiti'
+      DisplayItem: '378'
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&7Bir Ekipman.'
+      - '&7Kazanma Şansın &c%6'
+      - ''
+      - '&aŞans Senin Yerine Gider'
+      DisplayEnchantments:
+        - 'unbreaking:1'
+      MaxRange: 100
+      Chance: 6
+      Firework: true
+      Glowing: false
+      Commands:
+        - 'kit vip %player%'
+    2:
+      DisplayName: '&eVIP+ Kiti'
+      DisplayItem: '378'
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&7Bir Ekipman.'
+      - '&7Kazanma Şansın &c%6'
+      - ''
+      - '&aŞans Senin Yerine Gider'
+      DisplayEnchantments:
+        - 'unbreaking:1'
+      MaxRange: 100
+      Chance: 6
+      Firework: true
+      Glowing: false
+      Commands:
+        - 'kit vip+ %player%'
+    3:
+      DisplayName: '&eMVIP Kiti'
+      DisplayItem: '378'
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&7Bir Ekipman.'
+      - '&7Kazanma Şansın &c%6'
+      - ''
+      - '&aŞans Senin Yerine Gider'
+      DisplayEnchantments:
+        - 'unbreaking:1'
+      MaxRange: 100
+      Chance: 6
+      Firework: true
+      Glowing: false
+      Commands:
+        - 'kit mvip %player%'
+    4:
+      DisplayName: '&eMVIP+ Kiti'
+      DisplayItem: '378'
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&7Bir Ekipman.'
+      - '&7Kazanma Şansın &c%6'
+      - ''
+      - '&aŞans Senin Yerine Gider'
+      DisplayEnchantments:
+        - 'unbreaking:1'
+      MaxRange: 100
+      Chance: 6
+      Firework: true
+      Glowing: false
+      Commands:
+        - 'kit mvip+ %player%'
+    5:
+      DisplayName: '&e150.000 Oyun Parası'
+      DisplayItem: '339'
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&7Bir Para Birimi.'
+      - '&7Kazanma Şansın &c%4'
+      - ''
+      - '&aŞans Senin Yerine Gider'
+      DisplayEnchantments: false
+      MaxRange: 100
+      Chance: 4
+      Firework: true
+      Glowing: false
+      Commands:
+        - 'eco give %player% 150000'
+    6:
+      DisplayName: '&e1.000.000 Oyun Parası'
+      DisplayItem: '339'
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&7Bir Para Birimi.'
+      - '&7Kazanma Şansın &c%1'
+      - ''
+      - '&aŞans Senin Yerine Gider'
+      DisplayEnchantments: false
+      MaxRange: 100
+      Chance: 1
+      Firework: true
+      Glowing: false
+      Commands:
+        - 'eco give %player% 1000000'
+    13:
+      DisplayName: '&ePixel Kılıc &dK17'
+      DisplayItem: '276'
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&7Kazı Kazma.'
+      - '&7Kazanma Şansın &c%1'
+      - ''
+      - '&aŞans Senin Yerine Gider'
+      DisplayEnchantments:
+        - 'DAMAGE_ALL:17'
+        - 'UNBREAKING:5'
+        - 'FIRE_ASPECT:5'
+        - 'LOOTING:2'    
+      MaxRange: 100
+      Chance: 1
+      Firework: false
+      Glowing: false
+      Items:
+        - 'Item:276, Amount:1, Name:&d&nPixel_Kılıç, DAMAGE_ALL:17, FIRE_ASPECT:5, UNBREAKING:5, LOOTING:2'
+    14:
+      DisplayName: '&ePixel Kazma &dV22'
+      DisplayItem: '278'
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&7Bir Silah.'
+      - '&7Kazanma Şansın &c%1'
+      - ''
+      - '&aŞans Senin Yerine Gider'
+      DisplayEnchantments:
+        - 'EFFICIENCY:22'
+        - 'UNBREAKING:3'
+        - 'FORTUNE:3'     
+      MaxRange: 100
+      Chance: 1
+      Firework: false
+      Glowing: false
+      Items:
+        - 'Item:278, Amount:1, Name:&aPixel_Kazma, EFFICIENCY:22, UNBREAKING:3, FORTUNE:3'        

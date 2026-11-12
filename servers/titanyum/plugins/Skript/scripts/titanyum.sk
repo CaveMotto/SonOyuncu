@@ -1,0 +1,63 @@
+# Genel.sk - Sqruat Tarafından Yazılmıştır. Discord: sqruat.
+		
+# İlk Giriş Komut Verme - By Sqruat
+		
+on first join:
+    execute console command "lp user %player% permission set larosstore.bilet0"
+
+# Nether Yönlendirme - By Sqruat
+
+on portal enter:
+    execute console command "mvtp %player% Nether"
+
+
+# Komut Türkçeleştirme - By Sqruat
+
+command /market:
+    trigger:
+        execute player command "/shop"
+		
+command /sat:
+    trigger:
+        execute player command "/sell hand"		
+
+			
+command /tamir:
+    trigger:
+        execute player command "/repair"		
+			
+command /görev:
+    trigger:
+        execute player command "/chance"	
+			
+command /ihale [<text>] [<text>]:
+    trigger:
+        arg 1 is not set:
+            execute player command "ah"
+        arg 1 is "başlat":
+            arg 1 is set:
+                execute player command "ah bid %arg-2%"
+            else if arg 1 is not set:
+                send "yardım"
+            else if arg 2 is not set:
+                send "oyuncu ismi belirtmedin" 
+				
+command /kinas [<text>] [<text>]:
+    trigger:
+        arg 1 is not set:
+            execute player command "545wat41awrfq855qa"
+        arg 1 is "gönder":
+            arg 1 is set:
+                execute player command "pay %arg-2%"
+            else if arg 1 is not set:
+                send "yardım"
+            else if arg 2 is not set:
+                send "oyuncu ismi belirtmedin"  
+				
+command /545wat41awrfq855qa:
+    trigger:
+        send "&e&l&m--------------&6 &6Survival &e&l&m--------------&6"
+        send ""
+        send "&6/kinas gönder (oyuncu) (miktar) &7- &eKarşıdaki oyuncuya kinas gönderirsin."
+        send ""
+        send "&e&l&m--------------&6 &6Survival &e&l&m--------------&6"

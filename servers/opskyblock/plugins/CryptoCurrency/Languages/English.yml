@@ -1,0 +1,76 @@
+#       ----------- + CryptoCurrency by Ziga Zajc + -----------   #
+#                                                                 #
+#                               Config                            #
+#                                                                 #
+#       ----------- + --------------------------- + -----------   #
+#
+#       You can use chat colors:
+#                ________________________
+#               |   code: | color:       |
+#               |________________________|
+#               |     &0  |	Black	     |
+#               |     &1  |	Dark Blue	 |
+#               |     &2  |	Dark Green	 |
+#               |     &3  |	Dark Aqua	 |
+#               |     &4  |	Dark Red	 |
+#               |     &5  |	Dark Purple	 |
+#               |     &6  |	Gold	     |
+#               |     &7  |	Gray	     |
+#               |     &8  |	Dark Gray	 |
+#               |     &9  |	Blue	     |
+#               |     &a  |	Green	     |
+#               |     &b  |	Aqua	     |
+#               |     &c  |	Red	         |
+#               |     &d  |	Light Purple |
+#               |     &e  |	Yellow	     |
+#               |     &f  |	White	     |
+#               |     &k  |	Obfuscated	 |
+#               |     &l  |	Bold	     |
+#               |     &m  |	Strikethrough|
+#               |     &n  |	Underline	 |
+#               |     &o  |	Italic	     |
+#               |     &r  |	Reset	     |
+#               |________________________|
+#
+#----------------------------------------------------------
+#                         Prefix
+#----------------------------------------------------------
+prefix: "&6SkyBlock &8► "
+#----------------------------------------------------------
+#                       Commands
+#----------------------------------------------------------
+permission: "&eBunu yapmaya izniniz yok!"
+is_not_a_player: "&d{player} &ebir oyuncu değil!"
+is_not_a_number: "&d{number} &ebir sayı değil!"
+wrong_arguments: "&eLütfen /{crypto} yardımını kullanın"
+vault_required: "&eBu eylemi tamamlamak için sunucunuzda vault eklentisi yüklü değil!"
+#----------------------------------------------------------
+#                        Help
+#----------------------------------------------------------
+help:
+  - "&e&l&m--------------&6 &6CRYPTO &e&l&m--------------&6"
+  - ""
+  - "&6/{crypto} bakiyem &7- &eCrypto hesabına bakar."
+  - "&6/{crypto} fiyat &7- &eCrypto yükselişini ve artışını izlersin"
+  - "&6/{crypto} al (miktar) &7- &eCrypto satın alabilirsin."
+  - "&6/{crypto} sat (miktar) &7- &eCrypto satabilirsin."
+  - "&6/{crypto} gönder (oyuncu) (miktar) &7- &eOyuncuya crypto gönderirsin."
+  - ""
+  - "&e&l&m--------------&6 &6CRYPTO &e&l&m--------------&6"
+#----------------------------------------------------------
+#                       Messages
+#----------------------------------------------------------
+message_money_not_enough: "&eBu eylemi tamamlamak için yeterli paranız yok."
+message_balance: "&eCüzdanınızda &d{amount} {crypto} &evar."
+message_balance_player: "&d{player}'ın &ecüzdanında &b{amount} {crypto} &evar."
+message_not_enough: "&eBu işlemi tamamlamaya yetecek kadar &d{crypto}'ınız &eyok."
+message_send_success: "&d{player}'a &b{amount} {crypto} &egönderdiniz."
+message_send_yourself: "&eKendinize &b{color}{crypto} &egönderemezsiniz!"
+message_receive_success: "&b{player} &esize &d{amount} {crypto} &egönderdi."
+message_taken_player: "&d{player}'dan &b{amount} {crypto} &ealdınız."
+message_taken_target: "&b{player} &esize &d{amount} {crypto} &ealdı."
+message_sell: "&eAz önce &d{amount} &b{crypto}'yu {money} &ekarşılığında sattınız."
+message_buy: "&eAz önce &d{money} &ekarşılığında &b{amount} {crypto} &esatın aldınız."
+message_price: "{color}{amount} {crypto}, {money} &edeğerindedir"
+message_maximum: "&eEn fazla &d{amount} {crypto} &eile yönetemezsiniz."
+message_minimum: "&d{amount} {crypto}'dan &edaha azıyla yönetemezsiniz."

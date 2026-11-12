@@ -1,0 +1,5 @@
+on right click with a firework rocket:
+	if player's gamemode is survival or adventure:
+		cancel event
+		push player upwards at speed 1.8
+		execute console command "playsound fireworks.launch %player%"

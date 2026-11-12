@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1717169950780
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1722047230336
+  login: 1722047221545
+money: '1245.0'
+last-account-name: Sqruat
+logoutlocation:
+  world: 8da62124-f50f-4d56-9ef6-0acdacfbba61
+  world-name: Lobi
+  x: 0.5337250818495951
+  y: 64.0
+  z: -17.470950737383035
+  yaw: -180.2998809814453
+  pitch: -0.5999950170516968
+lastlocation:
+  world: 2041ce12-f5fe-4a0c-8aef-4e961cebb975
+  world-name: külateşi
+  x: -85.40575789939722
+  y: 71.0
+  z: -40.26476971567431
+  yaw: 359.8500061035156
+  pitch: 8.400010108947754

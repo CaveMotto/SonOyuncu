@@ -1,0 +1,33 @@
+title: 'Claim'
+size: 6
+type: 'CHEST'
+item-slots: [ 10,11,12,13,14,15,16,19,20,21,22,23,24,25,28,29,30,31,32,33,34 ]
+
+items:
+  previous-page:
+    type: 'ARROW'
+    name: 'Önceki sayfa'
+    glow: false
+    amount: 1
+    datavalue: 0
+    lore: [ ]
+    nbt: '{}'
+    slot: 48
+  next-page:
+    type: 'ARROW'
+    name: 'Sonraki sayfa'
+    glow: false
+    amount: 1
+    datavalue: 0
+    lore: [ ]
+    nbt: '{}'
+    slot: 50
+  back:
+    type: 'BARRIER'
+    name: 'Back'
+    glow: false
+    amount: 1
+    datavalue: 0
+    lore: [ ]
+    nbt: '{}'
+    slot: 49

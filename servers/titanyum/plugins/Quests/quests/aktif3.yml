@@ -1,0 +1,35 @@
+tasks:
+  playtime:
+    type: "playtime"
+    minutes: 120
+    ignore-afk: false
+
+display:
+  name: "&eSunucuda Oyna III"
+  lore-normal:
+    - "&7Sunucuda belirtliten sürede"
+    - "&7Oyun oynayıp aktif kalın"
+    - ""
+    - "&7Süre: &f120 Dakika"
+    - ""
+    - "&7Odül: &f2.000 ⛃"
+  lore-started:
+    - ""
+    - "&7Mevcut ilerlemeniz:"
+    - "&c{playtime:progress}/120 Dakika oyna"
+  type: "BOOK"
+
+rewards:
+  - "eco give {player} 2000"
+
+placeholders:
+  description: "&7Mevcut ilerlemeniz:"
+  progress: "&c{playtime:progress}/120 Dakika oyna"
+
+options:
+  category: "aktif"
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 1440
+  sort-order: 1

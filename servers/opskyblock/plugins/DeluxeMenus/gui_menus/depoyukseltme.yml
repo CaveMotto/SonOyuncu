@@ -1,0 +1,1307 @@
+menu_title: '&8Depo Yükseltmeleri'
+open_command:
+- depoyukseltme
+size: 45
+items:
+  depo:
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmQ3NjFjYzE2NTYyYzg4ZDJmYmU0MGFkMzg1MDJiYzNiNGE4Nzg1OTg4N2RiYzM1ZjI3MmUzMGQ4MDcwZWVlYyJ9fX0='
+    slot: 24
+    display_name: '&6Depolar'
+    lore:
+    - ''
+    - '&7Depo, sadece limanda'
+    - '&7kullanabileceğin, her bir'
+    - '&7seviyesi bir çift sandık'
+    - '&7boyutundadır. Depo seviyeni'
+    - '&7yükselterek, daha fazla'
+    - '&7eşya depolayabilirsin.'
+    - ''
+    - '&eTıkla ve depolara git!'
+    left_click_commands:
+    - '[close]'
+    - '[openguimenu] depolar'
+    right_click_commands:
+    - '[close]'
+    - '[openguimenu] depolar'
+  deposeviye1:
+    material: FIREWORK
+    slot: 20
+    priority: 21
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: playervaults.amount.1
+    left_click_requirement:
+      requirements:
+        dinar:
+          type: has money
+          amount: 1000.0
+      deny_commands:
+      - '[close]'
+      - '[message] &6 Depo &8▸ &cYeterli dinara sahip değilsin.'
+    right_click_requirement:
+      requirements:
+        dinar:
+          type: has money
+          amount: 1000.0
+      deny_commands:
+      - '[close]'
+      - '[message] &6 Depo &8▸ &cYeterli dinara sahip değilsin.'
+    display_name: '&6Depo Seviyeni Yükselt!'
+    lore:
+    - ''
+    - '&7Depo, sadece limanda'
+    - '&7kullanabileceğin, her bir'
+    - '&7seviyesi bir çift sandık'
+    - '&7boyutundadır. Depo seviyeni'
+    - '&7yükselterek, daha fazla'
+    - '&7eşya depolayabilirsin.'
+    - ''
+    - '&bMevcut Aşama &8▸'
+    - '&8 ▪ &7Depo Seviyesi &8▸ &bI'
+    - '&8 ▪ &7Depo Sayısı &8▸ &b1'
+    - ''
+    - '&dSonraki Aşama &8▸'
+    - '&8 ▪ &7Depo Seviyesi &8▸ &dI &8→ &eII &a↑'
+    - '&8 ▪ &7Depo Sayısı &8▸ &d1 &8→ &e2 &a↑'
+    - ''
+    - '&cGereksinimler &8▸'
+    - '&8 ▪ &71,000 Dinar'
+    - ''
+    - '&aTıkla ve depoyu yükselt!'
+    left_click_commands:
+    - '[takemoney] 1000'
+    - '[console] lp user %player_name% permission set playervaults.amount.2 true'
+    - '[close]'
+    - '[console] title %player_name% title {"text":"&6&lDEPO"}'
+    - '[console] title %player_name% subtitle {"text":"&aYükseltildi! &8(&dI &8→ &eII&8)"}'
+    - '[message] &6 Depo &8▸ &aDepo seviyen başarılı bir şekilde yükseltildi! &8(&dI &8→ &eII&8)'
+    right_click_commands:
+    - '[takemoney] 1000'
+    - '[console] lp user %player_name% permission set playervaults.amount.2 true'
+    - '[close]'
+    - '[console] title %player_name% title {"text":"&6&lDEPO"}'
+    - '[console] title %player_name% subtitle {"text":"&aYükseltildi! &8(&dI &8→ &eII&8)"}'
+    - '[message] &6 Depo &8▸ &aDepo seviyen başarılı bir şekilde yükseltildi! &8(&dI &8→ &eII&8)'
+  deposeviye2:
+    material: FIREWORK
+    slot: 20
+    priority: 20
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: playervaults.amount.2
+    left_click_requirement:
+      requirements:
+        dinar:
+          type: has money
+          amount: 2500.0
+      deny_commands:
+      - '[close]'
+      - '[message] &6 Depo &8▸ &cYeterli dinara sahip değilsin.'
+    right_click_requirement:
+      requirements:
+        dinar:
+          type: has money
+          amount: 2500.0
+      deny_commands:
+      - '[close]'
+      - '[message] &6 Depo &8▸ &cYeterli dinara sahip değilsin.'
+    display_name: '&6Depo Seviyeni Yükselt!'
+    lore:
+    - ''
+    - '&7Depo, sadece limanda'
+    - '&7kullanabileceğin, her bir'
+    - '&7seviyesi bir çift sandık'
+    - '&7boyutundadır. Depo seviyeni'
+    - '&7yükselterek, daha fazla'
+    - '&7eşya depolayabilirsin.'
+    - ''
+    - '&bMevcut Aşama &8▸'
+    - '&8 ▪ &7Depo Seviyesi &8▸ &bII'
+    - '&8 ▪ &7Depo Sayısı &8▸ &b2'
+    - ''
+    - '&dSonraki Aşama &8▸'
+    - '&8 ▪ &7Depo Seviyesi &8▸ &dII &8→ &eIII &a↑'
+    - '&8 ▪ &7Depo Sayısı &8▸ &d2 &8→ &e3 &a↑'
+    - ''
+    - '&cGereksinimler &8▸'
+    - '&8 ▪ &72,500 Dinar'
+    - ''
+    - '&aTıkla ve depoyu yükselt!'
+    left_click_commands:
+    - '[takemoney] 2500'
+    - '[console] lp user %player_name% permission set playervaults.amount.3 true'
+    - '[close]'
+    - '[console] title %player_name% title {"text":"&6&lDEPO"}'
+    - '[console] title %player_name% subtitle {"text":"&aYükseltildi! &8(&dII &8→ &eIII&8)"}'
+    - '[message] &6 Depo &8▸ &aDepo seviyen başarılı bir şekilde yükseltildi! &8(&dII &8→ &eIII&8)'
+    right_click_commands:
+    - '[takemoney] 2500'
+    - '[console] lp user %player_name% permission set playervaults.amount.3 true'
+    - '[close]'
+    - '[console] title %player_name% title {"text":"&6&lDEPO"}'
+    - '[console] title %player_name% subtitle {"text":"&aYükseltildi! &8(&dII &8→ &eIII&8)"}'
+    - '[message] &6 Depo &8▸ &aDepo seviyen başarılı bir şekilde yükseltildi! &8(&dII &8→ &eIII&8)'
+  deposeviye3:
+    material: FIREWORK
+    slot: 20
+    priority: 19
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: playervaults.amount.3
+    left_click_requirement:
+      requirements:
+        dinar:
+          type: has money
+          amount: 5000.0
+      deny_commands:
+      - '[close]'
+      - '[message] &6 Depo &8▸ &cYeterli dinara sahip değilsin.'
+    right_click_requirement:
+      requirements:
+        dinar:
+          type: has money
+          amount: 5000.0
+      deny_commands:
+      - '[close]'
+      - '[message] &6 Depo &8▸ &cYeterli dinara sahip değilsin.'
+    display_name: '&6Depo Seviyeni Yükselt!'
+    lore:
+    - ''
+    - '&7Depo, sadece limanda'
+    - '&7kullanabileceğin, her bir'
+    - '&7seviyesi bir çift sandık'
+    - '&7boyutundadır. Depo seviyeni'
+    - '&7yükselterek, daha fazla'
+    - '&7eşya depolayabilirsin.'
+    - ''
+    - '&bMevcut Aşama &8▸'
+    - '&8 ▪ &7Depo Seviyesi &8▸ &bIII'
+    - '&8 ▪ &7Depo Sayısı &8▸ &b3'
+    - ''
+    - '&dSonraki Aşama &8▸'
+    - '&8 ▪ &7Depo Seviyesi &8▸ &dIII &8→ &eIV &a↑'
+    - '&8 ▪ &7Depo Sayısı &8▸ &d3 &8→ &e4 &a↑'
+    - ''
+    - '&cGereksinimler &8▸'
+    - '&8 ▪ &75,000 Dinar'
+    - ''
+    - '&aTıkla ve depoyu yükselt!'
+    left_click_commands:
+    - '[takemoney] 5000'
+    - '[console] lp user %player_name% permission set playervaults.amount.4 true'
+    - '[close]'
+    - '[console] title %player_name% title {"text":"&6&lDEPO"}'
+    - '[console] title %player_name% subtitle {"text":"&aYükseltildi! &8(&dIII &8→ &eIV&8)"}'
+    - '[message] &6 Depo &8▸ &aDepo seviyen başarılı bir şekilde yükseltildi! &8(&dIII &8→ &eIV&8)'
+    right_click_commands:
+    - '[takemoney] 5000'
+    - '[console] lp user %player_name% permission set playervaults.amount.4 true'
+    - '[close]'
+    - '[console] title %player_name% title {"text":"&6&lDEPO"}'
+    - '[console] title %player_name% subtitle {"text":"&aYükseltildi! &8(&dIII &8→ &eIV&8)"}'
+    - '[message] &6 Depo &8▸ &aDepo seviyen başarılı bir şekilde yükseltildi! &8(&dIII &8→ &eIV&8)'
+  deposeviye4:
+    material: FIREWORK
+    slot: 20
+    priority: 18
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: playervaults.amount.4
+    left_click_requirement:
+      requirements:
+        dinar:
+          type: has money
+          amount: 10000.0
+      deny_commands:
+      - '[close]'
+      - '[message] &6 Depo &8▸ &cYeterli dinara sahip değilsin.'
+    right_click_requirement:
+      requirements:
+        dinar:
+          type: has money
+          amount: 10000.0
+      deny_commands:
+      - '[close]'
+      - '[message] &6 Depo &8▸ &cYeterli dinara sahip değilsin.'
+    display_name: '&6Depo Seviyeni Yükselt!'
+    lore:
+    - ''
+    - '&7Depo, sadece limanda'
+    - '&7kullanabileceğin, her bir'
+    - '&7seviyesi bir çift sandık'
+    - '&7boyutundadır. Depo seviyeni'
+    - '&7yükselterek, daha fazla'
+    - '&7eşya depolayabilirsin.'
+    - ''
+    - '&bMevcut Aşama &8▸'
+    - '&8 ▪ &7Depo Seviyesi &8▸ &bIV'
+    - '&8 ▪ &7Depo Sayısı &8▸ &b4'
+    - ''
+    - '&dSonraki Aşama &8▸'
+    - '&8 ▪ &7Depo Seviyesi &8▸ &dIV &8→ &eV &a↑'
+    - '&8 ▪ &7Depo Sayısı &8▸ &d4 &8→ &e5 &a↑'
+    - ''
+    - '&cGereksinimler &8▸'
+    - '&8 ▪ &710,000 Dinar'
+    - ''
+    - '&aTıkla ve depoyu yükselt!'
+    left_click_commands:
+    - '[takemoney] 10000'
+    - '[console] lp user %player_name% permission set playervaults.amount.5 true'
+    - '[close]'
+    - '[console] title %player_name% title {"text":"&6&lDEPO"}'
+    - '[console] title %player_name% subtitle {"text":"&aYükseltildi! &8(&dIV &8→ &eV&8)"}'
+    - '[message] &6 Depo &8▸ &aDepo seviyen başarılı bir şekilde yükseltildi! &8(&dIV &8→ &eV&8)'
+    right_click_commands:
+    - '[takemoney] 10000'
+    - '[console] lp user %player_name% permission set playervaults.amount.5 true'
+    - '[close]'
+    - '[console] title %player_name% title {"text":"&6&lDEPO"}'
+    - '[console] title %player_name% subtitle {"text":"&aYükseltildi! &8(&dIV &8→ &eV&8)"}'
+    - '[message] &6 Depo &8▸ &aDepo seviyen başarılı bir şekilde yükseltildi! &8(&dIV &8→ &eV&8)'
+  deposeviye5:
+    material: FIREWORK
+    slot: 20
+    priority: 17
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: playervaults.amount.5
+    left_click_requirement:
+      requirements:
+        dinar:
+          type: has money
+          amount: 25000.0
+      deny_commands:
+      - '[close]'
+      - '[message] &6 Depo &8▸ &cYeterli dinara sahip değilsin.'
+    right_click_requirement:
+      requirements:
+        dinar:
+          type: has money
+          amount: 25000.0
+      deny_commands:
+      - '[close]'
+      - '[message] &6 Depo &8▸ &cYeterli dinara sahip değilsin.'
+    display_name: '&6Depo Seviyeni Yükselt!'
+    lore:
+    - ''
+    - '&7Depo, sadece limanda'
+    - '&7kullanabileceğin, her bir'
+    - '&7seviyesi bir çift sandık'
+    - '&7boyutundadır. Depo seviyeni'
+    - '&7yükselterek, daha fazla'
+    - '&7eşya depolayabilirsin.'
+    - ''
+    - '&bMevcut Aşama &8▸'
+    - '&8 ▪ &7Depo Seviyesi &8▸ &bV'
+    - '&8 ▪ &7Depo Sayısı &8▸ &b5'
+    - ''
+    - '&dSonraki Aşama &8▸'
+    - '&8 ▪ &7Depo Seviyesi &8▸ &dV &8→ &eVI &a↑'
+    - '&8 ▪ &7Depo Sayısı &8▸ &d5 &8→ &e6 &a↑'
+    - ''
+    - '&cGereksinimler &8▸'
+    - '&8 ▪ &725,000 Dinar'
+    - ''
+    - '&aTıkla ve depoyu yükselt!'
+    left_click_commands:
+    - '[takemoney] 25000'
+    - '[console] lp user %player_name% permission set playervaults.amount.6 true'
+    - '[close]'
+    - '[console] title %player_name% title {"text":"&6&lDEPO"}'
+    - '[console] title %player_name% subtitle {"text":"&aYükseltildi! &8(&dV &8→ &eVI&8)"}'
+    - '[message] &6 Depo &8▸ &aDepo seviyen başarılı bir şekilde yükseltildi! &8(&dV &8→ &eVI&8)'
+    right_click_commands:
+    - '[takemoney] 25000'
+    - '[console] lp user %player_name% permission set playervaults.amount.6 true'
+    - '[close]'
+    - '[console] title %player_name% title {"text":"&6&lDEPO"}'
+    - '[console] title %player_name% subtitle {"text":"&aYükseltildi! &8(&dV &8→ &eVI&8)"}'
+    - '[message] &6 Depo &8▸ &aDepo seviyen başarılı bir şekilde yükseltildi! &8(&dV &8→ &eVI&8)'
+  deposeviye6:
+    material: FIREWORK
+    slot: 20
+    priority: 16
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: playervaults.amount.6
+    left_click_requirement:
+      requirements:
+        dinar:
+          type: has money
+          amount: 30000.0
+      deny_commands:
+      - '[close]'
+      - '[message] &6 Depo &8▸ &cYeterli dinara sahip değilsin.'
+    right_click_requirement:
+      requirements:
+        dinar:
+          type: has money
+          amount: 30000.0
+      deny_commands:
+      - '[close]'
+      - '[message] &6 Depo &8▸ &cYeterli dinara sahip değilsin.'
+    display_name: '&6Depo Seviyeni Yükselt!'
+    lore:
+    - ''
+    - '&7Depo, sadece limanda'
+    - '&7kullanabileceğin, her bir'
+    - '&7seviyesi bir çift sandık'
+    - '&7boyutundadır. Depo seviyeni'
+    - '&7yükselterek, daha fazla'
+    - '&7eşya depolayabilirsin.'
+    - ''
+    - '&bMevcut Aşama &8▸'
+    - '&8 ▪ &7Depo Seviyesi &8▸ &bVI'
+    - '&8 ▪ &7Depo Sayısı &8▸ &b6'
+    - ''
+    - '&dSonraki Aşama &8▸'
+    - '&8 ▪ &7Depo Seviyesi &8▸ &dVI &8→ &eVII &a↑'
+    - '&8 ▪ &7Depo Sayısı &8▸ &d6 &8→ &e7 &a↑'
+    - ''
+    - '&cGereksinimler &8▸'
+    - '&8 ▪ &730,000 Dinar'
+    - ''
+    - '&aTıkla ve depoyu yükselt!'
+    left_click_commands:
+    - '[takemoney] 30000'
+    - '[console] lp user %player_name% permission set playervaults.amount.7 true'
+    - '[close]'
+    - '[console] title %player_name% title {"text":"&6&lDEPO"}'
+    - '[console] title %player_name% subtitle {"text":"&aYükseltildi! &8(&dVI &8→ &eVII&8)"}'
+    - '[message] &6 Depo &8▸ &aDepo seviyen başarılı bir şekilde yükseltildi! &8(&dVI &8→ &eVII&8)'
+    right_click_commands:
+    - '[takemoney] 30000'
+    - '[console] lp user %player_name% permission set playervaults.amount.7 true'
+    - '[close]'
+    - '[console] title %player_name% title {"text":"&6&lDEPO"}'
+    - '[console] title %player_name% subtitle {"text":"&aYükseltildi! &8(&dVI &8→ &eVII&8)"}'
+    - '[message] &6 Depo &8▸ &aDepo seviyen başarılı bir şekilde yükseltildi! &8(&dVI &8→ &eVII&8)'
+  deposeviye7:
+    material: FIREWORK
+    slot: 20
+    priority: 15
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: playervaults.amount.7
+    left_click_requirement:
+      requirements:
+        dinar:
+          type: has money
+          amount: 50000.0
+      deny_commands:
+      - '[close]'
+      - '[message] &6 Depo &8▸ &cYeterli dinara sahip değilsin.'
+    right_click_requirement:
+      requirements:
+        dinar:
+          type: has money
+          amount: 50000.0
+      deny_commands:
+      - '[close]'
+      - '[message] &6 Depo &8▸ &cYeterli dinara sahip değilsin.'
+    display_name: '&6Depo Seviyeni Yükselt!'
+    lore:
+    - ''
+    - '&7Depo, sadece limanda'
+    - '&7kullanabileceğin, her bir'
+    - '&7seviyesi bir çift sandık'
+    - '&7boyutundadır. Depo seviyeni'
+    - '&7yükselterek, daha fazla'
+    - '&7eşya depolayabilirsin.'
+    - ''
+    - '&bMevcut Aşama &8▸'
+    - '&8 ▪ &7Depo Seviyesi &8▸ &bVII'
+    - '&8 ▪ &7Depo Sayısı &8▸ &b7'
+    - ''
+    - '&dSonraki Aşama &8▸'
+    - '&8 ▪ &7Depo Seviyesi &8▸ &dVII &8→ &eVIII &a↑'
+    - '&8 ▪ &7Depo Sayısı &8▸ &d7 &8→ &e8 &a↑'
+    - ''
+    - '&cGereksinimler &8▸'
+    - '&8 ▪ &750,000 Dinar'
+    - ''
+    - '&aTıkla ve depoyu yükselt!'
+    left_click_commands:
+    - '[takemoney] 50000'
+    - '[console] lp user %player_name% permission set playervaults.amount.8 true'
+    - '[close]'
+    - '[console] title %player_name% title {"text":"&6&lDEPO"}'
+    - '[console] title %player_name% subtitle {"text":"&aYükseltildi! &8(&dVII &8→ &eVIII&8)"}'
+    - '[message] &6 Depo &8▸ &aDepo seviyen başarılı bir şekilde yükseltildi! &8(&dVII &8→ &eVIII&8)'
+    right_click_commands:
+    - '[takemoney] 50000'
+    - '[console] lp user %player_name% permission set playervaults.amount.8 true'
+    - '[close]'
+    - '[console] title %player_name% title {"text":"&6&lDEPO"}'
+    - '[console] title %player_name% subtitle {"text":"&aYükseltildi! &8(&dVII &8→ &eVIII&8)"}'
+    - '[message] &6 Depo &8▸ &aDepo seviyen başarılı bir şekilde yükseltildi! &8(&dVII &8→ &eVIII&8)'
+  deposeviye8:
+    material: FIREWORK
+    slot: 20
+    priority: 14
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: playervaults.amount.8
+    left_click_requirement:
+      requirements:
+        dinar:
+          type: has money
+          amount: 75000.0
+      deny_commands:
+      - '[close]'
+      - '[message] &6 Depo &8▸ &cYeterli dinara sahip değilsin.'
+    right_click_requirement:
+      requirements:
+        dinar:
+          type: has money
+          amount: 75000.0
+      deny_commands:
+      - '[close]'
+      - '[message] &6 Depo &8▸ &cYeterli dinara sahip değilsin.'
+    display_name: '&6Depo Seviyeni Yükselt!'
+    lore:
+    - ''
+    - '&7Depo, sadece limanda'
+    - '&7kullanabileceğin, her bir'
+    - '&7seviyesi bir çift sandık'
+    - '&7boyutundadır. Depo seviyeni'
+    - '&7yükselterek, daha fazla'
+    - '&7eşya depolayabilirsin.'
+    - ''
+    - '&bMevcut Aşama &8▸'
+    - '&8 ▪ &7Depo Seviyesi &8▸ &bVIII'
+    - '&8 ▪ &7Depo Sayısı &8▸ &b8'
+    - ''
+    - '&dSonraki Aşama &8▸'
+    - '&8 ▪ &7Depo Seviyesi &8▸ &dVIII &8→ &eIX &a↑'
+    - '&8 ▪ &7Depo Sayısı &8▸ &d8 &8→ &e9 &a↑'
+    - ''
+    - '&cGereksinimler &8▸'
+    - '&8 ▪ &775,000 Dinar'
+    - ''
+    - '&aTıkla ve depoyu yükselt!'
+    left_click_commands:
+    - '[takemoney] 75000'
+    - '[console] lp user %player_name% permission set playervaults.amount.9 true'
+    - '[close]'
+    - '[console] title %player_name% title {"text":"&6&lDEPO"}'
+    - '[console] title %player_name% subtitle {"text":"&aYükseltildi! &8(&dVIII &8→ &eIX&8)"}'
+    - '[message] &6 Depo &8▸ &aDepo seviyen başarılı bir şekilde yükseltildi! &8(&dVIII &8→ &eIX&8)'
+    right_click_commands:
+    - '[takemoney] 75000'
+    - '[console] lp user %player_name% permission set playervaults.amount.9 true'
+    - '[close]'
+    - '[console] title %player_name% title {"text":"&6&lDEPO"}'
+    - '[console] title %player_name% subtitle {"text":"&aYükseltildi! &8(&dVIII &8→ &eIX&8)"}'
+    - '[message] &6 Depo &8▸ &aDepo seviyen başarılı bir şekilde yükseltildi! &8(&dVIII &8→ &eIX&8)'
+  deposeviye9:
+    material: FIREWORK
+    slot: 20
+    priority: 13
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: playervaults.amount.9
+    left_click_requirement:
+      requirements:
+        dinar:
+          type: has money
+          amount: 100000.0
+      deny_commands:
+      - '[close]'
+      - '[message] &6 Depo &8▸ &cYeterli dinara sahip değilsin.'
+    right_click_requirement:
+      requirements:
+        dinar:
+          type: has money
+          amount: 100000.0
+      deny_commands:
+      - '[close]'
+      - '[message] &6 Depo &8▸ &cYeterli dinara sahip değilsin.'
+    display_name: '&6Depo Seviyeni Yükselt!'
+    lore:
+    - ''
+    - '&7Depo, sadece limanda'
+    - '&7kullanabileceğin, her bir'
+    - '&7seviyesi bir çift sandık'
+    - '&7boyutundadır. Depo seviyeni'
+    - '&7yükselterek, daha fazla'
+    - '&7eşya depolayabilirsin.'
+    - ''
+    - '&bMevcut Aşama &8▸'
+    - '&8 ▪ &7Depo Seviyesi &8▸ &bIX'
+    - '&8 ▪ &7Depo Sayısı &8▸ &b9'
+    - ''
+    - '&dSonraki Aşama &8▸'
+    - '&8 ▪ &7Depo Seviyesi &8▸ &dIX &8→ &eX &a↑'
+    - '&8 ▪ &7Depo Sayısı &8▸ &d9 &8→ &e10 &a↑'
+    - ''
+    - '&cGereksinimler &8▸'
+    - '&8 ▪ &7100,000 Dinar'
+    - ''
+    - '&aTıkla ve depoyu yükselt!'
+    left_click_commands:
+    - '[takemoney] 100000'
+    - '[console] lp user %player_name% permission set playervaults.amount.10 true'
+    - '[close]'
+    - '[console] title %player_name% title {"text":"&6&lDEPO"}'
+    - '[console] title %player_name% subtitle {"text":"&aYükseltildi! &8(&dIX &8→ &eX&8)"}'
+    - '[message] &6 Depo &8▸ &aDepo seviyen başarılı bir şekilde yükseltildi! &8(&dIX &8→ &eX&8)'
+    right_click_commands:
+    - '[takemoney] 100000'
+    - '[console] lp user %player_name% permission set playervaults.amount.10 true'
+    - '[close]'
+    - '[console] title %player_name% title {"text":"&6&lDEPO"}'
+    - '[console] title %player_name% subtitle {"text":"&aYükseltildi! &8(&dIX &8→ &eX&8)"}'
+    - '[message] &6 Depo &8▸ &aDepo seviyen başarılı bir şekilde yükseltildi! &8(&dIX &8→ &eX&8)'
+  deposeviye10:
+    material: FIREWORK
+    slot: 20
+    priority: 12
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: playervaults.amount.10
+    left_click_requirement:
+      requirements:
+        dinar:
+          type: has money
+          amount: 125000.0
+      deny_commands:
+      - '[close]'
+      - '[message] &6 Depo &8▸ &cYeterli dinara sahip değilsin.'
+    right_click_requirement:
+      requirements:
+        dinar:
+          type: has money
+          amount: 125000.0
+      deny_commands:
+      - '[close]'
+      - '[message] &6 Depo &8▸ &cYeterli dinara sahip değilsin.'
+    display_name: '&6Depo Seviyeni Yükselt!'
+    lore:
+    - ''
+    - '&7Depo, sadece limanda'
+    - '&7kullanabileceğin, her bir'
+    - '&7seviyesi bir çift sandık'
+    - '&7boyutundadır. Depo seviyeni'
+    - '&7yükselterek, daha fazla'
+    - '&7eşya depolayabilirsin.'
+    - ''
+    - '&bMevcut Aşama &8▸'
+    - '&8 ▪ &7Depo Seviyesi &8▸ &bX'
+    - '&8 ▪ &7Depo Sayısı &8▸ &b10'
+    - ''
+    - '&dSonraki Aşama &8▸'
+    - '&8 ▪ &7Depo Seviyesi &8▸ &dX &8→ &eXI &a↑'
+    - '&8 ▪ &7Depo Sayısı &8▸ &d10 &8→ &e11 &a↑'
+    - ''
+    - '&cGereksinimler &8▸'
+    - '&8 ▪ &7125,000 Dinar'
+    - ''
+    - '&aTıkla ve depoyu yükselt!'
+    left_click_commands:
+    - '[takemoney] 125000'
+    - '[console] lp user %player_name% permission set playervaults.amount.11 true'
+    - '[close]'
+    - '[console] title %player_name% title {"text":"&6&lDEPO"}'
+    - '[console] title %player_name% subtitle {"text":"&aYükseltildi! &8(&dX &8→ &eXI&8)"}'
+    - '[message] &6 Depo &8▸ &aDepo seviyen başarılı bir şekilde yükseltildi! &8(&dX &8→ &eXI&8)'
+    right_click_commands:
+    - '[takemoney] 125000'
+    - '[console] lp user %player_name% permission set playervaults.amount.11 true'
+    - '[close]'
+    - '[console] title %player_name% title {"text":"&6&lDEPO"}'
+    - '[console] title %player_name% subtitle {"text":"&aYükseltildi! &8(&dX &8→ &eXI&8)"}'
+    - '[message] &6 Depo &8▸ &aDepo seviyen başarılı bir şekilde yükseltildi! &8(&dX &8→ &eXI&8)'
+  deposeviye11:
+    material: FIREWORK
+    slot: 20
+    priority: 11
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: playervaults.amount.11
+    left_click_requirement:
+      requirements:
+        dinar:
+          type: has money
+          amount: 175000.0
+      deny_commands:
+      - '[close]'
+      - '[message] &6 Depo &8▸ &cYeterli dinara sahip değilsin.'
+    right_click_requirement:
+      requirements:
+        dinar:
+          type: has money
+          amount: 175000.0
+      deny_commands:
+      - '[close]'
+      - '[message] &6 Depo &8▸ &cYeterli dinara sahip değilsin.'
+    display_name: '&6Depo Seviyeni Yükselt!'
+    lore:
+    - ''
+    - '&7Depo, sadece limanda'
+    - '&7kullanabileceğin, her bir'
+    - '&7seviyesi bir çift sandık'
+    - '&7boyutundadır. Depo seviyeni'
+    - '&7yükselterek, daha fazla'
+    - '&7eşya depolayabilirsin.'
+    - ''
+    - '&bMevcut Aşama &8▸'
+    - '&8 ▪ &7Depo Seviyesi &8▸ &bXI'
+    - '&8 ▪ &7Depo Sayısı &8▸ &b11'
+    - ''
+    - '&dSonraki Aşama &8▸'
+    - '&8 ▪ &7Depo Seviyesi &8▸ &dXI &8→ &eXII &a↑'
+    - '&8 ▪ &7Depo Sayısı &8▸ &d11 &8→ &e12 &a↑'
+    - ''
+    - '&cGereksinimler &8▸'
+    - '&8 ▪ &7175,000 Dinar'
+    - ''
+    - '&aTıkla ve depoyu yükselt!'
+    left_click_commands:
+    - '[takemoney] 175000'
+    - '[console] lp user %player_name% permission set playervaults.amount.12 true'
+    - '[close]'
+    - '[console] title %player_name% title {"text":"&6&lDEPO"}'
+    - '[console] title %player_name% subtitle {"text":"&aYükseltildi! &8(&dXI &8→ &eXII&8)"}'
+    - '[message] &6 Depo &8▸ &aDepo seviyen başarılı bir şekilde yükseltildi! &8(&dXI &8→ &eXII&8)'
+    right_click_commands:
+    - '[takemoney] 175000'
+    - '[console] lp user %player_name% permission set playervaults.amount.12 true'
+    - '[close]'
+    - '[console] title %player_name% title {"text":"&6&lDEPO"}'
+    - '[console] title %player_name% subtitle {"text":"&aYükseltildi! &8(&dXI &8→ &eXII&8)"}'
+    - '[message] &6 Depo &8▸ &aDepo seviyen başarılı bir şekilde yükseltildi! &8(&dXI &8→ &eXII&8)'
+  deposeviye12:
+    material: FIREWORK
+    slot: 20
+    priority: 10
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: playervaults.amount.12
+    left_click_requirement:
+      requirements:
+        dinar:
+          type: has money
+          amount: 200000.0
+      deny_commands:
+      - '[close]'
+      - '[message] &6 Depo &8▸ &cYeterli dinara sahip değilsin.'
+    right_click_requirement:
+      requirements:
+        dinar:
+          type: has money
+          amount: 200000.0
+      deny_commands:
+      - '[close]'
+      - '[message] &6 Depo &8▸ &cYeterli dinara sahip değilsin.'
+    display_name: '&6Depo Seviyeni Yükselt!'
+    lore:
+    - ''
+    - '&7Depo, sadece limanda'
+    - '&7kullanabileceğin, her bir'
+    - '&7seviyesi bir çift sandık'
+    - '&7boyutundadır. Depo seviyeni'
+    - '&7yükselterek, daha fazla'
+    - '&7eşya depolayabilirsin.'
+    - ''
+    - '&bMevcut Aşama &8▸'
+    - '&8 ▪ &7Depo Seviyesi &8▸ &bXII'
+    - '&8 ▪ &7Depo Sayısı &8▸ &b12'
+    - ''
+    - '&dSonraki Aşama &8▸'
+    - '&8 ▪ &7Depo Seviyesi &8▸ &dXII &8→ &eXIII &a↑'
+    - '&8 ▪ &7Depo Sayısı &8▸ &d12 &8→ &e13 &a↑'
+    - ''
+    - '&cGereksinimler &8▸'
+    - '&8 ▪ &7200,000 Dinar'
+    - ''
+    - '&aTıkla ve depoyu yükselt!'
+    left_click_commands:
+    - '[takemoney] 200000'
+    - '[console] lp user %player_name% permission set playervaults.amount.13 true'
+    - '[close]'
+    - '[console] title %player_name% title {"text":"&6&lDEPO"}'
+    - '[console] title %player_name% subtitle {"text":"&aYükseltildi! &8(&dXII &8→ &eXIII&8)"}'
+    - '[message] &6 Depo &8▸ &aDepo seviyen başarılı bir şekilde yükseltildi! &8(&dXII &8→ &eXIII&8)'
+    right_click_commands:
+    - '[takemoney] 200000'
+    - '[console] lp user %player_name% permission set playervaults.amount.13 true'
+    - '[close]'
+    - '[console] title %player_name% title {"text":"&6&lDEPO"}'
+    - '[console] title %player_name% subtitle {"text":"&aYükseltildi! &8(&dXII &8→ &eXIII&8)"}'
+    - '[message] &6 Depo &8▸ &aDepo seviyen başarılı bir şekilde yükseltildi! &8(&dXII &8→ &eXIII&8)'
+  deposeviye13:
+    material: FIREWORK
+    slot: 20
+    priority: 9
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: playervaults.amount.13
+    left_click_requirement:
+      requirements:
+        dinar:
+          type: has money
+          amount: 250000.0
+      deny_commands:
+      - '[close]'
+      - '[message] &6 Depo &8▸ &cYeterli dinara sahip değilsin.'
+    right_click_requirement:
+      requirements:
+        dinar:
+          type: has money
+          amount: 250000.0
+      deny_commands:
+      - '[close]'
+      - '[message] &6 Depo &8▸ &cYeterli dinara sahip değilsin.'
+    display_name: '&6Depo Seviyeni Yükselt!'
+    lore:
+    - ''
+    - '&7Depo, sadece limanda'
+    - '&7kullanabileceğin, her bir'
+    - '&7seviyesi bir çift sandık'
+    - '&7boyutundadır. Depo seviyeni'
+    - '&7yükselterek, daha fazla'
+    - '&7eşya depolayabilirsin.'
+    - ''
+    - '&bMevcut Aşama &8▸'
+    - '&8 ▪ &7Depo Seviyesi &8▸ &bXIII'
+    - '&8 ▪ &7Depo Sayısı &8▸ &b13'
+    - ''
+    - '&dSonraki Aşama &8▸'
+    - '&8 ▪ &7Depo Seviyesi &8▸ &dXIII &8→ &eXIV &a↑'
+    - '&8 ▪ &7Depo Sayısı &8▸ &d13 &8→ &e14 &a↑'
+    - ''
+    - '&cGereksinimler &8▸'
+    - '&8 ▪ &7250,000 Dinar'
+    - ''
+    - '&aTıkla ve depoyu yükselt!'
+    left_click_commands:
+    - '[takemoney] 250000'
+    - '[console] lp user %player_name% permission set playervaults.amount.14 true'
+    - '[close]'
+    - '[console] title %player_name% title {"text":"&6&lDEPO"}'
+    - '[console] title %player_name% subtitle {"text":"&aYükseltildi! &8(&dXIII &8→ &eXIV&8)"}'
+    - '[message] &6 Depo &8▸ &aDepo seviyen başarılı bir şekilde yükseltildi! &8(&dXIII &8→ &eXIV&8)'
+    right_click_commands:
+    - '[takemoney] 250000'
+    - '[console] lp user %player_name% permission set playervaults.amount.14 true'
+    - '[close]'
+    - '[console] title %player_name% title {"text":"&6&lDEPO"}'
+    - '[console] title %player_name% subtitle {"text":"&aYükseltildi! &8(&dXIII &8→ &eXIV&8)"}'
+    - '[message] &6 Depo &8▸ &aDepo seviyen başarılı bir şekilde yükseltildi! &8(&dXIII &8→ &eXIV&8)'
+  deposeviye14:
+    material: FIREWORK
+    slot: 20
+    priority: 8
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: playervaults.amount.14
+    left_click_requirement:
+      requirements:
+        dinar:
+          type: has money
+          amount: 300000.0
+      deny_commands:
+      - '[close]'
+      - '[message] &6 Depo &8▸ &cYeterli dinara sahip değilsin.'
+    right_click_requirement:
+      requirements:
+        dinar:
+          type: has money
+          amount: 300000.0
+      deny_commands:
+      - '[close]'
+      - '[message] &6 Depo &8▸ &cYeterli dinara sahip değilsin.'
+    display_name: '&6Depo Seviyeni Yükselt!'
+    lore:
+    - ''
+    - '&7Depo, sadece limanda'
+    - '&7kullanabileceğin, her bir'
+    - '&7seviyesi bir çift sandık'
+    - '&7boyutundadır. Depo seviyeni'
+    - '&7yükselterek, daha fazla'
+    - '&7eşya depolayabilirsin.'
+    - ''
+    - '&bMevcut Aşama &8▸'
+    - '&8 ▪ &7Depo Seviyesi &8▸ &bXIV'
+    - '&8 ▪ &7Depo Sayısı &8▸ &b14'
+    - ''
+    - '&dSonraki Aşama &8▸'
+    - '&8 ▪ &7Depo Seviyesi &8▸ &dXIV &8→ &eXV &a↑'
+    - '&8 ▪ &7Depo Sayısı &8▸ &d14 &8→ &e15 &a↑'
+    - ''
+    - '&cGereksinimler &8▸'
+    - '&8 ▪ &7300,000 Dinar'
+    - ''
+    - '&aTıkla ve depoyu yükselt!'
+    left_click_commands:
+    - '[takemoney] 300000'
+    - '[console] lp user %player_name% permission set playervaults.amount.15 true'
+    - '[close]'
+    - '[console] title %player_name% title {"text":"&6&lDEPO"}'
+    - '[console] title %player_name% subtitle {"text":"&aYükseltildi! &8(&dXIV &8→ &eXV&8)"}'
+    - '[message] &6 Depo &8▸ &aDepo seviyen başarılı bir şekilde yükseltildi! &8(&dXIV &8→ &eXV&8)'
+    right_click_commands:
+    - '[takemoney] 300000'
+    - '[console] lp user %player_name% permission set playervaults.amount.15 true'
+    - '[close]'
+    - '[console] title %player_name% title {"text":"&6&lDEPO"}'
+    - '[console] title %player_name% subtitle {"text":"&aYükseltildi! &8(&dXIV &8→ &eXV&8)"}'
+    - '[message] &6 Depo &8▸ &aDepo seviyen başarılı bir şekilde yükseltildi! &8(&dXIV &8→ &eXV&8)'
+  deposeviye15:
+    material: FIREWORK
+    slot: 20
+    priority: 7
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: playervaults.amount.15
+    left_click_requirement:
+      requirements:
+        dinar:
+          type: has money
+          amount: 500000.0
+      deny_commands:
+      - '[close]'
+      - '[message] &6 Depo &8▸ &cYeterli dinara sahip değilsin.'
+    right_click_requirement:
+      requirements:
+        dinar:
+          type: has money
+          amount: 500000.0
+      deny_commands:
+      - '[close]'
+      - '[message] &6 Depo &8▸ &cYeterli dinara sahip değilsin.'
+    display_name: '&6Depo Seviyeni Yükselt!'
+    lore:
+    - ''
+    - '&7Depo, sadece limanda'
+    - '&7kullanabileceğin, her bir'
+    - '&7seviyesi bir çift sandık'
+    - '&7boyutundadır. Depo seviyeni'
+    - '&7yükselterek, daha fazla'
+    - '&7eşya depolayabilirsin.'
+    - ''
+    - '&bMevcut Aşama &8▸'
+    - '&8 ▪ &7Depo Seviyesi &8▸ &bXV'
+    - '&8 ▪ &7Depo Sayısı &8▸ &b15'
+    - ''
+    - '&dSonraki Aşama &8▸'
+    - '&8 ▪ &7Depo Seviyesi &8▸ &dXV &8→ &eXVI &a↑'
+    - '&8 ▪ &7Depo Sayısı &8▸ &d15 &8→ &e16 &a↑'
+    - ''
+    - '&cGereksinimler &8▸'
+    - '&8 ▪ &7500,000 Dinar'
+    - ''
+    - '&aTıkla ve depoyu yükselt!'
+    left_click_commands:
+    - '[takemoney] 500000'
+    - '[console] lp user %player_name% permission set playervaults.amount.16 true'
+    - '[close]'
+    - '[console] title %player_name% title {"text":"&6&lDEPO"}'
+    - '[console] title %player_name% subtitle {"text":"&aYükseltildi! &8(&dXV &8→ &eXVI&8)"}'
+    - '[message] &6 Depo &8▸ &aDepo seviyen başarılı bir şekilde yükseltildi! &8(&dXV &8→ &eXVI&8)'
+    right_click_commands:
+    - '[takemoney] 500000'
+    - '[console] lp user %player_name% permission set playervaults.amount.16 true'
+    - '[close]'
+    - '[console] title %player_name% title {"text":"&6&lDEPO"}'
+    - '[console] title %player_name% subtitle {"text":"&aYükseltildi! &8(&dXV &8→ &eXVI&8)"}'
+    - '[message] &6 Depo &8▸ &aDepo seviyen başarılı bir şekilde yükseltildi! &8(&dXV &8→ &eXVI&8)'
+  deposeviye16:
+    material: FIREWORK
+    slot: 20
+    priority: 6
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: playervaults.amount.16
+    left_click_requirement:
+      requirements:
+        dinar:
+          type: has money
+          amount: 600000.0
+      deny_commands:
+      - '[close]'
+      - '[message] &6 Depo &8▸ &cYeterli dinara sahip değilsin.'
+    right_click_requirement:
+      requirements:
+        dinar:
+          type: has money
+          amount: 600000.0
+      deny_commands:
+      - '[close]'
+      - '[message] &6 Depo &8▸ &cYeterli dinara sahip değilsin.'
+    display_name: '&6Depo Seviyeni Yükselt!'
+    lore:
+    - ''
+    - '&7Depo, sadece limanda'
+    - '&7kullanabileceğin, her bir'
+    - '&7seviyesi bir çift sandık'
+    - '&7boyutundadır. Depo seviyeni'
+    - '&7yükselterek, daha fazla'
+    - '&7eşya depolayabilirsin.'
+    - ''
+    - '&bMevcut Aşama &8▸'
+    - '&8 ▪ &7Depo Seviyesi &8▸ &bXVI'
+    - '&8 ▪ &7Depo Sayısı &8▸ &b16'
+    - ''
+    - '&dSonraki Aşama &8▸'
+    - '&8 ▪ &7Depo Seviyesi &8▸ &dXVI &8→ &eXVII &a↑'
+    - '&8 ▪ &7Depo Sayısı &8▸ &d16 &8→ &e17 &a↑'
+    - ''
+    - '&cGereksinimler &8▸'
+    - '&8 ▪ &7600,000 Dinar'
+    - ''
+    - '&aTıkla ve depoyu yükselt!'
+    left_click_commands:
+    - '[takemoney] 600000'
+    - '[console] lp user %player_name% permission set playervaults.amount.17 true'
+    - '[close]'
+    - '[console] title %player_name% title {"text":"&6&lDEPO"}'
+    - '[console] title %player_name% subtitle {"text":"&aYükseltildi! &8(&dXVI &8→ &eXVII&8)"}'
+    - '[message] &6 Depo &8▸ &aDepo seviyen başarılı bir şekilde yükseltildi! &8(&dXVI &8→ &eXVII&8)'
+    right_click_commands:
+    - '[takemoney] 600000'
+    - '[console] lp user %player_name% permission set playervaults.amount.17 true'
+    - '[close]'
+    - '[console] title %player_name% title {"text":"&6&lDEPO"}'
+    - '[console] title %player_name% subtitle {"text":"&aYükseltildi! &8(&dXVI &8→ &eXVII&8)"}'
+    - '[message] &6 Depo &8▸ &aDepo seviyen başarılı bir şekilde yükseltildi! &8(&dXVI &8→ &eXVII&8)'
+  deposeviye17:
+    material: FIREWORK
+    slot: 20
+    priority: 5
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: playervaults.amount.17
+    left_click_requirement:
+      requirements:
+        dinar:
+          type: has money
+          amount: 700000.0
+      deny_commands:
+      - '[close]'
+      - '[message] &6 Depo &8▸ &cYeterli dinara sahip değilsin.'
+    right_click_requirement:
+      requirements:
+        dinar:
+          type: has money
+          amount: 700000.0
+      deny_commands:
+      - '[close]'
+      - '[message] &6 Depo &8▸ &cYeterli dinara sahip değilsin.'
+    display_name: '&6Depo Seviyeni Yükselt!'
+    lore:
+    - ''
+    - '&7Depo, sadece limanda'
+    - '&7kullanabileceğin, her bir'
+    - '&7seviyesi bir çift sandık'
+    - '&7boyutundadır. Depo seviyeni'
+    - '&7yükselterek, daha fazla'
+    - '&7eşya depolayabilirsin.'
+    - ''
+    - '&bMevcut Aşama &8▸'
+    - '&8 ▪ &7Depo Seviyesi &8▸ &bXVII'
+    - '&8 ▪ &7Depo Sayısı &8▸ &b17'
+    - ''
+    - '&dSonraki Aşama &8▸'
+    - '&8 ▪ &7Depo Seviyesi &8▸ &dXVII &8→ &eXVIII &a↑'
+    - '&8 ▪ &7Depo Sayısı &8▸ &d17 &8→ &e18 &a↑'
+    - ''
+    - '&cGereksinimler &8▸'
+    - '&8 ▪ &7700,000 Dinar'
+    - ''
+    - '&aTıkla ve depoyu yükselt!'
+    left_click_commands:
+    - '[takemoney] 700000'
+    - '[console] lp user %player_name% permission set playervaults.amount.18 true'
+    - '[close]'
+    - '[console] title %player_name% title {"text":"&6&lDEPO"}'
+    - '[console] title %player_name% subtitle {"text":"&aYükseltildi! &8(&dXVII &8→ &eXVIII&8)"}'
+    - '[message] &6 Depo &8▸ &aDepo seviyen başarılı bir şekilde yükseltildi! &8(&dXVII &8→ &eXVIII&8)'
+    right_click_commands:
+    - '[takemoney] 700000'
+    - '[console] lp user %player_name% permission set playervaults.amount.18 true'
+    - '[close]'
+    - '[console] title %player_name% title {"text":"&6&lDEPO"}'
+    - '[console] title %player_name% subtitle {"text":"&aYükseltildi! &8(&dXVII &8→ &eXVIII&8)"}'
+    - '[message] &6 Depo &8▸ &aDepo seviyen başarılı bir şekilde yükseltildi! &8(&dXVII &8→ &eXVIII&8)'
+  deposeviye18:
+    material: FIREWORK
+    slot: 20
+    priority: 4
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: playervaults.amount.18
+    left_click_requirement:
+      requirements:
+        dinar:
+          type: has money
+          amount: 800000.0
+      deny_commands:
+      - '[close]'
+      - '[message] &6 Depo &8▸ &cYeterli dinara sahip değilsin.'
+    right_click_requirement:
+      requirements:
+        dinar:
+          type: has money
+          amount: 800000.0
+      deny_commands:
+      - '[close]'
+      - '[message] &6 Depo &8▸ &cYeterli dinara sahip değilsin.'
+    display_name: '&6Depo Seviyeni Yükselt!'
+    lore:
+    - ''
+    - '&7Depo, sadece limanda'
+    - '&7kullanabileceğin, her bir'
+    - '&7seviyesi bir çift sandık'
+    - '&7boyutundadır. Depo seviyeni'
+    - '&7yükselterek, daha fazla'
+    - '&7eşya depolayabilirsin.'
+    - ''
+    - '&bMevcut Aşama &8▸'
+    - '&8 ▪ &7Depo Seviyesi &8▸ &bXVIII'
+    - '&8 ▪ &7Depo Sayısı &8▸ &b18'
+    - ''
+    - '&dSonraki Aşama &8▸'
+    - '&8 ▪ &7Depo Seviyesi &8▸ &dXVIII &8→ &eXIX &a↑'
+    - '&8 ▪ &7Depo Sayısı &8▸ &d18 &8→ &e19 &a↑'
+    - ''
+    - '&cGereksinimler &8▸'
+    - '&8 ▪ &7800,000 Dinar'
+    - ''
+    - '&aTıkla ve depoyu yükselt!'
+    left_click_commands:
+    - '[takemoney] 800000'
+    - '[console] lp user %player_name% permission set playervaults.amount.19 true'
+    - '[close]'
+    - '[console] title %player_name% title {"text":"&6&lDEPO"}'
+    - '[console] title %player_name% subtitle {"text":"&aYükseltildi! &8(&dXVIII &8→ &eXIX&8)"}'
+    - '[message] &6 Depo &8▸ &aDepo seviyen başarılı bir şekilde yükseltildi! &8(&dXVIII &8→ &eXIX&8)'
+    right_click_commands:
+    - '[takemoney] 800000'
+    - '[console] lp user %player_name% permission set playervaults.amount.19 true'
+    - '[close]'
+    - '[console] title %player_name% title {"text":"&6&lDEPO"}'
+    - '[console] title %player_name% subtitle {"text":"&aYükseltildi! &8(&dXVIII &8→ &eXIX&8)"}'
+    - '[message] &6 Depo &8▸ &aDepo seviyen başarılı bir şekilde yükseltildi! &8(&dXVIII &8→ &eXIX&8)'
+  deposeviye19:
+    material: FIREWORK
+    slot: 20
+    priority: 3
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: playervaults.amount.19
+    left_click_requirement:
+      requirements:
+        dinar:
+          type: has money
+          amount: 900000.0
+      deny_commands:
+      - '[close]'
+      - '[message] &6 Depo &8▸ &cYeterli dinara sahip değilsin.'
+    right_click_requirement:
+      requirements:
+        dinar:
+          type: has money
+          amount: 900000.0
+      deny_commands:
+      - '[close]'
+      - '[message] &6 Depo &8▸ &cYeterli dinara sahip değilsin.'
+    display_name: '&6Depo Seviyeni Yükselt!'
+    lore:
+    - ''
+    - '&7Depo, sadece limanda'
+    - '&7kullanabileceğin, her bir'
+    - '&7seviyesi bir çift sandık'
+    - '&7boyutundadır. Depo seviyeni'
+    - '&7yükselterek, daha fazla'
+    - '&7eşya depolayabilirsin.'
+    - ''
+    - '&bMevcut Aşama &8▸'
+    - '&8 ▪ &7Depo Seviyesi &8▸ &bXIX'
+    - '&8 ▪ &7Depo Sayısı &8▸ &b19'
+    - ''
+    - '&dSonraki Aşama &8▸'
+    - '&8 ▪ &7Depo Seviyesi &8▸ &dXIX &8→ &eXX &a↑'
+    - '&8 ▪ &7Depo Sayısı &8▸ &d19 &8→ &e20 &a↑'
+    - ''
+    - '&cGereksinimler &8▸'
+    - '&8 ▪ &7900,000 Dinar'
+    - ''
+    - '&aTıkla ve depoyu yükselt!'
+    left_click_commands:
+    - '[takemoney] 900000'
+    - '[console] lp user %player_name% permission set playervaults.amount.20 true'
+    - '[close]'
+    - '[console] title %player_name% title {"text":"&6&lDEPO"}'
+    - '[console] title %player_name% subtitle {"text":"&aYükseltildi! &8(&dXIX &8→ &eXX&8)"}'
+    - '[message] &6 Depo &8▸ &aDepo seviyen başarılı bir şekilde yükseltildi! &8(&dXIX &8→ &eXX&8)'
+    right_click_commands:
+    - '[takemoney] 900000'
+    - '[console] lp user %player_name% permission set playervaults.amount.20 true'
+    - '[close]'
+    - '[console] title %player_name% title {"text":"&6&lDEPO"}'
+    - '[console] title %player_name% subtitle {"text":"&aYükseltildi! &8(&dXIX &8→ &eXX&8)"}'
+    - '[message] &6 Depo &8▸ &aDepo seviyen başarılı bir şekilde yükseltildi! &8(&dXIX &8→ &eXX&8)'
+  deposeviye20:
+    material: FIREWORK
+    slot: 20
+    priority: 2
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: playervaults.amount.20
+    left_click_requirement:
+      requirements:
+        dinar:
+          type: has money
+          amount: 1000000.0
+      deny_commands:
+      - '[close]'
+      - '[message] &6 Depo &8▸ &cYeterli dinara sahip değilsin.'
+    right_click_requirement:
+      requirements:
+        dinar:
+          type: has money
+          amount: 1000000.0
+      deny_commands:
+      - '[close]'
+      - '[message] &6 Depo &8▸ &cYeterli dinara sahip değilsin.'
+    display_name: '&6Depo Seviyeni Yükselt!'
+    lore:
+    - ''
+    - '&7Depo, sadece limanda'
+    - '&7kullanabileceğin, her bir'
+    - '&7seviyesi bir çift sandık'
+    - '&7boyutundadır. Depo seviyeni'
+    - '&7yükselterek, daha fazla'
+    - '&7eşya depolayabilirsin.'
+    - ''
+    - '&bMevcut Aşama &8▸'
+    - '&8 ▪ &7Depo Seviyesi &8▸ &bXX'
+    - '&8 ▪ &7Depo Sayısı &8▸ &b20'
+    - ''
+    - '&dSonraki Aşama &8▸'
+    - '&8 ▪ &7Depo Seviyesi &8▸ &dXX &8→ &eXXI &a↑'
+    - '&8 ▪ &7Depo Sayısı &8▸ &d20 &8→ &e21 &a↑'
+    - ''
+    - '&cGereksinimler &8▸'
+    - '&8 ▪ &71,000,000 Dinar'
+    - ''
+    - '&aTıkla ve depoyu yükselt!'
+    left_click_commands:
+    - '[takemoney] 1000000'
+    - '[console] lp user %player_name% permission set playervaults.amount.21 true'
+    - '[close]'
+    - '[console] title %player_name% title {"text":"&6&lDEPO"}'
+    - '[console] title %player_name% subtitle {"text":"&aYükseltildi! &8(&dXX &8→ &eXXI&8)"}'
+    - '[message] &6 Depo &8▸ &aDepo seviyen başarılı bir şekilde yükseltildi! &8(&dXX &8→ &eXXI&8)'
+    right_click_commands:
+    - '[takemoney] 1000000'
+    - '[console] lp user %player_name% permission set playervaults.amount.21 true'
+    - '[close]'
+    - '[console] title %player_name% title {"text":"&6&lDEPO"}'
+    - '[console] title %player_name% subtitle {"text":"&aYükseltildi! &8(&dXX &8→ &eXXI&8)"}'
+    - '[message] &6 Depo &8▸ &aDepo seviyen başarılı bir şekilde yükseltildi! &8(&dXX &8→ &eXXI&8)'
+  deposeviyeson:
+    material: FIREWORK
+    slot: 20
+    priority: 1
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: playervaults.amount.21
+    display_name: '&6Depo Seviyeni Yükselt!'
+    lore:
+    - ''
+    - '&7Depo, sadece limanda'
+    - '&7kullanabileceğin, her bir'
+    - '&7seviyesi bir çift sandık'
+    - '&7boyutundadır. Depo seviyeni'
+    - '&7yükselterek, daha fazla'
+    - '&7eşya depolayabilirsin.'
+    - ''
+    - '&bMevcut Aşama &8▸'
+    - '&8 ▪ &7Depo Seviyesi &8▸ &bXXI'
+    - '&8 ▪ &7Depo Sayısı &8▸ &b21'
+    - ''
+    - '&cDepon en yüksek seviyede!'
+  cerceve:
+    material: STAINED_GLASS_PANE
+    data: 7
+    slots:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 17
+    - 18
+    - 26
+    - 27
+    - 35
+    - 36
+    - 37
+    - 38
+    - 39
+    - 41
+    - 42
+    - 43
+    - 44
+  cikis:
+    material: STAINED_GLASS_PANE
+    data: 14
+    slot: 40
+    display_name: '&cMenüden Çık'
+    lore:
+    - '&7Tıkla ve menüden çık!'
+    right_click_commands:
+    - '[close]'
+    left_click_commands:
+    - '[close]'

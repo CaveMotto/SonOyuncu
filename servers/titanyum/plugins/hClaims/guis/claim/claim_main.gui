@@ -1,0 +1,155 @@
+title: '&aClaim Menüsü'
+size: 6
+type: 'CHEST'
+
+items:
+  claim-hologram:
+    type: 'ARMOR_STAND'
+    name: '&e&lClaim Hologramı'
+    glow: false
+    amount: 1
+    datavalue: 0
+    lore:
+      - ''
+      - '&7Claiminiz için hologram ayarlarını açmak için'
+      - '&7tıklayın. Bu özellik claim hologramının görünüşünü'
+      - '&7Değiştirmenizi sağlar.'
+      - ''
+      - '&aClaim hologram ayarlarını açmak için tıkla.'
+    nbt: '{}'
+    slot: 21
+  teleport:
+    type: 'ENDER_PEARL'
+    name: '&e&lIşınlan'
+    glow: false
+    amount: 1
+    datavalue: 0
+    lore:
+      - ''
+      - '&7Claiminizin konumuna'
+      - '&7Işınlanabilmek için tıklayın.'
+      - ''
+      - '&aIşınlanabilmek için tıkla.'
+    nbt: '{}'
+    slot: 22
+  change-name:
+    type: 'NAME_TAG'
+    name: '&e&lClaim Ismini Değiştir'
+    glow: false
+    amount: 1
+    datavalue: 0
+    lore:
+      - ''
+      - '&7Claiminizin bulunan ismini'
+      - '&7Özelleştirebilmek için tıkla.'
+      - ''
+      - '&aClaim ismini özelleştirebilmek için tıkla.'
+    nbt: '{}'
+    slot: 23
+  claim-map:
+    type: 'MAP'
+    name: '&e&lClaim Haritası'
+    glow: false
+    amount: 1
+    datavalue: 0
+    lore:
+      - ''
+      - '&7Claiminizin boyutunu büyütmek'
+      - '&7Için tıklayın ve claim haritasını açın.'
+      - ''
+      - '&aClaim haritasını açmak için tıklayın.'
+    nbt: '{}'
+    slot: 29
+  member-list:
+    type: 'PLAYER_HEAD'
+    name: '&e&lClaime Ekli Kişiler'
+    glow: false
+    amount: 1
+    datavalue: 3
+    lore:
+      - ''
+      - '&7Claiminizde arkadaşlarınıza yetki verebilmek'
+      - '&7Için tıklayın ve claiminize arkadaşlarınızı ekleyin.'
+      - ''
+      - '&aClaiminize arkadaşınızı eklemek için tıklayın.'
+    nbt: '{SkullOwner:{Id:"4519382e-8969-43a3-92a1-d222897c6b43",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzZjYmFlNzI0NmNjMmM2ZTg4ODU4NzE5OGM3OTU5OTc5NjY2YjRmNWE0MDg4ZjI0ZTI2ZTA3NWYxNDBhZTZjMyJ9fX0="}]}}}'
+    slot: 30
+  claim-block:
+    type: 'BEDROCK'
+    name: '&e&lClaim Görünüşü'
+    glow: false
+    amount: 1
+    datavalue: 0
+    lore:
+      - ''
+      - '&7Claiminizin görünüşünü'
+      - '&7Değiştirmek için tıklayın.'
+      - ''
+      - '&aClaiminizin görünüşünü değiştirmek için tıklayın.'
+    nbt: '{}'
+    slot: 31
+  add-time:
+    type: 'STICK'
+    name: '&e&lClaiminize Süre Ekle'
+    glow: false
+    amount: 1
+    datavalue: 0
+    lore:
+      - ''
+      - '&7Claiminizin patlamasını istemiyorsanız'
+      - '&7Claiminizin süresini uzatabilirsiniz.'
+      - ''
+      - '&aClaiminizin süresini uzatmak için tıklayın.'
+    nbt: '{}'
+    slot: 32
+  claim-store:
+    type: 'ENDER_CHEST'
+    name: '&e&lClaim Marketi'
+    glow: false
+    amount: 1
+    datavalue: 0
+    lore:
+      - ''
+      - '&7Claiminize eşya eklemek'
+      - '&7Için tıklayın.'
+      - ''
+      - '&aClaiminize eşya eklemek için tıklayın.'
+    nbt: '{}'
+    slot: 33
+  delete:
+    type: 'REDSTONE'
+    name: '&c&lCLAIMI SIL'
+    glow: false
+    amount: 1
+    datavalue: 0
+    lore: [ ]
+    nbt: '{}'
+    slot: 53
+  back:
+    type: 'BARRIER'
+    name: '&c&lGERI DON'
+    glow: false
+    amount: 1
+    datavalue: 0
+    lore: [ ]
+    nbt: '{}'
+    slot: 49
+
+other-items:
+  claim-information:
+    type: 'NETHER_STAR'
+    name: '&e&lClaim Bilgileri'
+    glow: false
+    amount: 1
+    datavalue: 0
+    lore:
+      - ''
+      - '&7Claim Ismi: &a%claim.name%'
+      - '&7Claim Sahibi: &a%claim.owner.name%'
+      - '&7Claim Chunk Sayısı: &a%claim.chunks.size%'
+      - '&7Claime Ekli Kişiler: &a%claim.members.size%'
+      - '&7Saklanan Eşya Sayısı: &a%claim.store.items.size%'
+      - '&7Claim Oluşturulma Tarihi: &a%claim.creationDate%'
+      - '&7Claim Bitiş Süresi: &a%claim.expireDate%'
+    nbt: '{}'
+    slot: 4

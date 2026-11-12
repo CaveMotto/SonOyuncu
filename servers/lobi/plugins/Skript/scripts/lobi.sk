@@ -1,0 +1,17 @@
+# Lobi.sk - Sqruat Tarafından Yazılmıştır. Discord: sqruat.
+		
+# Düşünce Spawna Işınlama - By Sqruat	
+		
+command /dusunceburadandevamet:
+    permission: skript.admin
+    trigger:
+        set {spawn} to location of player
+        message "&6Lobi &8► &eDüşünce doğulacak lobi kaydedildi!"
+        stop
+       
+on damage:
+    if y-coordinate of victim is below 0:
+        cancel event
+        teleport victim to {spawn}
+        send "&6Lobi &8► &eDüştüğün için &alobi &eaktarıldın!" to victim
+        stop

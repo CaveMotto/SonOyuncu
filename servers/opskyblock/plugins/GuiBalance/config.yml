@@ -1,0 +1,36 @@
+Settings:
+    #if GUI is false it shows the balancetop in chat.
+    GUI: true
+    #in minutes
+    AutoUpdate: 5
+    EmptySlots:
+        Complete: true
+        Item: '160:15'
+        Name: ' '
+Messages:
+    #Permission reload: guibalance.admin
+    #Permission normal: guibalance.use
+    ConsoleError: '&cUse this command in-game .'
+    PermissionError: '&cyou do not have permission to use this command.'
+    SuccessReload: '&aPlugin reloaded successfully.'
+    InvName: '&7Para Sıralaması'
+    Skull:
+        Name: '&e{PlayerName}'
+        Lore:
+            - ' '
+            - ' &fSıralama: &d#{Position}'
+            - ' &fDinar: &d{Balance}'
+            - ' '
+    ItemError:
+        Name: '&cSrıalama Bekleniyor'
+    ChatBaltop:
+        - ' '
+        - ' &b{Position} &7- {PlayerName}: &2$&l{Balance}'
+        - ' '
+Commands:
+    - '/money top'
+    - '/baltop'
+    - '/para'
+    - '/para sıralama'
+
+    

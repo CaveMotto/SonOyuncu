@@ -1,0 +1,95 @@
+menu_title: 'Profil'
+open_command: profil
+size: 54
+update_interval: 2
+items:
+  'camlar': 
+    material: STAINED_GLASS_PANE
+    data: 7
+    amount: 1
+    slots:
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    - 17
+    display_name: '&7' 
+  'bilgiler':
+    material: head;%player_name%
+    data: 0
+    amount: 1
+    slot: 4
+    display_name: '&eProfil'
+    lore:
+    update: true
+  'ayarlar':
+    material: 145
+    data: 0
+    slot: 31
+    display_name: '&eAyarlar'
+    lore:
+        - ''
+        - ' &7Lobi sunucusu üzerindeki ayarlarınızı'
+        - ' &7buradan kendinize göre yapılandırmak'
+        - ' &7için mevcut ayarlara göz atabilirsiniz.'
+        - ''
+        - '&a&nGöz atmak için tıkla!'
+    left_click_commands: 
+        - '[player] ayarlar'
+    right_click_commands:
+        - '[player] ayarlar'
+  'istatistik':
+    material: 339
+    slot: 30
+    display_name: '&eİstatistik'
+    lore:
+        - ''
+        - ' &7Oyun Sıralamaların Burda'
+        - ' &7Görebilirsin. Ve Sunucunun ne kadar '
+        - ' &7güçlü olduna Bakabilirsiniz.'
+        - ''
+        - '&a&nGöz atmak için tıkla!'
+    left_click_commands: 
+        - '[player] blokkirma'
+        - '[close]'
+    right_click_commands:
+        - '[player] blokkirma'
+        - '[close]'
+  'Arsa-yükseltme':
+    material: 173
+    slot: 32
+    display_name: '&eArsa Yükseltme'
+    lore:
+    - ''
+    - '&7Arsanız Siz İlgilendiryosa'
+    - '&7Üyeler Ve Arsa Hakkı'
+    - '&7Alabailme Şansı.'
+    - ''
+    - "&a&nGöz atmak için tıkla!"
+    left_click_commands:
+    - '[player] ayükseltme'
+    - '[close]'
+    right_click_commands:
+    - '[player] ayükseltme'
+    - '[close]'
+  'Görevler':
+    material: 33
+    slot: 40
+    display_name: '&eGörevler'
+    lore:
+    - ''
+    - '&7Görev Yaparak Çok Kolayca'
+    - '&7Para ve Anahtar '
+    - '&7Kazanma Şansı.'
+    - ''
+    - "&a&nGöz atmak için tıkla!"
+    left_click_commands:
+    - '[player] görev'
+    - '[close]'
+    right_click_commands:
+    - '[player] görev'
+    - '[close]'

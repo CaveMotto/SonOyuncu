@@ -1,0 +1,79 @@
+#Warning: not delete the 'Normal' is the default cage of this plugin!
+cages:
+ normal:
+  name: 'Normal'
+  icon: 'GLASS : 1 : name=&aNormal'
+  rarity: COMMON
+  found: ALL
+  price: 0
+  roof: GLASS
+  floor: GLASS
+  middle: BARRIER
+  lower-middle: GLASS
+  higher-middle: GLASS
+ saman:
+  name: 'Saman'
+  icon: 'HAY_BLOCK : 1 : name=&aSaman'
+  rarity: COMMON
+  found: ALL
+  price: 3000
+  roof: HAY_BLOCK
+  floor: HAY_BLOCK
+  middle: BARRIER
+  lower-middle: HAY_BLOCK
+  higher-middle: HAY_BLOCK
+ kitaplık:
+  name: 'Kitaplık'
+  icon: 'BOOKSHELF : 1 : name=&aKitaplık'
+  rarity: COMMON
+  found: ALL
+  price: 3000
+  roof: BOOKSHELF
+  floor: BOOKSHELF
+  middle: BARRIER
+  lower-middle: BOOKSHELF
+  higher-middle: BOOKSHELF
+ tnt:
+  name: 'TNT'
+  icon: 'TNT : 1 : name=&aTnT'
+  rarity: COMMON
+  found: ALL
+  price: 3000
+  roof: TNT
+  floor: TNT
+  middle: BARRIER
+  lower-middle: TNT
+  higher-middle: TNT
+ tuğla:
+  name: 'Tuğla'
+  icon: 'BRICK_BLOCK : 1 : name=&aTuğla'
+  rarity: COMMON
+  found: ALL
+  price: 3000
+  roof: BRICK_BLOCK
+  floor: BRICK_BLOCK
+  middle: BARRIER
+  lower-middle: BRICK_BLOCK
+  higher-middle: BRICK_BLOCK
+ elmas:
+  name: 'Elmas'
+  icon: 'DIAMOND_BLOCK : 1 : name=&aElmas'
+  rarity: COMMON
+  found: ALL
+  price: 3000
+  roof: DIAMOND_BLOCK
+  floor: DIAMOND_BLOCK
+  middle: BARRIER
+  lower-middle: DIAMOND_BLOCK
+  higher-middle: DIAMOND_BLOCK
+ modern:
+  name: 'Modern'
+  icon: 'QUARTZ_BLOCK : 1 : name=&aModern'
+  rarity: COMMON
+  found: ALL
+  price: 3000
+  roof: QUARTZ_BLOCK
+  floor: QUARTZ_BLOCK
+  middle: BARRIER
+  lower-middle: QUARTZ_BLOCK
+  higher-middle: QUARTZ_BLOCK

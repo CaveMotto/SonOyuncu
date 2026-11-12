@@ -1,0 +1,19 @@
+lastAccountName: Sqruat
+timestamps:
+  login: 1722055892450
+  logout: 1722056048220
+ipAddress: 127.0.0.1
+lastlocation:
+  world: Faction
+  x: 0.4448597230522143
+  y: 68.0
+  z: -6.851418452519083
+  yaw: 180.30002
+  pitch: 7.649992
+logoutlocation:
+  world: Faction
+  x: 1.896514247694364
+  y: 67.0
+  z: -17.440014728313763
+  yaw: -169.94905
+  pitch: 8.399992

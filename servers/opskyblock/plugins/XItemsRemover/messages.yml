@@ -1,0 +1,10 @@
+Chat-messages:
+  You-dont-have-enough-permissions: "§cYou don't have enough permissions."
+  Plugin-reloaded: "§aPlugin reloaded!"
+  Help:
+  - "§7§m╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴§7 [§a§lXItemsRemover§7] §7§m╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴"
+  - " §7'§d§l[]§7', '§e§l<>§7' §f- required and optional arguments"
+  - ""
+  - " §6❯ §7/ir §e§l<§7help§e§l> §7- show this hint"
+  - " §6❯ §7/ir reload §f- reload plugin configurations"
+  - "§7§m╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴╴"

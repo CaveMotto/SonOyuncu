@@ -1,0 +1,150 @@
+#==================================================================================================================================================
+#
+# WARNING:
+#  - To remove an item from menu use slot: -1
+#
+#==================================================================================================================================================
+menus:
+ back: 'ARROW : 1 : name=&eGeri Don'
+ page: 'ARROW : 1 : name=&eSayfa %page%'
+ 
+ ###################################################################################################################################################
+ # Profile Menu
+ ###################################################################################################################################################
+ 
+ profile:
+  preferences:
+   slot: 32
+   item: 'REDSTONE_COMPARATOR : 1 : name=&eAyarlar : lore=&7Kişisel ayarlarını değiştirebilirsin\n&eAyarlarını değiştirmek için tıkla'
+  informations:
+   slot: 30
+   item: '3 : owner=%player% : name=&eKarakter Bilgisi : lore=&7Rank: %rank%\n&7Level: &6%level%\n&7Sonraki level icin gereken: &6%untilxp%\n&7Görevler puanı: &6%points%'
+  statistics:
+   slot: 17
+   item: 'PAPER : 1 : name=&eSkywars istatistiklerin : lore=&7Skywars istatistiklerin bakabilirsin\n \n&eSkywars istatistiklerin için tıkla'
+  delievery:
+   slot: 11
+   item: 'STORAGE_MINECART : 1 : name=&eÖdül Elçisi : lore=&7Günlük haftalık ve aylık\n&7ödüllerini alabilirsin.\n \n&eAlmak için tıkla'
+  achievements:
+   slot: 9
+   item: 'DIAMOND : 1 : name=&eGörevler : lore=&7Görevleri tamamla\n&7ve görev puani kazan\n \n&eGörevlere bakmak için tıkla'
+  booster: 
+   slot: 15
+   item: 'POTION : 1 : name=&eCoin Hızlandırıcı : lore=&7Daha hızlı coin kazanmak\n&7için aktif edebilirsin\n \n&eHızlandırmak için tıkla'
+  leveling: 
+   slot: 13
+   item: 'BREWING_STAND_ITEM : 1 : name=&eSkyWars Level : lore=&7Oyun oynadıkça\n&3Skywars Puanı &7kazanırsın&7,\n&7kazanılan puanlarla level atlarsın\n&7ve yeni ödüller kazanırsın\n \n&3SkyWars Level &e%level% %progress_bar% &3%progress%\n \n&7Sonraki level için gereken: &3%untilxp%\n \n&eÖdüllerine bakmak için tıkla'
+  
+ ###################################################################################################################################################
+ # Settings Menu
+ ###################################################################################################################################################
+  
+ preferences:
+  on_item: 'INK_SACK:10 : 1 : name=&eGörünür : lore=&7Tıkla ve kapat!'
+  off_item: 'INK_SACK:8 : 1 : name=&cGörünmez : lore=&7Tıkla ve ac!'
+  players_view: 'EYE_OF_ENDER : 1 : name=&eOyuncular Görünürlügü : lore=&7Oyuncuları kapatıp acabilirsin'
+  tell: 'BOOK : 1 : name=&eOzel mesajlar : lore=&7Özel mesajları kapatıp acabilirsin'
+  
+ ###################################################################################################################################################
+ # Coin Booster Menu
+ ###################################################################################################################################################
+ 
+ booster:
+  personal_booster: 
+   slot: 11
+   item: 'POTION : 1 : name=&eÖzel Hızlandırıcı : lore=&7Kişiye özel coin hızlandırıcı verir\n \n&eCKendine coin hızlandırıcı vermek için tıkla'
+  network_booster: 
+   slot: 15
+   item: 'EMERALD : 1 : name=&cGenel Hızlandırıcı : lore=&bHERKESE &7coin hızlandırıcı veriri\n \n&eHerkese coin hızlandırıcı vermek için tıkla'
+  booster_item: 'POTION : 1 : name=&6%multiplier% &7Coin hızlandırıcı - &6%time% %timeType%'
+  
+ ###################################################################################################################################################
+ # Stats menu
+ ###################################################################################################################################################
+ 
+ statistics:
+  total: 'BOOK : 1 : name=&eToplam Puan : lore=&fÖldürme: &7%kAll%\n&fKazanma: &7%wAll%\n \n&fCoin: &7%coins%'
+  player: 'EYE_OF_ENDER : 1 : name=&eSkyWars İstatistik : lore=&fKazanma: &7%wAll%\n&fSolo Kazanma: &7%wSolo%\n&fTakım Kazanma: &7%wTeam%\n&fMega Kazanma: &7%wMega%\n \n&fÖldürme: &7%kAll%\n&fSolo Öldürme: &7%kSolo%\n&fTakım Öldürme: &7%kTeam%\n&fMega Öldürme: &7%kMega%\n \n&fRuh: &7%souls%\n&fCoins: &7%coins%'
+  
+ ###################################################################################################################################################
+ # Achievements Menu
+ ###################################################################################################################################################
+ 
+ achievements:
+  points: 'DIAMOND : 1 : name=&eGörevler Puanın: &6%points%'
+  skywars: 'EYE_OF_ENDER : 1 : name=&eSkyWars Görevleri : lore=&7Görevlere bakmak için tıkla!'
+  locked: 'COAL_BLOCK : 1 : name=&c%title% : lore=&e%description%\n&7&o%points% Görevler Puanı\n \n&eİlerlemeni görmek için tıkla'
+  unlocked: 'DIAMOND_BLOCK : 1 : name=&e%title% : lore=&e%description%\n&7&o%points% Görevler Puanı\n \n&eİlerlemeni görmek için tıkla'
+  
+ ###################################################################################################################################################
+ # Leveling Menu
+ ###################################################################################################################################################
+  
+ leveling:
+  desc:
+   coins: '&8&oCoinlerini markette kullanabilirsin'
+   booster: '&8&oCoin hızlandırıcı kullanabilirsin\n&8&oKısa bir süreliğine coin kazanman hızlanır'
+  reward:
+   coins: '&8+&6%coins% &7Coin'
+   booster: '&8+&6%multiplier% &7Coin Hızlandırıcı - &6%time% %timeType%'
+  level_reward_on: 'STORAGE_MINECART : 1 : name=&eSkyWars Level %level% Ödülü : lore= \n%reward%\n \n&8%rewarddesc%\n \n&eKullanmak için tıkla'
+  level_reward_off: 'MINECART : 1 : name=&cSkyWars Level %level% Ödülü: lore= \n%reward%\n \n&8%rewarddesc%\n \n&eZaten kullandın'
+  level_reward_level_off: 'MINECART : 1 : name=&cSkyWars Level %level% Ödülü : lore= \n%reward%\n \n&8%rewarddesc%\n \n&cHenüz kazanmadın'
+ 
+ ###################################################################################################################################################
+ # Menu de Shop!
+ ###################################################################################################################################################
+  
+ shop:
+  kits_solo:
+   slot: 10
+   item: 'STONE_SWORD : 1 : name=&eSolo Kitleri : lore=&7Özel SOLO mod kitleri\n \n&eBakmak icin Tıkla'
+  kits_team:
+   slot: 13
+   item: 'IRON_SWORD : 1 : name=&eTeam Kitleri : lore=&7Özel TAKIM mod kitleri\n \n&eBakmak icin Tıkla'
+  kits_mega:
+   slot: 16
+   item: 'DIAMOND_SWORD : 1 : name=&eMega Kitleri : lore=&7Özel MEGA mod kitleri\n \n&eBakmak icin Tıkla'
+  perks_solo:
+   slot: 19
+   item: 'BREWING_STAND_ITEM : 1 : name=&eSolo Perkleri : lore=&7Özel SOLO mod perkleri\n \n&eBakmak icin Tıkla'
+  perks_team:
+   slot: 22
+   item: 'CAULDRON_ITEM : 1 : name=&eTeam Perkleri : lore=&7Özel SOLO mod perkleri\n \n&eBakmak icin Tıkla'
+  perks_mega:
+   slot: 25
+   item: 'ENCHANTMENT_TABLE : 1 : name=&eMega Perkleri : lore=&7Özel SOLO mod perkleri\n \n&eBakmak icin Tıkla'
+  cosmetics:
+   slot: 40
+   item: 'SLIME_BALL : 1 : name=&eSkyWars Kozmetik : lore=&7Ilginc skywars özellikleri\n&7Kendi tarzına uygun ekipmanlar\n&7Camlar ,Kitler ve fazlası\n \n&eBakmak icin Tıkla'
+  coins: 'EMERALD : 1 : name=&7Coins: &6%coins% : lore=&6https://by Motto'
+  
+ ###################################################################################################################################################
+ # Cosmetics Menu
+ ###################################################################################################################################################
+  
+ cosmetics:
+  cages:
+   slot: 13
+   item: 'STAINED_GLASS:0 : 1 : name=&eOzel Camlar : lore=&7Cam rengini degistirebilirsin\n&7Sectigin cam:\n&e%cage%\n \n&eBakmak icin Tıkla'
+  perks:
+   slot: 11
+   item: 'BREWING_STAND_ITEM : 1 : name=&ePerk : lore=&7Özel yeteneklere bakabilirsin.\n \n&7Sectigin perk:\n&e%sPerk% &lSOLO\n&e%tPerk% &lTAKIM\n&e%mPerk% &lMEGA\n \n&eBakmak icin Tıkla'
+   
+ ###################################################################################################################################################
+ # Insane Menu
+ ###################################################################################################################################################
+ 
+ insane:
+  votes:
+   slot: 10
+   item: 'SIGN : 1 : name=&eOy : lore=&7Arena ayarlari icin oy ver\n&7Duble Can.\n \n&eOy vermek icin Tikla'
+   
+ ###################################################################################################################################################
+ # Votes Menu
+ ###################################################################################################################################################
+ 
+ votes:
+  double_health:
+   slot: 10
+   item: 'REDSTONE_BLOCK : 1 : name=&eDuble Can : lore=&7Oyuncular duble can ile baslar\n&7Can.\n \n&eOy vermek icin Tikla'

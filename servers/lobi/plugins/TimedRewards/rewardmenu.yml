@@ -1,0 +1,113 @@
+menu:
+  title: '&e&nGUNLUK ÖDÜL PANELI'
+  size: 45
+  items:
+    reward1:
+      slot: 20
+      item:
+        amount: 1
+        material: ENDER_CHEST
+        damage: 0
+        name: '&r &r &r &r &r &6&lOYUNCU GUNLUK HEDIYE'
+        lore:
+        - ''
+        - '&r &r &r &r &r &r &r &r &r &r &r &8• &e2x Gizemli Kutu'
+        - '&r &r &r &r &r &r &r &r &r &r &r &r &r &r &8• &ex200 Kredi'
+        - ''
+        - '&r &r &r &r &r &eTekrar ödülü almanız için'
+        - '&r &r &r &r &r &r &r &ebeklemeniz gerek süre'
+        - '&r {cooldown_digital}'
+        - ''
+        - '&r &r &r &r &r &r &r &r &r &r &r &r &r &n&a ► Almak için tıkla'
+      cooldown: 86400
+      commands:
+      - '[CONSOLE]gmysterybox give {player} 2'
+      - '[CONSOLE]eco give {player} 200'
+    reward2:
+      slot: 21
+      item:
+        amount: 1
+        material: ENDER_CHEST
+        damage: 0
+        name: '&r &r &r &r &r &2&lVIP GUNLUK HEDIYE'
+        lore:
+        - ''
+        - '&r &r &r &r &r &r &r &r &r &r &r &8• &e3x Gizemli Kutu'
+        - '&r &r &r &r &r &r &r &r &r &r &r &r &r &r &8• &ex300 Kredi'
+        - ''
+        - '&r &r &r &r &r &aTekrar ödülü almanız için'
+        - '&r &r &r &r &r &r &r &abeklemeniz gerek süre'
+        - '&r {cooldown_digital}'
+        - ''
+        - '&r &r &r &r &r &r &r &r &r &r &r &r &r &n&e ► Almak için tıkla'
+      cooldown: 86400
+      commands:
+      - '[CONSOLE]gmysterybox give {player} 3'
+      - '[CONSOLE]eco give {player} 300'     
+      permission: timedrewards.vip
+    reward3:
+      slot: 22
+      item:
+        amount: 1
+        material: ENDER_CHEST
+        damage: 0
+        name: '&r &r &r &r &r &5&lVIP+ GUNLUK HEDIYE'
+        lore:
+        - ''
+        - '&r &r &r &r &r &r &r &r &r &r &r &8• &e4x Gizemli Kutu'
+        - '&r &r &r &r &r &r &r &r &r &r &r &r &r &r &8• &ex400 Kredi'
+        - ''
+        - '&r &r &r &r &r &dTekrar ödülü almanız için'
+        - '&r &r &r &r &r &r &r &dbeklemeniz gerek süre'
+        - '&r {cooldown_digital}'
+        - ''
+        - '&r &r &r &r &r &r &r &r &r &r &r &r &r &n&e ► Almak için tıkla'
+      cooldown: 86400
+      commands:
+      - '[CONSOLE]gmysterybox give {player} 4'
+      - '[CONSOLE]eco give {player} 400'      
+      permission: timedrewards.vipplus
+    reward4:
+      slot: 23
+      item:
+        amount: 1
+        material: ENDER_CHEST
+        damage: 0
+        name: '&r &r &r &r &r &3&lMVIP GUNLUK HEDIYE'
+        lore:
+        - ''
+        - '&r &r &r &r &r &r &r &r &r &r &r &8• &e5x Gizemli Kutu'
+        - '&r &r &r &r &r &r &r &r &r &r &r &r &r &r &8• &ex500 Kredi'
+        - ''
+        - '&r &r &r &r &r &bTekrar ödülü almanız için'
+        - '&r &r &r &r &r &r &r &bbeklemeniz gerek süre'
+        - '&r {cooldown_digital}'
+        - ''
+        - '&r &r &r &r &r &r &r &r &r &r &r &r &r &n&e ► Almak için tıkla'
+      cooldown: 86400
+      commands:
+      - '[CONSOLE]gmysterybox give {player} 5'
+      - '[CONSOLE]eco give {player} 500'    
+      permission: timedrewards.mvp
+    reward5:
+      slot: 24
+      item:
+        amount: 1
+        material: ENDER_CHEST
+        damage: 0
+        name: '&r &r &r &r &r &4&lMVIP+ GUNLUK HEDIYE'
+        lore:
+        - ''
+        - '&r &r &r &r &r &r &r &r &r &r &r &8• &e6x Gizemli Kutu'
+        - '&r &r &r &r &r &r &r &r &r &r &r &r &r &r &8• &ex600 Kredi'
+        - ''
+        - '&r &r &r &r &r &eTekrar ödülü almanız için'
+        - '&r &r &r &r &r &r &r &ebeklemeniz gerek süre'
+        - '&r {cooldown_digital}'
+        - ''
+        - '&r &r &r &r &r &r &r &r &r &r &r &r &r &n&e ► Almak için tıkla'
+      cooldown: 86400
+      commands:
+      - '[CONSOLE]gmysterybox give {player} 6'
+      - '[CONSOLE]eco give {player} 600'     
+      permission: timedrewards.mvpplus

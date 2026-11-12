@@ -1,0 +1,589 @@
+Particles:
+  Water Splash:
+    Name: '&a Su ParÃ§acÄ±klarÄ± Efekti'
+    Mystery Dust: 15
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 DiÄŸer herkesten bir farkÄ±nÄ±n'
+      - '&7 olmasÄ±nÄ± saÄŸlayacak efektler.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 DiÄŸer herkesten bir farkÄ±nÄ±n'
+      - '&7 olmasÄ±nÄ± saÄŸlayacak efektler.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+    Material: NETHER_STAR
+  Drip Water:
+    Name: '&9 Su DÃ¶ngÃ¼sÃ¼ Efekti'
+    Mystery Dust: 25
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 DiÄŸer herkesten bir farkÄ±nÄ±n'
+      - '&7 olmasÄ±nÄ± saÄŸlayacak efektler.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 DiÄŸer herkesten bir farkÄ±nÄ±n'
+      - '&7 olmasÄ±nÄ± saÄŸlayacak efektler.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+    Material: WATER_BUCKET
+  Drip Lava:
+    Name: '&9 Lav Efekti'
+    Mystery Dust: 25
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 DiÄŸer herkesten bir farkÄ±nÄ±n'
+      - '&7 olmasÄ±nÄ± saÄŸlayacak efektler.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 DiÄŸer herkesten bir farkÄ±nÄ±n'
+      - '&7 olmasÄ±nÄ± saÄŸlayacak efektler.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+    Material: LAVA_BUCKET
+  Crit:
+    Name: '&9 Kritik Efekti'
+    Mystery Dust: 22
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 DiÄŸer herkesten bir farkÄ±nÄ±n'
+      - '&7 olmasÄ±nÄ± saÄŸlayacak efektler.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 DiÄŸer herkesten bir farkÄ±nÄ±n'
+      - '&7 olmasÄ±nÄ± saÄŸlayacak efektler.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+    Material: STONE_SWORD
+  Magic Crit:
+    Name: '&9 BÃ¼yÃ¼cÃ¼ Kritik Efekti'
+    Mystery Dust: 20
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 DiÄŸer herkesten bir farkÄ±nÄ±n'
+      - '&7 olmasÄ±nÄ± saÄŸlayacak efektler.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 DiÄŸer herkesten bir farkÄ±nÄ±n'
+      - '&7 olmasÄ±nÄ± saÄŸlayacak efektler.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+    Material: POTION:8204
+  Spell:
+    Name: '&5 BÃ¼yÃ¼ Efekti'
+    Mystery Dust: 30
+    Rarity: Epic
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 DiÄŸer herkesten bir farkÄ±nÄ±n'
+      - '&7 olmasÄ±nÄ± saÄŸlayacak efektler.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 DiÄŸer herkesten bir farkÄ±nÄ±n'
+      - '&7 olmasÄ±nÄ± saÄŸlayacak efektler.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+    Material: ENDER_CHEST
+  Instant Spell:
+    Name: '&5 AnÄ±nda BÃ¼yÃ¼ Efekti'
+    Mystery Dust: 32
+    Rarity: Epic
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 DiÄŸer herkesten bir farkÄ±nÄ±n'
+      - '&7 olmasÄ±nÄ± saÄŸlayacak efektler.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 DiÄŸer herkesten bir farkÄ±nÄ±n'
+      - '&7 olmasÄ±nÄ± saÄŸlayacak efektler.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+    Material: GHAST_TEAR
+  Mob Spell:
+    Name: '&5 TecrÃ¼be Efekti'
+    Mystery Dust: 35
+    Rarity: Epic
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 DiÄŸer herkesten bir farkÄ±nÄ±n'
+      - '&7 olmasÄ±nÄ± saÄŸlayacak efektler.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 DiÄŸer herkesten bir farkÄ±nÄ±n'
+      - '&7 olmasÄ±nÄ± saÄŸlayacak efektler.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+    Material: EXPERIENCE_BOTTLE
+  Witch Spell:
+    Name: '&6 CadÄ± BÃ¼yÃ¼sÃ¼ Efekti'
+    Mystery Dust: 40
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 DiÄŸer herkesten bir farkÄ±nÄ±n'
+      - '&7 olmasÄ±nÄ± saÄŸlayacak efektler.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 DiÄŸer herkesten bir farkÄ±nÄ±n'
+      - '&7 olmasÄ±nÄ± saÄŸlayacak efektler.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+    Material: POTION:8260
+  Angry Villager:
+    Name: '&5 KÄ±zgÄ±n Efekti'
+    Mystery Dust: 32
+    Rarity: Epic
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 DiÄŸer herkesten bir farkÄ±nÄ±n'
+      - '&7 olmasÄ±nÄ± saÄŸlayacak efektler.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 DiÄŸer herkesten bir farkÄ±nÄ±n'
+      - '&7 olmasÄ±nÄ± saÄŸlayacak efektler.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+    Material: FIRE_CHARGE
+  Happy Villager:
+    Name: '&5 Mutlu KÃ¶ylÃ¼ Efekti'
+    Mystery Dust: 35
+    Rarity: Epic
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 DiÄŸer herkesten bir farkÄ±nÄ±n'
+      - '&7 olmasÄ±nÄ± saÄŸlayacak efektler.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 DiÄŸer herkesten bir farkÄ±nÄ±n'
+      - '&7 olmasÄ±nÄ± saÄŸlayacak efektler.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+    Material: EMERALD
+  Town Aura:
+    Name: '&a Katman KayasÄ± Efekti'
+    Mystery Dust: 18
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 DiÄŸer herkesten bir farkÄ±nÄ±n'
+      - '&7 olmasÄ±nÄ± saÄŸlayacak efektler.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 DiÄŸer herkesten bir farkÄ±nÄ±n'
+      - '&7 olmasÄ±nÄ± saÄŸlayacak efektler.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+    Material: MYCELIUM
+  Note:
+    Name: '&5 Notalar Efekti'
+    Mystery Dust: 35
+    Rarity: Epic
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 DiÄŸer herkesten bir farkÄ±nÄ±n'
+      - '&7 olmasÄ±nÄ± saÄŸlayacak efektler.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 DiÄŸer herkesten bir farkÄ±nÄ±n'
+      - '&7 olmasÄ±nÄ± saÄŸlayacak efektler.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+    Material: NOTE_BLOCK
+  Portal:
+    Name: '&a Portal Efekti'
+    Mystery Dust: 18
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 DiÄŸer herkesten bir farkÄ±nÄ±n'
+      - '&7 olmasÄ±nÄ± saÄŸlayacak efektler.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 DiÄŸer herkesten bir farkÄ±nÄ±n'
+      - '&7 olmasÄ±nÄ± saÄŸlayacak efektler.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+    Material: ENDER_PEARL
+  Enchantment Table:
+    Name: '&9 BÃ¼yÃ¼cÃ¼ Efekti'
+    Mystery Dust: 28
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 DiÄŸer herkesten bir farkÄ±nÄ±n'
+      - '&7 olmasÄ±nÄ± saÄŸlayacak efektler.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 DiÄŸer herkesten bir farkÄ±nÄ±n'
+      - '&7 olmasÄ±nÄ± saÄŸlayacak efektler.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+    Material: ENCHANTING_TABLE
+  Flame:
+    Name: '&6 AteÅŸ ParÃ§acÄ±ÄŸÄ± Efekti'
+    Mystery Dust: 45
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 DiÄŸer herkesten bir farkÄ±nÄ±n'
+      - '&7 olmasÄ±nÄ± saÄŸlayacak efektler.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 DiÄŸer herkesten bir farkÄ±nÄ±n'
+      - '&7 olmasÄ±nÄ± saÄŸlayacak efektler.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+    Material: GOLD_NUGGET
+  Redstone:
+    Name: '&6 KÄ±zÄ±ltaÅŸ Efekti'
+    Mystery Dust: 48
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 DiÄŸer herkesten bir farkÄ±nÄ±n'
+      - '&7 olmasÄ±nÄ± saÄŸlayacak efektler.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 DiÄŸer herkesten bir farkÄ±nÄ±n'
+      - '&7 olmasÄ±nÄ± saÄŸlayacak efektler.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+    Material: REDSTONE
+  Heart:
+    Name: '&9 Kalp Efekti'
+    Mystery Dust: 28
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 DiÄŸer herkesten bir farkÄ±nÄ±n'
+      - '&7 olmasÄ±nÄ± saÄŸlayacak efektler.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 DiÄŸer herkesten bir farkÄ±nÄ±n'
+      - '&7 olmasÄ±nÄ± saÄŸlayacak efektler.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+    Material: POPPY
+  Fireworks Spark:
+    Name: '&6 HavaifiÅŸek Efekti'
+    Mystery Dust: 52
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 DiÄŸer herkesten bir farkÄ±nÄ±n'
+      - '&7 olmasÄ±nÄ± saÄŸlayacak efektler.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 DiÄŸer herkesten bir farkÄ±nÄ±n'
+      - '&7 olmasÄ±nÄ± saÄŸlayacak efektler.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+    Material: FIREWORK_ROCKET
+  Smoke:
+    Name: '&a Duman Efekti'
+    Mystery Dust: 18
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 DiÄŸer herkesten bir farkÄ±nÄ±n'
+      - '&7 olmasÄ±nÄ± saÄŸlayacak efektler.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 DiÄŸer herkesten bir farkÄ±nÄ±n'
+      - '&7 olmasÄ±nÄ± saÄŸlayacak efektler.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+    Material: FIREWORK_STAR
+  Slime:
+    Name: '&a Slime Efekti'
+    Mystery Dust: 22
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 DiÄŸer herkesten bir farkÄ±nÄ±n'
+      - '&7 olmasÄ±nÄ± saÄŸlayacak efektler.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 DiÄŸer herkesten bir farkÄ±nÄ±n'
+      - '&7 olmasÄ±nÄ± saÄŸlayacak efektler.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+    Material: SLIME_BALL

@@ -1,0 +1,48 @@
+# plugin/FakeLobbyES
+# author/emresmrlp
+# file/settings.yml
+settings:
+  update-check: true
+  join-invisibility: true
+timer:
+  enabled: true
+  duration: 3
+connection:
+  goto: lobi
+  connected: true
+scoreboard:
+  enabled: true
+  title: '&eÇakma Lobi &a0.1'
+  lines:
+  - '&r'
+  - '&fOyuncu: &d%player%'
+  - '&c'
+  - '&fGiriş: &6/Login şifre'
+  - '&fKayıt: &6/Reg şifre şifre'
+  - '&b'
+  - '&eby Motto'
+joinquitmessage:
+  enabled: false
+  join: '&7[&a+&7] &f%player%'
+  quit: '&7[&c-&7] &f%player%'
+nametag:
+  op: '&7%player%'
+  player: '&7%player%'
+chat:
+  format: '&7%player% &8► &f'
+  allowedcommands:
+  - fakelobby
+  - login
+  - aktar
+  - lobi
+  - lobby
+  - register
+  - l
+  - reg
+spawnloc:
+  world: CakmaLobi
+  x: -346.5179126244726
+  y: 138.0
+  z: 306.4885116076335
+  yaw: -178.65036
+  pitch: 0.7500493

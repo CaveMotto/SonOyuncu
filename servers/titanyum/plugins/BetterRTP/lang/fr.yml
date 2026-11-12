@@ -1,0 +1,89 @@
+# Help translate this file into more languages!
+Messages:
+  Prefix: '&7[&6BetterRTP&7] '
+  Success:
+    Paid: '&aVous avez ÃƒÂ©tÃƒÂ© tÃƒÂ©lÃƒÂ©portÃƒÂ© aux coordonnÃƒÂ©es &7x=%x% y=%y%
+      z=%z% pour un prix de &c$%price%&7!'
+    Bypass: '&aVous avez ÃƒÂ©tÃƒÂ© tÃƒÂ©lÃƒÂ©portÃƒÂ© aux cooordonÃƒÂ©es &7x=%x% y=%y%
+      z=%z%!'
+    Loading: '&aUn endroit sÃƒÂ»r a ÃƒÂ©tÃƒÂ© trouvÃƒÂ© ! &7Chargement des chunks...'
+    Teleport: '&aTÃƒÂ©lÃƒÂ©portation... &fMerci de patienter pendant la recherche
+      d''un endroit sÃƒÂ»r !'
+  Failed:
+    Price: '&cVous n''avez pas pu ÃƒÂªtre tÃƒÂ©lÃƒÂ©portÃƒÂ©; Manque de fonds ! &7Vous
+      devez avoir au moins $%price% &7pour vous tÃƒÂ©lÃƒÂ©porter !'
+    NotSafe: '&cImpossible de trouver un endroit sÃƒÂ»r en %attempts% tentatives !
+      &7Vous n''avez pas ÃƒÂ©tÃƒÂ© tÃƒÂ©lÃƒÂ©portÃƒÂ© !'
+    Hunger: '&cImpossible de vous tÃƒÂ©lÃƒÂ©porter car vous avez trop faim, manger
+      pour remplir votre barre de nourriture !'
+  Other:
+    Success: '&a%player% a ÃƒÂ©tÃƒÂ© tÃƒÂ©lÃƒÂ©portÃƒÂ© aux coordonÃƒÂ©es &7x=%x%
+      y=%y% z=%z%!'
+    NotSafe: '&cImpossible de trouver un endroit sÃƒÂ»r en %attempts% tentatives !
+      &7%player% n''a pas ÃƒÂ©tÃƒÂ© tÃƒÂ©lÃƒÂ©portÃƒÂ© !'
+    Biome: '&cIl demblerais que le biome &7%biome% &cn''existe pas ! &7Utiliser l''autocomplÃƒÂ©tion
+      de la Tab list !'
+  Reload: '&eConfiguration rechargÃƒÂ©e avec succÃƒÂ¨s !'
+  NoPermission:
+    Basic: '&cDÃƒÂ©solÃƒÂ© ! Vous n''avez pas la permission de faire cela! &8Permission:
+      %permission%'
+    World: '&cDÃƒÂ©solÃƒÂ© ! Vous n''ÃƒÂªtes pas autorisÃƒÂ© ÃƒÂ  vous tÃƒÂ©lÃƒÂ©porter
+      dans le monde %world%! &8Permission: %permission%'
+  DisabledWorld: '&cLe monde %world% est dÃƒÂ©sactivÃƒÂ© ! &7Impossible de se tÃƒÂ©lÃƒÂ©porter!'
+  Cooldown: '&cDÃƒÂ©solÃƒÂ© ! Vous ne pouvez pas vous tÃƒÂ©lÃƒÂ©porter pendant encore
+    &6%time%&c!'
+  Locked: '&cSDÃƒÂ©solÃƒÂ© ! &7Vous avez utilisÃƒÂ© tous vos RTP''s !'
+  Invalid: '&cArgument invalide. Essayer ''/%command% help'''
+  NotOnline: '&cLe joueur &7%player% &cn''est pas en ligne !'
+  Delay: '&aTÃƒÂ©lÃƒÂ©portation dans &f%time% &asecondes ! Ne bougez pas !'
+  Moved: '&cVous avez bougÃƒÂ© ! &7TÃƒÂ©lÃƒÂ©portation annulÃƒÂ©e !'
+  NotExist: '&cLe monde &7%world% &cn''existe pas !'
+  Already: '&cOups! &7Il semblerait que vous essaiyez dÃƒÂ©jÃƒÂ  de vous tÃƒÂ©lÃƒÂ©porter...
+    Patientez un peu !'
+  Sign: '&7Le panneau de commande a ÃƒÂ©tÃƒÂ© crÃƒÂ©ÃƒÂ© ! &7La commande est... ''&f/rtp
+    %command%&7'''
+  Edit:
+    Error: '&cErreur ! &cEntrÃƒÂ©e invalide !'
+    Set: '&aSuccÃƒÂ¨s ! %type% dÃƒÂ©finie sur %value%'
+    Remove: '&cRetirÃƒÂ© ! Vous avez retirÃƒÂ© le Monde Custom %world%'
+Help:
+  Prefix: '&e&m-----&6&l BetterRTP &8| Aide &e&m-----'
+  Main: ' &7- &e/%command% &7- TÃƒÂ©lÃƒÂ©portez vous alÃƒÂ©atoirement'
+  Biome: ' &7- &e/%command% biome <biome1, biome2...> &7- TÃƒÂ©lÃƒÂ©portez vous alÃƒÂ©atoirement
+    parmi ces biomes'
+  Edit: ' &7- &e/%command% edit <default/world> [args...] &7- Modifiez quelques paramÃƒÂ¨tres
+    du plugin'
+  Help: ' &7- &e/%command% help &7- Affichez l''aide'
+  Info: ' &7- &e/%command% info [world/particles/shapes/potion_effects] &7- Visualisez
+    les infos du plugin sur des paramÃƒÂ¨tres spÃƒÂ©cifiques'
+  Player: ' &7- &e/%command% player <joueur> [monde] &7- TÃƒÂ©lÃƒÂ©porter alÃƒÂ©atoirement
+    un autre joueur'
+  Reload: ' &7- &e/%command% reload &7- Recharger le plugin !'
+  Settings: ' &7- &e/%command% settings &7- Afficher une interface pour modifier des
+    paramÃƒÂ¨tres'
+  Test: ' &7- &e/%command% test &7- Testez les effets du plugin aprÃƒÂ¨s une tÃƒÂ©lÃƒÂ©portation
+    sans bouger'
+  Version: ' &7- &e/%command% version &7- Voir la version en cours d''exÃƒÂ©cution'
+  World: ' &7- &e/%command% world <monde> &7- TÃƒÂ©lÃƒÂ©portez vous alÃƒÂ©atoirement
+    dans un autre monde'
+  Location: ' &7- &e/%command% location <location_name> &7- TÃƒÂ©lÃƒÂ©portÃƒÂ© vous
+    en utilisant une location spÃƒÂ©cidfique'
+Usage:
+  Player: '&cUtilisation &7: /%command% player <joueur> [monde]'
+  World: '&cUtilisation &7: /%command% world <monde>'
+  Biome: '&cUtilisation &7: /%command% biome <biome1, biome2...>'
+  Location: '&cUtilisation &7: /%command% location <location_name>'
+  Edit:
+    Base: '&cUtilisation &7: /%command% edit <default/world> [args...]'
+    Default: '&cUtilisation &7: /%command% edit default <max/min/useworldborder/center>
+      <value>'
+    World: '&cUtilisation &7: /%command% edit world <world> <max/min/useworldborder/center>
+      <value>'
+    PermissionGroup: '&cUsage&7: /%command% edit permission_group <group> <world>
+      <max/min/useworldborder/center> <value>'
+    Location: '&cUsage&7: /%command% edit location <location_name> <max/min/useworldborder/center>
+      <value>'
+    Worldtype: '&cUtilisation  &7: /%command% edit world_type <world> <NETHER/NORMAL>'
+    Override: '&cUtilisation  &7: /%command% edit override <world> <world_to>'
+    BlacklistedBlocks: '&cUtilisation  &7: /%command% edit blacklistedblocks <add/remove>
+      <block_id>'

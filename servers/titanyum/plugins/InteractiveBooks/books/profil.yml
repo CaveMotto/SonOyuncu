@@ -1,0 +1,48 @@
+# This is an example book to show how to create one
+# Note: The placeholders in this book (like %player_name%) need PlaceholderAPI installed
+# with the proper expansion, see here for more informations: https://www.spigotmc.org/resources/placeholderapi.6245/
+
+# Item's name
+name: Profil
+
+# Book's title
+title: Profil
+
+# Book's author
+author: Profil
+
+# Book's generation
+# Valid values: ORIGINAL, COPY_OF_ORIGINAL, COPY_OF_COPY, TATTERED
+generation: ORIGINAL
+
+# Item's lore
+lore:
+- Profil
+
+# Command to open this book
+# You can remove this by setting it to ''
+# Separate multiple commands with a space
+open_command: '4wa48t48twa84'
+
+pages:
+  '1':
+  - '&0Merhaba, &d%player_name%'
+  - '&b'
+  - '&0Kinas: &5%vault_eco_balance_formatted%'
+  - '&0Onur Puanı: &50'
+  - '&c'
+  - '&0Başarı Görev: &30'
+  - '&0Oynadığın Süre: &3%player_seconds_lived%'
+  - '&d'
+  - '&0Canavar Öldürme: &6%statistic_mob_kills%'
+  - '&0Balık Tuma: &6%statistic_fish_caught%'
+  - '&d'
+  - '&0İlk Giriş: &c%player_last_played_formatted%'
+  - '&0Giriş Ülkesi: &c%player_locale_country%'
+  
+# For the placeholders to work correctly
+# you should download the Player and Vault
+# extensions for PlaceholderAPI:
+# /papi ecloud download Player
+# /papi ecloud download Vault
+# /papi reload

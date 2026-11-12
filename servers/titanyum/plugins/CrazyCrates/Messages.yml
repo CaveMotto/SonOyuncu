@@ -1,0 +1,87 @@
+Messages:
+  No-Teleporting: '&eKasayı açarken ışınlanamazsın.'
+  No-Commands-While-In-Crate: '&eKasa açarken komutları kullanmazsın.'
+  No-Key: '&eBu kasayı açabilmek için &d%Key% &eanahtarınızın olması gerekiyor.'
+  No-Virtual-Key: '&eKasayı açmak için bir anahtara ihtiyacın var.'
+  Already-Opening-Crate: '&eZaten bir kasa açıyorsunuz.'
+  Quick-Crate-In-Use: '&eO kasa zaten kullanılıyor. Lütfen kasanın açılmasını bekle.'
+  World-Disabled: '&eBurada kasa açamazsın.'
+  Reload: '&aDosyalar yeniden yüklendi.'
+  Not-Online: '&eThe player &a%player% &eis not online at this time.'
+  No-Permission: '&eBu komutu kullanmanız için izniniz yok!'
+  Crate-Already-Opened: '&eZaten bir kasa açıyorsunuz.'
+  Cant-Be-A-Virtual-Crate: '&eThat crate type cannot be used as a virtual crate.'
+  Inventory-Full: '&eEnvanteriniz doluydu, lütfen kasayı açmadan önce envanterinizi
+    boşaltın.'
+  To-Close-To-Another-Player: '&eKasa açan bir oyuncunun yakınındasın.'
+  Needs-More-Room: '&eBurada açmak için yeterli alan yok.'
+  Out-Of-Time: '&eKasayı açmak için 5 dakika aldınız, böylece kapalıydı.'
+  Must-Be-A-Player: '&eBu komutu kullanmak için bir oyuncu olmalısın.'
+  Must-Be-Looking-At-A-Block: '&eBir bloğa bakıyor olmalısın.'
+  Not-A-Crate: '&eBu sandık yok: &d%crate%'
+  Not-A-Number: '&d%number% &egeçersiz numara.'
+  Given-A-Player-Keys: '&b%player% &eanahtardlı oyuncuya &d%amount% &eanahtarane anahtar
+    verdiniz.'
+  Given-Everyone-Keys: '&eHerkese &e%amount% &eanahtarane anahtar verdiniz.'
+  Given-Offline-Player-Keys: '&eYou have given &6%amount% &ekey(s) to the offline
+    player &6%player%&e.'
+  Take-A-Player-Keys: '&eYou have taken &6%amount% &ekey(s) from &6%player%&e.'
+  Take-Offline-Player-Keys: '&eYou have taken &6%amount% &ekey(s) from the offline
+    player &6%player%&e.'
+  Opened-A-Crate: '&a%player% &eoyuncu için &d%crate% &ekasası açtın.'
+  Internal-Error: '&eHata oluştu consola bakınız.'
+  Created-Physical-Crate:
+  - '%prefix% &eBu bloğu yeni ayarladınız: &e%crate%'
+  - '&eKaldırmak için shiftle sol tıklayın.'
+  Keys:
+    Personal:
+      No-Virtual-Keys: '&cŞu anda herhangi bir anahtarınız yok.'
+      Header:
+      - '&eGeçerli anahtar sayısının listesi.'
+    Other-Player:
+      No-Virtual-Keys: '&a%player% &eoyuncunun herhangi bi anahtarı yok.'
+      Header:
+      - '&6%player% &eMevcut anahtar sayısı.'
+    Per-Crate: '%crate% &e&l>&8&l> &6%keys% Anahtar'
+  Help:
+  - '                           &6Crazy Crates'
+  - '&8&m---------------------------------------------------'
+  - '&e/key [oyuncu] &e- Oyuncunun kaç tane anahtarı olduğuna bakılır.'
+  - '&e/cc &e- Kasa menüsünü açar.'
+  - '&e/cc admin &e- Yönetici komutlarını gösterir.'
+  - '&e/cc list &e- Kasaları listeler.'
+  - '&e/cc open <kasa> [oyuncu] &e- Bir oyuncu için bir kasa açar.'
+  - '&e/cc tp <lokasyon> &e- Kasayı ışınlar.'
+  - '&e/cc give <physical/virtual> <kasa> [adet] [oyuncu] &e- Oyuncuya bir kasanın
+    anahtarını verir.'
+  - '&e/cc giveall <Physical/Virtual> <kasa> [adet] &e- Tüm çevrimiçi oyunculara bir
+    kasanın anahtarını verir.'
+  - '&e/cc take <physical/virtual> <kasa> [adet] [oyuncu].'
+  - '&e/cc set <kasa> &e- Bloğu kasa yapar.'
+  - '&e/cc set Menu'
+  - '&e/cc reload &e- Dosyaları yeniler.'
+  - '&8&m---------------------------------------------------'
+  Not-On-Block: '&cYou must be standing on a block to use this crate.'
+  Obtaining-Keys: '&7You have been given &6%amount% %key% &7Keys.'
+  No-Item-In-Hand: '&cYou need to have an item in your hand to add it to the crate.'
+  Added-Item-With-Editor: '&7The item has been added to the %crate% crate in prize
+    #%prize%.'
+  Removed-Physical-Crate: '%prefix% &7You have just removed &6%id%&7.'
+  Quad-Crate-Disabled: '&cQuad crate type is currently disabled in this build of Crazy
+    Crates due to 1.13+ changing code.'
+  Preview-Disabled: '&cThe preview for that crate is currently disabled.'
+  No-Schematics-Found: '&cNo schematic were found, if using 1.13+ make sure the schematics
+    folder has the new .nbt schematics, if not regenerate the folder.'
+  No-Prizes-Found: '&cThis crate contains no prizes that you can win.'
+  Same-Player: '&cYou can''t use this command on yourself.'
+  Not-Enough-Keys: '&cYou do not have enough keys to transfer.'
+  Transferred-Keys: '&7You have transferred %amount% %crate% keys to %player%.'
+  Received-Transferred-Keys: '&7You have received %amount% %crate% keys from %player%.'
+  Files-Converted:
+    Crates-Plus:
+    - '%prefix%&7Successfully converted CratesPlus config.yml into crate files with
+      no errors.'
+    - '&7Please do &6/cc reload &7to register the new crates.'
+    No-Files-To-Convert: '&cNo plugins that can be converted were found.'
+    Error-Converting-Files: '&cThere was an error while trying to convert files. Please
+      check console for the error log.'

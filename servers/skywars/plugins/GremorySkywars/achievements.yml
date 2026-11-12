@@ -1,0 +1,212 @@
+#All types: KILLS,WINS All modes: (SOLO,TEAM,MEGA)
+achievements:
+ sWinnerV:
+  type: WINS
+  mode: SOLO
+  points: 25
+  quantity: 1200
+  title: 'KAZANMA (SOLO) V'
+  description: 'Solo modunda 1200 maç kazan.'
+ mKillerV:
+  type: KILLS
+  mode: MEGA
+  points: 25
+  quantity: 25000
+  title: 'ÖLDÜRME (MEGA) V'
+  description: 'Mega modunda 25.000 kişi öldür.'
+ tWinnerV:
+  type: WINS
+  mode: TEAM
+  points: 25
+  quantity: 1200
+  title: 'KAZANMA (TAKIM) V'
+  description: 'Takım modunda 1200 maç kazan.'
+ tKillerV:
+  type: KILLS
+  mode: TEAM
+  points: 25
+  quantity: 10000
+  title: 'ÖLDÜRME (TAKIM) V'
+  description: 'Takım modunda 10.000 kişi öldür.'
+ sWinnerIV:
+  type: WINS
+  mode: SOLO
+  points: 20
+  quantity: 500
+  title: 'KAZANMA (SOLO) IV'
+  description: 'Solo modunda 500 maç kazan.'
+ mKillerIV:
+  type: KILLS
+  mode: MEGA
+  points: 20
+  quantity: 5000
+  title: 'ÖLDÜRME (MEGA) IV'
+  description: 'Mega modunda 5.000 kişi öldür.'
+ tWinnerIV:
+  type: WINS
+  mode: TEAM
+  points: 20
+  quantity: 500
+  title: 'KAZANMA (TAKIM) IV'
+  description: 'Takım modunda 500 maç kazan.'
+ tKillerIV:
+  type: KILLS
+  mode: TEAM
+  points: 20
+  quantity: 5000
+  title: 'ÖLDÜRME (TAKIM) IV'
+  description: 'Takım modunda 5.000 kişi öldür.'
+ sWinnerIII:
+  type: WINS
+  mode: SOLO
+  points: 15
+  quantity: 100
+  title: 'KAZANMA (SOLO) III'
+  description: 'Solo modunda 100 maç kazan.'
+ mKillerIII:
+  type: KILLS
+  mode: MEGA
+  points: 15
+  quantity: 1000
+  title: 'ÖLDÜRME (MEGA) III'
+  description: 'Mega modunda 1.000 kişi öldür.'
+ tWinnerIII:
+  type: WINS
+  mode: TEAM
+  points: 15
+  quantity: 100
+  title: 'KAZANMA (TAKIM) III'
+  description: 'Takım modunda 100 maç kazan.'
+ tKillerIII:
+  type: KILLS
+  mode: TEAM
+  points: 15
+  quantity: 1000
+  title: 'ÖLDÜRME (TAKIM) III'
+  description: 'Takım modunda 1.000 kişi öldür.'
+ sWinnerII:
+  type: WINS
+  mode: SOLO
+  points: 10
+  quantity: 100
+  title: 'KAZANMA (SOLO) II'
+  description: 'Solo modunda 50 maç kazan.'
+ mKillerII:
+  type: KILLS
+  mode: MEGA
+  points: 10
+  quantity: 250
+  title: 'ÖLDÜRME (MEGA) II'
+  description: 'Mega modunda 250 kişi öldür.'
+ tWinnerII:
+  type: WINS
+  mode: TEAM
+  points: 10
+  quantity: 50
+  title: 'KAZANMA (TAKIM) II'
+  description: 'Takım modunda 50 maç kazan.'
+ tKillerII:
+  type: KILLS
+  mode: TEAM
+  points: 10
+  quantity: 250
+  title: 'ÖLDÜRME (TAKIM) II'
+  description: 'Takım modunda 250 kişi öldür.'
+ sWinnerI:
+  type: WINS
+  mode: SOLO
+  points: 5
+  quantity: 10
+  title: 'KAZANMA (SOLO) I'
+  description: 'Solo modunda 10 maç kazan.'
+ mKillerI:
+  type: KILLS
+  mode: MEGA
+  points: 5
+  quantity: 50
+  title: 'ÖLDÜRME (MEGA) I'
+  description: 'Mega modunda 50 kişi öldür.'
+ tWinnerI:
+  type: WINS
+  mode: TEAM
+  points: 5
+  quantity: 10
+  title: 'KAZANMA (TAKIM) I'
+  description: 'Takım modunda 10 maç kazan.'
+ tKillerI:
+  type: KILLS
+  mode: TEAM
+  points: 5
+  quantity: 50
+  title: 'ÖLDÜRME (TAKIM) I'
+  description: 'Takım modunda 50 kişi öldür.'
+ sKillerV:
+  type: KILLS
+  mode: SOLO
+  points: 25
+  quantity: 10000
+  title: 'ÖLDÜRME (SOLO) V'
+  description: 'Solo modunda 10.000 kişi öldür.'
+ mWinnerV:
+  type: WINS
+  mode: MEGA
+  points: 25
+  quantity: 1000
+  title: 'KAZANMA (MEGA) V'
+  description: 'Mega modunda 1.000 maç kazan.'
+ sKillerIV:
+  type: KILLS
+  mode: SOLO
+  points: 20
+  quantity: 5000
+  title: 'ÖLDÜRME (SOLO) IV'
+  description: 'Solo modunda 5.000 kişi öldür.'
+ mWinnerIV:
+  type: WINS
+  mode: MEGA
+  points: 20
+  quantity: 500
+  title: 'KAZANMA (MEGA) IV'
+  description: 'Mega modunda 500 maç kazan.'
+ sKillerIII:
+  type: KILLS
+  mode: SOLO
+  points: 15
+  quantity: 1000
+  title: 'ÖLDÜRME (SOLO) III'
+  description: 'Solo modunda 1.000 kişi öldür.'
+ mWinnerIII:
+  type: WINS
+  mode: MEGA
+  points: 15
+  quantity: 100
+  title: 'KAZANMA (MEGA) III'
+  description: 'Mega modunda 100 maç kazan.'
+ sKillerII:
+  type: KILLS
+  mode: SOLO
+  points: 10
+  quantity: 250
+  title: 'ÖLDÜRME (SOLO) II'
+  description: 'Solo modunda 250 kişi öldür.'
+ mWinnerII:
+  type: WINS
+  mode: MEGA
+  points: 10
+  quantity: 50
+  title: 'KAZANMA (MEGA) II'
+  description: 'Mega modunda 50 maç kazan.'
+ sKillerI:
+  type: KILLS
+  mode: SOLO
+  points: 5
+  quantity: 50
+  title: 'ÖLDÜRME (SOLO) I'
+  description: 'Solo modunda 50 kişi öldür.'
+ mWinnerI:
+  type: WINS
+  mode: MEGA
+  points: 5
+  quantity: 10
+  title: 'KAZANMA (MEGA) I'
+  description: 'Mega modunda 10 maç kazan.'

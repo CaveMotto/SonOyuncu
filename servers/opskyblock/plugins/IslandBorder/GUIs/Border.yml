@@ -1,0 +1,23 @@
+Inventory:
+  Type: HOPPER
+Slots:
+  Enable-Button:
+    Slot: 1
+    Material: LIME_BANNER
+  Disable-Button:
+    Slot: 3
+    Material: RED_BANNER
+  Color-Button:
+    Slot: 5
+    Red:
+      Material: RED_DYE
+    Green:
+      Material: LIME_DYE
+    Blue:
+      Material: LIGHT_BLUE_DYE
+  Empty-1:
+    Slot: 2
+    Material: WHITE_STAINED_GLASS_PANE
+  Empty-2:
+    Slot: 4
+    Material: WHITE_STAINED_GLASS_PANE

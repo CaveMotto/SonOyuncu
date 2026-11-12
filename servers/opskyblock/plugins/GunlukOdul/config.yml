@@ -1,0 +1,143 @@
+# "Streak" or "Casual" rewarding system
+Type: Streak
+debug: false
+forceOpen: false
+rewardSound: "LEVEL_UP"
+Rewards:
+   first:
+      material: STORAGE_MINECART
+      tookedMaterial: MINECART
+      firework:
+         deploy: true
+         amount: 3
+      name: "&61. &eGünün Ödülü"
+      lore:
+      - ""
+      - "&7Günlük bonusunuzu almak için"
+      - "&7her gün tekrar gelin!"
+      - ""
+      - "&eÜst üste ne kadar çok gün katılırsanız,"
+      - "&eödül o kadar iyi olur!"
+      - "&7Durum: {status}"
+      commands:
+      - "eco give %player% 10000"
+   second:
+      material: STORAGE_MINECART
+      tookedMaterial: MINECART
+      firework:
+         deploy: true
+         amount: 3
+      name: "&62. &eGünün Ödülü"
+      lore:
+      - ""
+      - "&7Günlük bonusunuzu almak için"
+      - "&7her gün tekrar gelin!"
+      - ""
+      - "&eÜst üste ne kadar çok gün katılırsanız,"
+      - "&eödül o kadar iyi olur!"
+      - "&7Durum: {status}"
+      commands:
+      - "eco give %player% 20000"
+      - "give %player% 265 16"
+   third:
+      material: STORAGE_MINECART
+      tookedMaterial: MINECART
+      firework:
+         deploy: true
+         amount: 3
+      name: "&63. &eGünün Ödülü"
+      lore:
+      - ""
+      - "&7Günlük bonusunuzu almak için"
+      - "&7her gün tekrar gelin!"
+      - ""
+      - "&eÜst üste ne kadar çok gün katılırsanız,"
+      - "&eödül o kadar iyi olur!"
+      - "&7Durum: {status}"
+      commands:
+      - "eco give %player% 30000"
+      - "give %player% 265 32"
+      - "give %player% 266 16"
+   fourth:
+      material: STORAGE_MINECART
+      tookedMaterial: MINECART
+      firework:
+         deploy: true
+         amount: 3
+      name: "&64. &eGünün Ödülü"
+      lore:
+      - ""
+      - "&7Günlük bonusunuzu almak için"
+      - "&7her gün tekrar gelin!"
+      - ""
+      - "&eÜst üste ne kadar çok gün katılırsanız,"
+      - "&eödül o kadar iyi olur!"
+      - "&7Durum: {status}"
+      commands:
+      - "eco give %player% 40000"
+      - "give %player% 265 64"
+      - "give %player% 266 32"
+      - "give %player% 264 2"
+   fifth:
+      material: STORAGE_MINECART
+      tookedMaterial: MINECART
+      firework:
+         deploy: true
+         amount: 3
+      name: "&65. &eGünün Ödülü"
+      lore:
+      - ""
+      - "&7Günlük bonusunuzu almak için"
+      - "&7her gün tekrar gelin!"
+      - ""
+      - "&eÜst üste ne kadar çok gün katılırsanız,"
+      - "&eödül o kadar iyi olur!"
+      - "&7Durum: {status}"
+      commands:
+      - "eco give %player% 50000"
+      - "give %player% 266 64"
+      - "give %player% 264 4"
+   sixth:
+      material: STORAGE_MINECART
+      tookedMaterial: MINECART
+      firework:
+         deploy: true
+         amount: 3
+      name: "&66. &eGünün Ödülü"
+      requirement:
+         permission: "gunlukodul.vip"
+      reqErrorMessage: "&2GünlükÖdül &4VIP &cyetkin bulunmadığından ödül alamadın!"
+      lore:
+      - ""
+      - "&7Günlük bonusunuzu almak için"
+      - "&7her gün tekrar gelin!"
+      - ""
+      - "&eÜst üste ne kadar çok gün katılırsanız,"
+      - "&eödül o kadar iyi olur!"
+      - "&7Durum: {status}"
+      commands:
+      - "eco give %player% 100000"
+      - "give %player% 264 16"
+   seventh:
+      material: STORAGE_MINECART
+      tookedMaterial: MINECART
+      requirement:
+         statistic_hours_played: 200
+         reward:
+         - "eco give %player% 75000"
+         - "give %player% 264 8"
+      firework:
+         deploy: true
+         amount: 3
+      name: "&67. &eGünün Ödülü"
+      lore:
+      - ""
+      - "&7Günlük bonusunuzu almak için"
+      - "&7her gün tekrar gelin!"
+      - ""
+      - "&eÜst üste ne kadar çok gün katılırsanız,"
+      - "&eödül o kadar iyi olur!"
+      - "&7Durum: {status}"
+      commands:
+      - "eco give %player% 100000"
+      - "give %player% 264 16"

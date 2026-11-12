@@ -1,0 +1,36 @@
+tasks:
+  dealdamage:
+    type: "dealdamage"
+    amount: 100000
+    worlds:
+     - 'SQ-1'
+
+display:
+  name: "&eHasar IX"
+  lore-normal:
+    - "&7Karanlık olduğu halde"
+    - "&7rakibini öldür &c"
+    - ""
+    - "&7Durum: &fHasar ver"
+    - ""
+    - "&7Odül: &fElmas Blok 10x"
+  lore-started:
+    - ""
+    - "&7Mevcut ilerlemeniz:"
+    - "&c{dealdamage:progress}/100000 Hasar ver"
+  type: "APPLE"
+
+rewards:
+  - "give {player} 57 10"
+
+placeholders:
+  description: "&7Mevcut ilerlemeniz:"
+  progress: "&c{dealdamage:progress}/100000 Hasar ver"
+
+options:
+  category: "hasar"
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 1440
+  sort-order: 1

@@ -1,0 +1,587 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MottoSMP Panel</title>
+<style>
+/* ── Tokens ─────────────────────────────────────────────── */
+:root {
+  --bg:        #1c1e26;
+  --surface:   #22242e;
+  --card:      #2a2d3a;
+  --border:    #333647;
+  --text:      #e2e4f0;
+  --muted:     #6b7098;
+  --green:     #4caf50;
+  --green-dim: #2d5c30;
+  --yellow:    #f0b429;
+  --red:       #e05252;
+  --blue:      #5b9bd5;
+  --console:   #13141c;
+  --radius:    6px;
+  --radius-sm: 4px;
+}
+
+/* ── Reset ──────────────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { height: 100%; font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  background: var(--bg); color: var(--text); font-size: 13px; line-height: 1.5; }
+button { cursor: pointer; font-family: inherit; }
+input  { font-family: inherit; }
+
+/* ── Layout ─────────────────────────────────────────────── */
+#app { display: flex; height: 100vh; overflow: hidden; }
+
+/* ── Sidebar ────────────────────────────────────────────── */
+#sidebar {
+  width: 220px; min-width: 220px;
+  background: var(--surface);
+  border-right: 1px solid var(--border);
+  display: flex; flex-direction: column;
+  overflow: hidden;
+}
+
+#brand {
+  padding: 16px 14px 12px;
+  border-bottom: 1px solid var(--border);
+  display: flex; align-items: center; gap: 10px;
+}
+#brand-icon {
+  width: 32px; height: 32px; border-radius: 6px;
+  background: transparent; display: flex; align-items: center; justify-content: center;
+  flex-shrink: 0;
+}
+#brand-name  { font-weight: 700; font-size: 14px; color: var(--text); }
+#brand-sub   { font-size: 10px; color: var(--muted); margin-top: 1px; }
+
+#server-list { flex: 1; overflow-y: auto; padding: 8px 0; }
+#server-list::-webkit-scrollbar { width: 4px; }
+#server-list::-webkit-scrollbar-thumb { background: var(--border); border-radius: 2px; }
+
+.srv {
+  display: flex; align-items: center; gap: 9px;
+  padding: 8px 12px; cursor: pointer;
+  border-left: 2px solid transparent;
+  transition: background 100ms;
+  user-select: none;
+}
+.srv:hover  { background: rgba(255,255,255,.04); }
+.srv.active { background: rgba(76,175,80,.08); border-left-color: var(--green); }
+
+.srv-dot {
+  width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0;
+  background: var(--muted);
+  transition: background 300ms;
+}
+.srv-dot.running  { background: var(--green); }
+.srv-dot.starting { background: var(--yellow); }
+.srv-dot.error    { background: var(--red); }
+
+.srv-info  { flex: 1; min-width: 0; }
+.srv-name  { font-size: 12px; font-weight: 500; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.srv-port  { font-size: 10px; color: var(--muted); margin-top: 1px; }
+
+#global-actions {
+  padding: 10px;
+  border-top: 1px solid var(--border);
+  display: flex; flex-direction: column; gap: 6px;
+}
+.g-btn {
+  width: 100%; padding: 7px 0; border: none; border-radius: var(--radius-sm);
+  font-size: 12px; font-weight: 500; letter-spacing: .2px;
+  transition: filter 120ms;
+}
+.g-btn:hover { filter: brightness(1.12); }
+.g-btn:focus-visible { outline: 2px solid var(--green); outline-offset: 2px; }
+.g-btn.start-all { background: var(--green); color: #000; }
+.g-btn.stop-all  { background: var(--card); color: var(--text); border: 1px solid var(--border); }
+
+/* ── Main area ───────────────────────────────────────────── */
+#main { flex: 1; display: flex; flex-direction: column; min-width: 0; overflow: hidden; }
+
+/* ── Server header ───────────────────────────────────────── */
+#srv-header {
+  padding: 14px 20px 0;
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+  flex-shrink: 0;
+}
+#srv-header-top {
+  display: flex; align-items: center; justify-content: space-between;
+  margin-bottom: 12px;
+}
+#srv-title-wrap { display: flex; align-items: center; gap: 10px; }
+#srv-title      { font-size: 16px; font-weight: 600; }
+#srv-badge {
+  padding: 2px 8px; border-radius: 20px; font-size: 11px; font-weight: 600;
+  background: var(--card); color: var(--muted);
+  border: 1px solid var(--border);
+}
+#srv-badge.running  { background: var(--green-dim); color: var(--green); border-color: var(--green-dim); }
+#srv-badge.starting { background: rgba(240,180,41,.15); color: var(--yellow); border-color: rgba(240,180,41,.2); }
+#srv-badge.error    { background: rgba(224,82,82,.15); color: var(--red); border-color: rgba(224,82,82,.2); }
+
+#srv-ctrl { display: flex; gap: 6px; }
+.ctrl-btn {
+  padding: 6px 14px; border: none; border-radius: var(--radius-sm);
+  font-size: 12px; font-weight: 500; letter-spacing: .2px;
+  transition: filter 120ms;
+}
+.ctrl-btn:hover { filter: brightness(1.15); }
+.ctrl-btn:focus-visible { outline: 2px solid var(--green); outline-offset: 2px; }
+.ctrl-btn.start { background: var(--green); color: #000; }
+.ctrl-btn.stop  { background: var(--card); color: var(--text); border: 1px solid var(--border); }
+
+/* ── Tabs ────────────────────────────────────────────────── */
+#tabs { display: flex; gap: 2px; }
+.tab {
+  padding: 8px 16px; border: none; background: none;
+  color: var(--muted); font-size: 12px; font-weight: 500;
+  border-bottom: 2px solid transparent;
+  transition: color 120ms, border-color 120ms;
+  cursor: pointer;
+}
+.tab:hover { color: var(--text); }
+.tab.active { color: var(--green); border-bottom-color: var(--green); }
+.tab:focus-visible { outline: 2px solid var(--green); outline-offset: -2px; }
+
+/* ── Tab panels ──────────────────────────────────────────── */
+#panels { flex: 1; overflow: hidden; display: flex; flex-direction: column; }
+.panel { display: none; flex: 1; flex-direction: column; overflow: hidden; }
+.panel.active { display: flex; }
+
+/* Console panel */
+#console-area {
+  flex: 1; overflow-y: scroll;
+  background: var(--console);
+  padding: 10px 12px;
+  font-family: Consolas, 'Courier New', monospace;
+  font-size: 11.5px; line-height: 1.6;
+  white-space: pre-wrap; word-break: break-all;
+}
+#console-area::-webkit-scrollbar { width: 6px; }
+#console-area::-webkit-scrollbar-thumb { background: #2a2a3a; border-radius: 3px; }
+
+.log-line { display: block; }
+.log-err   { color: #e05252; }
+.log-warn  { color: #f0b429; }
+.log-ok    { color: #4caf50; }
+.log-cmd   { color: #5b9bd5; }
+.log-plain { color: #c4c8e0; }
+
+#cmd-bar {
+  display: flex; flex-shrink: 0;
+  border-top: 1px solid var(--border);
+  background: var(--surface);
+}
+#cmd-prefix {
+  padding: 0 12px; display: flex; align-items: center;
+  color: var(--green); font-family: Consolas, monospace; font-size: 12px;
+  background: var(--console); border-right: 1px solid var(--border);
+  flex-shrink: 0;
+}
+#cmd-input {
+  flex: 1; padding: 9px 12px;
+  background: var(--console); color: var(--text);
+  border: none; outline: none;
+  font-family: Consolas, 'Courier New', monospace; font-size: 12px;
+}
+#cmd-input::placeholder { color: var(--muted); }
+#cmd-send {
+  padding: 9px 16px; border: none; flex-shrink: 0;
+  background: var(--card); color: var(--green);
+  font-size: 12px; font-weight: 500;
+  border-left: 1px solid var(--border);
+  transition: background 120ms;
+}
+#cmd-send:hover { background: rgba(76,175,80,.12); }
+#cmd-send:focus-visible { outline: 2px solid var(--green); outline-offset: -2px; }
+
+/* Players panel */
+#players-panel { overflow-y: auto; padding: 16px 20px; gap: 12px; }
+#players-panel::-webkit-scrollbar { width: 6px; }
+#players-panel::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+
+#players-toolbar {
+  display: flex; align-items: center; justify-content: space-between;
+  margin-bottom: 12px; gap: 10px;
+}
+#players-search {
+  flex: 1; max-width: 260px;
+  padding: 6px 10px; border-radius: var(--radius-sm);
+  background: var(--card); border: 1px solid var(--border);
+  color: var(--text); font-size: 12px; outline: none;
+}
+#players-search:focus { border-color: var(--green); }
+#players-count { font-size: 12px; color: var(--muted); }
+
+#players-table-wrap { overflow-x: auto; }
+table {
+  width: 100%; border-collapse: collapse;
+  font-size: 12px;
+}
+thead th {
+  text-align: left; padding: 8px 12px;
+  color: var(--muted); font-weight: 500; font-size: 11px; text-transform: uppercase;
+  border-bottom: 1px solid var(--border);
+  white-space: nowrap;
+}
+tbody tr {
+  border-bottom: 1px solid rgba(51,54,71,.5);
+  transition: background 80ms;
+}
+tbody tr:hover { background: rgba(255,255,255,.025); }
+tbody td {
+  padding: 9px 12px; vertical-align: middle;
+}
+.player-name { font-weight: 500; }
+.player-uuid { font-family: Consolas, monospace; font-size: 10px; color: var(--muted); margin-top: 2px; }
+
+.tag {
+  display: inline-block; padding: 2px 7px; border-radius: 3px;
+  font-size: 10px; font-weight: 600; letter-spacing: .3px;
+}
+.tag-op     { background: rgba(91,155,213,.15); color: var(--blue); }
+.tag-ban    { background: rgba(224,82,82,.15);  color: var(--red); }
+
+.action-btn {
+  padding: 4px 10px; border-radius: var(--radius-sm);
+  border: 1px solid var(--border); background: var(--card);
+  color: var(--text); font-size: 11px; margin-right: 4px;
+  transition: background 100ms, border-color 100ms;
+}
+.action-btn:hover         { background: rgba(255,255,255,.07); }
+.action-btn:focus-visible { outline: 2px solid var(--green); outline-offset: 2px; }
+.action-btn.danger        { color: var(--red); border-color: rgba(224,82,82,.3); }
+.action-btn.danger:hover  { background: rgba(224,82,82,.1); }
+.action-btn.safe          { color: var(--green); border-color: rgba(76,175,80,.3); }
+.action-btn.safe:hover    { background: rgba(76,175,80,.1); }
+
+#players-empty {
+  text-align: center; padding: 40px 20px;
+  color: var(--muted); font-size: 12px; display: none;
+}
+
+/* ── Responsive ──────────────────────────────────────────── */
+@media (max-width: 600px) {
+  #sidebar { width: 56px; min-width: 56px; }
+  .srv-info, #brand-name, #brand-sub, #global-actions .g-btn { display: none; }
+  #brand { justify-content: center; padding: 14px 0; }
+  .srv { justify-content: center; padding: 10px 0; }
+  #srv-header { padding: 10px 12px 0; }
+  #players-toolbar { flex-wrap: wrap; }
+}
+</style>
+</head>
+<body>
+<div id="app">
+
+  <!-- Sidebar -->
+  <nav id="sidebar" aria-label="Sunucu listesi">
+    <div id="brand">
+      <div id="brand-icon" aria-hidden="true">
+        <img src="/logo.png" alt="MottoSMP logo" width="26" height="26" style="object-fit:contain;border-radius:4px;">
+      </div>
+      <div>
+        <div id="brand-name">MottoSMP</div>
+        <div id="brand-sub">Sunucu Paneli</div>
+      </div>
+    </div>
+
+    <div id="server-list" role="list"></div>
+
+    <div id="global-actions">
+      <button class="g-btn start-all" onclick="startAll()" aria-label="Tum sunuculari baslat">
+        Tumunu Baslat
+      </button>
+      <button class="g-btn stop-all" onclick="stopAll()" aria-label="Tum sunuculari durdur">
+        Tumunu Durdur
+      </button>
+    </div>
+  </nav>
+
+  <!-- Main -->
+  <main id="main">
+    <!-- Server header -->
+    <header id="srv-header">
+      <div id="srv-header-top">
+        <div id="srv-title-wrap">
+          <span id="srv-title">BungeeCord</span>
+          <span id="srv-badge">Durduruldu</span>
+        </div>
+        <div id="srv-ctrl">
+          <button class="ctrl-btn start" id="btn-start" onclick="startSelected()">Baslat</button>
+          <button class="ctrl-btn stop"  id="btn-stop"  onclick="stopSelected()">Durdur</button>
+        </div>
+      </div>
+      <div id="tabs" role="tablist">
+        <button class="tab active" role="tab" aria-selected="true"  onclick="showTab('console')">Konsol</button>
+        <button class="tab"        role="tab" aria-selected="false" onclick="showTab('players')">Oyuncular</button>
+      </div>
+    </header>
+
+    <!-- Panels -->
+    <div id="panels">
+
+      <!-- Console -->
+      <section class="panel active" id="panel-console" role="tabpanel">
+        <div id="console-area" aria-live="polite" aria-label="Sunucu konsolu"></div>
+        <div id="cmd-bar">
+          <div id="cmd-prefix" aria-hidden="true">$</div>
+          <input id="cmd-input" type="text" placeholder="Komut girin..." aria-label="Konsol komutu">
+          <button id="cmd-send" onclick="sendCmd()">Gonder</button>
+        </div>
+      </section>
+
+      <!-- Players -->
+      <section class="panel" id="panel-players" role="tabpanel">
+        <div id="players-panel">
+          <div id="players-toolbar">
+            <input id="players-search" type="search" placeholder="Oyuncu ara..." aria-label="Oyuncu ara" oninput="filterPlayers()">
+            <span id="players-count"></span>
+          </div>
+          <div id="players-table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Oyuncu</th>
+                  <th>UUID</th>
+                  <th>Durum</th>
+                  <th>Islemler</th>
+                </tr>
+              </thead>
+              <tbody id="players-tbody"></tbody>
+            </table>
+            <div id="players-empty">Bu sunucuda henuz kayitli oyuncu yok.</div>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+</div>
+
+<script>
+const SERVERS = [
+  {key:'bungeecord', name:'BungeeCord', port:25565},
+  {key:'cakmalobi',  name:'CakmaLobi',  port:25566},
+  {key:'lobi',       name:'Lobi',       port:25567},
+  {key:'opskyblock', name:'OpSkyBlock', port:25568},
+  {key:'bedwars',    name:'BedWars',    port:25569},
+  {key:'skywars',    name:'SkyWars',    port:25570},
+  {key:'titanyum',   name:'Titanyum',   port:25571},
+  {key:'faction',    name:'Faction',    port:25572},
+];
+
+let selected     = 'bungeecord';
+let statusMap    = {};
+let sse          = null;
+let activeTab    = 'console';
+let allPlayers   = [];
+
+// ── Build sidebar ────────────────────────────────────────
+const list = document.getElementById('server-list');
+SERVERS.forEach(s => {
+  const row = document.createElement('div');
+  row.className = 'srv';
+  row.id = 'row-' + s.key;
+  row.setAttribute('role', 'listitem');
+  row.setAttribute('tabindex', '0');
+  row.setAttribute('aria-label', s.name);
+  row.onclick = () => selectServer(s.key);
+  row.onkeydown = e => { if (e.key === 'Enter' || e.key === ' ') selectServer(s.key); };
+  row.innerHTML = `
+    <div class="srv-dot stopped" id="dot-${s.key}"></div>
+    <div class="srv-info">
+      <div class="srv-name">${s.name}</div>
+      <div class="srv-port">:${s.port}</div>
+    </div>`;
+  list.appendChild(row);
+  statusMap[s.key] = 'stopped';
+});
+
+// ── Tab switching ────────────────────────────────────────
+function showTab(name) {
+  activeTab = name;
+  document.querySelectorAll('.tab').forEach((t, i) => {
+    const isActive = ['console','players'][i] === name;
+    t.classList.toggle('active', isActive);
+    t.setAttribute('aria-selected', isActive);
+  });
+  document.querySelectorAll('.panel').forEach(p => p.classList.remove('active'));
+  document.getElementById('panel-' + name).classList.add('active');
+  if (name === 'players') loadPlayers(selected);
+}
+
+// ── Server selection ─────────────────────────────────────
+function selectServer(key) {
+  selected = key;
+  document.querySelectorAll('.srv').forEach(r => r.classList.remove('active'));
+  document.getElementById('row-' + key).classList.add('active');
+
+  const s = SERVERS.find(x => x.key === key);
+  document.getElementById('srv-title').textContent = s.name;
+  updateBadge(key);
+  loadConsole(key);
+  subscribeSSE(key);
+  if (activeTab === 'players') loadPlayers(key);
+}
+
+function updateBadge(key) {
+  const st = statusMap[key] || 'stopped';
+  const badge = document.getElementById('srv-badge');
+  const labels = {stopped:'Durduruldu', starting:'Baslatiliyor', running:'Calisiyor', error:'Hata'};
+  badge.textContent = labels[st] || st;
+  badge.className = 'running starting error stopped'.split(' ')
+    .reduce((c, s) => c.replace(s, ''), badge.className).trim();
+  badge.classList.add(st);
+}
+
+// ── Console ──────────────────────────────────────────────
+async function loadConsole(key) {
+  const area = document.getElementById('console-area');
+  area.innerHTML = '';
+  try {
+    const res = await fetch(`/api/logs/${key}`);
+    const lines = await res.json();
+    lines.forEach(appendLine);
+    scrollConsole();
+  } catch {}
+}
+
+function subscribeSSE(key) {
+  if (sse) { sse.close(); sse = null; }
+  sse = new EventSource(`/api/stream/${key}`);
+  sse.onmessage = e => {
+    if (selected !== key) return;
+    appendLine(JSON.parse(e.data));
+    scrollConsole();
+  };
+}
+
+function appendLine(text) {
+  const area = document.getElementById('console-area');
+  const span = document.createElement('span');
+  span.className = 'log-line ';
+  if (/\[error\]|exception|severe/i.test(text))        span.className += 'log-err';
+  else if (/\[warn\]/i.test(text))                      span.className += 'log-warn';
+  else if (/done|started|enabled/i.test(text))          span.className += 'log-ok';
+  else if (text.startsWith('>'))                        span.className += 'log-cmd';
+  else                                                  span.className += 'log-plain';
+  span.textContent = text + '\n';
+  area.appendChild(span);
+}
+
+function scrollConsole() {
+  const a = document.getElementById('console-area');
+  a.scrollTop = a.scrollHeight;
+}
+
+function sendCmd() {
+  const input = document.getElementById('cmd-input');
+  const cmd = input.value.trim();
+  if (!cmd) return;
+  fetch(`/api/cmd/${selected}`, {method:'POST', body:cmd});
+  input.value = '';
+}
+document.getElementById('cmd-input').addEventListener('keydown', e => {
+  if (e.key === 'Enter') sendCmd();
+});
+
+// ── Players ──────────────────────────────────────────────
+async function loadPlayers(key) {
+  const tbody = document.getElementById('players-tbody');
+  tbody.innerHTML = '<tr><td colspan="4" style="color:var(--muted);padding:16px 12px;">Yukleniyor...</td></tr>';
+  try {
+    const res = await fetch(`/api/players/${key}`);
+    allPlayers = await res.json();
+    renderPlayers(allPlayers);
+  } catch {
+    tbody.innerHTML = '<tr><td colspan="4" style="color:var(--red);padding:16px 12px;">Yuklenemedi.</td></tr>';
+  }
+}
+
+function renderPlayers(players) {
+  const tbody = document.getElementById('players-tbody');
+  const empty = document.getElementById('players-empty');
+  const count = document.getElementById('players-count');
+
+  if (players.length === 0) {
+    tbody.innerHTML = '';
+    empty.style.display = 'block';
+    count.textContent = '';
+    return;
+  }
+  empty.style.display = 'none';
+  count.textContent = `${players.length} oyuncu`;
+
+  tbody.innerHTML = players.map(p => {
+    const tags = [
+      p.op      ? `<span class="tag tag-op">OP</span>` : '',
+      p.banned  ? `<span class="tag tag-ban">BANDI</span>` : '',
+    ].join(' ');
+
+    const opBtn    = p.op
+      ? `<button class="action-btn danger"  onclick="pAction('deop','${p.name}')"   aria-label="${p.name} OP al">OP Al</button>`
+      : `<button class="action-btn safe"    onclick="pAction('op','${p.name}')"     aria-label="${p.name} OP ver">OP Ver</button>`;
+    const banBtn   = p.banned
+      ? `<button class="action-btn safe"    onclick="pAction('pardon','${p.name}')" aria-label="${p.name} bani kaldir">Af</button>`
+      : `<button class="action-btn danger"  onclick="pAction('ban','${p.name}')"    aria-label="${p.name} banlama">Ban</button>`;
+    const kickBtn  = `<button class="action-btn"       onclick="pAction('kick','${p.name}')"    aria-label="${p.name} at">Kick</button>`;
+
+    return `<tr>
+      <td>
+        <div class="player-name">${esc(p.name)}</div>
+      </td>
+      <td><div class="player-uuid">${esc(p.uuid)}</div></td>
+      <td>${tags || '<span style="color:var(--muted)">—</span>'}</td>
+      <td>${opBtn}${banBtn}${kickBtn}</td>
+    </tr>`;
+  }).join('');
+}
+
+function filterPlayers() {
+  const q = document.getElementById('players-search').value.toLowerCase();
+  renderPlayers(q ? allPlayers.filter(p => p.name.toLowerCase().includes(q)) : allPlayers);
+}
+
+async function pAction(action, name) {
+  const res  = await fetch(`/api/player-action/${selected}/${action}/${encodeURIComponent(name)}`, {method:'POST'});
+  const data = await res.json();
+  if (data.ok) loadPlayers(selected);
+  else alert('Hata: ' + data.msg);
+}
+
+function esc(s) {
+  return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+
+// ── Status polling ───────────────────────────────────────
+async function pollStatus() {
+  try {
+    const res  = await fetch('/api/status');
+    const data = await res.json();
+    data.forEach(s => {
+      statusMap[s.key] = s.status;
+      const dot = document.getElementById('dot-' + s.key);
+      if (dot) dot.className = 'srv-dot ' + s.status;
+    });
+    updateBadge(selected);
+  } catch {}
+}
+setInterval(pollStatus, 1500);
+pollStatus();
+
+// ── Global controls ──────────────────────────────────────
+function startSelected() { fetch(`/api/start/${selected}`, {method:'POST'}); }
+function stopSelected()  { fetch(`/api/stop/${selected}`,  {method:'POST'}); }
+function startAll()      { fetch('/api/start-all',          {method:'POST'}); }
+function stopAll()       { fetch('/api/stop-all',           {method:'POST'}); }
+
+// ── Init ─────────────────────────────────────────────────
+selectServer('bungeecord');
+</script>
+</body>
+</html>

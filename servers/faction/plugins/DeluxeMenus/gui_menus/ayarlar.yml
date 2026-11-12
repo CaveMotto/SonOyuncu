@@ -1,0 +1,60 @@
+menu_title: '&8&nAyarlar'
+open_command: ayarlar
+size: 35
+update_interval: 1
+items:
+      '1':
+        material: 324
+        slot: 13
+        priority: 1
+        left_click_commands:
+        - '[close]'
+        - '[console] lp user %player_name% permission unset tp.no'
+        - '[player] tptoggle'
+        right_click_commands:
+        - '[close]'
+        - '[console] lp user %player_name% permission unset tp.no'
+        - '[player] tptoggle'
+        display_name: '&e&lISINLANMA'
+        lore:
+        - ''
+        - '&7Kolayca Size Gelen'
+        - '&7Işınlanma İsteklerini Kapatır.' 
+        - ''
+        - "&aYapmak İçin Tıkla"
+        view_requirement:
+          requirements:
+            anythinghere:
+              type: has permission
+              permission: tp.no
+      '2':
+        material: 431
+        slot: 13
+        priority: 2
+        left_click_commands:
+        - '[close]'
+        - '[console] lp user %player_name% permission set tp.no'
+        - '[player] tptoggle'
+        right_click_commands:
+        - '[close]'
+        - '[console] lp user %player_name% permission set tp.no'
+        - '[player] tptoggle'
+        display_name: '&e&lISINLANMA'
+        lore:
+        - ''
+        - '&7Kolayca Size Gelen'
+        - '&7Işınlanma İsteklerini Kapatır.' 
+        - ''
+        - "&aYapmak İçin Tıkla"
+      '11':
+        material: heads;MHF_ArrowLeft
+        slot: 31
+        priority: 2
+        left_click_commands:
+        - '[console] playsound ENTITY_ITEM_BREAK ambient %player_name% ~ ~ ~ 0.9 0'
+        - '[player] profil'
+        right_click_commands:
+        - '[console] playsound ENTITY_ITEM_BREAK ambient %player_name% ~ ~ ~ 0.9 0'
+        - '[player] profil'
+        display_name: '&cGeri Dön'
+        lore: ''

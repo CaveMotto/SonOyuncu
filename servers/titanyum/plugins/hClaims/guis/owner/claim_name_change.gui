@@ -1,0 +1,8 @@
+type: 'SIGN'
+item: 'WALL_SIGN'
+input-line: 0
+lines:
+  - ''
+  - '^^^^^^^^^^^^^^^'
+  - 'Type new claim name'
+  - 'above you want'

@@ -1,0 +1,52 @@
+# BedWars1058-MapSelector v1.4.2 made by [itz_leoo].
+# Dependencies: [].
+# SoftDependencies: [BedWarsProxy, BedWars1058, PlaceholderAPI].
+# Join my discord for support: https://pixelstudios.dev/discord
+
+bc405eed-8e2a-3c85-8436-76f1c4ba8638:
+  favorite-maps:
+    orman: false
+    kÃ¼lateÅŸi: false
+    saray: false
+    okyanus: false
+  per-map-times-joined:
+    kÃ¼lateÅŸi: 5
+    orman: 4
+    ada: 1
+    saray: 2
+    tapÄ±nak: 2
+    kale: 2
+    kutuplar: 3
+    okyanus: 1
+a2cc92e8-2110-358e-9579-d0953927ab58:
+  favorite-maps: []
+  per-map-times-joined:
+    orman: 3
+    tapÄ±nak: 1
+    kÃ¼lateÅŸi: 1
+    kutuplar: 1
+145c9a91-5144-3e76-aec2-2e33959c21e4:
+  favorite-maps: &id001 []
+  per-map-times-joined:
+    kÃ¼lateÅŸi: 1
+    orman: 1
+c0c6bdbe-37ad-3b47-afda-5b592cdc96b9:
+  favorite-maps: *id001
+  per-map-times-joined:
+    kale: 1
+    kÃ¼lateÅŸi: 1
+    kutuplar: 1
+12da69d2-9c3b-3f56-84ac-e61da1ff373a:
+  favorite-maps: &id002 []
+  per-map-times-joined:
+    kÃ¼lateÅŸi: 1
+fa12e474-5371-366e-9648-16cff770b26e:
+  favorite-maps: *id002
+  per-map-times-joined:
+    kÃ¼lateÅŸi: 1
+3bdd7bc1-57b3-3ed1-a14e-cc7341dec1b1:
+  favorite-maps: &id003 []
+  per-map-times-joined: *id003
+377f1ac0-6050-32e3-9d68-daf21c3caf7c:
+  favorite-maps: *id003
+  per-map-times-joined: *id003

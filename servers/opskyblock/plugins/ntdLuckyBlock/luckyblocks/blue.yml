@@ -1,0 +1,46 @@
+texture: 8534b17d2d3b5a64c57f5f080dd777945761d9f71d82e8f599f242976e4d0c05
+# Item name
+name: "&eŞans Bloğu &7(&aSıradan&7)"
+# System name (Give command will use it as color)
+custom_name: "BLUE"
+# Item lore
+lore:
+- ""
+- "&fElinizdeki şans bloğu"
+- "&fçok değerlidir."
+- ""
+- "&dİçindekiler"
+- ""
+- "&f- Demir Blok &7(&d128 Adet&7)"
+- "&f- Altın Blok &7(&d64 Adet&7)"
+- "&f- Elmas Cevheri &7(&d316 Adet&7)"
+- "&f- Zümrüt Cevheri &7(&d8 Adet&7)"
+- "&f- Altın Spawner &7(&d5 Adet&7)"
+- "&f- Elmas Blok Spawner &7(&d1 Adet&7)"
+
+eco: true
+shop: true
+price: 250
+
+animation: true
+animation_type: "MOBSPAWNER_FLAMES"
+
+# Dropping items
+drop:
+  '0':
+    - "CONSOLE : itemsp ver %player% altin 5"
+  '1':
+    - "CONSOLE : itemsp ver %player% elmasblok 1"
+  '2':
+    - "CONSOLE : give %player% 42 128"
+  '3':
+    - "CONSOLE : give %player% 41 64"
+  '4':
+    - "CONSOLE : give %player% 56 16"
+  '5':
+    - "CONSOLE : give %player% 129 8"
+
+
+craft:
+  default: true
+  custom: false

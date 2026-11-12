@@ -1,0 +1,389 @@
+menu_title: '&8Yardım Menüsü'
+open_command:
+- menu
+size: 36
+items:
+  'LC-MARKET':
+    material: emerald
+    slot: 4
+    display_name: '&dLC Market'
+    lore:
+    - '&8'
+    - '&7LC Markete buradan'
+    - '&7ulaşabilirsin.'
+    - '&7Websitemizi ziyaret'
+    - '&7ederek &fLC &7satın'
+    - '&7alabilirsin.'
+    - '&7'
+    - '&eGitmek için tıkla'
+    left_click_commands:
+    - '[message] &6Survival &7▸ &cby Motto'
+    - '[close]'
+    right_click_commands:
+    - '[message] &6Survival &7▸ &cby Motto'
+    - '[close]'
+  'Profil':
+    material: map
+    slot: 11
+    hide_effects: true
+    display_name: '&eProfil'
+    lore:
+    - '&8'
+    - '&eAçmak için tıkla'
+    left_click_commands:
+    - '[player] 4wa48t48twa84'
+    right_click_commands:
+    - '[player] 4wa48t48twa84'
+  'Sıralama':
+    material: SKULL_ITEM 
+    data: 3
+    slot: 12
+    hide_effects: true
+    display_name: '&eSıralama'
+    lore:
+    - '&8'
+    - '&7Çeşitli oyun içi'
+    - '&7sıralamalara buradan'
+    - '&7ulaşabilirsin.'
+    - '&7'
+    - '&7Ayrıca bu menüye'
+    - '&f/Stats &7komutu ile'
+    - '&7ulaşabilirsin.'
+    - '&7'
+    - '&eAçmak için tıkla'
+    left_click_commands:
+    - '[player] baltop'
+    right_click_commands:
+    - '[player] baltop'
+  deposeviye1:
+    material: CHEST
+    slot: 13
+    priority: 6
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: CustomEnderChest.level.0
+    left_click_requirement:
+      requirements:
+        dinar:
+          type: has money
+          amount: 1000.0
+      deny_commands:
+      - '[close]'
+      - '[message] &6Survival &8► &cYeterli dinara sahip değilsin.'
+    right_click_requirement:
+      requirements:
+        dinar:
+          type: has money
+          amount: 2000.0
+      deny_commands:
+      - '[close]'
+      - '[message] &6Survival &8► &cYeterli dinara sahip değilsin.'
+    display_name: '&eSandık Seviyem'
+    lore:
+    - ''
+    - '&f/chest &7komutu ile'
+    - '&7sana özel envanteri'
+    - '&7kullanabilirsin.'
+    - ''
+    - '&7Bu envanterinn büyüklüğünü'
+    - '&7sanadık seviyene göre'
+    - '&7değişkenlik gösterir.'
+    - '&7Kinas ile bu seviyeyi'
+    - '&7yükseltebilirsin'
+    - ''
+    - '&7Mevcut Seviye: &e1&6/5'
+    - '&7Fiyat: &62.000,0'
+    - ''
+    - '&eYükseltme için tıkla'
+    left_click_commands:
+    - '[takemoney] 2000'
+    - '[console] lp user %player_name% permission set CustomEnderChest.level.1 true'
+    - '[message] &6Survival &8► &eSandık 1.seviye başarılı bir şekilde yükseltildi!'
+    - '[close]'
+    right_click_commands:
+    - '[takemoney] 2000'
+    - '[console] lp user %player_name% permission set CustomEnderChest.level.1 true'
+    - '[message] &6Survival &8► &eSandık 1.seviye başarılı bir şekilde yükseltildi!'
+    - '[close]'
+  deposeviye2:
+    material: CHEST
+    slot: 13
+    priority: 5
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: CustomEnderChest.level.1
+    left_click_requirement:
+      requirements:
+        dinar:
+          type: has money
+          amount: 5000.0
+      deny_commands:
+      - '[close]'
+      - '[message] &6Survival &8► &cYeterli dinara sahip değilsin.'
+    right_click_requirement:
+      requirements:
+        dinar:
+          type: has money
+          amount: 5000.0
+      deny_commands:
+      - '[close]'
+      - '[message] &6Survival &8► &cYeterli dinara sahip değilsin.'
+    display_name: '&eSandık Seviyem'
+    lore:
+    - ''
+    - '&f/chest &7komutu ile'
+    - '&7sana özel envanteri'
+    - '&7kullanabilirsin.'
+    - ''
+    - '&7Bu envanterinn büyüklüğünü'
+    - '&7sanadık seviyene göre'
+    - '&7değişkenlik gösterir.'
+    - '&7Kinas ile bu seviyeyi'
+    - '&7yükseltebilirsin'
+    - ''
+    - '&7Mevcut Seviye: &e2&6/5'
+    - '&7Fiyat: &65.000,0'
+    - ''
+    - '&eYükseltme için tıkla'
+    left_click_commands:
+    - '[takemoney] 5000'
+    - '[console] lp user %player_name% permission set CustomEnderChest.level.2 true'
+    - '[message] &6Survival &8► &eDepo 2.seviye başarılı bir şekilde yükseltildi!'
+
+    - '[close]'
+    right_click_commands:
+    - '[takemoney] 5000'
+    - '[console] lp user %player_name% permission set CustomEnderChest.level.2 true'
+    - '[message] &6Survival &8► &eDepo 2.seviye başarılı bir şekilde yükseltildi!'
+    - '[close]'
+  deposeviye3:
+    material: CHEST
+    slot: 13
+    priority: 4
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: CustomEnderChest.level.2
+    left_click_requirement:
+      requirements:
+        dinar:
+          type: has money
+          amount: 8000.0
+      deny_commands:
+      - '[close]'
+      - '[message] &6Survival &8► &cYeterli dinara sahip değilsin.'
+    right_click_requirement:
+      requirements:
+        dinar:
+          type: has money
+          amount: 8000.0
+      deny_commands:
+      - '[close]'
+      - '[message] &6Survival &8► &cYeterli dinara sahip değilsin.'
+    display_name: '&eSandık Seviyem'
+    lore:
+    - ''
+    - '&f/chest &7komutu ile'
+    - '&7sana özel envanteri'
+    - '&7kullanabilirsin.'
+    - ''
+    - '&7Bu envanterinn büyüklüğünü'
+    - '&7sanadık seviyene göre'
+    - '&7değişkenlik gösterir.'
+    - '&7Kinas ile bu seviyeyi'
+    - '&7yükseltebilirsin'
+    - ''
+    - '&7Mevcut Seviye: &e3&6/5'
+    - '&7Fiyat: &68.000,0'
+    - ''
+    - '&eYükseltme için tıkla'
+    left_click_commands:
+    - '[takemoney] 8000'
+    - '[console] lp user %player_name% permission set CustomEnderChest.level.3 true'
+    - '[message] &6Survival &8► &eDepo 3.seviye başarılı bir şekilde yükseltildi!'
+    - '[close]'
+    right_click_commands:
+    - '[takemoney] 8000'
+    - '[console] lp user %player_name% permission set CustomEnderChest.level.3 true'
+    - '[message] &6Survival &8► &eDepo 3.seviye başarılı bir şekilde yükseltildi!'
+    - '[close]'
+  deposeviye4:
+    material: CHEST
+    slot: 13
+    priority: 3
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: CustomEnderChest.level.3
+    left_click_requirement:
+      requirements:
+        dinar:
+          type: has money
+          amount: 10000.0
+      deny_commands:
+      - '[close]'
+      - '[message] &6Survival &8► &cYeterli dinara sahip değilsin.'
+    right_click_requirement:
+      requirements:
+        dinar:
+          type: has money
+          amount: 10000.0
+      deny_commands:
+      - '[close]'
+      - '[message] &6Survival &8► &cYeterli dinara sahip değilsin.'
+    display_name: '&eSandık Seviyem'
+    lore:
+    - ''
+    - '&f/chest &7komutu ile'
+    - '&7sana özel envanteri'
+    - '&7kullanabilirsin.'
+    - ''
+    - '&7Bu envanterinn büyüklüğünü'
+    - '&7sanadık seviyene göre'
+    - '&7değişkenlik gösterir.'
+    - '&7Kinas ile bu seviyeyi'
+    - '&7yükseltebilirsin'
+    - ''
+    - '&7Mevcut Seviye: &e4&6/5'
+    - '&7Fiyat: &610.000,0'
+    - ''
+    - '&eYükseltme için tıkla'
+    left_click_commands:
+    - '[takemoney] 10000'
+    - '[console] lp user %player_name% permission set CustomEnderChest.level.4 true'
+    - '[message] &6Survival &8► &eDepo 5.seviye başarılı bir şekilde yükseltildi!'
+    - '[close]'
+    right_click_commands:
+    - '[takemoney] 10000'
+    - '[console] lp user %player_name% permission set CustomEnderChest.level.4 true'
+    - '[message] &6Survival &8► &eDepo 5.seviye başarılı bir şekilde yükseltildi!'
+    - '[close]'
+  depomax:
+    material: CHEST
+    slot: 13
+    priority: 2
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: CustomEnderChest.level.4
+    display_name: '&eSandık Seviyem'
+    lore:
+    - ''
+    - '&f/chest &7komutu ile'
+    - '&7sana özel envanteri'
+    - '&7kullanabilirsin.'
+    - ''
+    - '&7Bu envanterinn büyüklüğünü'
+    - '&7sanadık seviyene göre'
+    - '&7değişkenlik gösterir.'
+    - '&7Kinas ile bu seviyeyi'
+    - '&7yükseltebilirsin'
+    - ''
+    - '&7Mevcut Seviye: &e5&6/5'
+    - '&7Fiyat: &610.000,0'
+    - ''
+    - '&eYükseltme için tıkla'
+    left_click_commands:
+    - '[takemoney] 10000'
+    - '[console] lp user %player_name% permission set CustomEnderChest.level.5 true'
+    - '[message] &6Survival &8► &eDepo 5.seviye başarılı bir şekilde yükseltildi!'
+    - '[close]'
+    right_click_commands:
+    - '[takemoney] 10000'
+    - '[console] lp user %player_name% permission set CustomEnderChest.level.5 true'
+    - '[message] &6Survival &8► &eDepo 5.seviye başarılı bir şekilde yükseltildi!'
+    - '[close]'
+  depomax2:
+    material: CHEST
+    slot: 13
+    priority: 1
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: playervaults.amount.5
+    display_name: '&eSandık Seviyem'
+    lore:
+    - ''
+    - '&f/chest &7komutu ile'
+    - '&7sana özel envanteri'
+    - '&7kullanabilirsin.'
+    - ''
+    - '&7Bu envanterinn büyüklüğünü'
+    - '&7sanadık seviyene göre'
+    - '&7değişkenlik gösterir.'
+    - '&7Kinas ile bu seviyeyi'
+    - '&7yükseltebilirsin'
+    - ''
+    - '&7Mevcut Seviye: &dMax'
+    - ''
+    - '&eYükseltme için tıkla'
+  'Bilgilendirme':
+    material: bookshelf 
+    slot: 14
+    hide_effects: true
+    display_name: '&eBilgilendirme'
+    lore:
+    - '&8'
+    - '&7Aklına takılan'
+    - '&7birşeyler mi var?'
+    - '&7'
+    - '&eAçmak için tıkla'
+    left_click_commands:
+    - '[player] bilgi'
+    - '[close]'
+    right_click_commands:
+    - '[player] bilgi'
+    - '[close]'
+  'Market':
+    material: bone 
+    slot: 15
+    hide_effects: true
+    display_name: '&eMarket'
+    lore:
+    - '&8'
+    - '&f/Market &7komutu ile'
+    - '&7Spawndaki marketelere hızlıca'
+    - '&7erişebilirsin.'
+    - '&7'
+    - '&7Ayrıca &f/sat &7komutu'
+    - '&7ile elindeki eşyayı'
+    - '&7hızlıca satabilirsin.'
+    - '&7'
+    - '&eAçmak için tıkla'
+    left_click_commands:
+    - '[player] market'
+    - '[close]'
+    right_click_commands:
+    - '[player] market'
+    - '[close]'
+  'Ayarlar':
+    material: REDSTONE_COMPARATOR
+    slot: 22
+    hide_effects: true
+    display_name: '&eAyarlar'
+    lore:
+    - '&8'
+    - '&7Buradan hesabına ait'
+    - '&7bazı ayarları yapabilirsin.'
+    - '&7'
+    - '&eAçmak için tıkla'
+    left_click_commands:
+    - '[player] ayarlar'
+    - '[close]'
+    right_click_commands:
+    - '[player] ayarlar'
+    - '[close]'
+
+
+
+#Yardım Almak için sqruat.
+#Bu eklenti paketi byMotto tarafından yapıldı.
+

@@ -1,0 +1,359 @@
+command /bitcoin [<text>] [<text>]:
+    trigger:
+        arg 1 is not set:
+            execute player command "48twatwa4yşn90"
+        arg 1 is "bakiyem":
+            arg 1 is set:
+                execute player command "btc balance"
+            else if arg 1 is not set:
+                send "yardım"
+            else if arg 2 is not set:
+                send "oyuncu ismi belirtmedin" 
+        arg 1 is "fiyat":
+            arg 1 is set:
+                execute player command "btc price 1"
+            else if arg 1 is not set:
+                send "yardım"
+            else if arg 2 is not set:
+                send "mesaj yazmadın"
+        arg 1 is "gönder":
+            arg 1 is set:
+                execute player command "btc send %arg-2%"
+            else if arg 1 is not set:
+                send "yardım"
+            else if arg 2 is not set:
+                send "mesaj yazmadın"
+        arg 1 is "al":
+            arg 1 is set:
+                execute player command "btc buy %arg-2%"
+            else if arg 1 is not set:
+                send "yardım"
+            else if arg 2 is not set:
+                send "mesaj yazmadın"
+        arg 1 is "sat":
+            arg 1 is set:
+                execute player command "btc sell %arg-2%"
+            else if arg 1 is not set:
+                send "yardım"
+            else if arg 2 is not set:
+                send "mesaj yazmadın"
+
+command /48twatwa4yşn90:
+    trigger:
+        send "&e&l&m--------------&6 &6Bitcoin &e&l&m--------------&6"
+        send ""
+        send "&6/Bitcoin bakiyem &7- &eBitcoin hesabına bakar."
+        send "&6/Bitcoin fiyat &7- &eBitcoin yükselişini ve artışını izlersin"
+        send "&6/Bitcoin al (miktar) &7- &eBitcoin satın alabilirsin."
+        send "&6/Bitcoin sat (miktar) &7- &eBitcoin satabilirsin."
+        send "&6/Bitcoin gönder (oyuncu) (miktar) &7- &eOyuncuya bitcoin gönderirsin."
+        send ""
+        send "&e&l&m--------------&6 &6Bitcoin &e&l&m--------------&6"
+
+
+command /ethereum [<text>] [<text>]:
+    trigger:
+        arg 1 is not set:
+            execute player command "day458uerawteyp89"
+        arg 1 is "bakiyem":
+            arg 1 is set:
+                execute player command "eth balance"
+            else if arg 1 is not set:
+                send "yardım"
+            else if arg 2 is not set:
+                send "oyuncu ismi belirtmedin" 
+        arg 1 is "fiyat":
+            arg 1 is set:
+                execute player command "eth price 1"
+            else if arg 1 is not set:
+                send "yardım"
+            else if arg 2 is not set:
+                send "mesaj yazmadın"
+        arg 1 is "gönder":
+            arg 1 is set:
+                execute player command "eth send %arg-2%"
+            else if arg 1 is not set:
+                send "yardım"
+            else if arg 2 is not set:
+                send "mesaj yazmadın"
+        arg 1 is "al":
+            arg 1 is set:
+                execute player command "eth buy %arg-2%"
+            else if arg 1 is not set:
+                send "yardım"
+            else if arg 2 is not set:
+                send "mesaj yazmadın"
+        arg 1 is "sat":
+            arg 1 is set:
+                execute player command "eth sell %arg-2%"
+            else if arg 1 is not set:
+                send "yardım"
+            else if arg 2 is not set:
+                send "mesaj yazmadın"
+				
+				
+
+command /day458uerawteyp89:
+    trigger:
+        send "&e&l&m--------------&6 &6Ethereum &e&l&m--------------&6"
+        send ""
+        send "&6/Ethereum bakiyem &7- &eBitcoin hesabına bakar."
+        send "&6/Ethereum fiyat &7- &eBitcoin yükselişini ve artışını izlersin"
+        send "&6/Ethereum al (miktar) &7- &eBitcoin satın alabilirsin."
+        send "&6/Ethereum sat (miktar) &7- &eBitcoin satabilirsin."
+        send "&6/Ethereum gönder (oyuncu) (miktar) &7- &eOyuncuya bitcoin gönderirsin."
+        send ""
+        send "&e&l&m--------------&6 &6Ethereum &e&l&m--------------&6"
+		
+		
+command vipver [<player>] [<text>] [<text>]:
+    permission: yetkili
+    trigger:
+        console command "lp user %player-arg% permission settemp group.%arg 2% true %arg 3%"
+
+
+command /tether [<text>] [<text>]:
+    trigger:
+        arg 1 is not set:
+            execute player command "854wwt48awaquyu"
+        arg 1 is "bakiyem":
+            arg 1 is set:
+                execute player command "usdt balance"
+            else if arg 1 is not set:
+                send "yardım"
+            else if arg 2 is not set:
+                send "oyuncu ismi belirtmedin" 
+        arg 1 is "fiyat":
+            arg 1 is set:
+                execute player command "usdt price 1"
+            else if arg 1 is not set:
+                send "yardım"
+            else if arg 2 is not set:
+                send "mesaj yazmadın"
+        arg 1 is "gönder":
+            arg 1 is set:
+                execute player command "usdt send %arg-2%"
+            else if arg 1 is not set:
+                send "yardım"
+            else if arg 2 is not set:
+                send "mesaj yazmadın"
+        arg 1 is "al":
+            arg 1 is set:
+                execute player command "usdt buy %arg-2%"
+            else if arg 1 is not set:
+                send "yardım"
+            else if arg 2 is not set:
+                send "mesaj yazmadın"
+        arg 1 is "sat":
+            arg 1 is set:
+                execute player command "usdt sell %arg-2%"
+            else if arg 1 is not set:
+                send "yardım"
+            else if arg 2 is not set:
+                send "mesaj yazmadın"
+
+command /854wwt48awaquyu:
+    trigger:
+        send "&e&l&m--------------&6 &6Tether &e&l&m--------------&6"
+        send ""
+        send "&6/Tether bakiyem &7- &eBitcoin hesabına bakar."
+        send "&6/Tether fiyat &7- &eBitcoin yükselişini ve artışını izlersin"
+        send "&6/Tether al (miktar) &7- &eBitcoin satın alabilirsin."
+        send "&6/Tether sat (miktar) &7- &eBitcoin satabilirsin."
+        send "&6/Tether gönder (oyuncu) (miktar) &7- &eOyuncuya bitcoin gönderirsin."
+        send ""
+        send "&e&l&m--------------&6 &6Tether &e&l&m--------------&6"
+
+command /jackpot [<text>] [<text>]:
+    trigger:
+        arg 1 is not set:
+            execute player command "jackpots buy"
+			
+command /market:
+    trigger:
+        execute player command "/shop"
+		
+command /sınır:
+    trigger:
+        execute player command "/islandborder toggle"		
+		
+		
+command /itemid:
+    trigger:
+        execute player command "/iteminfo"
+		
+command /sat:
+    trigger:
+        execute player command "/sell hand"		
+
+command /kafa:
+    trigger:
+        execute player command "/hat"	
+
+command /adafly:
+    trigger:
+        execute player command "/islandflight"	
+		
+command /chest:
+    trigger:
+        execute player command "/enderchest"	
+
+			
+command /günlük [<text>] [<text>]:
+    trigger:
+        arg 1 is not set:
+            execute player command "rewards"
+			
+command /tamir:
+    trigger:
+        execute player command "/repair"		
+			
+command /ihale [<text>] [<text>]:
+    trigger:
+        arg 1 is not set:
+            execute player command "ah"
+        arg 1 is "başlat":
+            arg 1 is set:
+                execute player command "ah bid %arg-2%"
+            else if arg 1 is not set:
+                send "yardım"
+            else if arg 2 is not set:
+                send "oyuncu ismi belirtmedin" 
+				
+command /dinar [<text>] [<text>]:
+    trigger:
+        arg 1 is not set:
+            execute player command "545wat41awrfq855qa"
+        arg 1 is "gönder":
+            arg 1 is set:
+                execute player command "pay %arg-2%"
+            else if arg 1 is not set:
+                send "yardım"
+            else if arg 2 is not set:
+                send "oyuncu ismi belirtmedin"  
+				
+command /545wat41awrfq855qa:
+    trigger:
+        send "&e&l&m--------------&6 &6Skyblock &e&l&m--------------&6"
+        send ""
+        send "&6/dinar gönder (oyuncu) (miktar) &7- &eKarşıdaki oyuncuya dinar gönderirsin."
+        send ""
+        send "&e&l&m--------------&6 &6Skyblock &e&l&m--------------&6"
+
+		
+command /arenaberlile:
+    permission: op
+    trigger:
+        add player's location to {liste::*}
+        send "&6Skyblock &7► &eArena bölgesi belirlendi"
+command /arenasil:
+    permission: op
+    trigger:
+        remove player's location from {liste::*}
+        send "&6Skyblock &7► &eArena bölgesi silindi"
+on walk on end portal frame:
+    set {_location::%player%} to random element of {liste::*}
+    teleport player to {_location::%player%}
+    send "&6Skyblock &7► &eArena bölgesine ışınlandın."
+
+options:
+    reklam1: batihost" or "keyubu" or "rabisu" or "play" or "com" or "mc" or "net" or "network" or "nw" or "com
+options:
+    küfür1: mk" or "öç" or "
+options:
+    argo1: argo1" or "argo2" or "argo3
+
+on load:
+    {reklamkoruma::laros} is not set:
+        set {reklamkoruma::laros} to "&cKapalı"
+    {küfürkoruma::laros} is not set:
+        set {küfürkoruma::laros} to "&cKapalı"
+    {argokoruma::laros} is not set:
+        set {argokoruma::laros} to "&cKapalı"
+
+
+command /otomute [<text>]:
+    permission: op
+    trigger:
+        if arg 1 is not set:
+            send "            &e&lOTOMUTE &8| &eV2            "
+            send "                                            "
+            send "&7Reklam - Durum &8► %{reklamkoruma::laros}%"
+            send "&7Küfür - Durum &8► %{küfürkoruma::laros}%  "
+            send "&7Argo - Durum &8► %{argokoruma::laros}%    "
+        if arg 1 is "reklam aç":
+            set {reklamkoruma::laros} to "&aAktif"
+            send "&6Skyblock &8► &7başarılı şekilde &d&nReklam&r &7koruma açıldı &aAçıldı!"
+        if arg 1 is "reklam kapat":
+            set {reklamkoruma::laros} to "&cKapalı"
+            send "&6Skyblock &8► &7başarılı şekilde &d&nReklam&r &7koruma &cKapatıldı!"
+        if arg 1 is "küfür aç":
+            set {küfürkoruma::laros} to "&aAktif"
+            send "&6Skyblock &8► &7başarılı şekilde &d&nKüfür&r &7koruma açıldı &aAçıldı!"
+        if arg 1 is "küfür kapat":
+            set {küfürkoruma::laros} to "&cKapalı"
+            send "&6Skyblock &8► &7başarılı şekilde &d&nKüfür&r &7koruma &cKapatıldı!"
+        if arg 1 is "argo aç":
+            set {argokoruma::laros} to "&aAktif"
+            send "&6Skyblock &8► &7başarılı şekilde &d&nArgo&r &7koruma açıldı &aAçıldı!"
+        if arg 1 is "argo kapat":
+            set {argokoruma::laros} to "&cKapalı"
+            send "&6Skyblock &8► &7başarılı şekilde &d&nArgo&r &7koruma &cKapatıldı!"
+
+on chat:
+    if {reklamkoruma::laros} is "&aAktif":
+        if message contains "{@reklam1}":
+            {reklam::%player%} is not set:
+                set {reklam::%player%} to 1
+                cancel event
+                send "&6Skyblock &8► &7Dostum Yazdığın Sohbete &aReklam &7içreiyor birdaha yazma!"
+                stop
+            else:
+                delete {reklam::%player%}
+                execute console command "/sil"
+                wait 1 tick
+                broadcast "&6Skyblock &8► &a%player% &7adlı oyuncu reklam yaptığı için &a60 Dakkika &7susturuldu!"
+                execute console command "/emute %player% 60m"
+on chat:
+    if {küfürkoruma::laros} is "&aAktif":
+        if message is "{@küfür1}":
+            {küfür::%player%} is not set:
+                set {küfür::%player%} to 1
+                cancel event
+                send "&6Skyblock &8► &7Dostum Yazdığın Sohbete &aKüfür &7içreiyor birdaha yazma!"
+                stop
+            else:
+                delete {küfür::%player%}
+                execute console command "/sil"
+                wait 1 tick
+                broadcast "&6Skyblock &8► &a%player% &7adlı oyuncu küfür ettiği için &a10 Dakkika &7susturuldu!"
+                execute console command "/emute %player% 10m"
+on chat:
+    if {argokoruma::laros} is "&aAktif":
+        if message contains "{@argo1}":
+            {argo::%player%} is not set:
+                set {argo::%player%} to 1
+                cancel event
+                send "&6Skyblock &8► &7Dostum Yazdığın Sohbete &aArgo &7içreiyor birdaha yazma!"
+                stop
+            else:
+                delete {argo::%player%}
+                execute console command "/sil"
+                wait 1 tick
+                broadcast "&6Skyblock &8► &a%player% &7adlı oyuncu argo kullandığı için &a5 Dakkika &7susturuldu!"
+                execute console command "/emute %player% 5m"
+        
+on quit:
+    delete {reklam::%player%}
+    delete {küfür::%player%}
+    delete {argo::%player%}
+	
+	
+command /discord:
+    trigger:
+        send "&e" to player
+        send "&e             &aDiscord'a &7katılarak arkadaşlarınla sohbet et!" to player
+        send "&e            &7veya arkadaşlarınla sohbet ederek oynayabilirsin!" to player
+        send "&e" to player
+        send "&e                      https://discord.gg/laros " to player
+        send "&e" to player

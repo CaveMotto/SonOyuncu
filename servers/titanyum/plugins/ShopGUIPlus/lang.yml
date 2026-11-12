@@ -1,0 +1,124 @@
+PREFIX: '&3Skyblock &8Â» &7'
+LANG:
+  CONSOLE: Konsol
+MSG:
+  ERROR: Bir hata oluÅŸtu, web sitemizden destek talebinde bulunun.
+  INGAMEONLY: Bu komut sadece oyun iÃ§erisinde kullanÄ±labilir.
+  NOACCESS: Bunun iÃ§in yetkin yok.
+  NOTLOADED: Verin bulunamadÄ±, daha sonra tekrar dene.
+  NOTLOADEDTARGET: KiÅŸinin verisi bulunamadÄ±, daha sonra tekrar dene.
+  RELOADED: KonfigÃ¼rasyon yenilendi.
+  USAGE:
+    SUBCOMMAND: GeÃ§ersiz kullanÄ±m. &lDoÄŸrusu &6> &e%usage%
+  CMD:
+    SHOP:
+      ADDMODIFIER:
+        ITEM:
+          USAGE: /shop addmodifier item <player> <shop> <item> <value> [buy|sell]
+          ADDED: You set &c%player%&f's %type% price modifier for the %item% item in %shop% shop to &c%modifier%&f.
+          ADDEDBY: Your %type% price modifier for the %item% item in %shop% shop was set to &c%modifier%&f by &c%player%&f.
+        SHOP:
+          USAGE: /shop addmodifier shop <player> <shop> <value> [buy|sell]
+          ADDED: You set &c%player%&f's %type% price modifier for all items in %shop% shop to &c%modifier%&f.
+          ADDEDBY: Your %type% price modifier for all items in %shop% shop was set to &c%modifier%&f by &c%player%&f.
+        GLOBAL:
+          USAGE: /shop addmodifier global <player> <value> [buy|sell]
+          ADDED: You set &c%player%&f's %type% price modifier to &c%modifier%&f.
+          ADDEDBY: Your %type% price modifier was set to &c%modifier%&f by &c%player%&f.
+      CHECKMODIFIERS:
+        VIEW:
+          VIEW: |-
+            &c%player%&f's modifiers:
+            Global modifiers:
+            %global%
+            Shop modifiers:
+            %shop%
+            Item modifiers:
+            %item%
+          ENTRY:
+            ITEM: 'Item: &c%item%&f, shop: &c%shop%&f, buy: &c%buy%&f, sell: &c%sell%&f'
+            SHOP: 'Shop: &c%shop%&f, buy: &c%buy%&f, sell: &c%sell%&f'
+            GLOBAL: 'Buy: &c%buy%&f, sell: &c%sell%&f'
+      RESETMODIFIER:
+        ITEM:
+          USAGE: /shop resetmodifier item <player> <shop> <item> [buy|sell]
+          RESET: You reset &c%player%&f's %type% price modifier for the %item% item in %shop% shop.
+          RESETBY: Your %type% price modifier for the %item% item in %shop% shop was reset by &c%player%&f.
+        SHOP:
+          USAGE: /shop resetmodifier shop <player> <shop> [buy|sell]
+          RESET: You reset &c%player%&f's %type% price modifier for all items in %shop% shop.
+          RESETBY: Your %type% price modifier for all items in %shop% shop was set to by &c%player%&f.
+        GLOBAL:
+          USAGE: /shop resetmodifier global <player> [buy|sell]
+          RESET: You reset &c%player%&f's %type% price modifier.
+          RESETBY: Your %type% price modifier was set to &c%modifier%&f by &c%player%&f.
+  MODIFIER:
+    INVALIDAMOUNT: Invalid modifier value specified. Valid values are for instance 0.50 which is 50%, 2.0 which is 200% etc.
+    INVALIDTYPE: Invalid modifier type specified. Valid values are buy, sell and both.
+    BUY: buy
+    SELL: sell
+    BOTH: buy & sell
+  INVALIDPLAYER: Invalid player name specified.
+  INVALIDSHOP: BÃ¶yle bir market ismi bulunamadÄ±.
+  INVALIDITEM: â‚º&e%item% &7eÅŸyasÄ± &a%shop% &7marketinde bulunamadÄ±.
+  NOACCESSTOSHOP: â‚º&8%shop%&7''ten alÄ±ÅŸveriÅŸ yapamazsÄ±n.
+  NODIRECTACCESSTOSHOP: â‚º&8%shop%&7''ten alÄ±ÅŸveriÅŸ yapamazsÄ±n.
+  MAINMENUDISABLED: You can't use this command. Please use /shop <id> instead.
+  WORLDBLACKLISTED: You can't access %shop% in this world.
+  WORLDBANNED: You can't access the shop in this world.
+  WORLDBANNEDTARGET: '%player% can''t access the shop in that world.'
+  GAMEMODEBANNED: â‚º&a%gamemode% &7modunda alÄ±ÅŸveriÅŸ yapamazsÄ±n.
+  GAMEMODEBANNEDTARGET: â‚º&a%player%&7, &e%gamemode% &7modunda alÄ±ÅŸveriÅŸ yapamaz.
+  ITEM:
+    FULLINVENTORY: Envanterinde yeterince boÅŸ yer yok.
+    CANNOTAFFORD: â‚º&a%amount% x %item% &7satÄ±n almak iÃ§in &a%price%TL&7'ye ihtiyacÄ±n var.
+    CANNOTBUY: Bu eÅŸyayÄ± satÄ±n alamazsÄ±n.
+    CANNOTSELL: Bu eÅŸyayÄ± satamazsÄ±n.
+    BOUGHT: â‚º&a%price%TL&7'ye &a%amount% x %item% &7satÄ±n aldÄ±n.
+    BOUGHTFREE: â‚º&a%amount% x %item% &7aldÄ±n.
+    NOTENOUGH: Satmak iÃ§in &a%amount% x %item% &7sahip deÄŸlsin.
+    SOLD: â‚º&a%price%TL&7'ye &a%amount% x %item% &7sattÄ±n.
+    SOLDFREE: â‚º&a%amount% x %item% &7attÄ±n.
+    SOLDALL: Envanterindeki tÃ¼m &c%item%'leri &7(&a%amount% x %item%&7) &e%price%$ &7fiyatÄ±na sattÄ±n.
+    SOLDALLFREE: Envanterindeki tÃ¼m &c%item%'leri &7(&a%amount% x %item%&7) attÄ±n.
+    NOACCESS: Bu eÅŸyayanÄ±n ticareti iÃ§in yetkin yok.
+  ENCHANT:
+    CANNOTAPPLY: â‚º&e%enchantment% &7bÃ¼yÃ¼sÃ¼ elindeki eÅŸyaya eklendi.
+    ALREADYAPPLIED: Bu eÅŸya zaten &e%enchantment% &7bÃ¼yÃ¼sÃ¼ne sahip.
+    LEVELDIFF: En azÄ±ndan &e%enchantment% %level%&7 bÃ¼yÃ¼sÃ¼nÃ¼ iÃ§eren bir eÅŸyaya ihtiyacÄ±n var.
+    CANNOTAFFORD: â‚º&e%enchantment%&7 bÃ¼yÃ¼sÃ¼ iÃ§in &e%price%$'a ihtiyacÄ±n var.
+    MAX: Bu eÅŸya maksimum bÃ¼yÃ¼ miktarÄ±na ulaÅŸmÄ±ÅŸ (%amount%).
+    TOOMANY: â‚º&a%amount%'den daha fazla eÅŸyaya tek seferde bÃ¼yÃ¼ ekleyemezsin.
+    BOUGHT: â‚º&c%price%$&7 Ã¶deyerek &e%enchantment% &7bÃ¼yÃ¼sÃ¼nÃ¼ satÄ±n aldÄ±n.
+  PERMISSION:
+    PERMISSIONSDISABLED: Yetki ticareti devre dÄ±ÅŸÄ±.
+    ALREADYHAVE: Zaten &e%permission%&e yetkisine sahipsin.
+    CANNOTAFFORD: â‚º&e%permission% &7yetkisini almak iÃ§in %price%TL&7'ye ihtiyacÄ±n var.
+    BOUGHT: â‚º&c%price%$&7 Ã¶deyerek &e%permission%&7 yetkisini satÄ±n aldÄ±n.
+  COMMAND:
+    BOUGHT: â‚º&c%price%$ &7Ã¶deyerek komutu satÄ±n aldÄ±n.
+    CANNOTAFFORD: Bu komutu satÄ±n almak iÃ§in &e%price%TL&7'ye ihtiyacÄ±n var.
+  SELLHAND:
+    NOITEM: Satmak iÃ§in elinde bir eÅŸya bulundurman lazÄ±m.
+    INVALIDQUANTITY: GeÃ§ersiz miktar belirtildi. 1 ile &e%max% &7arasÄ±nda olmalÄ±dÄ±r.
+    CANNOTSELL: Bu eÅŸyayÄ± satamazsÄ±n.
+    MULTIPLEQUANTITYONLY: Bu miktarÄ± satamazsÄ±n. Bu Ã¶ÄŸe iÃ§in yalnÄ±zca &e%quantity% &7katlarÄ±na izin verilir.
+  SELLHANDALL:
+    SOLD: You sold %quantity% x %item% for a total of %price%$.
+  SELLALL:
+    NOITEMS: Envanterinde satabileceÄŸin bir eÅŸya yok.
+    SOLD: â‚º&e%quantity% &7eÅŸyayÄ± &e%price%$ &7karÅŸÄ±lÄ±ÄŸÄ±nda sattÄ±n.
+DIALOG:
+  AMOUNTSELECTION:
+    BUY:
+      NAME: '&2%item% AlÄ±nÄ±yor'
+    SELL:
+      NAME: '&2%item% SatÄ±lÄ±yor'
+    BULKBUY:
+      NAME: '&2YÄ±ÄŸÄ±nlarca %item% AlÄ±nÄ±yor'
+    BULKSELL:
+      NAME: '&2YÄ±ÄŸÄ±nlarca %item% SatÄ±lÄ±yor'
+SHOP:
+  PERMISSION:
+    ALREADYOWNED: '&4(Zaten Sahipsin)'
+    NOTOWNED: '&e(Sahip DeÄŸilsin)'

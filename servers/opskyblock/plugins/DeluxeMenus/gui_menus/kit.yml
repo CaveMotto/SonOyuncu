@@ -1,0 +1,110 @@
+menu_title: '&7Kit'
+open_command:
+- kit
+- kits
+- aletler
+- essentials:kit
+- essentials:kits
+size: 27
+items:
+  'camlar': 
+    material: STAINED_GLASS_PANE
+    data: 15
+    amount: 1
+    slots:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 11
+    - 13
+    - 15
+    - 17
+    - 18
+    - 19
+    - 20
+    - 21
+    - 22
+    - 23
+    - 24
+    - 25
+    - 26
+    display_name: '&7' 
+  'oyuncu-kit':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWIxOGNmOWUxYmY3ZWM1NzMwNGFlOTJmMmIwMGQ5MTY0M2NmMGI2NTA2N2RlYWQzNGZiNDhiYWYxOGUzYzM4NSJ9fX0=
+    slot: 10
+    display_name: '&eOyuncu Kit'
+    lore:
+    - ''
+    - '&7Set Durumu: &bP7'
+    - '&7Alet Durumu: &cK7'
+    - ''
+    - '&8► &aAlmak için tıkla.'
+    left_click_commands:   
+    - '[player] kit oyuncu'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    - '[close]'
+    right_click_commands:
+    - '[player] kit oyuncu'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    - '[close]'
+  'yetki-kit':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzBmODk2NGJkZDI1NDhlNjUyYmI4YzJiZGZjYzY4NDk1YmNlZDVlMWU3OWI0MTNmY2NkZTU5ZTVkOGFjMDZjIn19fQ==
+    slot: 14
+    display_name: '&eRehber Kit'
+    lore:
+    - ''
+    - '&7Set Durumu: &bP9'
+    - '&7Alet Durumu: &cK9'
+    - ''
+    - '&8► &aAlmak için tıkla.'
+    left_click_commands:   
+    - '[player] kit rehber'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    - '[close]'
+    right_click_commands:
+    - '[player] kit rehber'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    - '[close]'
+  'vip-kit':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmZiNjhmMDQwMTE4MWQwZGM2ZDg3ZjNkYTc2MTk2ZDNhYTU3NzI5OGJhMzM1MWIwZDMyNTA5ZWY0OTU3NzRkYiJ9fX0=
+    slot: 16
+    display_name: '&6LVIP &eKit'
+    lore:
+    - ''
+    - '&7Set Durumu: &bP10'
+    - '&7Alet Durumu: &cK10'
+    - ''
+    - '&8► &aAlmak için tıkla.'
+    left_click_commands:   
+    - '[player] kit lvip'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    - '[close]'
+    right_click_commands:
+    - '[player] kit lvip'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    - '[close]'
+  'otosat':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjI2YTBkN2MyMzQ1NGVlMGJhOTViYjMxZTQxNjY2ZjE2MzFiOTFjMmVlNDE3MTFhZjJlOWVmNGIxMTY1YzRhYSJ9fX0=
+    slot: 12
+    display_name: '&eOto Sat Kit'
+    lore:
+    - ''
+    - '&7Sandıkdaki itemleri'
+    - '&7sağtıkla hepsini satar'
+    - ''
+    - '&8► &aAlmak için tıkla.'
+    left_click_commands:   
+    - '[player] kit otosat'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    - '[close]'
+    right_click_commands:
+    - '[player] kit otosat'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    - '[close]'

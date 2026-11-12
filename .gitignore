@@ -1,0 +1,85 @@
+# ==========================================
+# SonOyuncu-Clone .gitignore
+# ==========================================
+
+# --- Minecraft Dünya Verileri (çok büyük) ---
+servers/*/world/
+servers/*/world_nether/
+servers/*/world_the_end/
+servers/*/worlds/
+servers/*/DIM*/
+servers/*/region/
+servers/*/playerdata/
+servers/*/stats/
+servers/*/advancements/
+
+# --- Log ve Crash dosyaları ---
+*.log
+*.log.gz
+logs/
+crash-reports/
+
+# --- Sunucu önbellek ve geçici dosyalar ---
+servers/*/cache/
+servers/*/AutoSave/
+servers/*/temp/
+servers/*/.paper-remapped/
+servers/*/bundler/
+
+# --- Büyük sunucu JAR'ları ---
+servers/*/cakmalobi.jar
+servers/*/lobi.jar
+servers/*/skyblock.jar
+servers/*/bedwars.jar
+servers/*/Skywars.jar
+servers/*/Survival.jar
+servers/*/faction.jar
+servers/bungeecord/bungeecord.jar
+
+# --- Client (CraftRise/) büyük ve oyun içi dosyalar ---
+CraftRise/java/
+CraftRise/libraries/
+CraftRise/assets/
+CraftRise/versions/
+CraftRise/cache/
+CraftRise/capes/
+CraftRise/skins/
+CraftRise/frames/
+CraftRise/saves/
+CraftRise/screenshots/
+CraftRise/resourcepacks/
+CraftRise/shaderpacks/
+CraftRise/*.bak
+
+# Oyuncuya özel ayarlar
+CraftRise/options*.txt
+CraftRise/ayarlar.txt
+CraftRise/clientConfig.json
+
+# --- Java/IDE dosyaları ---
+target/
+*.iml
+.idea/
+.classpath
+.project
+.settings/
+out/
+
+# --- OS dosyaları ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Oyuncu verileri (privacy) ---
+servers/*/usercache.json
+servers/*/whitelist.json
+servers/*/banned-*.json
+servers/*/ops.json
+
+# --- Eklenti veri klasörleri (büyük/özel) ---
+servers/*/plugins/AuthMe/data/
+servers/*/plugins/LuckPerms/
+servers/*/plugins/SkinsRestorer/skins/
+servers/*/plugins/*/database.db
+servers/*/plugins/*/*.db
+servers/*/plugins/PlaceholderAPI/expansions/

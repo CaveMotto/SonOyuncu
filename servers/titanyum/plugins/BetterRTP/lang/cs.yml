@@ -1,0 +1,83 @@
+# Help translate this file into more languages!
+Messages:
+  Prefix: '&7[&6BetterRTP&7] '
+  Success:
+    Paid: '&aByl/a jsi teleportovÃƒÂ¡n/a na&7 x=%x% y=%y% z=%z% za &c$%price%&7!'
+    Bypass: '&aByl/a jsi teleportovÃƒÂ¡n/a na&7 x=%x% y=%y% z=%z% po &f%attempts%
+      &7pokusech!'
+    Loading: '&aNalezeno bezpeÃ„ï¿½nÃƒÂ© mÃƒÂ­sto! &7NaÃ„ï¿½ÃƒÂ­tÃƒÂ¡m chunky...'
+    Teleport: '&aTeleportuji... &fProsÃƒÂ­m, poÃ„ï¿½kejte, neÃ…Â¾ nalezneme bezpeÃ„ï¿½nÃƒÂ©
+      mÃƒÂ­sto!'
+  Failed:
+    Price: '&cNebyl/a jsi teleportovÃƒÂ¡n, protoÃ…Â¾e nemÃƒÂ¡Ã…Â¡ dostatek penÃ„â€ºz!
+      &7MusÃƒÂ­Ã…Â¡ mÃƒÂ­t alespoÃ…Ë† $%price% &7pro teleport!'
+    NotSafe: '&cNepodaÃ…â„¢ilo se najÃƒÂ­t bezpeÃ„ï¿½nÃƒÂ© mÃƒÂ­sto po %attempts%
+      pokusech! &7Nebyl/a jsi teleportovÃƒÂ¡n/a!'
+    Hunger: '&cNebyl/a jsi teleportovÃƒÂ¡n, protoÃ…Â¾e jsi... &7pÃ…â„¢ÃƒÂ­liÃ…Â¡ hladovÃƒÂ½/ÃƒÂ¡.&c
+      SnÃ„â€ºz nÃ„â€ºco, kÃƒÂ¡mo!'
+  Other:
+    Success: '&a%player% byl/a teleportovÃƒÂ¡n/a na&7 x=%x% y=%y% z=%z%!'
+    NotSafe: '&cNepodaÃ…â„¢ilo se najÃƒÂ­t bezpeÃ„ï¿½nÃƒÂ© mÃƒÂ­sto po %attempts%
+      pokusech! &7%player% nebyl/a teleportovÃƒÂ¡n/a!'
+    Biome: '&cVypadÃƒÂ¡ to, Ã…Â¾e biom&7 %biome%&c neexistuje! &7Zkus pouÃ…Â¾ÃƒÂ­t
+      tabulÃƒÂ¡tor!'
+  Reload: '&eConfig ÃƒÂºspÃ„â€ºÃ…Â¡nÃ„â€º naÃ„ï¿½ten!'
+  NoPermission:
+    Basic: '&cPozor! &7Na tento pÃ…â„¢ÃƒÂ­kaz nemÃƒÂ¡Ã…Â¡ prÃƒÂ¡va! &8Permission:
+      %permission%'
+    World: '&cPozor! &7Ve svÃ„â€ºtÃ„â€º %world% se nelze teleportovat! &8Permission:
+      %permission%'
+  DisabledWorld: '&cSvÃ„â€ºt %world% je uzamÃ„ï¿½en! &7Teleport nebyl moÃ…Â¾nÃƒÂ½!'
+  Cooldown: '&cPozor! &7NemÃ…Â¯Ã…Â¾eÃ…Â¡ se teleportovat jeÃ…Â¡tÃ„â€º &c%time%&7!'
+  Locked: '&cPozor! &7VyuÃ…Â¾il/a jsi vÃ…Â¡echny svÃƒÂ© teleporty!'
+  Invalid: '&cNeplatnÃƒÂ½ pÃ…â„¢ÃƒÂ­kaz. Zkus ''/%command% help''.'
+  NotOnline: '&cHrÃƒÂ¡Ã„ï¿½ &7%player% &cnenÃƒÂ­ online!'
+  Delay: '&aTeleportuji za &f%time% &asekund! NehÃƒÂ½bej se!'
+  Moved: '&cPohl/a jsi se! &7Teleport byl zruÃ…Â¡en!'
+  NotExist: '&cVypadÃƒÂ¡ to, Ã…Â¾e svÃ„â€ºt &7%world% &cneexistuje!'
+  Already: '&cUps! &7VypadÃƒÂ¡ to, Ã…Â¾e se uÃ…Â¾ teleportujeÃ…Â¡! MÃ„â€ºj trochu
+    strpenÃƒÂ­!'
+  Sign: '&7Cedulka s pÃ…â„¢ÃƒÂ­kazem vytvoÃ…â„¢ena! &7PÃ…â„¢ÃƒÂ­kaz je... ''&f/rtp
+    %command%&7''.'
+  Edit:
+    Error: '&cError! &7ZadÃƒÂ¡na neplatnÃƒÂ¡ hodnota!'
+    Set: '&bÃƒÅ¡spÃ„â€ºch! &7%type% nastaveno na %value%'
+    Remove: '&cOdstranÃ„â€ºno! &7Vymazal jsi vlastnÃƒÂ­ svÃ„â€ºt %world%'
+Help:
+  Prefix: '&e&m-----&6&l BetterRTP &8| Pomoc &e&m-----'
+  Main: ' &7- &e/%command% &7- NÃƒÂ¡hodnÃ„â€º tÃ„â€º teleportuje!'
+  Biome: ' &7- &e/%command% biome <biom1, biom2...> &7- NÃƒÂ¡hodnÃ„â€º tÃ„â€º teleportuje
+    do zadanÃƒÂ½ch biomÃ…Â¯'
+  Edit: ' &7- &e/%command% edit <default/svÃ„â€ºt> [hodnoty...] &7- ÃƒÅ¡prava nÃ„â€ºkterÃƒÂ½ch
+    nastavenÃƒÂ­'
+  Help: ' &7- &e/%command% help &7- ZobrazÃƒÂ­ pomoc'
+  Info: ' &7- &e/%command% info [svÃ„â€ºt/Ã„ï¿½ÃƒÂ¡stice/tvary/efekty_lektvarÃ…Â¯]
+    &7- ZobrazÃƒÂ­ konkrÃƒÂ©tnÃƒÂ­ informace o nastavenÃƒÂ­ pluginu'
+  Player: ' &7- &e/%command% player <hrÃƒÂ¡Ã„ï¿½> [svÃ„â€ºt] [biom1, biom2...] &7-
+    NÃƒÂ¡hodnÃ„â€º teleportuje jinÃƒÂ©ho hrÃƒÂ¡Ã„ï¿½e'
+  Reload: ' &7- &e/%command% reload &7- Znovu naÃ„ï¿½te plugin'
+  Settings: ' &7- &e/%command% settings &7- ZobrazÃƒÂ­ GUI s nastavenÃƒÂ­m'
+  Test: ' &7- &e/%command% test &7- VyzkouÃ…Â¡et efekty po teleportu bez pohybu'
+  Version: ' &7- &e/%command% version &7- ZobrazÃƒÂ­ verzi pluginu'
+  World: ' &7- &e/%command% world <svÃ„â€ºt> [biom1, biom2...] &7- NÃƒÂ¡hodnÃ„â€º
+    tÃ„â€º teleportuje do jinÃƒÂ©ho svÃ„â€ºta'
+  Location: ' &7- &e/%command% location <location_name> &7- Rtp using a specific location'
+Usage:
+  Player: '&cPouÃ…Â¾itÃƒÂ­&7: /%command% player <hrÃƒÂ¡Ã„ï¿½> [svÃ„â€ºt] [biom1, biom2]'
+  World: '&cPouÃ…Â¾itÃƒÂ­&7: /%command% world <svÃ„â€ºt> [biom1, biom2...]'
+  Biome: '&cPouÃ…Â¾itÃƒÂ­&7: /%command% biome <biom1, biom2...>'
+  Location: '&cUsage&7: /%command% location <location_name>'
+  Edit:
+    Base: '&cPouÃ…Â¾itÃƒÂ­&7: /%command% edit <default/svÃ„â€ºt> [hodnoty...]'
+    Default: '&cPouÃ…Â¾itÃƒÂ­&7: /%command% edit default <max/min/useworldborder/center>
+      <hodnota>'
+    World: '&cPouÃ…Â¾itÃƒÂ­&7: /%command% edit world <svÃ„â€ºt> <max/min/useworldborder/center>
+      <hodnota>'
+    PermissionGroup: '&cUsage&7: /%command% edit permission_group <group> <world>
+      <max/min/useworldborder/center> <value>'
+    Location: '&cUsage&7: /%command% edit location <location_name> <max/min/useworldborder/center>
+      <value>'
+    Worldtype: '&cUsage&7: /%command% edit world_type <world> <NETHER/NORMAL>'
+    Override: '&cUsage&7: /%command% edit override <world> <world_to>'
+    BlacklistedBlocks: '&cUsage&7: /%command% edit blacklistedblocks <add/remove>
+      <block_id>'

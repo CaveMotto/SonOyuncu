@@ -1,0 +1,23 @@
+broadcast:
+  pre: '&6Faction &7â–º &eSunucuyu BaÅŸarÄ±yla Kaydedildi.'
+  post: '&6Faction &7â–º &eYetkili Ekibimiz Ä°yi Oyunlar Diler. '
+broadcastbackup:
+  pre: '&6Faction &7â–º &eSunucuyu BaÅŸarÄ±yla Kaydedildi.'
+  post: '&6Faction &7â–º &eYetkili Ekibimiz Ä°yi Oyunlar Diler. '
+status:
+  fail: '&9AutoSave has stopped, check the server logs for more info'
+  notrun: '&9AutoSave is running but has not yet saved.'
+  success: '&9AutoSave is running and last saved at ${DATE}.'
+  'off': '&9AutoSave is not running (disabled)'
+insufficentpermissions: '&cYou do not have access to that command.'
+stopping: '&9AutoSave durduruluyor'
+starting: '&9AutoSave baslatiliyor'
+info:
+  nan: '&cYou must enter a valid number, ex: 300'
+  changesuccess: '&9${VARIABLE} has been updated.'
+infolookup: '&9${VARIABLE} is ${VALUE}'
+infolistlookup: '&9${VARIABLE} is set to [${VALUE}]'
+infoinvalid: '&cYou must enter a valid setting (${VALIDSETTINGS})'
+version: '&9AutoSave v${VERSION}, Instance ${UUID}'
+warning: '&9Warning, AutoSave will commence soon.'
+warningbackup: '&9Warning, AutoBackup will commence soon'

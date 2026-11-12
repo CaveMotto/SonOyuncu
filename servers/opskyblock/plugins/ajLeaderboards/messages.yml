@@ -1,0 +1,6 @@
+signs:
+  top:
+    '1': '&7&m       &r #{POSITION} &7&m       '
+    '2': '&6{NAME}'
+    '3': '&e{VALUE} {VALUENAME}'
+    '4': '&7&m                   '

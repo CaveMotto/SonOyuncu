@@ -1,0 +1,85 @@
+menu_title: '&8Kaptan'
+open_command:
+- 45da4lş44şk755şlk5
+size: 45
+items:
+  'Kuzey':
+    material: compass
+    slot: 13
+    display_name: '&eKuzey'
+    lore:
+    - '&8'
+    - '&eGitmek için tıkla'
+    left_click_commands:
+    - '[console] tp %player_name% -202.523 77.00000 70.440'
+    - '[close]'
+    right_click_commands:
+    - '[console] tp %player_name% -202.523 77.00000 70.440'
+    - '[close]'
+  'Doğu':
+    material: compass
+    slot: 20
+    display_name: '&eDoğu'
+    lore:
+    - '&8'
+    - '&eGitmek için tıkla'
+    left_click_commands:
+    - '[console] tp %player_name% -61.469 73.00000 225.694'
+    - '[close]'
+    right_click_commands:
+    - '[console] tp %player_name% -61.469 73.00000 225.694'
+    - '[close]'
+  'Batı':
+    material: compass
+    slot: 24
+    display_name: '&eBatı'
+    lore:
+    - '&8'
+    - '&eGitmek için tıkla'
+    left_click_commands:
+    - '[console] tp %player_name% -11.404 75.00000 -197.371'
+    - '[close]'
+    right_click_commands:
+    - '[console] tp %player_name% -202.523 77.00000 70.440'
+    - '[close]'
+  'Güney':
+    material: compass
+    slot: 31
+    display_name: '&eGüney'
+    lore:
+    - '&8'
+    - '&eGitmek için tıkla'
+    left_click_commands:
+    - '[console] tp %player_name% 224.431 78.00000 13.522'
+    - '[close]'
+    right_click_commands:
+    - '[console] tp %player_name% 224.431 78.00000 13.522'
+    - '[close]'
+  'Liman':
+    material: watch
+    slot: 36
+    display_name: '&aLiman'
+    lore:
+    - '&8'
+    - '&7Buradan sıkıldın mı?'
+    - '&7Yoksa korkudan altınamı'
+    - '&7Kaçırdın?'
+    - '&8'
+    - '&eGeri dönmek için tıkla'
+    left_click_commands:
+    - '[console] mvtp %player_name% Liman'
+    - '[close]'
+    right_click_commands:
+    - '[console] mvtp %player_name% Liman'
+    - '[close]'
+  'kapat':
+    material: barrier
+    slot: 44
+    display_name: '&cKapat'
+    left_click_commands:
+    - '[close]'
+    right_click_commands:
+    - '[close]'
+#Yardım Almak için sqruat.
+#Bu eklenti paketi byMotto tarafından yapıldı.
+

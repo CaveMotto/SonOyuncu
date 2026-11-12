@@ -1,0 +1,112 @@
+title: 'Claime süre ekle'
+size: 6
+type: 'CHEST'
+
+items:
+  add-1-second:
+    type: 'STAINED_GLASS_PANE'
+    name: '1 Saniye ekle'
+    glow: false
+    amount: 1
+    datavalue: 5
+    lore: [ ]
+    nbt: '{}'
+    slot: 10
+  add-1-minute:
+    type: 'STAINED_GLASS_PANE'
+    name: '1 Dakika ekle'
+    glow: false
+    amount: 1
+    datavalue: 5
+    lore: [ ]
+    nbt: '{}'
+    slot: 12
+  add-1-hour:
+    type: 'STAINED_GLASS_PANE'
+    name: '1 Saat ekle'
+    glow: false
+    amount: 1
+    datavalue: 5
+    lore: [ ]
+    nbt: '{}'
+    slot: 14
+  add-1-day:
+    type: 'STAINED_GLASS_PANE'
+    name: '1 Gün ekle'
+    glow: false
+    amount: 1
+    datavalue: 5
+    lore: [ ]
+    nbt: '{}'
+    slot: 16
+  remove-1-second:
+    type: 'STAINED_GLASS_PANE'
+    name: '1 Saniye sil'
+    glow: false
+    amount: 1
+    datavalue: 14
+    lore: [ ]
+    nbt: '{}'
+    slot: 28
+  remove-1-minute:
+    type: 'STAINED_GLASS_PANE'
+    name: '1 Dakika sil'
+    glow: false
+    amount: 1
+    datavalue: 14
+    lore: [ ]
+    nbt: '{}'
+    slot: 30
+  remove-1-hour:
+    type: 'STAINED_GLASS_PANE'
+    name: '1 Saat sil'
+    glow: false
+    amount: 1
+    datavalue: 14
+    lore: [ ]
+    nbt: '{}'
+    slot: 32
+  remove-1-day:
+    type: 'STAINED_GLASS_PANE'
+    name: '1 Gün sil'
+    glow: false
+    amount: 1
+    datavalue: 14
+    lore: [ ]
+    nbt: '{}'
+    slot: 34
+  confirm:
+    type: 'EMERALD'
+    name: 'Confirm'
+    glow: true
+    amount: 1
+    datavalue: 0
+    lore:
+      - 'Toplam zaman: %total_time%'
+      - 'Fiyat: %money%'
+    nbt: '{}'
+    slot: 4
+  back:
+    type: 'BARRIER'
+    name: 'Geri'
+    glow: false
+    amount: 1
+    datavalue: 0
+    lore: [ ]
+    nbt: '{}'
+    slot: 49
+
+other-items:
+  item1:
+    type: 'STAINED_GLASS_PANE'
+    name: ''
+    glow: false
+    amount: 1
+    datavalue: 5
+    lore: [ ]
+    nbt: '{}'
+    slot: 0
+    console-commands:
+      - 'test %player%'
+    player-commands:
+      - 'warp market'

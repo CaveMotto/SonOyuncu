@@ -1,0 +1,937 @@
+moneyprinters:
+  e59f186c-1e7a-429c-984c-7bf3006b2439:
+    uuid: e59f186c-1e7a-429c-984c-7bf3006b2439
+    type: AlBeni
+    owner: 01f8bec3-ef4b-3dfc-904c-efda01f8f2fd
+    location:
+      world: ASkyBlock
+      x: -203.0
+      y: 122.0
+      z: 592.0
+    stored-money: 200000.0
+    total-money-printed: 255000.0
+    health: 20.0
+  0ae6870b-9c94-4695-979a-4f2e3c7ab31a:
+    uuid: 0ae6870b-9c94-4695-979a-4f2e3c7ab31a
+    type: Metro
+    owner: ffd73134-5e7a-3c03-8ff6-09e3e5b666f5
+    location:
+      world: ASkyBlock
+      x: -389.0
+      y: 122.0
+      z: 207.0
+    stored-money: 4000000.0
+    total-money-printed: 3.0E7
+    health: 320.0
+  32fde6ba-600d-46da-9e53-b1a459c30283:
+    uuid: 32fde6ba-600d-46da-9e53-b1a459c30283
+    type: Metro
+    owner: ffd73134-5e7a-3c03-8ff6-09e3e5b666f5
+    location:
+      world: ASkyBlock
+      x: -387.0
+      y: 122.0
+      z: 207.0
+    stored-money: 4000000.0
+    total-money-printed: 3.0E7
+    health: 320.0
+  fbab9614-04a4-4885-8828-1d308b55ccf9:
+    uuid: fbab9614-04a4-4885-8828-1d308b55ccf9
+    type: Metro
+    owner: ffd73134-5e7a-3c03-8ff6-09e3e5b666f5
+    location:
+      world: ASkyBlock
+      x: -391.0
+      y: 122.0
+      z: 207.0
+    stored-money: 4000000.0
+    total-money-printed: 3.0E7
+    health: 320.0
+  ceeddb48-cd73-492d-9968-9aff7eee81b3:
+    uuid: ceeddb48-cd73-492d-9968-9aff7eee81b3
+    type: Metro
+    owner: ffd73134-5e7a-3c03-8ff6-09e3e5b666f5
+    location:
+      world: ASkyBlock
+      x: -393.0
+      y: 122.0
+      z: 207.0
+    stored-money: 4000000.0
+    total-money-printed: 3.0E7
+    health: 320.0
+  d54c15a1-ced6-4e53-b8be-fd8049cd9eae:
+    uuid: d54c15a1-ced6-4e53-b8be-fd8049cd9eae
+    type: Metro
+    owner: 67b01dd9-9937-3710-a82a-71a2a1ba3bea
+    location:
+      world: ASkyBlock
+      x: -599.0
+      y: 122.0
+      z: 403.0
+    stored-money: 4000000.0
+    total-money-printed: 1.114E8
+    health: 320.0
+  d10f1a92-f802-46d1-9dff-19b9f9b215e9:
+    uuid: d10f1a92-f802-46d1-9dff-19b9f9b215e9
+    type: Metro
+    owner: 67b01dd9-9937-3710-a82a-71a2a1ba3bea
+    location:
+      world: ASkyBlock
+      x: -600.0
+      y: 122.0
+      z: 403.0
+    stored-money: 4000000.0
+    total-money-printed: 1.09E8
+    health: 320.0
+  e54bd331-0c15-47fe-a663-a0b53a8143ce:
+    uuid: e54bd331-0c15-47fe-a663-a0b53a8143ce
+    type: Metro
+    owner: 67b01dd9-9937-3710-a82a-71a2a1ba3bea
+    location:
+      world: ASkyBlock
+      x: -601.0
+      y: 122.0
+      z: 403.0
+    stored-money: 4000000.0
+    total-money-printed: 1.079E8
+    health: 320.0
+  7312b2a8-0087-4109-966b-56c00048c28e:
+    uuid: 7312b2a8-0087-4109-966b-56c00048c28e
+    type: Metro
+    owner: 67b01dd9-9937-3710-a82a-71a2a1ba3bea
+    location:
+      world: ASkyBlock
+      x: -600.0
+      y: 122.0
+      z: 402.0
+    stored-money: 4000000.0
+    total-money-printed: 1.08E8
+    health: 320.0
+  5f53fa87-844d-4b67-aad0-5b373c72e423:
+    uuid: 5f53fa87-844d-4b67-aad0-5b373c72e423
+    type: Metro
+    owner: 639c562e-3111-3cd4-b188-d0cbff2fe2dd
+    location:
+      world: ASkyBlock
+      x: -603.0
+      y: 122.0
+      z: 402.0
+    stored-money: 4000000.0
+    total-money-printed: 1.2E7
+    health: 320.0
+  d16763d3-3c30-4cbf-91ce-5b1bfc313f7b:
+    uuid: d16763d3-3c30-4cbf-91ce-5b1bfc313f7b
+    type: Metro
+    owner: 639c562e-3111-3cd4-b188-d0cbff2fe2dd
+    location:
+      world: ASkyBlock
+      x: -603.0
+      y: 122.0
+      z: 404.0
+    stored-money: 4000000.0
+    total-money-printed: 1.2E7
+    health: 320.0
+  970c62a2-b42f-442d-b220-07db0209f089:
+    uuid: 970c62a2-b42f-442d-b220-07db0209f089
+    type: Metro
+    owner: 9e4a58ff-d774-38f8-8e06-cdd22d27ebf9
+    location:
+      world: ASkyBlock
+      x: -198.0
+      y: 122.0
+      z: 803.0
+    stored-money: 4000000.0
+    total-money-printed: 5.97E7
+    health: 320.0
+  c635ae98-b507-4ff2-aa74-37ed7ddb5527:
+    uuid: c635ae98-b507-4ff2-aa74-37ed7ddb5527
+    type: Metro
+    owner: 9e4a58ff-d774-38f8-8e06-cdd22d27ebf9
+    location:
+      world: ASkyBlock
+      x: -198.0
+      y: 122.0
+      z: 800.0
+    stored-money: 4000000.0
+    total-money-printed: 5.96E7
+    health: 320.0
+  ee83a348-ad00-4a46-a83e-4ffccb3f7b86:
+    uuid: ee83a348-ad00-4a46-a83e-4ffccb3f7b86
+    type: Metro
+    owner: 9e4a58ff-d774-38f8-8e06-cdd22d27ebf9
+    location:
+      world: ASkyBlock
+      x: -201.0
+      y: 122.0
+      z: 803.0
+    stored-money: 4000000.0
+    total-money-printed: 5.97E7
+    health: 320.0
+  e654836a-6c4c-4482-ae47-eca384b4ce5b:
+    uuid: e654836a-6c4c-4482-ae47-eca384b4ce5b
+    type: Metro
+    owner: 9e4a58ff-d774-38f8-8e06-cdd22d27ebf9
+    location:
+      world: ASkyBlock
+      x: -201.0
+      y: 122.0
+      z: 800.0
+    stored-money: 4000000.0
+    total-money-printed: 5.97E7
+    health: 320.0
+  13b3f5a4-5bf2-4e30-bfc7-17f2d75dbf5e:
+    uuid: 13b3f5a4-5bf2-4e30-bfc7-17f2d75dbf5e
+    type: Metro
+    owner: 639c562e-3111-3cd4-b188-d0cbff2fe2dd
+    location:
+      world: ASkyBlock
+      x: -600.0
+      y: 139.0
+      z: 389.0
+    stored-money: 4000000.0
+    total-money-printed: 1.62E7
+    health: 320.0
+  14368f76-cad7-4fbb-91f9-8a829a30e672:
+    uuid: 14368f76-cad7-4fbb-91f9-8a829a30e672
+    type: Biskrem
+    owner: d65a924c-60b2-3350-b563-01b8fe436d9f
+    location:
+      world: ASkyBlock
+      x: -595.0
+      y: 123.0
+      z: 824.0
+    stored-money: 2000000.0
+    total-money-printed: 6.278E7
+    health: 160.0
+  aae71ec3-724e-4089-a293-973fe167c7ff:
+    uuid: aae71ec3-724e-4089-a293-973fe167c7ff
+    type: Caramio
+    owner: d65a924c-60b2-3350-b563-01b8fe436d9f
+    location:
+      world: ASkyBlock
+      x: -597.0
+      y: 123.0
+      z: 824.0
+    stored-money: 500000.0
+    total-money-printed: 1.285E7
+    health: 40.0
+  9f446d16-f96c-40cb-b353-295174df55ad:
+    uuid: 9f446d16-f96c-40cb-b353-295174df55ad
+    type: CocoStar
+    owner: d65a924c-60b2-3350-b563-01b8fe436d9f
+    location:
+      world: ASkyBlock
+      x: -596.0
+      y: 123.0
+      z: 824.0
+    stored-money: 1000000.0
+    total-money-printed: 3.72E7
+    health: 80.0
+  fe132501-bd40-40e7-9f68-17481c7f3d76:
+    uuid: fe132501-bd40-40e7-9f68-17481c7f3d76
+    type: Metro
+    owner: 9d4ab6d9-6f83-381e-a041-73a391475b47
+    location:
+      world: ASkyBlock
+      x: -603.0
+      y: 123.0
+      z: 824.0
+    stored-money: 4000000.0
+    total-money-printed: 5.34E7
+    health: 320.0
+  5c9618c0-b6e2-4a7e-8cee-18d2e7968dd5:
+    uuid: 5c9618c0-b6e2-4a7e-8cee-18d2e7968dd5
+    type: Metro
+    owner: 9d4ab6d9-6f83-381e-a041-73a391475b47
+    location:
+      world: ASkyBlock
+      x: -604.0
+      y: 123.0
+      z: 824.0
+    stored-money: 4000000.0
+    total-money-printed: 5.31E7
+    health: 320.0
+  259f622d-ebea-445b-b85f-d8b2cf612a30:
+    uuid: 259f622d-ebea-445b-b85f-d8b2cf612a30
+    type: Metro
+    owner: 9d4ab6d9-6f83-381e-a041-73a391475b47
+    location:
+      world: ASkyBlock
+      x: -605.0
+      y: 123.0
+      z: 824.0
+    stored-money: 4000000.0
+    total-money-printed: 5.31E7
+    health: 320.0
+  eb7def8d-4ef2-4229-ae99-53a47872e62a:
+    uuid: eb7def8d-4ef2-4229-ae99-53a47872e62a
+    type: Metro
+    owner: d65a924c-60b2-3350-b563-01b8fe436d9f
+    location:
+      world: ASkyBlock
+      x: -594.0
+      y: 123.0
+      z: 824.0
+    stored-money: 4000000.0
+    total-money-printed: 9.27E7
+    health: 320.0
+  0efba263-d58f-474c-9793-759f35d339de:
+    uuid: 0efba263-d58f-474c-9793-759f35d339de
+    type: Biskrem
+    owner: 019306ef-7dc5-3254-8806-9936cc74948e
+    location:
+      world: ASkyBlock
+      x: 205.0
+      y: 125.0
+      z: 597.0
+    stored-money: 2000000.0
+    total-money-printed: 1.174E7
+    health: 160.0
+  7bc1ee94-904f-4f37-9c1e-fd1706e99f67:
+    uuid: 7bc1ee94-904f-4f37-9c1e-fd1706e99f67
+    type: Metro
+    owner: 019306ef-7dc5-3254-8806-9936cc74948e
+    location:
+      world: ASkyBlock
+      x: 205.0
+      y: 125.0
+      z: 598.0
+    stored-money: 4000000.0
+    total-money-printed: 2.13E7
+    health: 320.0
+  6bf2d67b-7de7-4702-8cff-2dc8806eba4e:
+    uuid: 6bf2d67b-7de7-4702-8cff-2dc8806eba4e
+    type: Metro
+    owner: 019306ef-7dc5-3254-8806-9936cc74948e
+    location:
+      world: ASkyBlock
+      x: 205.0
+      y: 125.0
+      z: 599.0
+    stored-money: 4000000.0
+    total-money-printed: 2.13E7
+    health: 320.0
+  93ab00f7-a465-4aee-8c8e-2e0863d892b9:
+    uuid: 93ab00f7-a465-4aee-8c8e-2e0863d892b9
+    type: Metro
+    owner: 019306ef-7dc5-3254-8806-9936cc74948e
+    location:
+      world: ASkyBlock
+      x: 205.0
+      y: 125.0
+      z: 600.0
+    stored-money: 4000000.0
+    total-money-printed: 2.13E7
+    health: 320.0
+  9f5e4ae5-7bd0-4357-99a1-c729047cad6e:
+    uuid: 9f5e4ae5-7bd0-4357-99a1-c729047cad6e
+    type: Metro
+    owner: 9d4ab6d9-6f83-381e-a041-73a391475b47
+    location:
+      world: ASkyBlock
+      x: -606.0
+      y: 123.0
+      z: 824.0
+    stored-money: 4000000.0
+    total-money-printed: 5.3E7
+    health: 320.0
+  616f99b1-7237-41cc-8f0f-26296a80511c:
+    uuid: 616f99b1-7237-41cc-8f0f-26296a80511c
+    type: Metro
+    owner: 145c9a91-5144-3e76-aec2-2e33959c21e4
+    location:
+      world: ASkyBlock
+      x: -608.0
+      y: 122.0
+      z: 827.0
+    stored-money: 4000000.0
+    total-money-printed: 4000000.0
+    health: 320.0
+  cc748b0c-eb2d-4c18-8729-d8f4dce9e9a8:
+    uuid: cc748b0c-eb2d-4c18-8729-d8f4dce9e9a8
+    type: Metro
+    owner: 145c9a91-5144-3e76-aec2-2e33959c21e4
+    location:
+      world: ASkyBlock
+      x: -608.0
+      y: 122.0
+      z: 828.0
+    stored-money: 4000000.0
+    total-money-printed: 4000000.0
+    health: 320.0
+  35704fe6-6a4c-4b38-b3c1-5bce226b82cc:
+    uuid: 35704fe6-6a4c-4b38-b3c1-5bce226b82cc
+    type: Metro
+    owner: 145c9a91-5144-3e76-aec2-2e33959c21e4
+    location:
+      world: ASkyBlock
+      x: -608.0
+      y: 122.0
+      z: 829.0
+    stored-money: 4000000.0
+    total-money-printed: 4000000.0
+    health: 320.0
+  c0f40e19-bd43-4b8b-9ee3-29076a5b6860:
+    uuid: c0f40e19-bd43-4b8b-9ee3-29076a5b6860
+    type: Metro
+    owner: 145c9a91-5144-3e76-aec2-2e33959c21e4
+    location:
+      world: ASkyBlock
+      x: -608.0
+      y: 122.0
+      z: 830.0
+    stored-money: 4000000.0
+    total-money-printed: 4000000.0
+    health: 320.0
+  b12d3910-f468-4142-bd6d-c59c55bf0671:
+    uuid: b12d3910-f468-4142-bd6d-c59c55bf0671
+    type: Metro
+    owner: 99d276be-4a04-3ded-8415-2d1d4f6c85f8
+    location:
+      world: ASkyBlock
+      x: -585.0
+      y: 156.0
+      z: 420.0
+    stored-money: 4000000.0
+    total-money-printed: 1.34E8
+    health: 320.0
+  480325b2-64c8-42fd-a42e-6112353b436e:
+    uuid: 480325b2-64c8-42fd-a42e-6112353b436e
+    type: Metro
+    owner: 99d276be-4a04-3ded-8415-2d1d4f6c85f8
+    location:
+      world: ASkyBlock
+      x: -585.0
+      y: 156.0
+      z: 421.0
+    stored-money: 4000000.0
+    total-money-printed: 1.392E8
+    health: 320.0
+  3e45b319-6056-410c-9a39-4c32b7a27ba6:
+    uuid: 3e45b319-6056-410c-9a39-4c32b7a27ba6
+    type: Metro
+    owner: 6394347d-44ab-30f8-a553-726e874f03f9
+    location:
+      world: ASkyBlock
+      x: 798.0
+      y: 150.0
+      z: -205.0
+    stored-money: 4000000.0
+    total-money-printed: 1.68E7
+    health: 320.0
+  78c9878a-7f85-4ce7-97c8-742264fbc009:
+    uuid: 78c9878a-7f85-4ce7-97c8-742264fbc009
+    type: Metro
+    owner: 6394347d-44ab-30f8-a553-726e874f03f9
+    location:
+      world: ASkyBlock
+      x: 797.0
+      y: 150.0
+      z: -205.0
+    stored-money: 4000000.0
+    total-money-printed: 1.68E7
+    health: 320.0
+  f2490eaf-6887-4fa9-acfc-ca215cb23911:
+    uuid: f2490eaf-6887-4fa9-acfc-ca215cb23911
+    type: Metro
+    owner: 3807ed54-925d-3add-8257-bdc796912bef
+    location:
+      world: ASkyBlock
+      x: 796.0
+      y: 150.0
+      z: -205.0
+    stored-money: 4000000.0
+    total-money-printed: 2.53E7
+    health: 320.0
+  db4f441c-0f68-40f6-9e44-d0d0bea9f934:
+    uuid: db4f441c-0f68-40f6-9e44-d0d0bea9f934
+    type: Metro
+    owner: 3807ed54-925d-3add-8257-bdc796912bef
+    location:
+      world: ASkyBlock
+      x: 795.0
+      y: 150.0
+      z: -205.0
+    stored-money: 4000000.0
+    total-money-printed: 2.53E7
+    health: 320.0
+  927c8737-1920-4e29-a643-408b4dfba96f:
+    uuid: 927c8737-1920-4e29-a643-408b4dfba96f
+    type: Metro
+    owner: d3ef47bf-3e38-322e-b58e-2d5cea3d82e7
+    location:
+      world: ASkyBlock
+      x: 5.0
+      y: 150.0
+      z: 631.0
+    stored-money: 4000000.0
+    total-money-printed: 7.34E7
+    health: 320.0
+  c7ddcfe5-53db-4937-b128-0ce276042abe:
+    uuid: c7ddcfe5-53db-4937-b128-0ce276042abe
+    type: Metro
+    owner: 09deead2-faf9-30be-8fce-a14d9a4d8e6e
+    location:
+      world: ASkyBlock
+      x: 605.0
+      y: 122.0
+      z: -806.0
+    stored-money: 4000000.0
+    total-money-printed: 1.01E7
+    health: 320.0
+  55a295a8-8224-4eda-9d1c-fba7b42b3be9:
+    uuid: 55a295a8-8224-4eda-9d1c-fba7b42b3be9
+    type: Metro
+    owner: 09deead2-faf9-30be-8fce-a14d9a4d8e6e
+    location:
+      world: ASkyBlock
+      x: 595.0
+      y: 122.0
+      z: -806.0
+    stored-money: 4000000.0
+    total-money-printed: 1.01E7
+    health: 320.0
+  c07e620e-ef7c-4a9c-9124-1f91f8f0ba73:
+    uuid: c07e620e-ef7c-4a9c-9124-1f91f8f0ba73
+    type: Metro
+    owner: 7529a4d4-e8d5-3320-a6a6-3207534d1960
+    location:
+      world: ASkyBlock
+      x: 399.0
+      y: 122.0
+      z: 604.0
+    stored-money: 4000000.0
+    total-money-printed: 8.19E7
+    health: 320.0
+  df7ad8aa-fccf-4054-90c8-10a1dc2662fb:
+    uuid: df7ad8aa-fccf-4054-90c8-10a1dc2662fb
+    type: Metro
+    owner: 7529a4d4-e8d5-3320-a6a6-3207534d1960
+    location:
+      world: ASkyBlock
+      x: 399.0
+      y: 122.0
+      z: 599.0
+    stored-money: 4000000.0
+    total-money-printed: 8.18E7
+    health: 320.0
+  57453a77-bc9c-454b-982f-07e7727874a6:
+    uuid: 57453a77-bc9c-454b-982f-07e7727874a6
+    type: Metro
+    owner: cd44be4f-f168-3c8d-8102-cbd2c89d4b16
+    location:
+      world: ASkyBlock
+      x: 607.0
+      y: 122.0
+      z: -801.0
+    stored-money: 4000000.0
+    total-money-printed: 7200000.0
+    health: 320.0
+  a687de46-57b7-4c2b-94f0-bb32b89f67be:
+    uuid: a687de46-57b7-4c2b-94f0-bb32b89f67be
+    type: Metro
+    owner: cd44be4f-f168-3c8d-8102-cbd2c89d4b16
+    location:
+      world: ASkyBlock
+      x: 607.0
+      y: 122.0
+      z: -800.0
+    stored-money: 4000000.0
+    total-money-printed: 7100000.0
+    health: 320.0
+  d1cfd312-10a9-4af4-b4a5-44f9c882e031:
+    uuid: d1cfd312-10a9-4af4-b4a5-44f9c882e031
+    type: Metro
+    owner: b04cadd7-d576-3d97-8e38-b210898813cf
+    location:
+      world: ASkyBlock
+      x: 395.0
+      y: 123.0
+      z: 593.0
+    stored-money: 4000000.0
+    total-money-printed: 1.211E8
+    health: 320.0
+  c3558069-6be3-429a-9e4d-3294e49ff8e1:
+    uuid: c3558069-6be3-429a-9e4d-3294e49ff8e1
+    type: Metro
+    owner: b04cadd7-d576-3d97-8e38-b210898813cf
+    location:
+      world: ASkyBlock
+      x: 395.0
+      y: 122.0
+      z: 596.0
+    stored-money: 4000000.0
+    total-money-printed: 1.206E8
+    health: 320.0
+  22612f59-8bcf-4eb8-bfe7-cf32e2fc9e34:
+    uuid: 22612f59-8bcf-4eb8-bfe7-cf32e2fc9e34
+    type: Metro
+    owner: 3238f47f-7d07-318e-a2cf-a6b0f8788887
+    location:
+      world: ASkyBlock
+      x: -5.0
+      y: 121.0
+      z: -780.0
+    stored-money: 4000000.0
+    total-money-printed: 2.46E7
+    health: 320.0
+  147bf6a2-724e-47c3-857c-85310a297a4f:
+    uuid: 147bf6a2-724e-47c3-857c-85310a297a4f
+    type: Metro
+    owner: 3466c3f8-4076-3629-9ed4-a70b0c140e21
+    location:
+      world: ASkyBlock
+      x: -1.0
+      y: 122.0
+      z: 805.0
+    stored-money: 4000000.0
+    total-money-printed: 1.967E8
+    health: 320.0
+  8f589cee-e755-47c3-85f7-9950343f6d83:
+    uuid: 8f589cee-e755-47c3-85f7-9950343f6d83
+    type: Metro
+    owner: 3466c3f8-4076-3629-9ed4-a70b0c140e21
+    location:
+      world: ASkyBlock
+      x: 0.0
+      y: 122.0
+      z: 805.0
+    stored-money: 4000000.0
+    total-money-printed: 2.061E8
+    health: 320.0
+  1278c260-f9b1-4b54-96fa-2b48d575a949:
+    uuid: 1278c260-f9b1-4b54-96fa-2b48d575a949
+    type: Metro
+    owner: d3ef47bf-3e38-322e-b58e-2d5cea3d82e7
+    location:
+      world: ASkyBlock
+      x: 4.0
+      y: 150.0
+      z: 631.0
+    stored-money: 4000000.0
+    total-money-printed: 7.34E7
+    health: 320.0
+  8bf9c268-29f2-434f-9c28-4965458a95d3:
+    uuid: 8bf9c268-29f2-434f-9c28-4965458a95d3
+    type: Metro
+    owner: e8ad4678-67f7-3f7e-bdba-580076eb66c2
+    location:
+      world: ASkyBlock
+      x: -405.0
+      y: 122.0
+      z: -799.0
+    stored-money: 4000000.0
+    total-money-printed: 2.81E7
+    health: 320.0
+  58067b89-54d8-4ad3-9a1a-3c407cf18604:
+    uuid: 58067b89-54d8-4ad3-9a1a-3c407cf18604
+    type: AlBeni
+    owner: 545bd9cd-c3ee-3be2-968d-a193094e31e8
+    location:
+      world: ASkyBlock
+      x: -796.0
+      y: 122.0
+      z: -595.0
+    stored-money: 200000.0
+    total-money-printed: 2085000.0
+    health: 20.0
+  5d3fee98-2023-44fa-8ad0-0fa1ec5d947e:
+    uuid: 5d3fee98-2023-44fa-8ad0-0fa1ec5d947e
+    type: Metro
+    owner: 944891ce-6681-38c6-b065-4e0fd35a50bb
+    location:
+      world: ASkyBlock
+      x: -788.0
+      y: 117.0
+      z: -199.0
+    stored-money: 4000000.0
+    total-money-printed: 1.0E7
+    health: 320.0
+  f733dc4e-9b40-42fe-a10a-6f0ae967d9a9:
+    uuid: f733dc4e-9b40-42fe-a10a-6f0ae967d9a9
+    type: Metro
+    owner: 944891ce-6681-38c6-b065-4e0fd35a50bb
+    location:
+      world: ASkyBlock
+      x: -788.0
+      y: 117.0
+      z: -198.0
+    stored-money: 4000000.0
+    total-money-printed: 1.0E7
+    health: 320.0
+  1ce174ee-d187-40ee-b3ca-3c5e263cb54d:
+    uuid: 1ce174ee-d187-40ee-b3ca-3c5e263cb54d
+    type: Metro
+    owner: 6ff0fbc7-c1c4-3a5a-a52b-1c1b6c7a13d5
+    location:
+      world: ASkyBlock
+      x: 594.0
+      y: 122.0
+      z: -791.0
+    stored-money: 4000000.0
+    total-money-printed: 1.39E8
+    health: 320.0
+  52cfdba2-31cb-44a2-aa39-c68d0a36326e:
+    uuid: 52cfdba2-31cb-44a2-aa39-c68d0a36326e
+    type: Metro
+    owner: 6ff0fbc7-c1c4-3a5a-a52b-1c1b6c7a13d5
+    location:
+      world: ASkyBlock
+      x: 594.0
+      y: 122.0
+      z: -792.0
+    stored-money: 4000000.0
+    total-money-printed: 1.387E8
+    health: 320.0
+  9274d573-5cff-47a6-ab95-160780131ed5:
+    uuid: 9274d573-5cff-47a6-ab95-160780131ed5
+    type: Metro
+    owner: 3238f47f-7d07-318e-a2cf-a6b0f8788887
+    location:
+      world: ASkyBlock
+      x: 5.0
+      y: 121.0
+      z: -780.0
+    stored-money: 4000000.0
+    total-money-printed: 6.55E7
+    health: 320.0
+  58e97570-5159-4622-afcb-269b1a55c0ee:
+    uuid: 58e97570-5159-4622-afcb-269b1a55c0ee
+    type: Metro
+    owner: 545bd9cd-c3ee-3be2-968d-a193094e31e8
+    location:
+      world: ASkyBlock
+      x: -804.0
+      y: 122.0
+      z: -596.0
+    stored-money: 4000000.0
+    total-money-printed: 2.09E7
+    health: 320.0
+  6508e55f-4047-4f29-9306-a43cb962fa02:
+    uuid: 6508e55f-4047-4f29-9306-a43cb962fa02
+    type: Metro
+    owner: fec4db23-a37e-322e-a635-e3a4d69e1603
+    location:
+      world: ASkyBlock
+      x: -795.0
+      y: 122.0
+      z: 794.0
+    stored-money: 4000000.0
+    total-money-printed: 2.33E7
+    health: 320.0
+  535328b1-347a-4181-973f-8e0f08bf36f2:
+    uuid: 535328b1-347a-4181-973f-8e0f08bf36f2
+    type: Metro
+    owner: fec4db23-a37e-322e-a635-e3a4d69e1603
+    location:
+      world: ASkyBlock
+      x: -795.0
+      y: 122.0
+      z: 796.0
+    stored-money: 4000000.0
+    total-money-printed: 2.33E7
+    health: 320.0
+  fe6af297-ecc9-4e2f-a2a9-6ddac5eadcfe:
+    uuid: fe6af297-ecc9-4e2f-a2a9-6ddac5eadcfe
+    type: Metro
+    owner: 276a64bd-cc07-3c55-b1ee-f5ae962ba71b
+    location:
+      world: ASkyBlock
+      x: -603.0
+      y: 192.0
+      z: 588.0
+    stored-money: 4000000.0
+    total-money-printed: 1.666E8
+    health: 320.0
+  42d45d4e-56c1-4691-96b0-d47d2201544a:
+    uuid: 42d45d4e-56c1-4691-96b0-d47d2201544a
+    type: Metro
+    owner: 276a64bd-cc07-3c55-b1ee-f5ae962ba71b
+    location:
+      world: ASkyBlock
+      x: -604.0
+      y: 192.0
+      z: 588.0
+    stored-money: 4000000.0
+    total-money-printed: 1.666E8
+    health: 320.0
+  34dc2b7a-6364-48ca-b643-f391bab96372:
+    uuid: 34dc2b7a-6364-48ca-b643-f391bab96372
+    type: Metro
+    owner: 2b7de037-6a90-3021-b3ef-c7a52eaf792c
+    location:
+      world: ASkyBlock
+      x: -604.0
+      y: 192.0
+      z: 587.0
+    stored-money: 4000000.0
+    total-money-printed: 1.444E8
+    health: 320.0
+  bde9c4a3-13d8-4c12-9288-fc1056280672:
+    uuid: bde9c4a3-13d8-4c12-9288-fc1056280672
+    type: Metro
+    owner: 2b7de037-6a90-3021-b3ef-c7a52eaf792c
+    location:
+      world: ASkyBlock
+      x: -603.0
+      y: 192.0
+      z: 587.0
+    stored-money: 4000000.0
+    total-money-printed: 1.444E8
+    health: 320.0
+  b813fbce-69b5-4f04-b8cd-076edc0b474c:
+    uuid: b813fbce-69b5-4f04-b8cd-076edc0b474c
+    type: Metro
+    owner: c607ba72-a634-3772-a540-6ed51e814e11
+    location:
+      world: ASkyBlock
+      x: -800.0
+      y: 122.0
+      z: 1005.0
+    stored-money: 4000000.0
+    total-money-printed: 1.664E8
+    health: 320.0
+  52ef34dd-897e-4f2f-b618-bf67b6336c9f:
+    uuid: 52ef34dd-897e-4f2f-b618-bf67b6336c9f
+    type: Metro
+    owner: c607ba72-a634-3772-a540-6ed51e814e11
+    location:
+      world: ASkyBlock
+      x: -801.0
+      y: 122.0
+      z: 1005.0
+    stored-money: 4000000.0
+    total-money-printed: 1.66E8
+    health: 320.0
+  0491b0e3-a4c2-4267-9936-2799ce5f73aa:
+    uuid: 0491b0e3-a4c2-4267-9936-2799ce5f73aa
+    type: Metro
+    owner: ee32c0c6-b279-32b4-a4b3-455f61865a32
+    location:
+      world: ASkyBlock
+      x: 796.0
+      y: 2.0
+      z: -374.0
+    stored-money: 4000000.0
+    total-money-printed: 2.82E7
+    health: 320.0
+  28c7ebf9-e3dc-46d2-8369-fb0722576e1e:
+    uuid: 28c7ebf9-e3dc-46d2-8369-fb0722576e1e
+    type: Metro
+    owner: ee32c0c6-b279-32b4-a4b3-455f61865a32
+    location:
+      world: ASkyBlock
+      x: 796.0
+      y: 2.0
+      z: -375.0
+    stored-money: 4000000.0
+    total-money-printed: 2.82E7
+    health: 320.0
+  28dc4e04-cad1-4b50-a5d3-4e35928cbb96:
+    uuid: 28dc4e04-cad1-4b50-a5d3-4e35928cbb96
+    type: Metro
+    owner: 521444cf-5f21-38ad-a0ab-4a244ac63cf3
+    location:
+      world: ASkyBlock
+      x: -603.0
+      y: 181.0
+      z: -407.0
+    stored-money: 4000000.0
+    total-money-printed: 3.063E8
+    health: 320.0
+  0d0e4cb3-c891-4e1d-97a5-c4d7df87c346:
+    uuid: 0d0e4cb3-c891-4e1d-97a5-c4d7df87c346
+    type: Metro
+    owner: 521444cf-5f21-38ad-a0ab-4a244ac63cf3
+    location:
+      world: ASkyBlock
+      x: -603.0
+      y: 181.0
+      z: -406.0
+    stored-money: 4000000.0
+    total-money-printed: 3.04E8
+    health: 320.0
+  e0c2a5a7-ec58-443b-93f4-f1e2f6650cb8:
+    uuid: e0c2a5a7-ec58-443b-93f4-f1e2f6650cb8
+    type: Metro
+    owner: 9e3f6042-ad31-385a-8647-30e3fb992899
+    location:
+      world: ASkyBlock
+      x: 202.0
+      y: 122.0
+      z: -1000.0
+    stored-money: 4000000.0
+    total-money-printed: 4000000.0
+    health: 320.0
+  bc45ae43-b103-40d9-a0e2-61a750166b94:
+    uuid: bc45ae43-b103-40d9-a0e2-61a750166b94
+    type: Metro
+    owner: e66897ec-db90-3e4c-b081-b24cc6e877bd
+    location:
+      world: ASkyBlock
+      x: -993.0
+      y: 122.0
+      z: -591.0
+    stored-money: 4000000.0
+    total-money-printed: 4.76E7
+    health: 320.0
+  b557c479-1854-47d0-ae4f-84322f5c192b:
+    uuid: b557c479-1854-47d0-ae4f-84322f5c192b
+    type: Metro
+    owner: e66897ec-db90-3e4c-b081-b24cc6e877bd
+    location:
+      world: ASkyBlock
+      x: -993.0
+      y: 122.0
+      z: -592.0
+    stored-money: 4000000.0
+    total-money-printed: 4.77E7
+    health: 320.0
+  19092ecf-1c10-4d81-9255-cf7d1e74079b:
+    uuid: 19092ecf-1c10-4d81-9255-cf7d1e74079b
+    type: Metro
+    owner: e8ad4678-67f7-3f7e-bdba-580076eb66c2
+    location:
+      world: ASkyBlock
+      x: -405.0
+      y: 122.0
+      z: -800.0
+    stored-money: 4000000.0
+    total-money-printed: 2.82E7
+    health: 320.0
+  e393daab-66fc-4448-a172-3db13a7c81c7:
+    uuid: e393daab-66fc-4448-a172-3db13a7c81c7
+    type: Metro
+    owner: 052a7f1b-443b-3d6f-9642-f52e180a1b6c
+    location:
+      world: ASkyBlock
+      x: -995.0
+      y: 123.0
+      z: -793.0
+    stored-money: 4000000.0
+    total-money-printed: 8000000.0
+    health: 320.0
+  e7da28b9-8d26-4a02-8869-d3e7ccdefcd0:
+    uuid: e7da28b9-8d26-4a02-8869-d3e7ccdefcd0
+    type: Metro
+    owner: 521444cf-5f21-38ad-a0ab-4a244ac63cf3
+    location:
+      world: ASkyBlock
+      x: -800.0
+      y: 122.0
+      z: 602.0
+    stored-money: 4000000.0
+    total-money-printed: 4000000.0
+    health: 320.0
+  28c61d0b-9a6d-420c-8d97-1190f0fa9595:
+    uuid: 28c61d0b-9a6d-420c-8d97-1190f0fa9595
+    type: CocoStar
+    owner: bc405eed-8e2a-3c85-8436-76f1c4ba8638
+    location:
+      world: ASkyBlock
+      x: -800.0
+      y: 122.0
+      z: 804.0
+    stored-money: 1000000.0
+    total-money-printed: 1040000.0
+    health: 80.0

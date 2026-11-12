@@ -1,0 +1,120 @@
+menu_title: '&7Işınlayıcı'
+open_command:
+- warp
+- warps
+- essentials:warp
+- essentials:warps
+- bölge
+size: 45
+items:
+  'skyblocktas':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGFkN2MyYjkxYzJlMDUxNzdiZmRjNDkzZjJiZWMzYWFiYWY5MjFjZDIxNDgxNzU4MDMxODUxNjllYjJlZWY3ZiJ9fX0=
+    slot: 13
+    display_name: '&e&lSKYBLOCK TAS'
+    lore:
+    - ''
+    - '&7Çok nadir gelir ve kırdığın'
+    - '&7zaman &6VIP &7verme şansı.' 
+    - ''
+    - "&aIşınlanmak İçin Tıkla"
+    left_click_commands:   
+    - '[player] warp skyblocktaş'
+    - '[close]'
+    right_click_commands:
+    - '[player] warp skyblocktaş'
+    - '[close]'
+  'Edit':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTIzNjY4MzAzNjdmNjhmZmQ3YzkwODc3MmFjNTY2YTgyNmYyNzE0YjM2NDc2MmEwM2U3N2FkM2NiOTY4NTkifX19
+    slot: 20
+    display_name: '&e&lEDIT'
+    lore:
+    - ''
+    - '&7Burada obsidyen kazarak'
+    - '&7değerli itemler toplayabilirsin..' 
+    - ''
+    - "&aIşınlanmak İçin Tıkla"
+    left_click_commands:   
+    - '[player] warp edit'
+    - '[close]'
+    right_click_commands:
+    - '[player] warp edit'
+    - '[close]'
+  'Arena':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2MxODQxZmNkZjJkMzg4NTRiYTU3N2E2OWU2ZmM3N2ExNTRjNGIxYzI0NWJmMmE2NmJjOGIwYmRhYzNjZjE4ZSJ9fX0=
+    slot: 21
+    display_name: '&e&lARENA'
+    lore:
+    - ''
+    - '&7Burada itemler yere düşer'
+    - '&7Klanını kur savaşı ilan et' 
+    - ''
+    - "&aIşınlanmak İçin Tıkla"
+    left_click_commands:   
+    - '[player] warp arena'
+    - '[close]'
+    right_click_commands:
+    - '[player] warp arena'
+    - '[close]'
+  'Nehir':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmQ4MjEwOTJjZTVlNzU1NzQ1MWM3MjNhMDM0MWU5MGI5M2UwNTY0ZTJiMDE0ODFkZTgxZWVhMjcxZjA0YzViNiJ9fX0=
+    slot: 22
+    display_name: '&e&lNEHIR'
+    lore:
+    - ''
+    - '&7Burada balık tutarak'
+    - '&7yem kazanıp takaslayabilirsiniz.' 
+    - ''
+    - "&aIşınlanmak İçin Tıkla"
+    left_click_commands:   
+    - '[player] warp nehir'
+    - '[close]'
+    right_click_commands:
+    - '[player] warp nehir'
+    - '[close]'
+  'Kutu':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTZjYzQ4NmMyYmUxY2I5ZGZjYjJlNTNkZDlhM2U5YTg4M2JmYWRiMjdjYjk1NmYxODk2ZDYwMmI0MDY3In19fQ==
+    slot: 23
+    display_name: '&e&lKUTU'
+    lore:
+    - ''
+    - '&7Burada kutu açabilirsin'
+    - ''
+    - "&aIşınlanmak İçin Tıkla"
+    left_click_commands:   
+    - '[player] warp kutu'
+    - '[close]'
+    right_click_commands:
+    - '[player] warp kutu'
+    - '[close]'
+  'Takas':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTkwODIzNWExY2JlY2MwM2E3MmNkZjcxMGY0ZWQ1MTlkNjViNGRhNjJiNTRhNGVmOThhNzQwOGZjZjUxYjgzYiJ9fX0=
+    slot: 24
+    display_name: '&e&lTAKAS'
+    lore:
+    - ''
+    - '&7Kazandığınız itemleri yükseltip'
+    - '&7yada yeni item alabilirsin.' 
+    - ''
+    - "&aIşınlanmak İçin Tıkla"
+    left_click_commands:   
+    - '[player] warp takas'
+    - '[close]'
+    right_click_commands:
+    - '[player] warp takas'
+    - '[close]'
+  'kurt-event':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTlmNmZiN2I3NmFkY2ZjMzhiMGU3Zjg3N2YwMTllYWVmMDA4ZWIxZDhmODU0MjlhNmYzOWY1NjVhMTY5OWY5NyJ9fX0=
+    slot: 31
+    display_name: '&e&lKURT EVENT'
+    lore:
+    - ''
+    - '&7Kurt un karnını doyur.'
+    - '&7Kurt yemi için &d/oyver' 
+    - ''
+    - "&aIşınlanmak İçin Tıkla"
+    left_click_commands:   
+    - '[player] warp kurt'
+    - '[close]'
+    right_click_commands:
+    - '[player] warp kurt'
+    - '[close]'

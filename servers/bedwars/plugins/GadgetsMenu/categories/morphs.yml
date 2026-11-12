@@ -1,0 +1,261 @@
+Morphs:
+  Pig:
+    Name: '&bDomuz'
+    Cooldown: 10
+    Mystery Dust: 25
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked: ''
+      Unlocked:
+      - '&7Transform into a Pig. While'
+      - '&7transformed, you can squeal'
+      - '&7by right-clicking the Slimeball'
+      - '&7item in your hotbar.'
+    Material: COOKED_PORKCHOP
+    Morph-Ability: true
+    Enabled-Ability: true
+  Cow:
+    Name: '&bÄ°nek'
+    Cooldown: 10
+    Mystery Dust: 20
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked: ''
+      Unlocked:
+      - '&7Transform into a Cow. While'
+      - '&7transformed, you can moo'
+      - '&7by right-clicking the Slimeball'
+      - '&7item in your hotbar.'
+    Material: COOKED_BEEF
+    Morph-Ability: true
+    Enabled-Ability: true
+  Enderman:
+    Name: '&5Enderman'
+    Cooldown: 10
+    Mystery Dust: 60
+    Rarity: Epic
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked: ''
+      Unlocked:
+      - '&7Transform into a Enderman. While'
+      - '&7transformed, you can teleport'
+      - '&7randomly by right-clicking the'
+      - '&7Slimeball item in your hotbar.'
+    Material: ENDER_PEARL
+    Morph-Ability: true
+    Enabled-Ability: true
+  Chicken:
+    Name: '&5Tavuk'
+    Cooldown: 10
+    Mystery Dust: 35
+    Rarity: Epic
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked: ''
+      Unlocked:
+      - '&7Transform into a Chicken. While'
+      - '&7transformed, you can lay eggs'
+      - '&7by right-clicking the Slimeball'
+      - '&7item in your hotbar.'
+    Material: EGG
+    Morph-Ability: true
+    Enabled-Ability: true
+  Spider:
+    Name: '&5Ã–rÃ¼mcek'
+    Cooldown: 10
+    Mystery Dust: 50
+    Rarity: Epic
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked: ''
+      Unlocked:
+      - '&7Transform into a Spider. While'
+      - '&7transformed, you can shoot webs'
+      - '&7all around you by right-clicking'
+      - '&7the Slimeball item in your'
+      - '&7hotbar.'
+    Material: COBWEB
+    Morph-Ability: true
+    Enabled-Ability: true
+  Sheep:
+    Name: '&5Koyun'
+    Cooldown: 10
+    Mystery Dust: 50
+    Rarity: Epic
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked: ''
+      Unlocked:
+      - '&7Transform into a Sheep. While'
+      - '&7transformed, you can activate'
+      - '&7Rainbow Sheep Mode by'
+      - '&7right-clicking the Slimeball item'
+      - '&7in your hotbar.'
+    Material: WHITE_WOOL
+    Morph-Ability: true
+    Enabled-Ability: true
+  Skeleton:
+    Name: '&5Ä°skelet'
+    Cooldown: 10
+    Mystery Dust: 70
+    Rarity: Epic
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked: ''
+      Unlocked:
+      - '&7Transform into a Skeleton. While'
+      - '&7transformed, you can shoot arrows'
+      - '&7by right-clicking the Slimeball'
+      - '&7item in your hotbar.'
+    Material: BOW
+    Morph-Ability: true
+    Enabled-Ability: true
+  Creeper:
+    Name: '&bCreeper'
+    Cooldown: 10
+    Mystery Dust: 95
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked: ''
+      Unlocked:
+      - '&7Transform into a Creeper. While'
+      - '&7transformed, you can explode to'
+      - '&7knock nearby players aways by'
+      - '&7right-clicking the Slimeball'
+      - '&7item in your hotbar.'
+    Material: TNT
+    Morph-Ability: true
+    Affect-Players: true
+    Enabled-Ability: true
+  Blaze:
+    Name: '&bBlaze'
+    Cooldown: 10
+    Mystery Dust: 125
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked: ''
+      Unlocked:
+      - '&7Transform into a Blaze. While'
+      - '&7transformed, you can shoot'
+      - '&7fireballs by right-clicking the'
+      - '&7Slimeball item in your hotbar.'
+    Material: BLAZE_POWDER
+    Morph-Ability: true
+    Enabled-Ability: true
+  Zombie:
+    Name: '&bZombi'
+    Cooldown: 10
+    Mystery Dust: 105
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked: ''
+      Unlocked:
+      - '&7Transform into a Zombie. While'
+      - '&7transformed, you can infect other'
+      - '&7players and turn them into a'
+      - '&7zombie by right-clicking with'
+      - '&7the Slimeball item in your hotbar.'
+    Material: ROTTEN_FLESH
+    Morph-Ability: true
+    Enabled-Ability: true
+  Iron Golem:
+    Name: '&bDemir Golem'
+    Cooldown: 10
+    Mystery Dust: 120
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked: ''
+      Unlocked:
+      - '&7Transform into a Iron Golem.'
+      - '&7While transformed, you can vigorously'
+      - '&7hit the ground by'
+      - '&7right-clicking with the Slimeball'
+      - '&7item in your hotbar.'
+    Material: IRON_BLOCK
+    Morph-Ability: true
+    Enabled-Ability: true
+  Witch:
+    Name: '&bCadÄ±'
+    Cooldown: 10
+    Mystery Dust: 110
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked: ''
+      Unlocked:
+      - '&7Transform into a Witch. While'
+      - '&7transformed, you can throw special'
+      - '&7potions by right-clicking with the'
+      - '&7Slimeball item in your hotbar.'
+    Material: POTION:8196
+    Morph-Ability: true
+    Enabled-Ability: true
+  Snowman:
+    Name: '&bKardan Adam'
+    Cooldown: 10
+    Mystery Dust: 125
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked: ''
+      Unlocked:
+      - '&7Transform into a Snowman. While'
+      - '&7transformed, you can throw'
+      - '&7snowballs by right-clicking with'
+      - '&7the Slimeball item in your'
+      - '&7hotbar.'
+    Material: SNOWBALL
+    Morph-Ability: true
+    Enabled-Ability: true
+  Guardian:
+    Name: '&bGardiyan'
+    Cooldown: 10
+    Mystery Dust: 130
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked: ''
+      Unlocked:
+      - '&7Transform into a Guardian.'
+      - '&7While transformed, you can shoot'
+      - '&7lasers by right-clicking with'
+      - '&7the Slimeball item in your'
+      - '&7hotbar.'
+    Material: PRISMARINE_SHARD
+    Morph-Ability: true
+    Enabled-Ability: true

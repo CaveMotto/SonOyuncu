@@ -1,0 +1,29 @@
+#Owner:
+#  tabprefix: "&0&l[&a&lOwner&0&l] &a"
+#  tagprefix: "&2&lOwner &a"
+Player:
+  tabprefix: "&0&l[&7&lPlayer&0&l] &3"
+  tagprefix: "&2&lPlayer &3"
+yönetici:
+  tabprefix: '&4Yönetici &c'
+  tagprefix: '&4Yönetici &c'
+rehber:
+  tabprefix: '&2Rehber &a'
+  tagprefix: '&2Rehber &a'
+youtuber:
+  tabprefix: '&4You&fTube &e'
+  tagprefix: '&4You&fTube &e'
+vip:
+  tabprefix: '&6VIP &e'
+  tagprefix: '&6VIP &e'
+default:
+  tabprefix: '&f'
+  tagprefix: '&f'
+
+
+
+per-world:
+  world1:
+    Owner:
+      tabprefix: "&0&l[&a&lOwner&0&l] &a"
+      tagprefix: "&2&lOwner &a"

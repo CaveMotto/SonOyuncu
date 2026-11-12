@@ -1,0 +1,244 @@
+menu_title: '&7Depocu'
+open_command:
+- 4rt4uyt4ıuu41oıu41
+size: 27
+items:
+  'bilgi':
+    material: book
+    slot: 4
+    display_name: '&eBilgi'
+    lore:
+    - '&8'
+    - '&7Depo hakkındaki tüm'
+    - '&7bilgeleri buradan'
+    - '&7ulaşabilirsin'
+    - '&8'
+    - '&eAçmak için tıkla'
+    left_click_commands:
+    - '[player] depocubilgi'
+    right_click_commands:
+    - '[player] depocubilgi'
+  'depo':
+    material: chest
+    slot: 11
+    display_name: '&aDepo'
+    lore:
+    - '&7Toplam Seviye: &f6'
+    - '&8'
+    - '&eAçmak için tıkla'
+    left_click_commands:
+    - '[player] 54ül5k65hm645j'
+    right_click_commands:
+    - '[player] 54ül5k65hm645j'
+  deposeviye1:
+    material: FIREWORK
+    slot: 13
+    priority: 6
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: playervaults.amount.1
+    left_click_requirement:
+      requirements:
+        dinar:
+          type: has money
+          amount: 1000.0
+      deny_commands:
+      - '[close]'
+      - '[message] &6Survival &8► &cYeterli dinara sahip değilsin.'
+    right_click_requirement:
+      requirements:
+        dinar:
+          type: has money
+          amount: 2000.0
+      deny_commands:
+      - '[close]'
+      - '[message] &6Survival &8► &cYeterli dinara sahip değilsin.'
+    display_name: '&eSeviye Yükselt'
+    lore:
+    - ''
+    - '&7Depo Seviyesi: &f2'
+    - '&7Yükseltme Fiyatı: &63.000 Dinar'
+    - ''
+    - '&eYükseltme için tıkla'
+    left_click_commands:
+    - '[takemoney] 2000'
+    - '[console] lp user %player_name% permission set playervaults.amount.2 true'
+    - '[message] &6Survival &8► &eDepo 2.seviye başarılı bir şekilde yükseltildi!'
+    - '[close]'
+    right_click_commands:
+    - '[takemoney] 2000'
+    - '[console] lp user %player_name% permission set playervaults.amount.2 true'
+    - '[message] &6Survival &8► &eDepo 2.seviye başarılı bir şekilde yükseltildi!'
+    - '[close]'
+  deposeviye2:
+    material: FIREWORK
+    slot: 13
+    priority: 5
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: playervaults.amount.2
+    left_click_requirement:
+      requirements:
+        dinar:
+          type: has money
+          amount: 5000.0
+      deny_commands:
+      - '[close]'
+      - '[message] &6Survival &8► &cYeterli dinara sahip değilsin.'
+    right_click_requirement:
+      requirements:
+        dinar:
+          type: has money
+          amount: 5000.0
+      deny_commands:
+      - '[close]'
+      - '[message] &6Survival &8► &cYeterli dinara sahip değilsin.'
+    display_name: '&eSeviye Yükselt'
+    lore:
+    - ''
+    - '&7Depo Seviyesi: &f3'
+    - '&7Yükseltme Fiyatı: &65.000 Dinar'
+    - ''
+    - '&eYükseltme için tıkla'
+    left_click_commands:
+    - '[takemoney] 5000'
+    - '[console] lp user %player_name% permission set playervaults.amount.3 true'
+    - '[message] &6Survival &8► &eDepo 3.seviye başarılı bir şekilde yükseltildi!'
+
+    - '[close]'
+    right_click_commands:
+    - '[takemoney] 5000'
+    - '[console] lp user %player_name% permission set playervaults.amount.3 true'
+    - '[message] &6Survival &8► &eDepo 3.seviye başarılı bir şekilde yükseltildi!'
+    - '[close]'
+  deposeviye3:
+    material: FIREWORK
+    slot: 13
+    priority: 4
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: playervaults.amount.3
+    left_click_requirement:
+      requirements:
+        dinar:
+          type: has money
+          amount: 8000.0
+      deny_commands:
+      - '[close]'
+      - '[message] &6Survival &8► &cYeterli dinara sahip değilsin.'
+    right_click_requirement:
+      requirements:
+        dinar:
+          type: has money
+          amount: 8000.0
+      deny_commands:
+      - '[close]'
+      - '[message] &6Survival &8► &cYeterli dinara sahip değilsin.'
+    display_name: '&eSeviye Yükselt'
+    lore:
+    - ''
+    - '&7Depo Seviyesi: &f4'
+    - '&7Yükseltme Fiyatı: &68.000 Dinar'
+    - ''
+    - '&eYükseltme için tıkla'
+    left_click_commands:
+    - '[takemoney] 8000'
+    - '[console] lp user %player_name% permission set playervaults.amount.4 true'
+    - '[message] &6Survival &8► &eDepo 4.seviye başarılı bir şekilde yükseltildi!'
+    - '[close]'
+    right_click_commands:
+    - '[takemoney] 8000'
+    - '[console] lp user %player_name% permission set playervaults.amount.4 true'
+    - '[message] &6Survival &8► &eDepo 4.seviye başarılı bir şekilde yükseltildi!'
+    - '[close]'
+  deposeviye4:
+    material: FIREWORK
+    slot: 13
+    priority: 3
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: playervaults.amount.4
+    left_click_requirement:
+      requirements:
+        dinar:
+          type: has money
+          amount: 10000.0
+      deny_commands:
+      - '[close]'
+      - '[message] &6Survival &8► &cYeterli dinara sahip değilsin.'
+    right_click_requirement:
+      requirements:
+        dinar:
+          type: has money
+          amount: 10000.0
+      deny_commands:
+      - '[close]'
+      - '[message] &6Survival &8► &cYeterli dinara sahip değilsin.'
+    display_name: '&eSeviye Yükselt'
+    lore:
+    - ''
+    - '&7Depo Seviyesi: &f5'
+    - '&7Yükseltme Fiyatı: &610.000 Dinar'
+    - ''
+    - '&eYükseltme için tıkla'
+    left_click_commands:
+    - '[takemoney] 10000'
+    - '[console] lp user %player_name% permission set playervaults.amount.5 true'
+    - '[message] &6Survival &8► &eDepo 5.seviye başarılı bir şekilde yükseltildi!'
+    - '[close]'
+    right_click_commands:
+    - '[takemoney] 10000'
+    - '[console] lp user %player_name% permission set playervaults.amount.5 true'
+    - '[message] &6Survival &8► &eDepo 5.seviye başarılı bir şekilde yükseltildi!'
+    - '[close]'
+  depomax:
+    material: FIREWORK
+    slot: 13
+    priority: 2
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: playervaults.amount.5
+    display_name: '&eSeviye Yükselt'
+    lore:
+    - ''
+    - '&7Depo Seviyesi: &dMax'
+  depomax2:
+    material: FIREWORK
+    slot: 13
+    priority: 1
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: playervaults.amount.5
+    display_name: '&eSeviye Yükselt'
+    lore:
+    - ''
+    - '&7Depo Seviyesi: &dMax'
+  kilit:
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzQ3MWY5M2Y1YTMyZjhiYTczYWVhNzdiYTc1NzBhM2Q4NGQ1NjJmNDA1ZGQ3NTJlYmNiYWZhZTUzZmI5YmMwMCJ9fX0=
+    slot: 15
+    display_name: '&eKilit'
+    lore:
+    - ''
+    - '&7Sifre sistemiyle sandıkda'
+    - '&7degerli esyalarınızı'
+    - '&7koruyabilirsiniz.'
+    - ''
+    - '&eAçmak için tıkla'
+    left_click_commands:
+    - '[message] &6Survival &8► &cYeni Güncellemede Aktif!'
+    - '[close]'
+    right_click_commands:
+    - '[message] &6Survival &8► &cYeni Güncellemede Aktif!'
+    - '[close]'

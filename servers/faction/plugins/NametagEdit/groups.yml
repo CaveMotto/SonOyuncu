@@ -1,0 +1,57 @@
+Groups:
+  Yönetici:
+    Permission: nte.Yönetici
+    Prefix: '&4Yönetici &c'
+    Suffix: ''
+    SortPriority: 1
+  admin:
+    Permission: nte.admin
+    Prefix: '&bAdmin &3'
+    Suffix: ''
+    SortPriority: 2
+  Moderator:
+    Permission: nte.mod
+    Prefix: '&5Moderator &d'
+    Suffix: '&f'
+    SortPriority: 3
+  Mimar:
+    Permission: nte.mimar
+    Prefix: '&dMimar &7'
+    Suffix: '&f'
+    SortPriority: 4
+  Rehber:
+    Permission: nte.rehber
+    Prefix: '&aRehber &2'
+    Suffix: '&f'
+    SortPriority: 5
+  youtuber:
+    Permission: nte.youtuber
+    Prefix: '&4You&fTuber &7'
+    Suffix: ''
+    SortPriority: 6
+  MVIP+:
+    Permission: nte.mvip+
+    Prefix: '&aMVIP&c+ &7'
+    Suffix: '&f'
+    SortPriority: 7
+  MVIP:
+    Permission: nte.mvip
+    Prefix: '&aMVIP &7'
+    Suffix: '&f'
+    SortPriority: 8
+  VIP+:
+    Permission: nte.vip+
+    Prefix: '&eVIP&c+ &7'
+    Suffix: '&f'
+    SortPriority: 9
+  VIP:
+    Permission: nte.vip
+    Prefix: '&eVIP &7'
+    Suffix: '&f'
+    SortPriority: 10
+  oyuncu:
+    Permission: nte.oyuncu
+    Prefix: '&3Oyuncu &b'
+    Suffix: ''
+    SortPriority: 11
+

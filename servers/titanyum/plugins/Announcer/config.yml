@@ -1,0 +1,16 @@
+#######################################################
+##                   Created By                      ##
+##                    Deckerz, ThunderGemios10       ##
+#######################################################
+announcement:
+    enabled: true
+    random: false
+    prefix: '&6&lDUYURU &8▸ '
+    interval: 30
+    check-for-updates: true
+    auto-update: false
+    messages:
+    - '&eVIP, Kutular, Kozmetik, Skin ve daha fazlası için: &6https://by Motto'
+    - '&8▸ &eDiscorda Sunucumuza Gelerek vip çekilişlerine katılın &b/Discord'
+    - '&eOyuncularla güvenilir takas yapmak istiyorsanız. &d/ticaret'
+    - '&eÇiftçi Satın Almak için &d/çiftçi'

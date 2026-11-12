@@ -1,0 +1,29 @@
+title: 'Claim Menü'
+size: 6
+type: 'CHEST'
+
+items:
+  back:
+    type: 'BARRIER'
+    name: 'Back'
+    glow: false
+    amount: 1
+    datavalue: 0
+    lore: [ ]
+    nbt: '{}'
+    slot: 49
+
+other-items:
+  item1:
+    type: 'STAINED_GLASS_PANE'
+    name: ''
+    glow: false
+    amount: 1
+    datavalue: 5
+    lore: [ ]
+    nbt: '{}'
+    slot: 0
+    console-commands:
+      - 'test %player%'
+    player-commands:
+      - 'warp market'

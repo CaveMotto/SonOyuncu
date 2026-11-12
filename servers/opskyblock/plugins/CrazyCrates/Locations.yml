@@ -1,0 +1,31 @@
+Locations:
+  '1':
+    Crate: oyver
+    World: Spawn
+    X: -2251
+    Y: 12
+    Z: -332
+  '2':
+    Crate: krantik
+    World: Spawn
+    X: -2251
+    Y: 12
+    Z: -313
+  '3':
+    Crate: tera
+    World: Spawn
+    X: -2248
+    Y: 12
+    Z: -328
+  '4':
+    Crate: epic
+    World: Spawn
+    X: -2248
+    Y: 12
+    Z: -317
+  '5':
+    Crate: nirvana
+    World: Spawn
+    X: -2246
+    Y: 12
+    Z: -323

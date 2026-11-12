@@ -1,0 +1,263 @@
+﻿options:
+	prefix: &6Faction &8►
+	zombi: 110
+	oyuncu: 50
+	tas: 7500
+	iskelet: 105
+	inek: 110
+	domuz: 100
+	
+on join:
+	delete {gorev.%player%}
+	delete {kirdi.%player%}
+	delete {oldur.%player%}
+	delete {oldurdu.%player%}
+	
+command /görev:
+	aliases: gorev
+	trigger:
+		open chest with 6 rows named "&eGörev Menüsü" to player
+		wait 10 ticks
+		format slot 4 of player with book named " &bGörev Bilgi" with lore "|| &7Daha fazla kazanç ve anahtar için|| &7sana uygun olan görevi seç ve işe koyul!" to close
+		format slot 20 of player with 48 named "&dYosun Taş Görevi" with lore "|| &eYapılacaklar:|| &7▪ &a7500 Yosunlu Taş kazmak.|| || &eÖdüller:|| &7▪ &a1.000 &b(Oyun Parası)|| &7▪ &a1 God kasası anahtarı|| &7▪ &a1 OyVer kasası anahtarı|||| &cGöreve girmek için sağ tıkla!" to close then run [execute player command "görevegir:tas"]
+		format slot 22 of player with cooked beef named "&dİnek Görevi" with lore "|| &eYapılacaklar:|| &7▪ &a110 İnek Öldür.|| || &eÖdüller:|| &7▪ &a1.000 &b(Oyun Parası)|| &7▪ &a1 God kasası anahtarı|| &7▪ &a1 OyVer kasası anahtarı|||| &cGöreve girmek için sağ tıkla!" to close then run [execute player command "görevegir:inek"]
+		format slot 24 of player with rotten flesh named "&dZombi Görevi" with lore "|| &eYapılacaklar:|| &7▪ &a110 Zombi Öldür.|| || &eÖdüller:|| &7▪ &a1.000 &b(Oyun Parası)|| &7▪ &a1 God kasası anahtarı|| &7▪ &a1 OyVer kasası anahtarı|||| &cGöreve girmek için sağ tıkla!" to close then run [execute player command "görevegir:zombi"]
+		format slot 38 of player with Bone named "&dIskelet Görevi" with lore "|| &eYapılacaklar:|| &7▪ &a105 Iskelet Öldür.|| || &eÖdüller:|| &7▪ &a1.000 &b(Oyun Parası)|| &7▪ &a1 God kasası anahtarı|| &7▪ &a1 OyVer kasası anahtarı|||| &cGöreve girmek için sağ tıkla!" to close then run [execute player command "görevegir:iskelet"]
+		format slot 40 of player with diamond sword named "&dOyuncu Görevi" with lore "|| &eYapılacaklar:|| &7▪ &a50 Oyuncu Öldür.|| || &eÖdüller:|| &7▪ &a1.000 &b(Oyun Parası)|| &7▪ &a1 God kasası anahtarı|| &7▪ &a1 OyVer kasası anahtarı|||| &cGöreve girmek için sağ tıkla!" to close then run [execute player command "görevegir:oyuncu"]
+		format slot 42 of player with cooked porkchop named "&dDomuz Görevi" with lore "|| &eYapılacaklar:|| &7▪ &a100 Domuz Öldür.|| || &eÖdüller:|| &7▪ &a1.000 &b(Oyun Parası)|| &7▪ &a1 God kasası anahtarı|| &7▪ &a1 OyVer kasası anahtarı|||| &cGöreve girmek için sağ tıkla!" to close then run [execute player command "görevegir:domuz"]
+				
+# Görevden çık
+		
+command /görevdençık:
+	aliases: gorevdencik
+	trigger:
+		if {gorevsureci.%player%} is set:
+			delete {gorevsureci.%player%}
+			delete {gorev.iskelet.%player%}
+			delete {iskelet.oldurdu.%player%}
+			delete {gorev.inek.%player%}
+			delete {inek.oldurdu.%player%}
+			delete {tas.kirdi.%player%}
+			delete {gorev.tas.%player%}
+			delete {zombi.oldurdu.%player%}
+			delete {gorev.zombi.%player%}
+			delete {oyuncu.oldurdu.%player%}
+			delete {gorev.oyuncu.%player%}
+			delete {gorev.domuz.%player%}
+			delete {domuz.oldurdu.%player%}
+			send "{@prefix} &7Başarıyla görevden &cçıktın" to player
+		else:
+			send "{@prefix} &7Zaten herhangi bir görevde değilsiniz." to player
+			
+# Görev Bilgi
+			
+command /görevbilgi:
+	aliases: gorevbilgi
+	trigger:
+		if {gorevsureci.%player%} is set:
+			if {gorev.tas.%player%} is set:
+				send "{@prefix} &7Görevin &b/warp orman &7de &b{@tas} &7yosunlu taş kırmak." to player
+				send "&7Senin şu ana kadar kırdığın yosunlu taş sayısı &6%{tas.kirdi.%player%}%" to player	
+			if {gorev.inek.%player%} is set:	
+				send "{@prefix} &7Görevin &b/warp orman&7 da &b{@inek} &7inek öldürmek." to player
+				send "&7Senin şu ana kadar öldürdüğün inek sayısı &6%{inek.oldurdu.%player%}%" to player	
+			if {gorev.zombi.%player%} is set:	
+				send "{@prefix} &7Görevin &b/warp orman&7 da &b{@zombi} &7zombi öldürmek." to player
+				send "&7Senin şu ana kadar öldürdüğün zombi sayısı &6%{zombi.oldurdu.%player%}%" to player
+			if {gorev.iskelet.%player%} is set:	
+				send "{@prefix} &7Görevin &b/warp orman&7 da &b{@iskelet} &7iskelet öldürmek." to player
+				send "&7Senin şu ana kadar öldürdüğün iskelet sayısı &6%{iskelet.oldurdu.%player%}%" to player
+			if {gorev.oyuncu.%player%} is set:
+				send "{@prefix} &7Görevin &b{@oyuncu} &7oyuncuyu öldürmek." to player
+				send "&7Senin şu ana kadar öldürdüğün oyuncu sayısı &6%{oyuncu.oldurdu.%player%}%" to player
+			if {gorev.domuz.%player%} is set:
+				send "{@prefix} &7Görevin &b{@domuz} &7domuz öldürmek." to player
+				send "&7Senin şu ana kadar öldürdüğün domuz sayısı &6%{domuz.oldurdu.%player%}%" to player
+		else:
+			send "{@prefix} &7Şuanda herhangi bir görevde değilsiniz, almak için &6/görev &7yazmalısınız." to player
+# KIRIKTAS 		
+		
+command /görevegir:tas:
+	trigger:
+		if {gorevsureci.%player%} is not set:
+			set {gorevsureci.%player%} to true
+			set {gorev.tas.%player%} to true
+			set {tas.kirdi.%player%} to 0
+			send "{@prefix} &7Göreve girdin, ne yapacağını öğrenmek için &e/görevbilgi &7yazmalısınız." to player
+		else:
+			send "{@prefix} &7Zaten herhangi bir göreve girmişsiniz, çıkmak için &c/görevdençık" to player
+			
+on break of 48:
+	if {gorevsureci.%player%} is set:
+		if {gorev.tas.%player%} is set:
+			add 1 to {tas.kirdi.%player%}
+			set action bar of player to "&6Kırılan Yosunlu Taşlar &8► &7%{tas.kirdi.%player%}%&8/&7{@tas}"
+			if {tas.kirdi.%player%} is greater than or equal to {@tas}:
+				send player title "&eGörev Tamamlandı" with subtitle "&d● &7Ödülleriniz verildi." for 3 seconds
+				execute console command "eco give %player% 1000"
+				execute console command "crazycrates give physical oyver 1 %player%"
+				execute console command "crazycrates give physical god 1 %player%"
+				delete {tas.kirdi.%player%}
+				delete {gorev.tas.%player%}
+				delete {gorevsureci.%player%}
+				
+				
+
+			
+# ZOMBI
+				
+				
+				
+			
+command /görevegir:zombi:
+	trigger:
+		if {gorevsureci.%player%} is not set:
+			set {gorevsureci.%player%} to true
+			set {gorev.zombi.%player%} to true
+			set {zombi.oldurdu.%player%} to 0
+			send "{@prefix} &7Göreve girdin, ne yapacağını öğrenmek için &e/görevbilgi &7yazmalısınız." to player
+		else:
+			send "{@prefix} &7Zaten herhangi bir göreve girmişsiniz, çıkmak için &c/görevdençık" to player
+			
+on death of zombie:
+	attacker is a player
+	if {gorevsureci.%attacker%} is set:
+		if {gorev.zombi.%attacker%} is set:
+			add 1 to {zombi.oldurdu.%attacker%}
+			set action bar of attacker to "&6Öldürülen Zombi'ler &8► &7%{zombi.oldurdu.%attacker%}%&8/&7{@zombi}"
+			if {zombi.oldurdu.%attacker%} is greater than or equal to {@zombi}:
+				send attacker title "&eGörev Tamamlandı" with subtitle "&d● &7Ödülleriniz verildi." for 3 seconds
+				execute console command "eco give %player% 1000"
+				execute console command "crazycrates give physical oyver 1 %player%"
+				execute console command "crazycrates give physical god 1 %player%"
+				delete {zombi.oldurdu.%attacker%}
+				delete {gorev.zombi.%attacker%}
+				delete {gorevsureci.%attacker%}
+			
+			
+# OYUNCU			
+			
+			
+command /görevegir:oyuncu:
+	trigger:
+		if {gorevsureci.%player%} is not set:
+			set {gorevsureci.%player%} to true
+			set {gorev.oyuncu.%player%} to true
+			set {oyuncu.oldurdu.%player%} to 0
+			send "{@prefix} &7Göreve girdin, ne yapacağını öğrenmek için &e/görevbilgi &7yazmalısınız." to player
+		else:
+			send "{@prefix} &7Zaten herhangi bir göreve girmişsiniz, çıkmak için &c/görevdençık" to player
+			
+on death of player:
+	attacker is a player
+	victim is a player
+	if {gorevsureci.%attacker%} is set:
+		if {gorev.oyuncu.%attacker%} is set:
+			add 1 to {oyuncu.oldurdu.%attacker%}
+			set action bar of attacker to "&6Öldürülen Oyuncular &8► &7%{oyuncu.oldurdu.%attacker%}%&8/&7{@oyuncu}"
+			if {oyuncu.oldurdu.%attacker%} is greater than or equal to {@oyuncu}:
+				send attacker title "&eGörev Tamamlandı" with subtitle "&d● &7Ödülleriniz verildi." for 3 seconds
+				execute console command "eco give %player% 1000"
+				execute console command "crazycrates give physical oyver 1 %player%"
+				execute console command "crazycrates give physical god 1 %player%"
+				delete {oyuncu.oldurdu.%attacker%}
+				delete {gorev.oyuncu.%attacker%}
+				delete {gorevsureci.%attacker%}
+			
+			
+						
+# ISKELET
+				
+				
+				
+			
+command /görevegir:iskelet:
+	trigger:
+		if {gorevsureci.%player%} is not set:
+			set {gorevsureci.%player%} to true
+			set {gorev.iskelet.%player%} to true
+			set {iskelet.oldurdu.%player%} to 0
+			send "{@prefix} &7Göreve girdin, ne yapacağını öğrenmek için &e/görevbilgi &7yazmalısınız." to player
+		else:
+			send "{@prefix} &7Zaten herhangi bir göreve girmişsiniz, çıkmak için &c/görevdençık" to player
+			
+on death of skeleton:
+	attacker is a player
+	if {gorevsureci.%attacker%} is set:
+		if {gorev.iskelet.%attacker%} is set:
+			add 1 to {iskelet.oldurdu.%attacker%}
+			set action bar of attacker to "&6Öldürülen Iskelet'ler &8► &7%{iskelet.oldurdu.%attacker%}%&8/&7{@iskelet}"
+			if {iskelet.oldurdu.%attacker%} is greater than or equal to {@iskelet}:
+				send attacker title "&eGörev Tamamlandı" with subtitle "&d● &7Ödülleriniz verildi." for 3 seconds
+				execute console command "eco give %player% 1000"
+				execute console command "crazycrates give physical oyver 1 %player%"
+				execute console command "crazycrates give physical god 1 %player%"
+				delete {iskelet.oldurdu.%attacker%}
+				delete {gorev.iskelet.%attacker%}
+				delete {gorevsureci.%attacker%}
+			
+			
+
+
+	
+# INEK
+				
+				
+				
+			
+command /görevegir:inek:
+	trigger:
+		if {gorevsureci.%player%} is not set:
+			set {gorevsureci.%player%} to true
+			set {gorev.inek.%player%} to true
+			set {inek.oldurdu.%player%} to 0
+			send "{@prefix} &7Göreve girdin, ne yapacağını öğrenmek için &e/görevbilgi &7yazmalısınız." to player
+		else:
+			send "{@prefix} &7Zaten herhangi bir göreve girmişsiniz, çıkmak için &c/görevdençık" to player
+			
+on death of cow:
+	attacker is a player
+	if {gorevsureci.%attacker%} is set:
+		if {gorev.inek.%attacker%} is set:
+			add 1 to {inek.oldurdu.%attacker%}
+			set action bar of attacker to "&6Öldürülen Inek'ler &8► &7%{inek.oldurdu.%attacker%}%&8/&7{@inek}"
+			if {inek.oldurdu.%attacker%} is greater than or equal to {@inek}:
+				send attacker title "&eGörev Tamamlandı" with subtitle "&d● &7Ödülleriniz verildi." for 3 seconds
+				execute console command "eco give %player% 1000"
+				execute console command "crazycrates give physical oyver 1 %player%"
+				execute console command "crazycrates give physical god 1 %player%"
+				delete {inek.oldurdu.%attacker%}
+				delete {gorev.inek.%attacker%}
+				delete {gorevsureci.%attacker%}
+			
+			
+	
+# DOMUZ
+				
+				
+				
+			
+command /görevegir:domuz:
+	trigger:
+		if {gorevsureci.%player%} is not set:
+			set {gorevsureci.%player%} to true
+			set {gorev.domuz.%player%} to true
+			set {domuz.oldurdu.%player%} to 0
+			send "{@prefix} &7Göreve girdin, ne yapacağını öğrenmek için &e/görevbilgi &7yazmalısınız." to player
+		else:
+			send "{@prefix} &7Zaten herhangi bir göreve girmişsiniz, çıkmak için &c/görevdençık" to player
+			
+on death of pig:
+	attacker is a player
+	if {gorevsureci.%attacker%} is set:
+		if {gorev.domuz.%attacker%} is set:
+			add 1 to {domuz.oldurdu.%attacker%}
+			set action bar of attacker to "&6Öldürülen Domuz'lar &8► &7%{domuz.oldurdu.%attacker%}%&8/&7{@domuz}"
+			if {domuz.oldurdu.%attacker%} is greater than or equal to {@domuz}:
+				send attacker title "&eGörev Tamamlandı" with subtitle "&d● &7Ödülleriniz verildi." for 3 seconds
+				execute console command "eco give %player% 1000"
+				execute console command "crazycrates give physical oyver 1 %player%"
+				execute console command "crazycrates give physical god 1 %player%"
+				delete {domuz.oldurdu.%attacker%}
+				delete {gorev.domuz.%attacker%}
+				delete {gorevsureci.%attacker%}

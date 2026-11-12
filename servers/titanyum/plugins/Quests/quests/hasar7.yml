@@ -1,0 +1,36 @@
+tasks:
+  dealdamage:
+    type: "dealdamage"
+    amount: 20000
+    worlds:
+     - 'SQ-1'
+
+display:
+  name: "&eHasar VII"
+  lore-normal:
+    - "&7Karanlık olduğu halde"
+    - "&7rakibini öldür &c"
+    - ""
+    - "&7Durum: &fHasar ver"
+    - ""
+    - "&7Odül: &f50.000 ⛃"
+  lore-started:
+    - ""
+    - "&7Mevcut ilerlemeniz:"
+    - "&c{dealdamage:progress}/50000 Hasar ver"
+  type: "APPLE"
+
+rewards:
+  - "eco give {player} 100"
+
+placeholders:
+  description: "&7Mevcut ilerlemeniz:"
+  progress: "&c{dealdamage:progress}/50000 Hasar ver"
+
+options:
+  category: "hasar"
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 1440
+  sort-order: 1

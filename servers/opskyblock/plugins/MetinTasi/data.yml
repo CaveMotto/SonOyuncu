@@ -1,0 +1,44 @@
+Lokasyonlar:
+  MetinTaslari_0:
+    X: -2341
+    Y: 11
+    Z: -313
+    Dunya: Spawn
+    MetinCan: 100
+  MetinTaslari_1:
+    X: -2347
+    Y: 11
+    Z: -313
+    Dunya: Spawn
+    MetinCan: 100
+  MetinTaslari_2:
+    X: -2352
+    Y: 11
+    Z: -316
+    Dunya: Spawn
+    MetinCan: 100
+  MetinTaslari_3:
+    X: -2352
+    Y: 11
+    Z: -322
+    Dunya: Spawn
+    MetinCan: 100
+  MetinTaslari_4:
+    X: -2352
+    Y: 11
+    Z: -328
+    Dunya: Spawn
+    MetinCan: 100
+  MetinTaslari_6:
+    X: -2341
+    Y: 11
+    Z: -331
+    Dunya: Spawn
+    MetinCan: 100
+  MetinTaslari_7:
+    X: -2347
+    Y: 11
+    Z: -331
+    Dunya: Spawn
+    MetinCan: 100
+count: 8

@@ -1,0 +1,65 @@
+Settings:
+  messagesOrder: NORMAL
+  interval: 60
+  minOnlineCountForWork: 1
+  noPermMessage: §cYou don't have permissions!
+  enableVariables: true
+  debugJsonErrors: false
+Messages:
+  '1':
+    SHOWMODE: ONLYFOR
+    SERVERS:
+    - cakmalobi
+    - lobi
+    - opskyblock
+    - bedwars
+    - sheepquest
+    - factions
+    - titanyum
+    LINES:
+    - '&8≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋'
+    - ''
+    - '    &aDiscord''a &7katılarak arkadaşlarınla sohbet et!'
+    - '    &7Yeni gelen güncellemelerden ilk sen haberder ol!'
+    - ''
+    - '               &bby Motto - Yerel Ag'
+    - ''
+    - '&8≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋'
+  '2':
+    SHOWMODE: ONLYFOR
+    SERVERS:
+    - cakmalobi
+    - lobi
+    - opskyblock
+    - bedwars
+    - sheepquest
+    - factions
+    - titanyum
+    LINES:
+    - '&8≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋'
+    - ''
+    - '         &aSunucumuza &7ilk ay''a özel ucuz &6VIP'
+    - '                    &7Satın Alma Şansı'
+    - ''
+    - '               &bhttps://by Motto'
+    - ''
+    - '&8≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋'
+  '3':
+    SHOWMODE: ONLYFOR
+    SERVERS:
+    - cakmalobi
+    - lobi
+    - opskyblock
+    - bedwars
+    - sheepquest
+    - factions
+    - titanyum
+    LINES:
+    - '&8≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋'
+    - ''
+    - '         &aSunucumuza OyVer''ceniz Zaman Bizden'
+    - '           &7Çeşitli Ödüller Kazanabilirsiniz'
+    - ''
+    - '                     &b/OyVer'
+    - ''
+    - '&8≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋'

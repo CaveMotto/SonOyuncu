@@ -1,0 +1,86 @@
+menu_title: '&7Kit'
+open_command:
+- kit
+size: 27
+items:
+  'camlar': 
+    material: STAINED_GLASS_PANE
+    data: 15
+    amount: 1
+    slots:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 12
+    - 14
+    - 16
+    - 17
+    - 18
+    - 19
+    - 20
+    - 21
+    - 22
+    - 23
+    - 24
+    - 25
+    - 26
+    display_name: '&7' 
+  'oyuncu-kit':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmFiODc5ZTFlNTkwMDQxMTQ2YmM3OGMwMThhZjU4NzdkMzllNTQ3NWViN2RiMzY4ZmNhZjJhY2RhMzczODMzZCJ9fX0=
+    slot: 11
+    display_name: '&eOyuncu Kitleri'
+    lore:
+    - ''
+    - '&7Oyuncu Kitlerine Ulabişirsiniz.'
+    - ''
+    - '&dby Motto'
+    - ''
+    - '&8► &aListelemek için tıkla.'
+    left_click_commands:   
+    - '[player] oyuncukit'
+    - '[close]'
+    right_click_commands:
+    - '[player] oyuncukit'
+    - '[close]'
+  'yetki-kit':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWUxMDVkMzRkMzY0OGFkZmI4MzU5MTUwMmM3MWJhOGYwNjE4ODRmMTQwNTU1MWY3ZGE2MThjYzZiMjIzZjgifX19
+    slot: 13
+    display_name: '&eYetki Kitleri'
+    lore:
+    - ''
+    - '&7Yetki Kitlerine Ulabişirsiniz.'
+    - ''
+    - '&dby Motto'
+    - ''
+    - '&8► &aListelemek için tıkla.'
+    left_click_commands:   
+    - '[player] yetkikit'
+    - '[close]'
+    right_click_commands:
+    - '[player] yetkikit'
+    - '[close]'
+  'vip-kit':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWEzODBhZTdlMWU2ZWViZmI2NjAzYzkxZmEyOWQyYzg2ZGVmNjAxNjU3MmJjZDg2MDVjMmVlNWRjNjgyOTAwNyJ9fX0=
+    slot: 15
+    display_name: '&eVip Kitleri'
+    lore:
+    - ''
+    - '&7Vip Kitlerine Ulabişirsiniz.'
+    - ''
+    - '&dby Motto'
+    - ''
+    - '&8► &aListelemek için tıkla.'
+    left_click_commands:   
+    - '[player] vipkit'
+    - '[close]'
+    right_click_commands:
+    - '[player] vipkit'
+    - '[close]'

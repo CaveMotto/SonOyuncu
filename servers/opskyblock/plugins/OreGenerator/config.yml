@@ -1,0 +1,14 @@
+Chances:
+  Coal: 15
+  Iron: 10
+  Gold: 5
+  Redstone: 18
+  Lapis: 21
+  Emerald: 1
+  Diamond: 2
+Worlds:
+- ASkyBlock
+- ASkyBlock_nether
+- world
+- world_nether
+- world_the_end

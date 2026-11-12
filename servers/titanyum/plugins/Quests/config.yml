@@ -1,0 +1,216 @@
+gui:
+  back-button:
+    name: "&cGeri"
+    type: "ARROW"
+  page-prev:
+    name: "&cGeri"
+    type: "FEATHER"
+  page-next:
+    name: "&7Next Page"
+    lore:
+    - "&7Switch the page to page &c{nextpage}."
+    type: "FEATHER"
+  page-desc:
+    name: "&7Page &c{page}"
+    lore:
+    - "&7You are currently viewing page &c{page}."
+    type: "PAPER"
+  quest-locked-display:
+    name: "&c&lQuest Locked"
+    lore:
+    - "&7You have not completed the requirements"
+    - "&7for this quest (&c{quest}&7)."
+    - ""
+    - "&7Requires: &c{requirements}"
+    - "&7to be completed to unlock."
+    type: "RED_STAINED_GLASS_PANE"
+  quest-permission-display:
+    name: "&6&lNo Permission"
+    lore:
+    - "&7You do not have permission for this"
+    - "&6Survival &7▶  (&6{quest}&7)."
+    type: "BROWN_STAINED_GLASS_PANE"
+  quest-cooldown-display:
+    name: "&e&lQuest On Cooldown"
+    lore:
+    - "&7You have recently completed this quest"
+    - "&7(&e{quest}&7) and you must"
+    - "&7wait another &e{time} &7to unlock again."
+    type: "ORANGE_STAINED_GLASS_PANE"
+  quest-completed-display:
+    name: "&aGörev Tamamlandı"
+    lore:
+    - ""
+    - "&7Bu görevi tamamlanmış."
+    - "&7(&d{quest}&7) ödülü sizlere"
+    - "&7teslim edildi."
+    type: "ENCHANTED_BOOK"
+  no-started-quests:
+    name: "&c&lNo Started Quests"
+    lore:
+    - "&7Go start some!"
+    type: "FEATHER"
+  quest-cancel-yes:
+    name: "&a&lONAYLA"
+    type: "GREEN_STAINED_GLASS_PANE"
+  quest-cancel-no:
+    name: "&c&lIPTAL ET"
+    type: "RED_STAINED_GLASS_PANE"
+  quest-cancel-background:
+    type: "GRAY_STAINED_GLASS_PANE"
+
+options:
+  categories-enabled: true
+  trim-gui-size: true
+  titles-enabled: true
+  quest-limit:
+    default: 3
+  allow-quest-cancel: true
+  allow-quest-track: true
+  guinames:
+    quests-category: "Görev Menu"
+    quests-menu: "Görev Menu"
+    quests-started-menu: "Görev Menu"
+    daily-quests: "Görev Menu"
+    quest-cancel: "Görev Menu"
+  sounds:
+    quest-start: "ENTITY_PLAYER_LEVELUP:2:3"
+    quest-cancel: "UI_TOAST_OUT:2:3"
+    quest-complete: "UI_TOAST_CHALLENGE_COMPLETE:1.25:3"
+    gui:
+      open: "ITEM_BOOK_PAGE_TURN:1:3"
+      interact: ""
+  gui-hide-locked: false
+  gui-confirm-cancel: true
+  gui-hide-quests-nopermission: false
+  gui-hide-categories-nopermission: false
+  gui-use-placeholderapi: false
+  gui-truncate-requirements: true
+  gui-actions:
+    start-quest: "LEFT"
+    track-quest: "MIDDLE"
+    cancel-quest: "RIGHT"
+  quest-autostart: false
+  quest-autotrack: true
+  verbose-logging-level: 2
+  record-log-history: true
+  quests-use-placeholderapi: false
+  verify-quest-exists-on-load: true
+  performance-tweaking:
+    quest-queue-executor-interval: 1
+    quest-autosave-interval: 12000
+  tab-completion:
+    enabled: true
+  error-checking:
+    override-errors: false
+  placeholder-cache-time: 10
+  global-task-configuration-override: false
+  global-quest-display-configuration-override: false
+  storage:
+    provider: "yaml"
+    synchronisation:
+      delay-loading: 0
+    database-settings:
+      network:
+        database: "minecraft"
+        username: "root"
+        password: ""
+        address: "localhost:3306"
+      connection-pool-settings:
+        maximum-pool-size: 8
+        minimum-idle: 8
+        maximum-lifetime: 1800000
+        connection-timeout: 5000
+      table-prefix: "quests_"
+
+
+quest-mode:
+  mode: "NORMAL"
+
+global-quest-display:
+  lore:
+#      - "..."
+    append-not-started:
+      - ""
+      - "&eGörevi başlatmak için Sol Tıklayın."
+    append-started:
+      - ""
+      - "&aBu göreve başladınız."
+      - "&eGörevi izlemek için Orta Tıklayın."
+      - "&eGörevi iptal etmek için Sağ Tıklayın."
+    append-tracked:
+      - ""
+      - "&aBu göreve başladınız."
+      - "&eGörevi izlemek için Orta Tıklayın."
+      - "&eGörevi iptal etmek için Sağ Tıklayın."
+
+global-macros:
+  bar: "&6---&7---&6---"
+
+titles:
+  quest-start:
+    title: "&aGörev Başladı"
+    subtitle: "&7{quest}"
+  quest-complete:
+    title: "&cQuest Complete"
+    subtitle: "&7{quest}"
+
+messages:
+  time-format: "{hours}h {minutes}m"
+  quest-start: "&6Survival &7▶ &d{quest} &egörev başladı!"
+  quest-complete: "&6Survival &7▶ &d{quest} &eGörev Tamamlandı!"
+  quest-cancel: "&6Survival &7▶ &d{quest} &egörev iptal ettin!"
+  quest-expire: "&6Survival &7▶ &d{quest} &egörev tarihi geçti."
+  quest-track: "&6Survival &7▶ &d{quest} &egörevi izleniyor."
+  quest-track-stop: "&6Survival &7▶ &eArtık &d{quest} &egörevini izlemiyor"
+  quest-random-none: "&6Survival &7▶ &eBaşlayabileceğiniz hiçbir göreviniz yok."
+  quest-start-limit: "&6Survival &7▶ &eOyuncular bir seferde &d{limit} &ebaşlatılan görevlerle sınırlıdır."
+  quest-start-disabled: "&6Survival &7▶ &eBu görevi tekrarlayamazsınız."
+  quest-start-locked: "&6Survival &7▶ &eBu görevin kilidini henüz açmadın."
+  quest-start-cooldown: "&6Survival &7▶ &eBu görevi yakın zamanda tamamladınız. Yeniden başlatabilene kadar &d{time} &ebeklemeniz gerekir."
+  quest-start-started: "&6Survival &7▶ &eBu göreve zaten başladınız."
+  quest-start-permission: "&6Survival &7▶ &eBu görevi başlatmak için izniniz yok."
+  quest-category-permission: "&6Survival &7▶ &eBu kategoriyi görüntüleme izniniz yok."
+  quest-category-quest-permission: "&6Survival &7▶ &eGörüntüleme izniniz olmayan bir kategoride olduğu için bu göreve başlama izniniz yok."
+  quest-cancel-notstarted: "&6Survival &7▶ &eBu göreve başlamadınız."
+  quest-cancel-notcancellable: "&6Survival &7▶ &eBu görevi iptal edemezsiniz."
+  quest-updater: "&6Survival &7▶ &7A new version &c{newver} &7was found on Spigot (your version: &c{oldver}&7). Please update me! <3 - Link: {link}"
+  command-data-not-loaded: "&6Survival &7▶ &4Your quests progress file has not been loaded; you cannot use quests. If this issue persists, contact an admin."
+  command-sub-doesntexist: "&6Survival &7▶ &7The specified subcommand '&c{sub}' &7does not exist."
+  command-quest-cancel-specify: "&6Survival &7▶ &7You must specify a quest to cancel."
+  command-quest-start-doesntexist: "&6Survival &7▶ &7The specified quest '&c{quest}&7' does not exist."
+  command-quest-general-doesntexist: "&6Survival &7▶ &7The specified quest '&c{quest}&7' does not exist."
+  command-category-open-disabled: "&6Survival &7▶ &7Categories are disabled."
+  command-category-open-doesntexist: "&6Survival &7▶ &7The specified category '&c{category}&7' does not exist."
+  command-quest-admin-playernotfound: "&6Survival &7▶ &7Player '&c{player}&7' could not be found."
+  command-quest-openquests-admin-success: "&6Survival &7▶ &7Opened Quest GUI for player &c{player}&7."
+  command-quest-openstarted-admin-success: "&6Survival &7▶ &7Opened started Quest GUI for player &c{player}&7."
+  command-quest-opencategory-admin-success: "&6Survival &7▶ &7Opened category &c{category} &7for player &c{player}&7."
+  command-taskview-admin-fail: "&6Survival &7▶ &7Task type '&c{task}&7' does not exist."
+  beta-reminder: "&6Survival &7▶ &7Reminder: you are currently using a &cbeta &7version of Quests. Please send bug reports to https://github.com/LMBishop/Quests/issues and check for updates regularly using &c/quests admin update&7!"
+  command-quest-admin-loaddata: "&6Survival &7▶  data for '&c{player}&7' is being loaded."
+  command-quest-admin-nodata: "&6Survival &7▶ &7No data could be found for player &c{player}&7."
+  command-quest-admin-fullreset: "&6Survival &7▶ &7Data for player &c{player}&7 has been fully reset."
+  command-quest-admin-start-faillocked: "&6Survival &7▶  '&c{quest}&7' could not be started for player &c{player}&7. They have not yet unlocked it."
+  command-quest-admin-start-failcooldown: "&6Survival &7▶  '&c{quest}&7' could not be started for player &c{player}&7. It is still on cooldown for them."
+  command-quest-admin-start-failcomplete: "&6Survival &7▶  '&c{quest}&7' could not be started for player &c{player}&7. They have already completed it."
+  command-quest-admin-start-faillimit: "&6Survival &7▶  '&c{quest}&7' could not be started for player &c{player}&7. They have reached their quest start limit."
+  command-quest-admin-start-failstarted: "&6Survival &7▶  '&c{quest}&7' could not be started for player &c{player}&7. It is already started."
+  command-quest-admin-start-failpermission: "&6Survival &7▶  '&c{quest}&7' could not be started for player &c{player}&7. They do not have permission."
+  command-quest-admin-start-failcategorypermission: "&6Survival &7▶ &6Survival &7▶  '&c{quest}&7' could not be started for player &c{player}&7. They do not have permission for the category which the quest is in."
+  command-quest-admin-start-failother: "&6Survival &7▶ &6Survival &7▶  '&c{quest}&7' could not be started for player &c{player}&7."
+  command-quest-admin-start-success: "&6Survival &7▶ &6Survival &7▶  &c{quest} &7started for player &c{player}&7."
+  command-quest-admin-category-permission: "&6Survival &7▶ &7Category &c{category} &7 could not be opened for player &c{player}&7. They do not have permission to view it."
+  command-quest-admin-complete-success: "&6Survival &7▶ &6Survival &7▶  &c{quest} &7completed for player &c{player}&7."
+  command-quest-admin-reset-success: "&6Survival &7▶ &7Successfully reset quest '&c{quest}&7' for player &c{player}&7."
+  command-quest-admin-random-none: "&6Survival &7▶ &7Player &c{player}&7 has no quests which they can start."
+  command-quest-admin-random-success: "&6Survival &7▶ &7Successfully started random quest '&c{quest}&7' for player &c{player}&7."
+  command-quest-admin-random-category-none: "&6Survival &7▶ &7Player &c{player}&7 has no quests in category '&c{category}&7' which they can start."
+  command-quest-admin-random-category-success: "&6Survival &7▶ &7Successfully started random quest '&c{quest}&7' from category '&c{category}&7' for player &c{player}&7."
+  ui-placeholder-completed-true: "true"
+  ui-placeholder-completed-false: "false"
+  ui-placeholder-truncated: " +{amount} more"
+  placeholderapi-true: "true"
+  placeholderapi-false: "false"
+  placeholderapi-no-tracked-quest: "&6Survival &7▶ &eizlenen görev yok"
+  placeholderapi-data-not-loaded: "&6Survival &7▶ &eVeriler yüklenmedi"

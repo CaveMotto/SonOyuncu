@@ -1,0 +1,87 @@
+# Help translate this file into more languages!
+Messages:
+  Prefix: '&7[&6BetterRTP&7] '
+  Success:
+    Paid: '&aBáº¡n Ä‘Ã£ Ä‘Æ°á»£c dá»‹ch chuyá»ƒn tá»›i &7 x=%x% y=%y% z=%z% vá»›i
+      giÃ¡ &c$%price%&7 trong &f%attempts% &7láº§n!'
+    Bypass: '&aBáº¡n Ä‘Ã£ Ä‘Æ°á»£c dá»‹ch chuyá»ƒn tá»›i&7 x=%x% y=%y% z=%z% trong
+      &f%attempts% &7láº§n'
+    Loading: '&aVá»‹ trÃ­ an toÃ n Ä‘Æ°á»£c Ä‘á»‹nh vá»‹! &7Táº£i Ä‘á»‹a hÃ¬nh...'
+    Teleport: '&aDá»‹ch chuyá»ƒn... &fVui lÃ²ng Ä‘á»£i trong khi chÃºng tÃ´i tÃ¬m
+      tháº¥y má»™t vá»‹ trÃ­ an toÃ n!'
+  Failed:
+    Price: '&cKhÃ´ng thá»ƒ rtp vÃ¬ cÃ¡c quá»¹ khÃ´ng chÃ­nh thá»©c! &7Báº¡n pháº£i
+      cÃ³ Ã­t nháº¥t $%price% &7Ä‘á»ƒ dá»‹ch chuyá»ƒn!'
+    NotSafe: '&cKhÃ´ng thá»ƒ tÃ¬m tháº¥y vá»‹ trÃ­ an toÃ n trong %attempts% láº§n
+      tÃ¬m kiáº¿m! &7Báº¡n khÃ´ng Ä‘Æ°á»£c dá»‹ch chuyá»ƒn'
+    Hunger: '&cKhÃ´ng thá»ƒ dá»‹ch chuyá»ƒn vÃ¬ báº¡n... &7quÃ¡ Ä‘Ã³ii&c, Äƒn 1 chÃºt
+      gÃ¬ Ä‘i!'
+  Other:
+    Success: '&a%player% Ä‘Ã£ Ä‘Æ°á»£c dá»‹ch chuyá»ƒn tá»›i&7 x=%x% y=%y% z=%z% trong
+      &f%attempts% &7láº§n tÃ¬m kiáº¿m!'
+    NotSafe: '&cKhÃ´ng thá»ƒ tÃ¬m tháº¥y vá»‹ trÃ­ an toÃ n trong %attempts% láº§n
+      tÃ¬m kiáº¿m! &7%player% khÃ´ng Ä‘Æ°á»£c dá»‹ch chuyá»ƒn!'
+    Biome: '&cCÃ³ váº» nhÆ° biome&7 %biome%&c khÃ´ng tá»“n táº¡i! &7HÃ£y thá»­ dÃ¹ng
+      trong tablist!'
+  Reload: '&aTáº£i láº¡i config thÃ nh cÃ´ng!'
+  NoPermission:
+    Basic: '&cXin Lá»—i! &7Báº¡n khÃ´ng cÃ³ quyá»�n! &8Permission: %permission%'
+    World: '&cXin Lá»—i! &7Báº¡n khÃ´ng cÃ³ quyá»�n dá»‹ch chuyá»ƒn Ä‘áº¿n %world%
+      world! &8Permission: %permission%'
+  DisabledWorld: '&c%world% Ä‘Ã£ bá»‹ táº¯t dá»‹ch chuyá»ƒn! &7KhÃ´ng thá»ƒ dá»‹ch
+    chuyá»ƒn!'
+  Cooldown: '&cXin Lá»—i! &7Báº¡n khÃ´ng thá»ƒ dá»‹c chuyá»ƒn trong &c%time%&7!'
+  Locked: '&cXin Lá»—i! &7Báº¡n Ä‘Ã£ sá»­ dá»¥ng háº¿t táº¥t cáº£ RTP cá»§a mÃ¬nh!'
+  Invalid: '&cÄ�á»‘i sá»‘ khÃ´ng há»£p lá»‡. Thá»­ ''/%command% help'''
+  NotOnline: '&cNgÆ°á»�i chÆ¡i &7%player% &ckhÃ´ng hoáº¡t Ä‘á»™ng!'
+  Delay: '&aDá»‹ch chuyá»ƒn trong f%time% &agiÃ¢y! Ä�á»«ng dá»‹ch chuyá»ƒn!'
+  Moved: '&cBáº¡n Ä‘Ã£ di chuyá»ƒn! &7Dá»‹ch chuyá»ƒn ngáº«u nhiÃªn bá»‹ há»§y'
+  NotExist: '&cCÃ³ váº» nhÆ° tháº¿ giá»›i &7%world% &ckhÃ´ng tá»“n táº¡i!'
+  Already: '&cCÃ³ váº» nhÆ°uu! &7CÃ³ váº» nhÆ° báº¡n Ä‘Ã£ chuáº©n bá»‹ dá»‹ch chuyá»ƒn,
+    hÃ£y kiÃªn nháº«n má»™t chÃºt!'
+  Sign: '&7Lá»‡nh báº£ng Ä‘Ã£ Ä‘Æ°á»£c táº¡o! &7Lá»‡nh lÃ ... ''&f/rtp %command%&7'''
+  Edit:
+    Error: '&cLá»—i! &7 Ä�áº§u vÃ o khÃ´ng há»£p lá»‡ Ä‘Æ°á»£c cung cáº¥p!'
+    Set: '&bThÃ nh cÃ´ng! &7%type% Ä‘áº·t thÃ nh %value%'
+    Remove: '&cLoáº¡i bá»�! &7Báº¡n Ä‘Ã£ loáº¡i bá»� world %world%'
+Help:
+  Prefix: '&e&m-----&6&l BetterRTP &8| Help &e&m-----'
+  Main: ' &7- &e/%command% &7- Dá»‹ch chuyá»ƒn ngáº«u nhiÃªn!'
+  Biome: ' &7- &e/%command% biome <quáº§n xÃ£ 1, quáº§n xÃ£ 2,......> &7- Dá»‹ch chuyá»ƒn
+    má»™t cÃ¡ch ngáº«u nhiÃªn nhá»¯ng quáº§n xÃ£ sinh váº­t nÃ y'
+  Edit: ' &7- &e/%command% edit <default/world> [args...] &7- Chá»‰nh sá»­a má»™t
+    sá»‘ cÃ i Ä‘áº·t plugin'
+  Help: ' &7- &e/%command% help &7- Hiá»ƒn thá»‹ danh sÃ¡ch trá»£ giÃºp'
+  Info: ' &7- &e/%command% info [world/particles/shapes/potion_effects] &7- Xem cá»¥
+    thá»ƒ thÃ´ng tin vá»� cÃ¡c thÃ´ng sá»‘ plugin'
+  Player: ' &7- &e/%command% player <ngÆ°á»�i chÆ¡i> [tháº¿ giá»›i] [quáº§n xÃ£ 1,
+    quáº§n xÃ£ 2,......] &7-Dá»‹ch chuyá»ƒn ngáº«u nhiÃªn ngÆ°á»�i chÆ¡i khÃ¡c'
+  Reload: ' &7- &e/%command% reload &7- Táº£i láº¡i plugins'
+  Settings: ' &7- &e/%command% settings &7- KÃ©o má»™t gui lÃªn vÃ  chá»‰nh sá»­a
+    má»™t sá»‘ cÃ i Ä‘áº·t'
+  Test: ' &7- &e/%command% test &7- Kiá»ƒm tra cÃ¡c hiá»‡u á»©ng plugin sau khi dá»‹ch
+    chuyá»ƒn tá»©c thá»�i mÃ  khÃ´ng cÃ³ Ä‘á»™ng'
+  Version: ' &7- &e/%command% version &7- Xem phiÃªn báº£n hiá»‡n Ä‘ang cháº¡y'
+  World: ' &7- &e/%command% world <tháº¿ giá»›i> [quáº§n xÃ£ 1, quáº§n xÃ£ 2,......]
+    &7- Dá»‹ch chuyá»ƒn ngáº«u nhiÃªn á»Ÿ má»™t tháº¿ giá»›i khÃ¡c'
+  Location: ' &7- &e/%command% location <tÃªn Ä‘á»‹a Ä‘iá»ƒm> &7- Dá»‹ch chuyá»ƒn
+    báº±ng cÃ¡ch sá»­ dá»¥ng má»™t vá»‹ trÃ­ cá»¥ thá»ƒ'
+Usage:
+  Player: '&cUsage&7: /%command% player <ngÆ°á»�i chÆ¡i> [tháº¿ giá»›i] [quáº§n xÃ£
+    1, quáº§n xÃ£ 2]'
+  World: '&cUsage&7: /%command% world <tháº¿ giá»›i> [quáº§n xÃ£ 1, quáº§n xÃ£ 2,......]'
+  Biome: '&cUsage&7: /%command% biome <quáº§n xÃ£ 1, quáº§n xÃ£ 2,......>'
+  Location: '&cUsage&7: /%command% location <tÃªn Ä‘á»‹a Ä‘iá»ƒm>'
+  Edit:
+    Base: '&cUsage&7: /%command% edit <default/world> [args...]'
+    Default: '&cUsage&7: /%command% edit default <max/min/useworldborder/center> <value>'
+    World: '&cUsage&7: /%command% edit world <tháº¿ giá»›i> <max/min/useworldborder/center>
+      <value>'
+    PermissionGroup: '&cUsage&7: /%command% edit permission_group <group> <world>
+      <max/min/useworldborder/center> <value>'
+    Location: '&cUsage&7: /%command% edit location <location_name> <max/min/useworldborder/center>
+      <value>'
+    Worldtype: '&cUsage&7: /%command% edit world_type <tháº¿ giá»›i> <NETHER/NORMAL>'
+    Override: '&cUsage&7: /%command% edit override <tháº¿ giá»›i> <world_to>'
+    BlacklistedBlocks: '&cUsage&7: /%command% edit blacklistedblocks <add/remove>
+      <block_id>'

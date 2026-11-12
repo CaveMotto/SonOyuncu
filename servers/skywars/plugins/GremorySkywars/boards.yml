@@ -1,0 +1,75 @@
+boards_options:
+  minutesTopUpdate: 30
+armorstand_options:
+  style1:
+  - '&e-> &6#1 &e<-'
+  - ''
+  - '&a<nick>'
+  - '&b<status> Öldürme'
+  style2:
+  - '&e-> &6#2 &e<-'
+  - ''
+  - '&a<nick>'
+  - '&b<status> Öldürme'
+  style3:
+  - '&e-> &6#3 &e<-'
+  - ''
+  - '&a<nick>'
+  - '&b<status> Öldürme'
+  style4:
+  - '&e-> &6#4 &e<-'
+  - ''
+  - '&a<nick>'
+  - '&b<status> Öldürme'
+  style5:
+  - '&e-> &6#5 &e<-'
+  - ''
+  - '&a<nick>'
+  - '&b<status> Öldürme'
+armorstand_options_wins:
+  style1:
+  - '&e-> &6#1 &e<-'
+  - ''
+  - '&e<nick>'
+  - '&6<status> &7Wins'
+  style2:
+  - '&f&lIMPERIAL'
+  - ''
+  - '&e<nick>'
+  - '&6<status> &7Wins'
+  style3:
+  - '&6&lLEGEND'
+  - ''
+  - '&e<nick>'
+  - '&6<status> &7Wins'
+  style4:
+  - '&7&lMASTER'
+  - ''
+  - '&e<nick>'
+  - '&6<status> &7Wins'
+  style5:
+  - '&3&lROOKIE'
+  - ''
+  - '&e<nick>'
+  - '&6<status> &7Wins'
+boards:
+  '1':
+    type: kills
+    slot: 1
+    location: 'Lobi : -25.5 : 62.0 : 37.5 : 11.250007 : -92.700005'
+  '2':
+    type: kills
+    slot: 2
+    location: 'Lobi : -25.5 : 61.0 : 35.5 : 8.39999 : -88.04998'
+  '3':
+    type: kills
+    slot: 3
+    location: 'Lobi : -25.5 : 61.0 : 39.5 : 4.1999927 : -90.15'
+  '4':
+    type: kills
+    slot: 4
+    location: 'Lobi : -25.5 : 60.0 : 33.5 : 18.750002 : -91.50007'
+  '5':
+    type: kills
+    slot: 5
+    location: 'Lobi : -25.5 : 60.0 : 41.5 : 9.150003 : -87.30007'

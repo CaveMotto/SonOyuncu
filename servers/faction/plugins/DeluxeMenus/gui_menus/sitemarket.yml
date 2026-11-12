@@ -1,0 +1,53 @@
+menu_title: '&7Site Market'
+open_command:
+- sitemarket
+size: 27
+items:
+  'edit-eşyalar':
+    material: 33
+    slot: 11
+    display_name: '&e&lEDIT ESYALAR'
+    lore:
+    - ''
+    - '&7Faction Credit Alabilceğin Kazmalar'
+    - '&7Yosunlu Taşlar Neler Kazandırıyor.' 
+    - ''
+    - "&eListelemek İçin Tıkla"
+    left_click_commands:   
+    - '[player] eşyalar'
+    - '[close]'
+    right_click_commands:
+    - '[player] eşyalar'
+    - '[close]'
+  'anahtar':
+    material: 131
+    slot: 13
+    display_name: '&e&lANAHTAR'
+    lore:
+    - ''
+    - '&7Faction Credit Alabilceğin Kazmalar'
+    - '&7Yosunlu Taşlar Neler Kazandırıyor.' 
+    - ''
+    - "&eListelemek İçin Tıkla"
+    left_click_commands:   
+    - '[player] anahtar'
+    - '[close]'
+    right_click_commands:
+    - '[player] anahtar'
+    - '[close]'
+  'bakiye':
+    material: 175
+    slot: 15
+    display_name: '&e&lBAKIYE'
+    lore:
+    - ''
+    - '&7Faction Credit Alabilceğin Kazmalar'
+    - '&7Yosunlu Taşlar Neler Kazandırıyor.' 
+    - ''
+    - "&eListelemek İçin Tıkla"
+    left_click_commands:   
+    - '[player] bakiye'
+    - '[close]'
+    right_click_commands:
+    - '[player] bakiye'
+    - '[close]'

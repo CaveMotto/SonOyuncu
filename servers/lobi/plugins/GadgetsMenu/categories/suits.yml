@@ -1,0 +1,1426 @@
+Suits:
+  Frog:
+    Name: '&6 Kurbağa'
+    Enabled: true
+    Cooldown: 0
+    Equipments:
+      Frog Helmet:
+        Name: '&6 Kurbağa Kask'
+        Mystery Dust: 80
+        Rarity: Legendary
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+          Locked:
+          - ''
+          - '&7 Bu eşyayı gizemli kasa açarak'
+          - '&7 çıkartabilirsin.'
+          - ''
+          - '&8 ▪ &7Durum: &c✕'
+          - ''
+          - '&c &nBunu kullanamazsın.'
+          Unlocked:
+          - '&7'
+          - '&8 ▪ &7Durum: &a✔'
+          - ''
+          - '&e &nSeçimi kaldırmak için tıklayın.'
+      Frog Chestplate:
+        Name: '&5 Kurbağa Göğüslük'
+        Mystery Dust: 32
+        Rarity: Epic
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+          Locked:
+          - ''
+          - '&7 Bu eşyayı gizemli kasa açarak'
+          - '&7 çıkartabilirsin.'
+          - ''
+          - '&8 ▪ &7Durum: &c✕'
+          - ''
+          - '&c &nBunu kullanamazsın.'
+          Unlocked:
+          - '&7'
+          - '&8 ▪ &7Durum: &a✔'
+          - ''
+          - '&e &nSeçimi kaldırmak için tıklayın.'
+      Frog Leggings:
+        Name: '&9 Kurbağa Pantalon'
+        Mystery Dust: 18
+        Rarity: Rare
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+          Locked:
+          - ''
+          - '&7 Bu eşyayı gizemli kasa açarak'
+          - '&7 çıkartabilirsin.'
+          - ''
+          - '&8 ▪ &7Durum: &c✕'
+          - ''
+          - '&c &nBunu kullanamazsın.'
+          Unlocked:
+          - '&7'
+          - '&8 ▪ &7Durum: &a✔'
+          - ''
+          - '&e &nSeçimi kaldırmak için tıklayın.'
+      Frog Boots:
+        Name: '&a Kurbağa Bot'
+        Mystery Dust: 7
+        Rarity: Common
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+          Locked:
+          - ''
+          - '&7 Bu eşyayı gizemli kasa açarak'
+          - '&7 çıkartabilirsin.'
+          - ''
+          - '&8 ▪ &7Durum: &c✕'
+          - ''
+          - '&c &nBunu kullanamazsın.'
+          Unlocked:
+          - '&7'
+          - '&8 ▪ &7Durum: &a✔'
+          - ''
+          - '&e &nSeçimi kaldırmak için tıklayın.'
+    Lore: ''
+    Enabled-Ability: true
+    GUI-Name: Kurbağa
+    Material: head:cc3c601e4ba3064bec98a51552473aa7a5646e60fddc18d187c09b4a351d2
+  Ninja:
+    Name: '&6 Suikastcı'
+    Enabled: true
+    Cooldown: 0
+    Equipments:
+      Ninja Helmet:
+        Name: '&6 Suikastcı Kask'
+        Mystery Dust: 80
+        Rarity: Legendary
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+          Locked:
+          - ''
+          - '&7 Bu eşyayı gizemli kasa açarak'
+          - '&7 çıkartabilirsin.'
+          - ''
+          - '&8 ▪ &7Durum: &c✕'
+          - ''
+          - '&c &nBunu kullanamazsın.'
+          Unlocked:
+          - '&7'
+          - '&8 ▪ &7Durum: &a✔'
+          - ''
+          - '&e &nSeçimi kaldırmak için tıklayın.'
+      Ninja Chestplate:
+        Name: '&5 Suikastcı Göğüslük'
+        Mystery Dust: 35
+        Rarity: Epic
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+          Locked:
+          - ''
+          - '&7 Bu eşyayı gizemli kasa açarak'
+          - '&7 çıkartabilirsin.'
+          - ''
+          - '&8 ▪ &7Durum: &c✕'
+          - ''
+          - '&c &nBunu kullanamazsın.'
+          Unlocked:
+          - '&7'
+          - '&8 ▪ &7Durum: &a✔'
+          - ''
+          - '&e &nSeçimi kaldırmak için tıklayın.'
+      Ninja Leggings:
+        Name: '&9 Suikastcı Pantalon'
+        Mystery Dust: 20
+        Rarity: Rare
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+          Locked:
+          - ''
+          - '&7 Bu eşyayı gizemli kasa açarak'
+          - '&7 çıkartabilirsin.'
+          - ''
+          - '&8 ▪ &7Durum: &c✕'
+          - ''
+          - '&c &nBunu kullanamazsın.'
+          Unlocked:
+          - '&7'
+          - '&8 ▪ &7Durum: &a✔'
+          - ''
+          - '&e &nSeçimi kaldırmak için tıklayın.'
+      Ninja Boots:
+        Name: '&a Suikastcı Bot'
+        Mystery Dust: 10
+        Rarity: Common
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+          Locked:
+          - ''
+          - '&7 Bu eşyayı gizemli kasa açarak'
+          - '&7 çıkartabilirsin.'
+          - ''
+          - '&8 ▪ &7Durum: &c✕'
+          - ''
+          - '&c &nBunu kullanamazsın.'
+          Unlocked:
+          - '&7'
+          - '&8 ▪ &7Durum: &a✔'
+          - ''
+          - '&e &nSeçimi kaldırmak için tıklayın.'
+    Lore: ''
+    Enabled-Ability: true
+    GUI-Name: Suikastcı
+    Material: head:e96616bb48ac61a153a9f5c35979f3523c24c366c621d6bacaed10f822b68b
+  Speedster:
+    Name: '&6 Flash'
+    Enabled: true
+    Cooldown: 0
+    Equipments:
+      Speedster Helmet:
+        Name: '&6 Flash Kask'
+        Mystery Dust: 80
+        Rarity: Legendary
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+          Locked:
+          - ''
+          - '&7 Bu eşyayı gizemli kasa açarak'
+          - '&7 çıkartabilirsin.'
+          - ''
+          - '&8 ▪ &7Durum: &c✕'
+          - ''
+          - '&c &nBunu kullanamazsın.'
+          Unlocked:
+          - '&7'
+          - '&8 ▪ &7Durum: &a✔'
+          - ''
+          - '&e &nSeçimi kaldırmak için tıklayın.'
+      Speedster Chestplate:
+        Name: '&5 Flash Göğüslük'
+        Mystery Dust: 25
+        Rarity: Epic
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+          Locked:
+          - ''
+          - '&7 Bu eşyayı gizemli kasa açarak'
+          - '&7 çıkartabilirsin.'
+          - ''
+          - '&8 ▪ &7Durum: &c✕'
+          - ''
+          - '&c &nBunu kullanamazsın.'
+          Unlocked:
+          - '&7'
+          - '&8 ▪ &7Durum: &a✔'
+          - ''
+          - '&e &nSeçimi kaldırmak için tıklayın.'
+      Speedster Leggings:
+        Name: '&9 Flash Pantalon'
+        Mystery Dust: 13
+        Rarity: Rare
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+          Locked:
+          - ''
+          - '&7 Bu eşyayı gizemli kasa açarak'
+          - '&7 çıkartabilirsin.'
+          - ''
+          - '&8 ▪ &7Durum: &c✕'
+          - ''
+          - '&c &nBunu kullanamazsın.'
+          Unlocked:
+          - '&7'
+          - '&8 ▪ &7Durum: &a✔'
+          - ''
+          - '&e &nSeçimi kaldırmak için tıklayın.'
+      Speedster Boots:
+        Name: '&a Flash Bot'
+        Mystery Dust: 5
+        Rarity: Common
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+          Locked:
+          - ''
+          - '&7 Bu eşyayı gizemli kasa açarak'
+          - '&7 çıkartabilirsin.'
+          - ''
+          - '&8 ▪ &7Durum: &c✕'
+          - ''
+          - '&c &nBunu kullanamazsın.'
+          Unlocked:
+          - '&7'
+          - '&8 ▪ &7Durum: &a✔'
+          - ''
+          - '&e &nSeçimi kaldırmak için tıklayın.'
+    Lore: ''
+    Enabled-Ability: true
+    GUI-Name: Flash
+    Material: head:5138ccdee2eb7cf60d5489d388f210629b2e787bb530e65bd1a73126d01067
+  Ghostly:
+    Name: '&6 Hayalet Kral'
+    Enabled: true
+    Cooldown: 0
+    Equipments:
+      Ghostly Helmet:
+        Name: '&6 Hayalet Kral Kask'
+        Mystery Dust: 80
+        Rarity: Legendary
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+          Locked:
+          - ''
+          - '&7 Bu eşyayı gizemli kasa açarak'
+          - '&7 çıkartabilirsin.'
+          - ''
+          - '&8 ▪ &7Durum: &c✕'
+          - ''
+          - '&c &nBunu kullanamazsın.'
+          Unlocked:
+          - '&7'
+          - '&8 ▪ &7Durum: &a✔'
+          - ''
+          - '&e &nSeçimi kaldırmak için tıklayın.'
+      Ghostly Chestplate:
+        Name: '&5 Hayalet Kral Göğüslük'
+        Mystery Dust: 25
+        Rarity: Epic
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+          Locked:
+          - ''
+          - '&7 Bu eşyayı gizemli kasa açarak'
+          - '&7 çıkartabilirsin.'
+          - ''
+          - '&8 ▪ &7Durum: &c✕'
+          - ''
+          - '&c &nBunu kullanamazsın.'
+          Unlocked:
+          - '&7'
+          - '&8 ▪ &7Durum: &a✔'
+          - ''
+          - '&e &nSeçimi kaldırmak için tıklayın.'
+      Ghostly Leggings:
+        Name: '&9 Hayalet Kral Pantalon'
+        Mystery Dust: 13
+        Rarity: Rare
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+          Locked:
+          - ''
+          - '&7 Bu eşyayı gizemli kasa açarak'
+          - '&7 çıkartabilirsin.'
+          - ''
+          - '&8 ▪ &7Durum: &c✕'
+          - ''
+          - '&c &nBunu kullanamazsın.'
+          Unlocked:
+          - '&7'
+          - '&8 ▪ &7Durum: &a✔'
+          - ''
+          - '&e &nSeçimi kaldırmak için tıklayın.'
+      Ghostly Boots:
+        Name: '&a Hayalet Kral Bot'
+        Mystery Dust: 5
+        Rarity: Common
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+          Locked:
+          - ''
+          - '&7 Bu eşyayı gizemli kasa açarak'
+          - '&7 çıkartabilirsin.'
+          - ''
+          - '&8 ▪ &7Durum: &c✕'
+          - ''
+          - '&c &nBunu kullanamazsın.'
+          Unlocked:
+          - '&7'
+          - '&8 ▪ &7Durum: &a✔'
+          - ''
+          - '&e &nSeçimi kaldırmak için tıklayın.'
+    Lore: ''
+    Enabled-Ability: true
+    GUI-Name: Hayalet Kral
+    Material: SKELETON_SKULL
+  Disco:
+    Name: '&6 Disko'
+    Enabled: true
+    Cooldown: 0
+    Equipments:
+      Disco Helmet:
+        Name: '&6 Disko Kask'
+        Mystery Dust: 80
+        Rarity: Legendary
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+          Locked:
+          - ''
+          - '&7 Bu eşyayı gizemli kasa açarak'
+          - '&7 çıkartabilirsin.'
+          - ''
+          - '&8 ▪ &7Durum: &c✕'
+          - ''
+          - '&c &nBunu kullanamazsın.'
+          Unlocked:
+          - '&7'
+          - '&8 ▪ &7Durum: &a✔'
+          - ''
+          - '&e &nSeçimi kaldırmak için tıklayın.'
+      Disco Chestplate:
+        Name: '&5 Disko Göğüslük'
+        Mystery Dust: 25
+        Rarity: Epic
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+          Locked:
+          - ''
+          - '&7 Bu eşyayı gizemli kasa açarak'
+          - '&7 çıkartabilirsin.'
+          - ''
+          - '&8 ▪ &7Durum: &c✕'
+          - ''
+          - '&c &nBunu kullanamazsın.'
+          Unlocked:
+          - '&7'
+          - '&8 ▪ &7Durum: &a✔'
+          - ''
+          - '&e &nSeçimi kaldırmak için tıklayın.'
+      Disco Leggings:
+        Name: '&9 Disko Pantalon'
+        Mystery Dust: 13
+        Rarity: Rare
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+          Locked:
+          - ''
+          - '&7 Bu eşyayı gizemli kasa açarak'
+          - '&7 çıkartabilirsin.'
+          - ''
+          - '&8 ▪ &7Durum: &c✕'
+          - ''
+          - '&c &nBunu kullanamazsın.'
+          Unlocked:
+          - '&7'
+          - '&8 ▪ &7Durum: &a✔'
+          - ''
+          - '&e &nSeçimi kaldırmak için tıklayın.'
+      Disco Boots:
+        Name: '&a Disko Bot'
+        Mystery Dust: 5
+        Rarity: Common
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+          Locked:
+          - ''
+          - '&7 Bu eşyayı gizemli kasa açarak'
+          - '&7 çıkartabilirsin.'
+          - ''
+          - '&8 ▪ &7Durum: &c✕'
+          - ''
+          - '&c &nBunu kullanamazsın.'
+          Unlocked:
+          - '&7'
+          - '&8 ▪ &7Durum: &a✔'
+          - ''
+          - '&e &nSeçimi kaldırmak için tıklayın.'
+    Lore: ''
+    Enabled-Ability: true
+    GUI-Name: Disko
+    Material: LEATHER_HELMET:#FF0000
+  Mermaid:
+    Name: '&6 Deniz Kızı'
+    Enabled: true
+    Cooldown: 0
+    Equipments:
+      Mermaid Helmet:
+        Name: '&6 Deniz Kızı Kask'
+        Mystery Dust: 70
+        Rarity: Legendary
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+          Locked:
+          - ''
+          - '&7 Bu eşyayı gizemli kasa açarak'
+          - '&7 çıkartabilirsin.'
+          - ''
+          - '&8 ▪ &7Durum: &c✕'
+          - ''
+          - '&c &nBunu kullanamazsın.'
+          Unlocked:
+          - '&7'
+          - '&8 ▪ &7Durum: &a✔'
+          - ''
+          - '&e &nSeçimi kaldırmak için tıklayın.'
+      Mermaid Chestplate:
+        Name: '&5 Deniz Kızı Göğüslük'
+        Mystery Dust: 30
+        Rarity: Epic
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+          Locked:
+          - ''
+          - '&7 Bu eşyayı gizemli kasa açarak'
+          - '&7 çıkartabilirsin.'
+          - ''
+          - '&8 ▪ &7Durum: &c✕'
+          - ''
+          - '&c &nBunu kullanamazsın.'
+          Unlocked:
+          - '&7'
+          - '&8 ▪ &7Durum: &a✔'
+          - ''
+          - '&e &nSeçimi kaldırmak için tıklayın.'
+      Mermaid Leggings:
+        Name: '&9 Deniz Kızı Pantalon'
+        Mystery Dust: 16
+        Rarity: Rare
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+          Locked:
+          - ''
+          - '&7 Bu eşyayı gizemli kasa açarak'
+          - '&7 çıkartabilirsin.'
+          - ''
+          - '&8 ▪ &7Durum: &c✕'
+          - ''
+          - '&c &nBunu kullanamazsın.'
+          Unlocked:
+          - '&7'
+          - '&8 ▪ &7Durum: &a✔'
+          - ''
+          - '&e &nSeçimi kaldırmak için tıklayın.'
+      Mermaid Boots:
+        Name: '&a Deniz Kızı Bot'
+        Mystery Dust: 6
+        Rarity: Common
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+          Locked:
+          - ''
+          - '&7 Bu eşyayı gizemli kasa açarak'
+          - '&7 çıkartabilirsin.'
+          - ''
+          - '&8 ▪ &7Durum: &c✕'
+          - ''
+          - '&c &nBunu kullanamazsın.'
+          Unlocked:
+          - '&7'
+          - '&8 ▪ &7Durum: &a✔'
+          - ''
+          - '&e &nSeçimi kaldırmak için tıklayın.'
+    Lore: ''
+    Enabled-Ability: true
+    GUI-Name: Deniz Kızı
+    Material: head:aa36d682f9152a98e53cbf3d583b59df8f024e184531c97c2ea25816d1288f
+  Spooderman:
+    Name: '&6 Örümcek Adam'
+    Enabled: true
+    Cooldown: 0
+    Equipments:
+      Spooderman Helmet:
+        Name: '&6 Örümcek Adam Kask'
+        Mystery Dust: 75
+        Rarity: Legendary
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+          Locked:
+          - ''
+          - '&7 Bu eşyayı gizemli kasa açarak'
+          - '&7 çıkartabilirsin.'
+          - ''
+          - '&8 ▪ &7Durum: &c✕'
+          - ''
+          - '&c &nBunu kullanamazsın.'
+          Unlocked:
+          - '&7'
+          - '&8 ▪ &7Durum: &a✔'
+          - ''
+          - '&e &nSeçimi kaldırmak için tıklayın.'
+      Spooderman Chestplate:
+        Name: '&5 Örümcek Adam Göğüslük'
+        Mystery Dust: 33
+        Rarity: Epic
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+          Locked:
+          - ''
+          - '&7 Bu eşyayı gizemli kasa açarak'
+          - '&7 çıkartabilirsin.'
+          - ''
+          - '&8 ▪ &7Durum: &c✕'
+          - ''
+          - '&c &nBunu kullanamazsın.'
+          Unlocked:
+          - '&7'
+          - '&8 ▪ &7Durum: &a✔'
+          - ''
+          - '&e &nSeçimi kaldırmak için tıklayın.'
+      Spooderman Leggings:
+        Name: '&9 Örümcek Adam Pantalon'
+        Mystery Dust: 17
+        Rarity: Rare
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+          Locked:
+          - ''
+          - '&7 Bu eşyayı gizemli kasa açarak'
+          - '&7 çıkartabilirsin.'
+          - ''
+          - '&8 ▪ &7Durum: &c✕'
+          - ''
+          - '&c &nBunu kullanamazsın.'
+          Unlocked:
+          - '&7'
+          - '&8 ▪ &7Durum: &a✔'
+          - ''
+          - '&e &nSeçimi kaldırmak için tıklayın.'
+      Spooderman Boots:
+        Name: '&a Örümcek Adam Bot'
+        Mystery Dust: 8
+        Rarity: Common
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+          Locked:
+          - ''
+          - '&7 Bu eşyayı gizemli kasa açarak'
+          - '&7 çıkartabilirsin.'
+          - ''
+          - '&8 ▪ &7Durum: &c✕'
+          - ''
+          - '&c &nBunu kullanamazsın.'
+          Unlocked:
+          - '&7'
+          - '&8 ▪ &7Durum: &a✔'
+          - ''
+          - '&e &nSeçimi kaldırmak için tıklayın.'
+    Lore: ''
+    Enabled-Ability: true
+    GUI-Name: Örümcek Adam
+    Material: head:9f2f7ebd9e263c939f54f939c9e2bcb18d4431f5577c389d6cbcf1371b11d
+  Warrior:
+    Name: '&6 Savaşcı'
+    Enabled: true
+    Cooldown: 0
+    Equipments:
+      Warrior Helmet:
+        Name: '&6 Savaşcı Kask'
+        Mystery Dust: 75
+        Rarity: Legendary
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+          Locked:
+          - ''
+          - '&7 Bu eşyayı gizemli kasa açarak'
+          - '&7 çıkartabilirsin.'
+          - ''
+          - '&8 ▪ &7Durum: &c✕'
+          - ''
+          - '&c &nBunu kullanamazsın.'
+          Unlocked:
+          - '&7'
+          - '&8 ▪ &7Durum: &a✔'
+          - ''
+          - '&e &nSeçimi kaldırmak için tıklayın.'
+      Warrior Chestplate:
+        Name: '&5 Savaşcı Göğüslük'
+        Mystery Dust: 30
+        Rarity: Epic
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+          Locked:
+          - ''
+          - '&7 Bu eşyayı gizemli kasa açarak'
+          - '&7 çıkartabilirsin.'
+          - ''
+          - '&8 ▪ &7Durum: &c✕'
+          - ''
+          - '&c &nBunu kullanamazsın.'
+          Unlocked:
+          - '&7'
+          - '&8 ▪ &7Durum: &a✔'
+          - ''
+          - '&e &nSeçimi kaldırmak için tıklayın.'
+      Warrior Leggings:
+        Name: '&9 Savaşcı Pantalon'
+        Mystery Dust: 16
+        Rarity: Rare
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+          Locked:
+          - ''
+          - '&7 Bu eşyayı gizemli kasa açarak'
+          - '&7 çıkartabilirsin.'
+          - ''
+          - '&8 ▪ &7Durum: &c✕'
+          - ''
+          - '&c &nBunu kullanamazsın.'
+          Unlocked:
+          - '&7'
+          - '&8 ▪ &7Durum: &a✔'
+          - ''
+          - '&e &nSeçimi kaldırmak için tıklayın.'
+      Warrior Boots:
+        Name: '&a Savaşcı Bot'
+        Mystery Dust: 6
+        Rarity: Common
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+          Locked:
+          - ''
+          - '&7 Bu eşyayı gizemli kasa açarak'
+          - '&7 çıkartabilirsin.'
+          - ''
+          - '&8 ▪ &7Durum: &c✕'
+          - ''
+          - '&c &nBunu kullanamazsın.'
+          Unlocked:
+          - '&7'
+          - '&8 ▪ &7Durum: &a✔'
+          - ''
+          - '&e &nSeçimi kaldırmak için tıklayın.'
+    Lore: ''
+    Enabled-Ability: true
+    GUI-Name: Savaşcı
+    Material: head:38f56b7f7ac16046a9816e57c2c3296420ccddb7cc51b1c0de8075a816b747d9
+  Necromancer:
+    Name: '&6 Canavar Kral'
+    Enabled: true
+    Cooldown: 0
+    Equipments:
+      Necromancer Helmet:
+        Name: '&6 Canavar Kral Kask'
+        Mystery Dust: 80
+        Rarity: Legendary
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+          Locked:
+          - ''
+          - '&7 Bu eşyayı gizemli kasa açarak'
+          - '&7 çıkartabilirsin.'
+          - ''
+          - '&8 ▪ &7Durum: &c✕'
+          - ''
+          - '&c &nBunu kullanamazsın.'
+          Unlocked:
+          - '&7'
+          - '&8 ▪ &7Durum: &a✔'
+          - ''
+          - '&e &nSeçimi kaldırmak için tıklayın.'
+      Necromancer Chestplate:
+        Name: '&5 Canavar Kral Göğüslük'
+        Mystery Dust: 35
+        Rarity: Epic
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+          Locked:
+          - ''
+          - '&7 Bu eşyayı gizemli kasa açarak'
+          - '&7 çıkartabilirsin.'
+          - ''
+          - '&8 ▪ &7Durum: &c✕'
+          - ''
+          - '&c &nBunu kullanamazsın.'
+          Unlocked:
+          - '&7'
+          - '&8 ▪ &7Durum: &a✔'
+          - ''
+          - '&e &nSeçimi kaldırmak için tıklayın.'
+      Necromancer Leggings:
+        Name: '&9 Canavar Kral Pantalon'
+        Mystery Dust: 20
+        Rarity: Rare
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+          Locked:
+          - ''
+          - '&7 Bu eşyayı gizemli kasa açarak'
+          - '&7 çıkartabilirsin.'
+          - ''
+          - '&8 ▪ &7Durum: &c✕'
+          - ''
+          - '&c &nBunu kullanamazsın.'
+          Unlocked:
+          - '&7'
+          - '&8 ▪ &7Durum: &a✔'
+          - ''
+          - '&e &nSeçimi kaldırmak için tıklayın.'
+      Necromancer Boots:
+        Name: '&a Canavar Kral Bot'
+        Mystery Dust: 10
+        Rarity: Common
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+          Locked:
+          - ''
+          - '&7 Bu eşyayı gizemli kasa açarak'
+          - '&7 çıkartabilirsin.'
+          - ''
+          - '&8 ▪ &7Durum: &c✕'
+          - ''
+          - '&c &nBunu kullanamazsın.'
+          Unlocked:
+          - '&7'
+          - '&8 ▪ &7Durum: &a✔'
+          - ''
+          - '&e &nSeçimi kaldırmak için tıklayın.'
+    Lore: ''
+    Enabled-Ability: true
+    GUI-Name: Canavar Kral
+    Material: head:9ddbd0bb9622ce124dabb6ba3baa9a9ea71430f870fec15b3ea81f1961a412b2
+  Thor:
+    Name: '&6 Thor'
+    Enabled: true
+    Cooldown: 0
+    Equipments:
+      Thor Helmet:
+        Name: '&6 Thor Kask'
+        Mystery Dust: 70
+        Rarity: Legendary
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+          Locked:
+          - ''
+          - '&7 Bu eşyayı gizemli kasa açarak'
+          - '&7 çıkartabilirsin.'
+          - ''
+          - '&8 ▪ &7Durum: &c✕'
+          - ''
+          - '&c &nBunu kullanamazsın.'
+          Unlocked:
+          - '&7'
+          - '&8 ▪ &7Durum: &a✔'
+          - ''
+          - '&e &nSeçimi kaldırmak için tıklayın.'
+      Thor Chestplate:
+        Name: '&5 Thor Göğüslük'
+        Mystery Dust: 25
+        Rarity: Epic
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+          Locked:
+          - ''
+          - '&7 Bu eşyayı gizemli kasa açarak'
+          - '&7 çıkartabilirsin.'
+          - ''
+          - '&8 ▪ &7Durum: &c✕'
+          - ''
+          - '&c &nBunu kullanamazsın.'
+          Unlocked:
+          - '&7'
+          - '&8 ▪ &7Durum: &a✔'
+          - ''
+          - '&e &nSeçimi kaldırmak için tıklayın.'
+      Thor Leggings:
+        Name: '&9 Thor Pantalon'
+        Mystery Dust: 13
+        Rarity: Rare
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+          Locked:
+          - ''
+          - '&7 Bu eşyayı gizemli kasa açarak'
+          - '&7 çıkartabilirsin.'
+          - ''
+          - '&8 ▪ &7Durum: &c✕'
+          - ''
+          - '&c &nBunu kullanamazsın.'
+          Unlocked:
+          - '&7'
+          - '&8 ▪ &7Durum: &a✔'
+          - ''
+          - '&e &nSeçimi kaldırmak için tıklayın.'
+      Thor Boots:
+        Name: '&a Thor Bot'
+        Mystery Dust: 5
+        Rarity: Common
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+          Locked:
+          - ''
+          - '&7 Bu eşyayı gizemli kasa açarak'
+          - '&7 çıkartabilirsin.'
+          - ''
+          - '&8 ▪ &7Durum: &c✕'
+          - ''
+          - '&c &nBunu kullanamazsın.'
+          Unlocked:
+          - '&7'
+          - '&8 ▪ &7Durum: &a✔'
+          - ''
+          - '&e &nSeçimi kaldırmak için tıklayın.'
+    Lore: ''
+    Enabled-Ability: true
+    GUI-Name: Thor
+    Material: head:2a9f83329a2e475a75335b3949aa4d054f9de413bfb28aa60de2e5259ecaad1
+  Baker:
+    Name: '&6 Fırıncı'
+    Enabled: true
+    Cooldown: 0
+    Equipments:
+      Baker Helmet:
+        Name: '&6 Fırıncı Kask'
+        Mystery Dust: 70
+        Rarity: Legendary
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+          Locked:
+          - ''
+          - '&7 Bu eşyayı gizemli kasa açarak'
+          - '&7 çıkartabilirsin.'
+          - ''
+          - '&8 ▪ &7Durum: &c✕'
+          - ''
+          - '&c &nBunu kullanamazsın.'
+          Unlocked:
+          - '&7'
+          - '&8 ▪ &7Durum: &a✔'
+          - ''
+          - '&e &nSeçimi kaldırmak için tıklayın.'
+      Baker Chestplate:
+        Name: '&5 Fırıncı Göğüslük'
+        Mystery Dust: 25
+        Rarity: Epic
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+          Locked:
+          - ''
+          - '&7 Bu eşyayı gizemli kasa açarak'
+          - '&7 çıkartabilirsin.'
+          - ''
+          - '&8 ▪ &7Durum: &c✕'
+          - ''
+          - '&c &nBunu kullanamazsın.'
+          Unlocked:
+          - '&7'
+          - '&8 ▪ &7Durum: &a✔'
+          - ''
+          - '&e &nSeçimi kaldırmak için tıklayın.'
+      Baker Leggings:
+        Name: '&9 Fırıncı Pantalon'
+        Mystery Dust: 13
+        Rarity: Rare
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+          Locked:
+          - ''
+          - '&7 Bu eşyayı gizemli kasa açarak'
+          - '&7 çıkartabilirsin.'
+          - ''
+          - '&8 ▪ &7Durum: &c✕'
+          - ''
+          - '&c &nBunu kullanamazsın.'
+          Unlocked:
+          - '&7'
+          - '&8 ▪ &7Durum: &a✔'
+          - ''
+          - '&e &nSeçimi kaldırmak için tıklayın.'
+      Baker Boots:
+        Name: '&a Fırıncı Bot'
+        Mystery Dust: 5
+        Rarity: Common
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+          Locked:
+          - ''
+          - '&7 Bu eşyayı gizemli kasa açarak'
+          - '&7 çıkartabilirsin.'
+          - ''
+          - '&8 ▪ &7Durum: &c✕'
+          - ''
+          - '&c &nBunu kullanamazsın.'
+          Unlocked:
+          - '&7'
+          - '&8 ▪ &7Durum: &a✔'
+          - ''
+          - '&e &nSeçimi kaldırmak için tıklayın.'
+    Lore: ''
+    Enabled-Ability: true
+    GUI-Name: Fırıncı
+    Material: head:b8dea622fb0fbbd2639384c1604f5f1a3c111aa993447319fbac494bff4477
+  Bumblebee:
+    Name: '&6 Bumblebee'
+    Enabled: true
+    Cooldown: 0
+    Equipments:
+      Bumblebee Helmet:
+        Name: '&6 Bumblebee Kask'
+        Mystery Dust: 70
+        Rarity: Legendary
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+          Locked:
+          - ''
+          - '&7 Bu eşyayı gizemli kasa açarak'
+          - '&7 çıkartabilirsin.'
+          - ''
+          - '&8 ▪ &7Durum: &c✕'
+          - ''
+          - '&c &nBunu kullanamazsın.'
+          Unlocked:
+          - '&7'
+          - '&8 ▪ &7Durum: &a✔'
+          - ''
+          - '&e &nSeçimi kaldırmak için tıklayın.'
+      Bumblebee Chestplate:
+        Name: '&5 Bumblebee Göğüslük'
+        Mystery Dust: 25
+        Rarity: Epic
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+          Locked:
+          - ''
+          - '&7 Bu eşyayı gizemli kasa açarak'
+          - '&7 çıkartabilirsin.'
+          - ''
+          - '&8 ▪ &7Durum: &c✕'
+          - ''
+          - '&c &nBunu kullanamazsın.'
+          Unlocked:
+          - '&7'
+          - '&8 ▪ &7Durum: &a✔'
+          - ''
+          - '&e &nSeçimi kaldırmak için tıklayın.'
+      Bumblebee Leggings:
+        Name: '&9 Bumblebee Pantalon'
+        Mystery Dust: 13
+        Rarity: Rare
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+          Locked:
+          - ''
+          - '&7 Bu eşyayı gizemli kasa açarak'
+          - '&7 çıkartabilirsin.'
+          - ''
+          - '&8 ▪ &7Durum: &c✕'
+          - ''
+          - '&c &nBunu kullanamazsın.'
+          Unlocked:
+          - '&7'
+          - '&8 ▪ &7Durum: &a✔'
+          - ''
+          - '&e &nSeçimi kaldırmak için tıklayın.'
+      Bumblebee Boots:
+        Name: '&a Bumblebee Bot'
+        Mystery Dust: 5
+        Rarity: Common
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+          Locked:
+          - ''
+          - '&7 Bu eşyayı gizemli kasa açarak'
+          - '&7 çıkartabilirsin.'
+          - ''
+          - '&8 ▪ &7Durum: &c✕'
+          - ''
+          - '&c &nBunu kullanamazsın.'
+          Unlocked:
+          - '&7'
+          - '&8 ▪ &7Durum: &a✔'
+          - ''
+          - '&e &nSeçimi kaldırmak için tıklayın.'
+    Lore: ''
+    Enabled-Ability: true
+    GUI-Name: Bumblebee
+    Material: head:bf92d3f385cc16c77675a46de3e833ac17c74ada3e1946ef7021ecdbf9f1ba
+  Plumber:
+    Name: '&6 Mario'
+    Enabled: true
+    Cooldown: 0
+    Equipments:
+      Plumber Helmet:
+        Name: '&6 Mario Kask'
+        Mystery Dust: 73
+        Rarity: Legendary
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+          Locked:
+          - ''
+          - '&7 Bu eşyayı gizemli kasa açarak'
+          - '&7 çıkartabilirsin.'
+          - ''
+          - '&8 ▪ &7Durum: &c✕'
+          - ''
+          - '&c &nBunu kullanamazsın.'
+          Unlocked:
+          - '&7'
+          - '&8 ▪ &7Durum: &a✔'
+          - ''
+          - '&e &nSeçimi kaldırmak için tıklayın.'
+      Plumber Chestplate:
+        Name: '&5 Mario Göğüslük'
+        Mystery Dust: 32
+        Rarity: Epic
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+          Locked:
+          - ''
+          - '&7 Bu eşyayı gizemli kasa açarak'
+          - '&7 çıkartabilirsin.'
+          - ''
+          - '&8 ▪ &7Durum: &c✕'
+          - ''
+          - '&c &nBunu kullanamazsın.'
+          Unlocked:
+          - '&7'
+          - '&8 ▪ &7Durum: &a✔'
+          - ''
+          - '&e &nSeçimi kaldırmak için tıklayın.'
+      Plumber Leggings:
+        Name: '&9 Mario Pantalon'
+        Mystery Dust: 18
+        Rarity: Rare
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+          Locked:
+          - ''
+          - '&7 Bu eşyayı gizemli kasa açarak'
+          - '&7 çıkartabilirsin.'
+          - ''
+          - '&8 ▪ &7Durum: &c✕'
+          - ''
+          - '&c &nBunu kullanamazsın.'
+          Unlocked:
+          - '&7'
+          - '&8 ▪ &7Durum: &a✔'
+          - ''
+          - '&e &nSeçimi kaldırmak için tıklayın.'
+      Plumber Boots:
+        Name: '&a Mario Bot'
+        Mystery Dust: 7
+        Rarity: Common
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+          Locked:
+          - ''
+          - '&7 Bu eşyayı gizemli kasa açarak'
+          - '&7 çıkartabilirsin.'
+          - ''
+          - '&8 ▪ &7Durum: &c✕'
+          - ''
+          - '&c &nBunu kullanamazsın.'
+          Unlocked:
+          - '&7'
+          - '&8 ▪ &7Durum: &a✔'
+          - ''
+          - '&e &nSeçimi kaldırmak için tıklayın.'
+    Lore: ''
+    Enabled-Ability: true
+    GUI-Name: Mario
+    Material: head:6f7eb75e5542cc4937aaad5bb8657393eaf0265006eac1dc96691f32e16437
+  Ice Walker:
+    Name: '&6 Kar Kral'
+    Enabled: true
+    Cooldown: 0
+    Equipments:
+      Ice Walker Helmet:
+        Name: '&6 Kar Kral Kask'
+        Mystery Dust: 70
+        Rarity: Legendary
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+          Locked:
+          - ''
+          - '&7 Bu eşyayı gizemli kasa açarak'
+          - '&7 çıkartabilirsin.'
+          - ''
+          - '&8 ▪ &7Durum: &c✕'
+          - ''
+          - '&c &nBunu kullanamazsın.'
+          Unlocked:
+          - '&7'
+          - '&8 ▪ &7Durum: &a✔'
+          - ''
+          - '&e &nSeçimi kaldırmak için tıklayın.'
+      Ice Walker Chestplate:
+        Name: '&5 Kar Kral Göğüslük'
+        Mystery Dust: 25
+        Rarity: Epic
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+          Locked:
+          - ''
+          - '&7 Bu eşyayı gizemli kasa açarak'
+          - '&7 çıkartabilirsin.'
+          - ''
+          - '&8 ▪ &7Durum: &c✕'
+          - ''
+          - '&c &nBunu kullanamazsın.'
+          Unlocked:
+          - '&7'
+          - '&8 ▪ &7Durum: &a✔'
+          - ''
+          - '&e &nSeçimi kaldırmak için tıklayın.'
+      Ice Walker Leggings:
+        Name: '&9 Kar Kral Pantalon'
+        Mystery Dust: 13
+        Rarity: Rare
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+          Locked:
+          - ''
+          - '&7 Bu eşyayı gizemli kasa açarak'
+          - '&7 çıkartabilirsin.'
+          - ''
+          - '&8 ▪ &7Durum: &c✕'
+          - ''
+          - '&c &nBunu kullanamazsın.'
+          Unlocked:
+          - '&7'
+          - '&8 ▪ &7Durum: &a✔'
+          - ''
+          - '&e &nSeçimi kaldırmak için tıklayın.'
+      Ice Walker Boots:
+        Name: '&a Kar Kral Bot'
+        Mystery Dust: 5
+        Rarity: Common
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+          Locked:
+          - ''
+          - '&7 Bu eşyayı gizemli kasa açarak'
+          - '&7 çıkartabilirsin.'
+          - ''
+          - '&8 ▪ &7Durum: &c✕'
+          - ''
+          - '&c &nBunu kullanamazsın.'
+          Unlocked:
+          - '&7'
+          - '&8 ▪ &7Durum: &a✔'
+          - ''
+          - '&e &nSeçimi kaldırmak için tıklayın.'
+    Lore: ''
+    Enabled-Ability: true
+    GUI-Name: Kar Kral
+    Material: head:371c7c94da4f86a8fe6ea3a5b2f7dad24731ac420ef47ca4c1c766dea60accc
+  Vampire:
+    Name: '&6 Vampir'
+    Enabled: true
+    Cooldown: 0
+    Equipments:
+      Vampire Helmet:
+        Name: '&6 Vampir Kask'
+        Mystery Dust: 74
+        Rarity: Legendary
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+          Locked:
+          - ''
+          - '&7 Bu eşyayı gizemli kasa açarak'
+          - '&7 çıkartabilirsin.'
+          - ''
+          - '&8 ▪ &7Durum: &c✕'
+          - ''
+          - '&c &nBunu kullanamazsın.'
+          Unlocked:
+          - '&7'
+          - '&8 ▪ &7Durum: &a✔'
+          - ''
+          - '&e &nSeçimi kaldırmak için tıklayın.'
+      Vampire Chestplate:
+        Name: '&5 Vampir Göğüslük'
+        Mystery Dust: 34
+        Rarity: Epic
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+          Locked:
+          - ''
+          - '&7 Bu eşyayı gizemli kasa açarak'
+          - '&7 çıkartabilirsin.'
+          - ''
+          - '&8 ▪ &7Durum: &c✕'
+          - ''
+          - '&c &nBunu kullanamazsın.'
+          Unlocked:
+          - '&7'
+          - '&8 ▪ &7Durum: &a✔'
+          - ''
+          - '&e &nSeçimi kaldırmak için tıklayın.'
+      Vampire Leggings:
+        Name: '&9 Vampir Pantalon'
+        Mystery Dust: 18
+        Rarity: Rare
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+          Locked:
+          - ''
+          - '&7 Bu eşyayı gizemli kasa açarak'
+          - '&7 çıkartabilirsin.'
+          - ''
+          - '&8 ▪ &7Durum: &c✕'
+          - ''
+          - '&c &nBunu kullanamazsın.'
+          Unlocked:
+          - '&7'
+          - '&8 ▪ &7Durum: &a✔'
+          - ''
+          - '&e &nSeçimi kaldırmak için tıklayın.'
+      Vampire Boots:
+        Name: '&a Vampir Bot'
+        Mystery Dust: 7
+        Rarity: Common
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+          Locked:
+          - ''
+          - '&7 Bu eşyayı gizemli kasa açarak'
+          - '&7 çıkartabilirsin.'
+          - ''
+          - '&8 ▪ &7Durum: &c✕'
+          - ''
+          - '&c &nBunu kullanamazsın.'
+          Unlocked:
+          - '&7'
+          - '&8 ▪ &7Durum: &a✔'
+          - ''
+          - '&e &nSeçimi kaldırmak için tıklayın.'
+    Lore: ''
+    Enabled-Ability: true
+    GUI-Name: Vampir
+    Material: head:8d44756e0b4ece8d746296a3d5e297e1415f4ba17647ffe228385383d161a9
+  Firefighter:
+    Name: '&6 İtfaiyeci'
+    Material: head:7e9b8d13ae2b8e24b8a06fc982b2628a8131d1b16d6deb9cf31fb633f8ca2e
+    GUI-Name: Firefighter Suit
+    Enabled: true
+    Cooldown: 0
+    Enabled-Ability: true
+    Lore:
+    - ''
+    Equipments:
+      Firefighter Helmet:
+        Name: '&6 İtfaiyeci Kask'
+        Mystery Dust: 80
+        Rarity: Legendary
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+          Locked:
+          - ''
+          - '&7 Bu eşyayı gizemli kasa açarak'
+          - '&7 çıkartabilirsin.'
+          - ''
+          - '&8 ▪ &7Durum: &c✕'
+          - ''
+          - '&c &nBunu kullanamazsın.'
+          Unlocked:
+          - '&7'
+          - '&8 ▪ &7Durum: &a✔'
+          - ''
+          - '&e &nSeçimi kaldırmak için tıklayın.'
+      Firefighter Chestplate:
+        Name: '&5 İtfaiyeci Göğüslük'
+        Mystery Dust: 34
+        Rarity: Epic
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+          Locked:
+          - ''
+          - '&7 Bu eşyayı gizemli kasa açarak'
+          - '&7 çıkartabilirsin.'
+          - ''
+          - '&8 ▪ &7Durum: &c✕'
+          - ''
+          - '&c &nBunu kullanamazsın.'
+          Unlocked:
+          - '&7'
+          - '&8 ▪ &7Durum: &a✔'
+          - ''
+          - '&e &nSeçimi kaldırmak için tıklayın.'
+      Firefighter Leggings:
+        Name: '&9 İtfaiyeci Pantalon'
+        Mystery Dust: 19
+        Rarity: Rare
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+          Locked:
+          - ''
+          - '&7 Bu eşyayı gizemli kasa açarak'
+          - '&7 çıkartabilirsin.'
+          - ''
+          - '&8 ▪ &7Durum: &c✕'
+          - ''
+          - '&c &nBunu kullanamazsın.'
+          Unlocked:
+          - '&7'
+          - '&8 ▪ &7Durum: &a✔'
+          - ''
+          - '&e &nSeçimi kaldırmak için tıklayın.'
+      Firefighter Boots:
+        Name: '&a İtfaiyeci Bot'
+        Mystery Dust: 9
+        Rarity: Common
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+          Locked:
+          - ''
+          - '&7 Bu eşyayı gizemli kasa açarak'
+          - '&7 çıkartabilirsin.'
+          - ''
+          - '&8 ▪ &7Durum: &c✕'
+          - ''
+          - '&c &nBunu kullanamazsın.'
+          Unlocked:
+          - '&7'
+          - '&8 ▪ &7Durum: &a✔'
+          - ''
+          - '&e &nSeçimi kaldırmak için tıklayın.'

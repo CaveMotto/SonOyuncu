@@ -1,0 +1,55 @@
+## --------------------------------------- ##
+## Auctions Placeholders
+## https://www.spigotmc.org/resources/auctions.571/
+## About: This configuration allows you to
+##        configure what certain placeholders return.
+## --------------------------------------- ##
+
+# DO NOT EDIT THE CONFIG VERSION
+config: 1
+
+# Enable/Disable the placeholder group
+# Placeholder groups will not be loaded into the memory
+# when not used.
+enabled: true
+
+# Placeholder settings {auctions_current_topbidder} returns
+auctions_current_topbidder:
+  # Default return value
+  default: ""
+
+
+# Define what the boolean placeholder {auctions_current_hasbids_raw} returns
+auctions_current_hasbids_raw:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Placeholder settings {auctions_current_type} returns
+auctions_current_type:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {auctions_current_reward} returns
+auctions_current_reward:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {auctions_current_owner} returns
+auctions_current_owner:
+  # Default return value
+  default: ""
+
+
+# Define what the boolean placeholder {auctions_current_hasended_raw} returns
+auctions_current_hasended_raw:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+

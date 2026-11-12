@@ -1,0 +1,79 @@
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+# | PLAY AGAIN ADDON CONFIGURATION           |
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+# Version: 2.1.0
+# Author: CubeCrafter
+# Issues: https://github.com/PixelStudiosDev/BedWars1058-PlayAgain/issues
+# Discord: https://pixelstudios.dev/discord
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+# | SETTINGS                                 |
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+
+inventory-item:
+  material: PAPER
+  name: "&dMüsait arenaya katıl!"
+  lore:
+    - "&7"
+  spectator-slot: 0
+  win-slot: 8
+menu:
+  title: "Müsait Arena"
+  rows: 6
+  filler:
+    enabled: false
+    material: GRAY_STAINED_GLASS_PANE
+    name: "&f"
+    slots: 0,1,2,3
+  items:
+    arena-item:
+      # Available Placeholders: {displayname}, {name}, {players}, {max_players}, {max_team_players}, {group}, {state}
+      material: GRASS
+      name: "&a{displayname}"
+      lore:
+        - ""
+        - "&7Players: &a{players}&7/&a{max_players}"
+        - "&7Mode: &a{group}"
+        - ""
+        - "&eClick to play!"
+      slots: 10,11,12,13,14,15,16,19,20,21,22,23,24,25,28,29,30,31,32,33,34
+    random-arena-item:
+      material: FIREWORK_ROCKET
+      name: "&aRandom Arena"
+      lore:
+        - "&7Group: &8{current}"
+        - ""
+        - "&eClick to play!"
+      slot: 39
+    filter-item:
+      material: HOPPER
+      name: "&aFilter Arenas"
+      lore:
+        - "&7Current: &8{current}"
+        - ""
+        - "&eClick to change!"
+      slot: 41
+    previous-page-item:
+      material: ARROW
+      name: "&aPrevious Page"
+      lore:
+        - "&ePage {page}"
+      slot: 18
+    next-page-item:
+      material: ARROW
+      name: "&aNext Page"
+      lore:
+        - "&ePage {page}"
+      slot: 26
+    back-item:
+      material: ARROW
+      name: "&cGo Back"
+      lore:
+        - "&7To play Bed Wars"
+      slot: 49
+sounds:
+  permission-denied: ENTITY_VILLAGER_NO
+  menu-click: ENTITY_CHICKEN_EGG
+messages:
+  selector-permission-denied: "&cYou do not have permission to select an arena!"
+  not-party-owner: "&cOnly the owner of the party can play again!"

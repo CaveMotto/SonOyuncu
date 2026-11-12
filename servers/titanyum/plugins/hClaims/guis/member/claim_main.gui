@@ -1,0 +1,79 @@
+title: 'Claim Menü'
+size: 6
+type: 'CHEST'
+
+items:
+  claim-information:
+    type: 'NETHER_STAR'
+    name: 'Claim bilgileri'
+    glow: false
+    amount: 1
+    datavalue: 0
+    lore:
+      - 'Claim ismi: %claim_name%'
+      - 'Sahibi: %owner%'
+      - 'Ekli üye: %member_count%'
+      - 'Oluşturma tarihi: %creation_date%'
+    nbt: '{}'
+    slot: 4
+  add-time:
+    type: 'WATCH'
+    name: 'Claime zaman ekle'
+    glow: false
+    amount: 1
+    datavalue: 0
+    lore: [ ]
+    nbt: '{}'
+    slot: 21
+  teleport:
+    type: 'ENDER_PEARL'
+    name: 'Claime Işınlan'
+    glow: false
+    amount: 1
+    datavalue: 0
+    lore:
+      - 'Tıkla ve ışınlan!'
+    nbt: '{}'
+    slot: 22
+  claim-store:
+    type: 'ENDER_CHEST'
+    name: 'Claim marketi'
+    glow: false
+    amount: 1
+    datavalue: 0
+    lore: [ ]
+    nbt: '{}'
+    slot: 23
+  leave:
+    type: 'REDSTONE'
+    name: 'Sil'
+    glow: false
+    amount: 1
+    datavalue: 0
+    lore: [ ]
+    nbt: '{}'
+    slot: 53
+  back:
+    type: 'BARRIER'
+    name: 'Geri'
+    glow: false
+    amount: 1
+    datavalue: 0
+    lore: [ ]
+    nbt: '{}'
+    slot: 49
+
+other-items:
+  item1:
+    type: 'STAINED_GLASS_PANE'
+    name: ''
+    glow: false
+    amount: 1
+    datavalue: 15
+    lore: [ ]
+    nbt: '{}'
+    slots: [ 0,1,2,3,5,6,7,8,9,17,18,26,27,35,36,44,45,46,47,48,50,51,52 ]
+    console-commands:
+      - 'test %player%'
+    player-commands:
+      - ''

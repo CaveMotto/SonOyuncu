@@ -1,0 +1,35 @@
+tasks:
+  playtime:
+    type: "playtime"
+    minutes: 60
+    ignore-afk: false
+
+display:
+  name: "&eSunucuda Oyna II"
+  lore-normal:
+    - "&7Sunucuda belirtliten sürede"
+    - "&7Oyun oynayıp aktif kalın"
+    - ""
+    - "&7Süre: &f60 Dakika"
+    - ""
+    - "&7Odül: &fElmas &d1x"
+  lore-started:
+    - ""
+    - "&7Mevcut ilerlemeniz:"
+    - "&c{playtime:progress}/60 Dakika oyna"
+  type: "BOOK"
+
+rewards:
+  - "give {player} 264 1"
+
+placeholders:
+  description: "&7Mevcut ilerlemeniz:"
+  progress: "&c{playtime:progress}/60 Dakika oyna"
+
+options:
+  category: "aktif"
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 1440
+  sort-order: 1

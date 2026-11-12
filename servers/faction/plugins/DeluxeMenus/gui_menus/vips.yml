@@ -1,0 +1,106 @@
+menu_title: '&7VIP - Hammadde'
+open_command:
+- vip-ha
+size: 27
+items:
+  'camlar': 
+    material: STAINED_GLASS_PANE
+    data: 15
+    amount: 1
+    slots:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 11
+    - 13
+    - 15
+    - 17
+    - 18
+    - 19
+    - 20
+    - 21
+    - 22
+    - 23
+    - 24
+    - 25
+    - 26
+    display_name: '&7' 
+  'bilgi-1':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGU3OTNhOTIyYTk5MzdhMjhlMTQ5ZDU4MjEyYzAwZDc2MDViYjY4ZDZhYjFiMzQ1ODc3YjNlNGNmNzc0MGI0MCJ9fX0=
+    slot: 10
+    display_name: '&bVIP Ozel'
+    lore:
+    - ''
+    - ' &8▪ &7Sadece VIP Uyeliği Kazar.'
+    - ' &8▪ &7Kendilerine Özel Madenler' 
+    - ''
+    - ' &8▪ &7Yenilenme Süresi: &e10 Dakika'
+    - ''
+    - " &8► &aGitmek İçin Tıkla"
+    left_click_commands:   
+    - '[player] warp VIPHammadde'
+    - '[close]'
+    right_click_commands:
+    - '[player] warp VIPHammadde'
+    - '[close]'
+  'bilgi-2':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODNmNjU5YzkxNjYzZTMwMDJmMzAzNmVmNWI5NjYyZjliYjllNTVjMTMxZGM2ZmJjNjk0NDBkNzc2Yjc1NDE4MiJ9fX0=
+    slot: 12
+    display_name: '&bVIP+ Ozel'
+    lore:
+    - ''
+    - ' &8▪ &7Sadece VIP+ Uyeliği Kazar.'
+    - ' &8▪ &7Kendilerine Özel Madenler' 
+    - ''
+    - ' &8▪ &7Yenilenme Süresi: &e10 Dakika'
+    - ''
+    - " &8► &aGitmek İçin Tıkla"
+    left_click_commands:   
+    - '[player] warp VIP+Hammadde'
+    - '[close]'
+    right_click_commands:
+    - '[player] warp VIP+Hammadde'
+    - '[close]'
+  'bilgi-3':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTg0ZjllMDA1MmJhY2FlMmY0MmExMmRiNTI5ZmVmOGQ0YWU5M2E3YmFkZDcyNGQ3YWVjZDVjNjEzMjlmMmM4YiJ9fX0=
+    slot: 14
+    display_name: '&bMVIP Ozel'
+    lore:
+    - ''
+    - ' &8▪ &7Sadece MVIP Uyeliği Kazar.'
+    - ' &8▪ &7Kendilerine Özel Madenler' 
+    - ''
+    - ' &8▪ &7Yenilenme Süresi: &e10 Dakika'
+    - ''
+    - " &8► &aGitmek İçin Tıkla"
+    left_click_commands:   
+    - '[player] warp MVIPHammadde'
+    - '[close]'
+    right_click_commands:
+    - '[player] warp MVIPHammadde'
+    - '[close]'
+  'bilgi-4':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzkwZTQyZTBjNGRmNTlhZDAwYjEzNWI2YjdiYmNlYWIxMGE4NWVlYjliNmVmZDgzYjE4NDI0NGM5NjgzMGIzZCJ9fX0=
+    slot: 16
+    display_name: '&bMVIP+ Ozel'
+    lore:
+    - ''
+    - ' &8▪ &7Sadece MVIP+ Uyeliği Kazar.'
+    - ' &8▪ &7Kendilerine Özel Madenler' 
+    - ''
+    - ' &8▪ &7Yenilenme Süresi: &e10 Dakika'
+    - ''
+    - " &8► &aGitmek İçin Tıkla"
+    left_click_commands:   
+    - '[player] warp MVIP+Hammadde'
+    - '[close]'
+    right_click_commands:
+    - '[player] warp MVIP+Hammadde'
+    - '[close]'

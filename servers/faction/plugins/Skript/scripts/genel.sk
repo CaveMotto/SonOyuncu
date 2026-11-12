@@ -1,0 +1,287 @@
+﻿#
+# Otamatik Dans Etme
+#
+
+on skript load:
+        execute console command "anima toggle bilgi"
+        execute console command "anima toggle menu"
+        execute console command "anima toggle profil"
+        execute console command "anima toggle warp"
+        execute console command "anima toggle SiteMarket"
+	
+
+#
+# Giriş MOTD
+#
+
+on join:
+	wait 0.1 seconds
+	loop 150 times:
+		message "&f"
+	wait 0.5 seconds
+	send "                             &a&nLaros Store"
+	send "&8&l                                       "
+	send "&7                 Kral olmaya karar vermişin demekki,"
+	send "&7             Unutma Her Gizlece Afk Kaldıkca Kazanırsın"
+	send "&8&l                                       "
+	send "&e                          www.larosstore.com"
+	send "&r"
+	
+#
+# Kullanımlı Komutar
+#
+
+command /market:
+    trigger:
+        execute player command "/shop"
+		
+command /tüccar:
+    trigger:
+        execute player command "/ah"
+		
+command /blokkirma:
+    trigger:
+        execute player command "/ezblocks"	
+		
+#
+# Lapis Kazarken Anahtar Verme
+#		
+		
+on break of lapis ore:#Burası Ne Kırılınca Verilcegi Yer
+    if chance of 5%:#Burasi Sans Bölmü
+        send "&6Faction &7► &eTebrikler Lapis Kazarken Anahtar Kazandin!"#Burasi Bİrşey Kazaninca Cikacak Mesaj
+        execute console command "/cc give P Lapis 1 %player%" #Burasida Komut Yeri Buraya İstediginiz Krediden Tut Hereseye Kadar Yazın Olur
+		
+		
+#
+# Toplu Tamir
+#
+
+command /tamirb:
+    trigger:
+        if player's held item is tool:
+            execute console command "lp user %player_name% permission set essentials.repair"
+            make player execute command "repair"
+            execute console command "manudelp %player% essentials.repair"
+            execute console command "eco take %player% 50000"
+            send "&6Faction &7► &e50K karşılığında tüm eşyalarını tamir ettin" to player
+
+
+#
+# Drop Event
+#
+
+
+options:
+    prefix: &6Faction &7► #Skriptin prefixi
+    sure: 360 #Kaç dakikada bir düşsün
+    dunya: Orman #AirDropların düşeceği dünyanın adı (klasik dünya tipi olmalıdır.)
+
+function Kalp(l: location):
+    show 1 Cloud particles at {_l} offset by 0, -1.0, 0
+    show 1 Cloud particles at {_l} offset by 0, 0, 0
+    show 1 Cloud particles at {_l} offset by 0, 1.0, 0
+
+on load:
+    set {dunya::drop} to "{@dunya}"
+    {sayac::drop} is not set:
+        set {sayac::drop} to 360
+
+command /drop [<text>]:
+    trigger:
+        if arg 1 is "sandıklar":
+            loop {sandık::drop::*}:
+                send "{@prefix}: &7Buradan sandıkları görebilirsiniz."
+                wait a seconds
+                send "&f%{dunya::drop}% %loop-value%"
+        if arg 1 is "sıfırla":
+            if player is op:
+                clear {sandık::drop::*}
+                send "{@prefix}: &7Açılmayan sandıkların tamamının içleri boşaltıldı." to executor
+             
+every minute:
+    add 1 to {sayac::drop}
+    if {sayac::drop} >= {@sure}:
+        set {sayac::drop} to 0
+        loop 62 times:
+            set {_konumlar::*} to location at random integer between -999 and 999, 128, random integer between -999 and 999 in world "{@dunya}"
+            wait a tick
+        wait 1 second
+        loop {_konumlar::*}:
+            if block 0 above loop-value's location is air:
+                set {_konum} to block 0 above loop-value's location
+                while {_konum} is air:
+                    y-coordinate of {_konum} > 1:
+                        set {_konum1} to block 1 above 0 east of {_konum}
+                        set block at {_konum1} to air
+                        set {_konum} to block 1 below 0 east of {_konum}
+                set block 1 above {_konum} to chest
+                set {_konum::konum} to location at x-coordinate of {_konum}, y-coordinate of {_konum}+1, z-coordinate of {_konum} in world "{@dunya}"
+                set {sandık::drop::%{_konum::konum}%} to {_konum::konum}
+                loop players:
+                    send loop-player title "&6Bir sandık düştü!" with subtitle "&f%x-coordinate of {_konum}% %y-coordinate of {_konum}% %z-coordinate of {_konum}%" for 3 seconds
+                    send "{@prefix} &7Bir sandık Orman &f%x-coordinate of {_konum}% %y-coordinate of {_konum}% %z-coordinate of {_konum}% &7konumuna düştü!" to loop-player
+
+on rightclick on chest:
+    if {sandık::drop::%location of event-block%} is set:
+        loop players:
+            set {sandık::drop::%location of event-block%} to location of block below event-block
+            send loop-player title "&6Bir sandık açıldı!" with subtitle "&f%{sandık::drop::%location of event-block%}%" for 3 seconds
+            send "{@prefix} &f%{sandık::drop::%location of event-block%}% &7konumundaki bir sandık açıldı!" to loop-player
+            set block {sandık::drop::%location of event-block%} to air
+        if chance of 6%:
+            set {drop} to {sandık::drop::%location of event-block%}
+            add 0.5 to y-coordinate of {drop}
+            drop 32 diamond at {drop}
+            delete {drop}
+            send "{@prefix} &eSandıktan &b32 adet elmas &ebuldun!"
+        else if chance of 14%:
+            set {drop} to {sandık::drop::%location of event-block%}
+            add 0.5 to y-coordinate of {drop}
+            drop 20 diamond at {drop}
+            delete {drop}
+            send "{@prefix} &7Sandıktan &b20 Elmas &ebuldun!"
+        else if chance of 50%:
+            set {drop} to {sandık::drop::%location of event-block%}
+            add 0.5 to y-coordinate of {drop}
+            drop 5 emerald at {drop}
+            delete {drop}
+            send "{@prefix} &eSandıktan &a5 zümrüt &ebuldun!"
+        else if chance of 10%:
+            set {drop} to {sandık::drop::%location of event-block%}
+            add 0.5 to y-coordinate of {drop}
+            drop 32 diamond at {drop}
+            delete {drop}
+            send "{@prefix} &eSandıktan &b32 elmas  &ebuldun!"
+        else if chance of 1%:
+            set {drop} to {sandık::drop::%location of event-block%}
+            add 0.5 to y-coordinate of {drop}
+            drop 64 diamond at {drop}
+            delete {drop}
+            send "{@prefix} &eSandıktan &b64 Elmas &ebuldun!"
+        delete {sandık::drop::%location of event-block%}
+        loop 11 times:
+            Kalp(location of event-block)
+            wait a tick
+			
+#
+# OyVerme Etkinliği
+#
+			
+function openVoteBook(p: player):
+	set {_book} to a new book
+	set {_component} to a new text component with "&8&l► &d&lOY SISTEMI%nl%%nl%Sunucumuza aşağıdaki bağlantıdan günlük olarak oy vererek ödüller kazanabilirsiniz.%nl%%nl%&8* Ödüller&8:%nl%&7● &6+1 OyVer Kasası%nl%&7● &6+5000 [Bakiye]%nl%    "
+	set {_component2} to a text component with "&d&nTıkla ve oy ver!"
+	add hover event with action SHOW_TEXT with text "&6Buraya tıklayarak sunucuyu oylayabilirsiniz." to text component {_component2}
+	add click event with action OPEN_URL with link "https://minecraft-mp.com/server/273435/vote/" to text component {_component2}
+	add text component {_component} and {_component2} to book {_book}
+	open book {_book} to {_p}
+	
+	
+on command "oyverr":
+	cancel event
+	openVoteBook(player)
+	
+on command "oyver":
+	cancel event
+	openVoteBook(player)
+
+	
+#
+# Spawn Komutları
+#
+
+command /dusunceburadandevamet:
+    permission: skript.admin
+    trigger:
+        set {vspawn} to location of player
+        message "&6Faction &8► &7Düşünce doğulacak spawn kaydedildi!"
+        stop
+       
+on damage:
+    if y-coordinate of victim is below 0:
+        cancel event
+        teleport victim to {vspawn}
+        send "&6Faction &8► &7Düştüğün için &aspawna &7aktarıldın!" to victim
+        stop
+		
+		
+#
+# OTO Sat
+#
+
+options:
+    versiyon: &c2.0v
+    Prefix: &6Faction &8►
+    LapisFiyat: 3000
+    ElmasFiyat: 4800
+    AltinFiyat: 3300
+    DemirFiyat: 1500
+    ZumrutFiyat: 6500
+
+on break 21 or 56 or 14 or 15 or 129:
+    if {roocersell.%player%} is set:
+        if player has 128 lapis lazuli:
+            remove 128 lapis lazuli from player
+            send " {@Prefix} &c128 &7lapis lazuli Esyasini &c{@LapisFiyat} TL &7Karsiliginda sattin!"
+            execute console command "/money give %player% {@LapisFiyat}"
+            stop
+on break 21 or 56 or 14 or 15 or 129:
+    if {roocersell.%player%} is set:
+        if player has 64 diamond:
+            remove 64 diamond from player
+            send " {@Prefix} &c64 &7Diamond Esyasini &c{@ElmasFiyat} TL &7Karsiliginda sattin!"
+            execute console command "/money give %player% {@ElmasFiyat}"
+            stop
+on break 21 or 56 or 14 or 15 or 129:
+    if {roocersell.%player%} is set:
+        if player has 64 gold ingot:
+            remove 64 gold ingot from player
+            send " {@Prefix} &c64 &7Altin Kulcesi Esyasini &c{@AltinFiyat} TL &7Karsiliginda sattin!"
+            execute console command "/money give %player% {@AltinFiyat}"
+            stop
+on break 21 or 56 or 14 or 15 or 129:
+    if {roocersell.%player%} is set:
+        if player has 64 iron ingot:
+            remove 64 iron ingot from player
+            send " {@Prefix} &c64 &7Demir Kulcesi Esyasini &c{@DemirFiyat} TL &7Karsiliginda sattin!"
+            execute console command "/money give %player% {@DemirFiyat}"
+            stop
+on break 21 or 56 or 14 or 15 or 129:
+    if {roocersell.%player%} is set:
+        if player has 64 emerald:
+            remove 64 emerald from player
+            send " {@Prefix} &c64 &7Zumrut Esyasini &c{@ZumrutFiyat} TL &7Karsiliginda sattin!"
+            execute console command "/money give %player% {@ZumrutFiyat}"
+            stop
+command /otomatik [<text>]:
+    trigger:
+        if arg 1 is "aktif":
+            set {roocersell.%player%} to true
+            send " {@Prefix} &aOtomatik lapis satma acildi!"
+        if arg 1 is "pasif":
+            delete {roocersell.%player%}
+            send " {@Prefix} &aOtomatik satma kapatildi!"
+        if arg 1 is not set:
+            send " "
+            send " &aOtomatik satmak icin: &c/otomatik aktif"
+            send " &aOtomatik satmayi kapatmak icin: &c/otomatik pasif"
+            send " "
+on break of 41:
+    cancel event
+    set block to air
+    drop 9 266
+on break of 42:
+    cancel event
+    set block to air
+    drop 9 265
+on break of 57:
+    cancel event
+    set block to air
+    drop 9 264
+on break of 133:
+    cancel event
+    set block to air
+    drop 9 388
+
+

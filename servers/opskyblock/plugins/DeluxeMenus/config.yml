@@ -1,0 +1,54 @@
+# DeluxeMenus 1.13.6-Release main configuration file
+# 
+# A full wiki on how to use this plugin can be found at:
+# https://wiki.helpch.at/clips-plugins/deluxemenus
+
+debug: false
+check_updates: true
+gui_menus:
+  menu:
+    file: menu.yml
+  bilgi:
+    file: bilgi.yml
+  vip:
+    file: vip.yml
+  vipbilgi:
+    file: vipbilgi.yml
+  warp:
+    file: warp.yml
+  sunucubilgi:
+    file: sunucubilgi.yml
+  crypto:
+    file: crypto.yml
+  kurallar:
+    file: kurallar.yml
+  ada-panel:
+    file: ada-panel.yml
+  ada-sÄ±nÄ±r:
+    file: ada-sÄ±nÄ±r.yml
+  ada-sil:
+    file: ada-sil.yml
+  ada-blok:
+    file: ada-blok.yml
+  ada-dil:
+    file: ada-dil.yml
+  ada-rÃ¼tbe:
+    file: ada-rÃ¼tbe.yml
+  dirhemmarket:
+    file: dirhemmarket.yml
+  dirhemmarket-blok:
+    file: dirhemmarket-blok.yml
+  dirhemmarket-kazma:
+    file: dirhemmarket-kazma.yml
+  dirhemmarket-spawner:
+    file: dirhemmarket-spawner.yml
+  dirhemmarket-anahtar:
+    file: dirhemmarket-anahtar.yml
+  depolar:
+    file: depolar.yml
+  depoyukseltme:
+    file: depoyukseltme.yml
+  ihale:
+    file: ihale.yml
+  kit:
+    file: kit.yml

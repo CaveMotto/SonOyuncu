@@ -1,0 +1,123 @@
+options:
+	prefix: &6Survival &8►
+	
+	isim: &eZindan Canavarı
+	can: 30
+	maxzombisayisi: 20
+	kafavalue: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWVjNTU3NDYwM2YzMDQ4ZjIxYWQ1YTNjOTRkOTcxMTU3MDYwMTFmZTZiYTY3NzgxMDkxYjhhOWFjMTBhZjU0ZiJ9fX0=
+	gogusluk: leather chestplate of unbreaking 3
+	pantolon: leather leggings of unbreaking 3
+	bot: leather boots of unbreaking 3
+	alet: gold hoe of unbreaking 3
+	renk: light green
+	
+	sansorani: 20#Yüzde olarak
+	
+
+on load:#komut 1 %50 komut2 %40 komut3 8 komut4 2
+	set {komut::1} to "eco give <player> 200"
+	set {komut::2} to "eco give <player> 500"
+	set {komut::3} to "eco give <player> 1000"
+	set {komut::4} to "ss give <player> guardian 1"
+	
+
+every 2 minutes:
+	set {_s} to 0
+	loop all entities in radius 50 of {kordinat::1}:
+		"%display name of loop-entity%" contains "{@isim}"
+		add 1 to {_s}
+	{_s} is smaller than {@maxzombisayisi}
+	set {_g} to {@maxzombisayisi} - {_s}
+	loop {kordinat::*}:
+		add "%loop-index%" to {_gecici::*}
+	loop {_g} times:
+		set {_new} to random element out of {_gecici::*}
+		remove {_new} from {_gecici}
+		spawn a zombie at {kordinat::%{_new}%}
+		set display name of last spawned zombie to "{@isim} &c{@can}❤"
+		set helmet of last spawned zombie to skull with value "{@kafavalue}"
+		set chestplate of last spawned zombie to {@gogusluk}
+		set leggings of last spawned zombie to {@pantolon}
+		set boots of last spawned zombie to {@bot}
+		set tool of last spawned zombie to {@alet}
+		set last spawned zombie's max health to {@can}
+		set last spawned zombie's health to {@can}
+		dye last spawned zombie's leggings {@renk}
+		dye last spawned zombie's chestplate {@renk}
+		dye last spawned zombie's boots {@renk}
+
+on death:
+	"%display name of victim%" contains "{@isim}"
+	clear drops
+	loop {kordinat::*}:
+		add "%loop-index%" to {_gecici::*}
+	set {_new} to random element out of {_gecici::*}
+	remove {_new} from {_gecici}
+	spawn a zombie at {kordinat::%{_new}%}
+	set display name of last spawned zombie to "{@isim} &c{@can}❤"
+	set helmet of last spawned zombie to skull with value "{@kafavalue}"
+	set chestplate of last spawned zombie to {@gogusluk}
+	set leggings of last spawned zombie to {@pantolon}
+	set boots of last spawned zombie to {@bot}
+	set tool of last spawned zombie to {@alet}
+	set last spawned zombie's max health to {@can}
+	set last spawned zombie's health to {@can}
+	dye last spawned zombie's leggings {@renk}
+	dye last spawned zombie's chestplate {@renk}
+	dye last spawned zombie's boots {@renk}
+	add 1 to {magarazombikill::%player%}
+	chance of {@sansorani}%:
+		set {_x} to random integer between 1 and 100
+		if {_x} is smaller than 91:
+			if {_x} is smaller than 51:
+				set {_x} to "%{komut::1}%"
+			else:
+				set {_x} to "%{komut::2}%"
+		else if {_x} is 91 or 92 or 93 or 94 or 95 or 96 or 97 or 98:
+			set {_x} to "%{komut::3}%"
+		else:
+			set {_x} to "%{komut::4}%"
+		replace all "<player>" with "%attacker%" in {_x}
+		execute console command "%{_x}%"
+		send "{@prefix} &7Bir ödül kazandın!" to attacker
+		
+	
+on damage:
+	"%display name of victim%" contains "{@isim}"
+	set display name of victim to "{@isim} &c%health of victim%❤"
+	
+command /kordinat [<text>] [<int>]:
+	trigger:
+		player is op
+		if arg 1 is "ekle":
+			if arg 2 is set:
+				set {kordinat::%arg 2%} to player's location
+				send "{@prefix} &f##%arg 2% &7numaralı lokasyon belirlendi!"
+			else:
+				send "{@prefix} &7Numara girmelisin! &f/kordinat ekle 1"
+		else if arg 1 is "sil" or "çıkar":
+			if arg 2 is set:
+				delete {kordinat::%arg 2%}
+				send "{@prefix} &f##%arg 2% &7numaralı lokasyon silindi!"
+			else:
+				send "{@prefix} &7Numara girmelisin! &f/kordinat sil 1"
+		else if arg 1 is "liste" or "list":
+			send "&e----------------- &6&lKordinat Listesi &e-----------------"
+			send ""
+			loop {kordinat::*}:
+				send "&f##%loop-index%: &7%loop-value%"
+			send ""
+			send "&e--------------------------------------------------"
+		else if arg 1 is "temizle":
+			delete {kordinat::*}
+			send "{@prefix} &7Tüm kordinatlar temizlendi!"
+		else:
+			send "&e------------------- &6&l{@prefix} &e-------------------"
+			send ""
+			send "   &f/kordinat ekle <numara> &7- Kordinat belirler."
+			send "   &f/kordinat sil <numara> &7- Kordinat siler."
+			send "   &f/kordinat temizle &7- Tüm kordinatları temizler."
+			send "   &f/kordinat liste &7- Tüm kordinatları listeler."
+			send "   &fkordinat &7- Yardım menüsünü açar."
+			send ""
+			send "&e-----------------------------------------------------"

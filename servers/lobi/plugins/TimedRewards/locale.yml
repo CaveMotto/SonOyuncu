@@ -1,0 +1,56 @@
+# Timed Rewards by Bradley Steele (Ibiza).
+#
+# /Contact
+# Spigot: https://www.spigotmc.org/members/292138/
+# Discord: Bradley#4169
+# Discord Support Server: https://redirect.bradleysteele.me/bps
+
+
+# Use {prefix} in any of the messages and it will
+# be replaced with the below.
+prefix: '&3Lobi &8»'
+
+
+command:
+  no-permission: '{prefix} &eBunu yapmak için &dVIP &eolmanız lazım'
+  unknown: '{prefix} &7Unknown command! Type &e/trs help &7for a list of commands.'
+  invalid: '{prefix} &7Invalid usage, use &e/{args}&7.'
+
+  unknown-reward: '{prefix} &7Unknown reward: &c{reward}&7.'
+
+  # /trs blankmessage
+  tr-blankmsg-invalid-player: '{prefix} &7Invalid player: &c{player}&7.'
+
+  # /trs reload
+  tr-reload-complete: '{prefix} &7TimedRewards was successfully reloaded (time taken: &e{time}&7ms).'
+
+  # /trs resetclaimtime
+  tr-resetclaimtime-invalid-user: '{prefix} &7Invalid user: &c{player}&7.'
+  tr-resetclaimtime-reset: '{prefix} &7Reset the claim time of reward &e{reward} &7for &a{user}&7.'
+
+  # /rewards
+  rewards-disabled: '{prefix} &7This command has been disabled.'
+
+
+config-change-available: '{prefix} &7A config change is available. Current: &c{current} &7New: &a{new}&7.'
+
+
+reward-no-permission: '{prefix} &7You do not have permission to claim that reward.'
+reward-already-claimed: '{prefix} &eÖdülünü  zaten almışsın bir sonraki alımı bekle'
+
+reward-cooldown:
+
+  # If a reward can be claimed, the format will be replaced with the below.
+  now: '&aŞimdi Alabilirsiniz Almak için tıkla'
+
+  # Here you can define your own placeholders which can be used for
+  # reward item lores. For example, to use the cooldown_digital format
+  # in your unclaimed lore, simply use {cooldown_digital}.
+  #
+  # Placeholders:
+  # {days}, {hours}, {minutes}, {seconds}
+  formats:
+    cooldown_digital: '&c{days} Gün &r &c{hours} Saat &r &c{minutes} Dakika &r &c{seconds} Saniye'
+    cooldown_digital_short: '&e{hours}&8/&e{minutes}&8/&e{seconds}'
+    cooldown_long: '{days}d {hours}h {minutes}m {seconds}s'
+    your_own_custom_one: '{hours}h {minutes}m {seconds}s'

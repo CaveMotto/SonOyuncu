@@ -1,0 +1,20 @@
+# You can also use ANVIL
+type: 'ANVIL'
+
+# You can try to change NORMAL_WALL
+# with a material like DIAMOND if type is ANVIL
+item: 'DIAMOND'
+
+# Which line should be used to get the input
+# If you use SIGN, you can use 0-3
+input-line: 0
+
+# Lines of the input gui
+#
+# If the type is ANVIL, first line will be title of the
+# anvil and second line will be input line.
+#
+# If the type is SIGN, all lines will be used as input.
+lines:
+  - ''
+  - 'Ekleyeceğin kişi adını yaz'

@@ -1,0 +1,20 @@
+{
+  "uuid": "ced64371-1b6a-3e7c-8eed-ba6f6bc84689",
+  "name": "cesdra",
+  "wins": 0,
+  "losses": 1,
+  "requests": true,
+  "rating": {
+    "-": 1384
+  },
+  "matches": [
+    {
+      "winner": "Sqruat",
+      "loser": "cesdra",
+      "kit": "none",
+      "time": 1720104244692,
+      "duration": 11949,
+      "health": 7.0
+    }
+  ]
+}

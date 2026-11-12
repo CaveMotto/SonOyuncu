@@ -1,0 +1,44 @@
+menu_title: "&7Vip Bilgi"
+open_command:
+- vipbilgi
+- viprank
+- vip
+- lvip
+- lvipbilgi
+size: 36
+items: 
+  'VipBilgi':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjQzZDkwMTMzZThjNWRiMzI4YmMwNDRmMWNmN2I1NWQ4OTQ0YmE0MzMzYTkwMGQ1MjgzZWVjNWJiODAxZWZmMyJ9fX0=
+    slot: 13
+    display_name: '&6VIP &eBilgi'
+    lore:
+      - ''
+      - '&fBalıkçı Şansı - &d%30'
+      - '&fDirhem Çarpanı (/warp edit) - &d3x'
+      - '&fİhale Eşya Koyma Limit - &d7'
+      - '&fSet home hakkı - &d5'
+      - '&fDepo kullanım limit - &d10'
+      - '&fAda takım limiti - &d10'
+      - '&fSohbete renkli yazı yazma'
+      - '&fTabelaya reknli yazı yazma'
+      - '&fOzel Günlük Ödül'
+      - '&fOzel KIT'
+      - '&fSkin Değiştirme (/skin)'
+      - '&fkaç puan olduğunu bakarsın.'
+      - '&f- /Kafa - Komut'
+      - '&f- /Tamir - Komut'
+      - '&f- /Craft - Komut'
+      - ''
+      - '&aSatın almak için tıkla!'
+    left_click_commands:
+      - '[message] &6Skyblock &7► &ehttps://by Motto'
+      - '[close] '
+    right_click_commands:
+      - '[message] &6Skyblock &7► &ehttps://by Motto'
+      - '[close] '
+  'kapat':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2VkMWFiYTczZjYzOWY0YmM0MmJkNDgxOTZjNzE1MTk3YmUyNzEyYzNiOTYyYzk3ZWJmOWU5ZWQ4ZWZhMDI1In19fQ==
+    slot: 31
+    display_name: '&cKapat'
+    click_commands:
+      - '[close]'

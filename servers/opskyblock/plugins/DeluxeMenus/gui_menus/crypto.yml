@@ -1,0 +1,67 @@
+menu_title: "&7Crypto"
+open_command:
+- crypto
+- kripto
+size: 54
+items: 
+  'Durum':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjFkNGZkZDA5MTg0MGQ5ZTdkZjA2MDE2ODFhZGRlYzYwNTE0ODVhNDg0YmE3ZjUzNmIzNWQ0ZTA1YWE4NmVmOSJ9fX0=
+    slot: 13
+    display_name: '&aDurum'
+    lore:
+      - ''
+      - '&fBitcoin: &d%cryptocurrency_btc_price%'
+      - '&fEtherium: &d%cryptocurrency_eth_price%'
+      - '&fTether: &d%cryptocurrency_usdt_price%'
+      - ''
+  'Bitcoin':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjY3ZGEzNzlmNTFkODVkNzRmZGJhMzlhMTY0ZDNmNTA2MmVmMmZmYzBiM2UwNGQzMzkzNzY3NzM5MzFhNGUifX19
+    slot: 29
+    display_name: '&eBitcoin'
+    lore:
+      - ''
+      - '&fCrypto sanal para birimidir.'
+      - ''
+      - '&a► Komutlar için tıkla!'
+    left_click_commands:   
+    - '[player] bitcoin'
+    - '[close]'
+    right_click_commands:
+    - '[player] bitcoin'
+    - '[close]'
+  'Etherium':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTM3ZDkwZjgxMDhmZTg1MzgwYzBmNzY4MWNkZjBiOWY0YmEyN2U0MThlZDkxZWQyNWViOTViYzkyYTdhYyJ9fX0=
+    slot: 31
+    display_name: '&eEthereum'
+    lore:
+      - ''
+      - '&fCrypto sanal para birimidir.'
+      - ''
+      - '&a► Komutlar için tıkla!'
+    left_click_commands:   
+    - '[player] ethereum'
+    - '[close]'
+    right_click_commands:
+    - '[player] ethereum'
+    - '[close]'
+  'Tether':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzZmOTkzMTg3ZTM3ODMxNDJiNzYwMDczOGRkZmZhYTUwOTkwNDQ3MWU0MzMxYzYwMWVmOTQxNjQyNDc5NDk0MiJ9fX0=
+    slot: 33
+    display_name: '&eTether'
+    lore:
+      - ''
+      - '&fCrypto sanal para birimidir.'
+      - ''
+      - '&a► Komutlar için tıkla!'
+    left_click_commands:   
+    - '[player] tether'
+    - '[close]'
+    right_click_commands:
+    - '[player] tether'
+    - '[close]'
+  'kapat':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2VkMWFiYTczZjYzOWY0YmM0MmJkNDgxOTZjNzE1MTk3YmUyNzEyYzNiOTYyYzk3ZWJmOWU5ZWQ4ZWZhMDI1In19fQ==
+    slot: 49
+    display_name: '&cKapat'
+    click_commands:
+      - '[close]'

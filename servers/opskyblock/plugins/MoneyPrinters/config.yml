@@ -1,0 +1,96 @@
+settings:
+  damage-per-hit: 5.0
+  repair-cost: 2000000
+  fire-adjustment: -1.5
+  hologram-adjustment: 0.8
+  total-printer-limit: 2
+  disable-stealing: true
+  disable-printer-damage: true
+  disable-hologram: false
+  disable-public-gui: false
+  disable-offline-printing: false
+  money-format: '0.0'
+  hologram:
+  - '%printername%'
+  - ''
+  - '&fSahibi: &d%printerowner%'
+  - '%storedmoney% &7/ &r%maxstorage%'
+  - ''
+  - '%printerhealthbar%'
+  - ''
+  - ''
+  - ''
+  disabled-worlds:
+  - example_world1
+  - example_world2
+  shop-open-sound: VILLAGER_YES
+  shop-buy-sound: VILLAGER_YES
+  op-number-format: false
+  op-number-char-set: KMBTQ
+  disable-head-slot: true
+printer-types:
+  AlBeni:
+    name: '&eAlBeni FabrikasÄ±'
+    texture: 189e657eddc67026b39567f67e4c23e48c2fc38efe70f5ee6dd0f14fb93daca
+    permission: moneyprinters.use.albeni
+    max-health: 20
+    max-storage: 200000
+    max-print-amount: -1
+    print-amount: 5000.0
+    print-delay: 30
+    limit: -1
+    price: 500000
+    show-in-menu: true
+    buyable: true
+  Caramio:
+    name: '&eCaramio FabrikasÄ±'
+    texture: 99f18cfc247a9ebff3dda492d488e3bf97caf7657293cf49c2382689c1445
+    permission: moneyprinters.use.caramio
+    max-health: 40
+    max-storage: 500000
+    max-print-amount: -1
+    print-amount: 10000.0
+    print-delay: 35
+    limit: -1
+    price: 700000
+    show-in-menu: true
+    buyable: true
+  CocoStar:
+    name: '&eCoco Star FabrikasÄ±'
+    texture: 31b1f32972c0d1df5cc6334c0f4c897ff47841399265557b9f885c731f9b6
+    permission: moneyprinters.use.cocostar
+    max-health: 80
+    max-storage: 1000000
+    max-print-amount: -1
+    print-amount: 40000.0
+    print-delay: 40
+    limit: -1
+    price: 1000000
+    show-in-menu: true
+    buyable: true
+  Biskrem:
+    name: '&eBiskrem FabrikasÄ±'
+    texture: 48eefc54f267e3b1e22ce4958d8becb48fb936e661845f8ef8f017e348bde6f
+    permission: moneyprinters.use.biskrem
+    max-health: 160
+    max-storage: 2000000
+    max-print-amount: -1
+    print-amount: 70000.0
+    print-delay: 45
+    limit: -1
+    price: 1500000
+    show-in-menu: true
+    buyable: true
+  Metro:
+    name: '&eMetro FabrikasÄ±'
+    texture: f0c7a7c71720de238e46f786999f44dff3f40a75389b677bb92a293f5423f24
+    permission: moneyprinters.use.Metro
+    max-health: 320
+    max-storage: 4000000
+    max-print-amount: -1
+    print-amount: 100000.0
+    print-delay: 50
+    limit: -1
+    price: 2000000
+    show-in-menu: true
+    buyable: true

@@ -1,0 +1,202 @@
+menu_title: "&7Ada Menüsü"
+open_command:
+- is panel
+- island panel
+- islands panel
+- is 
+- island
+- islands
+size: 54
+items: 
+  'ada-bilgi':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzk1ZDM3OTkzZTU5NDA4MjY3ODQ3MmJmOWQ4NjgyMzQxM2MyNTBkNDMzMmEyYzdkOGM1MmRlNDk3NmIzNjIifX19
+    slot: 4
+    update: true
+    priority: 1
+    display_name: '&aAda Bilgileri'
+    lore:
+      - ''
+      - '&fİsim: &e%player_name%'
+      - '&fAda Üyeleri&7: &a%askyblock_team_size%/%askyblock_members_max%'
+      - '&fAda Seviyesi&7: &a%askyblock_level%'
+      - '&fAda Sınırı&7: &d%isborder_size%'
+  'ada-oluştur':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjgwZDMyOTVkM2Q5YWJkNjI3NzZhYmNiOGRhNzU2ZjI5OGE1NDVmZWU5NDk4YzRmNjlhMWMyYzc4NTI0YzgyNCJ9fX0=
+    slot: 18
+    update: true
+    priority: 1
+    display_name: '&aAda Oluştur'
+    lore:
+      - ''
+      - '&fEğer bir eviniz yoksa'
+      - '&ftıklayın size bir ev'
+      - '&fhemen oluşturalım.'
+      - ''
+      - '&e▶ Oluşturmak için tıkla!'
+    left_click_commands:
+      - '[player] askyblock:is'
+      - '[close] '
+    right_click_commands:
+      - '[player] askyblock:is'
+      - '[close] '
+  'adana-git':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTRkNDhhYzdlNjViOTE0Njc5MDRmMmY0ZDE1NDU1Njc3NmZmYTljZDJkNTI2YjEyYTA0OTliYjU5Y2M2NTZjNyJ9fX0=
+    slot: 21
+    display_name: '&aAdana Git'
+    lore:
+      - ''
+      - '&fAdanıza ışınlar.'
+      - ''
+      - '&e▶ Gtrmek için tıkla!'
+    click_commands:
+      - '[player] is go'
+  'ada-üye':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjRiZWY4ZmU5NTc2NTRkMWM0ZTc2OTQ1ZjJlMTBjZGZjNzNiZmUzOTAyM2RkZTZiYTI1ZTEzYTc5MzlmYmUyMiJ9fX0
+    slot: 22
+    display_name: '&aAda Üyeleri'
+    lore:
+      - ''
+      - '&fAdanızdaki üyeleri yönetin.'
+      - '&fÜyelere yetki verebilirsiniz.'
+      - '&fUnutmayın güvendiğiniz insanlara'
+      - '&fYetki veriniz.'
+      - ''
+      - '&e▶ Bakmak İçin Tıkla!'
+    click_commands:
+      - '[player] is team'
+      - '[close] '
+    right_click_commands:
+      - '[player] is team'
+      - '[close] '
+  'ada-biom':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2MxODQxZmNkZjJkMzg4NTRiYTU3N2E2OWU2ZmM3N2ExNTRjNGIxYzI0NWJmMmE2NmJjOGIwYmRhYzNjZjE4ZSJ9fX0=
+    slot: 23
+    update: true
+    display_name: '&aAda Biom'
+    lore:
+      - ''
+      - '&fAdanızın tasarımını,'
+      - '&fbiyomunu değiştirin.'
+      - ''
+      - '&e▶ Bakmak İçin Tıkla!'
+    click_commands:
+      - '[player] is biomes'
+      - '[close] '
+    right_click_commands:
+      - '[player] is biomes'
+      - '[close] '
+  'ada-görev':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGU1NWM1ZjliODYzYTQxNjU1OTVlYjMyZTBiOGRkOGE3Y2RiNjBiMTVhZmIxYjcwNTc0MWQ1NTQyYjFiZDk0NSJ9fX0=
+    slot: 30
+    display_name: '&aAda Görevleri'
+    lore:
+      - ''
+      - '&fAda görevlerini tamamlayıp seviye atlayın!'
+      - ''
+      - '&e▶ Bakmak İçin Tıkla!'
+    click_commands:
+      - '[player] c'
+      - '[close] '
+    right_click_commands:
+      - '[player] c'
+      - '[close] '
+  'ada-warpları':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTdjYWZhMzlkYmVlMGZhYzQzNTVmOTlhNzEyYmE2OTlmODhkNmQyOTc4MjhiNDA3ODljMzYxZjhkOGZlYWQ2MSJ9fX0=
+    slot: 31
+    display_name: '&aAda Sıralaması'
+    lore:
+      - ''
+      - '&fSunucuda adaya en çok blok'
+      - '&fkoyan oyuncuların sıralaması.'
+      - ''
+      - '&e▶ Bakmak İçin Tıkla!'
+    click_commands:
+      - '[player] is top'
+      - '[close] '
+    right_click_commands:
+      - '[player] is top'
+      - '[close] '
+  'ada-ayarları':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTRkNDliYWU5NWM3OTBjM2IxZmY1YjJmMDEwNTJhNzE0ZDYxODU0ODFkNWIxYzg1OTMwYjNmOTlkMjMyMTY3NCJ9fX0=
+    slot: 32
+    display_name: '&aAda Ayarları'
+    lore:
+      - ''
+      - '&fAda ayarlarınızı yönetin.'
+      - ''
+      - '&e▶ Bakmak İçin Tıkla!'
+    click_commands:
+      - '[player] is settings'
+      - '[close] '
+    right_click_commands:
+      - '[player] is settings'
+      - '[close] '
+  'ada-sil':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2VkMWFiYTczZjYzOWY0YmM0MmJkNDgxOTZjNzE1MTk3YmUyNzEyYzNiOTYyYzk3ZWJmOWU5ZWQ4ZWZhMDI1In19fQ==
+    slot: 40
+    display_name: '&aAdanı Sil'
+    lore:
+      - ''
+      - '&fBu işlem geri alınamaz!'
+      - ''
+      - '&e▶ Bakmak İçin Tıkla!'
+    click_commands:
+      - '[player] is reset'
+      - '[player] onayla'
+      - '[close]'
+    right_click_commands:
+      - '[player] is reset'
+      - '[player] onayla'
+      - '[close]'
+  'ada-dil':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmQ4MjEwOTJjZTVlNzU1NzQ1MWM3MjNhMDM0MWU5MGI5M2UwNTY0ZTJiMDE0ODFkZTgxZWVhMjcxZjA0YzViNiJ9fX0=
+    slot: 26
+    display_name: '&aDil Ayarları'
+    lore:
+      - ''
+      - '&fSkyBlock Ada Komutlarını'
+      - '&fSize Yönlendiren Mesajları Dil Değiştirir'
+      - '&fVe Bu Sizin Kolayca Oyunu Anlamınza'
+      - '&fYada Oynamınıza Yardım Olabilir.'
+      - ''
+      - '&e▶ Değiştirmek İçin Tıkla!'
+    click_commands:
+      - '[openguimenu] ada-dil'
+      - '[close] '
+    right_click_commands:
+      - '[openguimenu] ada-dil'
+      - '[close] '
+  'ada-sınır':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTFjMGU2OWYyY2RiNTQyNmFhZWQ3MTFjZTAzZWE2ZDcwOWM5MmU5YmViODRhZDFkMjJiNTg0YzQ2MWQ1MzM1ZCJ9fX0=
+    slot: 36
+    display_name: '&aSınır Renginizi Ayarlayın'
+    lore:
+      - ''
+      - '&fAda sınırınızın rengini ayarlamak'
+      - '&fiçin tıklayın.'
+      - ''
+      - '&fDurum: %isborder_color%'
+      - ''
+      - '&e▶ Değiştirmek için tıkla!'
+    click_commands:
+      - '[openguimenu] ada-sınır'
+      - '[close] '
+    right_click_commands:
+      - '[openguimenu] ada-sınır'
+      - '[close] '
+  'ada-blok':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjJmODAzNjMyNDRhZjFiNGJjZjdkMWMyYjUwNjc3NzJjMGMyNzI3NzI2NjQ0N2VjY2Q0YWY2NmNjNDM0NzM5OCJ9fX0=
+    slot: 44
+    display_name: '&aBlok Seviyeleri'
+    lore:
+      - ''
+      - '&fBloklar adada kaç seviye'
+      - '&fverdiğini görmek istiyosan.'
+      - ''
+      - '&e▶ Bakmak için tıkla!'
+    click_commands:
+      - '[openguimenu] ada-blok'
+      - '[close] '
+    right_click_commands:
+      - '[openguimenu] ada-blok'
+      - '[close] '

@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1720302118803
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1722052311716
+  login: 1722052269374
+money: '49500000.0'
+last-account-name: Sqruat
+lastlocation:
+  world: 9e6ee035-bbba-435d-adc0-4d7f8836b0ee
+  world-name: Tera
+  x: 335.1824491298315
+  y: 69.0
+  z: 890.5475073957319
+  yaw: -281.8499755859375
+  pitch: 9.750006675720215
+logoutlocation:
+  world: a6cb88ec-8c99-4d98-a5ff-45c0d058a544
+  world-name: Liman
+  x: 6.941232487834756
+  y: 65.0
+  z: 0.17549638727028596
+  yaw: -84.62504577636719
+  pitch: 29.24999237060547

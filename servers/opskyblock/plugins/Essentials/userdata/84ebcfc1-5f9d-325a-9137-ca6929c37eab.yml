@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 89.187.185.185
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1711316442846
+  login: 1711316409690
+money: '0'
+last-account-name: tiytion
+lastlocation:
+  world: 4bd4f2dd-afea-44ea-b6bf-00c7bcb89ce0
+  world-name: Spawn
+  x: -2297.538373607652
+  y: 14.0
+  z: -267.77130782649317
+  yaw: -179.16036987304688
+  pitch: 3.40132474899292
+logoutlocation:
+  world: 4bd4f2dd-afea-44ea-b6bf-00c7bcb89ce0
+  world-name: Spawn
+  x: -2307.7460040650017
+  y: 1.0
+  z: -304.45981237641104
+  yaw: -250.91574096679688
+  pitch: -17.830768585205078

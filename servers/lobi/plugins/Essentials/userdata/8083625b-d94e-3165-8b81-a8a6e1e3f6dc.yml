@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1794415364206
+  login: 1794415420557
+money: '0'
+last-account-name: aras
+lastlocation:
+  world: b19f8c60-05ff-4c2e-978a-fdd95b8b771e
+  world-name: Lobi
+  x: 85.0
+  y: 118.0
+  z: 3.0
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: b19f8c60-05ff-4c2e-978a-fdd95b8b771e
+  world-name: Lobi
+  x: 85.36809698627896
+  y: 118.0
+  z: 3.5457189791841612
+  yaw: -264.5990905761719
+  pitch: 3.599992275238037

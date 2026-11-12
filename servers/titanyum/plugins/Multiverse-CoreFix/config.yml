@@ -1,0 +1,12 @@
+Messages:
+  no-permission: "&b&l[&e&lMultiverse-CoreFix&b&l] &4You don't have permission to do this."
+  reload-config: "&b&l[&e&lMultiverse-CoreFix&b&l] &aConfig reloaded without errors."
+  not-allowed: "&b&l[&e&lMultiverse-CoreFix&b&l] &4You're not allowed to do this."
+
+mv-disabled-characters:
+  - '.'
+  - '/'
+  - 'plugins'
+  - 'spigot'
+  - 'logs'
+  - 'server'

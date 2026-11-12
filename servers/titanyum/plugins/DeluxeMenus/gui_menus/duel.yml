@@ -1,0 +1,89 @@
+menu_title: '&8Duello Ustası'
+open_command:
+- 8j4lşlk5fytts45
+size: 27
+items:
+  'bilgi':
+    material: book
+    slot: 9
+    display_name: '&eBilgi'
+    lore:
+    - '&8'
+    - '&7Düello hakkındaki tüm'
+    - '&7bilgeleri buradan'
+    - '&7ulaşabilirsin'
+    - '&8'
+    - '&7Birine düello isteği'
+    - '&7göndermek için &e/duel'
+    - '&8'
+    - '&eAçmak için tıkla'
+    left_click_commands:
+    - '[player] duelbilgi'
+    right_click_commands:
+    - '[player] duelbilgi'
+  'rastgeleduel':
+    material: bow
+    slot: 11
+    display_name: '&eRandom Duel'
+    lore:
+    - '&8'
+    - '&7Arkadaşlarınızı beklemenize'
+    - '&7gerek yok sizde'
+    - '&7otomatik savaşabilirsiniz.'
+    - '&8'
+    - '&eAçmak için tıkla'
+    left_click_commands:
+    - '[player] queue'
+    - '[close]'
+    right_click_commands:
+    - '[player] queue'
+    - '[close]'
+  'aktifduel':
+    material: painting
+    slot: 13
+    display_name: '&aAktif Düellolar'
+    lore:
+    - ''
+    - '&7Şuanda oynanan düelloları'
+    - '&7görebilir ve izleyebilirsin.'
+    - ''
+    - '&eAçmak için tıkla'
+    left_click_commands:
+    - '[message] &6Survival &7▸ &eYeni Güncellemede aktif. &dTitanyum 1.1.0'
+    - '[close]'
+    right_click_commands:
+    - '[message] &6Survival &7▸ &eYeni Güncellemede aktif. &dTitanyum 1.1.0'
+    - '[close]'
+  'gecmisduel':
+    material: feather
+    slot: 15
+    display_name: '&aDüello Geçmişin'
+    lore:
+    - ''
+    - '&7Düello geçmişini'
+    - '&7buradan görebilirsin.'
+    - ''
+    - '&eAçmak için tıkla'
+    left_click_commands:
+    - '[message] &6Survival &7▸ &eYeni Güncellemede aktif. &dTitanyum 1.1.0'
+    - '[close]'
+    right_click_commands:
+    - '[message] &6Survival &7▸ &eYeni Güncellemede aktif. &dTitanyum 1.1.0'
+    - '[close]'
+  'depoduel':
+    material: chest
+    slot: 17
+    display_name: '&aDüello Deposu'
+    lore:
+    - ''
+    - '&7Düello depondaki eşyalara'
+    - '&7buradan erişebilirsin.'
+    - ''
+    - '&eAçmak için tıkla'
+    left_click_commands:
+    - '[message] &6Survival &7▸ &eYeni Güncellemede aktif. &dTitanyum 1.1.0'
+    - '[close]'
+    right_click_commands:
+    - '[message] &6Survival &7▸ &eYeni Güncellemede aktif. &dTitanyum 1.1.0'
+    - '[close]'
+

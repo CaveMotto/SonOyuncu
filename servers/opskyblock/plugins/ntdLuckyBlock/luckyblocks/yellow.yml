@@ -1,0 +1,49 @@
+# LuckyBlock texture into block
+#old-texture: b3b710b08b523bba7efba07c629ba0895ad61126d26c86beb3845603a97426c
+texture: 17bc1b64cba3dc4cefe4e121c3cdbbb0fa99aba0e113b5c916815fc9b304e636
+
+# Item name
+name: "&eŞans Bloğu &7(&dEfsanevi&7)"
+# System name (Give command will use it as color)
+custom_name: "YELLOW"
+# Item lore
+lore:
+- ""
+- "&fElinizdeki şans bloğu"
+- "&fçok değerlidir."
+- ""
+- "&dİçindekiler"
+- ""
+- "&f- Kuvars Cevheri &7(&d128 Adet&7)"
+- "&f- Prizmarin Spawner &7(&d1 Adet&7)"
+- "&f- Elmas Blok Spawner &7(&d3 Adet&7)"
+- "&f- Zümrüt Blok Spawner &7(&d2 Adet&7)"
+- "&f- Elmas Cevheri Spawner &7(&d1 Adet&7)"
+- "&f- Zümrüt Cevheri Spawner &7(&d1 Adet&7)"
+
+
+eco: true
+shop: true
+price: 250
+
+animation: true
+animation_type: "MOBSPAWNER_FLAMES"
+
+# Dropping items
+drop:
+  '0':
+    - "CONSOLE : itemsp ver %player% elmasblok 3"
+  '1':
+    - "CONSOLE : itemsp ver %player% zümrütblok 2"
+  '2':
+    - "CONSOLE : itemsp ver %player% elmascevheri 1"
+  '3':
+    - "CONSOLE : give %player% 153 128"
+  '4':
+    - "CONSOLE : itemsp ver %player% zümrütcevheri 1"
+  '5':
+    - "CONSOLE : itemsp ver %player% prizmarin 1"
+
+craft:
+  default: true
+  custom: false

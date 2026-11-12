@@ -1,0 +1,38 @@
+# This is an example book to show how to create one
+# Note: The placeholders in this book (like %player_name%) need PlaceholderAPI installed
+# with the proper expansion, see here for more informations: https://www.spigotmc.org/resources/placeholderapi.6245/
+
+# Item's name
+name: Depocu
+
+# Book's title
+title: Depocu
+
+# Book's author
+author: Depocu
+
+# Book's generation
+# Valid values: ORIGINAL, COPY_OF_ORIGINAL, COPY_OF_COPY, TATTERED
+generation: ORIGINAL
+
+# Item's lore
+lore:
+- Depocu
+
+# Command to open this book
+# You can remove this by setting it to ''
+# Separate multiple commands with a space
+open_command: 'depocubilgi'
+
+pages:
+  '1':
+  - '<green>         DEPOCU</green>'
+  - ''
+  - '<dark_grey>Parasını ödeyerek odacıklar kiraladığın bir sistemdir. Oda sayısı artıkça kiralama bedeli artar. Eşyaları güvenle korumak için ideal bir yoldur. Kullanmak için Depocu npcsini ziyaret edebilirsin.</dark_grey>'
+  
+# For the placeholders to work correctly
+# you should download the Player and Vault
+# extensions for PlaceholderAPI:
+# /papi ecloud download Player
+# /papi ecloud download Vault
+# /papi reload

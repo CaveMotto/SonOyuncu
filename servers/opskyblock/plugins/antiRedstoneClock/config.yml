@@ -1,0 +1,35 @@
+version: 0.7
+metrics: true
+MaxPulses: 150
+Delay: 300
+NotifyAdmins: true
+DropItems: true
+CreateSignWhenClockIsBreak: true
+Sign:
+  Line1: '&lUYARI!'
+  Line2: RedStone devreniz
+  Line3: Ã§ok hÄ±zlÄ± Ã§alÄ±ÅŸÄ±yor.
+  Line4: '&lLÃ¼tfen yavaÅŸlayÄ±n!'
+IgnoreWorlds: redstoneWorld/survival
+IgnoreRegions: redstone/admins
+checkedClock:
+  comparator: true
+  observer: true
+  piston: true
+  redstoneAndRepeater: true
+AutomaticallyBreakDetectedClock: true
+Msg:
+  default:
+    prefix: '&e&lSKYBLOCK &8&lâ–º &7'
+    error: '&e&lSKYBLOCK &8&lâ–º &7'
+    no_permission: '&e&lSKYBLOCK &8&lâ–º &7ÃœzgÃ¼nÃ¼m, yetkin yok.'
+    command_use: '&fBilinmeyen bir komut kullandÄ±nÄ±z.'
+  message:
+    MsgToAdmin: 'RedStone devre dÄ±ÅŸÄ± bÄ±rakÄ±ldÄ±: &cX:$X Y:$Y Z:$Z &8(&7$World&8)'
+    unknownCmd: Bilinmeyen bir komut kullandÄ±nÄ±z.
+    reloadSuccess: Eklenti ayarlarÄ± baÅŸarÄ±yla yenilendi.
+    newValueInConfig: The new value of $setting is $value
+    RedStoneClockListHeader: 'Liste: $page'
+    RedStoneClockListFooter: ''
+  Exception:
+    duplicate_object: This list already contains this redstone

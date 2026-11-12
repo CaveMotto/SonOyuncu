@@ -1,0 +1,111 @@
+menu_title: '&7Menu'
+open_command:
+- menu
+size: 27
+items:
+  'camlar': 
+    material: STAINED_GLASS_PANE
+    data: 15
+    amount: 1
+    slots:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 16
+    - 17
+    - 18
+    - 19
+    - 20
+    - 21
+    - 22
+    - 23
+    - 24
+    - 25
+    - 26
+    display_name: '&7' 
+  'meslek':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjNkMDJjZGMwNzViYjFjYzVmNmZlM2M3NzExYWU0OTc3ZTM4YjkxMGQ1MGVkNjAyM2RmNzM5MTNlNWU3ZmNmZiJ9fX0=
+    slot: 11
+    display_name: '&e&lMESLEK'
+    lore:
+    - ''
+    - '&7Para Kazanmakmı İstiyosun'
+    - '&7Meslek Seçerek Zengin Olablirsin.' 
+    - ''
+    - "&aListelemek İçin Tıkla"
+    left_click_commands:   
+    - '[player] meslek'
+    - '[close]'
+    right_click_commands:
+    - '[player] meslek'
+    - '[close]'
+  'görev':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2Y3ODYzYWE4ZGExMTkzNTU5ZTRhNjdmMTVlYWVjYTUwYjZmOTA3MGYzZjA3NTI5ZDkxNDBhNGU3MDdhMzQ4OCJ9fX0=
+    slot: 12
+    display_name: '&e&lGOREV'
+    lore:
+    - ''
+    - '&7Kolayca Zengin Olmanın'
+    - '&7Yönelerini Sende Yaşa.' 
+    - ''
+    - "&aGitmek İçin Tıkla"
+    left_click_commands:   
+    - '[player] görev'
+    - '[close]'
+    right_click_commands:
+    - '[player] görev'
+    - '[close]'
+  'gc-market':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjVmNTIxZGQyMTVhOTU4NjIxYTAwZmMwOGRmYTU1NTIyZTEzODNlNTNmZGM3ODFhOTMxNzY2ZDQ2ZDAyYWMwNyJ9fX0=
+    slot: 13
+    display_name: '&e&lSITE MARKET'
+    lore:
+    - ''
+    - '&7Gerçek Paranla'
+    - '&7Güc Alabilme Şansı.' 
+    - ''
+    - "&aListelemek İçin Tıkla"
+    left_click_commands:   
+    - '[player] sitemarket'
+    - '[close]'
+    right_click_commands:
+    - '[player] sitemarket'
+    - '[close]'
+  'bilgi':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjI1ZWE0ZTQyMzVjYzkwNjYwYzU3YmU2NjUzOGUzMzc2ZmYwZmViMTg2ZmU4ZDAwMjJiZTQ5ZGE3ODBlMDdmZSJ9fX0=
+    slot: 14
+    display_name: '&e&lBILGI'
+    lore:
+    - ''
+    - '&7Oyunu Bilmiyorsan Yardımcı Olabilir.'
+    - ''
+    - "&aListelemek İçin Tıkla"
+    left_click_commands:   
+    - '[player] bilgi'
+    - '[close]'
+    right_click_commands:
+    - '[player] bilgi'
+    - '[close]'
+  'kit':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGU5NDhlZGY4ZmMyOThiOGUyMTNlMjlkOWJiN2E4MWQ4YTVlMzZkNTkxNTU2YTQxZDJiN2M4OWNkNGZjMzliMiJ9fX0=
+    slot: 15
+    display_name: '&e&lKIT'
+    lore:
+    - ''
+    - '&7Oyun Ekipmanlarını Alma Şansı.'
+    - ''
+    - "&aListelemek İçin Tıkla"
+    left_click_commands:   
+    - '[player] kit'
+    - '[close]'
+    right_click_commands:
+    - '[player] kit'
+    - '[close]'

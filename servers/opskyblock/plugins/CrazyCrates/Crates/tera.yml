@@ -1,0 +1,155 @@
+﻿Crate:
+  CrateType: Wheel
+  CrateName: '&7Tera Kutu'
+  StartingKeys: 0
+  InGUI: false
+  OpeningBroadCast: false
+  BroadCast: ''
+  Item: '54'
+  Name: '&7Tera Kutu'
+  PhysicalKey:
+    Name: '&dTera Anahtarı'
+    Item: '131'
+    Glowing: true
+  Prizes:
+    1:
+      DisplayName: '&fDemir Blok Spawner'
+      DisplayItem: '52'
+      DisplayAmount: 10
+      MaxRange: 100
+      Chance: 20
+      Messages:
+        - '&6SkyBlock &8► &aTebrikler&f, Demir Bloğu Spawner &akazandınız!'
+      Commands:
+        - 'itemsp ver %player% demirblok 10'
+        - 'broadcast &b%player%&f, &eTera Kutu açtı. kutudan &dDemir Blok Spawner &eçıktı.'
+    2:
+      DisplayName: '&fAltın Blok Spawner'
+      DisplayItem: '52'
+      DisplayAmount: 10
+      MaxRange: 100
+      Chance: 20
+      Messages:
+        - '&6SkyBlock &8► &aTebrikler&f, Altın Blok Spawner &akazandınız!'
+      Commands:
+        - 'itemsp ver %player% altınblok 10'
+        - 'broadcast &b%player%&f, &eTera Kutu açtı. kutudan &dAltın Blok Spawner &eçıktı.'
+
+    3:
+      DisplayName: '&fElmas Blok Spawner'
+      DisplayItem: '52'
+      DisplayAmount: 10
+      MaxRange: 100
+      Chance: 20
+      Messages:
+        - '&6SkyBlock &8► &aTebrikler&f, Elmas Blok Spawner &akazandınız!'
+      Commands:
+        - 'itemsp ver %player% elmasblok 10'
+        - 'broadcast &b%player%&f, &eTera Kutu açtı. kutudan &dElmas Blok Spawner &eçıktı.'
+
+    4:
+      DisplayName: '&fZümrüt Blok Spawner'
+      DisplayItem: '52'
+      DisplayAmount: 10
+      MaxRange: 100
+      Chance: 20
+      Messages:
+        - '&6SkyBlock &8► &aTebrikler&f, Zümrüt Blok Spawner &akazandınız!'
+      Commands:
+        - 'itemsp ver %player% zümrütblok 10'
+        - 'broadcast &b%player%&f, &eTera Kutu açtı. kutudan &dZümrüt Blok Spawner &eçıktı.'
+    5:
+      DisplayName: '&fElmas Cevheri Spawner'
+      DisplayItem: '52'
+      DisplayAmount: 4
+      MaxRange: 100
+      Chance: 10
+      Messages:
+        - '&6SkyBlock &8► &aTebrikler&f, Elmas Cevheri Spawner &akazandınız!'
+      Commands:
+        - 'itemsp ver %player% elmascevheri 4'
+        - 'broadcast &b%player%&f, &eTera Kutu açtı. kutudan &dElmas Cevheri Spawner &eçıktı.'
+    6:
+      DisplayName: '&fZümrüt Cevheri Spawner'
+      DisplayItem: '52'
+      DisplayAmount: 4
+      MaxRange: 100
+      Chance: 10
+      Messages:
+        - '&6SkyBlock &8► &aTebrikler&f, Zümrüt Cevheri Spawner &akazandınız!'
+      Commands:
+        - 'itemsp ver %player% elmascevheri 4'
+        - 'broadcast &b%player%&f, &eTera Kutu açtı. kutudan &dZümrüt Cevheri Spawner &eçıktı.'
+    7:
+      DisplayName: '&fEnd Taşı Spawner'
+      DisplayItem: '52'
+      DisplayAmount: 1
+      MaxRange: 2
+      Chance: 5
+      Messages:
+        - '&6SkyBlock &8► &aTebrikler&f, End Taşı Spawner &akazandınız!'
+      Commands:
+        - 'itemsp ver %player% end 1'
+        - 'broadcast &b%player%&f, &eTera Kutu açtı. kutudan &dEnd Taş Spawner &eçıktı.'
+    8:
+      DisplayName: '&fPrizmarin Spawner'
+      DisplayItem: '52'
+      MaxRange: 1
+      Chance: 5
+      Messages:
+        - '&6SkyBlock &8► &aTebrikler&f, Prizmarin Spawner &akazandınız!'
+      Commands:
+        - 'itemsp ver %player% prizmarin 1'
+        - 'broadcast &b%player%&f, &eTera Kutu açtı. kutudan &dPrismarin Spawner &eçıktı.'
+    9:
+      DisplayItem: '168:0'
+      DisplayAmount: 64
+      MaxRange: 100
+      Chance: 50
+      Messages:
+        - '&6SkyBlock &8► &aTebrikler&f, Prismarin Blok &akazandınız!'
+      Commands:
+        - 'give %player% 168:0 64'
+        - 'broadcast &b%player%&f, &eTera Kutu açtı. kutudan &dPrismarin Blok &eçıktı.'
+    10:
+      DisplayItem: '153'
+      DisplayAmount: 32
+      MaxRange: 100
+      Chance: 40
+      Messages:
+        - '&6SkyBlock &8► &aTebrikler&f, Kuvars Cevheri &akazandınız!'
+      Commands:
+        - 'give %player% 153 32'
+        - 'broadcast &b%player%&f, &eTera Kutu açtı. kutudan &dKuvars Cevheri &eçıktı.'
+    11:
+      DisplayName: '&fŞans Bloğu'
+      DisplayItem: '397:3'
+      Player: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmFiMTgwZTgyMGY3MTYyOWYwMWYyNWI2MmJkZWI5YzMyNGQ1MGEzOGFmNzRlNmE5MzIxNDM5NDcxMDQ2ZGM0MSJ9fX0='
+      MaxRange: 100
+      Chance: 3
+      Messages:
+        - '&6SkyBlock &8► &aTebrikler&f, Şans Bloğu &akazandınız!'
+      Commands:
+        - 'ntdluckyblock give %player% green 1'
+        - 'broadcast &b%player%&f, &eTera Kutu açtı. kutudan &dŞans Bloğu &eçıktı.'
+    12:
+      DisplayName: '&fŞans Bloğu'
+      DisplayItem: '397:3'
+      Player: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODUzNGIxN2QyZDNiNWE2NGM1N2Y1ZjA4MGRkNzc3OTQ1NzYxZDlmNzFkODJlOGY1OTlmMjQyOTc2ZTRkMGMwNSJ9fX0='
+      MaxRange: 100
+      Chance: 3
+      Messages:
+        - '&6SkyBlock &8► &aTebrikler&f, Şans Bloğu &akazandınız!'
+      Commands:
+        - 'ntdluckyblock give %player% blue 1'
+        - 'broadcast &b%player%&f, &eTera Kutu açtı. kutudan &dŞans Bloğu &eçıktı.'
+    13:
+      DisplayName: '&f5.000 Dirhem'
+      DisplayItem: '175'
+      MaxRange: 100
+      Chance: 2
+      Messages:
+        - '&6SkyBlock &8► &aTebrikler&f, 5.000 Dirhem &akazandınız!'
+      Commands:
+        - 'itemsp ver %player% end 1'
+        - 'broadcast &b%player%&f, &eTera Kutu açtı. kutudan &d5.000 Dirhem &eçıktı.'

@@ -1,0 +1,14 @@
+location: Liman:-22,402:67,500:0,469
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&x3Kafana takılan bir şeyler mi var ?'
+    height: 0.3
+  - content: '&x3&b/bilgi&f, &b/tarifler &fve &b/menu &fkomutlarını bir dene.'
+    height: 0.3
+  actions: {}

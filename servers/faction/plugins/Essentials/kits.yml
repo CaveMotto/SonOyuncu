@@ -1,0 +1,95 @@
+# EssentialsX kit configuration.
+# If you don't have any kits defined in this file, the plugin will try to copy them from the config.yml
+
+# Note: All items MUST be followed by a quantity!
+# All kit names should be lower case, and will be treated as lower in permissions/costs.
+# Syntax: - name[:durability] amount [enchantment:level]... [itemmeta:value]...
+# For Item Meta information visit http://wiki.ess3.net/wiki/Item_Meta
+# 'delay' refers to the cooldown between how often you can use each kit, measured in seconds.
+# Set delay to -1 for a one time kit.
+# For more information, visit http://wiki.ess3.net/wiki/Kits
+kits:
+  Oyuncu:
+    delay: 86400
+    items:
+    - 306 1 name:&a&nOyuncu_Kiti
+    - 307 1 name:&a&nOyuncu_Kiti
+    - 308 1 name:&a&nOyuncu_Kiti
+    - 309 1 name:&a&nOyuncu_Kiti
+    - 267 1 name:&a&nOyuncu_Kiti
+    - 257 1 name:&a&nOyuncu_Kiti
+    - 258 1 name:&a&nOyuncu_Kiti
+    - 256 1 name:&a&nOyuncu_Kiti
+    - 292 1 name:&a&nOyuncu_Kiti
+  Rehber:
+    delay: 86400
+    items:
+    - 310 1 UNBREAKING:2 PROTECTION:6 name:&a&nRehber_Kiti
+    - 311 1 UNBREAKING:2 PROTECTION:6 name:&a&nRehber_Kiti
+    - 312 1 UNBREAKING:2 PROTECTION:6 name:&a&nRehber_Kiti
+    - 313 1 UNBREAKING:2 PROTECTION:6 name:&a&nRehber_Kiti
+    - 276 1 UNBREAKING:2 SHARPNESS:6 name:&a&nRehber_Kiti
+    - 277 1 UNBREAKING:2 EFFICIENCY:6 name:&a&nRehber_Kiti
+    - 278 1 UNBREAKING:2 EFFICIENCY:6 name:&a&nRehber_Kiti
+    - 279 1 UNBREAKING:2 EFFICIENCY:6 name:&a&nRehber_Kiti
+  Youtuber:
+    delay: 86400
+    items:
+    - 310 1 UNBREAKING:2 PROTECTION:6 name:&a&nYouTuber_Kiti
+    - 311 1 UNBREAKING:2 PROTECTION:6 name:&a&nYouTuber_Kiti
+    - 312 1 UNBREAKING:2 PROTECTION:6 name:&a&nYouTuber_Kiti
+    - 313 1 UNBREAKING:2 PROTECTION:6 name:&a&nYouTuber_Kiti
+    - 276 1 UNBREAKING:2 SHARPNESS:6 name:&a&nYouTuber_Kiti
+    - 277 1 UNBREAKING:2 EFFICIENCY:6 name:&a&nYouTuber_Kiti
+    - 278 1 UNBREAKING:2 EFFICIENCY:6 name:&a&nYouTuber_Kiti
+    - 279 1 UNBREAKING:2 EFFICIENCY:6 name:&a&nYouTuber_Kiti
+  VIP:
+    delay: 86400
+    items:
+    - 310 1 UNBREAKING:3 PROTECTION:4 name:&dVIP_Kiti
+    - 311 1 UNBREAKING:3 PROTECTION:4 name:&dVIP_Kiti
+    - 312 1 UNBREAKING:3 PROTECTION:4 name:&dVIP_Kiti
+    - 313 1 UNBREAKING:3 PROTECTION:4 name:&dVIP_Kiti
+    - 276 1 UNBREAKING:3 SHARPNESS:4 name:&dVIP_Kiti
+    - 277 1 UNBREAKING:3 EFFICIENCY:4 name:&dVIP_Kiti
+    - 278 1 UNBREAKING:3 EFFICIENCY:4 name:&dVIP_Kiti
+    - 279 1 UNBREAKING:3 EFFICIENCY:4 name:&dVIP_Kiti
+    - 322:1 32
+  VIP+:
+    delay: 86400
+    items:
+    - 310 1 UNBREAKING:3 PROTECTION:6 name:&dVIP+_Kiti
+    - 311 1 UNBREAKING:3 PROTECTION:6 name:&dVIP+_Kiti
+    - 312 1 UNBREAKING:3 PROTECTION:6 name:&dVIP+_Kiti
+    - 313 1 UNBREAKING:3 PROTECTION:6 name:&dVIP+_Kiti
+    - 276 1 UNBREAKING:3 SHARPNESS:6 name:&dVIP+_Kiti
+    - 277 1 UNBREAKING:3 EFFICIENCY:6 name:&dVIP+_Kiti
+    - 278 1 UNBREAKING:3 EFFICIENCY:6 name:&dVIP+_Kiti
+    - 279 1 UNBREAKING:3 EFFICIENCY:6 name:&dVIP+_Kiti
+    - 322:1 64
+  MVIP:
+    delay: 86400
+    items:
+    - 310 1 UNBREAKING:3 PROTECTION:8 name:&dMVIP_Kiti
+    - 311 1 UNBREAKING:3 PROTECTION:8 name:&dMVIP_Kiti
+    - 312 1 UNBREAKING:3 PROTECTION:8 name:&dMVIP_Kiti
+    - 313 1 UNBREAKING:3 PROTECTION:8 name:&dMVIP_Kiti
+    - 276 1 UNBREAKING:3 SHARPNESS:8 name:&dMVIP_Kiti
+    - 277 1 UNBREAKING:3 EFFICIENCY:8 name:&dMVIP_Kiti
+    - 278 1 UNBREAKING:3 EFFICIENCY:8 name:&dMVIP_Kiti
+    - 279 1 UNBREAKING:3 EFFICIENCY:8 name:&dMVIP_Kiti
+    - 322:1 96
+  MVIP+:
+    delay: 86400
+    items:
+    - 310 1 UNBREAKING:4 PROTECTION:9 name:&dMVIP+_Kiti
+    - 311 1 UNBREAKING:4 PROTECTION:9 name:&dMVIP+_Kiti
+    - 312 1 UNBREAKING:4 PROTECTION:9 name:&dMVIP+_Kiti
+    - 313 1 UNBREAKING:4 PROTECTION:9 name:&dMVIP+_Kiti
+    - 276 1 UNBREAKING:4 SHARPNESS:9 name:&dMVIP+_Kiti
+    - 277 1 UNBREAKING:4 EFFICIENCY:9 name:&dMVIP+_Kiti
+    - 278 1 UNBREAKING:4 EFFICIENCY:9 name:&dMVIP+_Kiti
+    - 279 1 UNBREAKING:4 EFFICIENCY:9 name:&dMVIP+_Kiti
+    - 322:1 128
+
+

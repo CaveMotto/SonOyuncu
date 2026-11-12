@@ -1,0 +1,36 @@
+tasks:
+  killplayers:
+    type: "playerkilling"
+    amount: 10
+    worlds:
+     - 'SQ-1'
+
+display:
+  name: "&eÖldürme II"
+  lore-normal:
+    - "&7Karanlık olduğu halde"
+    - "&7rakibini öldür &c"
+    - ""
+    - "&7Durum: &f10 Kişi öldür"
+    - ""
+    - "&7Odül: &f2.000 ⛃"
+  lore-started:
+    - ""
+    - "&7Mevcut ilerlemeniz:"
+    - "&c{killplayers:progress}/10 Kişi öldür"
+  type: "DIAMOND_SWORD"
+
+rewards:
+  - "eco give {player} 2000"
+
+placeholders:
+  description: "&7Mevcut ilerlemeniz:"
+  progress: "&c{killplayers:progress}/10 Kişi öldür"
+
+options:
+  category: "öldürme"
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 1440
+  sort-order: 1

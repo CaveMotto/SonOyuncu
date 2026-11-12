@@ -1,0 +1,323 @@
+Cloaks:
+  Superhero:
+    Name: '&6 SÃ¼per Kahraman Pelerini'
+    Mystery Dust: 65
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 Ã‡ok havalÄ± bir efekt.'
+      - '&7 Bunu gÃ¶renler bayÄ±lacak.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 Ã‡ok havalÄ± bir efekt.'
+      - '&7 Bunu gÃ¶renler bayÄ±lacak.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+    Material: RED_DYE
+  Mystical:
+    Name: '&6 Mystical Pelerini'
+    Mystery Dust: 85
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 Ã‡ok havalÄ± bir efekt.'
+      - '&7 Bunu gÃ¶renler bayÄ±lacak.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 Ã‡ok havalÄ± bir efekt.'
+      - '&7 Bunu gÃ¶renler bayÄ±lacak.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+    Material: BOOK
+  Firewings:
+    Name: '&6 AteÅŸli Ã‡arp Pelerini'
+    Mystery Dust: 72
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked: ''
+      Unlocked:
+      - '&7Rise from the ashes like a'
+      - '&7phoenix in this display of'
+      - '&7flames!'
+    Material: BLAZE_POWDER
+  Vampire Wings:
+    Name: '&6 Vampir KanatlarÄ± Pelerini'
+    Mystery Dust: 78
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 Ã‡ok havalÄ± bir efekt.'
+      - '&7 Bunu gÃ¶renler bayÄ±lacak.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 Ã‡ok havalÄ± bir efekt.'
+      - '&7 Bunu gÃ¶renler bayÄ±lacak.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+    Material: REDSTONE
+  Frosty:
+    Name: '&6 Buz Pelerini'
+    Mystery Dust: 78
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 Ã‡ok havalÄ± bir efekt.'
+      - '&7 Bunu gÃ¶renler bayÄ±lacak.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 Ã‡ok havalÄ± bir efekt.'
+      - '&7 Bunu gÃ¶renler bayÄ±lacak.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+    Material: SNOWBALL
+  Icewings:
+    Name: '&6 Buzlu Ã‡arp Pelerini'
+    Mystery Dust: 72
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 Ã‡ok havalÄ± bir efekt.'
+      - '&7 Bunu gÃ¶renler bayÄ±lacak.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 Ã‡ok havalÄ± bir efekt.'
+      - '&7 Bunu gÃ¶renler bayÄ±lacak.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+    Material: ICE
+  Shaman:
+    Name: '&6 Å�aman Pelerini'
+    Mystery Dust: 85
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 Ã‡ok havalÄ± bir efekt.'
+      - '&7 Bunu gÃ¶renler bayÄ±lacak.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 Ã‡ok havalÄ± bir efekt.'
+      - '&7 Bunu gÃ¶renler bayÄ±lacak.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+    Material: BONE
+  Firerings:
+    Name: '&6 AteÅŸ KalkanÄ± Pelerini'
+    Mystery Dust: 50
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 Ã‡ok havalÄ± bir efekt.'
+      - '&7 Bunu gÃ¶renler bayÄ±lacak.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 Ã‡ok havalÄ± bir efekt.'
+      - '&7 Bunu gÃ¶renler bayÄ±lacak.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+    Material: BLAZE_ROD
+  Scanner:
+    Name: '&6 TarayÄ±cÄ± Pelerini'
+    Mystery Dust: 65
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 Ã‡ok havalÄ± bir efekt.'
+      - '&7 Bunu gÃ¶renler bayÄ±lacak.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 Ã‡ok havalÄ± bir efekt.'
+      - '&7 Bunu gÃ¶renler bayÄ±lacak.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+    Material: BEACON
+  Archangel:
+    Name: '&6 Melek Pelerini'
+    Material: head:36f0485453d3a90f354321e8f382bef106bf506424f70c04a207f82bdb2856b9
+    Mystery Dust: 70
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 Ã‡ok havalÄ± bir efekt.'
+      - '&7 Bunu gÃ¶renler bayÄ±lacak.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 Ã‡ok havalÄ± bir efekt.'
+      - '&7 Bunu gÃ¶renler bayÄ±lacak.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Yin and Yang:
+    Name: '&6 Ä°yi ve KÃ¶tÃ¼ Pelerini'
+    Material: head:7fc0e041e45e1d96934bb9159e7b9e1ed74ff99a9b9342214302fdba57fd2
+    Mystery Dust: 62
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 Ã‡ok havalÄ± bir efekt.'
+      - '&7 Bunu gÃ¶renler bayÄ±lacak.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 Ã‡ok havalÄ± bir efekt.'
+      - '&7 Bunu gÃ¶renler bayÄ±lacak.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'
+  Flame of the Titans:
+    Name: '&6 Titan Pelerini'
+    Material: MAGMA_CREAM
+    Mystery Dust: 65
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked:
+      - ''
+      - '&7 Ã‡ok havalÄ± bir efekt.'
+      - '&7 Bunu gÃ¶renler bayÄ±lacak.'
+      - ''
+      - '&7 Bu eÅŸyayÄ± gizemli kasa aÃ§arak'
+      - '&7 Ã§Ä±kartabilirsin.'
+      - ''
+      - '&8 â–ª &7Durum: &câœ•'
+      - ''
+      - '&c &nBunu kullanamazsÄ±n.'
+      Unlocked:
+      - ''
+      - '&7 Ã‡ok havalÄ± bir efekt.'
+      - '&7 Bunu gÃ¶renler bayÄ±lacak.'
+      - '&7'
+      - '&8 â–ª &7Durum: &aâœ”'
+      - ''
+      - '&e &nSeÃ§imi kaldÄ±rmak iÃ§in tÄ±klayÄ±n.'

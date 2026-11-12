@@ -2,8 +2,6 @@
 
 A local Minecraft 1.8 network inspired by SonOyuncu: a BungeeCord proxy, 7 game servers, a web control panel and a custom client.
 
-[Türkçe](#türkçe)
-
 ## Features
 
 - BungeeCord network with Lobby, Survival, SkyBlock, BedWars, SkyWars and Factions servers
